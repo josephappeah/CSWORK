@@ -1,0 +1,84 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+	<meta http-equiv="Content-Language" content="en-us">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Expires" content="no-expire">
+  <meta name="Author" content="Jeremy R. Johnson">
+	<meta name="Publisher" content="Drexel University">
+	<meta name="Copyright" content="">
+	<meta name="Keywords" content="Programming Techniques Unix">
+	<meta name="Description" content="Assignment for CS260">
+	<meta name="Pagetype" content="Lab">
+	<meta name="Audience" content="All">
+	<link rel='shortcut icon' type='image/gif'
+		href='../../images/drexel.gif'></link>
+	<script language="JavaScript" src="../../courseInfo.js"></script>
+	<script language="JavaScript" src="../../../Scripts/courseFormat.js"></script>
+  <title>CS 260 -- HW 7</title>
+</head>
+
+<body text="#330099" link="#000066" vlink="#000066" alink="#FF0000"
+	background="../../../images/blueTexture.jpeg">
+
+<h1>HW 7</h1>
+
+<h2>1 Theory</h2>
+
+<p><i> To be done <strong>neatly</strong> on paper, and submitted during 
+your first class next week. </i></p>
+
+<ol>
+	<li>5.20 (from text)</li>
+	<li>Consider an undirected graph <i>G</i> = (<i>V</i>,<i>E</i>) with
+		<i>n</i> = |<i>V</i>| and <i>m</i> = |<i>E</i>|. The degree of a vertex
+		is the number of edges incident on that vertex. Let <i>d<sub>i</sub></i>
+		be the degree of vertex <i>v<sub>i</sub></i>, Show that 
+		<blockquote>
+			<nobr> SUM[1..<i>n</i>]( <i>d<sub>i</sub></i> ) = 2<i>m</i></nobr>
+		</blockquote>
+	</li>
+	<li>In a directed graph, we can talk about in-degree and out-degree, the
+		number of edges, respectively, arriving and leaving a given vertex. Show
+		that the sum of the in-degrees of a graph is equal to the sum of the
+		out-degrees.</li>
+	<li>6.1 (from text)</li>
+</ol>
+
+
+<h2>2 Implementation</h2>
+
+<ol>
+	<li> (Makefile target: <tt><b>prob1</b></tt>) Implement a disjoint set
+		system using a tree representation (use references, or a parent array).
+		In particular, you should implement an <tt>Initialize()</tt> function
+		that creates <i>n</i> one-element sets given an array of <i>n</i>
+		things, as well as the functions <tt>Find()</tt> and <tt>Merge()</tt>.
+		Implement the better version of disjoint sets (where smaller sets parent
+		to larger sets and finds implement path compression).
+	
+		<p>You are to provide the file <tt><b>set.py</b></tt>. The program to
+		run is provided, <a target='260assn' href='test-set.py'>
+			<tt><b>test-set.py</b></tt></a>.</p>
+
+		<p><i>Advance warning: You might be asked to use your disjoint set
+			system in your homework two weeks from now.</i></p>
+	</li>
+
+	<li> <b>(Extra Credit &ndash; 20%)</b> (Makefile target:
+		<tt><b>prob2</b></tt>) Implement BFS and DFS. Note that these are almost
+		the same thing: you should be able to reuse much of your code between
+		the two!
+
+		<p> Provide some nice graph, 7-10 nodes, fairly dense.  We gotta show
+		you guys DOT one of these days.  Anyway, just output the transitions, or
+		the adjacency list.  Then show us each of the spanning trees. </p>
+
+		<p> Provide another target called <tt>prob2-view</tt> that displays your
+		source code in a pager (like <tt>less</t>) on stdout. </p>
+	</li>
+</ol>
+
+
+</body>
+</html>
