@@ -1,0 +1,43 @@
+ThreadNum: 566847
+Subject: Re: Is there a formula for Permutations? (very urgent)
+To: vtech84@yahoo.com (Abudahim)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 18:06:05
+Sent: yes
+
+
+As Abudahim wrote to Dr. Math
+On 08/13/2004 at 17:25:00 (Eastern Time),
+>[Question]
+>We know that C(n, 0) + C(n ,1) + … C(n, n) = 2n 
+
+Not true       1 + n  - 1 = n
+
+>Does a formula exist for P(n, 0) + P(n ,1) + … P(n, n) = ?
+>
+
+    P(n,0) = 1
+
+    P(n,1) = n
+
+    P(n,n) = n!
+
+     P(n,0) + P(n,1) - P(n,n) =  1 + n - n!
+
+
+>note that c is standing to combination
+>and p for permutation
+>
+>it is very urgent
+>thank you
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

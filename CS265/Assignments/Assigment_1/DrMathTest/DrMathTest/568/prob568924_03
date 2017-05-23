@@ -1,0 +1,51 @@
+ThreadNum: 568924
+Subject: Re: getting unknown by itself in order to solve
+To: farrington@ermco-eci.com (Josh)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 15:59:31
+Sent: yes
+
+
+As Josh wrote to Dr. Math
+On 08/26/2004 at 14:45:51 (Eastern Time),
+>Is this correct? 
+>k-2=mt  
+>mt=k-2 
+>m=k-2/t
+
+
+Hi Josh,
+
+I think you mean 
+
+      k - 2
+  m = -----
+        t
+
+right?  If so, that's correct.  Nicely done!
+
+Note that you'd have to write it as 
+
+  m = (k - 2)/t
+
+to indicate that you're dividing _everything_ on both sides by t. 
+
+It makes a difference, because by convention we do multiplications and
+divisions before additions and subtractions, so 
+
+  k - 2/t
+
+would be interpreted as 
+
+  k - (2/t)
+
+If you're not familiar with this convention, see 
+
+  Order of operations
+  http://mathforum.org/dr.math/faq/faq.order.operations.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

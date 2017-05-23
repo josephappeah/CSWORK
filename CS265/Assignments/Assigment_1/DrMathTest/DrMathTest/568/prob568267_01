@@ -1,0 +1,75 @@
+ThreadNum: 568267
+Subject: Re: Use of constants in Integral Calculus
+To: boughshell@aol.com (Bill)
+From: Doctor Fenton
+TimeStamp: 08/23/2004 at 23:30:56
+Sent: yes
+
+
+As Bill wrote to Dr. Math
+On 08/23/2004 at 16:27:57 (Eastern Time),
+>[Question]
+>In Integral Calculus what situation dictates the use of more than one 
+>constant at the end of the integral expression?
+>
+>[Difficulty]
+>I am 70 years old and self-teaching myself Calculus and would greatly 
+>appreciate your help.  Thank you.
+>
+>[Thoughts]
+>
+
+Hi Bill,
+
+Thanks for writing to Dr. Math.  If you are just talking about 
+computing integrals
+
+   /
+   |f(x)dx
+   /
+
+and adding an arbitrary constant to the formula with the variable,
+as in
+
+   /
+   | cos(x)dx = sin(x) + C ,
+   /
+
+then there is no reason to add a second constant, since the sum of
+two arbitrary constants is itself just one constant.
+
+If F1(x) and F2(x) are both antiderivatives of f(x), so that
+
+   /                         /
+   |f(x)dx = F1(x)     and   | f(x)dx = F2(x) ,
+   /                         /
+
+then
+
+   F1'(x) = f(x)   and  F2'(x) = f(x), 
+
+so
+
+   (F1-F2)'(x) = 0 ,
+
+so that the function (F1-F2)(x) = F1(x) - F2(x) must be a constant 
+(by the Mean Value Theorem). 
+
+If you integrate a function twice, then you would need two arbitrary
+constants.  For example, if we integrate cos(x) a second time, we
+would have
+
+   /
+   | (sin(x) + C) dx = -cos(x) + Cx + C2
+   /
+
+and now you need the second constant.
+
+Does this answer your question?
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

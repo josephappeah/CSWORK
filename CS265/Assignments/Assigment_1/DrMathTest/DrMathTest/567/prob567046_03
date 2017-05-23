@@ -1,0 +1,188 @@
+ThreadNum: 567046
+Subject: Re: Cube Roots of a Complex Number
+To: adlemon@aol.com (Alex)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 09:03:33
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/16/2004 at 02:10:33 (Eastern Time),
+>I was solving cubics the other day and was frustrated when I lost 
+>precision using de'Moivre's theorem.  Thus, I am looking for a 
+>radical expression in a and b that defines the cube root of a+bi 
+>(such as the formula for square roots below) as opposed to the 
+>trigonometric formula r^(1/n)(cos(arctan(theta)/3)+isin(arctan
+>(theta)/3)).  These are the "algebraic" expression that I do know 
+for 
+>complex numbers:
+>(a+bi)+(c+di)=(a+c)+(b+d)i
+>(a+bi)(c+di)=(ac-bd)+(ad+bc)i
+>1/(a+bi)=a/(a^2+b^2)+(-b)/(a^2+b^2)i
+>The one directly above was more difficult, so to explain:
+>1/(a+bi)=c+di
+>1=(a+bi)(c+di)
+>1+0i=(ac-bd)+(ad+bc)i
+>ac-bd=1; c =(1+bd)/a
+>ad+bc=0; c =(-ad)/b
+>Substituting:
+>(-ad/b)=(1+bd)/a
+>-a^2d=b+b^2d
+>-b=(a^2+b^2)d
+>d=-b/(a^2+b^2)
+>Substituting into one of the expressions for c:
+>c= (-b/[a^2+b^2])(-a)/b=a/(a^2+b^2)
+>Combining our expressions for inverse and multiplication:
+>(a+bi)/(c+di)=(ac+bd)/(c^2+d^2)+(bc-ad)/(c^2+d^2)
+>Square Root (see original post):
+>SQRT(a+bi)= +/- (a+SQRT[a^2+b^2])/2 +/- b/(2(a+SQRT[a^2+b^2])/2)*i
+>The Fourth Root can be obtained by considering: (a+bi)^(1/4)=((a+bi)^
+>(1/2))^(1/2) and that formula is really long.
+>
+>The Cube root would probably follow from:
+>(a+bi)^(1/3)=c+di
+>a+bi=(c+di)^3
+>a+bi=c^3+3c^2di-3cd^2-d^3i
+>a+bi=(c^3-3cd^2)+(3c^2d-d^3)i
+>a=c^3-3cd^2; d=SQRT((a-c^3)/(-3c))=SQRT((c^3-a)/(3c))
+>b=3c^2d-d^3=3c^2SQRT((c^3-a)/(3c))-(SQRT((c^3-a)/(3c)))^3
+>b=3c^2SQRT((c^3-a)/(3c))-(c^3-a)/(3c)SQRT((c^3-a)/(3c))
+>b=(3c^2-(c^3-a)/(3c))SQRT((c^3-a)/(3c))
+>b=(9c^3-c^3+a)/(3c)SQRT((c^3-a)/(3c))
+>b=(8c^3+a)/(3c)SQRT((c^3-a)/(3c))
+>b^2=(64c^6+16ac^3+a^2)/(9c^2)(c^3-a)/(3c)
+>b^2=(64c^9+16ac^6+a^2c^3-64ac^6-16a^2c^3-a^3)/(27c^3)
+>27b^2c^3=64c^9+(16a-64a)c^6+(a^2-16a^2)c^3-a^3
+>27b^2c^3=64c^9-48ac^6-15a^2c^3-a^3
+>64c^9-48ac^6+(-15a^2-27b^2)c^3-a^3=0
+>using e=64,f=-48a,g=-15a^2-27b^2,h=-a^3 and x=c^3:
+>ex^3+fx^2+gx+h=0
+>Substituting x=y-j
+>e(y-j)^3+f(y-j)^2+g(y-j)+h=0
+>ey^3+(-3ej+f)y^2+(3ej^2-2fj+g)y+(-ej^3+fj^2-gj+h)=0
+>to eliminate the y^2 term: -3ej+f=0; j=f/(3e), x=y-f/(3e):
+>ey^3+(f^2/[3e]-2f^2/[3e]+g)y+(-f^3/(27e^2)+f^3/(9e^2)-fg/(3e)+h)=0
+>ey^3+(3eg-f^2)/(3e)y+(2f^3-9efg+27e^2h)/(27e^2)=0
+>y^3+(3eg-f^2)/(3e^2)y=(9efg-2f^2-27e^2h)/(27e^3)
+>To shorten the expression, define p=(3eg-f^2)/(3e^2),q=(9efg-2f^2-
+>27e^2h)/(27e^3):
+>y^3+py=q
+>Next define, y=z-k
+>(z-k)^3+p(z-k)=q
+>z^3-3z^2k+3zk^2-k^3+pz-pk=q
+>to eliminate z^2 and z:
+>-3z^2k+3zk^2+pz-pk=0
+>(3z)k^2+(-3z^2-p)k+(pz)=0
+>Which is quadratic in k and:
+>k= ([3z^2+p] +/- SQRT[9z^4+6pz^2+p^2-12pz^2])/(6z)
+>k=(3z^2+p +/- SQRT[(3z^2-p)^2])/(6z)
+>k=(3z^2+p +/- (3z^2-p))/(6z)
+>k=(3z^2+p+3z^2-p)/6z;(3z^2+p-3z^2+p)/(6z)
+>k=(6z^2)/(6z)=z;(2p)/(6z)=p/(3z)
+>with the first solution, y=z-z=0, which is obviously erroneous. 
+Thus, 
+>only the second solution is valid, k=p/(3z), y=z-p/(3z):
+>z^3-p^3/(27z^3)=q
+>z^6+(-q)(z^3)+(-p^3/27)=0, this is quadratic in z^3:
+>z^3=(q +/- SQRT[q^2+4p^3/27])/2
+>
+>So,in order to solve this, one would need a way to find the cube 
+root 
+>of the above expression in order to find z; however, in order to 
+>avoid using de'Moivre's, one would have to know the algebraic 
+methods 
+>of finding cube roots, the purpose of the exercise to begin with.  
+>Thus, this avenue offers limited help.
+>de'Moivre's says:
+>(r[cos(theta)+isin(theta)])^(1/3)=r^(1/3)(cos[(theta+2pi*k)/3]+isin
+>[(theta+2pi*k)/3]).  Since theta is determined by arctan(b/a), the 
+>trig functions in this expression can be found if a formula for sin 
+>and cos of x/3 is known.
+>
+>We know that sin(x+y)=sinx*cosy+siny*cosx and cos(x+y)=cosx*cosy-
+>sinx*siny:
+>So sin(3x)=sin(2x+x)=(sin2x)(cosx)+(sinx)(cos2x)
+>sin(3x)=(2sinx*cosx)(cosx)+(sinx)([cosx]^2-[sinx]^2)
+>sin(3x)=2sinx(cosx)^2+sinx(cosx)^2-(sinx)^3
+>sin(3x)=3sinx(cosx)^2-(sinx)^3; since (cosx)^2=1-(sinx)^2
+>sin(3x)=3sinx(1-[sinx]^2)-(sinx)^3
+>sin(3x)=3sinx-4(sinx)^3
+>Correlatively:
+>sin(x)=3sin(x/3)-4(sin[x/3])^3; this is perhaps found more easily 
+>with Euler's formula.  With y=sin(x/3)
+>4y^3-3y=-sin(x)
+>y^3-3/4y=-sin(x)/4
+>thus p=-3/4 and q=-sin(x)/4:
+>y^3+py=q
+>As shown above, it is now convenient to make the substitution y=z-p/
+>(3z):
+>z^3-p^3/(27z^3)=q
+>(z^3)^2+(-q)(z^3)+(-p^3/27)=0, which is quadratic in z^3:
+>z^3=(q +/- SQRT[q^2+4p^3/27])/2
+>Since real numbers only have only one cube root, this gives us a 
+>valid expression if SQRT[q^2+4p^3/27] is real, id est 
+q^2+4p^3/27>=0, 
+>substituting in for p and q:
+>(sin[x])^2/16-1/16 >= 0
+>(sin[x])^2-1 >= 0
+>in this way, the formula only helps when x=pi/2+k, where k is an 
+>integer >= 0.  So none of these seem to work.
+>
+>I was using the set theory definition of a complex number: the set 
+of 
+>complex number C={a+bi|a,b element of R} where R is the set of all 
+>real numbers (sidenote again: do you happen to know any good text 
+for 
+>self-studying Galois/group theory).  This would be preferable for 
+>generality, but if you know solutions to this problem for the 
+>restricted classes you mentioned, that would great as well.  Thanks 
+>for your quick response and any future assistance.
+
+Thanks for writing back to Ask Dr. Math, Alex!
+
+O.K.!  I think you want radical expressions for the real and
+imaginary parts of q = (a+b*i)^(1/3) in terms of a and b, where a
+and b are general real numbers.  Of course, if we could find either
+of these, the other would be derivable from it.
+
+Now q is a root of
+
+   x^3 - (a+b*i) = 0.
+
+That implies that q is a root of 
+
+   x^6 - 2*a*x^3 + (a^2+b^2) = 0,
+
+which has real coefficients, and the complex conjugate q' of q is
+also a root of the same equation.  We know that this polynomial must
+factor into three quadratic factors with real coefficients, of which
+one factor would be (x-q)*(x-q') = x^2 - (q+q')*x + q*q' = 0.  The
+other two would be similar expressions with q replaced by q*w and
+q*w^2, where w and w^2 are the complex cube roots of 1.  Now we have
+a radical expression for q*q' = (a^2+b^2)^(1/3).  If we could write
+a radical expression for q + q', then we would have the desired
+answer, Re(q) = (q+q')/2.
+
+Unfortunately, such an expression doesn't exist.  The best that can
+be said is that
+
+   Re(q) = [(a+b*i)^(1/3) + (a-b*i)^(1/3)]/2.
+
+I don't know the proof of that assertion, but I am assured that it
+is a fact.
+
+Now if a and b are rational, sometimes a + b*i will be a perfect
+cube, and its cube root will have the same form, that is, r + s*i,
+where r and s are rational.  Determining whether or not a + b*i is
+a perfect cube, and if so, finding r and s, is possible.  It is a
+special case of the same problem with i replaced by sqrt(d) for
+some integer d.  That problem can be reduced to the case where a
+and b are both integers.  If you want the details of that process,
+I'll supply them.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,57 @@
+ThreadNum: 567722
+Subject: Re: Straight line 3d
+To: v03dhish@du.se (sah)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 15:50:38
+Sent: yes
+
+
+As sah wrote to Dr. Math
+On 08/19/2004 at 15:35:31 (Eastern Time),
+>[Question]
+>hi,
+>
+>I need to know the general equation of a straight line in a 3d space.
+>
+>
+>[Difficulty]
+>I know the equation of a plane in 3d space is ax+by+cz=0,
+>
+>but i need to know a single equation which gives me straight line.
+>
+>[Thoughts]
+>I know it can be given by parametric form as 
+>
+>x=x0+at;
+>y=y0+bt;
+>z=z0+ct;
+
+Hi Sah,
+
+Thanks for writing to Dr Math.  In general, the solution space of a
+single equation in 3-space will give you a surface (meaning
+two-dimensional, like a plane), rather than a curve (meaning
+one-dimensional, like a line).  So a line is either written as the
+intersection of two planes, or, more commonly, in parametric form like
+you have done.  Of course, you *CAN* turn the former expression (two
+simultaneous equations) into a single equation like this:
+
+  (ax + by + cz + d)^2 + (a'x + b'y + c'z + d')^2 = 0.
+
+I expect you can see why this is really just two simultaneous
+equations.  Also, there are infinitely many planes that go through a
+single line in 3-space, and you only have to pick two different ones,
+which means that there are MANY ways to choose the coefficients in the
+above equation.
+
+All that is to say, while you CAN write a line as a single equation,
+really the general equation for a line is the parametric form you
+wrote down.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

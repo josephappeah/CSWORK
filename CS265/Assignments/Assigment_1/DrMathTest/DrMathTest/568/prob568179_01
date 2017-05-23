@@ -1,0 +1,52 @@
+ThreadNum: 568179
+Subject: Re: Calculate Radius given "c" and "h"
+To: TooL_Aenima1@hotmail.com (David P)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 09:25:48
+Sent: yes
+
+
+As David P wrote to Dr. Math
+On 08/22/2004 at 22:56:58 (Eastern Time),
+>[Question]
+>Hi am have been trying to search for a formula that will calculate a
+>radius of a circle if I know the Chord length and some what of the
+>height from the chord to the arc segment. I can figure this out easy
+>if the height comes from the center of the chord where the height will
+>be a maximum, but what if the height i know isnt the largest it can
+>be. Lets say I have two points along the circle and create a chord
+>between them. Well if my third point was dead center btween the chord
+>I could figure the radius out. My third point I know of however is not
+>at the mid point of the chord. It will be between the two points that
+>make up the chord but not always in the middle. Is there a formula to
+>calulate for this? I do not know the angle between points, I do not
+>know the center of the circle, I do not know the size of the circle.
+>All I will be knowing is three points along a circle taken from one
+>quadrant only. Think this can be solved???? Please help Dr. Math. 
+>Thank you 
+>
+>[Difficulty]
+>I cant figure it out at all. Circles always confuse me..always have.
+>
+>[Thoughts]
+>I am sorry, I have no work thoughts on this. All I have been doing was
+>searching the internet for any explination on figuring this out, but I
+>ave found nothig. Thats why I turned here in hopes that you may help
+>me out.
+
+Hi David,
+
+The equation of the circle with center (h,k) and radius r is 
+
+  (x - h)^2 + (y - k)^2 = r^2
+
+There are three parameters here (h, k, and r), so three points will
+uniquely determine a particular circle:
+
+  http://mathforum.org/library/drmath/view/55233.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

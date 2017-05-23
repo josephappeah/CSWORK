@@ -1,0 +1,51 @@
+ThreadNum: 567756
+Subject: Re: Algebra Inequalities
+To: toni.ruel@earthlink.net (Toni Ruel)
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 18:19:54
+Sent: yes
+
+
+As Toni Ruel wrote to Dr. Math
+On 08/19/2004 at 18:10:31 (Eastern Time),
+>[Question]
+>How do I solve inequalities?  If I solve the following like an 
+>equation and plug the numbers back in, I end up with equal numbers.
+>
+>Example:
+>7x - 5 > 3x - 4  I add 5 to both sides
+>7x > 3x + 1  I subtract 3x from both sides
+>4x > 1  I divide both sides by 4
+>x > 1/4
+>
+>Plugging back in
+>7(1/4) - 5 > 3(1/4) - 4 multiply 
+>7/4 - 5 > 3/4 - 4 add 5 to both sides
+>7/4 > 3/4 + 1  add
+>7/4 > 7/4 Which is False.
+>
+>What am I doing wrong?  If this were a >= sign, it would work.  But I 
+>do not know how to do the inequality by itself.
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Nothing is wrong. x must be _strictly_ greater than 1/4 for the
+inequality to be true. Using x = 1/4 should mean you get a false
+statement (which you did). Using any value greater than 1/4 will work.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

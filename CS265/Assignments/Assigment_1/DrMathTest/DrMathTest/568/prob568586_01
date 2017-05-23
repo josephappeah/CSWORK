@@ -1,0 +1,47 @@
+ThreadNum: 568586
+Subject: Re: I get a different answer than the book and I'm an engineer!
+To: amykingosu@aol.com (Amy King)
+From: Doctor Peterson
+TimeStamp: 08/24/2004 at 22:48:56
+Sent: yes
+
+Hi, Amy.
+
+As Amy King wrote to Dr. Math
+On 08/24/2004 at 21:41:00 (Eastern Time),
+>[Question]
+>Andre is starting a book club.  He is the only member now, but he 
+>plans to have each member find an additional 3 new members each 
+>month.  How many members does Andre expect to have after 6 months.
+>
+>I get 972  the book gets 4096 members
+>
+>[Difficulty]
+>andre plus 3 equals 4 members at the end of month one;  4*3=12 at 
+>the end of month two;  12*3=36 at the end of month three;  36*3=108 
+>at the end of month 4; 108*3=324 at the end of month 5; 324*3=972 at 
+>the end of month 6..
+>
+>[Thoughts]
+>I told my daughter I thought I was correct and her teacher said no, 
+>can you explain where my logic failed.
+
+By multiplying by 3, you are counting only the NEW members each 
+month, not ALL the members at that time.
+
+After one month, there are 1 + 1*3 = 1*4 = 4 members, 3 of them new.
+
+After the second month, each has found 3 more in addition to 
+him/herself, making 4 + 4*3 = 4*4 members in all.
+
+And so on: each month multiplies the total by 4, making 4^6 = 2^12 = 
+4096 after 6 months.
+
+I wonder why the teacher didn't explain the reasoning.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

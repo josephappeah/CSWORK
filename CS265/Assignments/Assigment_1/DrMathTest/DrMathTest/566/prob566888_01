@@ -1,0 +1,79 @@
+ThreadNum: 566888
+Subject: Re: Algebra 
+To: rose27_flirht@yahoo.com (Nheri Rose Gumayagay)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 09:23:23
+Sent: yes
+
+
+As Nheri Rose Gumayagay wrote to Dr. Math
+On 08/14/2004 at 04:46:07 (Eastern Time),
+>[Question]
+>1. A rope which is 128m long is to be divided into three parts such 
+>that the second part is twice the first and the third part is seven 
+>less than the second.
+>
+>2. Find three consecutive integers such that twice the first added to 
+>5 times the second exceeds 3 times the last by 51.
+>
+>3. The age of Mr. Cruz is 9 years more than her son's age. Find the 
+>age of each if 15 years from now she will be 6 years more than twice 
+>her son's age.
+>
+>4. How many kg. of sand must be added to 300 kg of a mixture of sand 
+>and cement containing 40% cement to produce a mixture which will be 
+>75% sand.
+>
+>5. Two motorists, one travelling 5 kph faster than the other leave 
+>the same place at the same time and travel in opposite directions. 
+>Find the rate of each if they are 195 km apart after 3 hours.
+>
+>6. The sum of the three digits of a two-digit number is 11. If the 
+>digits are reversed, the new number incresced by 20 is twice the 
+>original number. Find the original number?
+>
+>7. Gian has 25 marbles more than three times as many as Arwin has. If 
+>the boys have a total of 225 marbles, how many marbles does each boys 
+>have?
+>
+>8. The perimeter of an isosceles triangle is 38 m. If the shortest 
+>side is 10 cm, how long are the other sides of the triangle?
+>
+>9. The sum of money amounting to 2.15 consist of ten-centavo and five-
+>centavo coins. There are five more than 10-centavo than 5-centavo 
+>coins. How many coins of each kind are there?
+>
+>10. A confectioner finds it hard to sell chocolates worth 28.80 a 
+>pound of which he has 6 pounds. He mixed them with candy which he 
+>usually sells at 16.80 a pound and offers the resulting mixture at 
+>21.60 a pound. How much 16.80 candy should he use?
+>
+>[Difficulty]
+>Formulating Mathematical equations
+>
+>[Thoughts]
+>None
+
+Hello Nheri,
+
+I'll help with two of these problems, just to get you started.
+
+1. A rope which is 128m long is to be divided into three parts such 
+that the second part is twice the first and the third part is seven 
+less than the second.
+
+Let the three parts have lengths x, y, and z.  We know
+
+x+y+z=128
+y=2x
+z=y-7
+
+2. Find three consecutive integers such that twice the first added to 
+5 times the second exceeds 3 times the last by 51.
+
+We can let the integers be x,x+1, and x+2.  Then
+
+2x+5(x+1)-51=3(x+2)
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

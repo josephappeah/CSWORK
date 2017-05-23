@@ -1,0 +1,48 @@
+ThreadNum: 566163
+Subject: Re: Algebra II --- equations with fractions
+To: sweetygirl1213@yahoo.com (Deanna)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 10:24:51
+Sent: yes
+
+
+As Deanna wrote to Dr. Math
+On 08/11/2004 at 10:09:16 (Eastern Time),
+>could you please show me what you were saying i was to do. sometimes 
+>I need to see the actual steps before I can understand the written 
+>way to do something.
+>
+>Thank you!
+>
+
+Hi Deanna,
+
+You'll learn more if you do it.  Let's take it one step at a time:
+
+  First, use the two points to find the slope (which is the 
+  ratio of the change in y to the change in x, or 'rise over 
+  run').  
+
+If I give you two points, like (2,3) and (6,5), can you compute the
+slope between these points?  Try drawing a picture:
+
+    -
+    |
+    -                 B             A = (2,3)
+    |                 .             B = (6,5)
+    -                 .
+    |                 .
+    -     A............
+    |
+    -
+    |
+    -
+    |
+  --+--|--|--|--|--|--|--|--|--|--|--
+
+When you move from point A to point B, what's the change in x?  What's
+the change in y? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

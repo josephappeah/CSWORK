@@ -1,0 +1,35 @@
+ThreadNum: 568215
+Subject: Re: NEED HELP CONSTRUCTION HC RAMP
+To: WKAURANEN@FXMESSINA.COM (WAYNE)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 08:09:04
+Sent: yes
+
+
+As WAYNE wrote to Dr. Math
+On 08/23/2004 at 07:28:24 (Eastern Time),
+>[Question]
+>WHAT IS THE DEGREE OF PITCH FOR A HANDICAPPED RAMP THAT SLOPES 1"  
+>EVERY FOOT
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Wayne,
+
+If AB is the horizontal line at the base, B is the point where the ramp begins, and C is 
+vertically above A so that BC is the tilted ramp, then the angle CBA can be calculated.  I 
+think this is what you are callling "pitch."
+
+sin(CBA) = 1/12
+
+and so
+
+CBA is approximately 4.78 degrees.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

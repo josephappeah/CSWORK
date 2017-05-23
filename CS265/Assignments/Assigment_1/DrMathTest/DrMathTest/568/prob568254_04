@@ -1,0 +1,41 @@
+ThreadNum: 568254
+Subject: Re: The square root of an equation with I in it
+To: lbleds1@towson.edu (Lesley)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 22:11:57
+Sent: yes
+
+
+As Lesley wrote to Dr. Math
+On 08/23/2004 at 21:02:06 (Eastern Time),
+>Thank you so much for the help so far, but I still have one question.
+>I don't remember the rule of how you simplify the SQRT 12.  I'm not 
+>sure how you got that to 2* SQRT 3?
+
+Hi Lesley,
+
+Note that 
+
+  sqrt(12) = 12^(1/2)
+
+i.e., taking the square root of something is the same as raising it to
+the 1/2 power.  So, following the rules of exponents, 
+
+  Properties of Exponents
+  http://mathforum.org/library/drmath/view/57293.html
+
+can can do this:
+
+  12^(1/2) = (2 * 2 * 3)^(1/2)
+
+           = (2 * 2)^(1/2) * (3)^(1/2)
+
+           = 2 * 3^(1/2)
+
+since the square root of 2^2 is just 2.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

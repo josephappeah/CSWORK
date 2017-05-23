@@ -1,0 +1,139 @@
+ThreadNum: 567865
+Subject: Re: Finding the number of real roots and their nature for a poly
+To: warrenrl@hotmail.com (Warren)
+From: Doctor Anthony
+TimeStamp: 08/20/2004 at 07:54:33
+Sent: yes
+
+
+As Warren wrote to Dr. Math
+On 08/20/2004 at 06:41:55 (Eastern Time),
+>[Question]
+>Hello!
+>
+>I have been doing some maths over the holidays and I came across 
+>something that has got me. I know how to solve quadratics, how to 
+>identify the nature of the roots and how to find the number of 
+roots 
+>(i.e. using b^2-4ac). The problem comes with cubics or polynomials 
+>of higher degree.
+>
+>
+>
+>[Difficulty]
+>I am stuck on the questions of the type "show that the equation x^3-
+>12x-7.2=0 has one positive and two negative roots" and "show that 
+>the -----largest positive----- root of x^3-3x^2-2=0 lies between 3 
+>and 4". 
+
+
+It is a help to realize the shape of the cubic curve.  
+
+If the term in x^3 is positive the graph disappears to y=-infinity 
+as x -> -infinity and it disappears to +infinity as x -> +infinity.
+Inbetween there is an S shape with a maximum followed by a minimum 
+as x increases.   Find the coords of the turning points by 
+differentiating and equating to zero.  If the max is above the x 
+axis and the minimum below the x axis there MUST be 3 real roots.  
+If both turning points are below the x axis or both are above the x 
+axis then there will be only one real root.  There is ALWAYS one 
+real root because the graph must cross the x axis at some point.
+
+If the minimum turning point occurs with x positive then the largest 
+root is also positive.  Similarly if the maximum point occurs with x 
+negative the smallest root is also negative.
+
+If the quadratic formed from dy/dx = 0 has no real roots then there 
+are no real turning points (the curve does a little wiggle without 
+ever sloping down) and in this case there will definitely be just 
+one real root of the cubic.
+
+If you have a clear visual picture of the curve it is easy to answer 
+questions on the nature of the roots.
+
+Turning now to the actual questions, we had
+
+   y = x^3 - 12x - 7.2 = 0
+
+  dy/dx = 3x^2 - 12 = 0
+
+                x^2 = 4     x = +-2
+
+The max point occurs with x = -2 and y = (-2)^3 - 12(-2) - 7.2
+                                       = 8.8
+
+The min point occurs with x = +2 and y = 2^3 - 12(2) - 7.2
+                                       = -23.2
+
+If you consider the shape of the curve, it has a maximum turning 
+point at (-2, 8.8), it crosses the y axis at -7.2 (so it has crossed 
+the x axis between x=-2 and x=0 and then reaches the minimum turning 
+point at (2, -23.2).  From this description we know the curve has 
+come from -infinity crossed the x axis somewhere left of x = -2 has 
+reached the max point (-2, 8.8) then turned down crossing the x axis 
+again and passing through the point (0, -7.2) before reaching the 
+minimum point at (2, -23.2).  From here it turns up and crosses the 
+x axis at some positive value of x as it heads off to +infinity.  
+This shows without doubt that there are two negative roots and one 
+positive root.  
+
+
+The second question relates to  y = x^3 - 3x^2 - 2 = 0
+
+    dy/dx = 3x^2 - 6x = 0
+
+        3x(x - 2) = 0   so x = 0 and x = 2 are turning points
+
+By similar arguments to those given above we know the minimum 
+turning point is at x = 2
+
+If there is a positive root to the cubic this turning point must be 
+below the x axis.
+
+  When x = 2   y = 2^3 - 3(2^2) - 2
+                 = -6
+
+So minimum turning point is at (2, -6) and the positve root must be 
+to the right of this point.  To show that it lies between x=3 and 
+x=4 all we need do is show that f(3) is negative and f(4) is 
+positive.
+
+    f(x) = x^3 - 3x^2 - 2
+
+    f(3) = 27 - 27 - 2  = -2  (so negative)
+    f(4) = 64 - 48 - 2  = 14  (so positive)
+
+This means that somewhere between x=3 and x=4 the curve crossed the 
+x axis at the largest positve root of the cubic equation.  This MUST 
+be the largest positive root because another positive root would 
+require that the curve has another minimum point to the right of 
+x=2.  And before that there would have to be another max turning 
+point.  This would require that we had a polynomial of degree 5.
+
+
+
+
+>
+>[Thoughts]
+>For the last one I know how to show that there is a root between 3 
+>and 4, but I am really not sure how to confirm that it is 
+>the "largest positive root". I did quite a lot of research over the 
+>internet, but did not find an answer that could show me in the 
+right 
+>direction. I was looking for the general method to do it that could 
+>be applied for all questions of this type, or at least a method. I 
+>also looked up in the proof chapters of my textbook, but they are 
+>very unclear.
+>
+>I very much appreciate any help you can give me, or if you could 
+>just give me a hint about how to go about it. If you give me a 
+hint, 
+>I should be able to figure out the questions I mentionned above 
+>myself!
+>
+>Thank you extremely!
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

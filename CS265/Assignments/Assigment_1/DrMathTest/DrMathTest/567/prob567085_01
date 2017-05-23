@@ -1,0 +1,52 @@
+ThreadNum: 567085
+Subject: Re: How to solve a 1st order ODE
+To: ckwu@vtc.edu.hk (Charles)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 10:41:52
+Sent: yes
+
+
+As Charles wrote to Dr. Math
+On 08/16/2004 at 00:24:58 (Eastern Time),
+>[Question]
+>to find the analytical solution of the ODE
+>df/dx = kf/(kx+f*f)  
+>with boundary condition f(0)=0
+>where f is a function of x, k is a positive constant.
+>
+>[Difficulty]
+>I turn the equation upside down and use an integrating factor, a
+>solution  can be found:  x/f = f/k + c
+>where c is integration constant, but cannot be found using the
+>boundary condition.
+>It is difficult to find c!
+>
+>[Thoughts]
+>f=sqrt(kx) is a solution. Is it a complete solution?
+>my thoughts:
+>1) consider the limiting case when x tends to 0
+>2) using power series, f = a0*x^p + a1*x^(p+1) + a2*x^(p+2) + ....
+>   subsititute the series into the ope to find p and a0,a1,a2 ....
+
+Hi Charles,
+
+Thanks for writing to Dr Math.  So you have
+
+  x/f = f/k + C,
+
+and you don't know what to do about the C.  Well, if you solve this
+for f (using the quadratic equation), you can get a formula for f(x)
+in terms of x, k, and C.  Then you can substitute x=0 into this
+formula, and you will find that half of the solutions satisfy the
+given initial condition, which means that you can still choose just
+about anything for C and still satisfy the initial condition.  In
+other words, the initial condition f(0)=0 doesn't uniquely determine
+the function f(x).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,36 @@
+ThreadNum: 566267
+Subject: Re: remainder
+To: suvho_sen@yahoo.com (subhankar )
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 16:02:13
+Sent: yes
+
+
+As subhankar  wrote to Dr. Math
+On 08/10/2004 at 04:04:22 (Eastern Time),
+>[Question]
+>please help me to solve this problem..
+>what will be the remainder of  4^96/6  
+>
+>[Difficulty]
+>multiplication of 4 for 96 times and then dividing that big number
+>by 6. is there any simple way of doing this?
+>
+>[Thoughts]
+>
+
+Hi Subhankar,
+
+Thanks for writing to Dr Math.  Yes, there is.  It's called modular
+arithmetic.  Do you know what that is?  You can start here:
+
+  Mod, Modulus, Modular Arithmetic
+  http://mathforum.org/library/drmath/view/62930.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

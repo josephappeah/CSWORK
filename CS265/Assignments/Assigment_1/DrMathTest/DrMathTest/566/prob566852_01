@@ -1,0 +1,44 @@
+ThreadNum: 566852
+Subject: Re: basic math
+To: brown5_us@yahoo.com (pamela)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 19:28:14
+Sent: yes
+
+
+As pamela wrote to Dr. Math
+On 08/13/2004 at 18:17:13 (Eastern Time),
+>[Question]
+>What would be an equivalent decimal for 0.2? would it be 0.02 or 
+>0.20  another question the dcimal for six tenths whould it be .60 
+or 
+>0.60 or 0.06
+>
+>[Difficulty]
+>I am 38 years old and have been out of school for a long time. I 
+>dont remember how to work this problem
+>
+>
+>[Thoughts]
+>i put the answers  with the questions
+
+Hi, Pamela --
+
+To the right of the decimal point, you can add as many zeros as you 
+want to a decimal without changing the value.  So
+
+  0.2 = 0.20 = 0.200 = 0.2000 = ... = 0.200000000000 ...
+  0.6 = 0.60 = 0.600 = 0.6000 = ... = 0.600000000000 ...
+
+But when you add zeros to the right of the decimal point but before 
+the other non-zero digits, you change the value; specifically, you 
+divide the value by 10 each time you add another zero.  So in the 
+sequence of numbers
+
+  0.2, 0.02, 0.002, 0.0002, 0.00002, ...
+
+each number is one-tenth the value of the number preceding it.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

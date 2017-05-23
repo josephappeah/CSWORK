@@ -1,0 +1,46 @@
+ThreadNum: 566802
+Subject: Re: Angle between two vectors on the globe
+To: finalrundenjungs@yahoo.com (Juere)
+From: Doctor Rick
+TimeStamp: 08/13/2004 at 21:23:35
+Sent: yes
+
+Hi, Juere.
+
+As Juere wrote to Dr. Math
+On 08/13/2004 at 08:45:59 (Eastern Time),
+>[Question]
+>Given three points on the globe, defined by latitude and longitude,
+>how do I calculate the angle between the (any) pair of vectors these
+>points describe? The points are all very close together (100m max).
+>
+>[Difficulty]
+>The angle between two vectors is usually calculated by means of the
+>scalar product, but to be able to do that, I need to transform the
+>latitudes and longitudes to an appropriate cartesian coordinate
+>system. Which system is ideal, and how would I then transform?
+>
+>[Thoughts]
+>I also needed the find the distance between two points and was 
+pointed
+>to the haversine formula, which works very well. As for the angle, I
+>am at a loss.
+
+You can use the formula given here:
+
+  Bearing Between Two Points
+  http://mathforum.org/library/drmath/view/55417.html
+
+The difference between the bearings of two vectors will be the angle 
+between them.
+
+Since your points are so close together, you could also use the 
+planar approximation given halfway down the following page to get 
+(x,y) coordinates of each vector, then use the scalar product.
+
+  Planar Approximation: Latitude and Longitude
+  http://mathforum.org/library/drmath/view/62720.html
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

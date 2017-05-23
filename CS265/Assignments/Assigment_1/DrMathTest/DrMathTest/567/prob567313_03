@@ -1,0 +1,92 @@
+ThreadNum: 567313
+Subject: Re: Subtraction from left to right?
+To: wkephart@comcast.net (Donna)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 15:40:21
+Sent: yes
+
+
+As Donna wrote to Dr. Math
+On 08/17/2004 at 15:26:47 (Eastern Time),
+>There are two previous messages posted which show how to do addition 
+>from left to write dated 
+>
+>4/5/1996
+>5/20/2003
+>
+>Here is the answer to one of the questions:
+>9272
+> 5498
+>   27
+> 2309
+> 8565
+>------
+>24
+> 14
+>  24
+>   31
+>
+>Do you see what I've done?
+>
+>Now I add the numbers that correspond to the same place value:
+>
+>24
+> 14
+>  24
+>   31
+>-----
+>25671
+>
+>I understand this completely, but can't seem to figure out how to do 
+>a similar method for subtraction.
+>
+>Thanks
+>Donna
+
+Hi Donna,
+
+Oh, I see.  So really that's just a different place to put the carries.
+
+The idea with subtraction is that you are adding the negatives of the
+numbers, so you really still have a sum, but SOME (and NOT all) of the
+numbers are negative.  So you really have a sum with mixed signs.
+
+So one idea is to sum all the negative numbers with the above method,
+and then sum all the positive numbers (if there are more than one) and
+then subtract the two sums using standard subtraction rules.
+
+But you probably don't like that idea.  If you want to put it all
+together, then you will have to treat each digit as having the sign
+corresponding to the number it belongs to, as in
+
+  +9272
+  +5498
+  -  27
+  -2309
+  -8565
+  -----
+  +4
+   -2
+    +8
+    -11
+
+and then when you add up the totals on the bottom, you still have to
+do the borrowing.  You borrow a ten from the number above by
+subtracting one from it (which makes a positive number smaller, but
+makes a negative number a bigger negative):
+
+  -----
+  +3
+   +8
+    +6
+     +9
+  -----
+   3869
+
+Will that suit?  If you have any questions about this or need more
+help, please write back and show me what you have been able to do, and
+I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

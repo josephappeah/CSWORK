@@ -1,0 +1,101 @@
+ThreadNum: 566600
+Subject: Re: Hi Im i 9 th grade
+To: roxy_13_86@hotmail.com (rosana)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 14:12:50
+Sent: yes
+
+
+Hi Rosana,
+
+> Well my question is that when im in class i get what was the class 
+>about, but when i start doing my homework expecially on Geometry. 
+>angeles and lines everything just gets away and my notes dont do any 
+>good because i cant listen in class and take notes. can you help me 
+>take notes but also pay attention in class. that will mean a lot to 
+>me. thank you so much
+
+The problem is, once you're in class it's too late to be taking notes.
+ What you need to be doing is reading the book and taking notes
+_before_ you get to class:
+
+  Tips for Studying
+  http://mathforum.org/library/drmath/view/57029.html
+
+In other words, when you're sitting in class, you should pretty much
+know everything the teacher is going to say before he says it.  Trust
+me - this is a _lot_ more fun than trying to scribble down what he
+just said a minute ago while trying to listen to what he's saying now. 
+
+>teh confusion part is to remember when is and 90 degress or a 45 
+>degrees i just dont get how to tell
+
+The basic fact to remember is that there are 360 degrees in a circle.
+ From that, you can more or less figure everything else out.  For
+example, suppose you go halfway around a circle?
+
+
+                *   *           
+            *           *       
+                                
+         *                 *   
+                                  
+      end.........C.........start  
+
+         *                 *
+
+            *           *
+                *   *
+                
+That's half a circle, so it's half of 360 degrees, which is 180
+degrees.  So a straight line is a 180 degree angle:
+  
+     A-------B-------C              Angle ABC = 180 deg
+
+What if you go one-fourth of the way around a circle? 
+
+                  end
+                * . *           
+            *     .     *       
+                  .             
+         *        .        *   
+                  .               
+         *        C.........start  
+
+         *                 *
+
+            *           *
+                *   *
+
+That's one-fourth of 360 degrees, which is 90 degrees.  So a 'square
+corner' (also called a 'right angle') is 90 degrees
+
+
+           A
+           |
+           |
+           |
+           B--------C                 Angle ABC = 90 deg
+
+Half of that would be one-eighth of the way around the circle, 
+
+                  
+                *   *           
+            *           * end      
+                        .        
+         *            .    *   
+                    .               
+         *        C.........start  
+
+         *                 *
+
+            *           *
+                *   *
+
+which would be 1/8 of 360 degrees, which is 45 degrees.  
+
+And so on.  Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

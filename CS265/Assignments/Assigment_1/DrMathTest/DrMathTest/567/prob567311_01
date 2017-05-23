@@ -1,0 +1,64 @@
+ThreadNum: 567311
+Subject: Re: Can irregular shapes have dimensions
+To: xuan662@yahoo.com (Xany)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 20:39:55
+Sent: yes
+
+
+As Xany wrote to Dr. Math
+On 08/17/2004 at 14:44:06 (Eastern Time),
+>[Question]
+>I had this problem which is like this: 
+>A rectangular tract of land 20m by 30m has part of its area covered 
+>by an L-shaped road. Which goes around two sides. The road is the 
+>same width on both sides. and its area is 184 square meters. What 
+are 
+>the dimensions of the part of the tract not covered by the road?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Since the road is the same width on both sides, the part covered by 
+>the road should be a square. But since it only covers two sides, it 
+>is not like a line cut through the rectangle. that makes the part 
+not 
+>covered by the road not a square or a rectangle. so how can it have 
+>dimensions? L*W doesn't equal the area. 
+>Should I rearrange the irragular shape to a rectangle and then find 
+>the dimension? 
+>Please help me, 
+>thank you very much.
+
+Thanks for writing to Ask Dr. Math, Xany!
+
+Let the width of the road be x meters.  Then the picture should look
+like this:
+
+   o------------------------------o
+   |            road              |
+   |x                             |
+   o------------------------o     |
+   |                        |     | 20
+   |                        |     |
+   |20-x                    |     |
+   |                        |     |
+   |          30-x          |  x  |
+   o------------------------o-----o
+                 30
+
+Here 0 < x < 20.
+
+Using this, you should be able to get an expression for the smaller
+rectangular area in terms of x.  Set that equal to 184 m^2, and solve
+for x.  Then the dimensions sought are 20-x and 30-x meters.
+
+Hint:  x and the dimensions are not rational numbers.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

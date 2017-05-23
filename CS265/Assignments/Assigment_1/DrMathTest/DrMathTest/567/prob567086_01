@@ -1,0 +1,33 @@
+ThreadNum: 567086
+Subject: Re: Rationalizing 
+To: loser1105@yahoo.com (julie)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 16:12:42
+Sent: yes
+
+
+As julie wrote to Dr. Math
+On 08/16/2004 at 00:50:19 (Eastern Time),
+>[Question]
+>How do u rationalize a problem with sin x, cos x, or tan x in the 
+>denominator for example 1/(1-cos x) 
+>
+>[Difficulty]
+>the directions read as follows "Remove the sum or difference for the 
+>denominator by multiplying the numerator and denominator by the 
+>conjugate of the denominator."
+>
+>[Thoughts]
+>(1/(1-cos x))*((1+cos x)/(1+cos x))
+
+Thanks for writing to Ask Dr. Math, Julie!
+
+Your thoughts are right on target!  Multiply this out, and then use
+the fact that sin^2(x) + cos^2(x) = 1.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

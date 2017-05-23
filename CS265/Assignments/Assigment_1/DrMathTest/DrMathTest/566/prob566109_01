@@ -1,0 +1,74 @@
+ThreadNum: 566109
+Subject: Re: powers are linear transformation in a field
+To: nguilitt@ulb.ac.be (Nicolas)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 15:48:40
+Sent: yes
+
+
+As Nicolas wrote to Dr. Math
+On 08/09/2004 at 04:40:24 (Eastern Time),
+>[Question]
+>I have a field K of order q (a prime or e prime power), and an 
+>extension field E of K, of degree n.
+>
+>Given a function f(): E-->E, such that
+>y=f(a)=a^(q^s+q^t)+a^(q^u), for some integers s,t,u
+>
+>As y belongs to E, it can be written as y=(y_1 y_2 ... y_n) over 
+>K^n, with y_i belongs to K.
+>
+>So, each y_i  can be seen as a multivariate function of 
+>(a_1 ...a_n), i.e. 
+>y_i = f_i(a) = f_i(a_1 a_2 a_3 ...a_n)
+>
+>I have read (in several documents, but without proof) that these f_i
+>() functions are at most quadratic in the a_i but I don't understand 
+>why (i tried to prove it but i didn't find). HELP !
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>i have read that for a,b belong to K^n, (a+b)^(p^t)=a^(p^t)+b^(p^t), 
+>but i can't make the link with my problem
+
+Hi Nicolas,
+
+Thanks for writing to Dr Math.  The key here lies in what you said in
+your subject line, though what you said should be qualified,
+
+  Raising a number to the power q^k (for any positive integer k) is a
+linear transformation in any extension of the finite field with q
+elements.
+
+So that means that
+
+  g1(x) = x^(q^s)
+
+is a linear transformation, so you can write
+
+  g1(a) = r_1*a_1 + r_2*a_2 + r_3*a_3 + ... + r_n*a_n
+
+for numbers r_i in the field K, and
+
+  g2(x) = x^(q^t)
+
+and
+
+  g3(x) = x^(q^u)
+
+are linear as well.  So now think of your function as
+
+  f(a) = g1(a)*g2(a) + g3(a),
+
+and write out g1, g2, and g3 as linear combinations of the a_i's.  You
+will find that you get quadratic terms and linear terms but nothing else.
+
+Does that make sense?  If you have any questions about this or need
+more help, please write back and show me what you have been able to
+do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

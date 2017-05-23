@@ -1,0 +1,40 @@
+ThreadNum: 566317
+Subject: Re: Dihedral Angles
+To: ehauser@ibglass.com (Eddie Hauser)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 16:06:48
+Sent: yes
+
+
+As Eddie Hauser wrote to Dr. Math
+On 08/10/2004 at 12:53:22 (Eastern Time),
+>[Question]
+>I am looking for the formula for calculating the angle of an 
+>intersecting plane and a cube.
+>
+>[Difficulty]
+>I understand how to calculate the angles of triangles in 2 
+>dimensions, but get lost in 3d
+>
+>[Thoughts]
+>
+
+Hi Eddie.
+
+thanks for writing to the Math Forum.
+
+Can you clarify your problem?  How are you defining the plane and 
+the cube?  It's likely that we can help, but we need a more precise
+description of what you're looking for.
+
+One way to start is to imagine a three-dimensional coordinate
+system (x,y,z), and that two opposite corners of the cube are
+located at (0,0,0) and (1,1,1), and that the edges and faces of
+the cube are lined up with the coordinate axes.
+
+Then you can specify the plane by giving three points that it passes
+through. 
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

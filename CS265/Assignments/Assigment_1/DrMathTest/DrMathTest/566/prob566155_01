@@ -1,0 +1,63 @@
+ThreadNum: 566155
+Subject: Re: External Angles for Irregular Octagon
+To: davis.rl@mellon.com (Bob Davis)
+From: Doctor Rick
+TimeStamp: 08/09/2004 at 18:11:33
+Sent: yes
+
+Hi, Bob.
+
+As Bob Davis wrote to Dr. Math
+On 08/09/2004 at 13:34:32 (Eastern Time),
+>[Question]
+>I am building a frame that is in the shape of an irregular octagon.  
+>The "top" and "bottom" sides are 48 inches in length.  Each of the 
+>remaining 6 sides are 16 inches in length. I need to know what 
+angles 
+>to cut in order to construct the frame 
+>
+>[Difficulty]
+>I know the external angles for a regular octagon are 45 degrees.  
+>Since the octagon in the above question is not, I want to confirm 
+the 
+>angles before cutting. 
+>
+>[Thoughts]
+>
+
+Your description does not specify a unique octagon. Even if I make 
+some assumptions about symmetry, I can't give a single answer.
+
+I will suppose that the top and bottom sides are horizontal and the 
+left and right sides are vertical. (This is not necessarily the case, 
+but it probably looks better than a less symmetrical frame.) Even 
+with this assumption, it is still possible to choose any angle for 
+ABC = FED = EFG = BAH. The angles BCD = CDE = FGH = GHA are all equal 
+to 270 degrees minus the other angle. (The external angles are 
+complementary: they add to 90 degrees.) For example:
+
+        A------------B
+       / 110      110 \
+      /                \
+     H 160          160 C
+     |                  |  external angles are 70 and 20 degrees
+     |                  |
+     G 160          160 D
+      \                /
+       \ 110      110 /
+        F------------E
+
+           A------------B
+         / 135        135 \
+       /                    \
+     H 135                135 C
+     |                        |  external angles are all 45 degrees
+     |                        |
+     G 15                135 D
+       \                    /
+         \ 135        135 /
+           F------------E
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

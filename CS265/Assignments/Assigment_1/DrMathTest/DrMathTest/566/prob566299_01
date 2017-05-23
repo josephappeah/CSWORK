@@ -1,0 +1,42 @@
+ThreadNum: 566299
+Subject: Re: Calculating "percent faster"
+To: peter_howard@veritest.com (Peter)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 10:51:52
+Sent: yes
+
+
+Hi Peter,
+
+>We have a recurring conversation here. We want to say “product1 
+>performed x% faster than product2”. This can be calculated one of 
+>two ways:
+>
+>(product1-product2)/product1
+>
+>Or
+>
+>(product1-product2)/product2
+
+If the basis of comparison is product 2, then you need to have that in
+the denominator. 
+
+>My understanding is that the first calculation calculates the 
+>percentage we would use in the sentence “product1 performed x% 
+>faster than product2” and the second calculation gives us the 
+>percentage we would use in the sentence “product2 performed x% 
+>slower than product1”.
+
+See above.  The first calculation is comparing product 2 to product 1,
+i.e., saying that the difference in speed is some percentages of the
+speed of product 1.  
+
+The second calculation is comparing product 1 to product 2, i.e.,
+saying that the difference in speed is some percentage of the speed of
+product 2.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

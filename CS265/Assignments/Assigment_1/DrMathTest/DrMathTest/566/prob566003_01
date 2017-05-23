@@ -1,0 +1,129 @@
+ThreadNum: 566003
+Subject: Re: Symbolic Logic
+To: iceicexiro@yahoo.com (N. N.)
+From: Doctor Achilles
+TimeStamp: 08/08/2004 at 14:06:13
+Sent: yes
+
+
+As N. N. wrote to Dr. Math
+On 08/08/2004 at 01:55:14 (Eastern Time),
+>[Question]
+>PvQ
+>Q->R
+>(R->(S->~T))
+>(~S->U)^(U->V)
+>/:(~P^~V)->~T
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>PvQ
+>~QvR from Q->R
+>~Rv~Sv~T from (R->(S->~T))
+>SvU from ~S->U
+>~UvV from u->V
+>It seems that the same letter in the second line is the negation of 
+>the preceding line (e.g. Q and ~Q, R and ~R) but where do I go from 
+>here?
+>Thank you for your time and effort.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Ok, you're trying to prove:
+
+  ((~P ^ ~V) -> ~T)
+
+Here is how the proof starts (start with what you are given)
+
+1) (P v Q)                     given
+2) (Q -> R)                    given
+3) (R -> (S -> ~T))            given
+4) ((~S -> U) ^ (U -> V))     given
+
+The main connective in the sentence you are trying to prove is ->
+
+For an explanation of what I mean by "main connective", check out:
+
+  Main Connectives in a Proof
+  http://mathforum.org/library/drmath/view/55623.html
+
+The most straight-forward way to prove a sentence whose main 
+connective is -> is to assume the first part and then derrive the 
+second part.  So we want to assume
+
+  (~P ^ ~V)
+
+and derrive:
+
+  ~T
+
+Ok, so now our proof looks like this:
+
+1) (P v Q)                     given
+2) (Q -> R)                    given
+3) (R -> (S -> ~T))            given
+4) ((~S -> U) ^ (U -> V))     given
+5)    (~P ^ ~V)                Assumption
+
+The key rule in logic that you need to solve this proof 
+is "disjunctive syllogism".  The rule says the following:
+
+Given:
+
+  (X v Y)
+
+and
+
+  ~X
+
+you can conclude:
+
+  Y
+
+Seems simple enough.  We know from (X v Y) that either X or Y is 
+true.  We know from ~X that X is not true.  Therefore, the only thing 
+that is possible is that Y is true.
+
+Let's do a little more work on your proof (most of this you already 
+did)
+
+1)  (P v Q)                     given
+2)  (Q -> R)                    given
+3)  (R -> (S -> ~T))            given
+4)  ((~S -> U) ^ (U -> V))     given
+5)     (~P ^ ~V)                Assumption
+6)     (~Q v R)                 from line 2
+7)     (~R v (~S v ~T))         from line 3
+8)     (~S -> U)                from line 4 (simplification)
+9)     (S v U)                  from line 8
+10)    (U -> V)                 from line 4 (simplification)
+11)    (~U v V)                 from line 10
+12)    ~P                       from line 5 (simplification)
+13)    ~V                       from line 5 (simplification)
+
+Ok, now if you look at line 12, you'll see that we have ~P.  If you 
+put that together with line 1, you can conclude Q must be true by 
+disjunctive syllogism.
+
+Now that we know Q is true, if we look at line 6, we can use 
+disjunctive syllogism again to conclue that R must be true.
+
+Also, you can look at line 13 and see that V is false.  If you take 
+that with line 11, you can use disjunctive syllogism to show that ~U 
+is true (i.e. U is false).
+
+Keep working through all of the sentences like that until you get 
+~T.  At that point we will have done everything we need to.  
+Specifically, we assumed (~P ^ ~V) and derrived ~T.  Therefore we can 
+conclude that ((~P ^ ~V) -> ~T) is true.
+
+Hope this helps.  If you have other questions or you'd like to talk 
+about this some more, please write back.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

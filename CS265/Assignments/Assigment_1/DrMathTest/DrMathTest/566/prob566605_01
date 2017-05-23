@@ -1,0 +1,104 @@
+ThreadNum: 566605
+Subject: Re: distance shown by rate and time
+To: plyoung@direcway.com (Jeremiah)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 01:53:44
+Sent: yes
+
+
+As Jeremiah wrote to Dr. Math
+On 08/11/2004 at 23:18:08 (Eastern Time),
+>[Question]
+>If a train traveling at 40 mph arrives in town 10 minutes late, and 
+a
+>train traveling at 30 mph arrives in town 16 minutes late, what is 
+>the distance between the two towns?
+>
+>[Difficulty]
+>I can't seem to find the correct formula for solving it.
+>
+>[Thoughts]
+>I have tried to figure it out using the difference in mph compared 
+>with the difference in minutes, created a time line, drew the word 
+>problem out into a diagram, but nothing has worked
+
+Hi, Jeremiah --
+
+You can't look at the differences in times or rates separately; you 
+need to look at them together.  It is a bit difficult to see how to 
+do that in this problem because we don't have absolute times -- we 
+only have a difference in times.  (Actually, the way the problem is 
+presented, we don't even have that; we need to read between the 
+lines to infer that if one train is 10 minutes late and the other is 
+16 minutes late, then the difference between the travel time for the 
+two trains is 6 minutes.)
+
+You are surely familiar with the relationship
+
+  distance = rate * time
+
+and the equivalent
+
+  rate = distance/time
+  time = distance/rate
+
+These relationships between absolute measurements are also valid for 
+differences in measurements.  For example
+
+  distance1 - distance2 = rate * (time1 - time2)
+
+(With a constant rate, the difference in distances is that rate 
+times the difference in the times.)
+
+  distance1 - distance2 = time * (rate1 - rate2)
+
+(With a constant time, the difference in distances is that time 
+times the difference in the rates.)
+
+  time1 - time2 = distance1/rate - distance2/rate
+
+(With a constant rate, the difference in times is the difference of 
+the two distances divided by that common rate.)
+
+  time1 - time2 = distance/rate1 - distance/rate2
+
+(With a constant distance, the difference in times is the difference 
+between that common distance divided by the two rates.
+
+We can use this last equation to solve our problem.  For our 
+problem, we know the two distances are the same; we know the two 
+rates; and we know the difference in the times.  So we know all the 
+values in this last equation except the distance -- so we can put 
+those numbers in and find the distance.  We need to watch our units; 
+since the rates are in mph, we need to change our known time 
+difference of 6 minutes to hours.  We get
+
+   1    d    d
+  -- = -- - --
+  10   30   40
+
+  12 = 4d - 3d
+
+  12 = d
+
+The two towns are 12 miles apart.  Checking this answer, the times 
+required to travel 12 miles at 30mph and 40mph are
+
+  12mi    12      24
+  ----- = -- hr = -- hr = 24 minutes
+  30mph   30      60
+
+and
+
+  12mi    12      18
+  ----- = -- hr = -- hr = 18 minutes
+  40mph   40      60
+
+The difference between these two times is 6 minutes, as required.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,30 @@
+ThreadNum: 567677
+Subject: Re: Exponents
+To: dfulmer@susd.org (Darryl)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 11:18:42
+Sent: yes
+
+
+As Darryl wrote to Dr. Math
+On 08/19/2004 at 10:14:21 (Eastern Time),
+>[Question]
+>What is the value of 4^2^3?
+>
+>[Difficulty]
+>The problem could be read as 16^3 or 4^8.  Without any grouping 
+>symbols which is correct?
+>
+>[Thoughts]
+>I think it is 16^3
+
+Hi, Darryl --
+
+You are correct.  Without any grouping symbols, the operations with 
+equal levels of priority are performed left to right.  So
+
+  4^2^3 = (4^2)^3 = 16^3
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

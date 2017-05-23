@@ -1,0 +1,63 @@
+ThreadNum: 568083
+Subject: Re: I have spent 3 hours on this with no success Please Help
+To: caseym@orion-online.com.au (Michele Casey)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 07:29:56
+Sent: yes
+
+
+As Michele Casey wrote to Dr. Math
+On 08/22/2004 at 05:18:20 (Eastern Time),
+>[Question]
+>P(E1)=0.1,P(E2)=0.1,P(E3)=0.3,P(E4)=0.5 Define the events:
+>A=[E1,E2,E4]       B=(E1,E4]     C=[E1,E2,E3]
+>Calculate the following 
+
+We have to assume that A = [E1,E2,E4] means that A stands for events 
+E1 OR E2 OR E4 
+
+               P(A and B)     P(E1,E4)
+a.   P(AlB)  = ----------  = ---------  =  1
+                  P(B)        P(E1,E4)
+
+                P(B and A)    P(E1,E4)      0.1 + 0.5     6
+b.   P(BlA) =   ---------- = ----------  = ----------- = ---
+                   P(A)      P(E1,E2,E4)   0.1+0.1+0.5    7
+
+              P(A and C)     P(E1,E2)     0.1 + 0.1       2
+c.   P(AlC) = ---------- = ----------- = ------------  = ---
+                 P(C)       P(E1,E2,E3)   0.1+0.1+0.3     5
+
+              P(C and A)     P(E1,E2)      0.1 + 0.1     2
+d.   P(ClA) = ---------- = ------------ = ----------- = ---
+                 P(A)       P(E1,E2,E4)   0.1+0.1+0.5    7
+
+              P(B and C)      P(E1)         0.1          1
+e.   P(BlC) = ---------- = ----------- = -----------  = ---
+                P(C)       P(E1,E2,E3)   0.1+0.1+0.3     5
+
+               P(B and C)     P(E1)          0.1       1
+f.   P(ClB) = ----------- = ---------- = ---------  = ----
+                 P(B)        P(E1,E4)      0.1+0.5     6
+
+
+
+>Given that l is for given that  
+>
+>[Difficulty]
+>These are question in my text book. I have the answers A=1 B=6/7 
+and 
+>so on but no matter how I try I can not work out how this was 
+>achieved. a the probability that A occured if B has already 
+occured. 
+>I know A totals .7 and B totals .6 I thought it was 7/10 x 6/10 
+over 
+>6/10 but this does not work please help
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

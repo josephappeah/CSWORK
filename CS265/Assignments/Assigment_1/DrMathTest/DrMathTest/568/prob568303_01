@@ -1,0 +1,112 @@
+ThreadNum: 568303
+Subject: Re: Mr. Burroughs
+To: jasminecooper1212@yahoo.com (Jasmine)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 11:57:33
+Sent: yes
+
+
+As Jasmine wrote to Dr. Math
+On 08/23/2004 at 18:55:27 (Eastern Time),
+>[Question]
+>Ms.Smith has 15 coins that total 1.00.Name 5 ways in which Ms.Smith 
+>can make 15 coins 1.00.
+>
+>[Difficulty]
+>The most difficult part is working out 5 ways for the answer i only 
+>have 4.
+>
+>[Thoughts]
+>1 quarter 1 dime 13 nickles, 10 nickles 5 dimes, 8 nickles 6 dimes,12 
+>nickles 4 dimes.
+
+Hi Jasmine, 
+
+Let's line those up so it's easier to see what's going on:
+
+  Quarters  Dimes   Nickels   Pennies   Cents   Coins
+  --------  -----   -------   -------   -----   -----
+     1        1        13        0       100      15
+     0        5        10        0       100      15
+     0        6         8        0       100      14
+     0        4        12        0       100      16
+
+Uh oh!  Two of your solutions don't quite work, because they have
+either more or less than 15 coins.  So let's get rid of the last two:
+
+  Quarters  Dimes   Nickels   Pennies   Cents   Coins
+  --------  -----   -------   -------   -----   -----
+     1        1        13        0       100      15
+     0        5        10        0       100      15
+
+We're still in pretty good shape, though.  Two solutions is a lot
+better than one, because we can start thinking about how we can turn
+one into the other.  
+
+To get from the first solution to the second, we first exchange 1
+quarter for 5 nickels.  This keeps the amount of money the same, but
+increases the number of coins by 4:
+
+  Quarters  Dimes   Nickels   Pennies   Cents   Coins
+  --------  -----   -------   -------   -----   -----
+     1        1        13        0       100      15
+     0        1        18        0       100      19
+
+     0        5        10        0       100      15
+
+To get the number of coins back down, we can exchange 8 nickels for 4
+dimes:
+
+  Quarters  Dimes   Nickels   Pennies   Cents   Coins
+  --------  -----   -------   -------   -----   -----
+     1        1        13        0       100      15
+     0        5        10        0       100      15
+
+Let's look at that in a slightly different way:
+
+   Exchange                   Change in coins
+   -------------------------  ---------------
+   quarter    -> 5 nickels      +4
+   2 nickels  ->  1 dime        -1
+
+So doing the second exchange 4 times canceled out the first exchange.
+ What are some _other_ exchanges we might do?  One thing we might
+consider is using pennies:
+
+   Exchange                          Change in coins
+   -------------------------------   ---------------
+   quarter    ->  5 nickels           +4
+   dime       -> 10 pennies           +9
+   nickel     ->  5 pennies           +4
+   2 nickels  ->  1 dime              -1
+
+How can we use this?  Well, suppose we convert a nickel into 5
+pennies.  We get an increase of 4 coins, which we need to undo with
+some kind of decrease.  We could trade 2 nickels for a dime, 4 times.
+
+So that's 
+
+  nickel    -> 5 pennies         Lose 9 nickels, get 4 dimes 
+  8 nickels -> 4 dimes           and 5 pennies.
+
+We can do this starting from from any solution where we have at least
+9 nickels.  We have two solutions like that:
+
+  Quarters  Dimes   Nickels   Pennies   Cents   Coins
+  --------  -----   -------   -------   -----   -----
+     1        1        13        0       100      15
+     1        5         4        5       100      15
+
+     0        5        10        0       100      15
+     0        9         1        5       100      15
+     
+Now there's just one more that you need to find.  The main thing to
+learn here is that in this kind of problem, it's much easier to start
+with a solution and use that to construct other solutions, than to
+just sort of try lots of things and hope to get lucky. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,37 @@
+ThreadNum: 568652
+Subject: Re: (no subject)
+To: sheila.berry@firstdata.com (Shelia)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 09:57:08
+Sent: yes
+
+
+As Shelia wrote to Dr. Math
+On 08/25/2004 at 08:16:09 (Eastern Time),
+>[Question]
+>At his birthday party, Mr. Green would not directly tell how old he 
+>was. He said, If you add the year of my birth to this year, subtract 
+>the year of my tenth birthday and the year of my fiftieth birthday , 
+>and then add my present age, the result is eighty, How old was Mr. 
+>Green. (December 14,1997)
+>
+>[Difficulty]
+>I don't know where to start to figure out the age. I know that the 
+>party was on December 14, 1997.
+>
+>[Thoughts]
+>I would start at 1997 and then add one year. Then I don't know where 
+>else to figure out the problem.
+
+Hello Sheila,
+
+Letting y be birth year, 
+
+y+1997 - (y+10) - (y+50) + (1997-y) = 80
+
+Solving this gives y=1927.  So 1997-1927=70.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

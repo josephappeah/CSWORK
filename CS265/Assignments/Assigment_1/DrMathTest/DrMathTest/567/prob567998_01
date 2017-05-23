@@ -1,0 +1,44 @@
+ThreadNum: 567998
+Subject: Re: Sequences and Series
+To: garmel4@earthlink.net (Francis)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 10:13:57
+Sent: yes
+
+
+As Francis wrote to Dr. Math
+On 08/21/2004 at 08:47:12 (Eastern Time),
+>[Question]
+>I am grading tests and some of my students came up with a pattern 
+>for the following sequence that I'm questioning.  I'm wondering if 
+>there's enough evidence of a pattern to justify their answer.  The 
+>question is to write the next two terms of the sequence 5, 7, 10, 
+>15, 23, ______, _______.  Most of my students said 36, 57. But a few 
+>said 35, 52.
+>
+>[Difficulty]
+>I'm wondering if there is enough evidence of a pattern to accept the 
+>35, 52 solution. This is for a high school class.
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Francis!
+
+There are two patterns:
+
+   s(n) = F(n+3) + 2,  or
+   s(n) = n^3/6 - n^2/2 + 7*n/3 + 3.
+
+How much evidence is required is a judgment call on your part.  I'd
+give full credit to any answer, as long as the student could justify
+it.  I like the first answer better (as you do, too, apparently)
+because of Occam's Razor.  The simplest explanation is likely to be
+the right one!
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

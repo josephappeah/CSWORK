@@ -1,0 +1,59 @@
+ThreadNum: 566667
+Subject: Re: (no subject)
+To: glenda.jackson@nelsonmullins.com (tyrone)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 12:16:10
+Sent: yes
+
+
+As tyrone wrote to Dr. Math
+On 08/12/2004 at 12:06:44 (Eastern Time),
+>[Question]
+>What numbers are between 0 and 1?
+>
+>[Difficulty]
+>I don't understand
+>
+>[Thoughts]
+>1.2, 1/3
+
+Hi Tyrone,
+
+Those are both examples of numbers between zero and one.  Note that
+given any two numbers, we can always find a number halfway between
+them this way:
+
+                     first number + second number
+  number in middle = ----------------------------
+                                  2
+
+For example, we might start with 0 and 2.  The number halfway between is 
+
+  0 + 2 
+  ----- = 1
+    2
+
+We can do it again with 0 and 1.  The number halfway between is
+
+  0 + 1
+  ----- = 1/2
+    2
+
+We can do it again with 0 and 1/2.  The number halfway between is
+
+  0 + 1/2
+  ------- = 1/4
+     2
+
+And so on: 1/2, 1/4, 1/8, 1/16, 1/32.  There's no limit to how small
+we can make these numbers.  
+
+Note that just as we found numbers between 0 and 1, we could find
+numbers between 1 and 2, or 17 and 18, or 1/2 and 3/4, or ANY TWO
+NUMBERS AT ALL. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

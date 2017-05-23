@@ -1,0 +1,42 @@
+ThreadNum: 567415
+Subject: Re: Simple Calculus Question
+To: KristenR630@yahoo.com (Kristen)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 14:05:38
+Sent: yes
+
+
+As Kristen wrote to Dr. Math
+On 08/17/2004 at 23:29:51 (Eastern Time),
+>[Question]
+>How can you tell whether a rational number will terminate, simple 
+>repeat, ordelay repeat?  This is an extra credit problem for my 
+>Calculus class it is not required of us but I am curious.  My teacher 
+>gave me a hint that the numerator has nothing to do with the pattern, 
+>it all depends on the denominator.
+>
+>[Difficulty]
+>Figuring out the pattern that will answer the question.
+>
+>[Thoughts]
+>I have none?
+
+Hi Kristen,
+
+Note that if the decimal expansion is going to terminate, it's got to
+be the case that
+
+  numerator     numerator * something
+  ----------- = ---------------------
+  denominator     some power of 10
+
+
+                numerator * something
+              = ---------------------
+                       (2*5)^n
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,78 @@
+ThreadNum: 566174
+Subject: Re: Math about permutations
+To: princess_star57@yahoo.com.sg (gwen)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 16:24:12
+Sent: yes
+
+
+As gwen wrote to Dr. Math
+On 08/09/2004 at 15:47:19 (Eastern Time),
+>[Question]
+>Mandy wishes to sell her old notebooks.She place an ad in the 
+>newspaper and asks interested parties to make her an offer.She iwll 
+>have to decide which offter to take as the calls come in.She knows of 
+>three methods she could usee to make this decision.
+>A: accept the first offter she recives
+>B: accept the first offer that is better than the one jus precedin
+>c: continue to consider offers until she gets one that is better than 
+>all those preceedin.Accept that one.
+>
+>in B or C,if none of the first three offers is accepted,accept the 
+>fourth offer.
+>
+>if offers come to mandy in random order - with the best equally 
+>likely to be firs,second third or last - which of the three methods 
+>desribed would likely be most beneficial to mandy?
+>
+>You can try solvin the problem by assumin the offers are 
+>say ,$600,$800,$1000 and $1200.Since therer are four offers,you know 
+>how many different offers could possibly come in.Out of those 
+>determind how many times method A has mandy accepted the best 
+>offer,how many times method b is perferable and how many times method 
+>C does the best for her..
+>
+>*hmm..i jus need the formulae for this problem...can u please guide 
+>me and show me how to do...thanks
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>is like i don know how to start or how i should go about doin this 
+>question...
+
+Hi Gwen,
+
+Thanks for writing to Dr Math.  It's not a formula.  You have four
+offers, and only the relative sizes (smallest, largest, etc) are
+important, so you can call them
+
+  r, s, t, and u
+
+or just
+
+  600, 800, 1000, and 1200.
+
+It looks like we're assuming that she will get at least four offers
+(otherwise option A has the advantage that she won't turn down her
+only offer).  So you look at all 24 orders in which these offers could
+come in.  It might be
+
+  600, 800, 1000, 1200
+
+or it might be
+
+  1200, 800, 1000, 600
+
+or a variety of other things.  Of those 24 possibilities, how many
+times will she get $600 for her notebooks if she uses option A?  And
+how about $800?  What if she uses option B?  Which option is best?
+
+Can you work it out, now?  If you have any questions about this or
+need more help, please write back and show me what you have been able
+to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

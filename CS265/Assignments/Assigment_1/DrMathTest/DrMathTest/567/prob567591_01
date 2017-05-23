@@ -1,0 +1,31 @@
+ThreadNum: 567591
+Subject: Re: How do I find a Harmonic Mean
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 17:20:22
+Sent: yes
+
+
+As Wheeler Flemming wrote to Dr. Math
+On 08/18/2004 at 20:47:08 (Eastern Time),
+>[Question]
+>What is the 16th term of the harmonic sequence  -5/9, -1, ...?
+>
+>[Difficulty]
+>What is a harmonic mean? And once I know, how do I find the 16th 
+>term?
+>
+>[Thoughts]
+>
+
+I can't follow the sequence in the first part of your question, but 
+the harmonic mean of two numbers a and b is defined as
+
+                  1     1
+           (1/2)[--- + ---]
+                  a     b
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

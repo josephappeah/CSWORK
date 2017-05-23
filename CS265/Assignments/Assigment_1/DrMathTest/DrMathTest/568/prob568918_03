@@ -1,0 +1,54 @@
+ThreadNum: 568918
+Subject: Re: Precalculus question- solving for x
+To: Edavis955@aol.com (Emmanuel)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 16:34:43
+Sent: yes
+
+
+As Emmanuel wrote to Dr. Math
+On 08/26/2004 at 15:05:58 (Eastern Time),
+>Hi Dr.Math,
+>    Thank you. I had already done that part. I ended up with:
+>
+>
+>                2x^2(x-1)  _   3x(x^2 - 4)     
+>            --------------     -------------      => then 
+>            (x^2 -4 )(x-1)     (x-1)(x^2 -4)       
+>
+>
+>
+>
+>
+>          2x^3 - 4x^2 + 2x    _     3x^3 - 12x
+>       --------------------    ----------------------   => then  
+>           (x^2 - 4)(x-1)          (x^2 - 4)(x-1)
+>
+>
+>
+>       (-x^3  - 4x^2 - 14)
+>      ----------------------------  => then ????        
+>         (x^2 - 4) (x-1)  
+>
+>
+>This is where I get confused because nothing cancels out , and I 
+>don't understand how to solve for x when nothing is cancelling out. I 
+>don't think I 've made a mistake in the problem. I have checked it 
+>about 10 times. Any help would be greatly appreciated. Thank you.
+>                 
+>
+
+Hi Emmanuel,
+
+I'm having trouble duplicating what you're doing.  Can you verify that
+the initial expression is
+
+  2x(x - 1)     3x
+  --------- - -------
+   x^2 - 4    (x - 1)
+
+or correct that to let me know what it was? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

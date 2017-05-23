@@ -1,0 +1,69 @@
+ThreadNum: 566402
+Subject: Re: finding a number between 1-100
+To: roseanne.humphreys@det.wa.edu.au (roseanne)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 09:27:17
+Sent: yes
+
+
+As roseanne wrote to Dr. Math
+On 08/10/2004 at 20:44:50 (Eastern Time),
+>[Question]
+>My students have just sat a state provided test and it contained the 
+>following question. I have tried to solve it but cannot. Can you help?
+>
+>Wendy started counting with a number between 1 and 10 and continued 
+>to count by that number.
+>Gina chose a different number between 1 and 10 and continued to count 
+>by that number.
+>As they counted, there was only one number smaller than 100 that both 
+>girls said.
+>Which numbers could they have been counting by?
+>
+>[Difficulty]
+>I think there are many numbers that they both could have said
+>
+>[Thoughts]
+>I wrote out all the multiples of 2,3,4,5,6,7,8,9,10 and then looked 
+>for common numbers that the girls may have said. There is no one 
+>outstanding number. Am i on the wrong track? I also did up a grid of 
+>the numbers between 1-100 and eliminated all possible multiples, I 
+>was left with prime numbers. How do you solve it?
+
+Hi Roseanne,
+
+Let's say Wendy chooses to count by w's, and Gina chooses to count by
+g's.  For sure, there will be at least one number they'll both say:
+
+  g*w = w*g
+
+Do you see why?  If they count forever, they'll also say all the
+multiples of this number:
+
+  1*(g*w), 2*(g*w), 3*(g*w), ...
+
+So you're looking for two numbers, g and w, such that when you
+multiply them together, you get something that's more than half of
+100.  (Otherwise, they'll agree on both g*w and 2*g*w.)  
+
+This narrows things down considerably.  They have to choose different
+numbers, to the only possible pairs are
+
+  6*9, 7*8, 7*9, 8*9
+    
+Of course, if they choose numbers with a common factor, e.g., 6 and 8,
+then they'll agree before they get to 6*8:
+
+  6, 12, 18, 24, ...
+  8, 16, 24, ...            24 is less than 6*8
+
+So they need to choose numbers that have no common factors.  
+
+Let's recap:  You need to find two numbers, w and g, such that w and g
+have no common factors, and w*g is more than 50.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,48 @@
+ThreadNum: 566033
+Subject: Re: The infinity of the golden section
+To: cbsovtek1@yahoo.com (CBsovtek)
+From: Doctor Willae
+TimeStamp: 08/08/2004 at 18:37:57
+Sent: yes
+
+As CBsovtek wrote to Dr. Math
+On 08/08/2004 at 12:22:03 (Eastern Time),
+>[Question]
+>I am confused, under my first impression i believed that the golden 
+>section was an infinite number. Then recently I started to read a 
+>book entitled, The Golden Ratio, in which it seems like they are 
+>explaining Phi as only a section, with a beginning and end (unlike 
+>Pi.) I was just wondering if the number itself does have an ending 
+>or is it an infinite sequence like that of Pi?
+>
+>[Difficulty]
+>Nothing more than the fact that it is only confusin in its massive 
+>surrounding, not its concept.
+>
+>[Thoughts]
+>I have just recently began to try and grasp many of these concepts 
+>because its the first thing in a long time that has completely taken 
+>over my intrest, in complete awe of course. So thank you very much 
+>for your time and help and I am sure I will be writing again soon.
+
+I'm not 100% sure what you're asking.  It seems to me that you're
+asking whether or not phi (the golden ratio) is irrational.  To
+explore this, we can look at one of the many characterizations of phi.
+ One way to define phi is that phi equals phi plus 1.  We can write
+this mathematically as:
+
+ phi^2 = phi + 1
+
+You can then solve this equation using the quadratic formula.  If you
+do, you'll get an expression which includes the square root of 5.  The
+square root of 5 is known to be irrational so phi must also be irrational.
+
+I recommend you solve the quadratic equation above to prove this to
+yourself.  You'll find that there are two solutions to the equation
+(both of which are irrational).  The golden ratio is the positive root.
+
+Let me know if you have any more questions about the golden ratio.  
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

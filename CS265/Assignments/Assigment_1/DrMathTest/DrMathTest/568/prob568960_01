@@ -1,0 +1,51 @@
+ThreadNum: 568960
+Subject: Re: Calculating Expected Value In Probability
+To: a.abaza@bluewin.ch (Amr)
+From: Doctor Anthony
+TimeStamp: 08/26/2004 at 17:50:52
+Sent: yes
+
+
+As Amr wrote to Dr. Math
+On 08/26/2004 at 15:25:02 (Eastern Time),
+>[Question]
+>Given X1, X2,..Xn values that are independatand take the case where
+>P(Xi=k)p(1-p)^k-1
+>Calculate the eexpected value of X
+>
+>[Difficulty]
+>I used the formula E[X]= infinity
+>                         Sum ( )  KP(X=K) 
+>                         k=1 
+>and I got the following  infinity
+>                         Sum ( )  KP(1-p)^k-1
+>                         k=1
+>My problem now is thatI am not able to simply this equation to get 
+>the right answer of 1/p
+>
+>[Thoughts]
+>I tried using the laws of exponents using a^r/a^s = a^r-s but in 
+the 
+>end got p/1-p
+
+
+x is the number of binomial trials up to and including first success.
+
+E(x) = 1.p + 2.(1-p).p + 3.(1-p)^2.p + 4.(1-p)^3.p + ....
+
+Put 1-p = q and we get
+
+  E(x) = p.[1 + 2q + 3q^2 + 4q^3 + ...... ]
+ q.E(x) = p[     q + 2q^2 + 3q^3 + .... ]    
+---------------------------------------------  subtract
+(1-q).E(x) = p[1 + q + q^2 + q^3 + ......
+
+(1-q).E(x) = p.(1/(1-q))   since  1-q = p this gives
+
+     E(x) = 1/p
+
+     
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

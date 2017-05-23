@@ -1,0 +1,37 @@
+ThreadNum: 567434
+Subject: Re: difference between a decimal place and a remainder
+To: caretakerjay@hotmail.com (Jason)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 08:54:33
+Sent: yes
+
+Hi, Jason.
+
+As Jason wrote to Dr. Math
+On 08/18/2004 at 03:03:57 (Eastern Time),
+>[Question]
+>Q. 44 divided by 5 = 8 r 8, this is what i get when worked out but 
+my 
+>daughters teacher says the answer is     8 r 4
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+The remainder is always less than the divisor, so your answer cannot 
+be right. What you've really got is 8.8, not 8 r 8. The two are the 
+same only when the divisor is 10.
+
+The remainder is what's left over after you've grouped everthing you 
+can into groups the size of the divisor. We have 44 items, and group 
+them into 8 groups of 5 each; there are 4 items remaining ungrouped. 
+If you multiply the quotient (8) by the divisor (5) and add the 
+remainder, you should get the dividend (44). 
+
+Does this explanation help?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

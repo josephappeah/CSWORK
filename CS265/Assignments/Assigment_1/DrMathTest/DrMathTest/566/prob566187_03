@@ -1,0 +1,41 @@
+ThreadNum: 566187
+Subject: Re: circle-circle inner tangent line construction
+To: ghjk@rocketmail.com (Fotis)
+From: Doctor Tom
+TimeStamp: 08/09/2004 at 17:27:38
+Sent: yes
+
+
+As Fotis wrote to Dr. Math
+On 08/09/2004 at 17:16:58 (Eastern Time),
+>Amazing!!!!!!!
+>Soooooo fast???!!!!!!
+>Thank you very much!
+>But...
+>We don't know the radii at all.
+>We have to make a construction.
+>This is an exercise that I have found from a Geometry book and it is 
+>before the "Similarity of the triangles" chapter.
+>Any other solution...
+>Please!
+
+You can find the centers of the circles by constructing the
+perpendicular bisectors of two chords and finding their
+intersection.  From there it's easy to find the radii.
+
+Also, the point P I mentioned in the last message is really
+a center of projection of which the tangent points are
+one pair.  If you can find any other pair that are in the
+same projection, you can connect them and they will
+cross at P.
+
+Here's one way to do that.  Construct perpendiculars to the
+line connecting the centers and connect the two
+points on opposite sides of the center line where the
+perpendiculars intersect the two circles.  This will also
+be point P.  Once you know P, construct a tanget to one
+circle through P and it will be tangent to the other.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

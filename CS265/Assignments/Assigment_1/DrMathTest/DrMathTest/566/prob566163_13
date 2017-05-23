@@ -1,0 +1,36 @@
+ThreadNum: 566163
+Subject: Re: Algebra II --- equations with fractions
+To: sweetygirl1213@yahoo.com (Deanna)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 18:45:56
+Sent: yes
+
+
+As Deanna wrote to Dr. Math
+On 08/12/2004 at 18:06:13 (Eastern Time),
+>so... 3 = -1/4(5) + b(intercept)
+>
+>      then 3= -1.25 + b
+>
+>      So-- b, the intercept is 4.25 right? 
+>
+
+Hi Deanna,
+
+Exactly.  And once you know b, you know the whole equation:
+
+  y = (-1/4)x + b
+
+To make sure it's right, you should check both of your points:
+
+  (5,3)      3 = (-1/4)5 + 4.25         Is this true?
+
+
+  (1,4)      4 = (-1/4)1 + 4.25         Is this true?
+
+Do you think you'd be able to solve the same kind of problem again
+using different numbers? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

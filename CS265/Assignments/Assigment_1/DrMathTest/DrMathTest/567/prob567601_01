@@ -1,0 +1,41 @@
+ThreadNum: 567601
+Subject: Re: A Circle Definition
+To: dpapazoni@yahoo.com (Darrell)
+From: Doctor George
+TimeStamp: 08/19/2004 at 08:27:23
+Sent: yes
+
+
+As Darrell wrote to Dr. Math
+On 08/18/2004 at 21:39:58 (Eastern Time),
+>[Question]
+>Has anyone defined a circle without reference to a center point, 
+yet?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Darrell,
+
+Thanks for writing to Doctor Math.
+
+Multiple definitions are possible for most things, but it is best to 
+use the simplest one. The way to get alternate definitions is by 
+starting with a different property of the thing being defined.
+
+Here is another possible definition of a circle. A circle consists 
+of a point A, a point B not identical to A, and the locus of all 
+points C such that angle ACB is 90 degrees.
+
+From this definition you should be able to prove that there is a 
+center point D such that the distance from D to any point on the 
+circle is constant.
+
+Does that make sense? Write again if you need more help.
+
+- Doctor George, The Math Forum
+  <http://mathforum.org/dr.math/>
+

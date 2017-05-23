@@ -1,0 +1,58 @@
+ThreadNum: 566241
+Subject: Re: Hexagon
+To: helenanne88@hotmail.com (Anne)
+From: Doctor Douglas
+TimeStamp: 08/19/2004 at 15:03:33
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/18/2004 at 21:39:23 (Eastern Time),
+>Dear Dr Douglas
+>
+>Thank you for writing.
+>
+>I have thought of a possible way in obtaining the answer.  What you 
+>say i true.  There are many ways in which one can fill a container 
+>with the ping pong balls in other words other ways of packaging the 
+>spheres.
+>
+>I did more research on sphere packaging and came across a website 
+>which I found rather helpful.
+>
+>What I did was I built a model of the hexagonal prism using 
+>Microsoft Powerpoint. I realise I cant give an answer for every 
+>possible way.  If I use the volume method, the answer may not seem 
+>so accurate because I would need to multiply the amount with a 
+>percentage. (which seems to vary in each website I visit - some 
+>mentioning 53% and some 74%).
+>
+>By using the diameter of the ball which is 40mm i.e 4cm I built the 
+>hexagon first and then calculated how many balls which I can fit in 
+>there.  Lastly I multiply it with the length which is 80cm (which 
+>would mean 20 layers of the total numbers in the hexagon).
+>
+>I know this may not be right, but I have merely chosen a possible 
+>way of packaging the balls then calculated the total.
+>
+>It is very hard for me to explain.  But if you have an email 
+>address, perhaps I could send you my diagram which may explain 
+>further what I mean.
+>
+>
+>Once again, thank you for being so patient with me.
+>
+>
+
+we don't have an easy way of doing this.  The most common way for
+us to examine a diagram is for you to post it on some website, and
+then give us the URL.
+
+For a hexagonal prism with known dimensions like this, we probably
+don't want to use a packing factor such as 74%.  We should actually
+try to fit the balls in (at least using geometry) and compute the
+volume directly.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

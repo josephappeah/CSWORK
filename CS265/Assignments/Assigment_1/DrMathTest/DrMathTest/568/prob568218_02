@@ -1,0 +1,34 @@
+ThreadNum: 568218
+Subject: Re: HIgher
+To: kekam22@aol.com (kam)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 08:30:54
+Sent: yes
+
+
+As kam wrote to Dr. Math
+On 08/23/2004 at 07:56:02 (Eastern Time),
+>[Question]
+>f(x)=(x-2)e^(x/3) find the area and the x-axis between x=-5 and x=5 
+>giving your answer in 2 decimal places.
+>
+>[Difficulty]
+>I do not know how to do the above and how to get a decimal answer
+>
+>[Thoughts]
+>
+
+Hello Kam,
+
+int((x-2)*e^{x/3}*dx) should be divided into two parts:
+
+int((x-2)*e^{x/3}*dx)=int(x*e^{x/3}*dx) - 2*int(e^{x/3}*dx).
+
+The second part is easy.  Do the first part using "integration by parts."  
+
+After doing all of this and evaluating, you should find 5.66627, approximately.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

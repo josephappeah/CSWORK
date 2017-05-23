@@ -1,0 +1,115 @@
+ThreadNum: 566301
+Subject: Re: Exponential Proof
+To: joey@fredwilson.com (Joey)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 14:41:26
+Sent: yes
+
+
+Hi Joey,
+
+Thanks for the URL.  
+
+>[Question]
+>I work at an engineering firm and we are studying for the EIT and the 
+>PE.  We came across this problem...
+>
+>lim x--> inf (1+1/x)^x
+>
+>I saw on your site that you had a response about this already.  I 
+>know that this limit is e, however, when you follow your instruction 
+>you get the inverse of e.  Instead of 2.718, you get .368.
+>
+>[Difficulty]
+>I can foolow all of the steps that you have laid out, but I cannot 
+>figure out why it comes out to be e^-1.
+>
+>[Thoughts]
+>ln y = x * ln(1 - 1/x)
+>
+>ln y = -1/(1-1/x)
+>
+>ln y = -1
+>
+>y = e^-1
+
+
+Let's take it one step at a time.  We'll start with
+
+  ln(y) = x * ln(1 - 1/x)
+
+Note that 
+
+  u * x = u * (x/1)
+
+        = u / (1/x)
+
+which gives us 
+
+          ln(1 - 1/x)
+  ln(y) = -----------
+             1/x
+
+The limit as x approaches infinity is 0/0, so we apply L'Hopital's
+rule, i.e., we compute the derivative of the numerator and denominator
+separately.  First, the numerator.  Using the chain rule, we get
+
+   d                      1           d
+  -- ln(1 - 1/x) = --------------- * -- (1 - 1/x)
+  dx               (1 - 1/x) ln(e)   dx
+
+                       1         d       d
+                 = --------- * [-- 1  - -- 1/x]
+                   (1 - 1/x)    dx      dx
+
+                       1             d
+                 = --------- * [0 - -- 1/x]
+                   (1 - 1/x)        dx
+
+                       -1       d
+                 = --------- * -- 1/x
+                   (1 - 1/x)   dx
+
+Which gives us 
+
+        -1       d
+    --------- * -- 1/x
+    (1 - 1/x)   dx
+  -----------------------
+          d
+         -- 1/x
+         dx
+
+The derivatives cancel, leaving us with 
+
+                             -1
+  lim     ln(y) = lim     ---------
+    x->oo           x->oo (1 - 1/x)
+
+
+                = -1
+
+Of course, this is 1/e, and not e, because we started with 
+
+  (1 - 1/x)^x
+
+instead of 
+
+  (1 + 1/x)^x
+
+If we take the limit of the latter expression, the only thing that
+changes is the sign, i.e., 
+
+   d               d      d
+  -- [1 + 1/x] = [-- 1 + -- 1/x]
+  dx              dx     dx
+
+                       d
+               = [0 + -- 1/x]
+                      dx
+
+Does this answer your question? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

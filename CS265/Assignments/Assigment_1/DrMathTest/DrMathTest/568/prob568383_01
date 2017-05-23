@@ -1,0 +1,54 @@
+ThreadNum: 568383
+Subject: Re: how do you solve using interval notation?
+To: alyssa_lee2005@hotmail.com (Lyss )
+From: Doctor Fenton
+TimeStamp: 08/24/2004 at 07:54:17
+Sent: yes
+
+
+As Lyss  wrote to Dr. Math
+On 08/23/2004 at 23:22:57 (Eastern Time),
+>[Question]
+>I'm confused on what interval notation is. On my last quiz my teacher 
+>asked me to solve -1 < (3x+7)/6 < 5 and write the solution using 
+>interval notation. How do you solve this w/ the greater then and 
+>lesser then signs and what is interval notation? 
+>
+>[Difficulty]
+>How do you solve this w/ the < > signs in it? Its confusing because 
+>its not a regular problem. 
+>
+>[Thoughts]
+>I'm thinking you set it to zero?? But I'm not sure because of the 
+>signs..I'm not sure how you isolate the x term..
+
+Hi Lyss,
+
+Thanks for writing to Dr. Math.  You are given the inequality
+
+   -1 < (3x+7)/6 < 5  .
+
+You need to modify it using rules of algebra until it is in the
+equivalent form
+
+   a < x < b .
+
+That's what "expressing the answer in interval form" means.
+
+You need to use the algebraic rules for inequalitites:
+
+if a < b , then for any c,    a + c < b + c ;
+if a < b and c > 0, then        a*c < b*c ;
+if a < b and c < 0, then        a*c > b*c .
+
+You want to get x by itself in the middle of the inequality.
+The first step would be to multiply the inequality by 6.  Can you
+see what the next steps would be?
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

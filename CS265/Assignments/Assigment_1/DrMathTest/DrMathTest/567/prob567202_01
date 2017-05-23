@@ -1,0 +1,57 @@
+ThreadNum: 567202
+Subject: Re: what is the LCM of 5, 20
+To: tsanni/@peoplepc.com (Territa)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 08:12:13
+Sent: yes
+
+
+As Territa wrote to Dr. Math
+On 08/16/2004 at 19:46:35 (Eastern Time),
+>[Question]
+>I don't understand when they ask for least when the teacher says list 
+>the least LCM of 5,20?
+>
+>[Difficulty]
+>The wording like least LCM of 5 is 5 or 1
+>
+>[Thoughts]
+>I figured the LCM for 5 is 5
+
+Hi Territa,
+
+The abbreviation LCM stands for 'least common multiple'.  To
+understand what that is, you need to understand all three words.  
+
+Let's look at the numbers 4 and 6.  I can generate the multiples of 4
+by counting by 4's:
+
+  4, 8, 12, 16, 20, 24, ...
+
+I can generate the multiples of 6 by counting by 6's:
+
+  6, 12, 18, 24, 30, 36, ...
+
+Now, if I compare those two lists, I see that some multiples appear in
+both lists:
+
+  4,  8, 12, 16,     20, 24, 28,    32, 36, ...
+          |               |              |
+    6,   12,     18,     24,    30,     36, ...
+
+Because 4 and 6 _share_ these multiples, or have them 'in common', we
+say that the 'common multiples' of 4 and 6 are
+
+  12, 24, 36, ...
+
+Of all the common multiples in the list, only one can be the smallest,
+or 'least'.  In this case, that's 12.  So we say that the 'least
+common multiple' of 4 and 6 is 12.
+
+Does this make sense?  Can you use the same reasoning to find the
+least common multiple of 5 and 15?  Try it and let me know what you
+come up with. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

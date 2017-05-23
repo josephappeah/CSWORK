@@ -1,0 +1,52 @@
+ThreadNum: 567301
+Subject: Re: Polyhedron with 8 vertices
+To: angclnet-2004@yahoo.com.br (Angelo)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 15:15:25
+Sent: yes
+
+
+As Angelo wrote to Dr. Math
+On 08/17/2004 at 13:01:12 (Eastern Time),
+>[Question]
+>What is the figure formed by 8 vertices that is not a cube? In a cube
+>each side is composed of 4 vertices pertaining to the same plane, but
+>the figure I'm talking about may have 4 vertices in a side that are
+>non coplanar. How would I calculate it's volume?
+>
+>[Difficulty]
+>I can't find the right name for it, as it looks like a cube since it
+>has  8 vertices, but it has up to 12 sides (each side of the cube can
+>be irregular doubling the number of sides) making it something like a
+>dodecahedron.
+>
+>[Thoughts]
+>I could came up visualy with a way of calculating the volume, dividing
+>the figure into 6 tetrahedrons, taking one vertice as the top and half
+>of each opposing side as a base. In a cube, for example, each vertice
+>has 3 oposing sides (non adjacent).
+
+Hi Angelo,
+
+Thanks for writing to Dr Math.  There are several polyhedra with 8
+vertices, so can you be more specific.  For example, how many faces
+are there?  How many sides does each face have?  How many edges are
+there?  How many edges meet at each of the 8 vertices?  For example,
+your answers might be:
+
+  11 faces, 10 with three sides (triangles), 1 with four sides,
+  17 edges,
+  6 vertices meet 4 edges each, 2 vertices meet 5 edges each.
+
+This polyhedron doesn't have a special name - it would be called an
+"undecahedron" because it has 11 faces.  In fact, much like polygons,
+very few polyhedra have special names other than to count to number of
+faces.  Yours is probably one of those.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

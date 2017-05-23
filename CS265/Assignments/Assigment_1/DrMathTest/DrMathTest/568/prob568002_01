@@ -1,0 +1,33 @@
+ThreadNum: 568002
+Subject: Re: another dispute
+To: brian.williams9@ntlworld.com (Brian Williams)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 10:32:50
+Sent: yes
+
+
+As Brian Williams wrote to Dr. Math
+On 08/21/2004 at 09:58:27 (Eastern Time),
+>[Question]
+>is there a simple formula for converting a number in base 4 to base 10
+>
+>[Difficulty]
+>I know the answer is 30 from tables but cannot work out how that was 
+>arrived at.
+>
+>[Thoughts]
+>
+
+Hello Brian,
+
+I'll assume that the number is a positive integer in base 4.  So, it looks like, for example,
+a*4^3+b*4^2+c*4+d or, even more concretely, 3201.  To convert it to base 10, just do 
+this:
+
+3*4^3+2*4^2+0*4^1+1 = 3*64+32+1 = 225
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

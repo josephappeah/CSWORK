@@ -1,0 +1,51 @@
+ThreadNum: 567697
+Subject: Re: cubic metre
+To: ahammedmm019@yahoo.com (ahammed)
+From: Doctor Rick
+TimeStamp: 08/29/2004 at 19:31:59
+Sent: yes
+
+Hi, Ahammed. 
+
+As ahammed wrote to Dr. Math
+On 08/29/2004 at 15:31:15 (Eastern Time),
+>I have a wood 10m(lenght)50cm perimeter(the distance around the 
+>outside)how much is the cubic metre? and how much is 1 cubic metre 
+>exactly?
+
+Is this the same problem as the first one I answered, except for the 
+numbers? Now you've made clear that the 50 cm is the circumference 
+(the word we use for the perimeter of a circle) of the cylindrical 
+shape. From the circumference we can find the radius, using the 
+formula for the circumference
+
+  Circumference = 2*pi*Radius
+
+and solving it for the radius:
+
+  Radius = Circumference / (2*pi)
+
+If the circumference is 50 cm, the radius is
+
+  Radius = 50 cm / (2 * 3.1416)
+         = 7.96 cm
+
+Then you can go back to the formula I showed you before:
+
+    Volume = pi * Height * Radius^2
+
+to calculate the volume.
+
+I don't know what you mean by "how much is 1 cubic metre exactly?" Do 
+you mean what the length should be in order to make the volume 1 m^3, 
+if the radius remains 7.96 cm? We can solve the volume formula to get 
+a formula for the height when we know the volume and the radius:
+
+  Height = Volume / (pi * Radius^2)
+
+Use this formula with Volume = 1 m^3 and Radius = 7.96 cm = 0.0796 m 
+to find the height (length) of the cylinder.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

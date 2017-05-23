@@ -1,0 +1,46 @@
+ThreadNum: 568013
+Subject: Re: perimeter of a sector of a circle
+To: michelle37429@hotmail.com (michelle)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 14:36:49
+Sent: yes
+
+Hi, Michelle.
+
+As michelle wrote to Dr. Math
+On 08/21/2004 at 12:25:00 (Eastern Time),
+>[Question]
+>I have been struggling with this question:
+>If the area of the sector of a circle is 52.39ft2 and the radius is 
+>10.5 ft what is the perimeter of the sector of a circle to the 
+>nearest foot???
+>
+>[Difficulty]
+>I tried using the circumference formula for a circle and could not 
+>
+>[Thoughts]
+>I have tried multiplying the radius times pi, I have tried all the 
+>conversion formulas in my chapter and I still dont get the anwser in 
+>the back of the book.  Please help....
+
+I wouldn't expect you to find one formula for this; you need to 
+figure out how to break the problem into steps, each of which can be 
+solved by a formula.
+
+What do you need to know in order to find the perimeter of a sector? 
+You may not have a specific formula for the perimeter of a sector 
+either, but it's generally easy to write your own formula for the 
+perimeter of a shape: it's just the sum of the lengths of the sides. 
+What, besides the radius, would you like to know so that you could 
+find the perimeter?
+
+Then, as a second step, consider how you can calculate this quantity 
+that you need, in terms of the given information.
+
+Once you've planned the two steps, you can execute them -- in reverse 
+order to the way I proposed that you plan them. (This planning method 
+is goal-driven: deciding what is needed to reach the goal.)
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

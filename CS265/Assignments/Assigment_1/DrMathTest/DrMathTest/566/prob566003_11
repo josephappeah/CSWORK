@@ -1,0 +1,33 @@
+ThreadNum: 566003
+Subject: Re: Symbolic Logic
+To: iceicexiro@yahoo.com (N. N.)
+From: Doctor Achilles
+TimeStamp: 08/09/2004 at 02:25:04
+Sent: yes
+
+
+As N. N. wrote to Dr. Math
+On 08/08/2004 at 17:21:01 (Eastern Time),
+>Here are the 3 rules.
+>The conjunction rule: if given p, q, then conclude p ^ q
+>Dilemma: if given p -> q, r -> s, p v r, then conclude q v s
+>and Addition: if given p, conclude p v q. 
+>Thank you for your time.
+
+Hi,
+
+Almost all the logic I ever learned personally relied on a few other 
+rules.  The most important of which was this:
+
+You are allowed to make any assumption you like in a proof, as long 
+as you note clearly that you are doing so.
+
+If you assume X and derrive Y, then you have proven that (X -> Y).
+
+Without that rule I personally cannot see a way to do your proofs.  I 
+will leave this problem in the Dr. Math inbox where other members of 
+the Dr. Math team can look at it and maybe help you out.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

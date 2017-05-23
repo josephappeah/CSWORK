@@ -1,0 +1,43 @@
+ThreadNum: 567949
+Subject: Re: Mathematical Principle
+To: aimmelman@chevrontexaco.com (Abri Immelman)
+From: Doctor Peterson
+TimeStamp: 08/20/2004 at 22:51:20
+Sent: yes
+
+Hi, Abri.
+
+As Abri Immelman wrote to Dr. Math
+On 08/20/2004 at 20:14:44 (Eastern Time),
+>[Question]
+>What do you call the mathematical principle of the following:
+>
+>a + b + c + d = a x b x c x d
+>1.2 + 1.25 + 1.5 + 3.16 = 1.2 x 1.25 x 1.5 x 3.16
+>7.11 = 7.11
+>
+>[Difficulty]
+>I came across this phenomenon and didnt know if there is an actual 
+>math principle for it.
+>
+>[Thoughts]
+>It doesnt seem to conform to any integer principles. Maybe because of 
+>the decimals used?
+
+It doesn't illustrate any general principle; it is just a rather hard
+problem, essentially a Diophantine equation (with one solution). One
+key to solving it is to express it in terms of cents rather than
+dollars, so that you are looking for whole number values for four
+variables.
+
+See this page:
+
+  Adding and Multiplying to Get 7.11
+  http://mathforum.org/library/drmath/view/55897.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

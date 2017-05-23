@@ -1,0 +1,67 @@
+ThreadNum: 567380
+Subject: Re: Paradoxically difficult problem in analytic geometry
+To: jimf@humboldt1.com (Jim Fisher)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 21:39:08
+Sent: yes
+
+
+As Jim Fisher wrote to Dr. Math
+On 08/17/2004 at 21:03:21 (Eastern Time),
+>[Question]
+>Given two points, x1,y2 and x2,y2 on the circumference of a circle, 
+>plus the radius of the circle, what is the equation of the circle?
+>
+>[Difficulty]
+>I keep getting zero or infinity?  I thought that I was setting it up 
+>correctly, but I must be missing something.
+>
+>[Thoughts]
+>Since r^2=r^2, the using the general equation of a circle, ie
+>(x-h)^2 + (y-k)^2 = r^2, then
+>(x1-h)^2 + (y1-k)^2 = (x2-h)^2 + (y2-k)^2  ; this elimates the 
+>squared terms in h and k.  Now I tried using the perpendicular 
+>bisector of the two points which runs thru the circle's center, and 
+>get an equation of a straight line:  y=mx + b; putting in the values 
+>of h and k then becomes k=mh + b.  I cannot find h and k.  
+
+Thanks for writing to Ask Dr. Math, Jim!
+
+There are two such circles, one on each side of the line through the
+two given points.
+
+You have made a good start.  The equation of the first degree in
+h and k is the equation of the line connecting the two centers of
+the two solution circles.
+
+Both of the centers lie at distance r from point (x1,y1), so you
+also know that
+
+   (x1-h)^2 + (y1-k)^2 = r^2.
+
+Solve this equation and the linear equation together to find the
+two pairs (h,k) which are the centers.
+
+For example, if the points are (-1,-5) and (2,1), and the radius
+is 4, then you have
+
+   (h+1)^2 + (k+5)^2 = (h-2)^2 + (k-1)^2,
+   2*h + 1 + 10*k + 25 = -4*h + 4 - 2*k + 1,
+   6*h + 12*k = -21,
+   2*h + 4*k = -7,
+   k = (-1/2)*h - (7/4)
+
+   (h+1)^2 + (k+5)^2 = 16,
+   (h+1)^2 + (-h/2-7/4+5)^2 = 16,
+   h^2 + 2*h + 1 + h^2/4 - 13/4*h + 169/16 = 16,
+   (5/4)*h^2 + (-5/4)*h - 71/16 = 0,
+   h^2 - h - 71/20 = 0,
+   h = (1+-sqrt[1+71/5])/2 = (5+-2*sqrt[95])/10,
+   k = (-20-+sqrt[95])/10.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

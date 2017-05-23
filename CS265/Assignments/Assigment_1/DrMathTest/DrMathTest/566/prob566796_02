@@ -1,0 +1,60 @@
+ThreadNum: 566796
+Subject: Re: length of sides
+To: rimbri@aol.com (Rocco)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 10:17:06
+Sent: yes
+
+
+As Rocco wrote to Dr. Math
+On 08/13/2004 at 07:29:36 (Eastern Time),
+>I would also like to know the heieght of the triangle.
+
+Hello, Rocco --
+
+You have two separate questions here....
+
+Regarding the "height" of the triangle, we can't tell what "the" 
+height is, because every triangle has three different "heights", 
+depending on which side you consider to be the "base".  In your 
+particular example, with the area being 126,324 square feet and one 
+side being 760 feet, if we consider that known side to be 
+the "base", then we can determine the height of the triangle (using 
+the triangle formula area equals one-half base times height) to be 
+about 332.4 feet.
+
+But that is only one of the possible answers for the height, because 
+the "heights" measured using each of the other sides as the "base" 
+will (in most cases) be different.
+
+As for the lengths of the other two sides (and therefore the heights 
+considering those sides as the base), there is not enough 
+information to determine them.  Consider the following crude diagram:
+
+           R
+  P <------------------------------------------------> Q
+           |
+           | 332.4 ft
+           |
+      A ------------------ B
+           S   760 ft
+
+Line AB is the known side of your triangle, with length 760 feet.  
+RS is the height of the triangle using AB as the base; we have 
+determined its length to be about 332.4 feet.  The third corner of 
+your triangle, C, could be ANYWHERE on the (infinitely long) line 
+PQ; regardless of where it is on that line, the base is still 760 
+feet and the height is still 332.4 feet, so the area is 126,324 
+square feet.
+
+In order to determine the lengths of the other two sides, we need 
+some more information, like one (or more) of the angles of the 
+triangle.
+
+I hope this helps.  Please write back if you can provide any further 
+information about the shape of the piece of land; or if you have any 
+further questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

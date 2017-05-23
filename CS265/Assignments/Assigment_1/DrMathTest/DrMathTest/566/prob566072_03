@@ -1,0 +1,84 @@
+ThreadNum: 566072
+Subject: Re: combinatorial proof 
+To: danawu@gmail.com (wuda)
+From: Doctor Anthony
+TimeStamp: 08/12/2004 at 19:23:36
+Sent: yes
+
+
+As wuda wrote to Dr. Math
+On 08/08/2004 at 19:52:22 (Eastern Time),
+>[Question]
+>Show combinatorially that
+>C(2^j, k) is even for all k = 1, 2, ... , 2^(j-1)
+>
+>[Difficulty]
+>thinking of a scenario that counts things in the way described
+
+A combinatorial proof is close to an ordinary algebraic proof.
+
+If you have say 8 different objects.
+
+                                       8
+You can choose 1 object in 8 ways  =  ---
+                                       1
+
+                             8 x 7
+You can choose 2 objects in  -----  ways
+                             1 x 2
+
+you divide by the number of ways of arranging the objects, since if 
+collected as AB this would be the same group as BA.
+
+                             8 x 7 x 6     16 x 7 x 3
+You can choose 3 objects in ----------  = -----------
+                             1 x 2 x 3      1 x 2 x 3
+
+every alternative selection gives another even term on the top line 
+and builds up the powers of 2 in the numerator.  As we show below,  
+starting with a power of 2 in the numerator and 1 in the 
+denominator, the top line will always be to a higher power of 2 than 
+the bottom line and will therefore lead to an even expression.  
+Because we started with 2^3 we continue to k = 2^2 = 4 terms, and 
+the last term to consider has 4 terms in the numerator.  Collecting 
+the powers of 2 on top and bottom lines we get:
+
+      8 x 7 x 6 x 5      2^4 x 7 x 3 x 5
+     ---------------  = -----------------
+      1 x 2 x 3 x 4       1 x 2^3 x 3
+
+and because the highest power of 2 on the bottom line is at least 
+one less than on the top line, we have an even expression.
+
+Although I have used 2^3 as the value of 2^j, the argument is 
+completely general and would apply for any value of j.
+
+
+
+
+>
+>[Thoughts]
+>since the problem asks to choose k elements out of 2^j elements, i 
+>tried thinking of situations where there's always an even number in 
+>the total set.  so i thought of pairs shoes.  
+>to select any k things from a set of j pairs of shoes doesn't 
+exactly 
+>make the evenness for the number of ways that this could be done 
+>clear.
+>if you line up all the shoes, and want to select 1 shoe,
+>it's clear that there are 2^j choices, which is even.
+>if you select 2 shoes, there are 2^j*(2^j - 1) choices.
+>3 shoes: 2^j*(2^j - 1)*(2^j - 2) = 2^j*(2^j - 1)* 2^(j-1) = 2^(2j-1)
+*
+>(2^j - 1)    
+>i thought maybe that shows there's always a power of 2 in the 
+>solution, and since even*odd is still even, that concludes the 
+>proof.  
+>
+>i'm not sure if this proof is correct or combinatorial.
+>thanks so much for your help!
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

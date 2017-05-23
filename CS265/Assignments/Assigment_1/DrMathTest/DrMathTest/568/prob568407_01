@@ -1,0 +1,108 @@
+ThreadNum: 568407
+Subject: Re: lat/lon calculation
+To: kashiramanathan@mail.com (Kashi Ramanathan)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 18:23:57
+Sent: yes
+
+Hi, Kashi, welcome to Ask Dr. Math.
+
+As Kashi Ramanathan wrote to Dr. Math
+On 08/24/2004 at 05:23:06 (Eastern Time),
+>[Question]
+>Sir
+>
+>Could you just clarify me about the distance calculation using Lat & 
+>Long
+>
+>How can i calculate distance without using any specific calculator
+>
+>suppose my co-ordinates are
+>
+>23 01 53/72 34 54
+>
+>23 02 53/72 35 56
+>
+>wht difference does a second or a minute make
+>
+>could you just clarify
+>
+>as i work usually in field don't have time to calculate using 
+>calculator
+>
+>Could just suggest any simple method to calculate distance with 
+>changes in Seconds/Minutes 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+I don't understand your statement that you don't have time to 
+calculate using a calculator. If you don't have time for that, what 
+do you have time for? An accurate calculation is too complex to do by 
+hand; even an approximate method, which I will explain, is more than 
+I would want to do without a calculator (or computer of some kind).
+
+We have several formulas for distance given latitudes and longitudes 
+in the Dr. Math Archives:
+
+  Distance between two points on the earth
+  http://mathforum.org/library/drmath/view/51722.html
+
+  Haversine Formula
+  http://mathforum.org/library/drmath/view/51879.html
+
+If your points will not be separated any further than in your 
+example, and if you don't need great precision, then the planar 
+approximation will do:
+
+  Planar Approximation
+  http://mathforum.org/library/drmath/view/62720.html
+
+Loosely speaking, "a minute is a mile." That is, a difference of 1 
+minute of arc corresponds to a difference on the order of 1 mile. If 
+you're using NAUTICAL miles, and the difference is 1 minute of 
+latitude along the same line of longitude, this equation is very 
+nearly exact. A statute mile is a bit smaller than a nautical mile, 
+so a minute is a bit more than a statute mile. A minute of longitude, 
+on the other hand, if you're not on the equator, corresponds to less 
+than a mile -- the distance is less the closer you get to the poles 
+(where the lines of longitude come together).
+
+I'll put the planar approximation here:
+
+  R = 3956 mi
+  x = (lon2-lon1)*cos(lat1)*pi/180
+  y = (lat2-lat1)*pi/180
+  d = R * sqrt(x^2 + y^2)
+
+The latitude and longitude differences are in degrees. Your example 
+would be done like this:
+
+  lat1 = 23 deg 01' 53" = (23 +  1/60 + 53/3600) deg = 23.03139 deg
+  lon1 = 72 deg 34' 54" = (72 + 34/60 + 54/3600) deg = 72.58167 deg
+  lat2 = 23 deg 02' 53" = (23 +  2/60 + 53/3600) deg = 23.04806 deg
+  lon2 = 72 deg 35' 56" = (72 + 35/60 + 56/3600) deg = 72.59889 deg
+
+  lat2 - lat1 = 0.01616 deg
+  lon2 - lon1 = 0.01722 deg
+
+  x = 0.01722 * cos(23.03139) * 3.14159 / 180 = 0.000276589394
+  y = 0.01616 * 3.14159 / 180                 = 0.000282045207
+  d = 3956 * sqrt(0.000276589394*0.000276589394 + 
+                  0.000282045207*0.000282045207)
+    = 1.56 miles
+
+I can't make it any simpler than this. If you're always working close 
+to the same latitude, we could just do the cosine calculation once 
+and put together a formula for you. I could even rework the formula 
+in terms of minutes or seconds rather than degrees, and put the 
+distance in feet or meters if that is more useful. You'd still need 
+to square two numbers and take the square root of their sum; I can't 
+make it any simpler than that.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,45 @@
+ThreadNum: 567054
+Subject: Re: solving hard inequalities inequality unlike terms factoring
+To: jnizzle32@yahoo.com (Jay)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:16:59
+Sent: yes
+
+
+As Jay wrote to Dr. Math
+On 08/15/2004 at 20:05:53 (Eastern Time),
+>[Question]
+>How can I solve an inequality with terms that don't factor (easily), 
+>such as:
+>
+>x^3 - x^2 - x + 1 > 0
+>
+>[Difficulty]
+>If all the terms shared a common factor, like an "x", this wouldn't 
+>be a problem - just factor, reverse "FOIL". But the 1 at the end is 
+>the obstacle. Even if you disregard the 1 and factor an x from the 
+>rest of the terms on the left side,(x^2 - x - 1) doesn't factor 
+>without the quadratic equation. Am i missing something?
+>
+>[Thoughts]
+>first, i tried to change 1 into (x/x) so i could factor out an x so 
+>that the left side was (x)(x^2 -x -1 + 1/x) but i got stuck. next, i 
+>tried to move the 1 to the right side, making the inequality 
+>x^3...>-1, but this is wrong because to factor you need a zero on the 
+>right side. here, i am stuck.
+
+Hi Jay,
+
+Thanks for writing to Dr Math.  Did you notice that
+
+  x - 1
+
+is a factor of the left side of the equation?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

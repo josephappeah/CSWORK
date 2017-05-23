@@ -1,0 +1,60 @@
+ThreadNum: 567299
+Subject: Re: sec graph
+To: slinky_apbt@yahoo.com (Irene)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 21:10:41
+Sent: yes
+
+
+As Irene wrote to Dr. Math
+On 08/17/2004 at 12:56:04 (Eastern Time),
+>[Question]
+>Basically I am trying to find teh domain, range, period & function 
+of 
+>the secant graph.
+>
+>1.)Because the secant graph has asymptotes how do I find the domain?
+>2.)I believe the range is (-inf, -1] U [1, inf),  is this correct?
+>3.)Because the secant graph is symmetrical to the x-axis, this would 
+>make it "not-a-function"... am i correct?
+>
+>Thank you for your help.
+>
+>
+>
+>[Difficulty]
+>1.)b/c of the asymptotes It is difficult to visualize the domain.
+>2.)I think I understand finding the range
+>3.)I am almost sure that when it's symmetrical to the x-axis, there 
+>is no function.
+>
+>[Thoughts]
+>I believe I have the range correct as it is un-defined @ zero, and 
+>the same with figuring out which type of function.
+
+Thanks for writing to Ask Dr. Math, Irene!
+
+1) The domain is the set of values of x for which y = sec(x) has no
+asymptote, so that sec(x) is defined there.
+
+2) Your range is correct.
+
+3) The period is the smallest value of p such that, for every x in
+the domain of sec(x),
+
+   sec(x+p) = sec(x).
+
+Does that help?
+
+4) There is no inverse function, because sec(x) = y has multiple
+values of x for y = 1, x = Pi/2 and -3*Pi/2 both work.
+
+In fact, no periodic function has an inverse function (do you see
+why?).
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

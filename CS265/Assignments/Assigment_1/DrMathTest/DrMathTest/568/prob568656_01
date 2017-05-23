@@ -1,0 +1,133 @@
+ThreadNum: 568656
+Subject: Re: Permutations and Combinations
+To: prashant_371@rediffmail.com (Prashant)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 10:57:50
+Sent: yes
+
+
+As Prashant wrote to Dr. Math
+On 08/25/2004 at 08:50:46 (Eastern Time),
+>[Question]
+>I read your solution for the arrangement of 10 numbers so that none 
+>of them are in their original positions. The solution is quite 
+>elegant but I couldn't fill the gap between your method and the 
+>formula for the number of ways for n numbers being n!(1 - 1/1! + 
+>1/2! - 1/3! ...... + (-1)^n * 1/n!)
+>Could you please tell me how to arrive at this result.
+>Thank You
+>
+
+
+You forgot to say which question you were referring to.  We get 
+several hundred a day so you should identify the question or mention 
+which doctor answered it.
+
+Failing that I will give one method for finding the number of 
+derangements of n numbers (that is no number in its correct 
+numerical position) but it may not be the method given in the 
+message you quote.
+
+Number of Derangements of n Numbers (I am putting n = 10)
+------------------------------------
+For this we need to use the inclusion-exclusion principle (described 
+later).  We first find the number of ways that 1 or 2 or 3 .... or 
+10 numbers are in the correct position and then subtract this answer 
+from 10!, the total number of possible arrangements.  In this way we 
+get the number of arrangements with none of the numbers in the 
+correct position.
+
+Consider first that 1 particular number is in the correct position.  
+This number can be chosen in 10 ways and the other 9 numbers can 
+then be arranged in 9! ways (without regard to whether they are in 
+correct positions or not).
+
+ Total ways with 1 correct =  C(10,1) x 9!   then by similar 
+arguments
+ 
+ Total ways with 2 correct =  C(10,2) x 8!
+
+ Total ways with 3 correct =  C(10,3) x 7!
+ .........................................
+ .........................................
+ Total ways with 10 correct = C(10,10) x 0!
+  
+Then applying the inclusion-exclusion principle, the number of ways 
+with 1 or 2 or 3 or .... or 10 in correct position is
+
+ n(1 or 2 or .... or 10 correct) =  C(10,1) x 9!
+                                  - C(10,2) x 8!
+                                  + C(10,3) x 7!
+                                  ...............
+                                  + C(10,9) x 1!
+                                  - C(10,10) x 0!
+
+  
+    10 x 9!   (10 x 9)        (10 x 9 x 8)               10!
+  = ------- - -------- x 8! + ------------ x 7! + ... - ----- x 0!
+       1        1 x 2           1 x 2 x 3                10! 
+
+  = 10!/1 - 10!/2! + 10!/3! - 10!/4! + ...... + 10!/9! - 10!/10!
+
+  = 10![1 - 1/2! + 1/3! - 1/4! + ...... - 1/10!]
+
+This is the number of arrangements with at least one number in the 
+correct position, so the number with none in the correct position is
+
+  10! - 10![1 - 1/2! + 1/3! - 1/4! + ...... - 1/10!]
+
+       10![1/2! - 1/3! + 1/4! - ...... + 1/10!]
+
+For purposes of symmetry this is more usually written in the form
+
+  D(10) = 10![1 - 1/1! + 1/2! - 1/3! + 1/4! - ...... + 1/10!]
+
+where D(10) stands for the number of DERANGEMENTS of 10 numbers, 
+that is the number of arrangements with every number in a wrong 
+position.
+
+The extension to n numbers is obvious.
+
+Below is a note on the inclusion-exclusion principle.  It is given 
+in terms of probabilities, but is equally applicable to the number 
+of ways that events can happen.
+
+Inclusion-Exclusion Principle
+------------------------------
+It is easy to illustrate the principle with two or three 
+probabilities using a Venn diagram.
+
+For example with two overlapping probabilities P(A), P(B), we have 
+
+   P(A or B) = P(A) + P(B) - P(A and B)
+
+The overlapping region is added in with P(A) and added in again with 
+P(B), so to get it added in once only we subtract it, giving rise to 
+the expression shown above.
+
+With three overlapping probabilities P(A), P(B) and P(C) we get
+
+P(A or B or C) = P(A) + P(B) + P(C) 
+                 - P(A and B) - P(B and C) - P(C and A)
+                 + P(A and B and C)
+
+now the overlap of all 3 probabilities is added in 3 times by the 
+first line of this equation, subtracted 3 times by the second line 
+of the equation and so must be added in again by the third line.
+
+The area corresponding to A and B BUT NOT C is added in twice in the 
+first line and subtracted once in the second line, so it will appear 
+once as is required.  Similarly for area B and C but not A, and the 
+area corresponding to C and A but not B, each will eventually appear 
+once only
+
+With more probabilities the pattern continues and the proof by 
+induction is not difficult but a little tedious.  The 
+name 'inclusion-exclusion' describes exactly what is happening.  
+Regions are being added a number of times and subtracted a number of 
+times in such a way that each region occurs exactly once.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

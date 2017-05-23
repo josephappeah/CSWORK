@@ -1,0 +1,48 @@
+ThreadNum: 568168
+Subject: Re: graphing absolute value inequalities on number lines
+To: jess_968@yahoo.com (Jessica)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 00:06:40
+Sent: yes
+
+
+As Jessica wrote to Dr. Math
+On 08/22/2004 at 21:01:21 (Eastern Time),
+>[Question]
+>When graphing a absolute value inequality, why do you include 
+>negative numbers on the number line?    |x|>2
+>
+>[Difficulty]
+>Because I thought that the absolute value of a number was a 
+positive 
+>number and that it couldn't be negative.
+>
+>[Thoughts]
+> PLEASE ANSWER THIS QUESTION, BECAUSE I'M REEEALLY CONFUSED.
+
+Hi, Jessica --
+
+It is easy to get confused over this....
+
+There are no values of x for which |x| is negative; but in the 
+expression "|x|", the "x" itself can be negative.
+
+For example, if x = -10, then |x| = 10.  The "x" can be negative; 
+but the "|x|" can't.
+
+When you graph the solution to the inequality
+
+  |x|>2
+
+on a number line, what you are showing is the values of x for which 
+|x| is greater than 2.  You aren't showing the values of |x| for 
+which |x| is greater than 2.  So, for example, the value x=-10 
+satisifes this absolute value inequality, because |-10|=10 is 
+greater than 2.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

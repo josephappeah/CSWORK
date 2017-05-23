@@ -1,0 +1,46 @@
+ThreadNum: 567513
+Subject: Re: find the number of items that sum $100 and 100 items
+To: emgarcia@cox.net (Eva)
+From: Doctor Jerry
+TimeStamp: 08/19/2004 at 07:55:04
+Sent: yes
+
+
+As Eva wrote to Dr. Math
+On 08/18/2004 at 22:00:23 (Eastern Time),
+>I don't know how to work out the problem to solve for the three
+>unknowns. Could you please follow up?
+>Thank you.
+
+Hello Eva,
+
+5p+a+0.05s=100
+p+a+s = 100
+
+Think of s as fixed and rewrite the system as
+
+(1)   5p+a = 100 - 0.05s = 100 - (5/100)s = 100 - (1/20)s
+(2)    p +a = 100 -s
+
+Multiply the second equation by -1 and then add the two equations:
+
+4p = 100 - (1/20)s -100 + s = (19/20)s
+
+So,
+
+p = (19/80)s
+
+Substitute this into (2):
+
+(19/80)s + a = 100-s
+
+a = 100-s-(19/80)s = 100 - (99/80)s,
+
+which is the same as the answer I gave earlier:
+
+a = (-(1/80))*(-8000 + 99*s)
+
+OK?
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

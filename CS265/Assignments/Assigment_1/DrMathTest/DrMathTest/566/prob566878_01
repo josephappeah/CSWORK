@@ -1,0 +1,45 @@
+ThreadNum: 566878
+Subject: Re: Straight line and family of straight lines
+To: deboprio2001@yahoo.com (debo)
+From: Doctor Rob
+TimeStamp: 08/14/2004 at 10:05:01
+Sent: yes
+
+
+As debo wrote to Dr. Math
+On 08/14/2004 at 02:11:30 (Eastern Time),
+>[Question]
+>Prove that if the vertices of a triangle has rational co-ordinates, 
+>it cannot be an equilateral triangle.
+>
+>[Difficulty]
+>How to represent p/q form in cartesian system?
+>any arbitrary points with rational co-ordinates is apparently 
+>forming an equilateral triangle.
+>
+>[Thoughts]
+>Draw a triangle with any 3 vertices on the X-Y plane and try to go 
+>ahead.
+
+Thanks for writing to Ask Dr. Math, Debo!
+
+Take an equilateral triangle whose vertices have rational
+coordinates.  First show that the slopes of all three sides are
+rational (or infinite!).  Pick two adjacent sides with finite
+slopes m and M.  Then the angle between them X will have tangent
+given by
+
+   tan(X) = (m-M)/(1+m*M),
+
+which is rational.  But the angle between then is Pi/3 radians
+or 60 degrees, whose tangent is sqrt(3), an irrational number.
+Contradiction!
+
+You fill in all the details and reasons.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

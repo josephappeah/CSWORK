@@ -1,0 +1,57 @@
+ThreadNum: 567840
+Subject: Re: guess check revise
+To: bsupersmiley@earthlink.net  (Scmo)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 00:30:48
+Sent: yes
+
+
+As bsupersmiley@earthlink.net  (Scmo) wrote to Dr. Math
+On 08/19/2004 at 23:07:38 (Eastern Time),
+>[Question]
+>A math quiz  is worth 100 points. There are 13 on the quiz. Some 
+>problems are worth 5 points , and the rest are worth 12 points. 
+>How many of each kind of problem are on the quiz?
+>
+>[Difficulty]
+>How to do it 
+>
+>[Thoughts]
+>100 divided by 5 
+>100 divided by12
+
+Hi,
+
+The possible score is 100 points, which has to be equal to the sum of
+the points for the 5-point questions, and the sum of the points for
+the 12-point questions.  Does that make sense?  
+
+So
+
+  100 = (pts for 5-pt questions) + (pts for 12-pt questions)
+        
+Okay, so how do we figure out those two things on the right?  Well,
+suppose we know that there are N 5-point questions.  Then the number
+of points for those questions would be
+
+  pts for 5-pt questions = N * 5 pts
+
+right?  So we have
+
+  100 = (N * 5) + (pts for 12-pt questions)
+
+So what about the 12-point questions?  Again, we want the number of
+questions, times the value of each question (12 points).  So what is
+the number of questions?
+
+Well, if there are 13 questions in all, and N of them are worth
+5-points, then (13-N) of them must be worth 12 points.  (Try a few
+values:  If N = 1, there is 1 5-point question, and 12 12-point
+questions.  If N = 2, there are 2 5-point questions, and 11 12-point
+questions.  And so on.)
+
+Can you take it from here?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,60 @@
+ThreadNum: 568805
+Subject: Re: finding inches between seconds?
+To: nikanik@inreach.com (mike)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 21:24:03
+Sent: yes
+
+
+As mike wrote to Dr. Math
+On 08/25/2004 at 20:58:27 (Eastern Time),
+>[Question]
+>A 400-meter event sprinter 1 runs 48.63 seconds. 
+>
+>sprinter 2 runs the same race and gets 48.25 seconds
+>
+>what is sprinter 1's mph?
+>
+>By what distance in inches would 1's have beaten 2's by using 1's 
+>average rate of speed from her personal best time?
+>
+>[Difficulty]
+>I sort of understand how to find the mph, but i have no idea where 
+>to start on how finding a distance between seconds. I know that you 
+>have to convert it into ft but i am not so sure whaere to go from 
+>that.
+>
+>[Thoughts]
+>48.63/3600=mph        then i need to convert 48.25 and 48.63 into 
+>feet by something but don't know   i am stuck from here and pretty 
+>much guessing
+
+Hi Mike,
+
+Let's look at something similar, but a little different, just to
+explore the concept. 
+
+Suppose car A travels a mile at 60 miles per hour, while car B travels
+a mile at 59 miles per hour.  If they're in a race, how much does car
+A win by? 
+
+At 60 miles per hour, car A travels 1 mile in 1 minute.  So 1 minute
+is the time that car B has traveled when car A wins, right?  So we'd
+like to know:  How far does car A go in 1 minute?
+
+  59 miles    1 hour
+  -------- * ---------- * 1 minute = 59/60 miles
+   1 hour    60 minutes
+
+So car A wins by 1/60 of a mile, or 1/60 of 5280 feet, or 
+
+  1/60 of 5280 * 12 inches = 1056 inches
+
+Basically, I used the time of the race to figure out the distance that
+both cars traveled, and subtracted. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

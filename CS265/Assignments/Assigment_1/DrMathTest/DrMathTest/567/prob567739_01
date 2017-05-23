@@ -1,0 +1,51 @@
+ThreadNum: 567739
+Subject: Re: solving equation with exponent variable (a^x + b^x = k, x=?)
+To: j.sy@rogers.com (Jonathan)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 19:27:45
+Sent: yes
+
+
+As Jonathan wrote to Dr. Math
+On 08/19/2004 at 16:59:42 (Eastern Time),
+>[Question]
+>if a^x + b^x = k  , solve for x
+>
+>ex.:
+>
+>5^x + 9^x = 92
+>what is x?
+>
+>[Difficulty]
+>None of the standard logarithm equations seem to apply to this 
+>problem.
+>
+>[Thoughts]
+>If i have an equation of the form:
+>a^x * b^x = k, then it's simple to take the log of both sides:
+>log(a^x * b^x) = log(k)
+>log(a^x) + log(b^x) = log(k)
+>x[log(a) + log(b)] = log(k)
+>x = log(k) / [log(a) + log(b)]
+>
+>But nothing seems to work for the *addition* of two exponents in 
+>different bases.
+
+Thanks for writing to Ask Dr. Math, Jonathan!
+
+There is no algebraic way to solve for x in terms of a, b, and k.
+Even when numerical values are supplied for a, b, and k, such as
+those in the example given, there is no way to solve.  The best
+one can do is to solve numerically.  Clearly there is a root
+between x = 1 and x = 2.  Checking 5^(1.5) + 9^(1.5), you can see
+that the root must be between x = 1.5 and x = 2.  Next you'd try
+x = 1.75, and see whether the root was smaller or larger, and so
+whether the root lies in (1.5,1.75) or (1.75,2).  Continue this
+until you have found the root to whatever accuracy you desire.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

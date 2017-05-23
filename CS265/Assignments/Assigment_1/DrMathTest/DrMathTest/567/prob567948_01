@@ -1,0 +1,43 @@
+ThreadNum: 567948
+Subject: Re: (no subject)
+To: maggie27410@yahoo.com (Maggie)
+From: Doctor Greenie
+TimeStamp: 08/20/2004 at 22:43:44
+Sent: yes
+
+
+As Maggie wrote to Dr. Math
+On 08/20/2004 at 20:12:08 (Eastern Time),
+>[Question]
+>What are the values for x if the absolute value of x equals the
+>negative absolute value of x?
+>
+>[Difficulty]
+>I can't figure it out.
+>
+>
+>[Thoughts]
+>
+Hi, Maggie --
+
+This question is easier to understand if we say it as "the absolute 
+value of x equals the opposite of the absolute value of x".
+
+An absolute value is 0 or positive; the opposite of an absolute 
+value is either 0 or negative.  The only time the two can be equal 
+is when x=0.
+
+We can also approach this problem algebraically.  We have
+
+  |x| = -|x|
+  |x|+|x| = -|x|+|x|
+  2|x| = 0
+  |x| = 0
+  x = 0
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

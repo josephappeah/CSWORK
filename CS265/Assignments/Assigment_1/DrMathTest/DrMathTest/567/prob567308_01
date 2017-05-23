@@ -1,0 +1,82 @@
+ThreadNum: 567308
+Subject: Re: equation of a line when you have direction cosines and a pt
+To: gowthamiasam@yahoo.com (sai)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 21:02:38
+Sent: yes
+
+
+As sai wrote to Dr. Math
+On 08/17/2004 at 14:19:17 (Eastern Time),
+>[Question]
+>I want to find equation of a line(vector). I have the information of 
+>direction cosines and a point which lies on the line. And after 
+>finding the line I want to intersect the line with a plane and find 
+>the point of intersection.Like this I have to do for three lines and 
+>then pass an arc through these points of intersection with some 
+>radius.
+>
+>[Difficulty]
+>Iam not sure about the line equation with directions cosines and 
+also 
+>how to get the points of intersection.
+>
+>[Thoughts]
+>Iam searching for the methods.
+
+Thanks for writing to Ask Dr. Math, Sai!
+
+If the point is (x0,y0,z0) and the direction cosines are (a, b, c),
+then the equations of the line are
+
+   (x-x0)/a = (y-y0)/b = (z-z0)/c.
+
+In parametric form, you would have
+
+   x = x0 + a*t,
+   y = y0 + b*t,
+   z = z0 + c*t.
+
+To find the point of intersection with the plane
+
+   A*x + B*y + C*z = D,
+
+substitute the above parametric forms into the equation of the
+plane, solve for t, and use that to find (x,y,z) for the point of
+intersection.
+
+The circle through these three points will have two simultaneous
+equations.  One is the equation of the plane above.  The other
+will have the form
+
+(*)   x'^2 + y'^2 + s*x' + t*y' + u = 0,
+
+where, for example,
+
+   z' = (A*x + B*y + C*z)/sqrt(A^2+B^2+C^2),
+   y' = (-C*x + A*z)/sqrt(A^2+C^2),
+   x' = (-A*B*x + [A^2+C^2]*y - B*C*z)/
+                         (sqrt[A^4+A^2*B^2+2*A^2*C^2+B^2+C^2+C^4].
+
+Substitute these last two into (*), expand and simplify, and you'll
+have the second equation of the circle.  To determine s, t, and u,
+substitute in the coordinates of the three points on the circle,
+and you'll get a system of three simultaneous linear equations in
+those three unknowns, which you can solve.
+
+Then the radius of the circle will be sqrt(s^2/4+t^2/4-u), and its
+center will be at the intersection of
+
+   x' = -s/2,
+   y' = -t/2,
+   A*x + B*y + C*z = D.
+
+Solve these simultaneously for x, y, and z, and you'll have the
+coordinates of the center of the circle.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,38 @@
+ThreadNum: 568916
+Subject: Re: complexnumbers
+To: manikantsah@yahoo.co.in (manikant)
+From: Doctor Ian
+TimeStamp: 08/28/2004 at 01:09:37
+Sent: yes
+
+
+Hi Manikant,
+
+>Thank you very much for responing my question.My first problem is 
+>solved .Actually I wrote the second question incorrectly.I am writing 
+>with other example for notational convinience.Sorry for the 
+>inconvinience.
+>I know that the roots of equation   __x^2+4=0__ is 2i and -2i but I 
+>often see that the roots are given\/-4 and-\/-4.Are they same? if 
+>they are same then which is equal to which.
+
+Since i^2 = 1, then
+    __     ______
+  \/-4 = \/-1 * 4
+           __     _
+       = \/-1 * \/4
+
+       = i * 2
+
+       = 2i
+
+so 
+
+     __
+  -\/-4 = -2i
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

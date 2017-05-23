@@ -1,0 +1,56 @@
+ThreadNum: 567600
+Subject: Re: The Solution to "Nim" Games
+To: adlemon@aol.com (Alex)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 15:45:48
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/19/2004 at 15:30:19 (Eastern Time),
+>Just to test my understanding with a game similar to the one you 
+>linked to:
+>5! is written on the board and numbers that are the product of no 
+>more than 2 different primes are subtracted (the difference must be 
+>nonnegative) and the person to write 0 is the winner.
+>Working Backwards:
+>The smallest number that cannot be expressed as the product is 30, 
+>the others less than or equal to 5!(=120) are 
+>30,42,60,66,78,84,90,102,105 and 114.  30 is a losing position since 
+>any move will put the opponent in a winning position.  42 is a 
+>winning position since it can leave the opponent with 30, a losing 
+>position (42-30=12=2^2*3).  66 is also a winning position (66-
+>30=36=2^2*3^2).  Likewise, 78 (78-30=58=2*29), 84 (84-30=54=2*3^3), 
+>102 (102-30=72=2^3*3^2), and 105 (105-30=75=3*5^2) are also winning 
+>positions.  However, the difference of 60 and 30 is 30=2*3*5, which 
+>is not a legal move.  Similarly, 90-30=60=2^2*3*5 and 114-
+>30=84=2^2*3*7, which are also not legal moves.  If one is faced with 
+>a 60, one can either subtract a number greater than 30 (not equal to 
+>42), leaving the opponent with a winning position or subtract a 
+>number less than 30 in which case he can leave you with 30, a losing 
+>position.  Thus, 60 is a losing position.  In the case of 90, one can 
+>subtract a number greater than 60, to leave the opponent in a simple 
+>winning position.  Alternatively, one can subtract a number less than 
+>sixty, if this leaves the opponent with 42,66,78, or 84, he can leave 
+>you with 30, a losing position; if the opponent is not left with one 
+>of the aforementioned, he has achieved an immediate victory.  Thus, 
+>90 is a losing position. If you have 114, you can leave your opponent 
+>with the losing positions of 60 or 90.  Therefore, 114 is a winning 
+>position.  In this way, one seeks to leave the opponent with 30,60 or 
+>90 whenever possible (if this is not possible, victory is achieved).  
+>So the losing states are multiples of 30 and the winning strategy is 
+>to leave the opponent with a multiple of 30 (since this cannot be 
+>achieved by going first, the ideal strategy will produce a victory 
+>for the second player every time).  Please check over my work and 
+>respond. Thanks for your assistance, I feel I understand this problem 
+>much better.
+
+Hi Alex,
+
+Exactly!  Very nice analysis.  That's precisely the correct way to
+look at the problem.  I hope it also helps you to understand Nim
+better too.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

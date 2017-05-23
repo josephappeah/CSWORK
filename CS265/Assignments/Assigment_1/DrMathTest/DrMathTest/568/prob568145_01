@@ -1,0 +1,68 @@
+ThreadNum: 568145
+Subject: Re: geometric series
+To: soniajac2004@yahoo.com (shari)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 19:25:25
+Sent: yes
+
+
+As shari wrote to Dr. Math
+On 08/22/2004 at 18:48:40 (Eastern Time),
+>[Question]
+>the question is: determine the 3rd term of a geometric series with 
+a 
+>sum to infinity of 54 and a second term of 12. i will be very 
+>grateful to get a reply. 
+
+   a
+ ----- = 54     and  ar = 12   so  r = 12/a
+  1-r
+
+      a
+  --------- = 54
+  1 - 12/a
+
+      a^2
+   -------- = 54
+    a - 12
+
+      a^2 = 54a - 648
+
+    a^2 - 54a + 648 = 0
+
+    (a-18)(a-36) = 0  
+
+ so one solution is  a = 18  and r = 12/18 = 2/3
+
+    Third term = ar^2 = 18 x 4/9 =  8
+
+The other solution is  a = 36  and  r = 12/36 = 1/3
+
+    Third term = ar^2 =  36 x 1/9 = 4
+
+The two possibilities are  a=18 and third term = 8
+
+                      or   a=36 and third term = 4
+
+
+
+>
+>best regards, shari
+>
+>
+>[Difficulty]
+>i don't know how to find the common ratio. 
+>
+>[Thoughts]
+>sum to infinity=54, first term=12/r r=?
+>54=12/r / 1-r
+>54(1-r)=12/r
+>54-54r=12/r
+>r(54-54r)=12
+>54r-54r^2=12
+>54r^2-54r+12=0....how do i solve this to find 'r'?
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

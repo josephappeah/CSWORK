@@ -1,0 +1,51 @@
+ThreadNum: 568054
+Subject: Re: Order of Operations
+To: FrenchFry0909@hotmail.com (Monica)
+From: Doctor Peterson
+TimeStamp: 08/21/2004 at 22:36:20
+Sent: yes
+
+Hi, Monica.
+
+As Monica wrote to Dr. Math
+On 08/21/2004 at 22:20:49 (Eastern Time),
+>[Question]
+>Is there a certain method to use when using order of operations like 
+>when you are given the answer, the order of the operations, and the 
+>numbers you need...but not the order of the numbers?
+>
+>[Difficulty]
+>I don't know what to do when it comes to a certain method to use to 
+>find the answer.
+>
+>[Thoughts]
+>Here is an example of one question on my homework.Ex:
+>__-__+__x__/__-__=11   the numbers i was given to fill in the blanks 
+>are 2,4,5,6,8,11,22. 
+
+No, there's no standard method for solving these puzzles; you just 
+have to use a lot of trial and error, plus some number sense. For 
+example, to get a whole number you have to divide by something that 
+is a factor of the dividend. It may also help to remind yourself of 
+the order of operations by inserting parentheses to force everything 
+to be done in the right order:
+
+  _ - _ + ((_ x _) / _) - _ = 11
+  a   b     c   d    e    f
+
+Or you might rearrange the expression in your mind, noting that two 
+numbers are subtracted, so it's as if you had
+
+  [_ + ((_ x _) / _)] - [_ + _] = 11
+   a     c   d    e      b   f
+
+But if that isn't clear to you, don't try it -- just do whatever 
+makes sense to you, and as you play with the puzzle you may start to 
+get more ideas about how it works.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

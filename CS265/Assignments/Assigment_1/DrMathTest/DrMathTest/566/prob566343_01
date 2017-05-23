@@ -1,0 +1,45 @@
+ThreadNum: 566343
+Subject: Re: The Converse multiplication property of zero
+To: xuan662@yahoo.com (Xany)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 15:30:17
+Sent: yes
+
+
+As Xany wrote to Dr. Math
+On 08/10/2004 at 15:05:47 (Eastern Time),
+>[Question]
+>Hi, my question is: what is the converse of the multiplication 
+>property of zero? I understand that the multiplication property of 
+>zero is a*0=0=0*a, but how can you converse that? 
+>PLease help me, Thank you
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Xany,
+
+Given
+
+  P -> Q
+
+the converse is
+
+  Q -> P
+
+So if we state the multiplication property of zero this way, 
+
+  (x = 0) -> (for all a, ax = xa = x)
+
+then the converse is
+
+  (for all a, ax = xa = x) -> (x = 0)
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

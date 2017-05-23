@@ -1,0 +1,48 @@
+ThreadNum: 566363
+Subject: Re: It's actaully Physics
+To: Yaima5@aol.com (Debbie)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 18:30:25
+Sent: yes
+
+
+As Debbie wrote to Dr. Math
+On 08/10/2004 at 17:20:05 (Eastern Time),
+>[Question]
+> A car capable of a constant acceleration of 2.46 m/s^2 is stopped at 
+>a traffic light. When the light turns green, the car starts from rest 
+>with this acceleration. At the very same moment, a truck with 
+>constant velocity 17.9 m/s passes the car. How far from the light 
+>will the car catch up with the truck. Answer in units of m.
+>
+>[Difficulty]
+>I dont know how to incorporate both the car and the truck
+>
+>[Thoughts]
+>i tried using the displacement formula: d= do + Vot + 1/2at^2, but it 
+>didnt work. i just got that d= 1/2(2.46) but i have no time!
+
+Hi Debbie,
+
+Thanks for writing to Dr Math.  The car has
+
+  dC(t) = 0 + 0*t + (1/2)(2.46 m/s^2)*t^2
+
+and the truck has
+
+  dT(t) = 0 + (17.9 m/s)*t + (1/2)*0*t^2
+
+and first you need to find out the time when
+
+  dC(t) = dT(t).
+
+Then use that to get the distance.  (Also:  There are two solutions in
+t to that equation.  Can you explain what both of them mean?)
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

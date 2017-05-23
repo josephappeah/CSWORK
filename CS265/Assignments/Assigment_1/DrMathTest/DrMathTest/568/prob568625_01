@@ -1,0 +1,40 @@
+ThreadNum: 568625
+Subject: Re: Barbara and I am studying math
+To: barbarastavem@yahoo.com (Barbara)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 09:32:16
+Sent: yes
+
+
+As Barbara wrote to Dr. Math
+On 08/25/2004 at 02:16:19 (Eastern Time),
+>[Question]
+>In WI, approximately 44% of all residents with either HIV or AIDS 
+>have AIDS.  If there are 1,797 AIDS cases in WI, approximently how 
+>many HIV cases are there in WI?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I changed the 44% into a decimal and then multiplied that by 1,797, 
+>and I got 790.68.  I was wondering is ~791 the answer to this 
+>problem.  If not, what am I doing wrong?
+
+Hello Barbara,
+
+If h is the number with HIV and a the number with AIDS, then
+
+[a/(a+h)]*100 = 44.
+
+We are told that a=1797.  So,
+
+[1797/(1797+h)]*100 = 44.
+
+So,
+
+h is about 2287.09
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

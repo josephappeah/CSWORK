@@ -1,0 +1,54 @@
+ThreadNum: 568662
+Subject: Re: Algebra - I am asking this related to my job
+To: amy.stanton@scotts.com (Amy)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 09:39:48
+Sent: yes
+
+
+As Amy wrote to Dr. Math
+On 08/25/2004 at 09:32:15 (Eastern Time),
+>[Question]
+>I am working on a matrix and do not know how to solve it. The base 
+>data is:
+>         Product A    Product B   Total
+>Month1     15            3         18
+>Month2      7            9         16 
+>Total      22           12         34
+>
+>I need to keep the totals of the products the same, but change how my 
+>months are split to the following matrix:
+> 
+>         Product A    Product B   Total
+>Month1      ?            ?         24
+>Month2      ?            ?         10 
+>Total      22           12         34
+>
+>How do I find the ? while maintaining the same type trend of my 
+>products by month? 
+>
+>[Difficulty]
+>I can get the months totals or product totals but not both.
+>
+>[Thoughts]
+>I have tried to use the percentage increase in total month over month 
+>but this then throws my product totals off. So, I have tried to 
+>factor that in also, but I am always off.
+
+Hello Amy
+
+You can look for numbers x,y,z, and w for which
+
+x+y=24, z+w = 10, x+z=22, and y+w=12.
+
+The matrix for this system is singular and so there's no unique solution. You can solve it 
+with Gauss reduction:
+
+x= 12 + w, y = 12 - w, z = 10 - w.
+
+You can then take, say, w=1, which gives  x=13,y=11,z=9, and w=1.  But there are other 
+solutions.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

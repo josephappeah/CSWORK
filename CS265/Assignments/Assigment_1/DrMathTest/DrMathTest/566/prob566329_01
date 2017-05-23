@@ -1,0 +1,44 @@
+ThreadNum: 566329
+Subject: Re: Large Exponent Evaluations
+To: qeoleglifts@hotmail.com (Daniel)
+From: Doctor Tom
+TimeStamp: 08/10/2004 at 14:40:20
+Sent: yes
+
+
+As Daniel wrote to Dr. Math
+On 08/10/2004 at 13:55:55 (Eastern Time),
+>[Question]
+>If written out completely, how many digits would the number 1999^2000
+>have?  What would the first three digits be?
+>
+>[Difficulty]
+>Im not sure how to approach this problem correctly and efficiently.
+>
+>[Thoughts]
+>I tried the binary method, converting the exponent into binary and
+>assiging "x^2" or "x" to each 0 and 1, respectively.  This approach is
+>not efficient as you have to calculate the whole number, which has
+>many digits.  I searched for exponential patterns but could not find
+>one that remains consistant. 
+
+
+Use logarithms to obtain the size of the answer and the first three
+digits:
+
+Let x = 1999^2000
+
+Using log to mean "log base 10", we have
+
+log x = 2000(log 1999) = 2000(3.30081279412) = 6601.62558824
+
+x = 10^6601(10^.62558824) = 10^6601(4.22268...)
+
+Thus the first three digits are 422.  How many decimal places are there?
+
+
+
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

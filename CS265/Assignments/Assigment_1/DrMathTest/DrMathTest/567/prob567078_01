@@ -1,0 +1,62 @@
+ThreadNum: 567078
+Subject: Re: Discrete Probabilty
+To: alexmcavoy@msn.com (Alex)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 11:07:16
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/15/2004 at 22:48:43 (Eastern Time),
+>[Question]
+>Laura and Steve are taking a 50-question test with all questions 
+>worth 2 points and no partial credit. Assume that Laura and Steve 
+>have the same capability of performing well on the tests, that all 
+>the problems are equally difficult for these students, and that 
+>their expected score on the test is 50. What is the probability 
+that 
+>they will get the same score?
+
+Because there is no partial credit it is safer to work in terms of 1 
+mark for a correct answer and 0 for an incorrect answer.  In this 
+scheme we are given that expected score is 25, so
+
+     np = 25  where n = 50 so  p = 1/2
+
+That is the probability is (1/2) of a correct answer.
+
+If they get the same score we could have: 0,0  or 1,1, or 2,2 etc.
+
+So we sum the series
+
+(1/2)^50 x (1/2)^50                     = (1/2)^100
+C(50,1) x (1/2)^50 x C(50,1) x (1/2)^50 = {C(50,1)]^2 x (1/2)^100
+etc, etc
+
+And this produces the result
+
+ (1/2)^100.[1 + C(50,1)^2 + C(50,2)^2 + ..... + C(50,50)^2]
+
+To complete the summation we use the identity shown below
+
+   [C(n,0)]^2 + [C(n,1)]^2 + [C(n,2)]^2 + ..... + [C(n,n)]^2
+
+    n
+=  SUM[C(n,k)]^2  = coefficient of x^n  from (1+x)^n.(1+x)^n
+   k=0
+
+and it follows that we can write
+
+    n
+   SUM[C(n,k)]^2  =  C(2n,n)
+   k=0
+
+Using this result we get our series to be
+
+   (1/2)^100 x C(100,50)  =  0.079589
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

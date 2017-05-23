@@ -1,0 +1,80 @@
+ThreadNum: 566898
+Subject: Re: Combinations with Doubles,(Ie AA, BB, CC as well as AB, etc)
+To: kermitdfrosch@hotmail.com (Joe)
+From: Doctor Anthony
+TimeStamp: 08/14/2004 at 12:42:00
+Sent: yes
+
+
+As Joe wrote to Dr. Math
+On 08/14/2004 at 10:45:43 (Eastern Time),
+>There actually is no "original" problem, I was designing a system 
+for
+>my game and I wanted to know how many different combinations it 
+would
+>yield. Let me see if I can explain it better. 
+>
+>Since my system is based on chemistry, you can have multiple
+>'Elements' making one combination, Ie
+>
+>AA, BB, CC are valid combinations.
+>AB, AC, BC are also Valid combinations, 
+>
+>for finding total combinations includeing "redundants" (that is AA,
+>BB, CC) the formula is as follows, (I've actually found two.)
+>
+>nCr = (n! / r!(n-r)!) + n
+>
+>or
+>
+>Sum(1 to N)
+>
+>Now, the problem I'm having is finding total combinations with
+>Redundants when R is 3, 4, or 5. As in
+>
+>AAA
+>AAB
+>AAC
+>ABB
+>ABC
+>ACC
+>etc.
+>
+>
+>I hope that explains it better.
+>
+
+I'm afraid this is still not clear.  Are you restricted to 3 letters 
+A, B, C, or could there be other letters D, E, F,..... and when you 
+say 3, 4 or 5 do you want separate results for each or the total of 
+all three?  What is n in your formula above?  It usually stands for 
+the total number of letters from which you choose r.
+
+             n!
+  C(n,r) = ------
+           r!(n-r)!
+
+equals the number of combinations of r things that can be chosen 
+from n different things.
+
+With 5 does this mean combinations like AABBC
+                                        AAAAA
+                                        AAABB
+                                        ABCCC
+
+and if more letters could you have  ABCDE
+                                    AABCE  and so on.
+
+The word 'redundant' is misleading.  A better term is 'repeats'. If 
+something is redundant it can be left out altogether and I'm sure 
+that is not what you mean.
+
+If you give about 5 or 6 examples of exactly what combinations you 
+are thinking of and any restriction on the number of different 
+letters and restriction on number of repeats for a given letter I 
+will try to help.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

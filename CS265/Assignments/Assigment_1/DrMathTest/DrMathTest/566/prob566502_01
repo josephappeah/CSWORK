@@ -1,0 +1,38 @@
+ThreadNum: 566502
+Subject: Re: post graduate
+To: ramesh_hcu03@yahoo.co.in (ramesh)
+From: Doctor Tom
+TimeStamp: 08/11/2004 at 16:01:15
+Sent: yes
+
+
+As ramesh wrote to Dr. Math
+On 08/11/2004 at 13:45:01 (Eastern Time),
+>[Question]
+>how to find the factorization of very large numbers? is there any 
+>procedure to solve it?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+As far as anyone knows, there is no easy way to do this.  A lot of
+modern cryptography is based on the hope that there is no easy
+way.
+
+There are sophisticated computer programs that can search for
+factors relatively quickly, but if the numbers have hundreds of
+digits, the programs may not find the factors in a million years.
+
+There are methods to check relatively quickly to see if a large
+number is prime.  But if the check shows that it is not prime,
+finding the factors can be very difficult indeed.
+
+You can surely find information about this on the web by searching
+for things like "cryptography factor large primes"  and similar.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

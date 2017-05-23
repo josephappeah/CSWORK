@@ -1,0 +1,34 @@
+ThreadNum: 567992
+Subject: Re: quadratic equation
+To: xaley_khan@yahoo.com (xaley)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:36:16
+Sent: yes
+
+
+As xaley wrote to Dr. Math
+On 08/21/2004 at 06:09:44 (Eastern Time),
+>[Question]
+>the curve (x^2)  -  xy  +  (y^2)  =  1  cuts the line 2x-y=k in two 
+>distinct points.Find the set of values of k?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Xaley!
+
+Substitute y = 2*x - k into the first equation.  That gives you a
+quadratic equation in y whose coefficients are in terms of k.  Then
+this will have two real roots if and only if the discriminant of
+this quadratic is positive.  That gives you a quadratic inequality
+in k.  Solve that to find the values of k that work.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

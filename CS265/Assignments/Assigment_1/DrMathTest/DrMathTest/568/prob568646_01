@@ -1,0 +1,54 @@
+ThreadNum: 568646
+Subject: Re: pulley ratio
+To: gasparrl@yahoo.com (Randy Gaspar 918-588-2384)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 08:46:16
+Sent: yes
+
+
+As Randy Gaspar 918-588-2384 wrote to Dr. Math
+On 08/25/2004 at 07:36:54 (Eastern Time),
+>[Question]
+>If I had a pully 24" in dia. and one 48" dia and they are on a 
+>machine with the smaller pully on the motor and the larger on a pump 
+>would turning the 24" pully 2 revalutations make 1 revalutation on 
+>the 48" pully?
+>
+>[Difficulty]
+>The reason I am asking this is the circumfrance works out 2-1 ratio 
+>but the area is much larger between the 2. Seams that if circufrence 
+>is doubled why wouldnt the area be the same? 
+>
+>[Thoughts]
+>3.141 * 24= 75.384,   3.141 * 48 = 150.768  excatly half the 
+>circumfrence
+>3.141*24 sqrd / 4= 452.304
+>3.141*48 sqrd/ 4=  1809.16
+>I dont understand how the area can be so much greater and the ratio 
+>be 2-1. I am a suprevisor on a drilling rig in Bolivia and this is 
+>arugment the electriction and I are disscusing on a pump we are 
+>trying to solve a horse power problem on, your help would be greatly 
+>appricieted. 
+
+Hello Randy,
+
+There's a formula for the length s of the arc cut from a circle by a central angle (vertex at 
+the center of the circle) of t (in radians).  It is
+
+s=r*t.
+
+If the small pulley rotates through an angle of t, then s=12*t of belt will have moved.  On 
+the larger pulley, the amount T of rotation will be
+
+24*T=12*t
+
+and so
+
+t=2*T,
+
+that is, the small pulley must rotate through twice the angle.  The area is not involved in 
+this calculation.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

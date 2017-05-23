@@ -1,0 +1,78 @@
+ThreadNum: 567116
+Subject: Re: Help with explaining how to work with double angles?
+To: cimob838@student.liu.se (Cim Öberg)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 18:43:08
+Sent: yes
+
+
+As Cim Öberg wrote to Dr. Math
+On 08/16/2004 at 10:55:09 (Eastern Time),
+>[Question]
+>Hello Dr. Math!
+>I am working on obtaining a primitive function to the function
+>f(x) = sin(x)^4*cos(x)^3, but along the way I've gotten stuck.
+>I've been able to expand it untill I come to the part where I have to
+>start working with cos(2*x), I've been trying some aproaches, but no
+>matter what approach I try I always end up with a neverending chain
+>where cos(x)^4 is a part, and frankly I don't know what to do about it.
+>
+>I would like to obtain a long chain of cos(x) and sin(x) in the end,
+>but I have no idea about how I am supposed to do that, any help here
+>would be really appreciated!
+>
+>Thanks in advance!
+>/ Cim Öberg
+>
+>[Difficulty]
+>I (think I) am supposed to break this down to sin(x) and cos(x)
+>somehow, but I can't think out a way to do this.
+>
+>[Thoughts]
+>Here's what I've come up with so far, S is supposed to look like the
+>integration sign:
+>
+>S sin(x)^4*cos(x)^3 dx = ((1 - cos(2*x)/2)^2) * (1 + cos(2*x))/2 * cos(x)
+>// The two factors that come from cos(x)^3 are about done now, both of
+>them should be fairly simple to use to obtain the primitive, but:
+>
+>((1 - cos(2*x)/2)^2) = 1/4 - 1/2*cos(2*x) + cos(2*x)^2/4
+>// everything here but cos(2*x)^2/4 I understand how to use to obtain
+>a primitive with, but cos(2*x)^2/4 just won't budge:
+>
+>cos(2*x)^2/4 = (2*cos(x)^2 - 1)^2/4 
+>
+>// /4 has nothing to do with my problem so I'll just continue without it:
+>// From here I've taken a couple of approaches, I'll just list the 2
+>that didn't seem to be really stupid:
+>
+>a) (2*cos(x)^2 - 1)^2 = cos(x)^4 - cos(x)^2 + 1/4 
+>
+>cos(x)^4 - cos(x)^2 + 1/4 = ((1 + cos(2*x))/2)^2 - (1 + cos(2*x))/2
+>+ 1/4   =    3/2 + 2*cos(x)^4 - 3*((1 + cos(2*x))/2 + 1/4
+>
+>// And after that I suppose it just goes on and on...
+>
+>b) cos(2*x)^2/4 = (cos(x)^2-sin(x)^2)^2 =
+>cos(x)^4-2*cos(x)^2*sin(x)^2+sin(x)^4
+>
+>but I don't think that either of these will bring me to an answer,
+>like I wrote above any help is appreciated, I'm really stuck here :/
+>
+>I hope to hear from you soon :)
+
+Hi Cim,
+
+Thanks for writing to Dr. Math.  There are often many ways to find 
+an antiderivative, especially when trigonometric functions are 
+involved.  In this case, there is one particularly simple approach.
+Rewrite cos^3(x) as an expression in sin(x) times cos(x), and then
+use the substitution u = sin(x).
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

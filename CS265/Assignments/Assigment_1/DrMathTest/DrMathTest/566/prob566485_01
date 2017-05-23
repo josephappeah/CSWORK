@@ -1,0 +1,101 @@
+ThreadNum: 566485
+Subject: Re: interval notation
+To: Scampori@aol.com (Chris)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 20:50:10
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/11/2004 at 12:15:15 (Eastern Time),
+>[Question]
+>I was reading about interval notation but I can not understand this 
+>crazy stuff. For example a problem states "we write the inequality x 
+>> a as [a, 00). True or False"    (the two 00 are smaller and are 
+>raised above the line) I have no idea what interval notation is, 
+>which probably is my problem. looking through the web seems pointless 
+>unless im a physicist (spelling?) and was wondering if you could give 
+>me a brief crash course that will help me with my crazy problem.
+>
+>[Difficulty]
+>Since I haven't learned this before I have no other option than the 
+>web, which can be very confusing. 
+>
+>[Thoughts]
+>Based on what i have read and understood on the web (this is a very 
+>small amount of info) I would say the problem is false because X is > 
+>then A. While on the internet it says something like the left amount 
+>must be larger than the right amount. So i figured first step is re-
+>write the equation A < X. I appreciate any and all help
+
+Hi Chris,
+
+Thanks for writing to Dr. Math.  An interval can be finite or
+infinite.  A finite interval is the set of all points between
+two given points (called the endpoints), which may or may not
+be part of the set.  That is, a finite interval is a set of 
+one of the following forms:
+
+   {x: a < x < b}
+   {x: a <= x < b}
+   {x: a < x <= b}
+   {x: a <= x <= b}  .
+
+An interval which contains neither endpoint is called an "open"
+interval, and an interval which contains both endpoints is called
+"closed".  If the interval contains one endpoint but not the other,
+it is sometimes called "half-open".  Interval notation provides
+a more compact representation of the above sets, by writing the
+endpoints, separated by a comma, with the smaller endpoint on the 
+left.  The inclusion of the endpoint is indicated by using a 
+bracket ("[" or "]"), and the exclusion of an endpoint by using a
+parenthesis ( "(" or ")" ).  With this notation, the four intervals
+above are written
+
+   {x: a < x < b} = (a,b)
+   {x: a <= x < b} = [a,b) 
+   {x: a < x <= b} = (a,b]
+   {x: a <= x <= b} = [a,b] .
+
+Intervals can also be infinite, of the form
+
+   {x: a < x}
+   {x: a <= x}
+   {x: x < b}
+   {x: x <= b}
+
+(or even all real numbers).
+
+The first two sets have left endpoints, but no right endpoint.  To
+indicate this, the special symbol which looks somewhat like a 
+figure 8 lying on its side is used, which I will denote "oo".
+It is called "infinity", but it is not a number - just a symbol
+indicating that there is no endpoint on one side of the interval.
+If the left endpoint is missing, the symbol "-oo" is used.  As
+above, a bracket indicates the inclusion of the endpoint in the
+interval, and a parenthesis indicates the exclusion of the 
+endpoint.
+
+The intervals above are denoted
+
+   {x: a < x} = (a,oo)
+   {x: a <= x} = [a,oo)
+   {x: x < b} = (-oo,b)
+   {x: x <= b} = (-oo,b] .
+
+You never use a bracket with the oo or -oo symbol.  The entire 
+real line is sometimes indicated by (-oo,oo) or (-oo,+oo).
+
+The answer to your question
+
+>"we write the inequality x > a as [a, 00). True or False"  
+
+would be false, since the inequality is strict (so x = a does not
+belong to the interval), while a belongs to the interval [a,oo).
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

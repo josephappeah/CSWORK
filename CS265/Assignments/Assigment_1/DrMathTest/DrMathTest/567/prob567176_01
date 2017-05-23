@@ -1,0 +1,80 @@
+ThreadNum: 567176
+Subject: Re: Maximizing a box
+To: lct721@yahoo.com (Porsha)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 23:14:08
+Sent: yes
+
+
+As Porsha wrote to Dr. Math
+On 08/16/2004 at 18:07:06 (Eastern Time),
+>[Question]
+>Heres my question. I'm completely lost.
+>
+>A piece of cardboard measures 20 by 36 in. Two equal squares are 
+>removed from the corners of a 20 in side. Two equal rectangles are 
+>removed from the other corners so that the tabs can be folded to 
+form 
+>a rectangular box with a lid.Find the domain for the problem 
+>situation and find the maximum volume and the value of x that gives 
+>it.
+>
+>[Difficulty]
+>I'm completely lost as to how to find the domain or how to go about 
+>finding the maximum volume with the information that is given.
+>
+>[Thoughts]
+>I drew a sketch of the box with the correct dimensions and was 
+>thinking that the first step to solving the problem was to find a 
+>formula for the volume of the box.
+
+Hi, Porsha --
+
+The instructions are not clear enough to know how to solve the 
+problem.  After cutting the square pieces out of the two corners 
+along one of the short sides of the sheet of cardboard, I can think 
+of several different ways to cut rectangles out of the other two 
+corners to be able to form a box with a lid; the different 
+rectangles result in different types of lids for the box.
+
+The simplest one mathematically -- but one which doesn't make much 
+sense practically -- is where the lid has exactly the same 
+dimensions as the "floor" of the box; i.e., the "lid" doesn't 
+overlap the sides of the box at all.
+
+In that case, we have taken "x" units out of each corner along a 20-
+inch side, so that dimension of the box is going to be (20-2x) 
+inches.  The depth of the box is obviously going to be x inches.  If 
+the lid is to have exactly the same dimensions as the "floor", then 
+the rectangles cut out must be x inches wide and 18 inches long 
+(half the length of the sheet).  So the length of the box is going 
+to be (18-x) inches.
+
+Then the volume of the box is
+
+  V = (18-x)(20-2x)(x)
+
+The domain for this problem is the set of possible values for "x", 
+the dimension of the square piece we cut off each corner.  Clearly 
+this can't be a negative number, so the lower bound of our domain is 
+x=0.  The short side of the piece of cardboard is 20 inches long; 
+the most we can cut off each corner is 10 inches, so the upper bound 
+of our domain is x=10.  So the domain for this problem is [0,10].
+
+If you are doing calculus, you can expand the expression for the 
+volume, take the derivative, and find where the derivative is equal 
+to 0 to find the maximum value of the box.  Unfortunately, the 
+expressions do not turn out "nice" (the derivative does not factor), 
+so you end up having to solve the problem using the quadratic 
+formula on the derivative.
+
+It is much easier -- especially if you have a graphing calculator -- 
+simply to graph the volume function and determine the maximum value 
+from the graph.
+
+I hope some of this helps.  Please write back if you have any 
+further questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

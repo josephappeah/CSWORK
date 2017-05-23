@@ -1,0 +1,45 @@
+ThreadNum: 568057
+Subject: Re: negative solution to factorial equation
+To: jong_@hotmail.com (jeremy)
+From: Doctor Wilkinson
+TimeStamp: 08/22/2004 at 00:04:29
+Sent: yes
+
+
+As jeremy wrote to Dr. Math
+On 08/21/2004 at 23:06:46 (Eastern Time),
+>[Question]
+>In a recent test, we were asked to solve an equation
+>n!/[(n-6)!] = n!/[(n-4)!] * 4!/(2!), which although others used 
+>trial and error for, I attempted to solve algebraically.
+>
+>[Difficulty]
+>After reducing the equation by eliminating n! and (n-6)! a quadratic 
+>in n is found, giving n=1, 8
+>But having n=1 gives an (n-6)! = (-5)! which, as I have seen in the 
+>forums is impossible. 
+>
+>[Thoughts]
+>n!/[(n-6)!] = n!/[(n-4)!] * 4!/(2!)
+>therefore: n!/(n!) = (n-6)!/[(n-4)!] * 12
+>therefore: 1 = (n-6)!/[(n-4)(n-5)(n-6)!] * 12
+>therefore by cancelling (n-6)! : 1 = 1/[(n-4)(n-5)] * 12
+>therefore (n-4)(n-5)=12
+>hence: n^2 - 9n - 8 = 0 --> n=8, 1
+>So there is my problem, in that (1-6)! = (-5)! = undefined.
+>
+>Perhaps the problem lies in that allowing n=1 to be a solution gives 
+>a negative times a negative to = positive 12 (in the quadratic). 
+>Maybe this is not true of negative factorials IF they were to exist. 
+>Or is the question simply a matter of ignoring the possibility of 
+>having a negative factorial altogether, hence eliminating n=1?
+>
+
+Nice golng, Jeremy.  Your work shows correctly that n = 8 and n = 1 are the only 
+possible solutions.  As your last remark suggests, n = 1 can be eliminated since the 
+factorials of negative numbers are not defined.  n = 8, on the other hand, works, as you 
+can verify directly.  
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

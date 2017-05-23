@@ -1,0 +1,47 @@
+ThreadNum: 566696
+Subject: Re: ratio and probability
+To: shruth90@aol.com (Shruti)
+From: Doctor Roy
+TimeStamp: 08/12/2004 at 16:29:09
+Sent: yes
+
+
+As Shruti wrote to Dr. Math
+On 08/12/2004 at 16:12:07 (Eastern Time),
+>[Question]
+>What do you do when you need to find the least number of something to 
+>be sure that they're in the same group?
+>
+>Ex: What is the least number of people you could have in a group and 
+>stll be sure that at least 7 of them have birthdays in the same month?
+>
+>[Difficulty]
+>i didn't know where to start
+>
+>[Thoughts]
+>use a proportion?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The worst case is if there are a maximal number of people with
+birthdays in other months. For example, if you had 12 people, you
+could have 1 person born in each month. You could not guarantee, for
+example, that 2 people were born in a single month. 
+
+But, if you had 13 people, you would absolutely know that at least 2
+of the people were born in the same month. In the worst case, 12
+people would be born in different months. The 13th person would have
+to share a month with someone else.
+
+Let's go further. With 24 people, you could not guarantee that 3
+people were born in a single months. It is possible that 2 people were
+born in each month. But with 25 people, it must be the case that 3 of
+the people were born in the same month.
+
+Do you see how to extend this reasoning to your problem?
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

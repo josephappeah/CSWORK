@@ -1,0 +1,81 @@
+ThreadNum: 568096
+Subject: Re: elliptic curves
+To: obenshim@study.haifa.ac.il (rost)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 10:03:55
+Sent: yes
+
+
+As rost wrote to Dr. Math
+On 08/22/2004 at 10:50:55 (Eastern Time),
+>[Question]
+>Show that there is a set of representatives of E(Q)/2E(Q) that 
+>generates E(Q).
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>The exersice comes with a hint :
+>This mostly follows from Mordell-Weil theorem. However , it does
+>not handle the odd torsion(??). Show that the odd order torsion in 
+>E(Q) is cyclic (I done it). In the set of representatives, use a 
+>generator of this cyclic group for the representative of the trivial 
+>coset. (It is clear to me that any odd torsion point lie in 2E(Q).
+
+Hi Rost,
+
+Thanks for writing to Dr Math.  Recall that E(Q) is a
+finitely-generated abelian group, so that it is isomorphic to a group
+of the form
+
+  Z^r x (Z/aZ) x (Z/bZ) x ... x (Z/yZ)
+
+where "r" is the rank, and the rest is the torsion.  Then E(Q)/2E(Q)
+is isomorphic to
+
+  (Z/2Z)^r x (Z/2Z) x ... x (Z/2Z)
+
+where each cyclic torsion part in the representation of E(Q)
+contributes one Z/2Z factor if (and only if) the cycle length (a, b,
+...) is even.  Well, you have already shown that all of those cycle
+lengths ARE even, except possibly ONE (cyclic odd torsion).
+
+Now imagine a set of generators for E(Q).  So you would have r of them
+to cover the rank and then several more for each torsion cycle, which
+map into
+
+  Z^r x (Z/aZ) x (Z/bZ) x ... x (Z/yZ)
+
+as
+
+  (1, 0, 0, ... 0)
+  (0, 1, 0, ... 0)
+  (0, 0, 1, ... 0)
+  ...
+
+Well, when you reduce mod 2E(Q), then those will still map to
+
+  (1, 0, 0, ... 0)
+  (0, 1, 0, ... 0)
+  (0, 0, 1, ... 0)
+  ...
+
+except that ONE of the columns disappears because the odd torsion
+cycle is gone.  So you carefully choose a representative of the identity
+
+  (0, 0, 0, ... 0)
+
+in E(Q)/2E(Q) - that is, an element of 2E(Q) - to be a generator for
+the odd cycle.
+
+Does all of this make sense?  If you are still confused, can you help
+me to understand what part is confusing?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

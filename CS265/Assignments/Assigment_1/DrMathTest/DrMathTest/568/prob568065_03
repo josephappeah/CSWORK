@@ -1,0 +1,38 @@
+ThreadNum: 568065
+Subject: Re: Solving Without usage of a calculator
+To: ricomania77@sbcglobal.net (Joseph)
+From: Doctor Fenton
+TimeStamp: 08/22/2004 at 23:48:32
+Sent: yes
+
+
+As Joseph wrote to Dr. Math
+On 08/22/2004 at 19:09:25 (Eastern Time),
+>ok, I reworked the problem and i get the following
+>y=27.109x^(2.651),where x is 30 then
+>ln(y)=(2.651*ln(30))*27.109 then
+>ln(y)/27.109=9.016574 then multiply by e to both sides to get rid of 
+>natural logs i get
+>y/27.109=8238.5056951857, cross multyply and i get
+>y=223337.7
+>
+>
+
+Hi Joseph,
+
+You are not using properties of logarithms.
+
+>y=27.109x^(2.651),where x is 30 then
+>ln(y)=(2.651*ln(30))*27.109 ...
+
+This is not ln(y).  Use
+
+   ln(a*b) = ln(a) + ln(b)
+
+and
+
+   ln(a^b) = b ln(a) .
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

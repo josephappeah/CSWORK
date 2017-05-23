@@ -1,0 +1,46 @@
+ThreadNum: 566003
+Subject: Re: Symbolic Logic
+To: iceicexiro@yahoo.com (N. N.)
+From: Doctor Achilles
+TimeStamp: 08/08/2004 at 14:08:25
+Sent: yes
+
+
+As N. N. wrote to Dr. Math
+On 08/08/2004 at 01:55:14 (Eastern Time),
+>[Question]
+>PvQ
+>Q->R
+>(R->(S->~T))
+>(~S->U)^(U->V)
+>/:(~P^~V)->~T
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>PvQ
+>~QvR from Q->R
+>~Rv~Sv~T from (R->(S->~T))
+>SvU from ~S->U
+>~UvV from u->V
+>It seems that the same letter in the second line is the negation of 
+>the preceding line (e.g. Q and ~Q, R and ~R) but where do I go from 
+>here?
+>Thank you for your time and effort.
+
+Hi again,
+
+I forgot to point out that we have a symbolic logic webpage which 
+teaches you the basics of logic and shows several examples and rules 
+for derrivation.  The page is:
+
+  A Crash Course in Symbolic Logic
+  http://mathforum.org/dr.math/faq/symbolic_logic.html
+
+Hopefully you will find it helpful in answering your questions.  If 
+any other problems are tricky, I'd be happy to help you with them.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

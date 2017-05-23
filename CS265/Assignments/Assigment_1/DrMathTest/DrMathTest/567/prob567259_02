@@ -1,0 +1,149 @@
+ThreadNum: 567259
+Subject: Re: Probability
+To: jerry_ab@yahoo.com (jerry)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 06:26:33
+Sent: yes
+
+
+As jerry wrote to Dr. Math
+On 08/17/2004 at 04:24:13 (Eastern Time),
+>[Question]
+>Question 1: from a collection of 12 bulbs of which 6 are defective 
+3 
+>bulbs are chosen at random for three sockets in a room. Find the 
+>probability that the room is lighted
+
+If the room is lighted provided AT LEAST ONE bulb is working then 
+this is best calculated from 
+
+     1 - Prob(no bulb is working)
+
+            C(6,3)              20
+   =  1 -  --------     =  1 - ----
+            C(12,3)             220
+
+                        =  1 - 1/11
+
+                        =  10/11    
+
+Your method is wrong because you have not considered the case of 1 
+or 2 being OK as well as all 3 being OK.  If you want to use your 
+method you require
+
+       C(6,1).C(6,2) + C(6,2).C(6,1) + C(6,3)      
+    =  -------------------------------------- 
+                          C(12,3)
+
+         90 + 90 + 20     200      10
+    =   -------------  = ----- =  ----
+             220          220      11
+
+>Answer= 10/11
+>
+>Below is a similar problem
+>
+>Question 2 : A has three shares in a lottery containing 3 prizes 
+and 
+>9 blanks. what is A chances of success.
+
+With 3 prizes we must assume that 3 tickets are drawn.
+
+If by success you mean at least one prize the this is best 
+calculated from
+
+       =  1 - Prob(no prize)
+
+               C(9,3)           84
+       =  1 - -------   =  1 - ----
+              C(12,3)          220
+
+                        =  1 - 21/55
+
+                        =  34/55`
+   
+
+
+
+
+>
+>[Difficulty]
+>see question 1, i have used a particular way, the book has 
+described 
+>another.
+>why is my method wrong?
+>
+>i understand that 1 - failure = success
+>but when i get the success directly, why used a round about way?
+>
+>
+>[Thoughts]
+>Question 1: from a collection of 12 bulbs of which 6 are defective 
+3 
+>bulbs are chosen at random for three sockets in a room. Find the 
+>probability that the room is lighted
+>Answer= 10/11
+>
+>My Solution:
+>
+>probability = favourable events / total outcomes
+>
+>total outcomes = 12C3 = 12!/(9! * 3!) = (12*11*10) / (3*2) = 220
+>
+>favourable = 6C3 = (6*5*4)/(3*2) = 20
+>
+>probability =  20/220 = 1/11
+>
+>
+>As solved in text book
+>
+>total outcomes = 12C3 = 12!/(9! * 3!) = (12*11*10) / (3*2) = 220
+>
+>defective = 6C3 = (6*5*4)/(3*2) = 20
+>
+>probability = 1 - 20/220 = 10/11
+>
+>
+>see i know that P(a) + P(a') = 1  i.e., the sum of an event & its 
+>complement is One
+>
+>but still why is my approach wrong
+>why cant i take 6C3 as favourable condition after all there the 
+>problem one can understand that there are 6 good bulbs
+>
+>in the book the have taken 6C3 as defective
+>
+>
+>Below is a similar problem
+>
+>Question 2 : A has three shares in a lottery containing 3 prizes 
+and 
+>9 blanks. what is A chances of success.
+>
+>
+>My Solution:
+>
+>total outcomes = 12C3 = 12!/(9! * 3!) = (12*11*10) / (3*2) = 220
+>
+>favourable = 3C3 = 1
+>
+>probability =  1/220 
+>
+>
+>As solved in text book
+>
+>total outcomes = 12C3 = 12!/(9! * 3!) = (12*11*10) / (3*2) = 220
+>
+>Blanks  = 9C3 = (9*8*7)/(3*2) = 84
+>
+>Therefore Failure =84/220 = 21/55
+>
+>Success= 1 - 21/55 = 34/55
+>
+>
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

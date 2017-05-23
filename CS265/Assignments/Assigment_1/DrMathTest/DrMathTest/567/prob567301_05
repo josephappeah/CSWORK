@@ -1,0 +1,51 @@
+ThreadNum: 567301
+Subject: Re: Polyhedron with 8 vertices
+To: angclnet-2004@yahoo.com.br (Angelo)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 12:27:32
+Sent: yes
+
+
+As Angelo wrote to Dr. Math
+On 08/18/2004 at 12:11:58 (Eastern Time),
+>You are complety right. Vertices can meet from 3 to 6 edges, depending
+>on the vertex. Taking an example, it could be that 4 vertices can meet
+>6 edges and 4 vertices meet 3 edges. It that better? The polyhedron
+>looks like an irregular 'cube', and instead of having square faces (4
+>coplanar vertices), each square face turns to two triangular faces (3
+>vertices coplanar at a time). 
+>Can your tell me about its volume, how to know if it's conex of
+>cancave. Thanks for your time.
+
+Hi Angelo,
+
+Thanks for writing to Dr Math.  So I think what you are saying is: 
+Take a tetrahedron (triangular pyramid), and place a new tetrahedron
+on each of the four faces, so that the face of the first tetrahedron
+becomes the base of the new one.  Is that what you are describing?  If
+that is correct, then the best way to get the volume is probably to
+add up the volumes of the five tetrahedrons involved.  Of course,
+you'll have to know the lengths of the edges to calculate the volume.
+ If all lengths are equal, so that all five tetrahedrons are
+identical, then the volume is just five times the formula from
+"regular polyhedron" or "tetrahedron" at
+
+  Formulas: Geometric
+  http://mathforum.org/dr.math/faq/formulas/
+
+And in this case (all lengths are equal), the figure is not convex. 
+If the four new tetrahedrons are shorter than the first tetrahedron,
+then use the formula for "pyramid" from the above site for those
+volumes.  If the height h of the pyramid is small enough, the the
+figure will be complex.  If h is too big, then it will not.
+
+Is this the figure you wanted?  Since it has 12 faces, it is a
+"dodecahedron" but not a "regular dodecahedron."
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

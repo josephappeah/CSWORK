@@ -1,0 +1,51 @@
+ThreadNum: 568919
+Subject: Re: How can I calucale the largest number for any a and b?
+To: alam_cse@hotmail.com (Md. Shamsul Alam)
+From: Doctor Greenie
+TimeStamp: 08/26/2004 at 12:26:39
+Sent: yes
+
+
+As Md. Shamsul Alam wrote to Dr. Math
+On 08/26/2004 at 11:41:44 (Eastern Time),
+>[Question]
+>We have only two numbers a and b. Using this two number is it 
+>possible to make all the numbers? We can only use the addition 
+>operation. Such as if a = 3 and b = 4, then they cannot make 1, 2 
+and 
+>5 only. All other numbers can be formed. For example:
+>6 = 3 + 3, 7 = 3 + 4, 8 = 4 + 4, 9 = 3 + 3 + 3, 10 = 3 + 3 + 4 
+>...so on.
+>
+>[Difficulty]
+>Obviously this is not always true for all combinations of a and b. 
+>Such as a = 4 and b = 6, then they cannot make any odd number. 
+>
+>[Thoughts]
+>i want to know the largest number which cannot be made using only a 
+>and b. 
+>
+>I know if the gcd(a,b) > 1 then this largest number is Infinity. 
+>
+>But If gcd(a,b) is 1 then how can I calculate the largest number 
+>which can not be formed using only a and b?
+
+Hello, Md. Shamsul Alam --
+
+The quick answer is as follows:
+
+If a and b are relatively prime, then the largest number which 
+cannot be made using a linear combination of a and b is the number
+
+  (ab) - (a+b)
+
+For your example with a=4 and b=3, this formula gives the largest 
+number as 12-7=5, which you know is the correct result.
+
+I have seen, somewhere in the Dr. Math archives, a response to a 
+similar question in which the above formula is proved -- but I 
+couldn't find it just now when I searched for it....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

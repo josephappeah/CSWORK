@@ -1,0 +1,112 @@
+ThreadNum: 568616
+Subject: Re: Finding an equation
+To: kassendra_glynn@hotmail.com (Kassendra)
+From: Doctor Dotty
+TimeStamp: 08/25/2004 at 13:19:46
+Sent: yes
+
+
+As Kassendra wrote to Dr. Math
+On 08/24/2004 at 23:59:18 (Eastern Time),
+>[Question]
+>I'm preparing for a placement exam, and I cannot figure out this 
+>problem while reviewing: 
+>
+>Find an equation in general form for the straight line that passes 
+>throught the point (-1,4) and is perpendicular to the line 2x+2y-
+>5=0. 
+>
+>Just giving me a direction would be great...it's been a long time 
+>since i've done this stuff...thank you...
+>
+>Kassendra
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>This is how I tried: y-y=m(x-x)
+>y-4=2(x-(-1))
+>y-4=2x+2
+>2x-y+6=0
+>
+>However, the answer I am given for the review is 3x-2y+11=0
+
+Hi Kassendra,
+
+Thanks for the question.
+
+As you rightly say, any (non-vertical) line can be represented by 
+the equation:
+
+           y - y1 = m(x - x1)
+
+Where m is the gradient (slope) and two points it passes through are 
+(x, y) and (x1, y1).
+
+If we use the point we're given, (-1, 4), we can get:
+
+  y - 4 = m(x + 1)
+
+We can't put in m at this stage, though. To do that, we need to find 
+the gradient of 2x + 2y - 5 = 0.
+
+We can do that in a number of ways. One way would be to find two 
+points that the line passes through and put them in the above 
+equation to find m. A simpler way, however, is to use the equation:
+
+ y = mx + c
+
+Where m is the gradient, and c is the x-intercept.
+
+If we rearrange the equation 2x + 2y - 5 = 0 so that it's in terms 
+of y, we should be able to find m:
+
+  2x + 2y - 5 = 0
+
+           2y = -2x + 5
+
+            y = -x + 2.5
+
+So the gradient is -1 (and the x-intercept, not that we care, is 2.5)
+
+So if we substituted -1 into our original equation, we would get:
+
+  y - 4 = m(x + 1)
+
+  y - 4 = -(x + 1)
+
+This is the line that goes through (-1, 4) and is _parallel_ to 2x + 
+2y - 5 = 0. We want the line that goes through (-1, 4) and is 
+perpendicular to 2x + 2y - 5 = 0. To rotate a gradient about 90 
+degrees, you take the negative reciprocal.
+
+So, for example, the gradient perpendicular to a gradient of 1/2 is -
+2.
+
+Therefore, the gradient perpendicular to a gradient of -1 is 1.
+
+Therefore our equation is:
+
+  y - 4 = x + 1
+
+Now, we rearrange that into standard form:
+
+      0 = 4 + x + 1 - y
+
+      0 = 5 + x - y
+
+This answer is different from that of the review. Are you sure the 
+question is copied correctly?
+
+There's a page with more information about linear graphs here:
+
+    http://mathforum.org/library/drmath/view/63134.html
+
+Does that help? 
+
+Write back if I can be of any more help - on this or anything else.
+
+- Doctor Dotty, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 568115
+Subject: Re: Building Design Problem
+To: few_quay@yahoo.com (Chris)
+From: Doctor Douglas
+TimeStamp: 08/23/2004 at 18:07:05
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/22/2004 at 14:18:31 (Eastern Time),
+>[Question]
+>A circular air duct of diameter D is fit firmly in the right angle 
+>corner where a basement wall meets the floor.  Find the diameter of 
+>the largest water pipe that can be run in the right angle corner 
+>behind the air duct.
+>
+>[Difficulty]
+>I think I am approaching the problem wrong because I am missing a 
+>key concept of circles and right angles.  I have tried using the 
+>equation of a circle and pyth. thm, but I get to the point where the 
+>unknown cancel out.  
+>
+>[Thoughts]
+>(D/2)^2 + (D/2)^2 = (D/2 + x)^2
+
+Hi Chris.
+
+thanks for writing to the Math Forum.
+
+A diagram might help:
+
+
+  +-E--------A             air duct is centered at O, and distance
+  F X                      AO = OB = OC = D.
+  |   C
+  |                        water pipe is centered at X, and touches
+  |                        walls at E and F, and duct at C, so
+  B          O             CX = XE = XF = x.             
+
+Can you finish from here?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

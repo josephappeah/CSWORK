@@ -1,0 +1,74 @@
+ThreadNum: 568234
+Subject: Re: Finding the phi (Euler's function)  of a large number
+To: ab42@cse.buffalo.edu (Aruna)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 15:21:38
+Sent: yes
+
+
+As Aruna wrote to Dr. Math
+On 08/23/2004 at 12:27:22 (Eastern Time),
+>[Question]
+>Hi,
+>
+>     Euler's phi function: phi (N) is defined as the number of 
+>numbers less than N and coprime to N. I need to find the phi of a 
+>large number. I understand that if this number is a prime P, then phi
+>(P) = P -1. However, the number i have in mind is composite and may 
+>be a 10 digit number.
+>
+>I want to know if this is do-able in polynomial time, and if so, is 
+>there an algorithm for it?
+>
+>Thank you
+>Aruna
+> 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I realise that one way to do this is to find the prime factorization 
+>of the number N. We know that phi (P*Q) = (P-1) * (Q-1), if P and Q 
+>are primes.
+>
+>However, factorization itself is a hard problem. 
+
+Hi Aruna,
+
+Thanks for writing to Dr Math.  The answer to your question is no,
+there is no known way to get phi(n) in polynomial time for general
+(large) n.  In fact, if n is a product of two primes,
+
+  n = p*q
+
+then finding phi(n) is equivalent to factoring n, because if you can
+find phi(n), then
+
+  p + q = n + 1 - phi(n)
+  p * q = n,
+
+so p and q are, respectively,
+
+  n + 1 - phi(n) + sqrt((n + 1 - phi(n))^2 - 4n)
+  ----------------------------------------------
+                        2
+
+and
+
+  n + 1 - phi(n) - sqrt((n + 1 - phi(n))^2 - 4n)
+  ----------------------------------------------.
+                        2
+
+And those two expressions are very easy to calculate.  So if you could
+compute phi(n) in polynomial time, then you could factor n in
+polynomial time, and it is conjectured (but not yet proven) that it is
+impossible to factor n in polynomial time.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

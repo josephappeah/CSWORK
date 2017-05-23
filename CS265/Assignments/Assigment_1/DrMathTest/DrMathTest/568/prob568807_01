@@ -1,0 +1,59 @@
+ThreadNum: 568807
+Subject: Re: The floor function of 4.99999......
+To: iminevichdd@excite.com (Igor)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 21:28:20
+Sent: yes
+
+
+Hi Igor,
+
+>What is the floor function of .9999... ?
+
+That would be 1. 
+
+>[Difficulty]
+>I know that .9999... = 1 has been accepted pretty much by every
+>mathematician. However, why isn't there a notation to show that the
+>number is a little less than 1?
+
+Because it's _not_ less than 1.  It's exactly equal to 1.  It's just
+another way of writing 1, in the same way that 7/7 and e/e are
+different ways of writing 1. 
+
+>I think .9999... should equal 1-, showing that it approaches 1 from
+>the left. .9999... gets arbitrarily close to 1 but it is not exactly 1
+
+What this means is that you're confusing 
+
+  0.999999...     (where the expansion never ends)
+
+with
+
+  0.999...999     (where the expansion ends after a long time)
+
+But these aren't the same.  Take a look at 
+
+  How can .999999.... equal 1?
+  http://mathforum.org/library/drmath/view/55746.html
+
+for an explanation of how they're different. 
+
+>as we know it is when 5 is divided by 5, for example. Then int(1-)
+>should be 0 and int(5-) or int(4.9999...) should be 4. The difference
+>is 1/infinity between 1 and 1- and infinity is a concept, not a
+>number. 
+
+Right, infinity is a concept, not a number.  So how can 1/infinity be
+assigned a sensible meaning?  It can't. 
+
+>Thus I think we should 1- or 1+ a concept, too. Then such
+>functions as the floor function and the ceiling function would make
+>more sense, at least to me.
+
+Once you understand _why_ 0.999... is the same as 1, and not 'a little
+bit less', you won't be worrying about it.  :^D
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 568470
+Subject: Re: jamb class
+To: yedionseri@yahoo.co.uk (kiara)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 17:17:15
+Sent: yes
+
+Hi, Kiara.
+
+As kiara wrote to Dr. Math
+On 08/24/2004 at 14:31:50 (Eastern Time),
+>[Question]
+>   (x/2)
+>log2    =3
+>
+>[Difficulty]
+>l dont know if my working was right beco my ans was wrong.
+>
+>[Thoughts]
+>_2 log2=3
+>   therefore x=6
+
+If you got the wrong answer, then you must have done something wrong. 
+I wish I could be sure how to read the problem. I know it's hard to 
+write an equation in e-mail, without math symbols. Is the problem 
+this:
+
+  log (2^(x/2)) = 3
+
+where 2^(x/2) means 2 raised to the power (x/2)? If so, then I would 
+first rewrite the left side:
+
+  (x/2)*log(2) = 3
+
+Now it's easy to solve. The answer isn't 6; you can't ignore log(2).
+
+If the equation is different, write back and help me understand how 
+to read the equation. If you can tell me the answer, that will help 
+me confirm my understanding of how to read the equation.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

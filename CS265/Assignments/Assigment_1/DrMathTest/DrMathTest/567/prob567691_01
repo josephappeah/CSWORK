@@ -1,0 +1,48 @@
+ThreadNum: 567691
+Subject: Re: College
+To: leaf_hn@yahoo.com (Diep)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:41:32
+Sent: yes
+
+
+As Diep wrote to Dr. Math
+On 08/19/2004 at 12:02:45 (Eastern Time),
+>[Question]
+>Could you help me to solve this, please?
+>
+>1 + 2 = 5
+>2 + 3 = 13
+>4 + 5 = 41
+>5 + 6 = 61
+>6 + 7 = x . What is the value of the x ? 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I tried to find the relationship between them, and I thought that it 
+>would find 3 + 4 = y, but it couldn't help me find out anything. It 
+>looks so crazy, isn't it? 
+>
+>Thanks millions,
+
+Thanks for writing to Ask Dr. Math, Diep!
+
+Obviously + above does not denote addition, but some other operation
+combining the two numbers on the left to get the number on the right.
+I tried a few things, then thought of computing this:
+
+   5 - 2^2,
+   13 - 3^2,
+   41 - 5^2,
+   61 - 6^2.
+
+Then I saw a pattern, and so should you.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

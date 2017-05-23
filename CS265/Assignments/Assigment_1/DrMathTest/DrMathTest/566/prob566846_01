@@ -1,0 +1,52 @@
+ThreadNum: 566846
+Subject: Re: introduction to statistics
+To: see_fleming@hotmail.com (fleming)
+From: Doctor Douglas
+TimeStamp: 08/13/2004 at 20:37:23
+Sent: yes
+
+
+As fleming wrote to Dr. Math
+On 08/13/2004 at 17:18:08 (Eastern Time),
+>[Question]
+>Two events, A and B are equally likely.  The chance that either A or 
+>B happens on a given trial of an experiement is .70.  While the 
+>chance that they both happen on a given trial is only 0.40.  What is 
+>the probability that A happens?
+>
+>[Difficulty]
+>just figuring out what formula to use.  Is this event mutually 
+>exclusive or does it enter into the equation at all?
+>
+>[Thoughts]
+>confused!!!
+
+Hi Fleming.
+
+thanks for writing to the Math Forum.
+
+Hint:  The experimental outcomes are
+
+  1 A and B
+  2 A only 
+  3 B only
+  4 neither A nor B
+
+All four of these outcomes are mutually exclusive--one and only
+one of these outcomes must occur.
+
+From the first statement we know that
+
+  Pr(A) = Pr(1) + Pr(2) = Pr(1) + Pr(3) = Pr(B)
+
+You can obviously infer that Pr(2) = Pr(3) from this.
+
+From the "either" statement, we know that
+
+  Pr(1) + Pr(2) + Pr(3) = 0.70.
+
+You finish.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

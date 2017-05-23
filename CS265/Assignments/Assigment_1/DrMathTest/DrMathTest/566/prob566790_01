@@ -1,0 +1,100 @@
+ThreadNum: 566790
+Subject: Re: the smoothest function
+To: t_d_lowe@hotmail.com (Tom)
+From: Doctor Douglas
+TimeStamp: 08/13/2004 at 14:46:14
+Sent: yes
+
+
+As Tom wrote to Dr. Math
+On 08/13/2004 at 02:54:11 (Eastern Time),
+>[Question]
+>I've been writing code to move objects on a computer screen 
+smoothly, 
+>and came across the question 'what is the smoothest function that 
+>transitions from -1 to 1?' Or whats the perfect s curve y = f(x) 
+that 
+>will smooth between f(x<-1) = -1 and f(x>1) = 1? Or is there a 
+>smoothest function?
+>Obvious choices like a piece of a sine wave, or a cubic function are 
+>not perfectly smooth at the boundaries x=-1 and x=1. One would 
+expect 
+>the ideal function to be continuous in every derivative.
+>I have a feeling the ideal function may be the integral of (1-x^2)*
+(1-
+>x^4)*(1-x^8)*(1-x^16)*...
+>
+>
+>[Difficulty]
+>I assume there is more than one function which is completely smooth 
+>at the boudaries. The difficulty is then how do you define 
+>smoothness? How important is the strength of each derivative of the 
+>function in the measure of smoothness? Is a function with a large 
+>acceleration more or less smooth than one with a large velocity but 
+>small acceleration? 
+>
+>[Thoughts]
+>
+
+Hi Tom.
+
+thanks for writing to the Math Forum.  You are correct in that
+you have to define exactly what you mean by "smooth".  The
+word "smooth" actually has a mathematical meaning (involving the
+number of continuous derivatives):
+
+  Eric W. Weisstein. "Smooth Function." 
+  From MathWorld--A Wolfram Web Resource. 
+  http://mathworld.wolfram.com/SmoothFunction.html 
+
+and what happens at the endpoints may or may not be important.
+In some loose sense the function
+
+  f(x) = x       -1 < x < 1
+
+is the smoothest, since all derivatives after the first one vanish.
+However, you may want the slope at the endpoints to be zero (you 
+didn't specify this).  You can arrange it so that *all* derivatives
+of the transition function f exist and are zero at x=+1 and x=-1.  
+You can do this by building it up from the function
+
+  g(y) = e^(-1/y^2)    y <> 0
+       = 0             y = 0
+
+This function g is differentiable to all orders (and the derivatives
+are all zero at y=0)--if you graph g vs. y, you will see that it is
+very flat through the region near y=0.  But the fact that g(y) is
+nonzero for y<>0 means that we can use it to transition from one
+value to another:
+
+   h(x) = 1 - g(x-1)            for 0 < x < 1
+        
+has the right behavior at x=+1:  h(x->1-) = 1, and all of its
+derivatives are zero at x=+1.  Now you can combine this with
+an analogous function that helps in the region near x=-1:
+
+   k(x) = -1 + g(x+1)
+
+Now, if h(0) = k(0), we'd be nearly done, but h(0) = 1 - g(-1) > 0
+k(0) = -1 + g(1) < 0, so they don't meet up.  We can fix this by
+a simple trick:
+          
+          x+1        1-x
+   f(x) = --- h(x) + --- k(x)     0 < |x| < 1
+           2          2
+
+   f(x) = x                       |x| = 1
+
+Note how the transition has been constructed to have f(x->1-) = 
+(2/2)*h(x->1-) = 1 and f(x->-1+) = (2/2)*k(->-1+) = -1.  And what
+happens at x=0?  We have f(0) = [h(0) + k(0)]/2 = 
+[1 - g(-1) - 1 + g(1)]/2 = 0/2 = 0, so it goes through the origin.
+
+Of course, this may not be what you meant by "smoothest" (if you
+are worried about maintaining low slope, low acceleration, etc.).
+I hope that this helps, but if I misinterpreted your question, please
+feel free to write back and clarify it.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,40 @@
+ThreadNum: 566197
+Subject: Re: probability-urgent, need reply soon!!!!!!!
+To: husker15@husker.com (Michael)
+From: Doctor Roy
+TimeStamp: 08/09/2004 at 17:37:45
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/09/2004 at 17:33:47 (Eastern Time),
+>[Question]
+>Isn't the probability of flipping a coin 50% no matter if it is the 
+>first, of fifth trial in a sequence?  For example, if you flip a coin 
+>8 times in a row, what is the probability that all of the flips will 
+>be heads?  
+>
+>[Difficulty]
+>Is the answer 50% or 8/.5?
+>
+>[Thoughts]
+>No matter what trial you flip a coin, the probability should still be 
+>50%, not 50% for the first trial and then 25% for the second trial.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The probability that the 8th flip will be heads is 50%. 50% is only
+for a _single_ flip. The probability that all 8 flips will be heads is
+(1/2)^8 = 1/256. It's 50% for all the flips, and you multiply
+probabilities if you repeat trials:
+
+   (1/2)*(1/2)*(1/2)*(1/2)*(1/2)*(1/2)*(1/2)*(1/2) = 1/256
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

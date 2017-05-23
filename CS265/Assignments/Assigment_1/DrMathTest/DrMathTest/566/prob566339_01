@@ -1,0 +1,59 @@
+ThreadNum: 566339
+Subject: Re: Lograuthms of a power
+To: jlee87@msn.com (jenn)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 12:26:50
+Sent: yes
+
+
+As jenn wrote to Dr. Math
+On 08/10/2004 at 14:55:32 (Eastern Time),
+>[Question]
+>I don't understand how to do the logarithm of a power. For example 
+>if you have:
+>
+>Log7495
+>
+>
+>[Difficulty]
+>Where does the 2 come from?
+>
+> what's the point of using this?
+>
+>And what does the 10 mean?
+>
+>[Thoughts]
+>=5log749
+>=5*2
+>=10
+>
+>( BY THE WAY, 7 IS A SUBSCRIPT AND 5 IS SUPPOSED TO BE SUPERSCRIPT)
+>
+
+Hi Jenn,
+
+Thanks for writing to Dr. Math.  If you use the suggested typing
+conventions, your problem would be written
+
+   log_7(49^5) ,
+
+the logarithm to the base 7 of the fifth power of 49.
+
+You need to use properties of logarithms: see
+
+  http://mathforum.org/library/drmath/view/55522.html
+
+and use property (3').
+
+The archived answer also explains what logarithms mean, so that
+you should be able to find the value of
+
+   log_7(49) .
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

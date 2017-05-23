@@ -1,0 +1,54 @@
+ThreadNum: 567507
+Subject: Re: subscript numbers
+To: perseghetti@donet.com (Ben)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 17:08:41
+Sent: yes
+
+
+As Ben wrote to Dr. Math
+On 08/18/2004 at 15:23:04 (Eastern Time),
+>[Question]
+>In the geometric sequencing formula:
+>an=a1rn-1  (in this formula, the first "n" and the 1 is lower, like 
+>a subscript. What does this mean? Upper is usually an exponential. 
+>Does this mean to multiply?
+>
+>
+>[Difficulty]
+>Not sure why the numbers in the formula are subscript.
+>
+>[Thoughts]
+>I am thinking I should multiply.
+
+Hi, Ben --
+
+In that notation, the "n" and "1" on "an" and "a1" are subscripts; 
+they identify the position of that element of a sequence.  We can 
+represent the subscript in typed text using parentheses -- for 
+example, a(1) and a(n).  Since these subscripts identify the 
+position of the element in a sequence, we have
+
+  an = a(1) = 1st element in sequence
+  a2 = a(2) = 2nd element
+  ...
+  an = a(n) = n-th element
+
+Of course, either "an" or "a(n)" in different contexts often 
+indicates multiplication; but in the context of sequences and 
+series, it usually indicates subscripting.
+
+So the formula you show -- rewritten in the form
+
+  a(n) = a(1)*r^(n-1)
+
+simply tells you what is obvious from the definition of a geometric 
+sequence:  the n-th term ("a(n)") is equal to the first term ("a
+(1)"), multiplied by the common ratio ("r") (n-1) times.
+
+I hope this helps clear things up for you.  Write back if you have 
+any further questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 568375
+Subject: Re: combinations with replacements
+To: acap4@aol.com (amy)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 09:44:32
+Sent: yes
+
+
+As amy wrote to Dr. Math
+On 08/23/2004 at 22:36:18 (Eastern Time),
+>[Question]
+>how many four color combinations can i make if i have five colors?
+>
+>[Difficulty]
+>okay.....i am the parent and it is very late......trying to help my 
+>daughter figure this out.  my brain keeps going blank.  cant remember 
+>how to do this.  help!!!
+>
+>[Thoughts]
+>
+
+Hi Amy,
+
+Have you looked at our FAQ on this? 
+
+  Permutations and combinations
+  http://mathforum.org/dr.math/faq/faq.comb.perm.html
+
+I'm a little confused by 'with replacements' in your subject line. 
+Normally we think of combinations as being selected without
+replacement, e.g., 
+
+  blue, blue, red
+
+would not be a combination of the colors 
+
+  blue, red, green, brown, purple, yellow
+
+But are you including 'combinations' like that? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

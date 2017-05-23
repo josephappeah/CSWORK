@@ -1,0 +1,64 @@
+ThreadNum: 568004
+Subject: Re: Domain and Range of Different Functions
+To: osterhou3@comcast.net (Stephanie Osterhoudt)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 11:29:21
+Sent: yes
+
+
+As Stephanie Osterhoudt wrote to Dr. Math
+On 08/21/2004 at 10:53:44 (Eastern Time),
+>[Question]
+>What is the general rule of finding the domain and range of different functions?  
+>
+>[Difficulty]
+>I have seen you do it for certain examples...but is there a way to always find it no matter 
+>what the function is?
+>
+>[Thoughts]
+>
+
+Hello Stephanie,
+
+One can give formal rules for describing what the domain and range are, but I think you 
+are wanting to know for specific functions what their domains and ranges are.  
+
+There is no general procedure for doing this.  If, for most polynomials, they go off to both 
++infinity and -infinity, the range is all of R (the set of real numbers).  Othewise, one must 
+do some tests.  In some cases it can be very difficult to find the range.
+
+For the domain, the domain should be specified, as a part of giving the function.  
+However, many texts just give an expression and expect you to understand that the 
+domain is the set of all x for which the expression "makes  sense" or is defined.
+
+f(x) = sqrt(x),
+
+one expects the domain to be all x>=0.  The range is all reals bigger than or equal to 
+zero.
+
+f(x)=x^2/((x-2)(x+4)),
+
+Here the domain is the set of all reals other than 2 and -4.  The range is harder.  Because 
+the graph has vertical asmyptotes and the graph goes both up and down along them, the 
+range includes at least everything sufficiently far out from the origin.
+
+To figure out the range, let y=f(x) and try to solve for x.  You'll find
+
+x = (-y - Sqrt[-8*y + 9*y^2])/(-1 + y)
+
+and
+
+x = (-y + Sqrt[-8*y + 9*y^2])/(-1 + y)
+
+So, y=1 is out.  Otherwise, 9y^2-8y>=0, which means y(9y-8)>0.  So,
+
+y>0 and 9y-8>0, which means y>8/9  
+
+or
+
+y<0 and 9y-8<0, which means y<0.
+
+So, range is (-oo,0] union with (8/9,oo).
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

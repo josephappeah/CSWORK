@@ -1,0 +1,36 @@
+ThreadNum: 566914
+Subject: Re: number theory
+To: achessman64@yahoo.com (Jonathan M.)
+From: Doctor Greenie
+TimeStamp: 08/29/2004 at 19:35:45
+Sent: yes
+
+
+As Jonathan M. wrote to Dr. Math
+On 08/27/2004 at 11:05:28 (Eastern Time),
+>It is not a hard task to find out that n= 1 , 8 and 9 are the 
+>solutions. But what is the argument that shows that there are no 
+more 
+>any other solutions?
+>
+>Thank you.
+
+Hi, Jonathan --
+
+We know that for n>7, f(n)>1.
+
+And we found f(8)=8; f(9)=3; f(10)>2; f(11)<2.
+
+And a bit of analysis using any of a number of methods shows that 
+the function is always decreasing for n > 7.
+
+So we can conclude that
+
+  1 < f(n) < 2  for all n > 10
+
+And so the only integer values of the function are the ones we 
+already found for n=1, 8, and 9.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

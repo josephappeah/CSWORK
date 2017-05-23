@@ -1,0 +1,77 @@
+ThreadNum: 567303
+Subject: Re: Rate Question
+To: bockisch@aol.com (Joni Bockisch)
+From: Doctor Roy
+TimeStamp: 08/17/2004 at 13:59:20
+Sent: yes
+
+Hi,
+
+Thanks for writing to Dr. Math. 
+
+Let's address these issues one at a time:
+
+>Here are some of my training times:
+>
+>Swimming:  42 laps in 30.82 minutes
+>
+>according to algebraic rules:  d/t=r
+>
+>42/30.82=1.36
+>
+>Does that mean it takes me over 1 minute to swim one lap?  Not 
+>according to my stop watch it doesn't.  So I have figured my per lap 
+>time as:
+
+You should _always_ keep track of units in these problems:
+
+   42 laps / 30.82 min = 1.36 laps/min
+
+So, this figure tells you that you swim over 1 lap a minute (actually,
+a little more than a lap and a third in a minute).
+
+>Running:  2.2 miles in 27.92 minutes  (don't laugh - I'm not much of 
+>a runner :-)
+>
+>d/t=r 
+>2.2/27.92=.0788  I'm not sure what that means, but it looks like I'm 
+>a lot faster than I think ;-)
+
+Again, units:
+
+   2.2 miles / 27.92 min = 0.0788 miles/min
+
+This means you run 0.0788 miles every minute. Converting to miles per
+hour, it is 4.728 miles per hour.
+
+>27.92/2.2=12.12.69 - which also agrees better with my watch
+
+This calculation is:
+
+   27.92 min / 2.2 miles = 12.69 minutes / mile
+
+So, it takes 12.69 minutes to run a mile.
+
+>
+>Biking:  12 miles in 57.5 minutes
+>
+>d/t=r
+>
+>12/57.5=.21  (do I really bike a sub minute mile?)
+
+Units:
+
+   12 miles / 57.5 minutes = 0.21 miles / minute = 12.52 miles per hr.
+
+>57.5/12=4.79  (so I bike a 4.79 minute mile)
+
+   57.5 minutes / 12 miles = 4.79 minutes per mile
+
+Speed is given as distance per unit time. So, your _speed_ is 12.52
+miles per hour. You are also interested in the time it takes to travel
+certain intervals (laps/miles). This is a slightly different
+calculation from speed.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

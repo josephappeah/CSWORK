@@ -1,0 +1,93 @@
+ThreadNum: 567568
+Subject: Re: Question about distance calculation
+To: romal@ksu.edu (Romal Jacob)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 21:34:31
+Sent: yes
+
+Hi, Romal.
+
+As Romal Jacob wrote to Dr. Math
+On 08/18/2004 at 19:18:44 (Eastern Time),
+>[Question]
+>Hi, I am working on a VB program for finding distance between two
+>points.(longitude and latitude). I have gone through your archives 
+and
+>am using the great circle distance formula: Arccos[Cos[a1] Cos[b1]
+>Cos[a2] Cos[b2] + Cos[a1] Sin[b1] Cos[a2] Sin[b2]
+>    + Sin[a1] Sin[a2]] * r
+>
+>I am comparing my results with the site 
+>http://jan.ucc.nau.edu/~cvm/latlongdist.html   
+>
+>
+>
+>[Difficulty]
+>When i compare the distances I found that when the ditances are below
+>2.5 miles, the distance from my algorithm matches exactly with the
+>distance computed on the website. but for distances above 2.5 miles,
+>the answers don't match. 
+>
+>I cannot figure out why
+>
+>[Thoughts]
+>This the the VB code that does the calculation
+>
+>t1 = Math.Cos(deg2rad(a1)) * Math.Cos(deg2rad(b1)) *              
+>Math.Cos(deg2rad(a2)) * Math.Cos(deg2rad(b2))
+>t2 = Math.Cos(deg2rad(a1)) * Math.Sin(deg2rad(b1)) *
+>Math.Cos(deg2rad(a2)) * Math.Sin(deg2rad(b2))
+>t3 = Math.Sin(deg2rad(a1)) * Math.Sin(deg2rad(a2))
+>t4 = t1 + t2 + t3
+>t5 = -Math.Atn(t4 / Math.Sqr(1 - t4 * t4)) + (pi / 2)
+>distance = t5 * 3963.1
+>
+>where a1,b1, a2,b2 are latitudes and longitudes
+>deg2rad is a function that converts the degrees into radians
+>an example of the latitude and longitude that are giving me a 
+problem are
+>
+>3845.227 N     09555.560 W
+>3845.239 N     09552.307 W
+>
+>from http://jan.ucc.nau.edu/~cvm/latlongdist.html the distance is
+>2.9245
+>my algorithm gives a distance of 42.0298092343728
+
+The formula you are using can be simplified. If you found the formula 
+here (one of several pages in our Archives on this topic, and 
+probably the oldest):
+
+  Using Longitude and Latitude to Determine Distance
+  http://mathforum.org/library/drmath/view/51711.html
+
+then take a look farther down the page where a simpler version is 
+given:
+
+d = R*arccos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(lon1-lon2))
+
+This shouldn't affect your results, however. (You can also improve 
+the efficiency of your code by calculating each trig function only 
+once, setting a variable to each value you need to use more than 
+once.)
+
+I see also that you are using a formula to get the arccosine in terms 
+of arctan, presumably because your language does not have an arccos 
+function. That part looks fine.
+
+I am not sure of the meaning of your latitudes and longitudes; my 
+best guess is that they are of the form [D]DDMM.MMM, that is, 3 
+digits (2 for latitudes) for the degrees and the rest for decimal 
+minutes. If I assume this format and plug the numbers into my 
+spreadsheet, I get a distance of 2.924534468 miles, so my guess 
+appears to be correct.
+
+You will need to convert the latitudes and longitudes to decimal 
+degrees before converting degrees to radians. Can you do this 
+conversion? It will probably involve mod and integer-division 
+functions to separate degrees from minutes. Then divide the minutes 
+by 60 and add the degrees.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

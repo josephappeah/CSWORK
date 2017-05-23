@@ -1,0 +1,67 @@
+ThreadNum: 568039
+Subject: Re: An Irrigation problem
+To: bloom@pixigirl.nu (Elisa)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 20:48:30
+Sent: yes
+
+Hi, Elisa, welcome to Ask Dr. Math.
+
+As Elisa wrote to Dr. Math
+On 08/21/2004 at 17:34:26 (Eastern Time),
+>[Question]
+>Here is the word problem:
+>
+>A linear irrigation system consists of a long water pipe on wheels 
+>with sprinklers mounted at regular intervals along the pipe.  The 
+>system moves slowly across a rectangular field to give all parts of 
+>the field the same designated amount of water.  The manufacturer 
+>wants you to decide how to space the sprinklers on the pipe to give 
+>the most uniform coverage of water possible.  After you have 
+>established the best spacing, you should decide how fast the system 
+>should move acrosss the field to drop one inch of water in one 
+>pass.  Here are the specifications:
+>
+>1. Each sprinkler head produces a circular spray pattern.  The flow 
+>rate is five gallons a minute for each sprinkler.  That is, water 
+>falls uniformly on the area between two concentric circles with 
+>radii of one foot and twenty feet.
+>
+>2. The field is 1000 feet wide and 2000 feet long.
+>
+>3.  To avoid runoff, there should be no more than double overlap of 
+>spray patterns.
+>
+>[Difficulty]
+>I've solved the part about the spacing of the sprinklers and how 
+>many there are one one pipe, but I can't figure out how fast the 
+>system should move across the field.  
+>
+>[Thoughts]
+>I'm not sure if I have the first part correct.  The sprinklers are 
+>going from top to bottom so I divide 40 (which is the diameter of 
+>the bigger circle) by 1000 and I get 25 which is how many feet the 
+>sprinklers are spaced apart.  I divide 25 by 1000 to get 40 which is 
+>how many sprinklers are on one pipe.  I imagine for the second part 
+>that the sprinklers have to move less than a minute but I'm not 
+>sure.  I'm completely lost on the second part.
+
+On the first part, I don't think you've got the "most uniform 
+coverage of water possible." You've spaced the sprinkler heads so 
+that the coverage circles just touch. As the pipe moves across the 
+field, a point in the field under the path of a sprinkler head will 
+be within the coverage circle for some length of time (you can figure 
+the time once you know the speed of the pipe), but a point in the 
+field under the path of a point where the circles touch will only be 
+getting water for an instant, so it will get much less water. You'll 
+have to provide for overlap, as the problem suggests. To tell the 
+truth, it looks to me like a tough challenge to quantify uniformity 
+of coverage and determine how to maximize uniformity.
+
+On the second part, remember that one inch of water means a VOLUME of 
+1 inch times the area of the field. You can find the flow rate 
+(volume per unit time) and work from there to find the speed you need.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

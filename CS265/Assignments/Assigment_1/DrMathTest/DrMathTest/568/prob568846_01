@@ -1,0 +1,61 @@
+ThreadNum: 568846
+Subject: Re: (no subject)
+To: ampadilla2@sbcglobal.net (Aldo )
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 12:29:03
+Sent: yes
+
+
+As Aldo  wrote to Dr. Math
+On 08/25/2004 at 23:20:26 (Eastern Time),
+>[Question]
+>The poduct of three consecutive numembers is 4080. What are the 
+>numbers?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Aldo,
+
+How you'd approach this depends on whether you know any algebra.  If
+you do, you can set up an equation, based on the fact that if the
+first number is n, then the second is (n+1), and the third is (n+2).
+Then you get
+
+  4080 = n(n+1)(n+2)
+
+Actually, it's easier if you make n the middle number.  Then you get
+
+  4080 = (n-1)n(n+1)
+
+If you expand both, you'll see why the second is better. 
+
+Anyway, if that looks like Greek to you, consider getting the answer
+by trial and error.  Here are three consecutive numbers:
+
+  3, 4, 5
+
+The product is 
+
+  3 * 4 * 5 = 60
+
+which is way too small.  Here are three other consecutive numbers:
+
+  80, 81, 82
+
+The product is
+
+  80 * 81 * 82 = 531,360
+
+which is way too large.  So the answer is somewhere in between.  If
+you're clever about guessing, you should be able to find the numbers
+without too much trouble. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

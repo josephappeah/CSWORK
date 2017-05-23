@@ -1,0 +1,59 @@
+ThreadNum: 566090
+Subject: Re: Putting a border around the base of a tree
+To: mtraver@pensys.com (Marilyn )
+From: Doctor Douglas
+TimeStamp: 08/09/2004 at 11:32:12
+Sent: yes
+
+
+As Marilyn  wrote to Dr. Math
+On 08/08/2004 at 22:08:07 (Eastern Time),
+>[Question]
+>The tree is 4 feet around, The border edging I want to put around it 
+>is 11.5 feet long.  How far away from the base of the tree will I be 
+>putting the edging so it makes a complete circle?  
+>
+>[Difficulty]
+>I never was any good at circumfurences and radius in math and I've 
+>forgotten what I had learn.  I'm 60+ years old. 
+>
+>[Thoughts]
+>I suppose I could make the edging in a circle around the tree on top 
+>of the dirt and rocks already put there and try to balance it out 
+and 
+>Then move all of the rocks and dirt to put the edging down. But if I 
+>knew the amount of inches away from the tree to put the edging, it 
+>would be alot easier to have a starting point.   Besides giving me 
+>the answer could you show me how you came to get the answer, please? 
+>Thank you for your help.
+
+Hi Marilyn.
+
+thanks for writing to the Math Forum.
+
+The only formula we need is the following:
+
+   circumference = 2 * pi * radius,
+
+where pi is a constant approximately equal to 3.14.  The distance
+away from the tree is the difference in radii between the tree's
+radius and the edging radius.   We know the circumferences of the
+tree and the edging, and can compute the two radii from them by 
+applying the equation above:
+
+  Tree:   r = c/(2*pi) = (4 ft)/(2*3.14) = 0.64 ft
+  Edging: R = C/(2*pi) = (11.5 ft)/(2*3.14) = 1.83 ft
+
+These are the radii of the circles of the tree and edging, and the
+difference between them (which is the spacing all around) is
+
+  R - r = 1.83 ft - 0.64 ft = 1.19 ft
+                            = 1.19 ft x (12 inch/ft)
+                            = 1 ft 2.33 inch
+
+I hope that this helps.  If you are still confused by this, please
+write back.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

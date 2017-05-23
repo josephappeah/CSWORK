@@ -1,0 +1,42 @@
+ThreadNum: 566983
+Subject: Re: Da Vinci Maths Class
+To: Sameer_797@hotmail.com (Sameer)
+From: Doctor Anthony
+TimeStamp: 08/15/2004 at 07:57:25
+Sent: yes
+
+
+As Sameer wrote to Dr. Math
+On 08/15/2004 at 04:12:48 (Eastern Time),
+>[Question]
+>Find the smallest positive number N such that 6468 x N is a perfext 
+>cube, that is, 6468 x N = k to the power of 3
+
+Start by factorizing 6468
+
+The prime factors are  2^2 x 3 x 7^2 x 11
+
+To make this a perfect cube we must make each power equal to 3 or a 
+multiple of 3.
+
+So we multiply by 2 x 3^2 x 7 x 11^2  =  15246
+
+and   6468 x 15246 = 98611128
+
+                   = 462^3
+
+
+
+>
+>[Difficulty]
+>i just cant do it.
+>
+>[Thoughts]
+>Its seems too hard. it may be the technique but i just have no 
+idea. 
+>please help me.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

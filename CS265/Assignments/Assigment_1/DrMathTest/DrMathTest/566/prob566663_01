@@ -1,0 +1,82 @@
+ThreadNum: 566663
+Subject: Re: Does Cantor's set theory affect Monkeys typing Shakespear
+To: waswhatwer@hotmail.com (Mark Born)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 12:43:17
+Sent: yes
+
+
+Hi Mark,
+
+>I saw your answer re: whether an infinte number of monkeys typing 
+>randomly for an infinite period of time would type Shakespear and was 
+>wondering if the analysis is affected at all by Cantor's proof that 
+>all infinities are not created equal?  As I understand that theory 
+>some infinities are larger than others, so that you could not show a 
+>one to one correspondance between, e.g., integers and decimals.  Are 
+>sequence of all possible letters of arbitray length, the same order 
+>of infinity as the real numbers?  
+
+This isn't really an issue, because the works of Shakespeare are finite.  
+
+>And if not, would that allow for a 
+>possibility that the monkeys would not necessarily type out every 
+>possible literary work in an infinite amount of time?
+
+If we restrict 'literary work' to include only works of finite length,
+then any infinity is large enough to cover them, and the lack of
+correspondence between types of inifinity aren't relevant. 
+
+>There seems to be something larger about sequences of letters of 
+>arbitrary length than the set of "years typed", so that you may not 
+>necessarily be able to find one to one correspondence between the 
+>number of possibly sequences and years.
+
+If you consider letters (and punctuation) to be symbols in a numeric
+base larger than 10, it should be clear that there aren't any problems
+that arise when dealing with sequences of letters that wouldn't also
+arise when dealing with sequences of digits.  
+
+That is, suppose you selected a number with a huge (but finite) number
+of digits; and the monkeys only hit the numeric keys on their
+keyboards.  Would you have any reason to believe that they wouldn't,
+given infinite time, get around to duplicating your number? 
+
+The only difference is that we typically impart 'meaning' to sequences
+of letters, but not to sequences of digits.  
+
+>Monkeys 
+>typing number on typewriters for an infinite period of time would not 
+>be able to type out every possible decimal number because the 
+>infinity of decimals is bigger than the infinity of real number with 
+>which we measure the time it takes to strike a key. 
+
+But again, we wouldn't be asking them to type out every possible
+decimal number.  We'd be picking a finite set of decimal numbers, and
+'asking' them to type out those.  It's a different kind of problem.
+
+>Literary works 
+>are like decimals because there are arbitrary numbers of letters that 
+>have to be arranged to create a literay work.  Unlike decimals, 
+>however, the number of letters corresponding to any literary work is 
+>finite, while you can put an infinite number of numbers after the 
+>decimal point.  Therefore, this suggests that the arrangement of 
+>letters into literary works is not like decimals, so that that set 
+>may not be bigger than the integers and therefore your answer to the 
+>monkey question is correct.  ??
+
+You've more or less answered your own question.  If when thinking
+about decimal numbers, you restrict yourself to a finite set of them
+(and provide for some way of representing repeating expansions), then
+you're in the same situation you're in with literary works.  
+
+Remember, when writing a literary work, if you're not finished yet,
+you _could_ keep adding symbols, just as when specifying a decimal
+number, you _could_ keep adding digits.  But at some point, you stop.
+ And it's after you stop that the monkeys go to work. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

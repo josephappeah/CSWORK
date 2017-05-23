@@ -1,0 +1,51 @@
+ThreadNum: 567249
+Subject: Re: converting metric to British ounces and gallons
+To: sladep@aol.com (Pam)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:06:46
+Sent: yes
+
+
+As Pam wrote to Dr. Math
+On 08/17/2004 at 02:04:11 (Eastern Time),
+>[Question]
+>I must dissolve 20 grams of epsom salts in 1 litre of water.  I only 
+>have traditional scales with pounds and ounces weights.  How much 
+>Epsom salts should I dissolve in 1 UK gallon?
+>Thank you so much.
+>
+>[Difficulty]
+>the workings
+>
+>[Thoughts]
+>calculate equivalence of 20 grams to one ounce = three-quarters of an 
+>ounce.  Calculate the number of litres in a gallon.  Multiply.
+>I can only get an approximation - about 3oz to one gallon.
+>Isn't there a chart that would have allowed me to calculate?
+
+Hello Pam,
+
+I know that
+
+1 grams = 0.03527396 ounces
+
+and
+
+1 liter = 0.219969 U.K. gallon
+
+So,
+
+20 gm of E.S.           1 liter                 0.03527396 ounces of E.S.
+----------- * ---------------- * -----------------------
+   1 liter            0.219979 U.K. gall                1 gram of E.S.
+
+and so   
+
+20* 0.03527396/0.219979    = 3.207 ounces of E.S. per U.K. gallon
+
+There's probably a chart somewhere, but I've not seen it.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

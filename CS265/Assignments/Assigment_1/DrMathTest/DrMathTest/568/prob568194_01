@@ -1,0 +1,77 @@
+ThreadNum: 568194
+Subject: Re: speed
+To: ajblckl@accesswave.ca (Jason)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 09:06:20
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 08/23/2004 at 01:24:53 (Eastern Time),
+>[Question]
+>HOw fast must you let out line if the kite you are flying is 30m high,
+>40m horizontally away from you, and moving away from you at 10 m/min?
+>
+>[Difficulty]
+>I am confused about how the change in distance effects the speed.
+>
+>[Thoughts]
+>
+
+Hi Jason,
+
+Let's try making a picture:
+
+
+                         .
+                      .  .
+                  .      .
+               .         . 30m
+            .            .
+    0/   .               .
+    |                    .
+   / \....................
+              40m
+
+Now, to represent the motion of the kite, we need to know what it
+means for the kit to be 'moving away from you at 10 m/min'?  Does that
+mean keeping the same angle with the ground?  
+
+
+                             _
+                            . | 10 m/min
+                         .
+                      .  .
+                  .      .
+               .         . 30m
+            .            .
+    0/   .               .
+    |                    .
+   / \....................
+              40m
+
+If so, then you need to let out line at 10 m/min.  Or does it mean
+that the horizontal distance is increasing at 10 m/min, while the
+vertical distance remains the same? 
+
+                         . . . . . .> 10 m/min
+                      .  .
+                  .      .
+               .         . 30m
+            .            .
+    0/   .               .
+    |                    .
+   / \....................
+              40m
+
+If that's the case, then you want to represent the distance to the
+kite in terms of the (changing) horizontal distance and the (constant)
+height (hint: trig functions are useful for this).  Once you have that
+expression, you can compute the derivative to get the rate of change
+of that distance, which is how fast you have to let out the line.
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

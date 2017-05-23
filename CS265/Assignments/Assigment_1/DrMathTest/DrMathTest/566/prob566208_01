@@ -1,0 +1,53 @@
+ThreadNum: 566208
+Subject: Re: Markup
+To: steech@hotmail.com (Mike)
+From: Doctor Peterson
+TimeStamp: 08/09/2004 at 23:31:25
+Sent: yes
+
+Hi, Mike.
+
+As Mike wrote to Dr. Math
+On 08/09/2004 at 18:59:16 (Eastern Time),
+>[Question]
+>the rate of markup on a toaster selling at 54.95 is 45%
+>A) What is the cost of the toaster to the retailer
+>
+>
+>[Difficulty]
+>In the back of the book i know that the answer is 37.90 and the 
+>discount amount is 17.05.  I find it difficult to understand how 
+>they get that answer
+>
+>[Thoughts]
+>to find selling price on a unit with on the cost and the markup u 
+>would do this:
+>
+>S=30+.45S
+>S-.45S=30
+>S=30/.55=54.55     
+>
+>Wouldn't it work out both ways if you try and solve for c?
+>
+
+I'm not sure where you got your sample equation -- what is S, and 
+where does the 30 comes from? I'd think S would be the selling 
+price, but then your equation doesn't make sense.
+
+The selling price is the cost plus 45% of the COST, not of the 
+selling price:
+
+  S = C + 0.45C = 1.45C
+
+Then
+
+  C = S/1.45
+
+tells you the cost that would yield the given selling price.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

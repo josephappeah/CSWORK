@@ -1,0 +1,53 @@
+ThreadNum: 566452
+Subject: Re: z!  complex number factorials
+To: zfolwick@aol.com (Zach)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 09:58:07
+Sent: yes
+
+
+As Zach wrote to Dr. Math
+On 08/11/2004 at 03:13:08 (Eastern Time),
+>[Question]
+>I can take factorials of real numbers with ease.  How do I take the 
+>factorial of a complex number?  is it  (a + bi)! = a! + b!i or maybe 
+>(a +bi)(a-1+(b-1)i)*...= a! + b!i^n?  or (a! +b!)i^n?  or is this 
+>something that can be defined in 3-space, since a,b -->R, with z=a+bi 
+>and z! = a!z +b!z (doesn't make sense to me, but I'm so confused).
+>
+>also, what's the gamma function?  I heard that it's related to this.  
+>That's what spawned this whole question....
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Zach,
+
+Thanks for writing to Dr Math.  Technically, the factorial is only
+defined for positive (real) integers.  So that means that (1/2)! is
+meaningless.  But there is a continuous function defined for all
+positive real numbers which is equal to the factorial on the positive
+integers, and that function is
+
+  gamma(x+1).
+
+And so some people write x! when they really mean gamma(x+1).  The
+gamma function is defined for all real numbers except the negative
+integers (where the function approaches infinity) and is it, in fact,
+defined on the complex numbers.  So if there is such a thing as a
+complex factorial, then it is the gamma function.  For more
+information on the gamma function, see the page on MathWorld, at
+
+  http://mathworld.wolfram.com/GammaFunction.html
+
+If you have any other questions about this or need more help, please
+write back and show me what you have been able to do, and I will try
+to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

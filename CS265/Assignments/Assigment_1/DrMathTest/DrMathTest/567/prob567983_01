@@ -1,0 +1,70 @@
+ThreadNum: 567983
+Subject: Re: Starbuck's increase in profits
+To: tmermell@comcast.net (Todd)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:24:45
+Sent: yes
+
+
+As Todd wrote to Dr. Math
+On 08/21/2004 at 03:43:22 (Eastern Time),
+>[Question]
+>Dear Dr. Math,
+>
+>A co-worker and I were at Starbuck's the other day and he ordered a 
+>tall (12 oz) no foam latte, but was given one with about an inch of 
+>foam.
+>
+>We then got into a debate of how you would use math to compute the 
+>profit Starbucks was gaining by putting foam in the cup. Aside from 
+>the nominal amount of material in the foam, let's assume it accounts 
+>for empty space for the sake of argument.
+>
+>We know the radius of the top and bottom of the cup, along with the 
+>height and the volume when full (12 oz). The debate was this - one 
+>person said you would have to measure two cones and deduct the 
+>volumes to find out how much material was missing. 
+>
+>The other (who has not had a calculus class in an embarassingly long 
+>time) remembered vaguely that you should be able to take the partial 
+>derivative of the volume of the cone, with respect to h, and compute 
+>both the height of the cone when extended beyond the bottom of the 
+>cup, and the reduction in volume when lowering the contents.
+>
+>I thought this an interesting problem, so please don't waste your 
+>time if you find it useless.
+>
+>Thanks!
+>
+>-Todd 
+>
+>[Difficulty]
+>The radius should be decreasing as height decreases, however the 
+>problem seems more complicated and developing an equation to 
+represent
+>the relationship with a known volume and two known radius' is beyond 
+>my knowledge.
+>
+>[Thoughts]
+>V = 1/3 * PI * R^2 * H
+>
+>Seems like we should know R at different points if we were to graph 
+>the volumes where the x-axis would be H and the y-axis is V.
+>
+>Because we know that between two points where we already have R and 
+>(H2 - H1) and V, there would be a formula for deriving the total 
+>value of H and subsequently, the volume at H - 1. 
+
+Thanks for writing to Ask Dr. Math!
+
+  Formulas: Geometric: Cone: Frustum
+  
+http://www.mathforum.org/dr.math/faq/formulas/faq.cone.html#conefrustu
+m
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

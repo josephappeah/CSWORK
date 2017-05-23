@@ -1,0 +1,33 @@
+ThreadNum: 568005
+Subject: Re: proper notation for a plane
+To: glts@mstar2.net (Taylor)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 11:17:04
+Sent: yes
+
+
+As Taylor wrote to Dr. Math
+On 08/21/2004 at 11:10:44 (Eastern Time),
+>[Question]
+>What is the proper notation for a plane?
+>
+>[Difficulty]
+>The problem I am working on is a plane and it wants to know what is 
+>the proper notation for the plane in the figure. The figure has three 
+>intersecting lines. Each line has points with letters.
+>
+>[Thoughts]
+>I'm stumped. This is my first year of geometry. Thanks for any help.
+
+Hello Taylor,
+
+Are you asking for the equation of the plane?  I don't think so, but, just in case, it is
+A*x+B*y+C*z+D=0, where A, B, C, and D are constants.
+
+Otherwise, there isn't really a "proper notation" for a plane.  It may be that the textbook 
+has some preferred method and you should look  in the text to see if you can figure out 
+their preferred notation. 
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

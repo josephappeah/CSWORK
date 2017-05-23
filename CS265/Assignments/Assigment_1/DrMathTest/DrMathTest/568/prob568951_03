@@ -1,0 +1,49 @@
+ThreadNum: 568951
+Subject: Re: Calculus
+To: sclaxplayer@hotmail.com (Brendan)
+From: Doctor Fenton
+TimeStamp: 08/29/2004 at 08:20:00
+Sent: yes
+
+
+As Brendan wrote to Dr. Math
+On 08/28/2004 at 22:50:27 (Eastern Time),
+>Thank You very much.
+>From There I got:
+>((a+h)^2 - 4(a+h) - 3) - (a^2 - 4a -3) / h
+>
+>(a^2 + h^2 - 4a -4h - 3 - a^2 + 4a +3) / h
+>
+>h^2 - 4h / h
+>
+>And I got : h - 4
+>
+>
+>But then I put in the other half of the problem: (x-3)
+>(x-3)^2 + 4(x-3) - 3 = 3
+>
+>Then I simplified:
+>
+>x^2 - 9 + 4x - 12 - 3 = 3
+>x^2 + 4x - 9 - 12 - 3 = 3
+>x^2 + 4x - 24 = 3
+>
+>And I think I am finished when I got to:
+>
+>x^2 + 4x - 27 = 0
+>
+>Thank You very much for your help.
+>
+
+Hi Brendan,
+
+You have made a lot of progress on this problem, but you need to 
+review your algebra.  (a+h)^2 is NOT a^2 + h^2, and (x-3)^2 is not
+x^2 - 9.  Calculus involves a lot of algebra, and it will be assumed
+that you know how to use it correctly.  You may get the calculus part 
+of a problem correct and still lose a lot of credit for algebraic
+mistakes.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,77 @@
+ThreadNum: 567725
+Subject: Re: Symbolic Logic
+To: iceicexiro@yahoo.com (NB)
+From: Doctor Achilles
+TimeStamp: 08/20/2004 at 18:48:43
+Sent: yes
+
+
+As NB wrote to Dr. Math
+On 08/19/2004 at 15:54:12 (Eastern Time),
+>[Question]
+>1. F -> (G v H) Given
+>2. (~G ^ I) v (J -> ~F) Given
+>3. ~(~H -> ~F)  Given
+>Prove ~S ^ Q
+>
+>[Difficulty]
+>My question is how can I get ~S ^ Q if both of them are not found 
+>anywhere in the premises?
+>
+>[Thoughts]
+>This is what I got:
+>4. ~ ( H v ~F) Conditional Exchange 3
+>5. ~H ^ F DeMorgan's 4
+>6. ~H Simplification 5
+>7. F Simplification 5
+>8. G v H Modus Pollens 1, 7
+>9. G Disjunctive Syllogism 6, 9
+>10. G v ~I 
+>11. ~ (~G ^ I) DeMorgan 10
+>12. J -> ~F Disjunctive Syllogism 11, 2
+>13. ~J v ~F Conditional Exchange 12
+>14. ~J Disjunctive Sylogism 7, 13
+
+Hi NB,
+
+Thanks for writing to Dr. Math.
+
+Have you ever heard a logician claim "Anything can be derived from a 
+contradiction"?
+
+Let's say you have a contradiction.  What I mean by that is something 
+of the form:
+
+ 1) A ^ ~A
+
+From that you can get:
+
+ 2) A (simplification)
+
+ 3) A v B
+
+ 4) ~A -> B
+
+ 5) ~A (simplificiation of 1)
+
+ 6) B (modus ponens)
+
+Notice how starting with a premise (line 1) which was contradictory, 
+we were able to conclude B which had nothing to do with the initial 
+premise.
+
+I suspect that you need to find a contradiction in your premises.
+
+Your work is good so far.
+
+However, I don't personally see a way to get a contradiction from 
+your premises as they are given.  Are you sure there's not another 
+premise or a mis-typed letter or something?
+
+I will leave this problem in the Dr. Math inbox where other 
+volunteers can look at it in case one of them sees something I'm 
+missing.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

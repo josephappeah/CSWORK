@@ -1,0 +1,55 @@
+ThreadNum: 566241
+Subject: Re: Hexagon
+To: helenanne88@hotmail.com (Anne)
+From: Doctor Douglas
+TimeStamp: 08/14/2004 at 01:43:48
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/13/2004 at 22:12:42 (Eastern Time),
+>i have searced the website on sphere packing and have come up with 
+>the following :
+>
+>If we had actually wanted to compute the volume of sphere inside and 
+>outside the hexagonal prism, we could use the spherical cap equation 
+>to obtain 
+> 
+> Sphere Packing - Eric Weisstein's World of Mathematics
+>   http://mathworld.wolfram.com/SpherePacking.html   
+>
+> and click the hexagonal close packing for the formula for hexagonal 
+>spheres. (i am sorry i can't seem to copy the formula in)
+>
+>
+>Conway and Sloane 1993, pp. 7 and 9). Now that the Kepler conjecture 
+>has been established, hexagonal close packing and cubic close 
+>packing, both of which have the same packing density of  , are known 
+>to be the densest possible packings of equal spheres.
+>
+>n = pi/(3 square root of 2) = 0.74048
+>
+>
+>1. my question is how do i use the formula for the 1st part .
+>2. Can 0.74048 be used to obtain the answer.
+>
+>
+>thank you once again 
+>
+
+Hi Anne.
+
+I'm afraid I don't understand your work here.  I don't know 
+to what you refer when you mention the spherical cap.  Also, beware
+of assuming that the hexagonal close pack and cubic close pack 
+arrangements are the optimal arrangements for the given box
+(hexagonal prism).  They may be, but that remains to be shown.
+The 0.74 number is appropriate only for very large container 
+volumes--or where the effect of the container is essentially
+negligible.
+
+Can you tell me which website you found this problem?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

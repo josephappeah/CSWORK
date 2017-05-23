@@ -1,0 +1,61 @@
+ThreadNum: 566743
+Subject: Re: Sum and Difference Elementary Math
+To: dorm4232@earthlink.net (Noah's Mom)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 20:22:40
+Sent: yes
+
+
+As Noah's Mom wrote to Dr. Math
+On 08/12/2004 at 19:46:26 (Eastern Time),
+>[Question]
+>How do you do this relatively simple math problem:  Two numbers 
+are  
+>the sum of 39 and these two numbers make a difference of 11. What 
+>are the two numbers?  
+>
+>[Difficulty]
+>Is there a method to solving these types of problems using the 
+given 
+>numbers or is the answer found strictly by trial and error?  Trial 
+>and error seems as if it would take forever!
+>
+>[Thoughts]
+>
+Hi, "Mom" --
+
+The approach to this problem depends on the age of your child.  For 
+an 8th grader, basic algebra makes a problem like this relatively 
+easy.  But I suspect your child is younger than that.  Fortunately, 
+a common-sense approach (which turns out to be very nearly identical 
+to the formal algebraic approach) can be used to solve the problem.
+
+Think of it this way -- on a number line, if you are comfortable 
+with number lines.  You start with some first number.  If you add 
+some second number to the first, you end up at 39; if you subtract 
+that same second number from the first, you end up at 11.
+
+If you have the picture in your mind -- or better, on a piece of 
+paper -- then you can see that the number you started with is 
+halfway between the 39 and the 11 (because the number you added to 
+get to 39 is the same as the number you subtracted to get to 11).  
+So the first number is the number halfway between 39 and 11.
+
+But the number halfway between two numbers is the average of the two 
+numbers -- which we find by adding the two numbers and dividing by 
+2.  So the first number is
+
+  39+11   50
+  ----- = -- = 25
+    2      2
+
+And then we see that the second number (which we have to add to 25 
+to get 39 or subtract from 25 to get 11) is 14.  So the numbers we 
+are looking for are 25 and 14.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

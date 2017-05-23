@@ -1,0 +1,58 @@
+ThreadNum: 568037
+Subject: Re: Do You Know Anything About Taxicab Geometry
+To: MzTweety2006@yahoo.com (Kayonna Armstrong)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 09:37:59
+Sent: yes
+
+
+As Kayonna Armstrong wrote to Dr. Math
+On 08/21/2004 at 17:16:46 (Eastern Time),
+>[Question]
+>Hi, my name is Kayonna, I'm in the 11th grade. I'm taking Geometry 
+>this year and my teacher wants the class to write a 1000 word essay 
+>on "Taxicab Geometry". I was wondering if you know something about 
+>it? If you do, could you help me out. The essay is due in 9 weeks.
+>
+>
+>                                       Thank You.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Kayonna,
+
+There's not much to say about it.  In the (x,y)-plane, the usual formula for measuring the 
+distance between two points p1=(x1,y1) and p2=(x2,y2) is 
+
+d[p1,p2)=d[(x1,y1),(x2,y2)]=sqrt( (x1-x2)^2+(y1-y2)^2].
+
+This distance function or "metric" for the plane satisifies the following laws:
+
+1. d(p1,p2) ? 0 for all p1 and p2; equality holds if and only if p1=p2.
+
+2. d(p1,p2)=d(p2,p1) for all p1 and p2
+
+3. d(p1,p2) ? d(p1,p3) + d(p3,p2) for all p1, p2, and p3
+
+The third of these laws is called the triangle inequality.
+
+The metric
+
+D(p1,p2)=D((x1,y1),(x2,y2)) = |x1-x2|+|y1-y2|
+
+satisfies these three laws.  It is the taxi cab metric.  It measures the distance between two 
+points by adding the distances between the x-coordinates and the y-coordinates.  This is 
+the way a taxicab measures distance on a rectangular grid of streets.
+
+If you do a search in Google, using
+
+taxicab metric
+
+you wil get many hits.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

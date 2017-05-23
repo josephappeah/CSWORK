@@ -1,0 +1,59 @@
+ThreadNum: 567475
+Subject: Re: cost of printer cartridges
+To: info@cadillac.org (Anne)
+From: Doctor George
+TimeStamp: 08/19/2004 at 13:16:34
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/18/2004 at 10:20:09 (Eastern Time),
+>[Question]
+>Previously I bought a color printer cartridge for $37.05 and a 
+black 
+>cartridge for $42.35.  In a bundle order, I ordered 2 black and 2 
+>color cartridges and paid $141.34.  Approximately, how much did I 
+>spend per black cartridge and how much per color cartridge?
+>
+>[Difficulty]
+>The whole thing, I'm not a math person.  
+>
+>[Thoughts]
+>My boss, the Cadillac Area Chamber of Commerce president, wants me 
+to 
+>keep track of how much I spend on print cartridges, but I don't 
+know 
+>how to add this last order to my chart because I bought them in a 
+>bundle.
+>
+>I suppose I'd have to find the ratio between color and black 
+>cartridges.
+
+Hi Anne,
+
+Thanks for writing to Doctor Math.
+
+My mom is from Cadillac, MI. She grew up on Haynes street across 
+from the high school.
+
+Without the bundle order your cost would have been
+
+       2 * 37.05 + 2 * 42.35 = 158.80
+
+If we assume that your savings are proportional for both cartridge 
+types then your bundled cost is 141.34 / 158.80 = 0.89 times the 
+unbundled cost.
+
+This makes your prices
+
+           color: 0.89 * 37.05 = 32.98
+           black: 0.89 * 42.35 = 37.69
+
+I rounded the color price up a fraction of a penny to make the final 
+answers match your actual total cost.
+
+Does that make sense? Write again if you need more help.
+
+- Doctor George, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,61 @@
+ThreadNum: 566887
+Subject: Re: Differential equations - transforming by substitution
+To: martin@edu-tech.com.au (martin)
+From: Doctor Fenton
+TimeStamp: 08/14/2004 at 11:34:44
+Sent: yes
+
+
+As martin wrote to Dr. Math
+On 08/14/2004 at 04:24:40 (Eastern Time),
+>[Question]
+>Show that the first order non-linear differential equation,
+>
+>     y' = x^2 + y^2
+>
+>is transformed into a second order linear homogeneous equation, with 
+>new unknown function u by means of the transformation,
+>
+>     y = -u'/u
+>
+>[Difficulty]
+>How to get the second order equatoin to be linear.
+>
+>[Thoughts]
+>If y = -u'/u then,
+>
+>           u(-1)u'' - (-1)u'u'   (u')^2 - uu''
+>      y' = ------------------- = -------------
+>                  u^2                 u^2
+>
+>Thus,
+>
+>     (u')^2 - uu''
+>     ------------- = x^2 + (-u'/u)^2
+>          u^2
+>
+>     (u')^2 - uu'' = (u^2)(x^2) + (u')^2
+>
+>      -uu'' = (u^2)(x^2)
+>
+>      uu'' + (u^2)(x^2) = 0
+>
+>So I have transformed the equation into a second order homogeneous 
+>equation. But it isn't a second order __linear__ homogeneous equation.
+>
+
+Hi Martin,
+
+Thanks for writing to Dr. Math.  You are almost done.  Divide the
+equation
+
+   uu'' + (u^2)(x^2) = 0
+
+by u (which has to be non-zero, for u'/u to make sense).
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

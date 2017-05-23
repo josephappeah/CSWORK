@@ -1,0 +1,29 @@
+ThreadNum: 568440
+Subject: Re: Honors Algebra II and Trig
+To: duane121899@aol.com (Duane)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 11:55:20
+Sent: yes
+
+
+As Duane wrote to Dr. Math
+On 08/24/2004 at 11:09:22 (Eastern Time),
+>[Question]
+>Can x^4 + 16 be factored?
+>
+>[Difficulty]
+>Factoring the sum of two fourth powers (or squares)
+>
+>[Thoughts]
+>I know x^2 + 16 can not be factored without going to complex 
+>numbers.  But our teacher says this can be factored into to quadratic 
+>polynomials without using i.
+
+Hello Duane,
+
+Surprisingly, it can be factored:
+
+(x^4+a^4) = (x^2 + Sqrt[2]a*x + a^2)(x^2 - Sqrt[2]a*x + a^2)
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

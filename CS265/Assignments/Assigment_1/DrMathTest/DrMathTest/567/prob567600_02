@@ -1,0 +1,97 @@
+ThreadNum: 567600
+Subject: Re: The Solution to "Nim" Games
+To: adlemon@aol.com (Alex)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 10:20:55
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/18/2004 at 21:35:29 (Eastern Time),
+>[Question]
+>A class of games called "Nim" games are played as follows:
+>1.  A fixed number of objects are placed in rows:
+>e.g.
+>XXX
+>XXXX
+>XXXXX
+>2.  The first player removes any number of objects from any single 
+>row:
+>e.g.
+>X
+>XXXX
+>XXXXX
+>3.  The second player removes any number of objects from any single 
+>row:
+>e.g.
+>X
+>XX
+>XXXXX
+>4.  Steps 2 and 3 are repeated until all the objects  have been 
+>removed and whoevere removed the last object is the loser.
+>
+>[Difficulty]
+>Decimal addition is applied to binary numbers.
+>
+>[Thoughts]
+>1. First count up the number of objects in each row:
+>XXX=3
+>XXXX=4
+>XXXXX=5
+>2. Then convert each number to binary:
+>3=011
+>4=100
+>5=101
+>3. Then add the binary numbers as if they were decimal numbers:
+>011+100+101=212
+>4. Now perform a move such that when steps 2 and 3 are performed on 
+>the result, all the digits of the sum in step three are even:
+>for example: Since 001+100+101=202, (2,0 and 2 are all even) the 
+>following move is advised:
+>001=1=X
+>100=4=XXXX
+>101=5=XXXXX
+>5. Repeat steps 1-4 until it is impossible to find a move that 
+>satisifies 4. At this point there should be a move which leaves the 
+>opponent with the last object and the game is won.
+>
+>Experimentally, this technique works every single time, I was 
+>wondering if you could tell me why it works though.  Thanks in 
+>advance for any help.
+
+Hi Alex,
+
+Thanks for writing to Dr Math.  Someone asked me about a game similar
+to Nim a little while ago, and that question is archived.  You can
+learn a lot by reading it:
+
+  Math Games Involving Forcing an Opponent into an Outcome
+  http://mathforum.org/library/drmath/view/65232.html
+
+In particular, two-thirds of that answer (the first seven paragraphs)
+also apply to Nim and many other similar games.  It tells exactly how
+a mathematician analyzes these types of games.
+
+In your case, the "state" is the three numbers that are the sizes of
+the three rows.  Notice that every possible move must take you closer
+to the "final state" when all three rows are empty.  Then we analyze
+just like I described until we notice a pattern.  It turns out that
+the pattern for Nim is most easily described using binary.  So you
+described the "losing states" as those whose digit-wise binary sums
+are all even (in the manner you described).
+
+So to explain why this works is just a matter of showing that if you
+start in a "losing state" (you want this to be your opponent) then
+every move you (he) can make will give you a "winning state" (one
+where not all of the binary digit sums are even).  And then you prove
+that if you start in a "winning state" (you want this to be you), then
+there is always some move you can make to give your opponent a "losing
+state."  Does that make sense?  Can you see why it works in Nim?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

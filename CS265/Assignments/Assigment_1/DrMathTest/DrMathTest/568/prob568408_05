@@ -1,0 +1,94 @@
+ThreadNum: 568408
+Subject: Re: Self Study (Please reply) III
+To: po26@pearl.ocn.ne.jp (john)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 05:46:00
+Sent: yes
+
+
+As john wrote to Dr. Math
+On 08/24/2004 at 05:32:18 (Eastern Time),
+>[Question]
+>Dr. Anthony,
+>
+
+I will just make the following comment on your Section III.
+
+The basic problem is your equation
+
+   x^n+(kx)^n=((c^m)-1))x^n
+
+On dividing out by x^n you get
+
+    1 + k^n = c^m - 1
+
+      c^m - k^n = 2     for integer c, k, m, n
+
+You have said that we have one solution with n=2 and m=3.  However 
+Fermat's theorem requires you to PROVE that for n > 2 no solutions 
+exist for all the equations  (an infinity of them).
+
+     c^m - k^n = 1, 2, 3, 4, .........
+
+As I see it this is no great advance on the original statement that 
+there are NO solutions to  x^n + y^n = z^n   for n > 2.
+
+Remember we are dealing with the proof of a negative and this is far 
+more difficult to establish than the proof of some one fact.
+
+
+
+>-----Section III--------
+>lets take x^n+(kx)^n =(cx)^n
+>if we divide trough by x^n we get 1+k^n=c^n
+>then
+>c^n-k^n=1 
+>now the problem here is if i demand that c,k,n be integers there is 
+>no solution, and the reason is obvious as given the same powers 
+there 
+>are no integers where the difference is 1.
+>so, lets still write our “y” and “z” in terms of x again, but 
+making 
+>a change to correct (try to anyway) the problems sited above. thus 
+>write it as
+>
+>x^n+(kx)^n=((c^m)-1))x^n
+>
+>now divide through my x^n and we get 
+>
+>1+k^n=(c^m)-1 which is c^m-k^n=2
+>
+>for all positive integers from 1 to infinity, for c,k,m,n as 
+integers 
+>there is one and only one solution, and it is m=3, n=2, i.e. 3^3-
+>5^2=2, (and thus only one number between a perfect cube and a 
+perfect 
+>square, i.e. the number 26)
+>this n is the n in our x^n, thus n=2.
+>
+>As there are no other c^m-k^n= some integer, except for when some 
+>integer =2, and m=3, n=2, we can only have n=2 as a solution for n 
+>greater than 1.
+>
+>And again, Dr. Anthony, thank you very much for being patient 
+enough 
+>to respond to my messages. I think that there is nothing more I can 
+>do with the above beyond what i have written, except for sending 
+you 
+>my proof that there is only one positive integer from 1 to infinity 
+>between a perfect cube and a perfect square, i.e. 3^3 = 27, 5^2 
+=25, 
+>thus 26 is the only number that meets this. However, I would very 
+>much appreciate knowing what is wrong with section III above, and 
+>that should close this for me, as there are too many avenues of 
+>attack too this problem, with some methods getting very messy, and 
+>beyond my math skills.
+>
+>Sincerely,
+>john
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

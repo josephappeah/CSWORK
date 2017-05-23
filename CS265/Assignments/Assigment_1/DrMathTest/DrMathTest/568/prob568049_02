@@ -1,0 +1,34 @@
+ThreadNum: 568049
+Subject: Re: roots of an equation
+To: vinodramki@gmail.com (Vinod)
+From: Doctor Peterson
+TimeStamp: 08/21/2004 at 22:40:24
+Sent: yes
+
+Hi, Vinod.
+
+As Vinod wrote to Dr. Math
+On 08/21/2004 at 20:19:07 (Eastern Time),
+>[Question]
+>how many real roots does the equation x^5+10x+10=0 have?
+>
+>[Difficulty]
+>I don't know how to start. Does this use the b^2-4ac formula? I'm 
+>supposed to usd calculus to answer this question.
+>
+>[Thoughts]
+>
+
+The formula you give is the discriminant for a quadratic; this is not 
+a quadratic, so you can't use it.
+
+Try using whatever calculus techniques you know to sketch a graph, 
+and see if that leads you to an answer. For example, what is the 
+slope (gradient) of the curve? When is it positive? negative? zero?
+
+If you need more help, please write back and show me how far you got.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

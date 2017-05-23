@@ -1,0 +1,95 @@
+ThreadNum: 568688
+Subject: Re: Air Force ROTC Candidate Sample Test
+To: brian.k.tschabold@boeing.com (Brian)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 14:02:10
+Sent: yes
+
+
+As Brian wrote to Dr. Math
+On 08/25/2004 at 13:03:19 (Eastern Time),
+>[Question]
+>If p pencils cost 2D dollars, how many pencils can be bought for c 
+>cents
+>
+>Answers:
+>A)pc/2D  B)pc/200D  C)2Dp/c  D)50pc/D  E)200pcD
+>
+>[Difficulty]
+>My answer is not any of the choices.  I get 200D/pc number of pencils.
+>Option B) is the inverse of my answer.  It could be a typo misprint.
+>
+>[Thoughts]
+>p pencils cost 2D dollars
+>p pencils cost 2D * 100 cents
+>p pencils cost 200D cents
+>1 pencil  cost 200D/p cents
+>(200D/p cents) / (c cents)
+>(200D/p cents) * (1/c cents) = 200D/pc number of pencils
+
+Hi Brian,
+
+One pencil costs 200D/p cents.  This means that one cent will buy
+1/(200D/p), or p/(200D) pencils.  So c cents should by cp/(200D)
+pencils, no? 
+
+It can be helpful to check something like this with examples. Let's
+try that:
+
+  10 pencils cost (2*3) dollars.  How many pencils can we
+  buy for 120 cents? 
+
+10 pencils cost 6 dollars, or 600 cents.  So each pencil is 60 cents.
+Which means that for 120 cents, we can buy 2 pencils.
+
+Using your answer, 
+
+  200D   200*3     600   1
+  ---- = ------ = ---- = -
+   pc    10*120   1200   2
+
+Using mine,
+
+   cp    10*120   1200
+  ---- = ------ = ---- = 2
+  200D   200*3     600
+
+So, where did you get off track? 
+
+  p pencils cost 2D dollars
+  p pencils cost 2D * 100 cents
+  p pencils cost 200D cents
+  1 pencil  cost 200D/p cents
+
+Everything looks good up to here. 
+
+  (200D/p cents) / (c cents)
+
+Let's look at the units of this quantity:
+
+   200D
+   ---- cents/pencil
+    p                                      -1  
+ -------------------- = (200D)/(pc) [pencil  ]
+    c   cents
+
+That is, your units are 'per pencil', rather than 'pencils'.  You want
+the inverse of this.  
+
+I think it's not an accident that you got into trouble as soon as you
+stopped writing equations (using 'costs' instead of '='), and just
+wrote a quantity, without asserting that it was equal to anything.
+
+Always writing equations provides a valuable benefit, which is that if
+you start with a true equation, and always do the same thing to both
+sides, you're guaranteed to end up with a true equation.  If you just
+start writing down expressions, you're not guaranteed anything at all. 
+
+Even so, a secondary lesson is that it's a good idea to keep your
+units around for as long as possible. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

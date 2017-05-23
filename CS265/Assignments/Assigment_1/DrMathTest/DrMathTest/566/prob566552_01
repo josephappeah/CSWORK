@@ -1,0 +1,68 @@
+ThreadNum: 566552
+Subject: Re: Multivariable calculus
+To: RageofTyphon@writing.com (Craig)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 08:19:08
+Sent: yes
+
+
+As Craig wrote to Dr. Math
+On 08/11/2004 at 18:45:14 (Eastern Time),
+>[Question]
+>I am having trouble with a homework problem assigned to me.  The
+>problem is as follows:
+>
+>What is the limit as n approaches infinity of (10n)^(1/n)?
+>
+>[Difficulty]
+>I have gotten as far as n^(1/n), or similarly, (1/n)^n but i cannot
+>move farther.
+>
+>[Thoughts]
+>Assuming that all expressions are to the limit as n approaches infinity:
+>
+>(10n)^(1/n) = 10^(1/n)*n^(1/n)
+>
+>Because the limit of 10^(1/n) is equal to one, that portion of the
+>problem can be removed using the product rule and the problem becomes:
+>
+>n^(1/n)
+>
+>I have tried this:
+>
+>limit   n^(1/n) = limit   (1/n)^(1/1/n) = limit  (1/n)^n
+>n->inf.           n->0+                   n->0+
+>
+>However, this still yeilds indeterminate forms (0^inf.).
+>
+>How do i solve this?
+
+Hi Craig,
+
+Thanks for writing to Dr. Math.  Since this appears to be beyond a
+first course in calculus, you should be familiar with L'Hospital's
+Rule.  For limits which are indeterminate forms, a method which 
+often works to to rewrite or relate the given form to the 0/0 or
+oo/oo form and use L'Hospital.
+
+Here, note that
+
+   n^(1/n) = e^(ln(n)/n)
+
+and
+
+   ln(n)
+   -----
+     n
+
+gives you a oo/oo indeterminate form, to which you can apply 
+L'Hospital.  You also need to invoke the continuity of the exponential
+function e^x, for all x.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

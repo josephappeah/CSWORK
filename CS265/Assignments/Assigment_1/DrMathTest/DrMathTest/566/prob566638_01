@@ -1,0 +1,40 @@
+ThreadNum: 566638
+Subject: Re: elliptic curve elements properties
+To: logicraju@yahoo.co.in (Raju )
+From: Doctor Vogler
+TimeStamp: 08/12/2004 at 11:39:45
+Sent: yes
+
+
+As Raju  wrote to Dr. Math
+On 08/12/2004 at 08:06:57 (Eastern Time),
+>[Question]
+>Can i use the element of elliptic curve as a power of some element?
+>
+>eg: P generator of a elliptic curve group
+>    some element on the curve is (aP)
+>    can I have the element like x^(aP)? 
+>
+>[Difficulty]
+>i dont know whether can i use or not
+>
+>[Thoughts]
+>if it is element integer group we can use it as a power of any 
+>element.
+>
+>
+
+Hi Raju,
+
+Thanks for writing to Dr Math.  I've never heard of any definition
+being applied to raising anything to a power that is a point on an
+elliptic curve.  You could create such a definition, certainly, but
+then you should check that it has reasonable exponent-like properties.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

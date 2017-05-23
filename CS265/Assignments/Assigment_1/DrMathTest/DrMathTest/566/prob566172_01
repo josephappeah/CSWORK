@@ -1,0 +1,112 @@
+ThreadNum: 566172
+Subject: Re: "Non-Standard" Angles between two Intersecting Lines
+To: peter_walsh_@hotmail.com (Peter)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 16:35:27
+Sent: yes
+
+
+As Peter wrote to Dr. Math
+On 08/09/2004 at 15:43:01 (Eastern Time),
+>[Question]
+>Hello,
+>
+>Yesterday I was discussing a topic with my brother "math expert". 
+>However, he didn't know the answer.
+>
+>Say you have the following graph, where the angle "a", the angle 
+>between the two intersecting lines, has to be found and two 
+>coordinates on each intersecting line (lines l1 and l2) are given (so 
+>the slope of these lines can be calculated):
+>
+>                  Y
+>                  |
+>      l2  l1      |
+>       \ a/       |
+>        \/        |
+>        /\        |
+>       / a\       |
+>      /    \      |
+>    /b      \  c  |
+>--/---------  \--------------- X
+>                  |
+>                  |
+>                  |
+>
+>
+>The exterior angle "c" equals the sum of the two opposite interior 
+>angles, "a" and "b". So a = c - b, tan(a) = tan(c-b) = (tan(c) - tan
+>(b))/(1 + tan(b) * tan(c)), or (note:slope of line "l1"="m1"), tan a 
+>= (m2-m1)/(1+m1*m2)
+>
+>However, I'm not sure why this method also applies to the following 
+>graph: 
+>              Y
+>              |
+>              |
+>            c/
+>  l1        / |
+>     \     /  |
+>     a \ /a   |
+>       / \    |
+>     / d  \ b |
+>-- /--------\--------------- X
+>  l2         \
+>
+>
+>In particular, I'm not sure if the tangent of angle "d" (= the slope 
+>of line l2) equals the tangent of angle "c" (which must be true I 
+>guess since we developed the method for finding the angle between 
+>intersecting lines by stating that the exterior angle of a triangle 
+>equals the sum of the two opposite interior angles)...
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Peter,
+
+Thanks for writing to Dr Math.  I'm not totally sure what you're
+asking, but I think it might be:  Why does it work with angle d and
+not with angle c?  I also wasn't sure whether angle b was taken with
+the y axis or the x axis.  For this first part, I assumed it was with
+the x axis.
+
+The reason is that the slope of a line is rise over run, or
+
+          change in y values
+  slope = ------------------
+          change in x values
+
+and the tangent is opposite / adjacent.  That means that the angle you
+need to take the tangent of in order to get the slope is the angle
+from the x axis (not the y axis) going to the right, up and around
+counterclockwise to your line.  That's why you use angle c.  And, if
+you do, then you still get
+
+  tan a = (m1 - m2)/(1 + m1*m2)
+
+in the second picture.
+
+On a second read through you question, I thought you might have meant
+something different.  Now I suppose that the angle b is with the y
+axis, so that c = a+b makes a triangle, and you are wanting to know
+how the tangent of c relates to the slope of the line l2.  For that,
+notice that
+
+  c = d + 90 degrees,
+
+and then take the tangent.  Does that help?  You can do something
+similar with the other line.
+
+Does that answer your question?  If you have any other questions about
+this or need more help, please write back and show me what you have
+been able to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

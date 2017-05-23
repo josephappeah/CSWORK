@@ -1,0 +1,52 @@
+ThreadNum: 568231
+Subject: Re: Calculating Percentage Increase/Decrease and Averaging
+To: sam.hucks@htcinc.net (Sam)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 13:18:08
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/23/2004 at 11:34:44 (Eastern Time),
+>[Question]
+>I need to calculate the percent increase/decrease on company XYZ in 
+>relation to the State average of other companies.  The info for the 
+>State averages are as follows: 
+>
+>1993 - 1.1%
+>1994 - 5.8%
+>1995 - 3%
+>
+>My company averaged:
+>1993 - 5.61%
+>1994 - 3.98%
+>1995 - 4.69%
+>
+>Now I assume that I can calculate the yearly difference using the 
+>following formula:
+>(5.61-1.1)/1.1 = 410%
+>However, do I use the same format for 1994? Meaning, (3.98-5.8)/3.98= 
+>(-.46%)...or do I always have the larger number first, which is 5.8 
+>in this case?
+>
+>Then when I go to calculate the average of these differences over the 
+>three years, do I still use the same averaging formula (n1+n2+n3)/3 = 
+>N or do I give a 'negative percent' more weight some how?
+>
+
+Hello Sam,
+
+1993:    compared to the state average  (this is the base number, I think),
+your companies performance was ([5.61-1.1)/1.1 ]*100 = 410%  above than the state 
+average.  This is what you did.
+
+1994:    I'd put the larger number first, but reflect that your company did worse than the 
+average by saying that we were ((5.8-3.98)/5.8)*100= 31.4%  below the state average.  
+This differs from your numbers, because we used different denominators.
+
+However, when you come to average the percentage differences, you should take the 
+negative signs into account.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

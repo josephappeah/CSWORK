@@ -1,0 +1,37 @@
+ThreadNum: 566996
+Subject: Re: solve the general term expression of the sequence a(n)
+To: qwqqwqcn@yahoo.com.cn (Wuyicheng)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 10:44:41
+Sent: yes
+
+
+As Wuyicheng wrote to Dr. Math
+On 08/15/2004 at 07:52:03 (Eastern Time),
+>[Question]
+>When n>=2,a(n+1)-2*a(n)+a(n-1)=2,and a(2)=2,solve the general term 
+>expression of the sequence a(n).
+>
+>[Difficulty]
+>There are three variable:a(n-1),a(n),and a(n+1),what can I do?
+>
+>[Thoughts]
+>a(n+1)-a(n)=a(n)-a(n-1)+2,let b(n)=a(n+1)-a(n),so b(n-1)=a(n)-a(n-
+>1).and b(n)=b(n-1)+2,so b(n)=b(1)+2*(n-1) [b(1)=a(2)-a(1)=2-a(1)] so
+>b(n)=2*n-a(1).but there is still a unknow variable a(1). 
+
+Hi Wuyicheng,
+
+You have a second-order linear recurrence relation but only one
+initial value.  There is no way to determine a(1) from the information
+given, or a(3) or any other value besides a(2).  You can get a general
+solution in terms of a(1) and a(2), but you still need two values two
+determine any other values in the sequence.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

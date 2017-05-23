@@ -1,0 +1,11 @@
+#/bin/bash 
+
+ARCHIVE=$1 
+
+file=$(find $ARCHIVE -type f | wc -l) 
+
+
+folder=$(find $ARCHIVE -type d | wc -l)
+
+echo  $(($folder-2))  
+echo $file 

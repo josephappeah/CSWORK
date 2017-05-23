@@ -1,0 +1,40 @@
+ThreadNum: 567112
+Subject: Re: How many words
+To: blackthunder182000@yahoo.com (Jerrold Magtagnob)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 11:50:51
+Sent: yes
+
+
+As Jerrold Magtagnob wrote to Dr. Math
+On 08/16/2004 at 09:53:51 (Eastern Time),
+>[Question]
+>In how many ways we could find the word triangles in this figure?
+>                           T
+>                          R R
+>                         I I I
+>                        A A A A
+>                       N N N N N
+>                        G G G G
+>                         L L L
+>                          E E
+>                           S
+>
+
+
+You have to make a total of 8 steps of which 4 must be to the left 
+and 4 to the right.  Number of paths
+
+        8!
+   =  -----  = C(8,4) =  70
+      4! 4!
+
+So there will be total of 70 different paths from top to bottom and 
+this is the same as the number of ways of making the 
+word 'triangles'.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

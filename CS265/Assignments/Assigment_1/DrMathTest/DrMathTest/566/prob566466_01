@@ -1,0 +1,60 @@
+ThreadNum: 566466
+Subject: Re: Tricky Trigonometry
+To: christine_said_89@hotmail.com (Christine)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 10:57:08
+Sent: yes
+
+
+Hi Christine, 
+
+>X is due north of Y and 2km distant. Z is due east of Y and has a 
+>bearing of S35°12'E from X. How far, to the nearest metre, is Z from 
+>X.
+>
+>[Difficulty]
+>The most confusing thing about the question is the wording and where 
+>to plot the pronumerals. What does 'due' mean? 
+
+'Due' north just means 'exactly north', without any deviation.  
+
+>Is the triangle going 
+>to be a right angled one or not?
+
+      X
+      |
+  2km |
+      |
+      Y--------Z
+         ? km
+
+The angle XYZ is a right angle. 
+
+>I think that X is located under Y since it is heading towards Y, and 
+>Z must be 35°12' from the position of X. 
+
+Right, the angle YXZ is 35°12'. 
+
+>Im not very sure about this 
+>diagram can you please help me. My dad and I stayed up for so long 
+>trying to solve the question but we couldn't manage to draw out an 
+>answer. It would be very aprreciated if you could help me work this 
+>out. Thankyou very much.
+
+Once you have the diagram right, you're almost done.  The tangent of
+angle YXZ is 
+
+  tan(YXZ) = opposite / adjacent
+
+           = YZ / XY
+
+           = ? / 2000 m
+
+Given the angle, you can look up the tangent; and then you have two
+values out of three, so you can solve for the length of YZ. 
+
+Can you take it from here? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

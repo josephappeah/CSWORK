@@ -1,0 +1,52 @@
+ThreadNum: 568343
+Subject: Re: advanced math
+To: geniabi@yahoo.com (Abi)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 21:45:13
+Sent: yes
+
+
+As Abi wrote to Dr. Math
+On 08/23/2004 at 20:25:52 (Eastern Time),
+>[Question]
+>what is 5 to the 2nd power?
+>
+>[Difficulty]
+>i dont get what to do with the 2 numbers like there is a # 5 and a
+>small 2 on the right  of the five on the top. Should I add it 
+mutiplyn
+>it divide it ????????
+>
+>[Thoughts]
+>
+Hi, Abi --
+
+A number to the n-th power means that number multiplied by itself n 
+times.
+
+In printed text, the power is shown as a small number to the right 
+of and raised above the other number.  In typed text, we can crudely 
+represent it as
+
+    2
+   5
+
+This can get very confusing, however; in typed text we usually use 
+the "^" symbol to indicate raising to a power.
+
+So 5 to the 2nd power is 5 multiplied by itself 2 times:
+
+    2
+   5  = 5^2 = 5*5 = 25
+
+And 5 to the 5th power would be 5 multiplied by itself 5 times:
+
+    5
+   5  = 5^5 = 5*5*5*5*5 = 3125
+
+I hope this helps.  Please write back if you have any more questions 
+about this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

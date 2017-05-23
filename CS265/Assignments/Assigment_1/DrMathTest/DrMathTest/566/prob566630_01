@@ -1,0 +1,51 @@
+ThreadNum: 566630
+Subject: Re: Simultaneously know circumference and diameter
+To: suricata5@yahoo.com (Adam Flanders)
+From: Doctor Rick
+TimeStamp: 08/12/2004 at 08:40:05
+Sent: yes
+
+Hi, Adam.
+
+As Adam Flanders wrote to Dr. Math
+On 08/12/2004 at 06:08:25 (Eastern Time),
+>[Question]
+>Pi is the ratio of a circle's circumference to its diameter, yet pi 
+is irrational, meaning it 
+>cannot be represented by a fraction. Does this imply that the exact 
+circumference and 
+>diameter of any given circle cannot simultaneously be known at any 
+one time?
+>
+>[Difficulty]
+>It seems to me that it should be possible to know a circle's exact 
+diameter and exact 
+>circumference, and that those values should both be rational 
+numbers. Yet this is 
+>impossible according to the irrationality of pi.
+>
+>[Thoughts]
+>I wonder if it is possible to create a mathematical construct of a 
+perfect circle, 
+>measure its circumference and diameter, without the use of pi.
+
+The questions you are asking were a problem for the ancient Greeks, 
+too. They assumed that all numbers were "commensurable" -- that any 
+two numbers could be expressed as whole-number multiples of the same 
+quantity (however small that quantity might be in a particular case). 
+Then the Pythagoreans proved that the hypotenuse of an isosceles 
+right triangle is incommensurable with the equal legs -- in other 
+words, that the square root of 2 is irrational. This threw them for a 
+loop, but they eventually had to accept it.
+
+How about you -- does it bother you that a triangle with angles of 
+45, 45, and 90 degrees must have at least one side that has an 
+irrational length? It seems to me that this is the same problem as 
+the one you raise about circles. But it's much easier to prove that 
+the square root of 2 is irrational than it is for pi, so it will be 
+helpful if you can settle the triangle question in your mind; then 
+the circle question won't be an issue.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

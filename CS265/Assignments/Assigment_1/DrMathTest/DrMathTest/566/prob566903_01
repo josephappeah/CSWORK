@@ -1,0 +1,41 @@
+ThreadNum: 566903
+Subject: Re: Dimensional Analysis
+To: kzink@woh.rr.com (Eric Zink)
+From: Doctor Fenton
+TimeStamp: 08/14/2004 at 11:50:54
+Sent: yes
+
+
+As Eric Zink wrote to Dr. Math
+On 08/14/2004 at 10:52:52 (Eastern Time),
+>[Question]
+>If the acceleration due to gravity on earth is 32 feet per second per 
+>second, What is the acceleration due to gravity in terms of miles per 
+>hour per hour?
+>
+>[Difficulty]
+>The use of per sec per sec and per hour and per hour
+>
+>[Thoughts]
+>32ft/(sec)^2 x 1 mile/5280ft x 60sec/1 min x 60sec/1 min x 60 min/1 
+>hr x 60 min/1 hr = 32miles/hr/hr
+
+Hi Eric,
+
+Thanks for writing to Dr. Math.  You have correctly inserted the
+dimensional conversion factors, but you haven't used them, if you
+are getting 32 miles/hr/hr.  You need to compute
+
+   32*60*60*60*60      32*60^4
+   --------------  or  -------
+       5280              5280    ,
+
+and that is not 32  (60^4 is not 5280).
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

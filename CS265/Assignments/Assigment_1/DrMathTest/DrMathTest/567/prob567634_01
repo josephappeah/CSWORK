@@ -1,0 +1,77 @@
+ThreadNum: 567634
+Subject: Re: Addition of Rational Expression
+To: emofrost@gmail.com (FrosT)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 00:15:08
+Sent: yes
+
+
+As FrosT wrote to Dr. Math
+On 08/19/2004 at 00:01:22 (Eastern Time),
+>[Question]
+>Ok recently I took a placement test and got this answer wrong 
+because
+>the answer I came to was not a multiple choice question here is the
+>equation (Simple/add expression)
+>
+>   1       1
+>  ---  +  -----
+>   x      (x+2)
+>
+>[Difficulty]
+>That I come to an answer and it is not right
+>
+>[Thoughts]
+>   1       1
+>  ---  +  -----
+>   x      (x+2)
+>
+>   (x+2) + x
+>   ----------
+>     x(x+2)
+>
+>    2x + 2
+>    -------
+>     x^2 + 2x
+>
+>     2
+>    ---
+>     x^2
+>
+>or I got the answer "1" which was not on it either!
+
+Hi, FrosT --
+
+When you get to this point...
+
+>    2x + 2
+>    -------
+>     x^2 + 2x
+
+you can't do any cancelling.  You  tried to "cancel" the "2x" in the 
+numerator and denominator; however, you can't do this.  (And even if 
+you could... what is left when you cancel is "1", not "0"....)
+
+You can only cancel common FACTORS between the numerator and 
+denominator of a fraction.  In your expression, the "2x" and "2" in 
+the numerator are added together; neither one is a factor.  Likewise 
+in the denominator -- you don't have any factors to try to cancel.
+
+You can rewrite both the numerator and denominator in factored form -
+- but it turns out it doesn't help in this case, because none of the 
+terms are common:
+
+   2x+2    2(x+1)
+  ------ = ------
+  x^2+2x   x(x+2)
+
+If you had an "x+2" in both numerator and denominator at this point, 
+you could cancel them.  But there are no common factors, so this is 
+as far as the expression can be simplified.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

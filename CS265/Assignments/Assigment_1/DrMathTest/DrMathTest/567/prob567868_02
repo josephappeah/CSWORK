@@ -1,0 +1,468 @@
+ThreadNum: 567868
+Subject: Re: Triangulation and Centroid af any non simple closed polygon
+To: ibdoerre@t-online.de (norbert)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 13:18:08
+Sent: yes
+
+
+Hi Norbert,
+
+Thanks for writing to Dr. Math,
+
+If we can find a suitable place to include this in our archive, may we
+have your permission to do so? 
+
+-Dr. Ian
+
+As norbert wrote to Dr. Math
+On 08/20/2004 at 07:48:14 (Eastern Time),
+>[Question]
+>Well, I'm trying to programmatically find the centroid and the
+>triangulation of a non simple polygon. This happens when two sides of
+>the polygon are crossing. 
+>Most readers would certainly be happy to see a solution in Visual
+>Basic I think. Even triangulating a simple polygon is not a simple
+>task, but I managed to get it done. So, what I would propose here is
+>to find at least a theoretical solution.
+>
+>[Difficulty]
+>The solution below was translated to English. It shows a functionable
+>solution for simple polygons.
+>
+>[Thoughts]
+>Public m_NumPoints As Integer
+>Public m_Point() As POINT2D
+>
+>' Copy of points used for triangulation.
+>Public m_NumCopyPoints As Integer
+>Public m_CopyPoint() As POINT2D
+>
+>' Triangles.
+>Public Type Triangle
+>    Point(1 To 3) As POINT2D
+>End Type
+>Public m_NumTriangles As Integer
+>Public m_Triangles() As Triangle
+>
+>' Find the polygon's centroid.
+>Public Function FindCentroid() As POINT2D
+>    Dim i As Integer
+>    Dim second_factor As Double
+>    Dim polygon_area As Double
+>    Dim dp As POINT2D
+>    
+>    ' Add the first point at the end of the array.
+>    ReDim Preserve m_Point(1 To m_NumPoints + 1)
+>    m_Point(m_NumPoints + 1) = m_Point(1)
+>    
+>    'Flächenschwerpunkt suchen. Start- und Endpunkt des Polygons
+>müssen sich decken.
+>    dp.X = 0#
+>    dp.Y = 0#
+>    For i = 1 To m_NumPoints
+>        second_factor = m_Point(i).X * m_Point(i + 1).Y - m_Point(i +
+>1).X * m_Point(i).Y
+>        dp.X = dp.X + (m_Point(i).X + m_Point(i + 1).X) * second_factor
+>        dp.Y = dp.Y + (m_Point(i).Y + m_Point(i + 1).Y) * second_factor
+>    Next i
+>
+>    ' Divide by 6 times the polygon's area.
+>    polygon_area = PolygonArea()
+>    dp.X = dp.X / 6 / polygon_area
+>    dp.Y = dp.Y / 6 / polygon_area
+>
+>    ' If the values are negative, the polygon is
+>    ' oriented counterclockwise. Reverse the signs.
+>    If dp.X < 0 Then
+>        dp.X = -dp.X
+>        dp.Y = -dp.Y
+>    End If
+>    FindCentroid = dp
+>End Function
+>
+>' Return the polygon's area in "square" pixels.
+>' Add the areas of the trapezoids defined by the
+>' polygon's edges dropped to the X-axis. When the
+>' program considers a bottom edge of a polygon, the
+>' calculation gives a negative area so the space
+>' between the polygon and the axis is subtracted,
+>' leaving the polygon's area. This method gives odd
+>' results for non-simple polygons.
+>Public Function PolygonArea() As Double
+>    ' Return the absolute value of the area.
+>    ' The signed area is negative if the polyogn is
+>    ' oriented clockwise.
+>    PolygonArea = Abs(SignedPolygonArea())
+>End Function
+>
+>' Return the polygon's signed area.
+>' Add the areas of the trapezoids defined by the
+>' polygon's edges dropped to the X-axis. When the
+>' program considers a bottom edge of a polygon, the
+>' calculation gives a negative area so the space
+>' between the polygon and the axis is subtracted,
+>' leaving the polygon's area. This method gives odd
+>' results for non-simple polygons.
+>'
+>' The value will be negative if the polyogn is
+>' oriented clockwise.
+>Function SignedPolygonArea() As Double
+>    Dim i As Integer
+>    Dim dArea As Double
+>    
+>    ' Add the first point to the end.
+>    ReDim Preserve m_Point(1 To m_NumPoints + 1)
+>    m_Point(m_NumPoints + 1) = m_Point(1)
+>    
+>    ' Get the areas.
+>    For i = 1 To m_NumPoints 'weil Start- und Endpunkt identisch sind ***
+>        dArea = dArea + (m_Point(i + 1).X - m_Point(i).X) * (m_Point(i
+>+ 1).Y + m_Point(i).Y) / 2
+>    Next i
+>    ' Return the result.
+>    SignedPolygonArea = dArea
+>End Function
+>
+>' Find the indexes of three points that form an ear.
+>Private Sub FindEar(ByRef A As Integer, ByRef B As Integer, ByRef C As
+>Integer)
+>    For A = 1 To m_NumCopyPoints
+>        If FormsEar(A, A + 1, A + 2) Then
+>            B = A + 1
+>            If B > m_NumCopyPoints Then B = 1
+>            C = B + 1
+>            If C > m_NumCopyPoints Then C = 1
+>            Exit Sub
+>        End If
+>    Next A
+>
+>    ' We should never get here because there should
+>    ' always be at least two ears.
+>    Stop
+>End Sub
+>
+>' Return True if the polygon is oriented clockwise.
+>Public Function PolygonIsOrientedClockwise() As Boolean
+>    PolygonIsOrientedClockwise = SignedPolygonArea() < 0
+>End Function
+>
+>' If the polygon is oriented counterclockwise, reverse the order of
+>its points.
+>Private Sub OrientPolygonClockwise(ByVal num_polygon_points As
+>Integer, polygon_Point() As POINT2D)
+>    Dim pt As Integer
+>    Dim temp_point As POINT2D
+>
+>    If Not PolygonIsOrientedClockwise() Then
+>        For pt = 1 To num_polygon_points \ 2
+>            temp_point = polygon_Point(pt)
+>            polygon_Point(pt) = polygon_Point(num_polygon_points - pt
++ 1)
+>            polygon_Point(num_polygon_points - pt + 1) = temp_point
+>        Next pt
+>    End If
+>End Sub
+>
+>' Return True if the three points form an ear.
+>Private Function FormsEar(ByVal A As Integer, ByVal B As Integer,
+>ByVal C As Integer) As Boolean
+>    Dim pt As Integer
+>    Dim test_Points(1 To 3) As POINT2D
+>
+>    ' Assume the points form an ear.
+>    FormsEar = True
+>
+>    ' See if the angle ABC is concave.
+>    If GetAngle( _
+>        m_CopyPoint(A).X, m_CopyPoint(A).Y, _
+>        m_CopyPoint(B).X, m_CopyPoint(B).Y, _
+>        m_CopyPoint(C).X, m_CopyPoint(C).Y) > 0 _
+>    Then
+>        ' This is a concave corner so the triangle
+>        ' cannot be an ear.
+>        FormsEar = False
+>        Exit Function
+>    End If
+>
+>    ' Make the triangle A, B, C.
+>    test_Points(1) = m_CopyPoint(A)
+>    test_Points(2) = m_CopyPoint(B)
+>    test_Points(3) = m_CopyPoint(C)
+>
+>    ' Check the other points to see if they lie in the
+>    ' triangle A, B, C.
+>    For pt = 1 To m_NumCopyPoints
+>        If pt <> A And pt <> B And pt <> C Then
+>            With m_CopyPoint(pt)
+>                If PointInPolygon(.X, .Y, 3, test_Points) Then
+>                    ' This point is in the triangle so
+>                    ' this is not an ear.
+>                    FormsEar = False
+>                    Exit For
+>                End If
+>            End With
+>        End If
+>    Next pt
+>End Function
+>
+>' Return True if the point is in the polygon.
+>Public Function PointInPolygon(ByVal X As Double, ByVal Y As Double,
+>ByVal num_polygon_points As Integer, polygon_Point() As POINT2D) As
+>Boolean
+>    Dim pt As Integer
+>    Dim total_angle As Double
+>
+>    ' Get the angle between the point and the
+>    ' first and last vertices.
+>    total_angle = GetAngle( _
+>        polygon_Point(num_polygon_points).X,
+>polygon_Point(num_polygon_points).Y, X, Y, polygon_Point(1).X,
+>polygon_Point(1).Y)
+>
+>    ' Add the angles from the point to each other
+>    ' pair of vertices.
+>    For pt = 1 To num_polygon_points - 1
+>        total_angle = total_angle + GetAngle(polygon_Point(pt).X,
+>polygon_Point(pt).Y, X, Y, polygon_Point(pt + 1).X, polygon_Point(pt +
+>1).Y)
+>    Next pt
+>
+>    ' The total angle should be 2 * PI or -2 * PI if
+>    ' the point is in the polygon and close to zero
+>    ' if the point is outside the polygon.
+>    PointInPolygon = (Abs(total_angle) > 0.0000000001)
+>End Function
+>
+>' Return True if the polygon is convex.
+>Public Function PolygonIsConvex() As Boolean
+>    Dim pt As Integer
+>    Dim cross_product As Double
+>    Dim got_negative As Boolean
+>    Dim got_positive As Boolean
+>
+>    ' For each set of three adjacent points A, B, C,
+>    ' find the dot product AB · BC. If the sign of
+>    ' all the dot products is the same, the angles
+>    ' are all positive or negative (depending on the
+>    ' order in which we visit them) so the polygon
+>    ' is convex.
+>
+>    ' Assume the polygon is non-convex.
+>    PolygonIsConvex = False
+>
+>    ' Look at the first set of points.
+>    cross_product = CrossProductLength(m_Point(m_NumPoints - 1).X,
+>m_Point(m_NumPoints - 1).Y, m_Point(m_NumPoints).X,
+>m_Point(m_NumPoints).Y, m_Point(1).X, m_Point(1).Y)
+>    If cross_product < 0 Then
+>        got_negative = True
+>    ElseIf cross_product > 0 Then
+>        got_positive = True
+>    End If
+>
+>    ' Look at the second set of points.
+>    cross_product = CrossProductLength(m_Point(m_NumPoints).X,
+>m_Point(m_NumPoints).Y, m_Point(1).X, m_Point(1).Y, m_Point(2).X,
+>m_Point(2).Y)
+>    If cross_product < 0 Then
+>        got_negative = True
+>    ElseIf cross_product > 0 Then
+>        got_positive = True
+>    End If
+>    If got_negative And got_positive Then Exit Function
+>
+>    ' Look at the remaining triples of points.
+>    For pt = 1 To m_NumPoints - 2
+>        cross_product = CrossProductLength(m_Point(pt).X,
+>m_Point(pt).Y, m_Point(pt + 1).X, m_Point(pt + 1).Y, m_Point(pt +
+>2).X, m_Point(pt + 2).Y)
+>        If cross_product < 0 Then
+>            got_negative = True
+>        ElseIf cross_product > 0 Then
+>            got_positive = True
+>        End If
+>        If got_negative And got_positive Then Exit Function
+>    Next pt
+>
+>    ' If we got this far, the polygon is convex.
+>    PolygonIsConvex = True
+>End Function
+>
+>' Return the angle with tangent opp/hyp. The returned
+>' value is between PI and -PI.
+>Public Function ATan2(ByVal opp As Double, ByVal adj As Double) As Double
+>    Dim angle As Double
+>
+>    ' Get the basic angle.
+>    If Abs(adj) < 0.0001 Then
+>        angle = PI / 2
+>    Else
+>        angle = Abs(Atn(opp / adj))
+>    End If
+>
+>    ' See if we are in quadrant 2 or 3.
+>    If adj < 0 Then
+>        ' angle > PI/2 or angle < -PI/2.
+>        angle = PI - angle
+>    End If
+>
+>    ' See if we are in quadrant 3 or 4.
+>    If opp < 0 Then
+>        angle = -angle
+>    End If
+>
+>    ' Return the result.
+>    ATan2 = angle
+>End Function
+>
+>' Return the cross product AB x BC.
+>' The cross product is a vector perpendicular to AB
+>' and BC having length |AB| * |BC| * Sin(theta) and
+>' with direction given by the right-hand rule.
+>' For two vectors in the X-Y plane, the result is a
+>' vector with X and Y components 0 so the Z component
+>' gives the vector's length and direction.
+>Public Function CrossProductLength(ByVal Ax As Double, ByVal Ay As
+>Double, ByVal Bx As Double, ByVal By As Double, ByVal Cx As Double,
+>ByVal Cy As Double) As Double
+>    Dim BAx As Double
+>    Dim BAy As Double
+>    Dim BCx As Double
+>    Dim BCy As Double
+>
+>    ' Get the vectors' coordinates.
+>    BAx = Ax - Bx
+>    BAy = Ay - By
+>    BCx = Cx - Bx
+>    BCy = Cy - By
+>
+>    ' Calculate the Z coordinate of the cross product.
+>    CrossProductLength = BAx * BCy - BAy * BCx
+>End Function
+>
+>' Return the dot product AB · BC.
+>' Note that AB · BC = |AB| * |BC| * Cos(theta).
+>Private Function DotProduct(ByVal Ax As Double, ByVal Ay As Double,
+>ByVal Bx As Double, ByVal By As Double, ByVal Cx As Double, ByVal Cy
+>As Double) As Double
+>    Dim BAx As Double
+>    Dim BAy As Double
+>    Dim BCx As Double
+>    Dim BCy As Double
+>
+>    ' Get the vectors' coordinates.
+>    BAx = Ax - Bx
+>    BAy = Ay - By
+>    BCx = Cx - Bx
+>    BCy = Cy - By
+>
+>    ' Calculate the dot product.
+>    DotProduct = BAx * BCx + BAy * BCy
+>End Function
+>
+>' Return the angle ABC.
+>' Return a value between PI and -PI.
+>' Note that the value is the opposite of what you might
+>' expect because Y coordinates increase downward.
+>Public Function GetAngle(ByVal Ax As Double, ByVal Ay As Double, ByVal
+>Bx As Double, ByVal By As Double, ByVal Cx As Double, ByVal Cy As
+>Double) As Double
+>    Dim dot_product As Double
+>    Dim cross_product As Double
+>
+>    ' Get the dot product and cross product.
+>    dot_product = DotProduct(Ax, Ay, Bx, By, Cx, Cy)
+>    cross_product = CrossProductLength(Ax, Ay, Bx, By, Cx, Cy)
+>
+>    ' Calculate the angle.
+>    GetAngle = ATan2(cross_product, dot_product)
+>End Function
+>
+>' Remove an ear from the polygon.
+>Private Sub RemoveEar()
+>    Dim A As Integer
+>    Dim B As Integer
+>    Dim C As Integer
+>    Dim old_point As Integer
+>    Dim new_point As Integer
+>
+>    ' Find an ear.
+>    FindEar A, B, C
+>
+>    ' Create a new triangle for the ear.
+>    m_NumTriangles = m_NumTriangles + 1
+>    With m_Triangles(m_NumTriangles)
+>        .Point(1) = m_CopyPoint(A)
+>        .Point(2) = m_CopyPoint(B)
+>        .Point(3) = m_CopyPoint(C)
+>    End With
+>
+>    ' Remove the ear from the polygon.
+>    new_point = 0
+>    For old_point = 1 To m_NumCopyPoints
+>        If old_point <> B Then
+>            new_point = new_point + 1
+>            m_CopyPoint(new_point) = m_CopyPoint(old_point)
+>        End If
+>    Next old_point
+>    m_NumCopyPoints = m_NumCopyPoints - 1
+>
+>    ' Repeat the first two points.
+>    m_CopyPoint(m_NumCopyPoints + 1) = m_CopyPoint(1)
+>    m_CopyPoint(m_NumCopyPoints + 2) = m_CopyPoint(2)
+>End Sub
+>
+>' Traingulate the polygon.
+>Public Sub Triangulate()
+>    Dim pt As Integer
+>
+>    ' Copy the points into a new array.
+>    m_NumCopyPoints = m_NumPoints
+>    ReDim m_CopyPoint(1 To m_NumCopyPoints + 2)
+>    For pt = 1 To m_NumPoints
+>        m_CopyPoint(pt) = m_Point(pt)
+>    Next pt
+>
+>    ' Orient the polygon.
+>    Call OrientPolygonClockwise(m_NumCopyPoints, m_CopyPoint)
+>
+>    ' Repeat the first two points.
+>    m_CopyPoint(m_NumCopyPoints + 1) = m_Point(1)
+>    m_CopyPoint(m_NumCopyPoints + 2) = m_Point(2)
+>    
+>    ' Make room for the triangles.
+>    m_NumTriangles = 0
+>    ReDim m_Triangles(1 To m_NumPoints - 2)
+>
+>    ' While the copy of the polygon has more than
+>    ' three points, remove an ear.
+>    Do While m_NumCopyPoints > 3
+>        ' Remove an ear from the polygon.
+>        RemoveEar
+>    Loop
+>
+>    ' Copy the last three points into their own triangle.
+>    m_NumTriangles = m_NumTriangles + 1
+>    With m_Triangles(m_NumTriangles)
+>        For pt = 1 To 3
+>            .Point(pt) = m_CopyPoint(pt)
+>        Next pt
+>    End With
+>End Sub
+
+Hi,
+
+Take a look at
+
+
+and write back if it's not clear, or if you still have questions. 
+
+Or have I misunderstood your question? 
+Is this enough to get started? 
+Can you take it from here? 
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

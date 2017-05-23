@@ -1,0 +1,40 @@
+ThreadNum: 566890
+Subject: Re: Volume under an incline plane
+To: fantakpun@hgcbroadband.com (Patrick Fan)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 09:04:26
+Sent: yes
+
+
+As Patrick Fan wrote to Dr. Math
+On 08/14/2004 at 05:41:12 (Eastern Time),
+>[Question]
+>I got n points ((x1,y1),(x2,y2),.....,(xn,yn)) in x-y plane forming 
+>a n-sides polygon and an inclinde plane with equation Ax+By+Cz+D=0.
+>
+>There will be a frustum-like figure when I project the n-sides 
+>polygon from x-y plane vertically upward and touching the incline 
+>plane. Is there a general numerical formula to calculate the volume 
+>of this frustum-like figure??
+>
+>Thank you for helping me!!
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Patrick,
+
+You may already know the formula for the area of a polygon with vertices
+(x1,y1),...,(xn,yn).  The sides of the polygon should be non-intersecting.  This formula can 
+be found at 
+
+http://mathworld.wolfram.com/PolygonArea.html
+
+I suspect that one could find a formula for the volume you mention, beneath a general 
+plane, but I've not heard of such a formula.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

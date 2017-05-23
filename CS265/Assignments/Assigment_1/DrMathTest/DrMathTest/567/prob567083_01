@@ -1,0 +1,50 @@
+ThreadNum: 567083
+Subject: Re: Possible arrangements
+To: uppal569@eden.rutgers.edu (Derek)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 01:26:58
+Sent: yes
+
+
+As Derek wrote to Dr. Math
+On 08/16/2004 at 00:01:37 (Eastern Time),
+>[Question]
+>What are the maximum amount of ways that 6 people can be arranged 
+in 
+>six chairs around a table?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I was thinking six times six? But it's not working out
+
+Hi, Derek --
+
+(6!)/6 = 120; or some people prefer to think of it as just 5! = 120.
+
+If the 6 chairs were in a straight line, the number of arrangements 
+would be 6!=720 -- there are 6 choices for the first chair; for each 
+of those 6 choices, 5 choices for the second chair, giving a total 
+of 6*5 choices; for each of those 6*5 choices, 4 choices for the 
+third chair,... and so on.
+
+When the chairs are arranged around a table, the interpretation I 
+favor is that there are still the same 6!=720 arrangements; however, 
+since you can no longer tell where the "beginning" of the "line" is, 
+each distinct arrangement around the table could be any one of 6 
+different arrangements in a line, so the number of arrangements 720 
+is too big by a factor 0f 6 -- i.e., the number of arrangements 
+around the table is (6!)/6 = 720/6 = 120.
+
+Some people prefer to think of this problem as having to arbitrarily 
+seat one person to establish the "starting point" of the "line"; 
+after that person is seated, there are 5! ways to seat the remaining 
+5 people in that "line".
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

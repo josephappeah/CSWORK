@@ -1,0 +1,46 @@
+ThreadNum: 567119
+Subject: Re: Interval Notation
+To: annie@starstonesoftware.com (LeeAnne Wright)
+From: Doctor Mike
+TimeStamp: 08/16/2004 at 12:17:44
+Sent: yes
+
+
+As LeeAnne Wright wrote to Dr. Math
+On 08/16/2004 at 12:01:40 (Eastern Time),
+>[Question]
+>I was helping my daughter with her honors Algebra two homework.
+>The question looked like:  {x|x>5}  
+>
+>[Difficulty]
+>Just the terminology
+>
+>[Thoughts]
+>I told her that it meant for all values of x that x is greater
+>than 5.  Was that correct?
+Hello,
+You are exactly right.
+This kind of expression is called the "set builder" notation.
+You use it to describe the elements in a set.  To the left of
+the "|" is the name of a variable representing things in the
+set, and to the right of it are the conditions that have to
+be true about the variable for it to "qualify for membership"
+in the set.  
+  
+You can have more than one condition, as in {x|x>5 and x<10}
+which describes all values of x between 5 and 10.  In both 
+your expression and my expression the inequalities are strict.
+By that I mean that equality is not allowed.  If yours had
+used the "greater than or equal" sign, then 5 would have been
+included.  As you originally wrote it, 5 is NOT in the set.
+  
+So, essentially you are right.  But the purpose of the
+expression is not to say something about all values of x,
+but to give a description of the set which consists of
+all numbers x for which this is true.
+  
+Hope this helps, and that your daughter likes honors algebra.
+
+- Doctor Mike, The Math Forum
+  <http://mathforum.org/dr.math/>
+

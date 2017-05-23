@@ -1,0 +1,45 @@
+ThreadNum: 568089
+Subject: Re: Derivation of the polar equation of a line
+To: john_mccartney1979@hotmail.com (John McCartney)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 10:13:26
+Sent: yes
+
+
+As John McCartney wrote to Dr. Math
+On 08/22/2004 at 10:03:32 (Eastern Time),
+>[Question]
+>Hi Dr Math,
+>
+>Could you please show me the stages involved in deriving the 
+>equation for the polar form of a line as I can’t seem to find this 
+>derivation anywhere online (or in any books I've looked at either)?
+>
+>p = x cos (theta) + y sin (theta)
+>
+>
+>[Difficulty]
+>The equation would be useful in my programming but I don't feel I 
+>understand it.
+>
+>[Thoughts]
+>I keep trying to derive it from y = mx + c but just don't see how 
+>they link up.
+
+Hi John,
+
+Thanks for writing to Dr Math.  Your above equation is a little
+confusing to me, since it has theta as well as x and y.  A polar
+equation has r and theta and constants.  A rectangular equation has x
+and y and constants.  I recognize the form
+
+  y = mx + c
+
+where m is the slope and c is the y-intercept.  But I'm not sure what
+x, y, and p represent in your polar equation.  Maybe I could explain
+it better if I knew what those variables were supposed to represent. 
+Will you write back and tell me what those are?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

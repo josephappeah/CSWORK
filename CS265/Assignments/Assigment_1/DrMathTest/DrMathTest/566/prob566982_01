@@ -1,0 +1,47 @@
+ThreadNum: 566982
+Subject: Re: Triangles
+To: manho11b@yahoo.com.hk (Man)
+From: Doctor Rob
+TimeStamp: 08/15/2004 at 22:12:31
+Sent: yes
+
+
+As Man wrote to Dr. Math
+On 08/15/2004 at 04:08:39 (Eastern Time),
+>[Question]
+>In a quadrilateral ABCD, Angle A=120 and Angle C=50. The bisectors 
+of 
+>the angle B and D meet at point Y. Find the size of the angle BYD in 
+>the quadrilateral ABYD.
+>
+>[Difficulty]
+>The whole question
+>
+>[Thoughts]
+>Nothing yet
+
+Thanks for writing to Ask Dr. Math, Man!
+
+Recall that the sum of the measures of the four internal angles of
+any quadrilateral is 360 degrees.
+
+Let the measure of <BYD be x, the measure of <YBA be y, and the
+measure of <DYB be z.  Then from quadrilateral ABYD, you can see
+that
+
+   x + y + z + 120 = 360.
+
+Furthermore, from the fact that DY and BY are angle bisectors, and
+using quadrilateral ABCD, you know that
+
+   2*x + 2*y + 50 + 120 = 360.
+
+Eliminating x + y from these two equations will allow you to find
+z, which is the answer you want.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

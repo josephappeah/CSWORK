@@ -1,0 +1,83 @@
+ThreadNum: 566871
+Subject: Re: Train Word Problem
+To: fdrhs@computermail.net (Rita)
+From: Doctor Pete
+TimeStamp: 08/14/2004 at 07:19:17
+Sent: yes
+
+As Rita wrote to Dr. Math
+On 08/14/2004 at 00:11:28 (Eastern Time),
+>[Question]
+>A slow train leaves Queens, NY at 9:20am and arrives at Fort Lee, NJ 
+>at 10:27am on the same day the express leaves Queens, NY at 9:37am 
+>and arrives at Fort Lee, NJ at 10:23am. At what time does the express 
+>pass the slow train if each is traveling at a constant speed?
+>What equation can I use to solve this problem?
+>
+>
+>
+>
+>[Difficulty]
+>I don't know how to set up an equation to help me figure out the 
+>question. 
+>
+>[Thoughts]
+>Too long to type.
+
+Rita,
+
+There are two relationships involving the trains.  We know that
+
+     Distance = Rate * Time.
+
+The first relationship uses the fact that the trains take different lengths of time to travel 
+the same distance; specifically, the slow train takes 67 minutes to make the trip, and the 
+fast train takes 46 minutes to travel the same distance.  So letting R represent the fast 
+train's speed, and r the slow train's speed, we have
+
+     46R = 67r,
+or
+     R/r = 67/46.
+
+This makes sense since the fast train is 67/46ths as fast as the slow train.
+
+The second relationship describes the number of minutes it takes for the fast train to 
+catch up to the slow train.  If we let t represent this value, then the time at which this 
+occurs is 9:37 + t minutes, since the fast train leaves at 9:37am.  To set this equation up, 
+we must consider how much of a head start the slow train was given; that is, how far it has 
+traveled in the 17 extra minutes it had to start the journey.  Remembering that the slow 
+train's speed is r, we find that it has traveled a distance of 17r by 9:37 am, when the fast 
+train has just begun to leave.
+
+At t minutes after 9:37, the trains are now caught up; that is, they have traveled the same 
+distance.  The slow train has traveled an additional distance of rt, so its total distance 
+traveled up to time t is 17r + rt = (17+t)r.  Furthermore, the fast train has now traveled a 
+distance of Rt, and so these distances are equal:
+
+     (17+t)r = Rt.
+
+Since we know that R/r = 67/46, we seek to employ this ratio in the above equation to 
+eliminate the quantities R and r, leaving only t; to this end, we divide both sides by r to 
+obtain
+
+     17 + t = (R/r)t,
+
+which allows us to make the desired substitution to find
+
+     17 + t = (67/46)t,
+or
+
+     (21/46)t = 17,
+or
+     t = 782/21 minutes,
+
+which is equivalently 37 minutes, 14 and 2/7ths of a second.  Thus the fast train has 
+caught up to the slow train and will pass it at around
+
+     10:14'14" am.
+
+(You may want to check my arithmetic to make sure I have done it correctly!)
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

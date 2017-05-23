@@ -1,0 +1,70 @@
+ThreadNum: 567094
+Subject: Re: calculus maths c
+To: deborah.guy@optusnet.com.au (Paul)
+From: Doctor Jerry
+TimeStamp: 08/16/2004 at 08:30:07
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 08/16/2004 at 01:44:53 (Eastern Time),
+>[Question]
+>find the general solution to
+>
+>x*dy/dx + 3y = 1/x^2
+>
+>in terms of x and y
+>
+>[Difficulty]
+>there was an example and a process to follow given with this 
+>question but the example didnt contain the x at the beginning of the 
+>equation. If you divide the whole equation by x then an x appears in 
+>the term which now only contains a y. The example only had a term 
+>with an x and a seperate term with a y. Can i ignore the x?? how do 
+>i simplify this equation??
+>
+>[Thoughts]
+>the process goes something like this...
+>
+>x*dy/dx + 3y = 1/x^2
+>
+>dy/dx + 3y/x = 1/x^3
+>
+>let A = 3/x, B = 1/x^3
+>
+>Ö = e^integral(Adx)
+>
+>= e^integral(3/xdx)
+>
+>= Ce^3ln(x)
+>
+>Öy = Ce^3ln(x)y
+>
+>...i forgot the rest...hopefully you can recognize what im tryin to 
+>do here
+
+Hello Paul,
+
+x*dy/dx + 3y = 1/x^2
+
+becomes
+
+y' + (3/x)y = x^{-3}.
+
+This is a linear, first-order differential equation.  It has an integrating factor of the form
+
+e^{int(3dx/x)} = e^{3*ln(x)} = x^3.
+
+Just multiply the equation by x^3:
+
+x^3*y' + 3x^2*y = 1
+
+We note that the left side is
+
+d(x^3*y)/dx
+
+So, the solution is now easy.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,69 @@
+ThreadNum: 567397
+Subject: Re: Boat traveling upstream, then downstream.
+To: math_nerd@hotmail.com (Marcy)
+From: Doctor Roy
+TimeStamp: 08/18/2004 at 11:41:17
+Sent: yes
+
+
+As Marcy wrote to Dr. Math
+On 08/17/2004 at 22:04:31 (Eastern Time),
+>[Question]
+>Dr. Math
+>
+>Here is the problem I have.
+>
+>A boat travels 30 miles upstream.  The current is 5 mph.  The same 
+>boat turns around and returns to original starting point.  The time 
+>for the return trip is one hour less than the time for the trip 
+>upstream.
+>
+>so .... 
+>
+>        dist       rate       time
+>up       30        (r-5)        t
+>
+>down     30        (r+5)      (t-1)
+>
+>When I set (r-5)(t) = (r+5)(t-1)   ... since the distances are equal
+>I'm still left with two variables.
+>
+>[Difficulty]
+>If this problem works, there must be a different way of setting up 
+>the variables or equations.
+>
+>[Thoughts]
+>        dist       rate       time
+>up       30        (r-5)        t
+>
+>down     30        (r+5)      (t-1)
+>
+>When I set (r-5)(t) = (r+5)(t-1)   ... since the distances are equal
+>I'm still left with two variables.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+You know that:
+
+   30 = (r - 5)*t
+
+or:
+
+    t = 30/(r - 5)
+
+In the second equation:
+
+    30 = (r + 5)(t - 1)
+
+Instead of t, you can use 30/(r-5):
+
+    30 = (r + 5)(30/(r - 5) - 1)
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

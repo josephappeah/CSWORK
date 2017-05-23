@@ -1,0 +1,39 @@
+ThreadNum: 567402
+Subject: Re: How do I write an expression with a power in the problem
+To: feline_2001@myway.com (Jennifer)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 10:52:08
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/17/2004 at 22:31:13 (Eastern Time),
+>[Question]
+>How do I write an expression with a power in the problem?
+>
+>[Difficulty]
+>I do not know how to write the problem as a statement.
+>
+>[Thoughts]
+>6y(power is 5)
+
+Hi Jennifer,
+
+Thanks for writing to Dr Math.  Do you mean how do you write that on
+the computer?  We usually write it as
+
+  6*y^5
+
+or just
+
+  6y^5
+
+where the carat (^) means an exponent.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,33 @@
+ThreadNum: 567255
+Subject: Re: SAT Math
+To: yenyou89@yahoo.com (yen you)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 07:58:32
+Sent: yes
+
+
+As yen you wrote to Dr. Math
+On 08/17/2004 at 03:20:13 (Eastern Time),
+>[Question]
+>the first 2 numbers of a sequence are 1 and 3 respectively. the 3rd 
+>number is 4, and, in general, every number after the 2nd is the sum 
+>of 2 numbers preceding it. how many of first 1000 numbers are odd?
+>
+>[Difficulty]
+>how do i calculate this type of questions quickly?????
+>
+>[Thoughts]
+>
+
+Hi Yen,
+
+Generate the first few terms, and look for a pattern:
+
+  1, 3, 4, 7, 11, 18, 29, 37, 
+  o  o  e  o   o   e   o   o
+
+Can you se that every third number will be even?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,55 @@
+ThreadNum: 567025
+Subject: Re: Area of a square inscribed in an ellipse
+To: Kzink@woh.rr.com (Eric Zink)
+From: Doctor Pete
+TimeStamp: 08/16/2004 at 21:19:08
+Sent: yes
+
+As Eric Zink wrote to Dr. Math
+On 08/15/2004 at 14:38:17 (Eastern Time),
+>[Question]
+> If an ellipse has an equation of x^2/a^2 + y^2/b^2 = 1, express the 
+>area of an inscribed square in terms of a and b.
+>
+>[Difficulty]
+> I know that a and b represent the lengths of the semi major and semi 
+>minor axes but I can't figure out how to use them to get the length 
+>of the side of the square.
+>
+>[Thoughts]
+>I tried to let x be the part of the semi major axis not in the side 
+>of the square and y be the part of the semi minor axis not in the 
+>side of the square then I was going to solve the eq. of the ellipse 
+>for x and y and substitue but then I realize that the x and y stood 
+>for different things. Is there a special property about ellipse and 
+>squares that I don't know?
+
+Hi Eric,
+
+The square inscribed in the ellipse
+
+     (x/a)^2  + (y/b)^2 = 1
+
+has all of its vertices on the ellipse.  We can assume that the sides of the square are 
+parallel and/or perpendicular to the axes, and so the coordinates of the vertices are 
+located at
+
+     (s,s), (s,-s), (-s,-s), (-s,s),
+
+where s is half the length of a side.  It is clear that if any one of these four points satisfies 
+the equation of the ellipse (and therefore, lies on the ellipse), then the other three do as 
+well.  Substituting, we find that s must satisfy
+
+     (s/a)^2 + (s/b)^2 = 1,
+
+or
+
+     s^2 = (ab)^2/(a^2 + b^2).
+
+Since the area of the square is 4s^2, the answer is simply
+
+     4(ab)^2/(a^2 + b^2).
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

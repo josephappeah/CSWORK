@@ -1,0 +1,52 @@
+ThreadNum: 567113
+Subject: Re: Train Question
+To: agalliao148@hotmail.com (Confused)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 10:24:12
+Sent: yes
+
+
+As Confused wrote to Dr. Math
+On 08/16/2004 at 10:16:22 (Eastern Time),
+>[Question]
+>A train is traveling 60 mph and is about to enter a tunnel that is 
+>1200 feet long. the train is 1/2 a mile long. How long will it take 
+>the train to pass completely through the tunnel?
+
+          60 x 5280
+ 60 mph = ---------  =  88 ft/sec
+            3600
+
+The train has to travel = 1200 + 2640 =  3840 feet at 88 ft/sec
+
+     Time = 3840/88
+
+          = 43.64 secs
+
+
+>
+>[Difficulty]
+>The length of the train and what measurement. I can understand how 
+to 
+>figure out the time but I am not quite sure how to put the length 
+of 
+>the train into the whole equation and I cannot find any example of 
+>this type of problem in this textbook. I was told that if the 
+>equation is in mph then the time has to be in hrs. but that doesn't 
+>make sense to me b/c I don't think it would take the train 20 hrs. 
+>Maybe 20 min. but not hours. 
+>
+>[Thoughts]
+>If Time=Distance/Rate then:
+>
+>1200 feet/60 mph = 20 (minutes,seconds?) How can I know? Common 
+sense?
+>
+>There has to be more if I have to put the length of the train in 
+>somewhere I'm just not sure how to do that or where to put that all 
+>in and how.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

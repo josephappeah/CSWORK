@@ -1,0 +1,96 @@
+ThreadNum: 567422
+Subject: Re: How do i subtract 1's from a set of multiple zero's (0's)
+To: strikerye660@yahoo.com (Ariel Bautista)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 09:13:17
+Sent: yes
+
+
+As Ariel Bautista wrote to Dr. Math
+On 08/18/2004 at 00:40:12 (Eastern Time),
+>[Question]
+>i have problems dealing with subtraction of binary numbers 
+>specifically on this digits: 110000 - 1111. Could you help me out 
+>here Dr. Math?
+>
+>[Difficulty]
+>after i have answered the above given example, i couldnt find a way 
+>to check if it is right or wrong. several computations have been 
+>found misleading.
+>
+>[Thoughts]
+>if i apply the 1's complement as a basic rule in binary subtraction, 
+>the answer i came out with does not equate with the way i check it. 
+>ex: 110000  this becomes 110000            
+>   -  1111              +  0000
+>                         110000
+>                              1
+>                          10001 answer
+>where:
+>10001 in binary is equal to 17 in decimal
+>
+>whereas, if we check by converting each given to decimal:
+>110000 = 48 subtracted to 1111 = 15, is 33
+>
+>therefore: 17 is not equal to 33
+>so, the answer is wrong. how did that happen? 
+
+Hi Ariel,
+
+Thanks for writing to Dr Math.  First of all, you should be careful
+when "applying the 1's complement" - for example, do you get the same
+thing when you apply it to
+
+  1111
+
+as when you apply it to
+
+  001111 ?
+
+Those are the same binary numbers.  In truth, the 1's complement of a
+positive binary number should have infinitely many 1's to the left of
+the leftmost digit.
+
+But I would recommend not thinking of binary numbers in those terms
+unless you are dealing with how COMPUTERS do the arithmetic.  The 1's
+complement is a way of representing a sign when computers only have 0s
+and 1s (no signs).  If you are doing it on paper, you would be better
+off thinking of them as normal everyday numbers in base 2.  How would
+you do the subtraction in base 10?
+
+  670000
+  - 1234
+ --------
+
+Well, first you would borrow a ten from the second column, who needs
+to borrow one from the next column, on out to the 7.  Then you subtract:
+       1
+  669990
+  - 1234
+ --------
+  668766
+
+You can do the same thing in binary:
+
+  110000
+  - 1111
+ --------
+
+You can't take 1 away from 0, so you need to borrow a 2 from the
+second column, who needs to borrow another 2 from the next column, and
+so on out to the 1.  Then you subtract:
+
+  101112
+  - 1111
+ --------
+  100001
+
+Does that make sense?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

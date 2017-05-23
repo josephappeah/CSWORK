@@ -1,0 +1,41 @@
+ThreadNum: 567132
+Subject: Re: exponent
+To: emirhanozkan@hotmail.com (Emirhan)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 18:28:02
+Sent: yes
+
+
+As Emirhan wrote to Dr. Math
+On 08/16/2004 at 13:33:20 (Eastern Time),
+>[Question]
+>I know that:
+>2^0 + 2^1 + 2^2 + ... + 2^n = 2^(n+1) - 1
+>
+>But why? I read this in a book and I couldn't figure it out..
+>
+>And is it same with 3 or 4. Like this:
+>Is this also true: 4^0 + 4^1 + 4^2 + ... + 4^n = 4^(n+1) - 1
+>
+>[Difficulty]
+>I have no idea about this problem.
+>
+>[Thoughts]
+>No thoughts at all..
+
+Hi Emirhan,
+
+Thanks for writing to Dr. Math.  Such a sequence is called a 
+"geometric sequence" or "geometric series".  To see why your first
+equation is true, and to find the answer to your second question,
+see
+
+   http://mathworld.wolfram.com/GeometricSeries.html .
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

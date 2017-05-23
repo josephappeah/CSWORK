@@ -1,0 +1,78 @@
+ThreadNum: 567902
+Subject: Re: Infinite Extensions
+To: k_ringkamp@yahoo.com (Keith Ringkamp)
+From: Doctor Greenie
+TimeStamp: 08/20/2004 at 15:21:57
+Sent: yes
+
+
+As Keith Ringkamp wrote to Dr. Math
+On 08/20/2004 at 14:06:29 (Eastern Time),
+>[Question]
+>It is generally reported that 1 + 1/2 + 1/4 + ... (ad infinitum) = 
+2 
+>(or approaches but never reaches 2).  Would it be safe to say that 
+no 
+>matter how close the left side of the equation approaches 2 it will 
+>fall infinitely short of number 2?  If this is so, would it be 
+>accurate to say that 1 + 1/2 + 1/4 ... (ad infinitum) = 2 - (an 
+>infinite series (IS))?  If this is so, can we say that 1 + 1IS/2 + 
+>1IS/4 + .... (ad infinitum) = 2?
+>
+>[Difficulty]
+>I read in one place that 1 + 1/2 + 1/4 ... = 2, and I read in 
+another 
+>place that an infinite series in a bounded space, such as on a line 
+>between 1 and 2, terminates, or converges on, an irrational 
+number.  
+>Since 2 is not irrational, why is it considered the termination 
+point 
+>of the above series?
+>
+>[Thoughts]
+>See above.
+
+Hi, Keith --
+
+>It is generally reported that 1 + 1/2 + 1/4 + ... (ad infinitum) = 2
+
+It is not only generally reported to be so; it is in fact so....
+
+>...(or approaches but never reaches 2)
+
+When you say "approaches but never reaches 2", you are talking in 
+the finite sense.  Yes, in the finite sense, the series will never 
+reach 2, but the infinite series is equal to 2.
+
+>Would it be safe to say that no matter how close the left side of 
+>the equation approaches 2 it will fall infinitely short of number 2?
+
+Not really.  As long as we are talking in the finite sense, the 
+series is always short by some tiny but finite amount.  In the 
+infinite sense the series is equal to 2; it is not short by any 
+amount.
+
+>If this is so, would it be accurate to say that 1 + 1/2 + 1/4 ... 
+>(ad infinitum) = 2 - (an infinite series (IS))?
+
+I don't understand what you are trying to do here... but again, if 
+you take the series "ad infinitum", then it is equal to 2; it is not 
+short by any amount.
+
+>...and I read in another place that an infinite series in a 
+>bounded space, such as on a line between 1 and 2, terminates, or 
+>converges on, an irrational number.
+
+I don't know where you got this; perhaps you are taking it out of 
+context.  It is certainly not true.  For example
+
+  .1 + .01 + .001 + ... = 1/9
+
+1/9 is not an irrational number...
+
+I hope some of this helps.  You need to understand the difference 
+between finite and infinite to be comfortable with this material.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

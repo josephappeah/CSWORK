@@ -1,0 +1,96 @@
+ThreadNum: 566407
+Subject: Re: Fastest way to figure out this question
+To: dell8606@bellsouth.net (Karmelia)
+From: Doctor Anthony
+TimeStamp: 08/11/2004 at 13:00:08
+Sent: yes
+
+
+As Karmelia wrote to Dr. Math
+On 08/10/2004 at 20:55:30 (Eastern Time),
+>[Question]
+>In how many ways could $2.43 can be spent on 5 cent and 8 cent 
+>stamps?
+>
+>A)4
+>B)5
+>C)6
+>D)7
+>E)8
+
+You must find integer solutions of
+
+     5x + 8y = 243    divide by 5
+
+     x + y + 3y/5 = 48 + 3/5
+
+since x, y and 48 are integers we require
+
+           3y-3
+           -----  = integer
+             5
+
+           6y-6
+          ------ = integer
+             5
+
+             y-6
+        y + ----- = integer
+              5
+
+     so  (y-6)/5 = integer
+
+           y-6 = 5t   
+
+             y  = 6 + 5t
+
+and from the original equation
+
+    5x + 8(6 + 5t) = 243
+
+      5x + 48 + 40t = 243
+
+               5x = 195 - 40t
+
+                x = 39 - 8t
+
+So we have the two equations
+
+       x = 39 - 8t
+
+       y = 6 + 5t
+
+For both x and y to be zero or positive t can have a minimumum value 
+of -1 and a maximum value of +4.  That is 6 values altogether.  So 
+we see that (C) is the right answer.
+
+
+>
+>
+>
+>
+>
+>[Difficulty]
+>I can't find a faster way to do these types of problems.
+>
+>[Thoughts]
+>2.43  .05   .08
+>243     5     8
+>
+>243*(5*8)= 243/40=6.075~ 6
+>
+>6 times or ways 
+>
+>235+ 8
+>195+48
+>155+88
+>115+128
+>75+168
+>35+208
+>
+>You subtract 40 from the left side and add forty to the right side
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 567489
+Subject: Re: sum integers
+To: paula.garner@earthink.net (Randall)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 13:57:13
+Sent: yes
+
+
+As Randall wrote to Dr. Math
+On 08/18/2004 at 12:56:49 (Eastern Time),
+>[Question]
+>When mathematician karl gauss (1777-1855)was in the third grade, it 
+>took him 10 seconds to sum the interger from 1 to 100.
+>
+>[Difficulty]
+>10 second rule
+>
+>[Thoughts]
+>1+2+3+4 etc
+
+Hi Randall,
+
+Thanks for writing to Dr Math.  He is sometimes said to have solved
+that problem like this:
+
+  Suppose S = 1 + 2 + 3 + 4 + ... + 100.
+
+Then
+
+    S =   1 +   2 +   3 + ... +  98 +  99 + 100
+   +S = 100 +  99 +  98 + ... +   3 +   2 +   1
+  ---   ---------------------------------------
+   2S = 101 + 101 + 101 + ... + 101 + 101 + 101
+
+So how many copies of 101 are there on the right?  So what is 2*S? 
+Then divide by 2.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,35 @@
+ThreadNum: 567221
+Subject: Re: Equation of Parabola
+To: MaggE423@msn.com (Maggie)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 23:19:55
+Sent: yes
+
+
+As Maggie wrote to Dr. Math
+On 08/16/2004 at 21:47:08 (Eastern Time),
+>[Question]
+>How do I write 12x^2 + 16x^2 = 4 in the form (x^2/a^2)+(y^2/b^2)=1?
+>
+>[Difficulty]
+>I just do not remember how to do this
+>
+>[Thoughts]
+>I divided the first equation by 4 so that I could make it equal to 
+>1...however, i am not sure what to do now 
+
+Thanks for writing to Ask Dr. Math!
+
+Dividing by 4 is a great first step!  That should give you
+
+   3*x^2 + 4*y^2 = 1.
+
+Now recall that a = 1/(1/a) for all nonzero a.  Apply this with
+a = 3 and a = 4.  Then finish.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

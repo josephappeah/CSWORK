@@ -1,0 +1,100 @@
+ThreadNum: 568613
+Subject: Re: Irregular sinusoidal curves
+To: david.darwent@unisa.edu.au (David)
+From: Doctor Douglas
+TimeStamp: 08/26/2004 at 16:01:54
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/24/2004 at 23:39:08 (Eastern Time),
+>[Question]
+>Is there a function to graph a sinusoidal curve where the 
+>periodicity remains constant but the distance between the maximum 
+>and minimum values is non-equidistant?  For example, is there a 
+>function to plot a sinusoidal curve with a periodicty of 24-hours 
+>but where the distance from the maximum value to the minimum value 
+>is 16-hours and the distance from minimum value to maximum value is 
+>8-hours.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi David.
+
+thanks for writing to the Math Forum.
+
+Yes, you can construct a function that does this by varying 
+parameters in the basic sinusoidal function to achieve what you
+want.  There are many ways to do this, and I’ll demonstrate one
+method below.  Strictly speaking, the resulting function is not
+sinusoidal, but it does have a fundamental period T. 
+
+We start from a simple sinusoidal function of the form below,
+and let the phase phi be time-dependent so as to make the maximum 
+and minimum occur when we want:
+
+  y = A*sin[2*pi*t/T + phi(t)],               period  T = 24 hr.
+
+Clearly, if phi is a constant, all we do is shift the graph of y 
+horizontally—it is still a sine wave with a half-wavelength between
+maximum and minimum and between minimum and maximum.
+
+We know that the sine function takes on its (first) maximum when the
+argument of the sine is equal to pi/2 [using radians as the angular
+unit of measure, of course].  Let’s enforce this to occur at t = 
+tmax = +8 hr (i.e. t/T = 1/3) by demanding that the argument [**] 
+of the sine above reach pi/2 when t = tmax:
+
+  pi/2 = 2*pi*(1/3) + phi(T/3).
+  
+We also enforce a similar condition on the argument at t = tmin = 
+-8 hr, where we want the sine function to go thru its minimum:
+
+  -pi/2 = 2*pi*(-1/3) + phi(-T/3).
+
+These two equations specify the values of phi at the maximum and 
+minimum:
+
+  phi(T/3) = -pi/6
+  phi(-T/3) = +pi/6
+
+and while so far we have not required anything about the behavior 
+of phi at other values of t, but we might as well choose a simple
+function phi that passes through these two points, and is T-periodic:
+
+         = +pi*(t/T+1/2)             -T/2 <= t < -T/3
+  phi(t) = -pi*t/(2*T)               -T/3 <= t <= T/3
+         = -(pi/6)+pi*(t/T-1/3)       T/3 <  t <= T/2
+
+By using this expression for phi(t) in the equation for y, you will
+force the maximum to occur at t = tmax = 8 hr, and the minimum to 
+occur at t = tmin = -8 hr, so that the durations between min-max and
+max-min are indeed imbalanced, as required.  To reverse the intervals
+so that the max-min event is the longer of the two, we can simply
+invert the function by multiplying it by –1:
+
+  y = -sin[2*pi*t/T + phi(t)].
+
+I think that this function will serve your needs.  Note that there 
+are all sorts of functions phi(t) that will work, as long as they 
+pass through the given points at t=T/3 and t=-T/3 and are T-periodic.
+
+The method above is an example of “phase modulation” (PM), and is a 
+technique that is exploited in communication systems.  You can also
+vary other parameters in the sinusoidal wave
+
+  y  =   A(t) sin[2*pi*f(t)*t + phi(t)].
+
+If you let A vary with t, it is called “amplitude modulation”.  
+If you vary f vary with t, it is called “frequency modulation”.  
+You may have heard of these terms in the context of AM and FM 
+radio.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

@@ -1,0 +1,55 @@
+ThreadNum: 567884
+Subject: Re: slope
+To: y_y87@hotmail.com (paola)
+From: Doctor Greenie
+TimeStamp: 08/20/2004 at 16:16:49
+Sent: yes
+
+
+As paola wrote to Dr. Math
+On 08/20/2004 at 11:05:57 (Eastern Time),
+>[Question]
+>my question said..plot a graph in the table below, showing all 
+>necessary information. 
+>x=0,1,2,3,4,5
+>y=2,7,14,19,28,35
+>what is the slope of the line?
+>what is the value of y when x=3?
+>what is the value when x=7?
+>what is the value when y=0?
+>
+>[Difficulty]
+>I don't know how to start, in other words I don't know the starting 
+>equation
+>
+>[Thoughts]
+>I know that the to find the slope we do rise/run
+
+Hello, Paola --
+
+The given x-values are equally spaced; however, the y-values are 
+not.  Therefore, we do not have a line.  Without any more 
+information, we can't answer most of the specific questions, because 
+many different functions could have the given (x,y) values.
+
+>what is the slope of the line?
+
+We don't have a line, so we don't have a slope.  The graph might be 
+several straight line segments, each with a constant slope; or it 
+might be a smooth curve, with a slope which is constantly changing.
+
+>what is the value of y when x=3?
+
+This one is given to us; when x=3, y=19.
+
+>what is the value when x=7?
+>what is the value when y=0?
+
+We can't tell.  Many different functions can have the given set of 
+(x,y) values; those different functions will most likely have 
+different y-values when x=7, and they will most likely have 
+different x-values when y=0.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

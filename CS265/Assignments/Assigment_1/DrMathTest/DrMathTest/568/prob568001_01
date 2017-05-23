@@ -1,0 +1,57 @@
+ThreadNum: 568001
+Subject: Re: Refrigerator and AC Technology
+To: audeliaa@aol.com (Jose)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 14:50:23
+Sent: yes
+
+Hi, Jose.
+
+As Jose wrote to Dr. Math
+On 08/21/2004 at 09:48:53 (Eastern Time),
+>[Question]
+>Four pounds of gas occupies 10ft3, what would be its total volume, 
+>density, and specific gravity?
+>
+>
+>
+>[Difficulty]
+>I really don't know if I am using the correct formulas.  Could you 
+>tell me what are the formulas and if my answers are correct?
+>
+>Thank you,
+>Jose
+>
+>[Thoughts]
+>My answers are Volume 13.33 lbs. X 4 lbs = 53.32 Density: 
+>4/53.32=.0750 Specific Gravity: 4lbs./62.4=.0064
+>
+
+The volume is another way to say the "space it occupies," which is 10 
+cubic feet (ft^3). You don't have to calculate this one. I don't know 
+where you got 13.33 lb from, or why you multiplied pounds times 
+pounds. What units would this have? Square pounds, which is not the 
+right units for density.
+
+You correctly calculated the density, except that you started with 
+the wrong volume. Density is mass (weight) divided by volume. What 
+are the units of density? From your calculation, pounds divided by 
+cubic feet, the answer will be in pounds per cubic foot (lb/ft^3).
+
+The specific gravity of a substance is the density of the substance 
+divided by the density of water. Your figure of 62.4 pounds per cubic 
+foot is about right. However, you need to divide the DENSITY, not the 
+WEIGHT, by 62.4 lb/ft^3. Also, be careful with your decimal point: 4 
+divided by 62.4 is 0.064, not 0.0064.
+
+I encourage you to keep the units with your numbers. They can help 
+you tell if you have done a wrong calculation. They are also 
+important in telling what the number means, if you ever use more than 
+one unit for the same quantity. (A Mars spacecraft missed Mars 
+because one subcontractor did its calculations in feet while another 
+did its calculations in meters, and they didn't realize their units 
+were different.)
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

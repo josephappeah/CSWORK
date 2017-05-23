@@ -1,0 +1,85 @@
+ThreadNum: 566383
+Subject: Re: Calculus: Newton's Method
+To: idwhitta@hotmail.com (John)
+From: Doctor Luis
+TimeStamp: 08/12/2004 at 08:58:41
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/10/2004 at 19:11:44 (Eastern Time),
+>[Question]
+>Prove that for any positive integer k>1, if r[n] is an approximation 
+>for k^(1/3) which is accurate to m decimal places, then r[n+1] will 
+>be an approximation for k^(1/3) which is accurate to 2m decimal 
+>places. (In other words, each iteration of Newton's method doubles 
+>the number of accurate decimal places).
+>
+>[Difficulty]
+>Finding the way to prove this is very difficult for me. I am having a 
+>difficult time finding the method. 
+>
+>[Thoughts]
+>I have attempted to develop an error formula from the general 
+>recursion formula for Newton's Method, but that is about as far as I 
+>can go. 
+
+
+Hi John,
+
+I'll give you two or three hints.
+
+As you might have already figured out, finding the cube root of k
+is equivalent to solving for the zero of the function f(x) = x^3 - k
+
+Applying Newton's method to the function f(x) gives you a sequence
+of estimates for the roots of f: r[0], r[1], r[2], r[3], ...
+
+Of course, what Newton's method actually gives you is a formula
+for r[n+1] in terms of r[n], f(r[n]), and f'(r[n]). You've figured
+out this formula already, right? If not, figure it out because
+you'll definitely need it.
+
+Ok, so here are the hints:
+
+1) What is meant by accuracy? A good measure would be the difference
+between consecutive approximations. Since we know that the sequence
+r[n] approaches some value, we should expect the difference between
+r[n] and r[n+1] to become smaller and smaller as we increase n.
+Let's define an 'error' sequence by
+
+  e[n] = r[n+1] - r[n]
+
+If you look carefully at the Newton's method formula, that
+difference should look familiar. Use this to your advantage.
+
+
+2) What does it mean that two numbers x,y are accurate to m decimal
+places? If you think about it, they have the same integer part
+and they also share the first m decimal places. What happens if
+you subtract these two numbers? Think about it enough, and
+you'll see it means something like this:
+
+    |x - y| < 10^(-m)
+
+So, mathematically, what the problem is asking you to prove is
+the following statement:
+
+    If |e[n]| < 10^(-m), then |e[n+1]| < 10^(-2m)
+
+Proving that can be quite tricky. You should definitely give it
+a few attempts. 
+
+3) By the way, this is called "doubling of accuracy" since the
+accuracy goes from m to 2m. It is also called "quadratic convergence"
+(or second order convergence) since the max error goes from 10^(-m)
+to 10^(-2m) = [10^(-m)]^2 (the next max error is the square of the 
+previous max error). These keywords should be useful if you want to 
+look for hints on the web.
+
+
+Let us know if you have any more questions.
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

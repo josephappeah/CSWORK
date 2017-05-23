@@ -1,0 +1,95 @@
+ThreadNum: 566256
+Subject: Re: Using a Differential to Estimate a Given Quantity
+To: lizzy@noradd.org (Elizabeth)
+From: Doctor Fenton
+TimeStamp: 08/10/2004 at 08:39:27
+Sent: yes
+
+
+As Elizabeth wrote to Dr. Math
+On 08/10/2004 at 01:42:14 (Eastern Time),
+>[Question]
+>Let := mean "pseudo/wavy equals sign"
+>
+>"In Exercises 21 to 28 use a differential to estimate the given
+>quantites. Assume x is small. You may also assume that ln 10 := 2.3, e
+>:= 2.72, and log_10 e := 0.43."
+>
+>21) e^x
+>22) e^1.1
+>23) 10^x
+>24) 10^1.1
+>
+>[Difficulty]
+>I don't know where to begin except to say that I understand that the
+>differential is the rate of change.
+>
+>[Thoughts]
+>I have the solutions manual but even that doesn't clear it up: 
+>
+>21) since (e^x)' = e^x = 1 for x = 0, we have e^x = e^(0+x) := e^0 +
+>1x = 1 + x for small x.
+>
+>23) Since (10^x)' = (ln 10)*10^x = ln 10 for x = 0, we have 10^x =
+>10^(0+x) := 10^0 + (ln 10)x := 1 + 2.30x for small x.
+>
+>After looking at it some more, it appears they're saying that since x
+>is small, we can estimate the value by find what e^0 is and then add
+>the rate of change multiplied by x. But this doesn't really help too
+>much for 22 and 24.
+
+Hi Elizabeth,
+
+Thanks for writing to Dr. Math.  You are confusing differentials and
+derivatives.  Derivatives (not differentials) are rates of change.
+A differential is an AMOUNT (not a rate) of change, but it is
+computed using the tangent line to a given function.
+
+Given y = f(x), suppose you can evaluate f easily at x=a (for example,
+while sqrt(x) is generally difficult to calculate by hand, sqrt(64),
+[or any perfect square] is easy to compute, and we can use this fact 
+to compute approximate values for sqrt(x) when x is near 64, e.g.
+sqrt(65) or sqrt(65.5).)  Suppose also that we want to compute
+f(x) at a value x which is close to a.  Let Delta_x denote the
+difference x-a between a and x (for brevity, I will write it as Dx). 
+
+The actual difference between f(x) and f(a) is f(x)-f(a), which we
+often denote Delta_y or Dy:
+
+   Dy = f(x) - f(a)
+      = f(a+Dx) - f(a)  .
+
+As the sqrt example shows, this is hard to compute directly by hand.
+However, if it is easy to evaluate f(a) and f'(a), then it is easy
+to compute the tangent line to y=f(x) at x=a:
+
+   y_tangent = f'(a)(x-a) + f(a) .
+
+If we compute the change in y along the tangent line between the two
+points with x-coordinates a and a+Dx, then
+
+   y_tangent - f(a) = f'(a)((a+Dx)-a)
+                    = f'(a)Dx  .
+
+We denote the quantity on the left side by dy, and call it the
+differential of y at x=a, and it is a function of Dx.  For symmetry 
+in notation, we also write dx for Dx, to get the equation
+
+   dy = f'(a)dx .
+
+When dx is small, dy is a good approximation to Dy: that is, the
+change in height along the tangent line is very close to the change
+in height along the curve itself.
+
+Fro problems 21 and 23, it appears that you are supposed to 
+compute the formula for dy in each case, once for the function
+y = e^x, and once for y = 10^x.  In the other two problems,
+you use this differential to approximate the values.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

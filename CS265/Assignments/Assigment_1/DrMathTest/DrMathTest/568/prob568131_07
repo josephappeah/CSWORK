@@ -1,0 +1,92 @@
+ThreadNum: 568131
+Subject: Re: problems using intercept form
+To: ruben_mertens_@hotmail.com (Ruben)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 11:02:42
+Sent: yes
+
+
+As Ruben wrote to Dr. Math
+On 08/23/2004 at 03:32:30 (Eastern Time),
+>Thanks for introducing me to the mathematical concept "elegancy".
+>
+>The problem is that I don't rely that much on "elegancy". It's 
+>difficult to believe that the fact you get -8/5 And 8/5 as the y-
+>intercept does totally depend on "elegancy"...
+
+Hi Ruben,
+
+I'd like to elaborate a little on what Dr. Justin meant by 'informative'. 
+
+If I choose some particular form for an equation, e.g., 
+
+    y = mx + b
+
+or
+
+    ax + by + c = 0
+
+then if I arrange a number of equations using that form, I can compare
+the equations (and their graphs) just by comparing the parameters. 
+
+For example, comparing m and m' from a pair of equations in
+slope-intercept form, I can compare the steepness of the corresponding
+lines, or judge whether they'll intersect, or determine whether
+they're perpendicular, etc. 
+
+If I start monkeying around with the signs in the form (i.e.,
+interchanging signs and operations), I lose the ability to do this. 
+Certainly 
+ 
+  y = (-3)x + 4
+
+and
+
+  y = 3(-x) + 4
+
+refer to the same line, but if I've become accustomed to looking at
+the coefficient of the variable as the slope, I run the risk of
+misreading the second one.  More to the point, if _other_ people have
+become accustomed to looking at the coefficient of the variable as the
+slope, I run the risk of misleading them.  
+
+As an analogy, I can write a sentence like
+
+  Walking back home yesterday, a tree nearly fell on my head.
+
+and I can rely on you to figure out what I meant (i.e., it was me
+walking, not the tree); or I can write the same sentence in standard
+form (without the dangling participle), 
+
+  As I was walking back home yesterday, a tree nearly fell on 
+  my head.
+
+In the latter case, I'm allowing you to make use of the rules of thumb
+that you've developed over the years for being able to read quickly
+and make sense of what you're reading.  When we write
+
+   x    y
+   - + -- = 1
+   3   -2
+
+instead of 
+
+   x   -y
+   - + -- = 1
+   3    2
+ 
+or
+
+   x   y
+   - - - = 1
+   3   2
+
+that's all we're doing.  We're saying: "If you recognize the form, and
+want to zip right to either intercept, you can do that without having
+to worry about the signs."   
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,35 @@
+ThreadNum: 566157
+Subject: Re: Combinations
+To: haris90210@hotmail.com (Haris)
+From: Doctor Roy
+TimeStamp: 08/09/2004 at 19:37:08
+Sent: yes
+
+
+As Haris wrote to Dr. Math
+On 08/09/2004 at 19:34:57 (Eastern Time),
+>Doctor Roy, thanks alot for the reply, but using the binary system 
+>if we use 10 bits, we get 1023, while i have to play with 1000 
+>marbles, the marbles are limited.. for example
+>I have a 1000 dollars, and i have to distribute the money in 10 
+>boxes such that, if some one askes me for any amount ranging 1 to 
+>1000 (example 3$ or 17$ or 999$ or 1000$) i should be able to 
+>produce that amount by just choosing the boxes that i have already 
+>set?
+
+Hi,
+
+If you think about it, you can put the remaining 489 marbles in the
+last box, and it will still work. Using the first 9 boxes, you can
+make any number from 1 to 511. You can make any number from 512 to
+1000 by using 489 and adding a number from 1 to 511.
+
+    512 = 489 + 23
+    513 = 489 + 24
+    and so on
+
+Hope this helps.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

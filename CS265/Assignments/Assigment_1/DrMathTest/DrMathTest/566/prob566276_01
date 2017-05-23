@@ -1,0 +1,62 @@
+ThreadNum: 566276
+Subject: Re: finite and infinite sequences
+To: honey_saadia@yahoo.com (saadia)
+From: Doctor Fenton
+TimeStamp: 08/10/2004 at 08:23:17
+Sent: yes
+
+
+As saadia wrote to Dr. Math
+On 08/10/2004 at 05:17:54 (Eastern Time),
+>[Question]
+>In an infinite geometrical progression,the sum of first two terms is 
+>6 and every term is four times the sum of all the terms that follow 
+>it.find 
+>(a)the geometrical progression
+>(b)its sum to infinity
+>
+>
+>[Difficulty]
+>i'm not able to make an expression.i did'nt understand the question.
+>
+>[Thoughts]
+>
+
+Hi Saadia,
+
+Thanks for writing to Dr. Math.  A geometric progression or series 
+has the form
+
+   a + ar + ar^2 + ar^3 + ...
+
+and its sum is 
+
+      a
+    -----
+    1 - r   .
+
+What does the first statement 
+
+...the sum of first two terms is 6...
+
+tell you? (It gives you an equation for a and r)
+
+Then
+
+>...every term is four times the sum of all the terms that follow 
+>it...
+
+says that for every n,
+
+   ar^n = 4*[ar^(n+1) + ar^(n+2) + ar^(n+3) + ...]
+
+Using the two equations, and the general information about geometric
+series above, you can determine a and r?  
+   
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

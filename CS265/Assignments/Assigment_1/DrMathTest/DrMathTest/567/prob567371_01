@@ -1,0 +1,110 @@
+ThreadNum: 567371
+Subject: Re: Antiderivative of exponential function e^(2x-4)
+To: g_pilton@ozemail.com.au (Glenn)
+From: Doctor Fenton
+TimeStamp: 08/19/2004 at 08:18:50
+Sent: yes
+
+
+As Glenn wrote to Dr. Math
+On 08/17/2004 at 20:24:38 (Eastern Time),
+>[Question]
+>Well...here I am again :)
+>
+>I understand how the antiderivative of e^x = e^x + Constant. However 
+>I don't understand how to do it when there are constants with e?
+>
+>For example: Finding the antiderivative of e^(2x-4) or 2e^(-5x) ??
+>
+>Hope you can help. 
+>
+>Thanks again for providing such a wonderful website!!
+>
+>Glenn
+>
+>[Difficulty]
+>I can't find any examples of how to use the "normal" antiderivative 
+>rule.
+>
+>[Thoughts]
+>I just don't understand it. For example the text poses a question of 
+>e^(2x-4) I would think the antiderivative would be e^(2x-4) * 2 {the 
+>derivative of 2x-4) to equal 2 e^(2x-4) but the actual answer is 1/2 
+>e^(2x-4) and I can't seem to find why. I have a feeling the formula 
+>is staring me in the face but I can't find it!!!
+
+Hi Glenn,
+
+Thanks for writing to Dr. Math.If you think of antidifferentiation as
+the inverse process of differentiation, then since differentiating
+e^(2x-4) just multiplies the function by 2 (the derivative of (2x-4),
+then antidifferentiating should do the inverse process, which would
+be to divide the function e^(2x-4) by the factor 2.
+
+More generally, you can use the Substitution Theorem to keep track
+of the algebra.  The Chain Rule says that
+
+   f(g(x))' = f'(g(x))*g'(x) ,
+
+so
+
+   /
+   | f'(g(x))g'(x)dx = f(g(x)) + C  .
+   /
+
+If you can write an integral in the form on the left (which involves
+identifying f and g, then you can write down the antiderivative using
+this formula.  We often write such a problem in the following way:
+
+  /
+  |e^(2x-4)dx
+  /
+
+Here, if we take f(u) = e^u, and g(x) = 2x-4, then f'(u) = e^u,
+and g'(x) = 2, so 
+
+  /                   /
+  |e^(2x-4)dx = (1/2) | e^(2x-4) * 2 dx
+  /                   /
+                            ^      ^
+                            |      |
+                         f'(g(x)) g'(x)
+
+so you can apply the Substitution result.
+
+This is often written in the following shorthand: let u = 2x-4,
+and then we can write symbolically 
+
+        du
+   du = -- dx = 2 dx   (in this case, since du/dx = 2)
+        dx
+
+or
+
+   dx = (1/2) du
+
+so we replace e^(2x-4) by e^u, and dx by (1/2)du, giving
+
+  /             /
+  |e^(2x-4)dx = | e^u (1/2)du
+  /             /
+
+                      /
+              = (1/2) | e^u du
+                      /
+
+              = (1/2) e^u + C
+
+              = (1/2) e^(2x-4) + C .
+
+The symbolic differential calculations take care of all the
+"bookkeeping" for you, so the substitution theorem is a very
+useful result for finding antiderivatives.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

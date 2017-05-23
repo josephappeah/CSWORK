@@ -1,0 +1,42 @@
+ThreadNum: 567309
+Subject: Re: rate x time = disatance, using the answer
+To: tmthy022@aol.com (tim)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 16:44:57
+Sent: yes
+
+
+As tim wrote to Dr. Math
+On 08/17/2004 at 14:26:13 (Eastern Time),
+>[Question]
+>Fire truck A leaves to a scene at 30 mph 1.5 miles away, fire truck B 
+>leaves to a scene at 40 mph and 2.5 miles away, who gets there first 
+>and by how many seconds?
+>
+>[Difficulty]
+>finding the difference in seconds
+>
+>[Thoughts]
+>Truck A,  30x=1.5   =.05
+>Truck B,  40x=2.5   =.0625
+
+Hi Tim,
+
+Note that what you've done here is multiply rate by distance, not rate
+by time.  Since
+
+  rate * time = distance
+
+if you're given rate and distance, you need to divide:
+
+         time = distance/rate
+
+Try that, and you'll get two quantities, with units of hours. 
+Subtract to get the difference, and note that there are 3600 seconds
+in an hour...
+
+Can you take it from here? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

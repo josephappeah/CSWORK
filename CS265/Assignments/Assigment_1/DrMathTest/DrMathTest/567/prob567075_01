@@ -1,0 +1,107 @@
+ThreadNum: 567075
+Subject: Re: To ALL Dr. Math Tutors
+To: fdrhs@computermail.net (Rita)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 09:38:54
+Sent: yes
+
+
+Hi Rita,
+
+The angle of elevation is the angle above the horizontal, e.g., 
+
+     /
+    /
+   / angle of elevation
+  .............
+
+The angle of depression is the angle below the horizontal, e.g., 
+
+   ............
+   \ angle of depression
+    \
+     \
+
+You could also say that the angle of depression is the angle of
+elevation, with a negative value; but some people find that confusing.  
+
+In this problem, you have a hill, with a pole on top of it:
+
+        .
+     .     .
+  .           .
+
+The angle of depression of the hill is 21 degrees, 
+
+        T
+        |
+        |
+        |
+        B..................H        HBC = 21 degrees
+     .     .
+  A           C
+
+The angle of depression of the shadow is 48 degrees:
+
+        T..................H'       H'TC = 48 degrees
+        |
+        |
+        |
+        B..................H        HBC = 21 degrees
+     .     .
+  A           C
+
+
+You're given the length of BC (55 m), and you're asked to find the
+length of TB.  
+
+So far, all I've done is a pretty literal translation of the problem,
+which is the first step in solving most problems like this.  Before
+going on, can you tell me if you were able to follow this okay, and
+whether you think you'd be able to make a similar drawing for another
+problem? 
+
+As Rita wrote to Dr. Math
+On 08/15/2004 at 22:35:53 (Eastern Time),
+>[Question]
+>A pole on a hill casts a shadow 55m down the hill.  The angle of 
+>depression of the shadow is 48 degrees while the angle of depression 
+>of the hill is 21 degrees.  Find the height of the pole.  
+>
+>My name is Rita.  I'm having a hard time answering questions related 
+>to angle of depression and angle of elevation.  Generally, I do not 
+>know how to set up the proper equation and/or draw the right picture 
+>to help me solve word problems.
+>
+>a) How can I solve the question above?
+>b) How can I increase my word problem skills?
+>
+>
+>[Difficulty]
+>The wording is not clear to me.
+>
+>[Thoughts]
+>To find the height of the pole, I set up the following equation:
+>
+>tan48 degrees = x/55m. I then multiplied 55m by tan48 but is that 
+>right?  
+>
+>why is 21 degrees also mentioned in the word problem?
+>How do I use 21 degrees here? 
+>
+
+Hi,
+
+Take a look at
+
+
+and write back if it's not clear, or if you still have questions. 
+
+Or have I misunderstood your question? 
+Is this enough to get started? 
+Can you take it from here? 
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

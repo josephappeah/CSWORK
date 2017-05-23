@@ -1,0 +1,53 @@
+ThreadNum: 568277
+Subject: Re: Calculus: Probability of Three Distinct Roots
+To: idwhitta@hotmail.com (John)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 18:13:27
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/23/2004 at 17:12:42 (Eastern Time),
+>[Question]
+>Two numbers, P and Q, are chosen at random from the closed interval 
+>[0,1]. Determine the probability that the resulting cubic equation 
+>x^3-Px+Q=0 has three distinct roots. 
+
+
+The condition for 3 real roots of the equation
+
+    x^3 - Px + Q = 0  is
+
+   4P^3 - 27Q^2 > 0  
+
+ We can wriye this  27Q^2 < 4P^3
+
+                      Q < [4P^3/27]^(1/2)
+
+Draw up rectangular axes with the horizontal axis representing P and 
+the vertical axis Q.  Each can vary from 0 to 1, and the sample 
+space is the area of the square of side 1 unit.
+
+The graph of Q against P will look vaguely like y = x^2.
+
+We need the area under this graph for 0 < P < 1.  This area divided 
+by the area of the unit square gives the required probability of 3 
+real roots.  When P = 1,  Q < 1 so the curve is entirely within the 
+unit square.
+
+
+                       1
+  Area = (4/27)^(1/2).INT[P^(3/2).dP]
+                       0
+
+       =  0.3849 x (2/5)P^(5/2)  from 0 to 1
+
+       =  0.3849 x 2/5
+
+       =  0.15396
+
+So the probability of 3 real roots of the cubic is 0.15396
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,55 @@
+ThreadNum: 566601
+Subject: Re: How to find  terminating decimal quickly (math competitions)
+To: llij31@bellsouth.net (Jill)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 07:42:35
+Sent: yes
+
+
+As Jill wrote to Dr. Math
+On 08/11/2004 at 22:45:47 (Eastern Time),
+>[Question]
+>Hi... I am on a math team at school, and we're trying to figure out 
+>a way to do problems quickly and easily, without a calculator. One 
+>problem that we keep running into is how to find a terminating 
+>decimal without doing long division that takes forever. It would be 
+>great if you knew a pattern or trick to help us out! Here's an 
+>example:
+>Which of the following fractions would result in a terminating 
+>decimal?
+>A)84/108   B)168/176    C)143/104  D)104/143   E)None of these
+>We found the answer of course,(choice C) but it took way to long, 
+>and we only have a limited amount of time to take the test! HELP! :)
+>
+>[Difficulty]
+>We need to have a quick, easy solution.
+>
+>[Thoughts]
+>The only thing I've noticed that is different about choice C (the 
+>answer) is that it is an improper fraction.
+
+Hi Jill,
+
+I think the following answer from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/58174.html
+
+In your problem, 143/104 reduces to 11/8, and this is the only
+fraction which can be written with a denominator with factors of
+only 2 and 5.
+
+I found it by searching on these keywords:
+
+  terminating decimal  (phrase)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

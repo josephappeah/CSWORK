@@ -1,0 +1,42 @@
+ThreadNum: 567985
+Subject: Re: An answer regarding the value of 0^i
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Ian
+TimeStamp: 09/13/2004 at 09:00:29
+Sent: yes
+
+
+Hi Mitropam,
+
+>            I thought that if I allowed a to be equal to 1 or 0 then 
+>the following cases would take place:-
+>
+>
+>If a= 0, then
+>
+>
+>           0^i = (0*0)^i = (0^i)*(0^i)
+>
+>
+>        or, 0^i- (0^i)*(0^i)= 0
+>
+>
+>        or, 0^i(1 - 0^i) = 0
+>
+>
+> But since the value of 0^i is unknown,I can't conclude 0^i =0[Because 
+>if the value of 0^i turns out to be 1 then (1 -0^i) = 0 and so the 
+>division by(1 - 0^) is meaningless]
+
+But this is exactly how you show that 0^i doesn't have a sensible
+definition.  So far, you've shown that 0^i must, in fact, have one of
+two values if it's going to have any value at all: it must be equal to
+zero, or it must be equal to one.  
+
+From here, what you want to do is find out whether either of those
+choices makes sense.  If each choice leads to a contradiction, then no
+choice is possible... which is what we were trying to show. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

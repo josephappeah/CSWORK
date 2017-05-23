@@ -1,0 +1,48 @@
+ThreadNum: 568342
+Subject: Re: find ellipse that is the projection of a circle onto a plane
+To: sroach55@hotmail.com (Steve)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 08:26:12
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 08/23/2004 at 20:21:41 (Eastern Time),
+>[Question]
+>I know the equation of an arbitrary circle in 3 space. The 
+>projection of this circle onto a plane is either a circle, a 
+>hyperbola, or an ellipse. I want to know the equation of the conic.
+>
+>For example, suppose I am looking at a pie plate through a window.
+>The outline of the plate on the window is an ellipse. If I know the 
+>equation of the plate (perhaps in the general quadratic form), the 
+>equation of the window (a plane) and the location of my eye, can I 
+>get the equation of the ellipse on the window?
+>
+>
+>
+>[Difficulty]
+>I am not sure how to start deriving the solution.
+>
+>[Thoughts]
+>I know that I can take a set of points that lie on the circle, 
+>project each point onto the plane, and use least squares to fit the 
+>equation
+>
+>   Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
+>
+>I was hoping you could help me find an analytical solution.
+
+Hello Steve,
+
+The projection of a circle on a plane is never a hyperbola or parabola.
+
+You say you have the equation of a circle in three-space.  If you have that equation and an 
+equation of a plane, then it's not difficult to find the equation of the projection.
+
+How one does this depends upon how you have described the circle.  Have you used a 
+parmetric/vector form?  And how have you described the plane?
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

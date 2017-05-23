@@ -1,0 +1,62 @@
+ThreadNum: 568012
+Subject: Re: My question is about solving equations
+To: Sweettara07@yahoo.com (Latara Coleman)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 17:49:32
+Sent: yes
+
+Hi, Latara.
+
+As Latara Coleman wrote to Dr. Math
+On 08/21/2004 at 12:14:22 (Eastern Time),
+>[Question]
+>Solve F=9/5 C +32for C 
+>
+>Choices A. 9/5(F-32)
+>
+>B. 5/9(F-32)
+>c.9/5(F+32)
+>D.5/9(f+32)
+>
+>[Difficulty]
+>Well It's hard for me to determine what to do first.
+>
+>[Thoughts]
+>WELL I REALLY DON'T HAVE A CLUE BECAUSE I AM NEW TO THIS BUT I 
+>THOUHGHT THAT YOU SHOULD MINUS 32.
+
+That's the correct first step: subtract 32 from each side. Let's 
+review the reason for this.
+
+You've got the equation
+
+  F = (9/5)C + 32
+
+You want to get C alone on one side of the equation. Think first of 
+how you would evaluate the right side, if you put in some value for 
+C. You first multiply that value by 9/5; then you add 32.
+
+Now we want to reverse the evaluation process: to start with the 
+answer and get back to C alone. We do this by undoing the steps in 
+reverse order. 
+
+Think about how you put your shoes and socks on in the morning. First 
+you put on your socks, then you put on your shoes. In the evening you 
+reverse this process, getting back to bare feet. How do you do it? 
+First you take off your shoes (undoing the LAST thing you did), then 
+you take off your socks (undoing the first thing you did). If you 
+tried to do it differently, you'd have real problems!
+
+Since the LAST thing you did in evaluating the expression was to add 
+32, the FIRST thing you want to do in solving the equation is to 
+subtract 32 -- to undo the addition. The next thing you want to do is 
+to divide by 9/5, to undo the multiplication. (There is a way to 
+write division by 9/5 as a multiplication; what way is that?)
+
+Of course, whatever you to the right side of the equation, you must 
+do just the same thing to the left side, to keep the equation 
+balanced (to write an equivalent equation).
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

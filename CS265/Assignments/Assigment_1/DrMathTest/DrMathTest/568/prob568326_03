@@ -1,0 +1,65 @@
+ThreadNum: 568326
+Subject: Re: Calculating backward percentages
+To: nhm185@earthlink.net (Tricia)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 07:54:11
+Sent: yes
+
+Hi, Tricia.
+
+As Tricia wrote to Dr. Math
+On 08/23/2004 at 22:50:49 (Eastern Time),
+>Hi Rick, 
+>Sorry to bother you again - but - it still does not make sense to me.
+>Example:
+>you said the formula is:
+>BaseAmt = Total / (1+ %rate /100)
+>so here's the example;
+>180 x 8% = 14.40 + 180 = 194.40.
+>Backward:
+>180 = 194.40 / (1+8% /100)
+>I can't get it to compute, to make both sides equal the 180?
+>I'm old and forgetful, thanks for your help.  :o)
+
+You've got it right. Let's work it out step by step:
+
+First, divide 8 by 100. This comes out to 0.08.
+
+Then add 1. Now we have 1.08.
+
+Then divide 194.40 by 1.08; I get 180.
+
+On a typical calculator that has parentheses (such as the calculator 
+in Windows, in Scientific View), you can enter
+
+  194.40
+  divided-by
+  (
+  1
+  +
+  8
+  divided-by
+  100
+  )
+  =
+
+You could also do
+
+  1
+  +
+  8
+  divided-by
+  100
+  =
+  1/x
+  *
+  194.40
+
+on any calculator with a 1/x (reciprocal) key.
+
+Does this help? If it still comes out wrong for you, show me exactly 
+what you are doing to get the wrong result.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,31 @@
+ThreadNum: 567048
+Subject: Re: what about triple angle identities
+To: kwinter@alaska.net (Shea Winterberger)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 14:05:48
+Sent: yes
+
+
+As Shea Winterberger wrote to Dr. Math
+On 08/16/2004 at 13:09:44 (Eastern Time),
+>I now realize that I should have given you the solution that my book
+gave me, 
+>because that confused me too.  I did notice that my last two answers
+were within their 
+>criteria but it's not even close to what they want me to have.  The
+answer in the back 
+>was 2sinxcosx+4cos^3x-3cosx.  How did they get that?
+
+Hi Shea,
+
+Thanks for writing to Dr Math.  In your first expression (without
+factoring the 1 - 4(sinx)^2), change the (sinx)^2 into
+
+  (sinx)^2 = 1 - (cosx)^2
+
+and then simplify.  I see no reason to consider that answer better
+than yours, so both should be considered equally valid.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

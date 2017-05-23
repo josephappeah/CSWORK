@@ -1,0 +1,41 @@
+ThreadNum: 566891
+Subject: Re: percentages
+To:  (mloueme48@aol.com  (mary lou))
+From: Doctor Jerry
+TimeStamp: 08/15/2004 at 07:46:28
+Sent: yes
+
+
+As  (mloueme48@aol.com  (mary lou)) wrote to Dr. Math
+On 08/15/2004 at 05:24:20 (Eastern Time),
+>i guessed at the answer  could you explain in words how you got it
+
+Hello Mary Lou,
+
+You said " if i only have 7 ounces of cleaning solution"  but I think you must
+mean 7 oz of bleach.  Is this correct?
+
+Acting on that assumption, we want to find out the amount of water to add so that the 
+concentration of bleach to total liquid is the same as 10/(100+10).  The amount of bleach 
+is 7 oz, the amount of liquid is w+7, and so the concentration is 7/(w+7).  I set this equal 
+to 10/(100+10).  After that it's just algebra.
+
+
+7/(w+7) = 10/(100+10)
+
+7/(w+7) = 10/110 = 1/11
+
+At this point I multiplied both sides of the equation by 11(w+7), to get rid of the fractions:
+
+77=w+7
+
+I subtracted 7 from both sides:
+
+w=70.
+
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,37 @@
+ThreadNum: 568648
+Subject: Re: Combinations and permutations
+To: racey_car@hotmail.com (Carolyn)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 11:16:35
+Sent: yes
+
+
+As Carolyn wrote to Dr. Math
+On 08/25/2004 at 07:47:01 (Eastern Time),
+>[Question]
+>I am a parent of a 12 year old, who has a keen interest in maths 
+>(never my strong point). I know there was a formula for working out 
+>combinations and permutations, but it escapes me.  Specifically, 
+our 
+>problem is:
+>
+>we have 6 articles of clothing -  2 pairs of pants, two shirts and 
+2 
+>jumpers each of different colours.  What formula do we use to work 
+>out how many outfits can be derived from these 6 articles of 
+>clothing, given that you must have 1 of each type of article in the 
+>group.  My calculation using a visual calculation presents 8 
+>combinations of the clothing or 8 outfits.  Is this correct?
+
+
+You have 2 choices for each of 3 articles.
+
+  Number of possibilities =  2^3  
+
+                          =  8   (as you found by counting)
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,46 @@
+ThreadNum: 567623
+Subject: Re: odd functions
+To: bradb023@mchsi.com (Brad)
+From: Doctor Fenton
+TimeStamp: 08/19/2004 at 07:52:47
+Sent: yes
+
+
+As Brad wrote to Dr. Math
+On 08/18/2004 at 22:59:58 (Eastern Time),
+>[Question]
+>how do you determine if a functions is odd? Would it be odd it the 
+>Function F(x)= -5X^5+3X^3-2X+1?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Brad,
+
+Thanks for writing to Dr. Math.  A function is odd if f(-x) = -f(x).
+
+To determine if f(x) is odd, replace every x in the formula for f(x)
+and see if you can rewrite the resulting expression as -f(x), or
+-1 times the formula for f(x).  For example, if f(x) = x^3 - 3x,
+
+   f(-x) = (-x)^3 - 3(-x)
+
+         = -x^3 + 3x
+
+         = -(x^3 - 3x)
+ 
+         = - f(x) .
+
+If you graph y=f(x), then for each point (x,y) on the graph, the point
+(-x,-y) is also on the graph.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

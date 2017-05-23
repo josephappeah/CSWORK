@@ -1,0 +1,78 @@
+ThreadNum: 567900
+Subject: Re: Determing a sum to an infinite series
+To: aak190@earthlink.net (Alex)
+From: Doctor Vogler
+TimeStamp: 08/25/2004 at 13:45:04
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/25/2004 at 09:06:39 (Eastern Time),
+>The suggestions you made cleared the fuzzy thinking that preceded 
+>them.
+>
+>The double inequalities now look like
+>
+>      2*n
+>  S = SUM 1/k 
+>      n+1
+>
+>      2*n+1               2*n 
+>      INT [1/x]dx <  S <  INT [1/x]dx    
+>      n+1                  n
+>                          
+>ln[ (2n+1)/n+1) ] <  S < ln[ 2n/n ]
+>
+>ln [2 - 1/(n+1) ] <  S < ln 2                      
+>
+>As n -> inf. the sum appears to approach ln 2.
+>
+>One point I'd like cleared up: as n -> inf. the double inequality 
+>becomes
+>                       
+>             ln 2 <  S < ln 2
+>
+>This would make better sense if the double inequality were 
+>
+>             ln 2 <= S <= ln 2
+>
+>However, the estimating expressions don't lend themselves to using 
+>the <= inequality. Did I goof an estimating expression somewhere 
+>along the way?
+>
+>Thanks for continued interest.
+
+Hi Alex,
+
+Thanks for writing to Dr Math.  Suppose you have three sequences a(n),
+b(n), and c(n), and for all n they satisfy the inequality
+
+  a(n) < b(n) < c(n).
+
+(In your case, c(n) is a constant, but a constant sequence is also a
+sequence.)  If it also happens to be true that all three of these
+sequences converge
+
+  a(n) -> A
+  b(n) -> B
+  c(n) -> C,
+
+then it is easy to prove that
+
+  A <= B <= C,
+
+which is exactly the fact that the Squeeze Theorem uses.  But it is,
+in fact, NOT true in general that
+
+  A < B < C,
+
+and you have already pointed out one counterexample that demonstates
+this fact.  Other counterexamples are easy to create, such as
+
+  1 - 1/n < 1 < 1 + 1/n
+
+for all n, whereas all three of those sequences converge to 1.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

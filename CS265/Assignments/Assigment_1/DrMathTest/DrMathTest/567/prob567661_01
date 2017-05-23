@@ -1,0 +1,42 @@
+ThreadNum: 567661
+Subject: Re: If n is algebraic Prove that n+1 is algebraic
+To: fenderulz@hotmail.com (Colin)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 09:41:54
+Sent: yes
+
+
+As Colin wrote to Dr. Math
+On 08/19/2004 at 07:18:02 (Eastern Time),
+>[Question]
+>A real number n is said to be algebraic if it satisifies an 
+algebraic 
+>equation with integral coefficients.If n is algebraic, prove that 
+n+1 
+>is algebraic.
+>
+>
+>[Difficulty]
+>I was given the algebraic equation to work with to prove that n+1 is 
+>algebraic. I find the equation very confusing, and i guess I do not 
+>know where to start.
+>
+>[Thoughts]
+>Do I start by writing out the equation and then substitute n+1 in 
+for 
+>x.
+
+Thanks for writing to Ask Dr. Math, Colin!
+
+Suppose the polynomial equation that n satisfies is p(x) = 0.  Then
+n+1 satisfies p(x-1) = 0.  You have to show that this is also a
+polynomial equation in x with integer coefficients.  Probably you
+should think about the Binomial Theorem applied to each term of
+p(x-1).
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

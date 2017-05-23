@@ -1,0 +1,53 @@
+ThreadNum: 568571
+Subject: Re: Paralellogram
+To: sudharsha_mad@yahoo.co.in (Sudharsha)
+From: Doctor Peterson
+TimeStamp: 08/26/2004 at 13:39:43
+Sent: yes
+
+Hi, Sudharsha.
+
+As Sudharsha wrote to Dr. Math
+On 08/26/2004 at 09:54:30 (Eastern Time),
+>see........  
+>thats where the problem comes....
+>even in my books they have given that, if AB=CD and BC=DA then it is
+>a parallelogram.
+>
+>but i dont think so, i think something else also has be taken into 
+>consideration, i.e. the diagonals. If any of the diagonals is 
+shorter
+>than the any side of the quadrilateral ABCD, then it is not a 
+>parallelogram.If no diagonal is shorter than the side, then it is a 
+>parallelogram........
+>
+>Is my argument correct?
+>Plz. help me out.
+>
+>Thanx
+>Sudharsha
+
+A parallelogram has many properties; we can choose several of them 
+to use as a definition, and then prove others as theorems based on 
+the definition. I prefer to define it as a quadrilateral (four-sided 
+polygon) with opposite pairs of sides parallel; then the fact that a 
+quadrilateral with opposite sides congruent is a parallelogram is a 
+theorem. You can use either fact to prove a shape is a 
+parallelogram; and nothing else is needed.
+
+Why do you think that a parallelogram can't have a diagonal shorter 
+than either side? Here's an example of one that is like that:
+
+  +------------------------+
+      \                   /    \
+          \              /         \
+              \         /              \
+                  \    /                   \
+                      +------------------------+
+
+The diagonal is shorter than the sides.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

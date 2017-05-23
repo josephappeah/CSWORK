@@ -1,0 +1,30 @@
+ThreadNum: 568900
+Subject: Re: 4 number combinations.
+To: tcoleman@hess.com (tammy)
+From: Doctor Mitteldorf
+TimeStamp: 08/28/2004 at 11:50:34
+Sent: yes
+
+
+As tammy wrote to Dr. Math
+On 08/26/2004 at 10:05:02 (Eastern Time),
+>[Question]
+>Hello.  Can you give me ALL possible 4 digit numrical combinations 
+>possible please?
+>
+>[Difficulty]
+>
+>
+Start listing them, and you'll see that the list looks very familiar:
+
+0000
+0001
+0002
+0003
+...
+all the way to 
+9999
+
+- Doctor Mitteldorf, The Math Forum
+  <http://mathforum.org/dr.math/>
+

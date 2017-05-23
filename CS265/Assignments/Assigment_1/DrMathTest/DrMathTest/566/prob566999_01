@@ -1,0 +1,39 @@
+ThreadNum: 566999
+Subject: Re: (no subject)
+To: www.gibbs@hotmail.com (Jessie Fredrick Cole)
+From: Doctor Ian
+TimeStamp: 08/15/2004 at 11:25:36
+Sent: yes
+
+
+As Jessie Fredrick Cole wrote to Dr. Math
+On 08/15/2004 at 09:10:50 (Eastern Time),
+>[Question]
+>I have to find a mode in these numbers (8,9,12,17,22), but there is 
+>no mode so what should write?
+>
+>[Difficulty]
+>COULDN'T FIND A MODE THAT HAD MORE VALUES THAN ONE.
+>
+>[Thoughts]
+>There is no way to solve it.
+
+Hi Jessie,
+
+When there is more than one value that appears the maximum number of
+times, you have more than one mode.  Here are some examples:
+  
+  data                    mode(s)
+  ------------------      -------------
+  1, 2, 2, 3              2
+  1, 2, 2, 3, 4, 4, 5     2, 5
+  1, 1, 2, 2, 3, 3        1, 2, 3
+  1, 2, 3                 1, 2, 3
+
+In other words, when each value appears only once, every value is a mode. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

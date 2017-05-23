@@ -1,0 +1,48 @@
+ThreadNum: 567682
+Subject: Re: 716
+To: sadia90@aol.com (sadia)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 11:20:34
+Sent: yes
+
+
+As sadia wrote to Dr. Math
+On 08/19/2004 at 10:37:24 (Eastern Time),
+>[Question]
+>my question is that 3s+2(8-s)=3
+>
+>[Difficulty]
+>i do not know that do i am confused about the s.
+>
+>[Thoughts]
+>i think that 3s-8 and 2-5 
+
+Hi Sadia,
+
+Note that when we write 
+
+  3s
+
+we mean
+
+  3 times s
+
+So you can make things clearer by including the multiplication symbol
+explicitly:
+
+  3*s + 2*(8 - s) = 3
+
+If you apply the distributive property to the second term on the left,
+you get
+
+  2*(8 - s) = (2*8 - 2*s)
+
+which means the original equation can be written
+
+  3*s + 2*8 - 2*s = 3
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

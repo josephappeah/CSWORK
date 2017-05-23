@@ -1,0 +1,118 @@
+ThreadNum: 566744
+Subject: Re: Formula to find the nth term in sequences
+To: amonett0715@hotmail.com (Alyssa)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 20:12:58
+Sent: yes
+
+
+As Alyssa wrote to Dr. Math
+On 08/12/2004 at 19:50:31 (Eastern Time),
+>[Question]
+>How do you write an equation for the nth term of an arithmetic 
+>sequence?
+>
+>[Difficulty]
+>dont understand what i should do to go about trying to figure out 
+>how to answer this
+>
+>[Thoughts]
+>
+Hi, Alyssa --
+
+Let's first look at a case where we are given the formula and we 
+want to find the first few terms.  Suppose we have the formula
+
+  t(n) = 5n+7
+
+To find the first few terms, we substitute n=1, n=2, and n=3.  We 
+find
+
+  t(1) = 5(1)+7 = 5+7 = 12
+  t(2) = 5(2)+7 = 10+7 = 17
+  t(3) = 5(3)+7 = 15+7 = 22
+
+Now let's look at how each term compares to the one before it.  
+Between the first and second terms, the "+7" is the same; the 
+difference is "5(2)" compared to "5(1)".  Likewise, between the 
+second and third terms, the "+7" is the same; the difference is "5
+(3)" compared to "5(2)".  So the difference between successive terms 
+is always one more multiple of 5 -- so the difference between 
+successive terms is 5.
+
+Clearly, if we did an example with t(n)=13n-24, the difference 
+between successive terms would be 13.
+
+So the coefficient of the "n" is the difference between successive 
+terms in any arithmetic sequence.  But that means that, if we have 
+(for example) an arithmetic sequence with common difference 7, the 
+coefficient of the "n" in the formula is 7.  So the formula is of 
+the form
+
+  t(n) = 7n+c
+
+where c is some constant to be determined.
+
+So let's look at a specific example.  Suppose we are given the 
+sequence
+
+  19, 26, 33, 40, 47, ...
+
+We see the common difference is 7, so the formula is of the form
+
+  t(n) = 7n+c
+
+for some constant c.  To determine that constant c, we can choose 
+any of the given terms -- but using the first one is probably 
+easiest.  We have
+
+  t(1) = 19
+
+and so we can say
+
+  t(1) = 7(1)+c = 19
+         7+c = 19
+           c = 12
+
+And so the formula is
+
+  t(n) = 7n+12
+
+So here is a summary of the process:
+
+(1) The formula is
+
+  t(n) = a(n)+c
+
+where "a" is the common difference between terms and "c" is a 
+constant to be determined (see step 2).
+
+(2) To find the value of "c", use the known value of the first terms 
+of the sequence:
+
+  t(1) = a(1)+c
+
+One more example, very quickly, to see if you can see the process 
+easily....
+
+  38, 34, 30, 26, 22, ...
+
+(1) The common difference is -4, so the formula is
+
+  t(n) = -4(n)+c
+
+(2) Use the first term to find the value of the constant c:
+
+  t(1) = -4(1)+c = -4+c = 38
+                      c = 42
+
+So the formula is
+
+  t(n) = -4n + 42
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

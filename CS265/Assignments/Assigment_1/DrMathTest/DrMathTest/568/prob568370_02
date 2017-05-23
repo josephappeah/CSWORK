@@ -1,0 +1,43 @@
+ThreadNum: 568370
+Subject: Re: Endpoints in Geometry
+To: chispitas4545@yahoo.com (Angel)
+From: Doctor Peterson
+TimeStamp: 08/23/2004 at 23:25:27
+Sent: yes
+
+Hi, Angel.
+
+As Angel wrote to Dr. Math
+On 08/23/2004 at 22:12:28 (Eastern Time),
+>[Question]
+>Q: One endpoint of a segment is (12,8). The midpoint is (3,8). Find 
+>the coordinates of the other endpoint. 
+>
+>
+>[Difficulty]
+>I find this confusing because my text book only gives me the formula 
+>to find out what the midpoint is, the formula is: 
+>x= x1+x2/2= (?,?)/2= ? y= y1+y2/2= (?,?)/2= ?
+>
+>This doesn't really help me find out how to get the endpoint.
+>
+>
+>[Thoughts]
+> I am absolutely lost :(.....
+
+What do you do in algebra when you have a formula to calculate "this"
+in terms of "that", but you know "this" and want to find "that"? You
+solve for "that".
+
+Do that here. Call the other endpoint (x,y) and write equations that
+say the midpoint is (3,8). Then solve for x and y.
+
+There are other ways you could do this as well, by thinking of it
+geometrically, but this algebraic method is probably best for you.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

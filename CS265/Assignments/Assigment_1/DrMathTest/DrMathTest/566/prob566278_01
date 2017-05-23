@@ -1,0 +1,60 @@
+ThreadNum: 566278
+Subject: Re: What is the formula for Odd-Factorial ?
+To: vtech84@yahoo.com (Abudahim)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 15:58:24
+Sent: yes
+
+
+As Abudahim wrote to Dr. Math
+On 08/10/2004 at 06:12:24 (Eastern Time),
+>[Question]
+>1 + 1*3 + 1*3*5 + 1*3*5*7 + 1*3*5*7*9 + ....
+>
+>can you give me a formula for that series,
+>I tried that for 5*3*1
+>
+>2^3(5!)
+>but it doesn't help with other terms .
+>thanls
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Abudahim,
+
+Thanks for writing to Dr Math.  I'm not sure exactly what kind of
+formula you are looking for, because the formula for odd factorial is
+
+  7!! = 7*5*3*1
+
+and so on:
+
+  n!! = n*(n-2)*(n-4)*...*3*1.
+
+If you want, you can write this in terms of the regular factorial by
+factoring out all of the even terms and pulling a power of two out of
+each one:
+
+             (2n+1)!
+  (2n+1)!! = --------
+             2^n * n!
+
+And even factorial would be:
+
+  (2n)!! = 2^n * n!
+
+You can also use those formulas and Stirling's Formula if you want an
+approximate value like Stirling's Formula.
+
+Are any of the above what you wanted?  If you have any questions about
+this or need more help, please write back and show me what you have
+been able to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

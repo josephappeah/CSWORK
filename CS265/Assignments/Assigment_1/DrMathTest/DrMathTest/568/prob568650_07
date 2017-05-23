@@ -1,0 +1,202 @@
+ThreadNum: 568650
+Subject: Re: Perfect Square?
+To: feroz3@hotmail.com (F. Miller)
+From: Doctor Vogler
+TimeStamp: 08/27/2004 at 18:01:50
+Sent: yes
+
+
+As F. Miller wrote to Dr. Math
+On 08/27/2004 at 16:35:48 (Eastern Time),
+>Hello :)
+>
+>Thanks for the reply. I made a few errors in the last post which are 
+>corrected in this one.
+>
+>In my case, the reason for giving the x-value is so that it can be 
+>used to derive the coefficients for the equivalent equations. For 
+>example
+>
+>14x^2 + 75x + 81 = 14x^2 + 76x  + 71
+>                 = 14x^2 + 77x  + 61
+>                 = 14x^2 + 78x  + 51
+>                 = 13x^2 + 88x  + 51
+>                 = 12x^2 + 98x  + 51
+>                 = 11x^2 + 108x + 51 ...
+>
+>The above are only equivalent if x=10. If x was 7 , then playing 
+>around with the quadratic formula would yield a different set of 
+>equivalent equations.
+>
+>It is in these derived equations that I would like to know if there 
+>is a method of obtaining the coefficients such that the discriminant 
+>is a perfect square.
+>
+>Because x is fixed, the values of a,b and c are "tagged", i.e. we 
+>can keep one coefficeint fixed and change the value of the other 
+>two. I wrote some code to do this, but since there are infinitely 
+>many equivalent equations, I got the results after programming the 
+>application to terminate after a predetermined number of tries.
+>
+>I then got the following results after some time:
+> 18x^2 + 41x  + 21
+> 14x^2 + 75x  + 81
+> 12x^2 + 92x  + 111
+> 8x^2  + 126x + 171
+> 4x^2  + 160x + 231 ...
+>
+>which all satisfy the equation [ax^2 + bx + c = 14x^2 + 75x + 81] 
+>when x=10, as well as having discriminants that have a perfect 
+>square. Only after obtaining the results can we see some sort of 
+>pattern :
+>(a-4, b+34, c+60)... give equivalent equations with perfect-square 
+>discriminants... even this pattern is not strictly true, as one of 
+>the derivations has the pattern (a-4,b+17,c+30).
+>
+>Once one prefect-square discriminant has been found, then I can code 
+>the program to look at coefficients which are "close". But the 
+>initial one may well take very long, especially if the quadratic has 
+>large coefficients to start with.
+>
+>Can I quicky determine the coefficients. Please help. Your time is 
+>much appreciated.
+>
+>Thanks in advance
+>F.Miller
+>
+
+Hi F,
+
+Thanks for writing to Dr Math.  I saw your discussion with Dr Ian, and
+when I understood exactly what it was you were looking for, I was
+really fascinated.  I was actually more fascinated by that pattern you
+found, and I'd like to tell you what I learned about it, but first I
+will stop to answer you question:
+
+You have an integer x (x = 10 in your problem), and another integer N
+(this is the 14x^2 + 75x + 81 = 2231 in your problem), and you want to
+find some triple (a, b, c) such that
+
+  ax^2 + bx + c = N
+
+and
+
+  b^2 - 4ac = m^2
+
+is a perfect square.  The obvious thing is:
+
+  Pick a.
+  Pick b.
+  Set c = N - ax^2 - bx.
+  See if b^2 - 4ac is a square.
+  If not, start over.
+
+That's probably what your computer program did, and then you started
+noticing the patterns.  But we wonder if there is an easier way.  So
+let's look at those formulas we had again, much like Dr Ian was
+suggesting earlier:
+
+  c = N - ax^2 - bx
+  b^2 - 4ac = m^2
+
+So we substitute c into the second equation and get
+
+  b^2 - 4a(N - ax^2 - bx) = m^2
+  b^2 + 4bax + 4a^2x^2 - 4aN = m^2
+  (b + 2ax)^2 - 4aN = m^2
+  (b + 2ax)^2 - m^2 = 4aN
+  (b + 2ax + m)(b + 2ax - m) = 4aN.
+
+At this point, we start to think that there are a lot of solutions;
+all we have to do is pick any number for a and then look at all of the
+ways that 4aN can be factored into two even numbers, and solve for b.
+ To find one solution easily, we can factor 4aN into 2a*2N:
+
+  b + 2ax + m = 2N
+  b + 2ax - m = 2a
+
+and then solve for b and m
+
+  b + 2ax = N + a
+  b = N + a - 2ax
+  m = N - a
+
+So you can pick any number you want for a, and then let
+
+  b = N + a - 2ax
+  c = N - ax^2 - bx
+
+and then you have
+
+  ax^2 + bx + c = N
+
+and
+
+  b^2 - 4ac = (N - a)^2.
+
+This isn't always a small solution, but it's always an integer solution.
+
+
+
+Now, with your first question answered, recall that I said I thought
+that pattern you found in your solutions was really interesting.  So I
+thought about it some more.  This might make using the answer found
+above easier than before.  I did a little algebra and determined that:
+
+If ax^2 + bx + c = N and b^2 - 4ac = m^2 is one known solution to your
+problem (a, b, c, x, N, and m are all integers), then let
+
+  r = 2ax + b - m
+  s = 2c - 2ax^2 + 2mx
+
+and then divide r and s by their gcd (so that r/s is in reduced form),
+and then let
+
+  t = -(rx^2 + sx)
+  n = 2rx + s
+
+and then we have infinitely many more solutions, given by
+
+  (a + rk)x^2 + (b + sk)x + (c + tk) = N
+  (b + sk)^2 - 4(a + rk)(c + tk) = (m + nk)^2
+
+for all integers k.
+
+In your problem, x = 10, N = 14x^2 + 75x + 81 = 2231, and your
+solution of (a, b, c) = (18, 41, 21) with m = 13 gives
+
+  r = 388
+  s = -3298
+
+which can be reduced to
+
+  r = -2
+  s = 17
+
+by dividing both by -194, and that gives the other solutions
+
+  (a, b, c) = (18 - 2k, 41 + 17k, 21 + 30k).
+
+What's interesting is you can also change the sign of m and get a
+completely different set of solutions.  Using your (18, 41, 21) with m
+= -13 gives
+
+  r = -9
+  s = 83
+
+and
+
+  (a, b, c) = (18 - 9k, 41 + 83k, 21 + 70k).
+
+It turns out that these are the only two ways to get a string of
+solutions with a common difference, but you can use one way to
+generate infinitely many solutions, and for each of those new
+solutions you can change the sign of m and get a whole new string of
+solutions!
+
+If you have any questions about this or need more help, please write
+back, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

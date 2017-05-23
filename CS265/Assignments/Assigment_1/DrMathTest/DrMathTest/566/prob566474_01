@@ -1,0 +1,58 @@
+ThreadNum: 566474
+Subject: Re: Calculating odds.
+To: rizladclxvi@hotmail.com (Tony)
+From: Doctor Anthony
+TimeStamp: 08/11/2004 at 11:21:36
+Sent: yes
+
+
+As Tony wrote to Dr. Math
+On 08/11/2004 at 09:57:46 (Eastern Time),
+>[Question]
+>5,000 TICKETS - 500 PRIZES
+>
+>1........WHAT ARE THE ODDS IF YOU HAVE ONE TICKET OF PICKING UP A 
+>PRIZE ?
+
+Use probability rather than 'odds'.
+
+There are 500 prize tickets and 4500 tickets of no value.
+
+If you have 1 ticket your PROBABILITY of success is
+
+      C(500,1)       1
+   =  --------   =  ----   (this is 1:9 odds so don't use it)
+      C(5000,1)      10
+
+>
+>
+>2........WHAT ARE THE ODDS IF YOU HAVE FIVE TICKETS OF PICKING UP A 
+>PRIZE ?
+
+This is best calculated from  1 - Pr(no prizes)
+
+             C(4500,2)
+      = 1 - ----------   =  1 - 0.80998
+             C(5000,2)
+
+                         =  0.19002
+
+
+>
+>
+>3........WHAT ARE THE ODDS IF YOU HAVE TEN TICKETS OF PICKING UP A 
+>PRIZE ?
+
+Using same argument as above
+
+            C(4500,10)
+    =  1 -  ----------   =  1 - 0.348329
+            C(5000,10)
+
+                         =  0.65167
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

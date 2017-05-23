@@ -1,0 +1,60 @@
+ThreadNum: 566784
+Subject: Re: Combinatorics with identical elements
+To: bkeane2@bigpond.net.au (John)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 07:38:58
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/13/2004 at 06:18:28 (Eastern Time),
+>Thankyou for the quick reply. Your explanation is very clear and 
+>easy to understand, although the exclusion-inclusion formula is new 
+>to me. Would you be able to provide a link on it, and explain why 
+it 
+>involves both addition and subtraction? Thanks again!
+
+
+Below I have described the principle in terms of probabilities, but 
+the same reasoning applies to 'number of arrangements'.
+
+Inclusion-Exclusion Principle
+------------------------------
+It is easy to illustrate the principle with two or three 
+probabilities using a Venn diagram.
+
+For example with two overlapping probabilities P(A), P(B), we have 
+
+   P(A or B) = P(A) + P(B) - P(A and B)
+
+The overlapping region, A and B, is added in with P(A) and added in 
+again with P(B), so to get it added in once only we must then 
+subtract it, giving rise to the expression shown above.
+
+With three overlapping probabilities P(A), P(B) and P(C) we get
+
+P(A or B or C) = P(A) + P(B) + P(C) 
+                 - P(A and B) - P(B and C) - P(C and A)
+                 + P(A and B and C)
+
+now the overlap of all 3 probabilities is added in 3 times by the 
+first line of this equation, subtracted 3 times by the second line 
+of the equation and so must be added in again by the third line.
+
+The area corresponding to A and B BUT NOT C is added in twice in the 
+first line and subtracted once in the second line, so it will appear 
+once as is required.  Similarly for area B and C but not A, and the 
+area corresponding to C and A but not B, each will eventually appear 
+once only
+
+With more probabilities the pattern continues and the proof by 
+induction is not difficult but a little tedious.  The 
+name 'inclusion-exclusion' describes exactly what is happening.  
+Regions are being added a number of times and subtracted a number of 
+times in such a way that each region occurs exactly once.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,60 @@
+ThreadNum: 568935
+Subject: Re: Please read this. thanks for helping =)
+To: inastine@online.no (Stine)
+From: Doctor Jerry
+TimeStamp: 08/26/2004 at 14:20:39
+Sent: yes
+
+
+As Stine wrote to Dr. Math
+On 08/26/2004 at 12:55:32 (Eastern Time),
+>[Question]
+>I have a recipie that makes 2 pies with a 9 inch pie crust... but 
+>one of my pie pans broke ;-;
+>
+>I had to go out and buy 11 inch pie pans.
+>
+>Here are my ingredients to make the 9 inch pies...
+>
+>1 cup flour
+>1/2 teaspoon salt
+>1/3 cup shortening
+>2-3 tablespoons of water
+>
+>I need to add enough ingredients to make pie crusts fit the 11 inch 
+>pans
+>
+>What percent more ingredients do I need to add to the original 
+>recipe to make the crust fit the 11 inch pie pans??
+>
+>
+>[Difficulty]
+>I just generally need the formula for this. and also it's a bit 
+>confusing when it says "...that makes 2 pies with a 9 inch crust..."
+>
+>[Thoughts]
+>
+
+Hello Stine,
+
+Are these two-crust pies or just one crust?  The recipe you gave above sounds like enough 
+for one 9 inch crust.  I'll assume this. You want to make a 11 inch crust.
+
+OK, for a 9 inch crust, one needs a circle of rolled dough with a radius of 9+1.5 inches.  
+The thickness will be the same for both 9 and 11 inch crusts; call it h.  The volume of 
+dough for the 9 inch crust will be pi*10.5^2*h.  For the 11 inch crust it will be
+pi*12.5^2*h.
+
+The ratio of these two volumes (each is the volume of a (thin) cylinder) is
+
+pi*12.5^2*h/[pi*10.5^2*h] = 12.5^2/10.5^2 = 1.41
+
+So, if I were doing this, I'd make 1.5 times the given recipe.
+
+So, 1.5 c of flour instead of 1, etc.
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

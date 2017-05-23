@@ -1,0 +1,90 @@
+ThreadNum: 568046
+Subject: Re: Combinations/Permutations
+To: Hockeyplayaz2104@Hotmail.com (Steve)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 07:39:46
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 08/21/2004 at 19:41:46 (Eastern Time),
+>[Question]
+>If i'm at a party and want to bet a friend that at least two people 
+>at the party have the same birthday, how many people should be 
+there 
+>for my odds to be 50/50? 10/1?
+
+
+If no two share a birthday then first person can choose a birthday 
+in 365 ways, the second person in 364 ways, the third in 363 ways 
+and so on.  If there are n people in the room, the probability that 
+no two share a birthday is
+
+     365 x 364 x 363 x .... x (365 -n +1)       P(365,n)
+     ------------------------------------   =  ----------
+                 365^n                           365^n
+
+So probability that two at least share a birthday is:
+
+           P(365,n)
+      1 -  --------
+             365^n
+                                           P(365,n)
+If this must be >= 0.5 then we require   -----------  <= 0.5
+                                             365^n
+
+(Here, P(365,n) is the number of permutations of n things that can 
+be made from 365 different things)
+
+There is no easy way to solve the equation for n, but with a 
+calculator which gives permutations and combinations, trial and 
+error will quickly establish that n must be around 23.
+
+   P(365,22)                    P(365,23)
+   --------   =  0.5243   and  ----------  = 0.4927
+    365^22                        365^23
+
+and so 23 people are sufficient to make the probability of a shared 
+birthday greater than 50%.
+
+For a probability of 10% we require
+
+      P(365,n)
+  1 - -------- >= 0.1
+        365^n
+
+      P(365,n)
+     --------- < 0.9
+        365^n
+
+
+With n = 9   Prob. of shared birthday =  0.9053
+ "   n = 10   "          "      "     =  0.88305
+
+So n=10 will give a better than 10% probability that at least two 
+share a birthday.
+
+
+
+
+
+
+
+
+
+>
+>
+>[Difficulty]
+>I have no idea where to start this...
+>
+>[Thoughts]
+>i did the combination formula (n!/[(n-r)!r!] and came up with 
+66,430 
+>which is impossible because with 366 people 2 people are 99% to 
+have 
+>the same b-day
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

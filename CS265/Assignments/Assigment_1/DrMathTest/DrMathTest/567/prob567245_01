@@ -1,0 +1,31 @@
+ThreadNum: 567245
+Subject: Re: Deriving Cross Sectional 
+To: bcoptions@bigpond.com (Joel)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:27:24
+Sent: yes
+
+
+As Joel wrote to Dr. Math
+On 08/17/2004 at 00:49:20 (Eastern Time),
+>[Question]
+>It is no doubt a basic question however I would be interested to know 
+>how the equation for cross sectional area of  a cylindrical (wire) 
+>specimen is determined [ pi x diam^2] / 4
+>
+>[Difficulty]
+>unsure why it diam^2 
+>
+>[Thoughts]
+>assumed that area of circle was used....
+
+Hello Joel,
+
+The area of a circle of RADIUS r is pi*r^2.  Because the diameter d is 2r, that is d=2r, we 
+see that in terms of diameter the area is
+
+pi*r^2 = pi*(d/2)^2 = pi*d^2/4
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

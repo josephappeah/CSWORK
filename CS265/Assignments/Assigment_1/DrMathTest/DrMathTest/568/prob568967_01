@@ -1,0 +1,74 @@
+ThreadNum: 568967
+Subject: Re: Consecutive Whole numbers
+To: stephanie.locklin@emory.edu (Stephanie)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 16:46:27
+Sent: yes
+
+
+As Stephanie wrote to Dr. Math
+On 08/26/2004 at 15:39:12 (Eastern Time),
+>[Question]
+>What are three consecutive whole numbers that equal 63? 
+>
+>[Difficulty]
+>As I am a desperate parent trying to expalin to my 5th grader!! 
+>Thanks
+>
+>[Thoughts]
+>I have no idea where to start!!
+
+Hi Stephanie,
+
+When you don't know where else to start, a good place to start is with
+definitions, to make sure you understand the problem description. 
+
+'Whole numbers' are integers beginning with 0:
+
+  0, 1, 2, 3, 4, ...
+
+'Consecutive' items follow each other immediately in some series,
+e.g., Tuesday and Wednesday are consecutive days, March and April are
+consecutive months, and so on.  And 11, 12, and 13 would be three
+consecutive whole numbers; as would 12, 13, and 14; or 936, 937, and 938. 
+
+So far, so good? 
+
+Now, we can't have three consecutive whole numbers that _all_ equal
+63, so presumably you mean something like 
+
+   What are three consecutive whole numbers which, when
+   added together, give a result of 63?
+
+If so, then one thing you can do is start trying some set of
+consecutive whole numbers.  The smallest set would be 
+
+  0 + 1 + 2 = 3
+
+which is smaller than 63.  Next would be 
+
+  1 + 2 + 3 = 6
+
+Still too small.  Next would be 
+
+  2 + 3 + 4 = 9
+
+Still too small, but do you see a pattern beginning to form?  Every
+time we move the starting number up by one, we increase the sum by 3. 
+
+So if we move the starting number by 10, we should increase the sum by
+3, ten times, or by 30:
+
+  12 + 13 + 14 = 39
+
+Hey, it worked!  If we do it again, we go too far:
+
+  22 + 23 + 24 = 69
+
+But now you can come back down until you get a total of 63. 
+ 
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

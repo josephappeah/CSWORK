@@ -1,0 +1,46 @@
+ThreadNum: 566327
+Subject: Re: Algebra equation: Can't seem to get it right
+To: box_of_altoids@yahoo.com (Chris)
+From: Doctor Rick
+TimeStamp: 08/10/2004 at 15:28:47
+Sent: yes
+
+Hi, Chris.
+
+As Chris wrote to Dr. Math
+On 08/10/2004 at 13:37:29 (Eastern Time),
+>[Question]
+>I came across the problem X + 2x = 15 in my math book today; I 
+>figured out that X = 5 just by kind of looking at it, but I don't 
+>know how to use a 'formula' to get the answer. The book says to 
+>isolate the variable so I tried, X = 2x - 2 = 15 - 2, But that got 
+me 
+>no where.  
+>
+>[Difficulty]
+>How do I solve x?
+>
+>[Thoughts]
+>X+2x=15
+
+I think what you tried to do was to leave just the x on the left. You 
+could do this by subtracting 2x (not just 2) from each side -- but 
+then you'd be introducing the variable on the other side: x = 15-2x. 
+This doesn't help.
+
+When you have two occurrences of the variable, you want to reduce 
+that to just one occurrence. In other words, you want to combine the 
+two terms into one. How can you combine x + 2x into one term?
+
+You have probably seen how to use the distributive property in 
+reverse to combine terms with a common factor:
+
+  3a + 2a = (3+2)a = 5a
+
+Can you do the same thing here? If you're still stuck, remember that 
+multiplying anything by 1 does not change it, so you can introduce 
+a "phantom 1" whenever it will help: replace x by 1x.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

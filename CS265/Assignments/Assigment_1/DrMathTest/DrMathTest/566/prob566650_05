@@ -1,0 +1,41 @@
+ThreadNum: 566650
+Subject: Re: square root of mod prime power
+To: kranthi_reddy2000@yahoo.com (kranthi)
+From: Doctor Vogler
+TimeStamp: 08/12/2004 at 15:07:52
+Sent: yes
+
+
+As kranthi wrote to Dr. Math
+On 08/12/2004 at 14:31:37 (Eastern Time),
+>>Start with the initial guess that is the root mod p, and then after
+>>one iteration, you have a solution mod p^2.  If you let that be r and
+>>iterate again, then you get a solution mod p^4 (and therefore also mod
+>>p^3), and so on, doubling the power each time.
+>
+>as you said i started my initial guess at 4. that is r = 4 
+>n = r - (r^2 - k)/(2r)
+>  4-(16-146)/8
+> which gives me some fraction .
+>and will you please be some more clear with p^3.
+>
+>sorry if  i am troubling you with poor understanding
+>
+>thanking you 
+>
+>
+
+So the question is how to interpret the fraction, right?  You should
+calculate the modular inverse of the denominator (such as by the
+Extended Euclidean Algorithm) and multiply the numerator by the
+modular inverse.  That is how you interpret the fraction.  You will
+get the same answer if you divide 130 by 8 (inverse of 8 mod 169 is
+148, and 130 * 148 = 143 mod 169) and then add 4, or if you add the
+number 4 = 32/8 to the fraction 130/8, to get 162/8, and then divide
+162/8.
+
+Is that what you wanted to know?  Did this clear it up?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

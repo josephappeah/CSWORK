@@ -1,0 +1,69 @@
+ThreadNum: 566345
+Subject: Re: Calculating the % of an objective when objective is negative
+To: andrea.diefenbacher@bell.ca (Andrea)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 22:43:52
+Sent: yes
+
+Hi, Andrea.
+
+As Andrea wrote to Dr. Math
+On 08/10/2004 at 15:43:07 (Eastern Time),
+>[Question]
+>I have an objective of -23,150 units in net gain for the month of 
+>July however, actual net gain turned out to be 4,972, in essence, 
+>28,122 more units.  I must calculate the percentage of objective 
+that
+>we have actually attained.  For example, if I had 500 units of net 
+>gain, and my objective had been 250 units, then I am at 200% of 
+>objective.  
+>
+>[Difficulty]
+>The formula we usually use is Actual/Objective = % of objective, 
+>however this is the first time that we are encountering negative 
+>objectives.  The formula no longer makes sense, even if you change 
+it
+>to positive etc.
+>
+>[Thoughts]
+>The formula that I came up with is
+>(Actual - Objective)/Objective.
+>With this example it works out as:
+>(4972 + 23150)/4972 = 565.6%
+>Working backwards, you get the right answer with this percentage:
+>4972 – 565.6% = -23150
+>HOWEVER, when you sub in other numbers, for example, when the 
+>objective is only a small negative, it does not make as much sense.
+>For example:
+>Actual = 1039
+>Objective = -94
+>With my formula it works out to be 191% of objective and this is far
+>too small considering that the absolute unit increase is 1133.
+
+I'm not sure where you got the 565.5% and 191% (I get 1205% in that 
+last example, and in the first you divided by the actual rather than 
+the objective); but you're right that the formula doesn't make sense 
+in this case. For your original problem, I get
+
+  4,972 - -23,150
+  --------------- * 100% = -121.5%
+      -23,150
+
+and the real problem is that it comes out negative. This is correct, 
+but very hard to interpret. The percentage difference concept is 
+inappropriate here.
+
+These pages discuss the issues involved here:
+
+  Calculating Percent Change when the Base is a Negative Number
+  http://mathforum.org/library/drmath/view/55720.html
+
+  When Percentage Calculations are Inappropriate
+  http://mathforum.org/library/drmath/view/62206.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

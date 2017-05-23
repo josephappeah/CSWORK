@@ -1,0 +1,63 @@
+ThreadNum: 567635
+Subject: Re: A question about the derivative in n-space
+To: mathewzhao@hotmail.com (mathewzhao)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 14:09:15
+Sent: yes
+
+
+As mathewzhao wrote to Dr. Math
+On 08/19/2004 at 00:06:27 (Eastern Time),
+>[Question]
+>My text states:
+>  Theorem  A:
+>    If f(x,y) has continuous partial derivatives f_x(x,y) and f_y
+>(x,y) on a disk D 
+>whose interior contains (a,b),then f(x,y) is differentiable at (a,b).
+>  Theorem  B:
+>    If f(x,y) is differentiable at P,then both f_x(x,y) and f_y(x,y) 
+>exist at P.
+>
+>    I guess If f(x,y) is differentiable at P,then
+>     1) both f_x(x,y) and f_y(x,y) exist at P
+>     2) both f_x(x,y) and f_y(x,y) is continuous at p
+>
+>   I has puzzled over the matter for days without making head or tail 
+>of it. I hope
+>you can tell me if 'both f_x(x,y) and f_y(x,y) is continuous at p'.
+>   I am badly thank you.
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Matthew,
+
+Thanks for writing to Dr. Math.
+
+>    I guess If f(x,y) is differentiable at P,then
+>     1) both f_x(x,y) and f_y(x,y) exist at P
+>     2) both f_x(x,y) and f_y(x,y) is continuous at p
+
+(1) is true, since that is exactly what Theorem B says.  (2) is not
+true.  The continuity of the partial derivatives f_x and f_y is a 
+sufficient condition for differentiability (which is what Theorem A 
+says), but it is not a necessary condition (just as in one dimension,
+where a function can have a derivative at every point, but the 
+derivative need not be a continuous function).
+
+In fact, the one-dimensional counterexample works here:
+
+  f(x,y) = {(x^2+y^2)sin(1/sqrt(x^2+y^2)) for (x,y) =/= (0,0),
+           {            0                     (x,y) = (0,0)     .
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

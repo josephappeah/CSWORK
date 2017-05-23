@@ -1,0 +1,53 @@
+ThreadNum: 567252
+Subject: Re: SAT Math
+To: elizabethyong2001@yahoo.com (elizabeth)
+From: Doctor Ian
+TimeStamp: 09/01/2004 at 09:26:18
+Sent: yes
+
+
+As elizabeth wrote to Dr. Math
+On 09/01/2004 at 03:52:32 (Eastern Time),
+>[Question]
+>One side of a triangle has length 6 and a second side has length 7. 
+>Which of the following could be the area of this triangle? 
+>I) 13   II) 21   III) 24
+>
+>
+>[Difficulty]
+>is there an equation for this?
+>
+>[Thoughts]
+>
+
+Hi Elizabeth,
+
+It's not so much an equation as an observation.  The area of a
+triangle is half the product of the base and the height.
+
+Suppose we have two legs of a triangle, of lengths 6 and 7.  We might
+arrange them like 
+
+      \                  |                /
+       \7                |7              /7
+        \                |              /
+   ------    or    ------    or   ------
+      6               6              6
+
+right?  Now, the greatest height will occur in the middle, when the
+second side is straight up.  Then the area is 
+
+    (1/2) * base * height
+
+  = (1/2) * 6 * 7
+
+  = 21 
+
+So that rules out the third choice, doesn't it?  Now you have to
+consider whether the first choice can work.  
+
+How small can you make the area of this triangle, by adding a third side? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

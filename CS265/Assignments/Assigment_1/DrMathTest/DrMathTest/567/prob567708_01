@@ -1,0 +1,37 @@
+ThreadNum: 567708
+Subject: Re: Triangle Similarity
+To: uilmath1@yahoo.com (Jorge)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:25:05
+Sent: yes
+
+
+As Jorge wrote to Dr. Math
+On 08/19/2004 at 14:00:17 (Eastern Time),
+>[Question]
+>Given a similarity statement such as Triangle ABC is similar to 
+>Triangle DEF. Is this statement sufficent to establish corresponding 
+>parts of similar figures, if so how and why?
+>
+>[Difficulty]
+>I found the concept that it's not necessary true that corresponding 
+>parts are similar, that just because we stated that Triangle ABC is 
+>similar to Triangle DEF wasn't enough.
+>
+>[Thoughts]
+>I was using the concept of congruency: Triangle ABC is congruent to 
+>Triangle DEF by definition that corresponding parts are congruent.
+
+Thanks for writing to Ask Dr. Math, Jorge!
+
+Corresponding parts of similar figures are similar, but not
+necessarily congruent.  To prove similarity, all you need is that
+the corresponding angles are congruent.  That stays true for parts
+of figures if it is true for the whole figure.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

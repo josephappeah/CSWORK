@@ -1,0 +1,66 @@
+ThreadNum: 567388
+Subject: Re: Algebra 2, A very confusing word problem
+To: eyesk8tr007@aol.com (Andrew Corley)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 21:58:02
+Sent: yes
+
+
+As Andrew Corley wrote to Dr. Math
+On 08/17/2004 at 21:27:51 (Eastern Time),
+>[Question]
+>A printing company agreed to publish a book about Western 
+>History.When numbering the pages they noticed that they had used 
+2989 
+>digits. How many pages long was the book that they agreed to 
+publish?
+>
+>[Difficulty]
+>I'm having trouble figuring out a formula to solve it.
+>
+>[Thoughts]
+>I tried counting  out the digits and when I got to 3 and 4 digit 
+long 
+>numbers. I started multiplying by 10 but that was taking to long 
+and 
+>got very confusing. So, thought that you might be able to explain 
+to 
+>me a way of forming  a formula to solve it. Any help at all is 
+>Apppreciated, Thanks.
+
+Hi, Andrew --
+
+Mathematics is not all about finding the right formula.  Mathematics 
+is about logical thinking.  Although the process of solving this 
+problem is somewhat tedious, the procedure is straightforward.  You 
+simply count the numbers of digits required to number each page 
+until you have used 2989 digits.
+
+Of course, you want to find some shortcuts for counting those 
+digits....
+
+(1) page numbers 1 to 9 (9 numbers) require 1 digit each
+(2) page numbers 10 to 99 (90 numbers) require 2 digits each
+(3) page numbers 100 to 999 (900 numbers) require 3 digits each
+(4) page numbers 1000 to 9999 (9000 numbers) require 4 digits each
+...
+etc.
+
+Some quick arithmetic shows that page numbers 1 through 999 together 
+require most of the 2989 digits which were used.   You then only 
+need to determine how many more digits were used and figure out how 
+many 4-digit page numbers you have to have to use up the remaining 
+digits.
+
+One place you can easily stumble is the last step of determining the 
+last page number.  If you find (for example) that 327 4-digit page 
+numbers are required to use all 2989 digits, then the last page 
+number is not 1327; it is 1326 -- because the first 4-digit number 
+is 1000, not 1001.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

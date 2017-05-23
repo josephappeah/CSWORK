@@ -1,0 +1,103 @@
+ThreadNum: 567291
+Subject: Re: Detecting/proving patterns in rows of numbers
+To: Brogner@email.dk (Christian )
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 12:28:12
+Sent: yes
+
+
+As Christian  wrote to Dr. Math
+On 08/17/2004 at 11:55:28 (Eastern Time),
+>[Question]
+>We create a series of rows, by using the following statements.
+>
+>let n0 belong to N:
+>
+>   n0 is even  =>  n1 = n/2
+>   n0 is odd   =>  n1 = n0 + 9
+>
+>... and so on for n1, n2 and so forth. With different values of n0 we 
+>have:
+>
+>n=1     1, 10, 5, 14, 7, 16, 8, 4, 2, 1.... (Pattern repeats)
+>
+>n=2     2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern repeats)
+>
+>n=3     3, 12, 6, 3.... (Pattern repeats)
+>
+>n=4     4, 2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern repeats
+>
+>n=5     5, 14, 7, 16, 8, 4, 2, 1, 10, 5, 14, 7, 16, 8, 4, 2, 1.... 
+>(pattern repeats)
+>
+>n=6     6, 3, 12, 6, 3, 12.... (pattern repeats)
+>
+>n=7     7, 16, 8, 4, 2, (1, 10, 5, 14, 7, 6, 8, 4, 2, 1).... (pattern 
+>repeats
+>
+>n= 8    8, 4, 2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern 
+>repeats)
+>
+>n=9     9, 18, 9, 18, 9, 18... (Pattern repeats)
+>
+>
+>[Difficulty]
+>Apparantly, there are four different patterns: n=1, n=3, n=6 and n=9
+>
+>Can I prove, that these are the only existing patterns.. And perhaps 
+>even create a formula, which predicts the patterns length or form???
+>
+>
+>[Thoughts]
+>There seems to be no sense, in n-values larger than 9, since they 
+>will all end up within one of these four patterns...
+>
+>Also, by changing the number you add to an odd value of n, the number 
+>of patterns seem to change...
+>
+>I have a hunch, that this pickle might have something to do with the 
+>sum of the ciffers in n1, n2 etc. (tvaersum)...
+>
+>
+
+Hi Christian,
+
+Thanks for writing to Dr Math.  First of all, the n=3 pattern and the
+n=6 pattern are the same ones.
+
+That said, if you start with any positive integer and use your
+formula, there are only two possibilities for what happens:  Either
+the sequence will eventually repeat a number, which means it will end
+up in a loop.  Or the sequence will never repeat which means that it
+will keep producing bigger and bigger numbers (not necessarily one
+right after the other, but eventually you will have used all of the
+numbers under a million that you are going to, and then you have to
+give a bigger number).  Since for large numbers dividing by two gets a
+lot smaller than adding 9 gets bigger, it should be considered
+extremely unlikely for the second case ever to happen.  Proving that
+it never happens might be extremely difficult, however.
+
+On the other hand, suppose that you have a loop like those above.  It
+is easy to prove that it will be one of the three you found.  This is
+how:  Let n be the smallest number that appears in your loop.  Now, n
+must be odd, since otherwise n/2 would be a smaller number in the same
+loop.  So that means that the number following n is n+9, which must be
+even, and that means that the number after that is (n+9)/2.  This last
+number can't be smaller than n, since n is the smallest number in the
+loop, so that means that
+
+  n <= (n+9)/2
+  2n <= n+9
+  n <= 9.
+
+Now you just have to check the numbers from 1 to 9, which you already
+did, since one of those numbers will appear in every loop.  And you
+find that there are only three loops.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

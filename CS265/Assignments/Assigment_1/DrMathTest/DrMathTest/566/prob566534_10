@@ -1,0 +1,63 @@
+ThreadNum: 566534
+Subject: Re: Prime Numbers-Elementary
+To: MsChrys79@yahoo.com (K hadijah)
+From: Doctor Roberts
+TimeStamp: 08/15/2004 at 01:28:26
+Approved-By: Doctor Ian
+Sent: yes
+
+As K hadijah wrote to Dr. Math
+On 08/11/2004 at 16:56:56 (Eastern Time),
+>[Question]
+>I need a definition for the reason 1 can't be a prime number.
+>
+>[Difficulty]
+>It's my second day in the fifth grade and it'd kinda hard.
+>
+>
+>[Thoughts]
+>
+
+Hi K,
+
+It turns out that, for a lot of reasons, it's really useful to be able
+to break numbers down into factors.  For example, here are some of the
+ways we can break 12 into factors:
+
+  12 = 12 * 1
+
+     = 6 * 2
+
+     = 4 * 3
+
+     = 2 * 2 * 3
+
+This last way is especially interesting, because none of the factors
+(2, 2, 3) can be broken into smaller factors.  What's even more
+interesting is that this set of factors (2, 2, 3) is _unique_ to 12. 
+No other number has the same set of factors. 
+
+This turns out to be so important that we've given it a pretty
+important-sounding name: The Fundamental Theorem of Arithmetic, which
+says that for any natural number, there is only one way to get the
+number by multiplying prime numbers together.  
+
+Now, if we defined the prime numbers to include 1, the Fundamental
+Theorem of Arithmetic would no longer be true.  Why?  Because we could
+keep generating new 'prime factorizations':
+
+  12 = 1 * 2 * 2 * 3
+
+     = 1 * 1 * 2 * 2 * 3
+
+     = 1 * 1 * 1 * 2 * 2 * 3
+
+and so on.  So this is why we don't include 1 in the prime numbers. 
+
+I hope this answers your question.  If you have any more, let me 
+know!
+
+- Doctor Roberts, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

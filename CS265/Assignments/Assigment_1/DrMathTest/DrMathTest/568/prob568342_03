@@ -1,0 +1,49 @@
+ThreadNum: 568342
+Subject: Re: find ellipse that is the projection of a circle onto a plane
+To: sroach55@hotmail.com (Steve)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 15:16:39
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 08/24/2004 at 13:28:52 (Eastern Time),
+>The plane is described by a point and normal vector. For a point on 
+>the plane (Px, Py, Pz) and normal vector <ax, ay, az>, I have the 
+>plane ax(x-Px) + ay(y-Py) + az(z-Pz) = 0.
+>
+>The circle is described by (x-Cx)^2 + (y-Cy)^2 + (z-Cz)^2 = r^2 with 
+>radius r and center (Cx, Cy, Cz).
+>
+>I'm not opposed to changing the representation if it makes the 
+>solution easier. These are just the representations I have now.
+
+Hello Steve,
+
+The equation (x-Cx)^2 + (y-Cy)^2 + (z-Cz)^2 = r^2 describes a sphere, not a circle.
+
+Suppose we want to describe a circle with radius r, center (cx,cy,cz),  and in the plane 
+determined by the mutually perpendicular unit vectors u1 and u2.  A parametric/vector 
+description is  (I use {a,b,c} to indicate a vector a*i+b*j+c*k.)
+
+f(t) = {cx,cy,cz} + r*cos(t)*u1 + r*sin(t)*u2,  0 <= t <= 2*pi.
+
+OK, suppose we have such a circle and want to project it onto a plane described by
+A*x+B*y+C*z+D = 0.  We write the equation of a line through an arbitrary point of the 
+circle and in the direction of the normal {A,B,C} of the given plane.  Such an equation is
+
+g(s)= f(t) + s*{A,B,C}, -oo < s < oo.
+
+We need to choose s so that the components of g(u) satisfy the equation 
+A*x+B*y+C*z+D=0.  The variable s thus found will be a function of  t.  If we replace s by 
+this function of t in the equation for g(s) we will have an equation for the projection.
+
+
+
+
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,178 @@
+ThreadNum: 567133
+Subject: Re: finite fields, splitting fields, galois theory
+To: wigler@cshl.edu (Mike)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 17:04:36
+Sent: yes
+
+
+Hi Mike,
+
+I'm glad you're interested in finite fields.  I'll go through and
+answer each part of your message in turn.  So see below:
+
+As Mike wrote to Dr. Math
+On 08/16/2004 at 14:50:34 (Eastern Time),
+>A
+>Here is what i have done on the problem
+>prior to crying uncle...
+>thanks for your quick response...
+>note particularly paragraph E
+>regarding roots and powers of roots...
+>you say that if alpha is a root
+>in general alpha^2 is not a root
+>but i think i can show that
+>P(x^2)=P(x)^2
+>(i think this is true substituting any prime for 2)
+>so if alpha is a zero, so is alpha^2...
+
+Suddenly I'm beginning to doubt that statement I made.  Actually, I
+think you're right that this is true over a field of characteristic 2.
+
+>B
+>Let P(x) be an irreducible polynomial of degree k over Z(2),
+>and denote one root by a...
+>then extending Z(2) by a results in a field 
+>that is also a vector space spanned by 1 and the (k-1) powers of a
+>with 2^k elements...
+>denote it by Z(a)...
+>
+>C
+>The multiplicative group has order 2^k-1
+
+That's (2^k)-1 and not 2^(k-1), right?
+
+>and so b^(2^k)= b for all b in Z(a )...
+>hence Z(a) is a splitting field for K(x)=x^(2^k)-x...
+>then, according to Stewart,
+>(accepted by me as obvious 
+>but not yet proven by me),
+>all splitting fields of  K(x) will be isomorphic,
+>and hence Z(a) is isomorphic 
+>to any extension of Z(2)
+>by a root of any other irreducible polynomial Q of degree k...
+
+That's right.
+
+>D
+>I will try to prove the conjecture
+>that Z(a) is a splitting field
+>for every irreducible polynomial of degree k...
+
+I thought you just did that.
+
+Oh, wait!  I think the confusion here is that you are trying to get
+from the theorem that adding one root gives you the same field to the
+theorem that making a splitting field gives you the same field.
+
+The easiest way to make this connection is to prove that:
+
+Z(a) is the splitting field for your polynomial P(x).
+
+Then the two theorems are equivalent.  Does that make sense?
+
+>E
+>In fields over Z(2),
+>P(x^2)=P(x)^2
+>so a^2 is also a root
+>and so are all a^(2^n)...
+>if all these roots are unique
+>for n=0, 1,...k-1,
+>then Z(a) is a splitting field for P(x)...
+>
+>
+>F
+>If true, 
+>then my conjecture follows
+>because if Z(b) is a field 
+>obtained by adjoining to Z(2)
+>a root of  Q,
+>an irreducible polynomial of degree k,
+>then, by (C), Z(b) and Z(a) are isomorphic...
+>call the isomorphism f...
+>P(x) then splits in Z(b),
+>because the image 
+>of its roots in Z(a) under f
+>are roots for P(x) in Z(b)...
+>
+>G
+>Now suppose these powers of a are not unique...
+>that a^(2^n)= a^(2^m)
+>with k>m>=n>=0...
+
+You mean k > m > n >= 0.
+
+>then 1=a^(2^m)*a^(-2^n)=
+>a^(2^m-2^n)=
+>a^(2^n(2^q-1)) where q=m-n...
+
+Unless a=0, but that's a pretty trivial case, easily ruled out (what
+would P(x) have to be?).
+
+>since 2^n(2^q-1) must divide 2^k-1,
+>n=0 and (2^m-1)|(2^k-1)...
+
+Um, almost.  It is true that a^(2^k - 1) = 1 as long as a is nonzero,
+but that does NOT imply that the order of a is 2^k - 1, only that the
+order divides 2^k - 1.  And then the order of a divides 2^n(2^q-1),
+not vice-versa like you were using.  For example, a root of the
+irreducible polynomial
+
+  x^6 + x^4 + x^2 + x + 1
+
+over GF(2) has multiplicative order 21, not 63 as you might expect. 
+The multiplicative group is cyclic, but the root a (in this case) is
+NOT a generator for the group.  For many polynomials, called
+"primitive polynomials," a root *IS* a generator for the
+multiplicative group, but not for all polynomials.
+
+>H
+>Now we have a necessary condition
+>under which P(x) fails to split in Z(a):
+>if a^(2^m-1)=1 where m<k...
+>and this can only happen if 
+>(2^m-1)|(2^k-1)...
+>we can add another condition,
+>namely that q=2^m-1>=k,
+>for otherwise a is a root of x^q-1
+>with q<k
+>which contradicts the irreducibility of P(x)...
+>(i don’t have the formal skills
+>to show this with rigor yet
+>but it is obvious)...
+>
+>I
+>My conjecture is true for k
+>when this is true:
+>when q is a factor of 2^k-1
+>and q is of the form 2^m-1,
+>then q<p...
+>this first fails for k=10...
+>2^10-1=1023=3*11*31...
+>3 is too small, but 31 is not...
+>so it is possible that
+>this is the first k for which my conjecture fails...
+>
+>J
+>My guess is that there are general arguments
+>why Z(a) splits P(x)
+>that i do not see,
+>e.g. some nicety about a
+>such as a must be a generator
+>for the multiplicative group...
+>or something about common factors
+>between P(x) and x^(2^m-1)-1
+>that contradict the irreducibility of P...
+>or clever technical proofs,
+>by considering special classes 
+>of irreducible polynomials...
+>
+>does this all seem on track?
+>it has been a horrible struggle,
+>but finally i enjoyed it...
+>mike
+>
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

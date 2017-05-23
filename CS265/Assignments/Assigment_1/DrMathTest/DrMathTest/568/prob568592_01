@@ -1,0 +1,64 @@
+ThreadNum: 568592
+Subject: Re: How much did she start with
+To: joseindiana@comcast.net (NATASHA)
+From: Doctor Greenie
+TimeStamp: 08/24/2004 at 22:46:28
+Sent: yes
+
+
+As NATASHA wrote to Dr. Math
+On 08/24/2004 at 22:16:24 (Eastern Time),
+>[Question]
+>Martina went shopping. she spent one-fifth of what she had in her 
+>wallet and then one-fifth of what remaind. in all she spent $36.00
+>
+>[Difficulty]
+>I dont now how much is a one-fift
+>
+>[Thoughts]
+>I thought if i now how much is a one-fift of $36.00 dollar i can 
+get 
+>the answer
+
+Hello, Natasha --
+
+In many problems like this, it is easier to think of the fraction 
+that remains instead of the fraction that is spent.  In this 
+problem, Martina each time spends 1/5 of what she has.  That means 
+that each time she spends some money, she has remaining 4/5 of what 
+she had before that latest purchase.  Let's analyze this problem in 
+two steps.
+
+(1) She starts with some amount and spends 1/5 of it on purchase A; 
+so after purchase A she has 4/5 of it remaining.  So the amount she 
+has now is 4/5 of what she started with.
+
+(2) Having 4/5 of what she started with, she then spends 1/5 of that 
+amount on purchase B, leaving her with 4/5 of that amount.  So what 
+she is left with is 4/5 of the amount she had before purchase B -- 
+which in turn is 4/5 of 4/5 of the amount she started with.
+
+The "4/5 of 4/5 of..." indicates multiplication; the fraction of the 
+original amount she now has remaining is therefore
+
+  (4/5)*(4/5) = 16/25
+
+Now, if she has 16/25 of her original amount remaining, the amount 
+she spent was 9/25 of the original amount.
+
+The amount she spent is $36; so 9/25 of the original amount is $36.  
+From there, any one of a number of methods can be used to find that 
+the original amount was $100.
+
+It's always good to check an answer....  If she started with $100, 
+and spent 1/5 of it; she spent $20, leaving her with $80.  And then 
+if she spends 1/5 of the $80, that is $16 -- and the total spent is 
+thus $20+$16=$36, which is the correct amount.  So our answer of 
+$100 for the amount she started with is correct.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

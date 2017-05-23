@@ -1,0 +1,59 @@
+ThreadNum: 567035
+Subject: Re: Completing the square and the Sign rules
+To: karen___82@hotmail.com (Karen)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 08:26:37
+Sent: yes
+
+
+As Karen wrote to Dr. Math
+On 08/15/2004 at 16:21:39 (Eastern Time),
+>[Question]
+>Hello,
+>
+>Say you have the following equation 9x^2 - y^2 + 2y - 10 = 0
+>
+>if you want to complete the square for the y-terms by adding 1, is it 
+>correct then to do the following:
+>
+>9x^2 - y^2 + 2y + 1 - 10 = 1
+>9x^2 - (y+1)^2  = 11
+>
+>I feel I'm doing something wrong, but don't know exactly what...
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Karen,
+
+Thanks for writing to Dr. Math.  In your original equation,
+notice that y^2 and y have different signs:
+
+   9x^2 - y^2 + 2y - 10 = 0 .
+
+But when you complete the square, you get an expression
+
+  >9x^2 - (y+1)^2  = 11
+
+in which the y^2 and y terms on the left side will have the same
+sign, so this is not correct.
+
+The problem is that you are not being sufficiently careful with
+signs: you need to write
+
+  9x^2 - y^2 + 2y - 10 = 9x^2 - (y^2 - 2y) - 10 
+
+and now complete the square inside the parentheses (adjusting 
+outside the parentheses for the addition you perform inside to
+complete the square).
+
+If you have any questions or need further help, please write back
+and show me what you have done, and I will try to offer further
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

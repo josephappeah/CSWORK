@@ -1,0 +1,84 @@
+ThreadNum: 566818
+Subject: Re: Hard Question!!
+To: onntai@hotmail.com (Yong Onn Tai)
+From: Doctor Anthony
+TimeStamp: 08/14/2004 at 07:01:34
+Sent: yes
+
+
+As Yong Onn Tai wrote to Dr. Math
+On 08/13/2004 at 11:23:33 (Eastern Time),
+>[Question]
+>An open water tank is in the form of a circular cylinder having its 
+>base horizontal and axis vertical. Each unit of area of the base 
+>costs a, and each unit of area of the curved surface costs b, where 
+>a and b are constants. The total cost of base and curved surface is 
+>a fixed amount, c. Given that the radius of the base of the tank is 
+>x, express the volume of the tank in terms of x, a, b, c. If x may 
+>vary, show that V has its maximum value when the cost of the base 
+is 
+>1/3c
+
+Let h = height of the cylinder
+
+Cost of the base = pi.x^2.a   Cost of curved surface = 2.pi.x.h.b
+
+   Total cost  c = pi.x^2.a + 2.pi.x.h.b
+
+                 = pi.x[x.a + 2h.b]
+
+              c
+           ------ = x.a + 2h.b
+            pi.x
+
+      2h.b = c/(pi.x) - x.a
+
+       h = c/(2pi.x.b) - x.a/(2b)
+
+       V = pi.x^2.h
+
+         = pi.x^2.[c/(2pi.x.b) - x.a/(2b]
+
+         = x.c/(2b) - pi.x^3.a/(2b)
+
+     dV/dx = c/(2b) - 3.pi.x^2.a/(2b) = 0  for max value
+
+                  3.pi.x^2.a = c
+
+                    pi.x^2.a = c/3
+
+  That is       cost of base = c/3
+
+
+
+>
+>[Difficulty]
+>I cant find the maximum value of V is = 1/3 c
+>
+>[Thoughts]
+>Let A = cost of base area
+>      = pi x^2 * a
+>Let B = cost of the curved area
+>      = 2 pi (x) (h) * b
+>
+>Total cost = c
+>c = A + B
+>  = pi X^2 .a + 2 pi X h .b
+>
+>So, h = (c - pi X^2 .a) / 2 pi X .b
+>
+>Volume of the cylinder,v = pi X^2 .h
+>                         = pi X^2 ( c - pi X^2.a)/ 2 pi X.b
+>                         = (cx - pi X^3.a) / 2b
+>dv/dx = (c-3pi X^2.a)/2b
+>
+>At Maximum, dv/dx = 0
+>        so  (c - 3 pi X^2.a)/2b = 0
+>             c = 3 pi X^2 .a
+>             a = c / 3 pi X^2
+>How i gonna find b and show that the maximum value is 1/3c???
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

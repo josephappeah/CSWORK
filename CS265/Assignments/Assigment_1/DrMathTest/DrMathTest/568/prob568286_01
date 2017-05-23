@@ -1,0 +1,53 @@
+ThreadNum: 568286
+Subject: Re: Converting decimals to inches
+To: cjames@cctaxle.com (Carrie)
+From: Doctor Douglas
+TimeStamp: 08/23/2004 at 18:21:23
+Sent: yes
+
+
+As Carrie wrote to Dr. Math
+On 08/23/2004 at 18:08:49 (Eastern Time),
+>[Question]
+>I need to find a way to convert decimal measurements to inches or 
+>millimeters. Say I have a micrometer measurement of 1.402 how would 
+I 
+>tell what size say wrench ect. would it be equivelent to?
+>
+>[Difficulty]
+>I've tried converting them to fractions but can't seem to get 
+>reasonable answers. Maths not my strong point.
+>
+>[Thoughts]
+>
+
+Hi Carrie.
+
+thanks for writing to the Math Forum.
+
+I assume that you mean if you have a decimal measurement, how do
+you convert it to a fraction, where the fraction has some denominator
+that is commonly used in tooling and machine dimensioning.  Is this 
+correct?
+
+If so, you might simply multiply your decimal by a "guess" for the
+denominator.  Good choices are powers of 2, such as 16, 32, and 64.
+Then if the result is near an integer, it's likely that that number
+represents the numerator of the fraction.
+
+Example:  0.594 inches = ?
+
+          0.594 x 64 = 38.016, so we tentatively conclude that
+          0.594 represents 38/64.  This fraction is not in lowest
+          terms, and we can divide both numerator and denominator
+          by 2:  0.594 = 19/32.  We can confirm this, if we wish,
+          by dividing it out on a calculator:  19/32 = 0.59375,
+          certainly close enough.  Thus, this measurement (0.594 in)
+          is nineteen thirty-seconds of an inch.
+
+I hope that this helps.  Please write back if I misunderstood your
+question.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

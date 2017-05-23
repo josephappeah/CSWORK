@@ -1,0 +1,48 @@
+ThreadNum: 568102
+Subject: Re: (no subject)
+To: mbonoan@att.net (Jay)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 10:26:07
+Sent: yes
+
+
+As Jay wrote to Dr. Math
+On 08/22/2004 at 11:39:43 (Eastern Time),
+>[Question]
+>From 6 history books and 8 economics books, how many ways can a 
+>person select 2 history books and 3 economics books and arrange them 
+>on a shelf?
+>
+>[Difficulty]
+>i know this involves permutations and combinations.
+>
+>[Thoughts]
+>I am not sure how to tackle this.
+
+Hi Jay,
+
+Let's call the history books A, B, C, D, E, F, and G; and the
+economics books a, b, c, d, e, f, g, and h.  
+
+First, you want to figure out how many ways you can select the books,
+without respect to order.  How many ways can you choose the first
+book?  There are 6 history books, so there are 6 choices.  
+
+What about the second book?  Having chosen a book already, there are 5
+remaining choices; and you can choose each of those for any of the 6
+books you might have chosen.  So there are 6*5 = 30 possible ways to
+choose the two history books.  
+
+Continuing with the economics books, you have 8, 7, and 6 choices. 
+Can you see how many combinations of 2 and 3 books you can have?
+
+Next, you want to consider, having chosen 5 books, how many ways they
+can be arranged.  This is a similar kind of problem.  You have 5
+choices for the first spot, 4 for the second, and so on.  And you can
+have this many arrangements for each of the possible combinations. 
+
+Is this enough to get started? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

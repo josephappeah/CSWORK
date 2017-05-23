@@ -1,0 +1,46 @@
+ThreadNum: 568639
+Subject: Re: Volume of a Spherical Cap
+To: n_shirtcliffe@yahoo.com (Neil)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 08:28:28
+Sent: yes
+
+
+As Neil wrote to Dr. Math
+On 08/25/2004 at 05:45:10 (Eastern Time),
+>[Question]
+>Dear Sir,
+>
+>I am looking for the formula for the volume of a Sperical cap when 
+>one knows the contact angle between the sphere and the plane and the 
+>radius of the circle in the plane (r1 on your spherical cap page).
+>
+>[Difficulty]
+>When attempting to substitute for r and h I seem to be making an 
+>error, resulting in unrealistic answers.
+>
+>[Thoughts]
+>
+
+Hello Neil,
+
+See the diagram at
+
+http://mathforum.org/dr.math/gifs/sphcap.jpg
+
+Is the "contact angle" you refer to the angle t in the diagram?
+
+cos(pi/2 -t) = r1/r
+
+or
+
+sin(t) = r1/r.
+
+You can write the formula
+
+V=(pi/6)(3r1^2+h^2)*h
+
+in terms of t if you wish.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

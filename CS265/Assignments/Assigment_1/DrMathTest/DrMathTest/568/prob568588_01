@@ -1,0 +1,38 @@
+ThreadNum: 568588
+Subject: Re: square as sum of two rectangles
+To: fstrohm@veizon.net (Fred)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 10:36:30
+Sent: yes
+
+
+Hi Fred,
+
+>Hi,
+>
+>   What are the mathematical properties of two non-square rectangles 
+>that can be combined into a square?
+
+What do you mean by 'combined'?  Do you mean placed side by side?  Or
+can we add the areas without regard to shape? 
+
+>I couldn't find this question addressed in the number theory books 
+>that I looked at.
+
+This shouldn't be surprising.  Part of the art of making up problems
+is to do it in a way that the answers have to be figured out, rather
+than looked up.  :^l
+
+>Pythagorean triples, two squares that can be combined into a square, 
+>are well understood.  I was wondering if two non-square recangles 
+>that can be combined into a square are also well understood.
+
+Try starting with a square, and cutting it into two rectangles.  By
+looking at one, what can you say with certainty about the other?  This
+is just another way of asking the same question...
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

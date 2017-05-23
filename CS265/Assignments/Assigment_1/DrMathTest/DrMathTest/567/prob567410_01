@@ -1,0 +1,60 @@
+ThreadNum: 567410
+Subject: Re: converting fractions and decimals
+To: k.e.wiggins@student.canberra.edu.au (karlie)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 14:03:39
+Sent: yes
+
+
+As karlie wrote to Dr. Math
+On 08/17/2004 at 22:54:06 (Eastern Time),
+>[Question]
+>We are wanting to know how to convert a fraction such as 3/6 
+>into a decimal. We can do this in numbers but are wanting to 
+>know some abstract ways of showing this
+>
+>[Difficulty]
+>We don't understand how to show this to students if it is a 
+>reoccuring decimal.
+>
+>[Thoughts]
+>3/6 = 1/2 = .5 
+>2/7 = 0.285714285
+>how could you show this without using a calculator or long 
+>divison in a graph for example
+
+Hi Karlie,
+
+One way to approach it is to show that the only way to get a
+terminating decimal is for the denominator (after the fraction has
+been reduced to simplest terms) to have only powers of 2 and 5 in its
+prime factorization, e.g., 
+
+  3   1
+  - = -
+  6   2    <-- 2^1
+
+  3
+  - 
+  8        <-- 2^3
+
+  7
+  -- 
+  25       <-- 5^2
+
+The reason is that if it's going to terminate, there's got to be some
+integer such that 
+
+  numerator     numerator * something
+  ----------- = ---------------------
+  denominator     some power of 10
+
+If you've got anything other than 2's and 5's in the prime
+factorization of the denominator, there's no way you can get a power
+of 10 on the right side.  
+
+Does that help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

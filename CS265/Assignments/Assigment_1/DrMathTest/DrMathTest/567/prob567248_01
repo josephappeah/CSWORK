@@ -1,0 +1,55 @@
+ThreadNum: 567248
+Subject: Re: goat problem
+To: ambriz_jesse@montebello.k12.ca.us (jesse)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 10:28:36
+Sent: yes
+
+
+As jesse wrote to Dr. Math
+On 08/17/2004 at 01:50:54 (Eastern Time),
+>[Question]
+>A barn 15 meters by 25 meter stands in the middle of a large grassy 
+>field.  Tied by a rope to one corner of the barn is a hungry goat.  
+>Over what area of the field can the goat graze if the rope is x 
+>meters long.
+>let x= 10meters
+>=20
+>=30
+>=40m
+>
+>
+>[Difficulty]
+>i have this problem for my students and decided to have 30 and 40 
+>meters ropes as a challange. it seems to be more difficult the 
+>longer the rope.  
+>
+>[Thoughts]
+>i am able to complete the 10 and 20 meters part of the question but 
+>cant seem to figure out the 30 and 4o meters part.
+
+Hi Jesse,
+
+Thanks for writing to Dr Math.  If x=10m, then the goat can graze
+three quarters of a circle of radius 10m, right?
+
+If x=20m, then the goat can graze three quarters of a circle of radius
+20m, as well as one quarter of a circle of radius 5m where the rope is
+flat against the 15m side of the barn and has another 5m of slack to
+reach the other side.
+
+Is x=30m, then the goat can graze three quarters of a circle of radius
+30m, plus one quarter of a circle of radius 15m, plus one quarter of a
+circle of radius 5m.
+
+Is x=40m, then the goat can graze three quarters of a circle of radius
+40m, plus one quarter of a circle of radius 25m, plus one quarter of a
+circle of radius 15m.
+
+Does that make sense?  If you have any questions about this or need
+more help, please write back and show me what you have been able to
+do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,36 @@
+ThreadNum: 568650
+Subject: Re: Perfect Square?
+To: feroz3@hotmail.com (F. Miller)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 11:23:22
+Sent: yes
+
+
+Hi,
+
+>ax^2 + bx + c = 14x^2 + 75x + 81
+>If x=10, find a,b and c such that b^2-4ac is a perfect square.
+
+I'm a little confused.  If 
+
+  ax^2 + bx + c = 14x^2 + 75x + 81
+
+then
+
+  a = 14, b = 75, and c = 81
+
+and
+
+  b^2 - 4ac = 75^2 - 4(14)(81)
+
+            = 1089
+
+            = 33^2
+
+So it's not clear that there's any work to be done here. 
+
+Can you tell me more about the exact problem you're trying to solve?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

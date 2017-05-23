@@ -1,0 +1,62 @@
+ThreadNum: 568167
+Subject: Re: permutations
+To: suzieannedrysdale@hotmail.com (Susan)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 07:29:10
+Sent: yes
+
+
+As Susan wrote to Dr. Math
+On 08/22/2004 at 20:56:56 (Eastern Time),
+>[Question]
+>A bag contains 2 red marbles, 4 green marbles, and 4 blue marbles. 
+>What is the probability of getting a red, a green, and a blue 
+marble, 
+>in that order, by taking tem out one at a time without replacement 
+>and without looking? I have been working on this question and the 
+>following one all day and am unable to contact anyone to help me. 
+
+
+ Prob(red, green, blue in that order) = 2/10 x 4/9 x 4/8
+
+                                      =  2/45
+
+                                      =  0.04444
+
+The 
+>second problem is: There is a group of 30 students. They are to be 
+>placed in 6 equal sized teams. How many different teams would it be 
+>possible to have?
+
+       30!
+   ------------  =  8.883 x 10^19
+   5!5!5!5!5!5! 
+
+This is obtained by first picking 5 from 30, then a further 5 from 
+the 25 remaining, then a further 5 from the 20 remaining and so on.
+
+   30!      25!      20!      15!      10!          30!
+= ----- x  ------ x ------ x ------ x -----  = ------------
+  5! 25!   5! 20!   5! 15!   5! 10!   5! 5!     5!5!5!5!5!5!
+
+
+
+>
+>[Difficulty]
+>For the marbles question , I calculated 
+>2/10x4/9x4/8=32/720=.2x.444x.5=.0444 I think the problem of order 
+is 
+>not addressed in my answer. Am I right? For the student grouping 
+>question:I used 30!/(30-5)!=17100720 This sounds like a wrong 
+answer 
+>to me. Am I right or wrong? I am trying to teach myself statistics 
+>and it seems like Greek to me. I really need some help. 
+>Thanks.                                 
+>
+>[Thoughts]
+>See above illustration.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

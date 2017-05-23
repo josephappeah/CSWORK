@@ -1,0 +1,50 @@
+ThreadNum: 566348
+Subject: Re: 'Homogeneous' equations
+To: DHARTSMAN@HOTMAIL.COM (Danny Hartsman)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 12:39:04
+Sent: yes
+
+
+As Danny Hartsman wrote to Dr. Math
+On 08/10/2004 at 15:59:31 (Eastern Time),
+>[Question]
+>Dear Dr Math,
+>
+>Please can you help?
+>
+>I'm having difficulty understanding the term homogeneous when it 
+>comes to mathematical expressions.
+>
+>For example: x^2-y / 2x^2 + y^2 is said to be homogeneous as all  
+>four terms (2)at the numerator and (2) at the denominator are of 
+>degree two.
+>
+>But x^2 + 3xy + y^2 i'm told is also homogeneous in x and y. I dont 
+>understand as the second term looks as though x and y are of degree 
+>1 ???? 
+>
+>[Difficulty]
+>Therefore the difficulty is in the understanding  of what is meant by 
+>honogeneous equations.
+>
+>[Thoughts]
+>
+
+Hi Danny,
+
+Thanks for writing to Dr. Math.  The definition of a homogeneous 
+function is given at
+
+  http://mathworld.wolfram.com/HomogeneousFunction.html .
+
+The term xy is homogeneous of degree 2, because (cx)(cy) = c^2 xy 
+A polynomial is homogeneous of degree n if every term has total 
+degree n, i.e. the sum of the degrees of all the variables is n.
+
+If you have any questions, please write back and I will try to 
+explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

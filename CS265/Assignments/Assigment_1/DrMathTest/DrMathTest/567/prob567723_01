@@ -1,0 +1,33 @@
+ThreadNum: 567723
+Subject: Re: integration of trig functions
+To: wareed@st_aug.edu (Drew)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:20:23
+Sent: yes
+
+
+As Drew wrote to Dr. Math
+On 08/19/2004 at 15:50:03 (Eastern Time),
+>[Question]
+>How do you integrate secant x dx?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Drew!
+
+This one needs a pretty obscure trick.
+
+Multiply numerator and denominator by (sec[x]+tan[x]).  Then 
+substitute u = sec(x) + tan(x), du = sec(x)*tan(x) + sec^2(x) dx.
+Then you have to integrate 1/u du, which is pretty easy.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

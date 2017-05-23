@@ -1,0 +1,59 @@
+ThreadNum: 566442
+Subject: Re: question is about ratios
+To: saiaum@rediffmail.com (India)
+From: Doctor Ian
+TimeStamp: 08/15/2004 at 11:20:57
+Sent: yes
+
+
+As India wrote to Dr. Math
+On 08/15/2004 at 10:12:04 (Eastern Time),
+>sorry for the late response. Thank you very much. Yes, that's what I 
+>wanted to know. I also wanted to know if there was a simpler way to 
+>create fractions out of such huge numbers.
+>
+>with best regards
+>India
+
+Hi India,
+
+Do you mean to find the prime factors of the large numbers, e.g., 
+
+  21458793 = ? * ? * ... * ?
+
+There's no easy way to do that.  You can use divisibility rules, like
+the ones in our FAQ, to test for divisibility by various numbers.  For
+example, by adding up the digits of the number above, 
+
+  (2 + 1) + (4 + 5) + (8 + 7) + 9 + 3 
+
+I see that the sum is divisible by 3; and that tells me that the whole
+number is divisible by 3.  So I can write
+
+  21458793 = 3 * 7152931
+
+I can try the same thing on 7152931, but it's not divisible by 3. 
+Trying other primes, it's not divisible by 5, 7, 11, 13, 17, or 19. 
+But is _is_ divisible by 23:
+
+  21458793 = 3 * 23 * 310997
+
+Now we can keep trying other primes, up to the square root of 310997.
+ But we won't find any, because it's prime.    
+
+Trying the same thing with the other number, 
+
+  14757842 = 2 * 11 * 670811
+
+So in this case, there's no way to simplify the ratio.  
+
+But the short answer to your question (if your question is "How do I
+find the prime factors of a large number?") is that there isn't an
+easy way to do it.  It's _because_ there's no easy way to do it that
+very large prime numbers are useful for encryption. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,102 @@
+ThreadNum: 568420
+Subject: Re: Equated monthly installments
+To: ackid32@yahoo.com (Kodeeswaran)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 09:37:02
+Sent: yes
+
+
+As Kodeeswaran wrote to Dr. Math
+On 08/24/2004 at 08:06:12 (Eastern Time),
+>[Question]
+>i want a chart for emi
+>
+>ie)
+>Principle = 10000
+>Interest = 18%
+>Period = 12 months
+>
+>i calculate monthly emi as 983.33  based on 
+>principle 10000+
+>interest   1800  
+>          =====
+>          11800 / 12
+>
+>all i want is the formula to create a chart like the below.
+>
+>due principle      interest      monthly due
+>--------------------------- ================
+>1.  718.33           265.00         983.33
+>2.  737.33           246.00         983.33
+>3.  757.33           226.00         983.33
+>4.  777.33           206.00         983.33
+>.
+>.
+>.
+>.
+>12  960.33            23.00         983.33
+>===========================================
+>  10000.00          1800.00       11800.00
+>
+>now im using iteration of increasing the interest and it takes too 
+>much time.
+>i came to know that thier is a formula to create this.
+>
+>expect ur valuable reply soon.
+>thanks
+>Kodees
+>
+>
+>[Difficulty]
+>by using iteration takes too much time
+>
+>[Thoughts]
+>
+
+Hello Kodees,
+
+I used formulas
+
+The notation a_0 means a sub 0.
+
+amount borrowed: a_0 (dollars)
+interest rate: r (like 7%)
+number of months the loan is for: N
+payments are made at the end of each month, in the amount x
+you borrow the money at the first day of some month
+
+let p_0 be the amount you owe the bank at time t=0 (months)
+let p_j be the amount you owe the bank at time t=j (months)
+
+ok,
+
+p_0=a_0
+p_1=a_0+a_0*r/(12*100)-x=a_0(1+r/1200)-x    
+
+(amount owed one  month ago, plus interest accrued on this amount, minus payment)
+
+For convenience, let  1+r/1200 = w.  So,
+
+p_1=a_0*w-x
+
+p_2=p_1+p_1*r/(12*100)-x=p_1*w-x=a_0*w^2-x*w-x
+p_3=p_2+p_2*r/(12*100)-x=p_2*w-x=a_0*w^3-x*w^2-x*w-x
+
+So,
+
+p_j=a_0*w^j-x[w^{j-1}+w^{j-2}+...w+1]
+
+Now,  w^{j-1}+w^{j-2}+...w+1=(1-w^j)/(1-w), finite geometric sum. So,
+
+p_j=a_0*w^j -x*(1-w^j)/(1-w).
+
+We want to choose x so that p_N=0.
+
+
+Applying this I found payments to be 916.80, not 983.33.
+
+Before I try to answer your question, perhaps you will say how you got 983.33.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

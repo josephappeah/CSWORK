@@ -1,0 +1,75 @@
+ThreadNum: 566788
+Subject: Re: Finding a limit
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 09:32:18
+Sent: yes
+
+
+As Mitropam wrote to Dr. Math
+On 08/26/2004 at 07:47:28 (Eastern Time),
+>Dear Dr. Vogler,
+>                I think I understood the proof.I proved that 3^(1/3)
+>is the highest of the series using Binomial Theorem. There remains 
+>only a single problem now though. I am facing difficulty in solving 
+>the problem on paper! It seems to take more words than mathematical 
+>notations. Will you spare a little of your valuable time and send me 
+>an ideal complete written proof?
+>                                           Mitropam
+
+Hi Mitropam,
+
+Thanks for writing to Dr Math.  Most proofs do require more words than
+mathematical notations.  I won't give you a complete proof; that's
+your job.  But I'll give you some advice (and, frankly, this is pretty
+close to a complete proof, after the two points I mentioned last time):
+
+Since the limit of
+
+  n^(1/n)
+
+is 1, that means that for every (small) positive number e you choose,
+you will have
+
+  1 < n^(1/n) < 1+e
+
+whenever n is bigger than some number N depending on e.  Now suppose that
+
+  n > M > N
+
+for some other big number M.  Then adding up n terms will get you
+
+  S = 1^(1/1) + 2^(1/2) + ... + n^(1/n)
+  S1 = 1^(1/1) + 2^(1/2) + ... + N^(1/N)
+  S2 = (N+1)^(1/(N+1)) + ... + n^(1/n)
+  S = S1 + S2
+
+Now S1 has N terms in it, each of which is no bigger than
+
+  3^(1/3) < 3/2
+
+So that means that
+
+  S1 < (3/2)*N
+
+and S2 has n-N terms in it, each of which is no bigger than 1+e, so
+that means that
+
+  S2 < (n-N)*(1+e)
+
+and therefore
+
+  S = S1 + S2 < (3/2)*N + (n-N)*(1+e)
+
+and then the limit you want is
+
+  S/n < (3/2)*N/n + (1 - N/n)*(1+e)
+      < 1 + e + 3N/2n
+
+if you let e be a little smaller than you need, and then let M be much
+bigger than N (so that n is much bigger than N), then you can make
+this as close to 1 as you'd like.  
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

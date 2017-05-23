@@ -1,0 +1,57 @@
+ThreadNum: 568979
+Subject: Re: counting
+To: agreen8250@aol.com (jessica)
+From: Doctor Roy
+TimeStamp: 08/26/2004 at 17:21:42
+Sent: yes
+
+
+As jessica wrote to Dr. Math
+On 08/26/2004 at 16:54:46 (Eastern Time),
+>[Question]
+>Keiko spent the day bird watching and counted 34 more birds in the 
+>morning than in the afternoon. If she counted a total of 76 birds, 
+>how many birds did she count in the afternoon?
+>    
+> A. 21 birds
+>    
+> B. 40 birds
+>    
+> C. 42 birds
+>    
+> D. 84 birds
+>    
+> E. 110 birds 
+>
+>
+>[Difficulty]
+>i subtracted 72 from 34 and got 42 but the book said it's wrong.
+>
+>[Thoughts]
+>72 (exact amount) - 34 = 42
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Remember that she counted 34 _more_ birds in the morning than in the
+afternoon. If she counted 42 in the morning, then she counts 42+34 =
+76 birds in the afternoon. But we know that's impossible.
+
+Let's say that x is the number of birds she counts in the afternoon. Then:
+
+   x+34 = # of birds counted in the morning
+
+Since she counted a total of 76 birds:
+
+   x + (x+34) = 76
+
+Solving this equation for x gives you the number of birds she counted
+in the afternoon.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

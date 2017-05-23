@@ -1,0 +1,59 @@
+ThreadNum: 566781
+Subject: Re: Word Problem on probability
+To: Nbygj@aol.com (Sam)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 19:23:15
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/13/2004 at 19:06:11 (Eastern Time),
+>Hi, Dr. Greenie.  Thank you so much for helping me with this 
+>question!  But I am still confused-since I am not good in math.  My 
+>question is from the part: "there are 1/3 as many cashew chewies as 
+>peanut chewies."  If I take 1/3 from 120 and get 40 for the number 
+of 
+>cashew chewies and 80 for the peanut chewies, then I have 40/80 and 
+>that is not 1/3 as many but is actually 1/2 as many.  So then for 
+the 
+>probability of picking a cashew chewy becomes 40/180 which results 
+in 
+>2/9--again the wrong answer.  I cannot figure out what am I doing 
+>wrong with the 1/3 as many part of the question.
+
+Hi, Sam --
+
+This confuses even many people who are good at math.
+
+Take your 120 chewies and take 1/3 of them; you get 40, leaving 80 
+others.  The 40 is not 1/3 of 80 -- it is 1/2 of 80.  The reason 
+this didn't give you  the correct result is that, when you take 1/3 
+of the 120, you leave 2/3 of the 120 -- and 1/3 is half as much as 
+2/3, not 1/3 of it.  In order for the number of cashew chewies to be 
+1/3 the number of peanut chewies, you need to divide the whole 
+number of chewies into two fractions whose sum is 1 and in which the 
+smaller fraction is 1/3 as big as the larger fraction -- and those 
+two fractions are 1/4 and 3/4, not 1/3 and 2/3.
+
+This confusion with fractions is another reason why I said in my 
+original response that I avoid using fractions whenever possible -- 
+because there are so many things about them that can be confusing.  
+So when I see that there are 1/3 as many cashew chewies as peanut 
+chewies, I re-phrase that to say that there are 3 times as many 
+peanut chewies as cashew chewies.  So then if the number of cashew 
+chewies is x, the number of peanut chewies is 3x.  Together that 
+makes a total of x+3x=4x chewies, which is the total of 120 
+chewies.  So
+
+  4x = 120
+   x = 30
+  3x = 90
+
+And we see that there are 30 cashew chewies and 90 peanut chewies.
+
+I hope this helps clear things up.  Of course write back if you 
+still have questions.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

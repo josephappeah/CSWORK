@@ -1,0 +1,45 @@
+ThreadNum: 566911
+Subject: Re: writing word problems in fuctional expressions
+To: Flatface2@aol.com (Vivian)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 23:53:40
+Sent: yes
+
+
+As Vivian wrote to Dr. Math
+On 08/14/2004 at 12:21:49 (Eastern Time),
+>[Question]
+>Two posts are placed 25 feet apart.  One post is 8 feet high and 
+the 
+>other is 12 feet high. A guy wire is tied from the roof of each 
+post 
+>to a stake at ground level between them. Express the lngth of the 
+>wire as a function of the distance between the 8 foot post and the 
+>stake.
+>
+>[Difficulty]
+>Creating the expression in relation to the distance between the 
+>posts and not involving angle measures.
+>
+>[Thoughts]
+>
+Hi, Vivian --
+
+Presumably the ground is flat, and both poles are vertical -- if we 
+don't assume this, then we can't solve the problem.
+
+Assuming those things, the wire, the poles, and the ground form two 
+right triangles.  The posts are 25 feet apart -- so if the stake is 
+x feet from the 8-foot post, then it is (25-x) feet from the 12-foot 
+post.  The legs of one of the two right triangles are 8 and x; the 
+legs of the other are 12 and (25-x).  We can use the Pythagorean 
+Theorem to find expressions for the lengths of the hypotenuses of 
+the triangles; the total length of the guy wire is the sum of those 
+two hypotenuses.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,26 @@
+ThreadNum: 567283
+Subject: Re: limit  of a sequence
+To: FiratAras@aol.com (Firat)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 09:53:48
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/18/2004 at 15:00:54 (Eastern Time),
+>Hi Dr.Vogler,
+>Here is my work:
+>x=(mx+n)/x+1
+>x^2+x=mx+n
+>x^2=mx-x+n
+>x=((m-1)x+n)^1/2
+>Can you tell me please where did I make mistake?
+>Thank you very much!
+
+Oh, I see.  The trouble is only that you didn't solve for x, because
+you still have an x on each side of the equation.  Do you know how to
+complete the square, or how to use the quadratic formula?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,67 @@
+ThreadNum: 567001
+Subject: Re: functions
+To: sallymmoore@aol.com (Hannah)
+From: Doctor Ian
+TimeStamp: 08/15/2004 at 11:31:15
+Sent: yes
+
+
+As Hannah wrote to Dr. Math
+On 08/15/2004 at 09:20:05 (Eastern Time),
+>[Question]
+>How do I solve g(f(x)) when g(x)=x^2 and f(x)= + or - x
+>
+>[Difficulty]
+>I dont know the correct method to solving this problem. I dont even 
+>know where to start. We did these problems last year but I just dont 
+>remember.
+>
+>[Thoughts]
+>
+
+Hi Hannah,
+
+Composing functions like this means you take an input, run it through
+the inner function, and then run the output from that function through
+the outer function.  For example, suppose we have
+
+  f(x) = x + 1
+
+  g(x) = x^3 - 2
+
+Let's pick a value for x, say x = 0.  We put it into f(x),
+
+  f(0) = 0 + 1 = 1
+
+Then we put that into g(x), 
+
+  g(f(x)) = g(1) = 1^3 - 2 = -1
+
+So 
+
+  g(f(0)) = -1
+
+Let's try another value, x = 2:
+
+  f(2) = 2 + 1 = 3
+
+  g(f(2)) = g(3) = 3^3 - 2 = 25
+
+Note that we can accomplish the same thing in a single step by
+subsituting the expression for f(x) in place of the variable in g(x):
+
+  g(f(x)) = [f(x)]^3 - 2
+
+          = [x + 1]^3 - 2
+
+Now we can just substitute any value of x directly:
+
+  g(f(0)) = [0 + 1]^3 - 2 = -1
+
+  g(f(2)) = [2 + 1]^3 - 2 = 25
+
+Does this help?          
+  
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

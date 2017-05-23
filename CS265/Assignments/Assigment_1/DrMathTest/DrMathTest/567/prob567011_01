@@ -1,0 +1,47 @@
+ThreadNum: 567011
+Subject: Re: Number of permutations with double values where r < n-1
+To: robverp@xs4all.nl (Robert Verpalen)
+From: Doctor Anthony
+TimeStamp: 08/15/2004 at 16:04:01
+Sent: yes
+
+
+As Robert Verpalen wrote to Dr. Math
+On 08/15/2004 at 12:20:11 (Eastern Time),
+>[Question]
+>dear sir,
+>
+>I'm trying to predict the outcome of a program that generates all 
+>possible word permutations. Which is straight forward in most 
+cases, 
+>but one there are one or more collections with the same letters, 
+I'm 
+>at a loss. It's easy when the outputlength is one smaller or equal 
+>to the output length, but for smaller output lengths, none of the 
+>theories seem to work.
+>
+>eg. input "ABBD"
+>outputlength = 2
+>output AB AD BA BB BD DA DB
+
+
+
+This is where generating functions come to the rescue.  In this 
+example you require the coefficient of x^2/2! in the expansion of
+
+   (1+x+x^2/2).(1+x)^2
+
+   1 + 3x + 7/2x^2 + 2x^3 + 1/2x^4
+
+The term in x^2 is  (7/2)x^2
+
+                = 2!(7/2)(x^2/2!)
+
+                =  7(x^2/2!)
+
+So there will be 7 permutations of 2 letters from ABBD
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

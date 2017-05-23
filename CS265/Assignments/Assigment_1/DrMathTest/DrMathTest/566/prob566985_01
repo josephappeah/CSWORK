@@ -1,0 +1,53 @@
+ThreadNum: 566985
+Subject: Re: Obtaining a Cubic Formula From a Table
+To: da_gasman@hotmail.com (David)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 16:03:39
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/15/2004 at 04:45:00 (Eastern Time),
+>[Question]
+>Recently my son received a question in homework which not even I 
+>could solve... This question was:
+>
+>Using step-by-step working, find the formula for the following table:
+>--------------------------------------------------------|
+>Number (n)  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
+>------------|---|---|---|---|---|---|---|---|---|---|---|
+>Value (Hp\n)| 0 | 1 | 7 | 22| 50| 95|161|252|372|525|715|
+>--------------------------------------------------------|
+>*Hint: a third equal difference means it is cubic*
+>
+>[Difficulty]
+>I really dont know how to do it
+>
+>[Thoughts]
+>well, so far, I have found that it has an equal 3rd difference of 
+>4...
+>
+>So that should mean that it begins as "4x^3" but from then on I do 
+>not know... 
+
+Hi David,
+
+I think the following answer from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/63984.html
+
+I found it by searching on these keywords:
+
+  Lagrange interpolation  (phrase)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

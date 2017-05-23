@@ -1,0 +1,29 @@
+ThreadNum: 567886
+Subject: Re: intergral of ln(1+sqrt(x))
+To: keanfoster@comhem.se (Kean)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 12:16:31
+Sent: yes
+
+
+As Kean wrote to Dr. Math
+On 08/20/2004 at 11:21:11 (Eastern Time),
+>[Question]
+>Please whould someone be so kind as to help me get started on this 
+>problem!
+>
+>[Difficulty]
+>Basically I don't know how to get the problem started. I know what 
+>the intergral of ln(x) but from there.....??? 
+>
+>[Thoughts]
+>
+
+Hello Kean,
+
+If you let 1+sqrt(x) = u and proceed with this substitution, you will have two easier 
+integrals to do.  Each can be done using integration by parts.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

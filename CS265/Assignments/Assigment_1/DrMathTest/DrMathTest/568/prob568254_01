@@ -1,0 +1,93 @@
+ThreadNum: 568254
+Subject: Re: The square root of an equation with I in it
+To: lbleds1@towson.edu (Lesley)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 15:58:03
+Sent: yes
+
+
+As Lesley wrote to Dr. Math
+On 08/23/2004 at 15:30:33 (Eastern Time),
+>[Question]
+>I was trying to help a friend study, when I came across a question 
+>that really stumped me.  It has been making me crazy and I could use 
+>some help!
+>What are the roots of the equation x^2 + 2ix - 4 = 0
+>I've been tring to use the quadratic formula, but I'm just getting 
+>stuck.
+>
+>[Difficulty]
+>Once I plug the numbers into the quadratic formula I don't know what 
+>to do, I also don't know what to do with the i when I'm plugging 
+>numbers into the quadratic formula.
+>
+>[Thoughts]
+>-2 + SQRT(2^2-(4*1*5
+>---------------------
+>         2*1
+
+Hi Lesley,
+
+I like to start with the actual formula,
+
+      -b +/- sqrt(b^2 - 4ac)
+  x = ----------------------
+              2a
+
+and use parentheses when I substitute, to make sure I keep everything
+straight:
+
+      -(2i) +/- sqrt((2i)^2 - 4(1)(-4))
+  x = ---------------------------------
+              2(1)
+
+
+Squaring (2i) gives us (2^2 i^2), or -4:
+
+      -(2i) +/- sqrt(-4 - 4(1)(-4))
+  x = ---------------------------------
+              2
+
+      -(2i) +/- sqrt(-4 - -16)
+  x = ---------------------------------
+              2
+
+      -(2i) +/- sqrt(12)
+  x = ---------------------------------
+              2
+
+      -(2i) +/- 2 sqrt(3)
+  x = ---------------------------------
+              2
+
+  x = -i +/- sqrt(3)
+
+    = sqrt(3) - i   or   -sqrt(3) - i
+
+Let's try substituting those into the original equation, to see if
+they work:
+
+  0 = x^2 + 2ix - 4 
+
+    = (sqrt(3) - i)^2 + 2i(sqrt(3) - i) - 4
+
+    = (sqrt(3)^2 - 2i sqrt(3) + i^2) + (2i sqrt(3) - 2i^2) - 4
+
+    = 3 - 2i sqrt(3) - 1 + 2i sqrt(3) + 2 - 4
+
+    = 3 - 1 + 2 - 4 + 2i sqrt(3) - 2i sqrt(3)
+
+    = 0
+
+I'll leave it for you to check the other root. 
+
+That's a lot of manipulation, but if you're careful not to drop any
+signs, and to distribute everything properly, it works pretty much the
+way you'd expect. 
+
+Does this help? 
+
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

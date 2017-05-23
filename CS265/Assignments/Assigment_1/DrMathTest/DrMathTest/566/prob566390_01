@@ -1,0 +1,47 @@
+ThreadNum: 566390
+Subject: Re: Using Numerical Methods to solve equations
+To: mterure@southerncross.school.nz (Michelle Te Rure)
+From: Doctor Luis
+TimeStamp: 08/12/2004 at 07:31:13
+Sent: yes
+
+
+As Michelle Te Rure wrote to Dr. Math
+On 08/10/2004 at 19:34:52 (Eastern Time),
+>[Question]
+>Take an initial value of t = 0.05 seconds and use a different method 
+>to find a solution to f(t) = 0.
+>                                                          2
+>On the same set of axes plot the graphs of y = e and y* = -
+>                                                          x
+>for -2<x<2.
+>
+>Use your graph to find an approximate value for the solution to the 
+>equation xe*=2
+>
+>[Difficulty]
+>I have no idea what to do?
+>
+>[Thoughts]
+>I think this idea is very challenging I hvae not yet done any work on 
+>it.
+
+
+Hi Michelle,
+
+ Would you mind explaining what you mean by y* (and e*)?
+Let us know so we can suggest an appropriate numerical method to use.
+
+There's quite a few methods that you can apply: Newton's method 
+(if you know derivatives), the bisection method, the secant method, 
+the false position method, etc.  I mention these just in case you
+want to do some research on your own. 
+
+Also, you didn't provide us with a definition for the function f(t). 
+As it stands, based on the information you've given us, we won't be 
+able to tell you much.  Are there missing parts to the question that
+you forgot to include?
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

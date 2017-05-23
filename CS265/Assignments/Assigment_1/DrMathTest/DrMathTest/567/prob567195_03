@@ -1,0 +1,83 @@
+ThreadNum: 567195
+Subject: Re: 6
+To: browsedavid@yahoo.com (David Ogedegbe)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 10:48:44
+Sent: yes
+
+
+As David Ogedegbe wrote to Dr. Math
+On 08/19/2004 at 02:31:14 (Eastern Time),
+>Thanks for your response i`ve learnt that all numbers irrespective 
+of 
+>the base are converted to base 10 in the same way and that there is 
+>no FORMULAR for such.
+>I find it difficult to understand the conversion of decimal 
+fractions 
+>to other number systems for example what are the binary equivalents 
+>of the numbers in base 10
+>0.632
+>0.63 and
+>0.6
+>I`ll surely need tips on this.
+>
+>David Ogedegbe
+>With regards
+
+Hello again, David --
+
+Again there are many pages in the Dr. Math archives where you can 
+find discussions of the process for converting the decimal part of a 
+fraction to other bases.  Here are several links which appear 
+particularly good:
+
+  http://mathforum.org/library/drmath/view/64392.html
+  http://mathforum.org/library/drmath/view/55744.html
+  http://mathforum.org/library/drmath/view/55729.html
+
+Here is a demonstration of the process, converting your example of 
+0.6 to binary.  Basically, we simply take the given decimal fraction 
+and, using base-10 arithmetic, repeatedly multiply by the new base 
+(2) and pick off the whole number parts:
+
+  .6 * 2 = 1.2
+  .2 * 2 = 0.4
+  .4 * 2 = 0.8
+  .8 * 2 = 1.6
+  .6 * 2 = 1.2
+  ...
+
+At this point, just as with decimal fractions, we see the pattern is 
+starting to repeat -- so we know that
+
+  .6 (base 10) = .1001 1001 1001 ... (base 2)
+
+We can check this result using our knowledge about the sum of 
+infinite geometric series.  We have
+
+  1001 (base 2) = 9 (base 10)
+
+So the repeating decimal
+
+  .1001 1001 1001 ... (base 2)
+
+is equivalent to, in base 10, the infinite geometric series
+
+  9/16 + (9/16)*(1/16) + (9/16)*(1/16)^2 + ...
+
+  = (9/16)/(1-(1/16))
+
+  = (9/16)/(15/16)
+
+  = 9/15
+
+  = 3/5
+
+  = .6
+
+I hope all this helps.  Please write back if you still have any 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

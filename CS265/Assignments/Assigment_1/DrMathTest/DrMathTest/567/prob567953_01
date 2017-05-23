@@ -1,0 +1,51 @@
+ThreadNum: 567953
+Subject: Re: 1st day of 9th grade C.P. Algebra
+To: midnightshuman@cinci.rr.com (Traci Rogers)
+From: Doctor Peterson
+TimeStamp: 08/20/2004 at 22:57:32
+Sent: yes
+
+Hi, Traci.
+
+As Traci Rogers wrote to Dr. Math
+On 08/20/2004 at 21:02:05 (Eastern Time),
+>[Question]
+>Dear Doctor,
+>This question is not actually for my son as it is myself. On the 
+>first day of 9th grade, my son brought home a math problem consisting 
+>of the following: using the #'s 0-9 ONLY ONCE and you must use all of 
+>them, develop an addition problem in which the sum is 100. I've been 
+>trying to solve it myself on the side, but the closest I can get is 
+>99. PLEASE HELP!! 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+I take it you are allowed to combine digits into a single number, like
+"91" using the 9 and the 1; and that the ten digits can occur in any
+order; and that only addition is allowed.
+
+The first thing I would do is to check whether it might be impossible.
+The trick of "casting out nines" lets us check an addition problem by
+adding up the digits. In this case, the sum of the digits of all the
+numbers you are adding will be 0+1+2+3+4+5+6+7+8+9 which is 45; the
+sum of those digits is 9. This tells us that ANY number you can get
+this way will be a multiple of 9 (like your 99); you can't get 100 as
+the answer!
+
+If you are allowed to subtract, or if you can add and multiply,
+everything changes. But if the rules are as I stated, then it can't be
+done, and the point of the exercise is either to give lots of addition
+practice, or to show the value of knowing some math beyond just how to
+add, so that you can logically prove something impossible without
+having to try every possible case.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

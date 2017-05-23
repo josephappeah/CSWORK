@@ -1,0 +1,51 @@
+ThreadNum: 567937
+Subject: Re: using the method of matrix inversion to solve linear 
+To: kofi5boakye@hotmail.com (kofi)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:06:14
+Sent: yes
+
+
+As kofi wrote to Dr. Math
+On 08/20/2004 at 18:48:54 (Eastern Time),
+>[Question]
+>1) 2xbase1+xbase2=6
+>
+>2) -2xbase2+3xbase3=4
+>
+>3) 4xbase1+3xbase2+xbase3=-2
+>
+>[Difficulty]
+>this is my first time this equastion and i have no idear
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Kofi!
+
+Rewrite the system of equations in the matrix form
+
+   [2*x1 +   x2       ]   [ 6]
+   [     - 2*x2 + 3*x3] = [ 4],
+   [4*x1 + 3*x2 +   x3]   [-2]
+
+   [2  1  0] [x1]   [ 6]
+   [0 -2  3]*[x2] = [ 4].
+   [4  3  1] [x3]   [-2]
+
+Check that this product of a matrix times a column matrix on the
+left side is equal to the column matrix on the left side in the
+first equation.
+
+Now multiply both sides on the left by the inverse of the matrix
+
+   [2  1  0]
+   [0 -2  3].
+   [4  3  1]
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,46 @@
+ThreadNum: 567107
+Subject: Re: The result is always 109890
+To: lwld977@uow.edu.au (Leon)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 09:19:21
+Sent: yes
+
+
+As Leon wrote to Dr. Math
+On 08/16/2004 at 08:53:04 (Eastern Time),
+>[Question]
+>Writing down any five digits in descending order.  Reverse the digits 
+>and subtract the smaller number from the larger number.  Reverse the 
+>digits of the difference and add the resulting number to the 
+>difference.  The final sum is always the same - 109,890
+>
+> 76543
+>-34567
+>--------
+> 41976
+>+67914
+>--------
+>109890
+>
+>[Difficulty]
+>Why does always result in 109890?
+>
+>[Thoughts]
+>not sure where to begin?
+
+Hi Leon,
+
+Take a look at
+
+  http://mathforum.org/library/drmath/view/57129.html
+
+and write back if it's not clear, or if you still have questions. 
+
+(Note that it's a slightly different problem, but the idea behind it
+is the same.) 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,50 @@
+ThreadNum: 568190
+Subject: Re: a= y-3 / b , solve for b
+To: malaika2@yahoo.com (malaika)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 13:20:53
+Sent: yes
+
+
+As malaika wrote to Dr. Math
+On 08/23/2004 at 00:30:26 (Eastern Time),
+>[Question]
+>I don't understand which formula to use.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Malaika,
+
+If it is
+
+a = (y-3)/b and you want to solve for b, then do this:
+
+multiply both sides by b:
+
+a*b = (y-3)
+
+divide by a:
+
+b = (y-3)/a.
+
+If it is a = y - 3/b,
+
+then rearrange:
+
+a - y = -3/b.
+
+multiply both sides by b:
+
+b(a-y) = -3
+
+divide both sides by (a-y):
+
+b = -3/(a-y).
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

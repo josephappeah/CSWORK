@@ -1,0 +1,45 @@
+ThreadNum: 566453
+Subject: Re: complex numbers
+To: nigo@econdse.org (joey)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 14:43:23
+Sent: yes
+
+Hi, Joey.
+
+As joey wrote to Dr. Math
+On 08/11/2004 at 03:15:20 (Eastern Time),
+>[Question]
+> I have been reading the faq's on complex numbers- I have understood
+>that the rules of multiplication are different for ordered number 
+>pairs- I know these are a part of the axioms- but why do the axioms 
+>of multiplication need to be different for ordered pairs? 
+>
+>     
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+I'm not sure what you are asking, since ordered pairs can't be 
+multiplied at all (unless you mean scalar or vector products of 
+vectors).
+
+But the rationale for the definition of multiplication of complex 
+numbers is that it fits what you expect from the distributive 
+property and the fact that i^2 = -1:
+
+  (a+bi)(c+di) = ac + adi + bci + bidi
+
+               = ac + adi + bci - bd
+
+               = (ac - bd) + (ad + bc)i
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

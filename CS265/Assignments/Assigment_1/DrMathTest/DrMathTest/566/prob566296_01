@@ -1,0 +1,66 @@
+ThreadNum: 566296
+Subject: Re: (Non-recursive) definition of SCALAR
+To: jill.ramonsky@aculab.com (Jill)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 12:02:09
+Sent: yes
+
+
+As Jill wrote to Dr. Math
+On 08/10/2004 at 09:04:08 (Eastern Time),
+>[Question]
+>What is a non-recursive definition of a scalar?
+>
+>
+>[Difficulty]
+>Scalar seems to be defined in terms of dimension. But dimension seems
+>to be defined in terms of scalars. This leaves me kind of stuck.
+>
+>I don't know, for example whether a complex number would be considered
+>a scalar.
+>
+>
+>[Thoughts]
+>I have heard that a scalar is a one-dimensional quantity which is
+>independent of rotation of co-ordinate axes. The trouble is, that
+>definition assumes you know what "one-dimensional" means, and most
+>definitions of dimension talk about linear independence, which
+>involves multiplication by a scalar. I don't see how we can escape
+>this recursion.
+>
+
+Hi Jill,
+
+Thanks for writing to Dr Math.  That's a good question.  You are
+correct that the definition of "scalar" is left rather vague, and
+that's because it can mean different things at different times.  For
+example, sometimes mathematicians talk about complex vector spaces
+(such as putting a matrix in Jordon form, which sometimes requires
+complex numbers), and yet the complex numbers are a two-dimensional
+vector space over the real numbers.  So in the first example, the
+complex numbers are the scalars, but in the second example, the
+complex numbers are vectors, and the real numbers are the scalars. 
+And those aren't the only types of scalars possible.  For example, the
+real numbers are an infinite-dimensional vector space over the
+(scalars of) rational numbers.
+
+So you see, it depends on what you are talking about.  A careful
+mathematician will always clearly state, as some say, where his (or
+her) variables live.  That means that he will say that what type of
+numbers he is considering to be scalar - usually by saying something
+like "over the reals."  Then the dimensions are built on the scalars.
+
+In other words, the definitions of dimensions and scalar (in linear
+spaces) are inter-related.  They go together, and so they need to be
+defined together.  But the definition can change from one text or
+chapter or theorem to another, and so good mathematicians should
+define the terms before using them, as well as each time they change
+what they mean by them.
+
+Does that clear things up any?  Or is that only worse?  If you have
+any questions about this or need more help, please write back, and I
+will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

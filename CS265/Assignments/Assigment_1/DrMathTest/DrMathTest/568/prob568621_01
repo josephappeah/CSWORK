@@ -1,0 +1,54 @@
+ThreadNum: 568621
+Subject: Re: Inductive Reasoning (Geometry)
+To: clevey171@aol.com (MADEI)
+From: Doctor Justin
+TimeStamp: 08/25/2004 at 14:14:50
+Approved-By: Doctor Ian
+Sent: yes
+
+As MADEI wrote to Dr. Math
+On 08/25/2004 at 00:54:54 (Eastern Time),
+>[Question]
+>Find the nth term for this series of numbers:
+>
+>1, 5, 12, 22, 35, 51 
+>
+>Find the 20th term.
+>
+>I am not sure what is meant by the "nth term".  I have followed the 
+>example given and attempted to work this problem.  Here's what I 
+did:
+>
+>1, 5, 12, 22, 35, 51, ___
+>  v  v   v   v   v   v
+>  4  7   10  13  16  19
+>    v  v    v   v   v
+>    3   3   3   3   3
+>
+>solution:  (3n +1) _______ now what????????? 
+>
+>[Difficulty]
+>There is no logical pattern.
+>
+>[Thoughts]
+>see above
+
+Hi Madei,
+
+When your instructor asks you to find the nth term, he wants a 
+function f(n) and a rule for the function that describes the nth 
+term of the sequence.  
+
+Because this is a polynomial sequence, the next number could be 
+anything depending on the degree of the polynomial describing the 
+sequence.  Is it a quadratic sequence?  Try looking at the following 
+link, it should help you out:
+
+     http://mathforum.org/library/drmath/view/56870.html
+
+If you need any more help, just write back.
+
+- Doctor Justin, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

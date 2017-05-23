@@ -1,0 +1,73 @@
+ThreadNum: 566949
+Subject: Re: My question is about one to one relationship in sets.
+To: krantikus@yahoo.com (kranti)
+From: Doctor Ian
+TimeStamp: 08/15/2004 at 11:49:17
+Sent: yes
+
+
+As kranti wrote to Dr. Math
+On 08/14/2004 at 18:52:12 (Eastern Time),
+>[Question]
+>We all know that one to one relationship in sets is nothing but
+>mathcing with one element in set A with one and only one element in
+set B.
+>
+>
+>My Question is that what is the procedure to know how many one to one
+>relationships can be formed if given there are n elements in set A and
+>there are m elements in set B?
+>
+>I would also like to put on some more questions as I continue my math
+>study.
+>
+>Thankyou,
+>Dr.Math
+>
+>
+>
+>[Difficulty]
+>Its the no of relationships that can be formed.
+>
+>[Thoughts]
+>Well, I tried my best but couldnt get it.
+
+
+Hi Kranti,
+
+If I understand you correctly, you're trying to find the number of
+permutations of the set.  For example, suppose we have sets 
+
+  A = { 1, 2, 3 }
+
+and 
+
+  B = { Moe, Larry, Curly }
+
+One possible 1:1 mapping is
+
+   1,   2,     3 
+   |    |      |
+   Moe, Larry, Curly 
+
+We could rearrange the elements of A, and that would give us another
+mapping:
+
+   2,   1,     3 
+   |    |      |
+   Moe, Larry, Curly 
+
+If we count _all_ the ways we can arrange the elements of A, that
+would tell us how many possible mappings there are, right?  The number
+of ways the elements of a set can be arranged is called the number of
+'permutations' of the set.  You can find out how to compute that by
+looking at our FAQ:
+
+  Permutations and combinations
+  http://mathforum.org/dr.math/faq/faq.comb.perm.html
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

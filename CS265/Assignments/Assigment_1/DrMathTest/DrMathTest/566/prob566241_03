@@ -1,0 +1,101 @@
+ThreadNum: 566241
+Subject: Re: Hexagon
+To: helenanne88@hotmail.com (Anne)
+From: Doctor Douglas
+TimeStamp: 08/12/2004 at 11:43:19
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/12/2004 at 00:52:52 (Eastern Time),
+>Date: 08/12/2004 at 00:49:01
+>From: helenanne88@hotmail.com (Anne)
+>To: dr.math@mathforum.org
+>Subject: (no subject)
+>
+>the following is my reply
+>****************************
+>
+>Yes, you are correct.  Sorry after checking further I managed to get 
+>the name of the object.  It is actually a hexagonal prism.
+>
+>I have obtained the formula as area of base x height.
+>
+>
+>[Difficulty]
+>Please correct me with this if i am wrong.
+>
+>Base of area.  the formula would be 12 (as there are 2 bases with 12 
+>equilateral triangles) x ( r (in this case 40cm) x height (not very 
+>sure but i obtained 34.64 i.e height of each triangle)) / 2.
+>
+>The answer i obtained from this i multiplied it with the height 
+>(which is 80cm).
+>
+>
+>
+>
+>
+>[Thoughts]
+>Height for equilateral triangle 40^2 = 20^2 + c^2
+>                                40^2 - 20^2 = c^2
+>                                    20^2 = c^2
+>                                   1200 = c^2
+>                                     c = 34.64
+>
+>Area of base = 12 x 40x34.64
+>                    --------
+>                       2
+>             = 8316.6cm
+>
+>Then I proceed to obtain the volume.
+>
+>Which was area of base x height
+>8316.6cm x 80cm 
+>665328cm^3
+>
+>Please tell me if this correct so far.
+>
+>There are a few more things i need to to before i end my project.  
+>But i need to get this part of it correct.
+>
+>Thank you.
+>
+>
+
+Hi Anne.
+
+thanks for writing to the Math Forum.
+
+From what you've told me, each base of the prism is a "regular"
+hexagon (i.e. all sides equal and all angles equal) with side 
+length = 40 cm and the height of the prism is 80 cm.
+
+Each hexagon is composed of six triangles:
+
+     +---+
+    / \ / \ 40
+   +---+---+      you computed the area of each triangle 
+    \ / \ /       correctly:  40*34.64/2 = 692.8 cm^2
+     +---+
+
+So the area of the hexagon is six times this, or 4156.8 cm^2.
+
+Then the area of the base of the prism (i.e. the hexagon) is
+then multiplied by the height to obtain the total volume:
+
+   volume = base area x prism height = 4156.8 cm^2 x 80 cm
+          = 330000 cm^2
+
+where I've rounded the answer to account for the precision in the
+original data (two digits).
+
+The only mistake that you made is to take the area of both top
+and bottom hexagons together.  Although you would need to do this
+if you were calculating the total surface area of the prism, you 
+do not do this when calculating the prism volume--the base area 
+is just the area of one hexagon.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

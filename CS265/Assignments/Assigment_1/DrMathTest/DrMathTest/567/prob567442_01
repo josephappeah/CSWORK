@@ -1,0 +1,36 @@
+ThreadNum: 567442
+Subject: Re: What is 5000, 8% of?
+To: sarah_e_maw@hotmail.com (Sarah)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 09:14:39
+Sent: yes
+
+
+As Sarah wrote to Dr. Math
+On 08/18/2004 at 05:48:59 (Eastern Time),
+>[Question]
+>What is 5000, 8% of?
+>
+>[Difficulty]
+>I can work out 10% of 1000 etc but I get confused with other numbers.
+>
+>[Thoughts]
+>10 = 10% of 100
+>etc adding zeros
+
+Hello Sarah,
+
+Just ask for the number N for which
+
+N times 8/100 = 5000
+
+N*0.08 = 5000
+
+N = 5000/0.08 = 62500
+
+Check:
+
+62500*0.08 = 5000
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

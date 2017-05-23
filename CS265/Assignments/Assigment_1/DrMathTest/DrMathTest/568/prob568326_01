@@ -1,0 +1,66 @@
+ThreadNum: 568326
+Subject: Re: Calculating backward percentages
+To: nhm185@earthlink.net (Tricia)
+From: Doctor Rick
+TimeStamp: 08/23/2004 at 20:38:20
+Sent: yes
+
+Hi, Tricia.
+
+As Tricia wrote to Dr. Math
+On 08/23/2004 at 19:46:21 (Eastern Time),
+>[Question]
+>Is there a specific formula to use to calculate a backward 
+>percentage?  For example, if I multiply 100 x 6.5%, my state tax, it 
+>equals - apparently - 106.50.  I cannot subtract 6.5 and get back to 
+>100.  What do I have to divide/multiply it by, that would work in 
+>every instance?
+>
+>[Difficulty]
+>Self explainitory!
+>
+>[Thoughts]
+>
+
+We can write your example in general terms like this:
+
+  BasePrice + BasePrice * TaxRate/100 = PriceWithTax
+
+  100 + 100 * 6.5 / 100 = 106.5
+
+Notice that you don't just multiply by 6.5% (that just gives the 
+tax), you have to add it to the base price to get the total price. 
+You knew that, you just didn't write it.
+
+There is another way to write this, if you remember anything about 
+the distributive property:
+
+  BasePrice * (1 + TaxRate/100) = PriceWithTax
+
+  100 * (1 + 6.5/100) = 106.5
+
+Now we can use some algebra to work backward. We know the 
+PriceWithTax but we don't know the BasePrice, so I'll call the base 
+price x:
+
+  x * (1 + 6.5/100) = 106.5
+
+That is,
+
+  x * 1.065 = 106.5
+
+Divide both sides by 1.065:
+
+  x = 106.5/1.065
+    = 100
+
+In general, our formula is
+
+  BasePrice = PriceWithTax / (1 + TaxRate/100)
+
+How's that? If anything I've said confuses you, I'll be glad to 
+answer your questions.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

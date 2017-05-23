@@ -1,0 +1,51 @@
+ThreadNum: 567969
+Subject: Re: Solving Inequalities
+To: fullofhaterz@aol.com (Maritza)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 15:15:10
+Sent: yes
+
+Hi, Maritza.
+
+As Maritza wrote to Dr. Math
+On 08/20/2004 at 23:47:09 (Eastern Time),
+>[Question]
+>-6(2x-10)+12x<=180         3/5(x-12)>x-24
+>
+>-12x-(-60)+12x<=180
+>-12x+60_12x<= 180
+>
+>[Difficulty]
+>i don't know where to go on from there. For the second one, my first 
+>answer was 1, then 28. I can't figure it out!
+>
+>[Thoughts]
+>-6(2x-10)+12x<=180         3/5(x-12)>x-24
+>
+>-12x-(-60)+12x<=180
+>-12x+60_12x<= 180
+
+The next step is just the same as it would be with an equal sign. 
+Combine the two terms with x in them:
+
+  -12x + 60 + 12x <= 180
+  -12x + 12x + 60 <= 120
+  (-12 + 12)x + 60 <= 120
+  0x + 60 <= 120
+
+Here is where it gets wierd. That first term, 0x, is just 0, so we 
+have
+
+  60 <= 120
+
+Of course 60 is less than or equal to 120. That's just a fact; there 
+is no x anymore. What this means is that the inequality is true for 
+any x at all. You can check it out: pick any value you want for x -- 
+you could try 0, or 28, or -3.14159, or 1,234,623. Whatever number 
+you pick, you'll find that the left side of the original inequality 
+evaluates to something less than 120 (namely, 60), so the inequality 
+is true.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

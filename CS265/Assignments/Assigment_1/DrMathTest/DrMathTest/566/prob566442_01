@@ -1,0 +1,43 @@
+ThreadNum: 566442
+Subject: Re: question is about ratios
+To: saiaum@rediffmail.com (India)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:12:53
+Sent: yes
+
+
+As India wrote to Dr. Math
+On 08/11/2004 at 00:58:05 (Eastern Time),
+>[Question]
+>How do I find ratios between to numbers?
+>
+>[Difficulty]
+>the most difficult part is that the numbers run to millions
+>
+>[Thoughts]
+>example : 21458793 vs 14757842
+
+Hi India,
+
+To find the ratio, you can just put them in a fraction.  If you'd like
+to find a simpler ratio, reduce the fraction.
+
+For example, given a ratio of 96 to 64, we can do this:
+
+  96   2 * 2 * 2 * 2 * 2 * 3            <- prime factors of 96
+  -- = --------------------------
+  52               2 * 2     * 13       <- prime factors of 52
+
+       2 * 2 * 2         * 3
+     = --------------------------       <- cancel common factors
+                               13
+
+     = 24/13
+
+or 24 to 13. 
+
+Is this what you wanted to know?  Or have I misunderstood your question? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

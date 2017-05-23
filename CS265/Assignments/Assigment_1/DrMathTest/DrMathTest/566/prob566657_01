@@ -1,0 +1,94 @@
+ThreadNum: 566657
+Subject: Re: (no subject)
+To: yvonnegartner475@hotmail.com (yvonne gartner)
+From: Doctor Tom
+TimeStamp: 08/12/2004 at 15:39:43
+Sent: yes
+
+
+As yvonne gartner wrote to Dr. Math
+On 08/12/2004 at 11:15:42 (Eastern Time),
+>[Question]
+>Can you arrange the numbers 1-9 to form a single 9 digit squared 
+>number ( a squared number is a number whose square root is a whole 
+>integer) . The 9 digit number must consist of ALL the 9 digits.  
+>
+>
+>[Difficulty]
+>everything
+>
+>[Thoughts]
+>nil
+
+Hi Yvonne,
+
+I have no good ideas on how to approach this, other than brute force.
+It's easy to write a computer program to check, which I did below.
+Following that are all the answers.  The "magic" number 31427 is
+the next integer above the square root of 987654321 -- the largest
+nine-digit number with all the digits present.
+
+There are 30 solutions.  I will leave this question officially unanswered
+in case some other math doctors have a better approach.
+
+ninedig(int i)
+{
+    int d[10];
+    int j, rem;
+    
+    for (j = 1; j < 10; j++) d[j] = 0;
+    for (j = 0; j < 9; j++) {
+        rem = i % 10;
+        d[rem] = 1;
+        i = (i - rem)/10;
+    }
+    for (j = 1; j < 10; j++)
+        if (d[j] == 0) return 0;
+    return 1;
+}
+
+
+main()
+{
+    int i;
+
+    for (i = 0; i < 31427; i++)
+        if (ninedig(i*i)) printf("%d\n", i);
+}
+
+Results:
+
+11826
+12363
+12543
+14676
+15681
+15963
+18072
+19023
+19377
+19569
+19629
+20316
+22887
+23019
+23178
+23439
+24237
+24276
+24441
+24807
+25059
+25572
+25941
+26409
+26733
+27129
+27273
+29034
+29106
+30384
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

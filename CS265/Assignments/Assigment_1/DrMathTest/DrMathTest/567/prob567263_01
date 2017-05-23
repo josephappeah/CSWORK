@@ -1,0 +1,93 @@
+ThreadNum: 567263
+Subject: Re: Parabolas
+To: engels_frozendragon@msn.com (Cameron)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 10:15:22
+Sent: yes
+
+
+As Cameron wrote to Dr. Math
+On 08/17/2004 at 05:26:23 (Eastern Time),
+>[Question]
+>Find an equation of the form y=ax*+bx+c if you are given the point 
+(-
+>3,18) and the turning point (0,0)
+>
+>this is a similar question to what i have to do, could you please 
+>show me how you do this question so i can study and find out how to 
+>do a different one.
+>
+>[Difficulty]
+>How to do it.
+>
+>[Thoughts]
+>
+Hi, Cameron --
+
+A generally more useful form of the general equation for a parabola 
+is
+
+  y-k = a(x-h)^2  [opens up or down]
+
+or
+
+  x-h = a(y-k)^2  [opens right or left]
+
+In these forms, the vertex ("turning point") is (h,k) and the "a" 
+determines how "thin" or "fat" the parabola is.
+
+In your example, where the vertex is (0,0), things simplify quite 
+nicely; the equation becomes simply
+
+  y = ax^2
+
+We can easily use the given point to determine the value of a:
+
+  18 = a(-3)^2
+  18 = 9a
+  a = 2
+
+And so the equation we are looking for is
+
+  y = 2x^2
+
+Or, in the form you requested,
+
+  y = 2x^2 + 0x + 0
+
+While your example simplifies nicely, the general case is not much 
+harder to work out if you are given the vertex.  Suppose we had the 
+point (3,1) and the vertex (2,-1).  Then, using our "more useful" 
+form of the general equation, we have
+
+  y-(-1) = a(x-2)^2
+  y+1 = a(x-2)^2
+
+Using our given point to determine the value of a, we find
+
+  1+1 = a(3-2)^2
+  2 = a
+
+So our equation is
+
+  y+1 = 2(x-2)^2
+
+Putting this equation in the desired form, we have
+
+  y+1 = 2(x^2-4x+4)
+  y+1 = 2x^2-8x+8
+  y = 2x^2-8x+7
+
+Note that in both examples I have assumed that the parabola opens up 
+or down rather than right or left.  In each example, there is 
+another parabola which opens right or left which has the same vertex 
+and contains the same point.  For each of these examples, you can 
+find that second parabola by using the second form shown for the 
+general equation.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

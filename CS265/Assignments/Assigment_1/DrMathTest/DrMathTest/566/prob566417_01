@@ -1,0 +1,57 @@
+ThreadNum: 566417
+Subject: Re: Freecell
+To: eubie@bellsouth.net (Christopher)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 09:12:09
+Sent: yes
+
+
+As Christopher wrote to Dr. Math
+On 08/10/2004 at 21:28:50 (Eastern Time),
+>[Question]
+>A math club problem
+>
+>I am playing Freecell on my computer. I have played 474 games and won 
+>407 (407/474=.85465-). I figure I am winning 86% of the games I play. 
+>How many more games (an integer I presume) do I have to play to get 
+>my average to => 86%?
+>
+>
+>
+>[Difficulty]
+>I am missing something and I do not know what. I can't seem to set up 
+>the proper equation.
+>
+>[Thoughts]
+>(407 + .86X)/(474+X)= .86
+>
+>407.64+.86X = 407 + .86X   Nope: What am I missing
+>
+
+Hi Christopher,
+
+The percentage of games won can be computed this way:
+
+  games won       ?
+  ------------ = ---
+  games played   100
+
+(Do you see why?)  
+
+You'd like this to be at least 86%:
+
+  games won         86
+  ------------  >  ---
+  games played  -  100
+
+Assuming you win the next x games in a row, that means
+
+  407 + x       86
+  --------  >  ---
+  474 + x   -  100
+  
+Now you just have to solve for x.  Is this enough to get started?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

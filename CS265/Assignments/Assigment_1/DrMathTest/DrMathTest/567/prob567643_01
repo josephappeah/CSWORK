@@ -1,0 +1,39 @@
+ThreadNum: 567643
+Subject: Re: triangle question
+To: praveenkumar_11@yahoo.com (praveen)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 10:13:00
+Sent: yes
+
+
+As praveen wrote to Dr. Math
+On 08/19/2004 at 01:07:34 (Eastern Time),
+>[Question]
+>In a triangle is difference of 2 side always less than the other 
+side?
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Praveen!
+
+Yes, this is always true.  It is a consequence of the Triangle
+Inequalities:
+
+   a + b > c
+
+implies that
+
+   a > c - b.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

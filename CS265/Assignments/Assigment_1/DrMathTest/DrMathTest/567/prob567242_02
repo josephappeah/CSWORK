@@ -1,0 +1,40 @@
+ThreadNum: 567242
+Subject: Re: Calculus 
+To: sbmahadik@yahoo.com (S. B. Mahadik)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 10:43:54
+Sent: yes
+
+
+As S. B. Mahadik wrote to Dr. Math
+On 08/17/2004 at 00:11:19 (Eastern Time),
+>[Question]
+>Q: Is g(y) monotonic increasing for y > 0?
+>Where g(y) = f'(y)/INT[f(x)dx] from -y to y;
+>f(.)is a positive even continuous function, f'(y) = (d/dy)f(y) and 
+>f'(y) < 0 for y > 0.
+>
+>
+>[Difficulty]
+>I found that g'(y) > 0 iff f"(y) > 2g(y)f'(y). 
+>{where f"(y) = (d/dy)f'(y)}
+>But whether f"(y) > 2g(y)f'(y) is trivial? I can't proceed.
+>
+>
+>[Thoughts]
+>I plotted g(y) and found it strictly increasing for y > 0 e. g. when 
+>f(x) = exp(-x^2/2), f(x) = exp(-IxI) etc. I intuitively feel that the 
+>result will hold in general.
+>
+
+Hi S.B.,
+
+Thanks for writing to Dr Math.  Try f(x) = x^2.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

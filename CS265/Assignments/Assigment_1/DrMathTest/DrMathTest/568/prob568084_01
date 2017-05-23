@@ -1,0 +1,48 @@
+ThreadNum: 568084
+Subject: Re: Number theory problem involving divisibility
+To: manhunter@fsmail.net (Neil)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 06:58:45
+Sent: yes
+
+
+As Neil wrote to Dr. Math
+On 08/22/2004 at 05:26:20 (Eastern Time),
+>[Question]
+>Hi,
+>the question is :
+>
+>suppose that x is an integer such that x+3 divides x^2 + 5x + 5
+>find all solutions
+
+There may be a mistake somewhere in the question, but there are no 
+values of x for which x+3 divides x^2 + 5x + 5.
+
+
+>
+>[Difficulty]
+>I have a method for doing it, but I would like to know if there is 
+>another method
+>
+>[Thoughts]
+>since x+3 divides the quadratic, we can say
+>
+>   x+3.k =x^2 + 5x + 5, where k is an integer
+>
+>factorising gives :  x+3.k = (x+3)(x+2)-1
+>
+>so :    (x+3)(x+2-k)=1
+>and since x and k are integers we can find all solutions
+>
+>but is there another way of doing the problem, because for most 
+>quadratics we are unable to factorise the RHS completely or 
+factorise 
+>with a remainder 1 
+>
+>e.g. if the equation when factorised is x+3.k = (x+3)(x+2)+5 then 
+>there is not much you can do about it
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

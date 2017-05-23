@@ -1,0 +1,64 @@
+ThreadNum: 568061
+Subject: Re: Self Study (Please answer me )
+To: po26@pearl.ocn.ne.jp (pohida)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 16:21:50
+Sent: yes
+
+
+As pohida wrote to Dr. Math
+On 08/22/2004 at 00:16:42 (Eastern Time),
+>[Question]
+>Some one was telling about Fermat’s Last Theorem, and as it looks 
+>deceptively simple, thus like most people, I had to take out a 
+piece 
+>of paper and give it a go. 
+>
+>I have no doubt that the below is wrong, I just do not know why it 
+is 
+>wrong. I am sure you receive many emails, maybe far too many that 
+you 
+>can reply to. If you have the time though, I would greatly 
+appreciate 
+>it if you would help me to clear up what must be a boneheaded 
+mistake.
+>
+>
+>
+>[Difficulty]
+>I do not know why it is wrong. I do know that it is, as my methjod 
+is 
+>too simple to be correct.
+>
+>[Thoughts]
+>x^n + y^n = z^n
+>Then
+>A = Z^n (the sum of integers to the power of integers is an integer)
+>
+>Thus
+>A = exp(nlnz)
+>
+>And
+>lnA/lnZ = n  
+>therefore n is equal to or less than 2  <------ Why.
+
+Suppose A = 343 = 7^3
+
+        ln(343)
+        ------- = 3
+         ln(7)
+
+I do not follow why you say n is equal to or less than 2.  Can you 
+explain your reasoning here.
+
+
+
+(if A = BC, and all positive 
+>integers, then B is less than A, thus Z must be at least one 
+integer 
+>less than A, i.e. we have at least lnS/ln(S-1)...graph it)
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

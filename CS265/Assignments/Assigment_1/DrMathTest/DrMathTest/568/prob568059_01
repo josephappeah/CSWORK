@@ -1,0 +1,45 @@
+ThreadNum: 568059
+Subject: Re: binary multiplication
+To: putnamdennis@bellsouth.net (Dennis)
+From: Doctor Roy
+TimeStamp: 08/23/2004 at 12:40:14
+Sent: yes
+
+
+As Dennis wrote to Dr. Math
+On 08/22/2004 at 00:02:21 (Eastern Time),
+>[Question]
+>Determine the 16 bit product of the two signed 8 bit binary operands: 
+>11101101 times 00110110.
+>
+>[Difficulty]
+>I am taking a self test online and it comes back incorrect and I 
+>don't know why. I do the multiplication and check it by converting to 
+>decimal and I get what I think is the correct answer. Unless I'm not 
+>understanding something about the 16 bit part. 
+>
+>[Thoughts]
+>I get an answer of 11000111111110. I've tried this answer and I have 
+>also added two zeros in front to get 16 bits, but both are still 
+>wrong.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+These are _signed_ binary numbers. So, 11101101 = -19 (decimal) and
+00110110 = 54 (decimal). The resulting number is -1026 (decimal).
+Since the result is negative, your result should have 16 bits and
+start with a '1'. Using 16 bit signed integers, the result is
+expressed as:
+
+    1111101111111110
+
+It's the signed part of the numbers which makes basic multiplication fail.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

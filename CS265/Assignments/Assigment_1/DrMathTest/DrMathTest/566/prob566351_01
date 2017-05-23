@@ -1,0 +1,53 @@
+ThreadNum: 566351
+Subject: Re: area of a triangle
+To: krd824@comcast.net (martha)
+From: Doctor Luis
+TimeStamp: 08/12/2004 at 09:07:47
+Sent: yes
+
+
+As martha wrote to Dr. Math
+On 08/10/2004 at 16:23:31 (Eastern Time),
+>[Question]
+>How do you find the area of a triangle when all you know is the 
+>length of it's sides.  It is a scalene triangel. The sides measure 
+>3,4, and 5.
+>
+>[Difficulty]
+>I just cant figure it out
+>
+>[Thoughts]
+>I'm trying to help my daughter with a more complicated problem, but 
+>am stumbling on this part of the diagram.
+
+
+Hi Martha,
+
+The 3,4,5 triangle is special in that one of the angles is 90
+degrees (since 5^2 = 3^2 + 4^2). This means that you can treat
+the 3 as the base and 4 as the height (which is perpendicular
+to the base because of that 90 degree angle). This means the
+area is
+
+   A = (1/2) base x height = (1/2) * 3 * 4 = 6
+
+In general, if you didn't recognize the right angle, there is
+a general formula to calculate the area of any triangle
+given three sides a,b,c.
+
+  A = sqrt(s(s-a)(s-b)(s-c))
+
+The s is called the semi-perimeter and it's just s=(a+b+c)/2.
+
+You may read more about this formula here:
+
+  http://mathforum.org/library/drmath/sets/select/dm_heron.html
+
+
+I hope this helped!
+
+Let us know if you have any more questions.
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

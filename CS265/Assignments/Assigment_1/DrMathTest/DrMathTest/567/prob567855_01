@@ -1,0 +1,57 @@
+ThreadNum: 567855
+Subject: Re: Math Methods (IB Calculus)
+To: Raaslkdasdln@yahoo.com (Rick)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:09:34
+Sent: yes
+
+
+As Rick wrote to Dr. Math
+On 08/20/2004 at 01:39:38 (Eastern Time),
+>[Question]
+>The sum of the first ten terms of an A.P is 120 and the sum of the 
+>first twenty terms is 840. Find the sum of the first thirty terms.
+>
+>[Difficulty]
+>Can't think of a method to solve it. I tried making to formulas both 
+>using the first term in the sequence and defining the rest using the 
+>value change "d" from the first one.
+>
+>[Thoughts]
+>
+>
+>120 = 5(10a + 45d)     *45 d  is the change in sum from term 1 to 10
+>                        and 10 a accounts for the starting point.
+>
+>720 = 5(10a + 145d)    *145 d accounts for term 11-20. I subtracted 
+>the difference of the sum of the first ten from the sum of the 
+>eleventh through twentieth terms.
+>
+>I removed the factor of five on both and then subtracted the 
+>formulas.
+>
+>144 - 24 = 10a - 10a + 145d - 45d  
+>
+>and got
+>
+>120 = 100d
+>d=1.2
+>
+>Applying it to the problem though didn't work out.      
+
+Hello Rick,
+
+The formula for the sum of an arithmetic progression with n terms is
+
+s  = a + (n-1)*d
+
+We are told that
+
+120 = a + 9*d
+
+840 = a + 19*d
+
+So, just solve this system for a and d.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

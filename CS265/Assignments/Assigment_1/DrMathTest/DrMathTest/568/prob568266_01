@@ -1,0 +1,67 @@
+ThreadNum: 568266
+Subject: Re: Probability of rolling a 1, then a 2, 3, 4, 5 with 5 dice
+To: bluestripe357@hotmail.com (michele)
+From: Doctor Roy
+TimeStamp: 08/23/2004 at 17:00:31
+Sent: yes
+
+
+As michele wrote to Dr. Math
+On 08/23/2004 at 16:25:40 (Eastern Time),
+>[Question]
+>What is the probability of rolling 5 dice (1 roll per die) one time 
+>and having the first roll be a 1, the second a 2, the third a 3, the 
+>fourth a 4, and the 5th a 5?  I.e. the results of a player's first 
+>attempt during his/her turn of a game of Yahtzee.
+>What is the probability of performing this feat twice in a lifetime?
+>
+>[Difficulty]
+>I did this feat in December 2003 and thought that it was a pretty 
+>rare event.  Two weeks later, I did it again.  I calculated the 
+>probability to be 1 in a 10-billions answer (can't remember the 
+>number exactly).  Probability was always a strongpoint for me, but 
+>I'm really terrible with math overall.  Just want the correct answer 
+>to end my curiosity.  
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+It's the same probability as rolling exactly the sequence 1,5,4,2,3,
+or 5,5,5,5,5, or any other exact sequence: 1/6^5 = 1/7776 = 0.013%.
+The dice don't really care which numbers come up, so a 1,2,3,4,5 is
+just as likely as 2,3,2,6,4. The only thing that distinguishes this
+event is _our perception_ that this particular outcome is special. 
+
+In other words, if we replaced the numbers on the die with "square",
+"circle", "triangle", "star", "waves", and "rectangle", getting
+"square, circle, triangle, star, waves, rectangle" in that exact order
+would be just as likely as getting "star, rectangle, star, triangle,
+triangle, square". It's only because we attach _extra_ significance to
+the numbers and their order that it seems unusual.
+
+At any rate, you have a 50% chance of any particular outcome
+(1,2,3,4,5 or 6,6,6,6,6 or any particular _exact_ sequence of die
+rolls) coming up in roughly 5390 rolls, since the probability of it
+occurring on any given trial is 1/7776. You require 17904 trials to
+have a 90% chance of this event happying once (though it will likely
+happen most times before the full 17904). 
+
+Using the negative binomial distribution, you should see any
+particular outcome (say 1,2,3,4,5) twice with 95.5% probability after
+roughly 50000 trials. 
+
+Since the dice don't carry memory (they don't remember how they landed
+last time and it doesn't affect future outcomes), time doesn't play a
+role. In other words, the second time you see it is just as likely to
+occur the very next time as it is 100000 trials from now.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

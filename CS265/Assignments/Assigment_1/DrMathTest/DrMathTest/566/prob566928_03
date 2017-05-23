@@ -1,0 +1,27 @@
+ThreadNum: 566928
+Subject: Re: prove this by mathematical induction
+To: shalu_fire@rediffmail.com (shalini)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 14:32:32
+Sent: yes
+
+
+As shalini wrote to Dr. Math
+On 08/16/2004 at 14:23:20 (Eastern Time),
+>our sir has not recommended to assume for n=k or n=k+1
+>he want it to be proved by applying induction on r.he has said first 
+>assume the eqation as k^n - 1 >= k^n-1 - 1 and using this we have to 
+>get (k+1)^n - 1 >= (k+1)^n-1 - 1 by doing some manipulation like 
+>either multiplying some term on both sides. i tried most of the 
+>ways,but i am not getting.can you please help me.
+
+It's easy to prove it the way I suggested, and not at all easy to use
+induction on r.  So I still think that it should be proven by
+induction on n.  If you insist, though, then you'll probably need to
+use the binomial theorem, and you'll probably need some facts about
+the binomial coefficients.  Search our archives for "binomial theorem"
+(as a phrase) if you are unfamiliar with the theorem.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,54 @@
+ThreadNum: 567290
+Subject: Re: Divide students into two class
+To: BILLYMENG@MSN.COM (Mark Meng)
+From: Doctor Anthony
+TimeStamp: 08/17/2004 at 12:05:41
+Sent: yes
+
+
+As Mark Meng wrote to Dr. Math
+On 08/17/2004 at 11:45:23 (Eastern Time),
+>[Question]
+>Twelve students are to be divided among Mr. Mirus's and Ms. Batty's 
+>classes. No teacher is to have more than 8 students. How many 
+groups 
+>of students could be in Mr. Mirus's class?
+
+The division can be
+
+    4,8   5,7    6,6    7,5    8,4
+
+   C(12,$0 + C(12,5) + C(12,6) + C(12,7) + C(12,8)
+
+You don't have to count C(12,6) twice because C(12,6) is the total 
+number of groups of 6 that can be formed from 12 people.  It counts 
+every group of 6.
+
+If they asked you how many WAYS could you divide 12 people into two 
+groups the answer is
+
+ (1/2).C(12,6)  
+
+because every time you form a group of 6 you form a parallel group 
+of 6, so choosing either is a WAY of dividing the 12 into two groups.
+
+Note the distinction between the NUMBER of groups of 6
+
+                   and the NUMBER OF WAYS of forming groups of 6
+
+
+
+>
+>[Difficulty]
+>I am confused about how many groups are there before I can find out 
+>different combinations.
+>
+>[Thoughts]
+>I think it should be 12C4 + 12C5 + 12C6 + 12C7 + 12C8. but do I 
+have 
+>to count 12C6 twice?
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

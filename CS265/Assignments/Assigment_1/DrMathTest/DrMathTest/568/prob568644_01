@@ -1,0 +1,115 @@
+ThreadNum: 568644
+Subject: Re: FIND K...LONG DIVISION...PLEASE HELP!
+To: fdrhs@computermail.net (Rita)
+From: Doctor Dotty
+TimeStamp: 08/25/2004 at 10:18:35
+Sent: yes
+
+
+As Rita wrote to Dr. Math
+On 08/25/2004 at 07:18:22 (Eastern Time),
+>[Question]
+>FIND K SO THAT WHEN X^3+KX^2-KX+1 IS DIVIDED BY X-2, THE REMAINDER 
+IS 
+>0.
+>
+>
+>
+>[Difficulty]
+>I forgot the steps to long division.
+>
+>[Thoughts]
+>Too lengthy and messy.
+
+Hi Rita,
+
+Thanks for the question.
+
+I'll run through the steps. If you want any particular step 
+explained in more detail, write back and let me know.
+
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+Firstly, we calculate x^3 / x. The answer is x^2, so we put that on 
+the answer line:
+
+                              x^2
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+Then we multiply this x^2 by the x - 2 and put the answer as our 
+first line of working. x^2 * (x - 2) = x^3 - 2x^2, so:
+
+                              x^2
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+           x^3       -       2x^2
+
+Now we take x^3 - 2x^2 away from x^3 + kx^2:
+
+                              x^2
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+      -   (x^3       -       2x^2)
+          ------------------------
+
+            0        + (k + 2)x^2
+
+Now, we start again. We divide (k + 2)x^2 by x, and put the result 
+on the answer line, and bring down the kx to use in the next part:
+
+                              x^2       + (k + 2)x 
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+      -   (x^3       -       2x^2)      -       kx
+          ------------------------
+
+            0        + (k + 2)x^2
+
+Then multiply (k + 2)x by (x - 2):
+
+                              x^2       + (k + 2)x
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+      -   (x^3       -       2x^2)
+          ------------------------
+
+                       (k + 2)x^2       -       kx
+
+                       (k + 2)x^2       -(2k + 4)x
+
+Take (k + 2)x^2 - (2k + 4)x from (k + 2)x^2 - kx, giving:
+
+                              x^2       + (k + 2)x
+        __________________________________________________________
+  x - 2 )  x^3       +       kx^2       -       kx       +       1
+
+      -   (x^3       -       2x^2)
+          ------------------------
+
+                       (k + 2)x^2       -       kx
+
+                 -    ((k + 2)x^2       -(2k + 4)x)
+                       ---------------------------
+
+                            0           + (k + 4)x 
+
+Then you do the same thing again, starting with dividing (k + 4)x by 
+x. putting the result on the answer line and bringing down the +1.
+
+Can you carry on from here? When you finish this next step, the 
+result of the subtraction will be the remainder. All you will then 
+need to do is to equate it to 0 and solve for k.
+
+Does that help? 
+
+Let me know whether you have any problems or queries.
+
+- Doctor Dotty, The Math Forum
+  <http://mathforum.org/dr.math/>
+

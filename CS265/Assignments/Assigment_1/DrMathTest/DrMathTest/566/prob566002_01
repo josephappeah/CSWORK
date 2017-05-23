@@ -1,0 +1,60 @@
+ThreadNum: 566002
+Subject: Re: Relations: Matrices
+To: Alexicon04@aol.com (Kyle A.)
+From: Doctor Anthony
+TimeStamp: 08/08/2004 at 05:12:11
+Sent: yes
+
+
+As Kyle A. wrote to Dr. Math
+On 08/08/2004 at 01:24:12 (Eastern Time),
+>[Question]
+>Let R be a relation defined by MR= 1 1 0 1
+>                                   1 1 0 0
+>                                   0 0 1 0
+>                                   0 1 0 1
+>Give MR2=
+
+You square the matrix  = [1  1  0  1]
+                         [1  1  0  1]
+                         [0  0  1  0]
+                         [1  1  0  1]
+
+note that we use Boolean addition, so 1 + 1 = 1
+
+
+>
+>Give MR Connectivity=  If you take higher and higher powers of MR 
+you will find there is no change to the connectivity given by MR2
+
+So if you are dealing with a relation on the set {1, 2, 3, 4}, we 
+see that 1 is related to 2 and 4 but not 3
+         2       "       1  "  4      "  3
+         3 is related only to itself
+         4 is related to 1 and 2 but not 3
+
+     
+
+>
+>[Difficulty]
+>I'am not sure what the proper steps are, for the solution to: MR2 
+or 
+>what MR connectivity really means.
+>
+>[Thoughts]
+>MR X MR = MR2. What I don't understand is how to cross MR and MR, 
+and 
+>also what MR connectivity really means and how to arrive at the 
+>solution for it?
+>
+>Also would just R2 be arrived at by R cross R, the same way as MR2 
+>would be arrived at by MR cross MR? I need to see the steps for 
+these 
+>problems, and an explaination in order to understand this fully. 
+>Please help! Thank you
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

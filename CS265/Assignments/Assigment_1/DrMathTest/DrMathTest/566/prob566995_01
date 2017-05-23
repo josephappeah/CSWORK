@@ -1,0 +1,52 @@
+ThreadNum: 566995
+Subject: Re: limits within square roots
+To: av_ace11@hotmail.com (av_ace11)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:24:22
+Sent: yes
+
+
+As av_ace11 wrote to Dr. Math
+On 08/15/2004 at 07:04:23 (Eastern Time),
+>[Question]
+>i was wondering if it is poosible for me to treat a square root 
+>function like any other function and take limits normally...
+>
+>Eg.. 
+>
+>f(x) = sqrt [7 arctan x - 3] 
+>I want the limit as x -> ‡ 
+>
+>[Difficulty]
+>im just not sure if there is a rule that doesnt let me do that or 
+>not/??
+>
+>[Thoughts]
+>I have an equation: f(x) = sqrt [7 arctan x - 3] 
+>I want the limit as x -> ‡ 
+>
+>can i simply say that since arctan -> pi/2        as x -> ‡
+>
+>that the limit of f(x) = sqrt [7pi/2 - 3]
+
+Hi,
+
+Thanks for writing to Dr Math.  The definition of continuity implies that
+
+  lim    f(g(x))  = f( lim   g(x) )
+ x -> h               x -> h
+
+as long as f is *continuous* at the limit point (that is, the result
+of the limit inside the f on the right side of the equation I wrote
+here), which also requires that the limit point not be infinity.  The
+square root function is continuous at every POSITIVE point, so you can
+pull the square root out of the limit as long as the limit that you
+end up with inside the square root is a POSITIVE number.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

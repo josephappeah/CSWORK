@@ -1,0 +1,79 @@
+ThreadNum: 567448
+Subject: Re: About Octal to be converted to hexadecimal down to decimal
+To: Naomi_212003@yahoo.com (Pamela L. Ma)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 15:03:32
+Sent: yes
+
+
+As Pamela L. Ma wrote to Dr. Math
+On 08/18/2004 at 06:29:47 (Eastern Time),
+>[Question]
+>The Example of The Problem Is FFFFF+FFFFF+FFFFF+FFFFF+FFFFF+FFFFF 
+and 
+>then it has to be converted to hexadecimal-to octal- down to 
+decimal.
+>
+>[Difficulty]
+>The very confusing is how I am I going to convert it all? When It's 
+>given problem is on Letter form?
+>
+>[Thoughts]
+>FFFFF
+>FFFFF
+>FFFFF
+>FFFFF
+>FFFFF
+>FFFFF all of them is looking for it's sum
+>
+>my sample solution is:
+>1515151515
+>1515151515
+>1515151515
+>1515151515
+>1515151515
+>1515151515
+>___________
+> i don't know how to solve it properly because sometimes when my 
+>teacher began to give this question I find it hard... Sometimes 
+when 
+>he gave us a number i convert it already to binary but he asks us 
+to 
+>convert it into hexadecimal first before binary...
+
+Hi, Pamela --
+
+I don't understand several aspects of your question.  The problem 
+appears to be given in hexadecimal, so there is no need to convert 
+it to hexadecimal.
+
+I can't tell if you are looking for help for general problems like 
+this or for this specific one.  It is easy to find the decimal 
+answer for this particular example....
+
+In base 10, we have
+
+  9 = 10^1 - 1
+  99 = 10^2 - 1
+  999 = 10^3 - 1
+  ...
+  etc., etc.
+
+Similarly, in base 16, we have
+
+  F = 16^1 - 1
+  FF = 16^2 - 1
+  FFF = 16^3 - 1
+  ...
+  etc., etc.
+
+So in your problem, each "FFFFF" is simply 16^5 - 1; and there are 6 
+of them added together.  The calculator on my PC shows this sum to 
+be 6291450.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,80 @@
+ThreadNum: 567900
+Subject: Re: Determing a sum to an infinite series
+To: aak190@earthlink.net (Alex)
+From: Doctor Vogler
+TimeStamp: 08/20/2004 at 14:21:31
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/20/2004 at 13:39:39 (Eastern Time),
+>[Question]
+>A analysis text I have implies the following series has a limit
+>
+>          1       1       1              1
+>   S  =  ---  +  ---  +  --- + . . . +  ---     
+>    n    n+1     n+2     n+3            (2n)
+>
+>I used the following double-sided comparison
+>             1                         
+>        n * ---  <  S  < INT[1/x]dx from n to 2n 
+>            (2n)      n 
+>
+>             1                 |2n  
+>            ---  <  S  < ln(x) |  = ln(2n) - ln(n) = ln(2n/n) = ln 2
+>             2       n         |n 
+>
+>             1
+>            ---  <  S  < ln 2
+>             2       n 
+>
+>All this says (if correct) is that the series is bounded above and 
+>below.   
+>
+>[Difficulty]
+>Coming up with the appropriate comparison so that as n increases 
+>beyond all bounds the expressions on both sides of double inequality
+>squeeze down to a limit.
+>
+>[Thoughts]
+>
+>               1                                      1  
+>Any term like --- where k=1,2,3,...n is greater than ---
+>              n+k                                    2n 
+>
+>S is the sum of the rectangles less than INT[1/x]dx from n to 2n.
+> n
+
+Hi Alex,
+
+I think you are trying to determine that
+
+   lim     S
+ n -> inf   n
+
+exists (and is finite).  You have already determined that the sequence
+is bounded.  It is not hard to show that it is increasing:
+
+                1      1     1
+  S    = S  + ---- + ---- - ---
+   n+1    n   2n+2   2n+1   n+1
+
+                   1
+  S    = S  + ------------
+   n+1    n   2(n+1)(2n+1)
+
+and every bounded, increasing sequence converges to some value.
+
+Are you trying to determine what that value is?  Look at the
+difference between the integral you used and the series.  You might
+also find useful the following answer:
+
+  http://mathforum.org/library/drmath/view/65309.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

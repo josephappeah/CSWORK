@@ -1,0 +1,52 @@
+ThreadNum: 567835
+Subject: Re: postulates
+To: dancensweetheart@aol.com (Erin)
+From: Doctor Peterson
+TimeStamp: 08/20/2004 at 17:04:08
+Sent: yes
+
+Hi, Erin.
+
+As Erin wrote to Dr. Math
+On 08/19/2004 at 23:00:26 (Eastern Time),
+>[Question]
+>How do you solve postulates on on a number line,in other words, find 
+>the length inbetween each each point?
+> Example: 
+> S is between T and V. R is between S and T. T is between R and Q. 
+>QV=18. QT=6. TR=RS=SV. Make a sketch and find RS, QS, TS, and TV. 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I know how to sketch and set up this problem, I just dont know how to 
+>solve it. 
+
+It sounds like you're not quite sure of the meaning of "postulate";
+it's not something you can "solve", but a basic mathematical fact that
+is assumed. You are probably learning to solve problems ABOUT the
+"betweenness postulate". Does that sound right?
+
+I would start by drawing a picture step by step to see how the points
+are related. We start with two points T and V, so draw them (though we
+don't know where they are, how far apart they are, or which is on the
+right, so we can't be sure our picture is right):
+
+  T-----------V
+
+Now S is between them (somewhere), so it looks something like this,
+ignoring relative distances):
+
+  T---S-------V
+
+Now R is between S and T, so add that to the picture, and so on. Then
+label the lengths you know, and see what they tell you.
+
+If you have any further questions, feel free to write back. Show me
+what you've been able to do.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

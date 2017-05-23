@@ -1,0 +1,59 @@
+ThreadNum: 566066
+Subject: Re: Car passing a train problem
+To: snoopy2@catholic.org (Diane)
+From: Doctor Anthony
+TimeStamp: 08/08/2004 at 19:05:34
+Sent: yes
+
+
+As Diane wrote to Dr. Math
+On 08/08/2004 at 18:56:14 (Eastern Time),
+>[Question]
+>A train is a mile long and traveling at 50 mph.  A car is at the 
+back 
+>of the train traveling at 60 mph in the same direction as the train 
+>and parallel to the train.  How long will it take the car to pass 
+the 
+>train? 
+
+You can bring the train to rest by imposing a velocity of 50 mph 
+backwards on the whole system.  So train is at rest and the car has 
+velocity 10 mph.  Time for the car to travel 1 mile at 10 mph
+
+   = 1/10 hours  =  6 minutes
+
+
+
+How far will they have traveled from the time the car reaches 
+>the back of the train until it reaches the front of the train?
+
+In 1/10 of an hour the train, at 50 mph, would travel
+
+      50 x 1/10  = 5 miles
+
+The car will have travelled 6 miles.
+
+
+
+>
+>[Difficulty]
+>How far each of them have traveled since the car has to make up the 
+>distance of the train.
+>
+>[Thoughts]
+>I used systems of equations and d = rt
+>train  d = 50t
+>car    d + 1 = 60t   or  d = 60t - 1
+>
+>50t = 60t - 1
+>-10t = -1
+>t = 1/10
+>
+>time is 1/10 hour or 6 minutes
+>distance they each have traveled is 5 miles for the car and 5 miles 
+>for the train
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

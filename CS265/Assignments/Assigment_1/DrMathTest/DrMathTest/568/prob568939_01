@@ -1,0 +1,41 @@
+ThreadNum: 568939
+Subject: Re: How many possible 4 digit number factors  from 0 - 9
+To: ron.stambaugh@kctcs.edu (Ron)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 14:04:16
+Sent: yes
+
+
+As Ron wrote to Dr. Math
+On 08/26/2004 at 13:05:20 (Eastern Time),
+>[Question]
+>For example: I want a four digit lock code for my cell phone. How 
+>many different 4 digit lock codes could I use from the number keys 
+>0 - 9, and what would they be?
+>
+>[Difficulty]
+>Not having a formula to calculate.
+>
+>[Thoughts]
+>
+
+Hi Ron,
+
+Thanks for writing to Dr Math.  There are 10,000 codes, including all
+of the numbers from
+
+  0000
+  0001
+  0002
+  0003
+
+on up to
+
+  9999.
+
+If you have any questions about this or need more help, please write
+back, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

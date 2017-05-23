@@ -1,0 +1,58 @@
+ThreadNum: 567628
+Subject: Re: Geometry Help!
+To: www.sweetie8862@yahoo.com (Cassie)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 14:15:30
+Sent: yes
+
+
+As Cassie wrote to Dr. Math
+On 08/18/2004 at 23:30:41 (Eastern Time),
+>[Question]
+>I have a rectangle and each corner has a point. The points have 
+>vertices ex.(x,y). They want the perimeter of this rectangle. How do 
+>I find the perimeter of a rectangle with points that only have 
+>vertices?
+>
+>[Difficulty]
+>The vertices confuse me the most
+>
+>[Thoughts]
+>I can find perimeter, but not with points that have vertices.
+
+Hi Cassie,
+
+Start from the definition of perimeter.  If you know the lengths of
+the sides of the rectangle, you can just add them up to get the
+perimeter, right?  
+
+Suppose we label the points of the rectangle A, B, C, and D.  There
+are lots of ways to pair these up:  
+
+  AB, AC, AD, BC, BD, CD
+
+and each of these pairs defines a line segment. Four of those line
+segments will be sides of the rectangle; the other two will be
+diagonals.  So your first job is to find out which are which!  You can
+do that by plotting the four points and observing how they're arranged
+with respect to each other. 
+
+So now, suppose you've decided that the segments AB, BC, CD, and AD
+are the sides of the rectangle.  To find the length of a side, you
+need to find the distance between the endpoints.  For example, to find
+the length of AB, you have to find the distance between point A and
+point B.  To do that, you can use the Pythagorean theorem:
+
+       B
+      /.
+     / . difference in y    AB^2 = (diff in x)^2 + (diff in y)^2
+    /  .
+   A....
+     difference
+     in x
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,62 @@
+ThreadNum: 566433
+Subject: Re: LOWEST COMMON DENOMINATORS
+To: MARILYNDOE@AOL.COM (GLENN)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 23:40:04
+Sent: yes
+
+
+As GLENN wrote to Dr. Math
+On 08/10/2004 at 23:13:19 (Eastern Time),
+>[Question]
+>WHAT IS THE L.C.D FOR THE FRACTIONS 1/3,3/4,5/32 AND 8/9?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Glenn,
+
+The lowest common denominator (LCD) will be the smallest number that
+is divisible by all of the denominators, i.e., the smallest number
+divisible by 3, 4, 9, and 32. 
+
+There are lots of ways to find this, but even if you don't know
+anything but how to multiply, you can do this:  Start lising multiples
+of each of those numbers:
+
+   3: 3, 6, 9, 12, 18, 21, 24, 27, 30, 33, 36, ...
+
+   4: 4, 8, 12, 16, 20, 24, 28, 32, 36, ...
+ 
+   9: 9, 18, 27, 36, 45, 54, ...
+
+  32: 32, 64, 96, 128, ...
+
+Now, at some point, you'll find a number that will appear in all four
+lists.  The smallest such number is the one you're looking for.  Do
+you see why? 
+
+Note that you can quickly get _a_ number that is divisible by all the
+denominators by just multiplying them all together:
+
+  3 * 4 * 9 * 32 = 3456
+
+But the question is whether this is the _smallest_ such number.  One
+thing you might notice is that if something is divisible by 32, it's
+certainly divisible by 4; so there's really no reason to multiply by 4:
+
+  3 * 9 * 32 = 864
+
+Similarly, if something is divisible by 9, it's got to be divisible by
+3 as well:
+
+  9 * 32 = 288
+
+Can you keep going this way, or is this as small as you can make it? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

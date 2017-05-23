@@ -1,0 +1,98 @@
+ThreadNum: 567070
+Subject: Re: Algebra 1 locker/pattern word problem 
+To: bobnlarry618@msn.com (Kelsey)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 11:20:07
+Sent: yes
+
+
+As Kelsey wrote to Dr. Math
+On 08/15/2004 at 22:05:52 (Eastern Time),
+>[Question]
+>There are 1000 lockers, all shut and unlocked, and 1000 students.
+>The first student goes along the row and opens every locker.
+>The second student then goes along and shuts every other locker 
+>beginning with number two.
+>The third student changes the state of every third locker beginning 
+>with three.(if the locker is shut the student opens it, if the 
+locker 
+>is open the student shuts it.)
+>the fourth student changes the state of every fourth locker 
+beginning 
+>with number four.Imagine that continues until the thousand students 
+>folloed this pattern with the thousand lockers. At the end which 
+>lockers will be open and which will be closed?
+
+
+The lockers left open will be those with numbers that are perfect 
+squares.
+
+If a number is a perfect square it will have an odd number of 
+factors, e.g 4 has factors 1, 2, 4, whereas all other numbers have 
+an even number of factors.  If a particular locker is visited an odd 
+number of times it will be open at the end of the procedure you 
+describe, otherwise it will be closed.  So the open lockers are 
+numbered:
+
+ 1, 4, 9, 16, 25, 36, ..... 900, 961
+
+The last number is 31^2  so 31 is the number of lockers left open.
+
+
+Explanation
+------------
+
+To show that square numbers always have an odd number of factors, 
+consider a square like 36
+
+This can be put into prime factors as  2^2 x 3^2.  Note that all its 
+prime factors will be raised to EVEN powers since it is a perfect 
+square.
+
+Now the factor 2 can be chosen in 3 ways, i.e. not at all, once, 
+twice.
+
+And factor 3 can also be chosen in 3 ways, i.e. not at all, once, or 
+twice.
+
+(If neither are chosen we get the factor 2^0 x 3^0 = 1)
+
+Altogether there will be 3 x 3 = 9 factors of 36.  These are:
+
+  1, 2, 3, 4, 6, 9, 12, 18, 36
+
+Now the important point was made earlier that the prime factors of a 
+perfect square are always raised to some even power, so we could 
+have 
+ 
+  a^2 x b^4 x c^2  where a, b, c are primes.
+
+In this example a could be chosen in 3 ways  0 times, once or twice.
+                b could be chosen in 5 ways  0 times, 1, 2, 3, 4 
+times
+                c could be chosen in 3 ways  0 times, 1, 2, times
+
+So altogether the complete number will have  3 x 5 x 3 = 45 factors.
+
+For any number that is not a perfect square there will ALWAYS be an 
+even number of factors
+
+ e.g.   a^3 x b^2 x c  will have   4 x 3 x 2 factors = 24 factors
+
+If it is not a perfect square at least one of its prime factors will 
+be raised to an ODD power, and that means the factor can be chosen 
+in an EVEN number of ways, ensuring that overall there will be an 
+even number of factors.
+
+The general rule for the number of factors is to increase the powers 
+of the factors by 1 and multiply these together.
+
+So  a^n x b^m x c^p  will have (n+1)(m+1)(p+1) factors.
+
+ 2^3 x 5^4 x 7^2  will have  4 x 5 x 3 = 60 factors   
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,62 @@
+ThreadNum: 566659
+Subject: Re: How do I factor this quadratic equation
+To: irish14@chartermi.net (Debbie)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 17:06:02
+Sent: yes
+
+
+As Debbie wrote to Dr. Math
+On 08/12/2004 at 11:22:57 (Eastern Time),
+>[Question]
+>2x^2-4x-16=0
+>
+>[Difficulty]
+>I don't know where to begin.
+>
+>[Thoughts]
+>
+
+Hi Debbie,
+
+Thanks for writing to Dr. Math.  There are two ways you can proceed.
+First, since all the coefficients are even, you can divide by 2 to
+get
+
+   x^2 - 2x - 8 = 0   .
+
+Since the coefficient of x is 1, the factorization will look like
+
+   (x +/- ?)(x +/- ?)  .
+
+Since the constant term is negative (-8), that tells you that the two
+signs are different, so the factorization must be of the form
+
+   (x + ?)(x - ?)  .
+
+The question marks must be two numbers whose product is 8, so they 
+must be 1 and 8, or 2 and 4.  Since the coefficient of x is negative,
+that means that the larger factor goes in the (x - ?) term, so the 
+possibilities are
+
+     (x + ?)(x - ?)
+          1      8
+          2      4    .
+
+The other way is to use the Quadratic Formula to find the roots of
+
+   x^2 - 2x - 8 = 0 ,
+
+call them r1 and r2, and then the left side factors as
+
+   (x-r1)(x-r2)
+
+by the Factor Theorem.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

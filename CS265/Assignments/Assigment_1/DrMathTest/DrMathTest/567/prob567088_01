@@ -1,0 +1,50 @@
+ThreadNum: 567088
+Subject: Re: Tafe Meadowbank Sydney HSC Class
+To: keith_johnson_98@yahoo.com (Keith Johnson)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 16:26:57
+Sent: yes
+
+
+As Keith Johnson wrote to Dr. Math
+On 08/16/2004 at 01:02:38 (Eastern Time),
+>[Question]
+>
+>There is a water tank
+>There are 2 filling pipes & 2 draining pipes
+>The 2 filling pipes can fill the empty tank in 4 hours & 5 hours 
+>respectively
+>The 2 draining pipes can empty the tank when full in 3 hours & 6 
+>hours respectively
+>If the tank is half full to start & all 4 valves are opened 
+>simultaneously will the tank fill or empty? How long will it take?
+>
+>[Difficulty]
+>
+>I have been told that calculus is required to solve this problem
+>I dont know much calculus
+>Can you show me how it is done?
+>
+>[Thoughts]
+>
+>Refer above   August 16 2004
+
+Thanks for writing to Ask Dr. Math, Keith!
+
+No calculus is required.
+
+The filling pipes add 1/4 and 1/5 tankful per hour.  Then draining
+pipes remove 1/3 and 1/6 tankful per hour.  That means that working
+together, the pipes add 1/4 + 1/5 - 1/3 - 1/6 tankfuls per hour.
+Adding these together, using common denominator 60, the pipes add
+-1/20 tankfuls per hour.  That means that they remove 1/20 tankfuls
+per hour, so the tank will empty itself.
+
+I leave it to you to figure out how long it takes.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

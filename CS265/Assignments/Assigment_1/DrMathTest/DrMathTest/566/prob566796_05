@@ -1,0 +1,63 @@
+ThreadNum: 566796
+Subject: Re: length of sides
+To: rimbri@aol.com (Rocco)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 14:28:03
+Sent: yes
+
+
+As Rocco wrote to Dr. Math
+On 08/13/2004 at 14:07:23 (Eastern Time),
+>Based on the height given and the known side lengtht(or half the 
+>known side length in the case of 2 smaller triangles separated by 
+the 
+>height line)can the side lenghts be determined based on the square 
+>footage? The area is known and 2 sides of the smaller triangles are 
+>known....Rocco
+
+Hello again, Rocco --
+
+In a right triangle, the lengths of the sides are related by the 
+Pythagorean Theorem which says
+
+  a^2 + b^2 = c^2
+
+where a and b are the lengths of the legs (short sides) and c is the 
+length of the hypotenuse (long side).  For example, in a right 
+triangle with legs 3 and 4, the hypotenuse is 5, because
+
+  3^2 + 4^2 = 9 + 16 = 25 = 5^2
+
+So we have the base of the triangle 760 feet and the height of the 
+triangle about 332.4 feet.  The line representing the height divides 
+the triangle into two right triangles.  So if we know where on the 
+760-foot side the height is measured, we can find the lengths of the 
+other two sides of the triangle.
+
+For example, if the height is measured in the middle of the 760-foot 
+side, then each of the two small right triangles has legs 332.4 and 
+380 feet (the 380 being half of the 760).  The Pythagorean Theorem 
+then tells us that the long sides of those two right triangles (the 
+other two sides of the original triangle) have lengths of about 
+504.9 feet.
+
+But in order to find the actual lengths of the other two sides using 
+this approach, we need to know where on the 760-foot side the height 
+is measured.  For example, if the height is measured 200 feet from 
+one end of the 760-foot side, then one of the right triangles has 
+legs 332.4 and 200 feet while the other has legs 332.4 and 560 feet; 
+this case gives us the other two sides of the original triangle as 
+about 387.9 feet and 651.2 feet.
+
+And of course any other placement of the height along the 760-foot 
+side is going to give us yet different answers for the lengths of 
+the other two sides.
+
+The mathematics of all this is fine, but I'm not sure it has any 
+practical use, because it seems difficult if not impossible to 
+physically determine where on the 760-foot side the height of the 
+triangle is measured.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

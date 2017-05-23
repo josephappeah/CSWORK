@@ -1,0 +1,70 @@
+ThreadNum: 567447
+Subject: Re: what is a partial derivative?
+To: s_rchandran@hotmail.com (RAMACHANDRAN)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 12:55:18
+Sent: yes
+
+
+As RAMACHANDRAN wrote to Dr. Math
+On 08/18/2004 at 06:20:03 (Eastern Time),
+>[Question]
+>I know the deriative as the instantaneous slope of a curve. What
+>is a partial derivative?
+>
+>[Difficulty]
+>is there any method by which integration can be done partially?
+>
+>[Thoughts]
+>
+
+Hi,
+
+With a function of one variable, the derivative tells you the slope of
+the tangent to the function at any point. But consider a function of
+two variables.  This describes a surface, and at any point on the
+surface, the slope of the tangent would depend on the direction
+in which we're moving, wouldn't it?  So if we'd like to compute a
+derivative at a point, what do we want it to tell us? 
+
+One thing we might do would be to figure out the direction normal to
+the surface, use that to define a tangent plane, and then define a
+single 'slope' for that plane.  The problem with this is that it
+doesn't extend naturally to higher dimensions. 
+
+Another thing we might do would be to to choose a direction, and then
+compute the slope as we head in that direction.  Some natural
+directions to choose would be the dimensions of the various axes of
+the coordinate frame that we're operating in.  That is, we can say: 
+Suppose we hold y fixed (or y and z and u and v and ...), and allow x
+to vary.  What slope do we get?
+
+That's basically a partial derivative.  And in fact, when computing a
+partial derivative with respect to one variable, we just stop looking
+at the other variables as variables for a moment, and start looking at
+them as constants.  For example, if we have
+
+  z = x^2 y^3
+
+to find the partial derivative with respect to x, we assume y is
+constant, so 
+
+  @z        d
+  -- = y^3 -- x^2
+  @x       dx
+
+     = y^3 * 2x
+
+and 
+
+  @z        d
+  -- = x^2 -- y^3
+  @y       dy
+
+     = x^2 * 3y
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

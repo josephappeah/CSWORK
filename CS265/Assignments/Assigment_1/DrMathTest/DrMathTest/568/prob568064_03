@@ -1,0 +1,61 @@
+ThreadNum: 568064
+Subject: Re: Thank you (Number of odd 3 digit integers (positive) containing 5)
+To: mrkw@comcast.net (Cleo Krasnow)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 11:03:47
+Sent: yes
+
+
+As Cleo Krasnow wrote to Dr. Math
+On 08/23/2004 at 10:22:15 (Eastern Time),
+>The book I'm working from only showed how to work with two 
+>variables but asked a question with more than two!  (Maybe 
+>I should have been able to extrapolate on my own?)  Thanks 
+>for the response.  Now I'm confident I could handle a 
+>problem with any number of variables.  Thanks again.
+
+Hi Cleo,
+
+It might have been nice if the book mentioned how it works with three,
+but you are correct that you can derive this formula from the formula
+for 2, like so:
+
+  P(E, F, or G) = P( (E or F) or G )
+          = P(E or F) + P(G) - P( (E or F) & G )
+
+then you notice that
+
+  (E or F) & G = (E & G) or (F & G)
+
+and continue:
+
+  P( (E or F) & G ) = P( (E & G) or (F & G) )
+         = P(E & G) + P(F & G) + P(E & G & F & G)
+
+but, of course, (E & G) & (F & G) = E & F & G, so we put it all
+together as:
+
+  P(E, F, or G) = P( (E or F) or G )
+          = P(E or F) + P(G) - P( (E or F) & G )
+          = [P(E) + P(F) - P(E & F)] + P(G)
+             - [P(E & G) + P(F & G) + P(E & F & G)]
+
+which simplifies to the expression I gave you.
+
+The idea is:  Say you have m variables, and you want the probability
+that any one of them is true - P(E1 or E2 or ... or Em).  Then you add
+up the probabilities that each one of them is true - P(E1) + P(E2) +
+... + P(Em) - but you find that you double-count every place where two
+of them are true (and triple-count any place where three are true, and
+so on).  So then you subtract off all m*(m+1)/2 probabilities that any
+two of the variables are true - P(E1 & E2), P(E1 & E3), ... - and now
+you've fixed all the places where exactly two of the variables are
+true, but you've subtracted off three times all the places where
+exactly three of the variables are true, so you have to add those back
+in.  You add in all m-choose-3 probabilities that three of the
+variables are true - P(E1 & E2 & E3), ....  And so on, alternating
+adding and then subtracting, adding and then subtracting.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

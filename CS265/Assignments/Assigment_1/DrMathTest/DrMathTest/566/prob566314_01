@@ -1,0 +1,51 @@
+ThreadNum: 566314
+Subject: Re: finding a point on the x-axis, equidistant to 2 other points
+To: tlo4@cox.net (Tina)
+From: Doctor Willae
+TimeStamp: 08/10/2004 at 12:41:02
+Sent: yes
+
+As Tina wrote to Dr. Math
+On 08/10/2004 at 12:13:38 (Eastern Time),
+>[Question]
+>My problem is finding a point on the x-axis that is equidistant from 
+>(10,4) and (6,2. I have seen this problem worked in Math Forum but I 
+>don't understand the answer.
+>
+>[Difficulty]
+>I don't think I comprehend the formula for this.
+>
+>[Thoughts]
+>assume coordinates  of point P(x,0) so, using distance formula
+>sqrt(x-10)^2+(0-4)^2=sqrt(x-6)^2+(0-2)^2   then what?
+>In math forum, it said x=19/2  so P=(19/2,0)
+>Where did that come from?
+
+Tina,
+You've got the problem set up exactly.  All that's left is to solve
+for x.  It looks like you'll get an equation that's quadratic in x,
+but the x^2 will actually cancel out.  I'll work through some of it, here:
+
+ sqrt((x - 10)^2 + (0 - 4)^2) = sqrt((x - 6)^2 + (0 - 2)^2)
+
+First, square both sides to get rid of the square roots:
+
+ (x - 10)^2 + (0 - 4)^2 = (x - 6)^2 + (0 - 2)^2
+
+Then, expand everything in the parentheses:
+
+ x^2 - 20x + 100 + 16 = x^2 - 12x + 36 + 4
+
+Cancel the x^2 on both sides and collect like terms:
+
+ -20x + 116 = -12x + 40
+
+From here, you're just solving a linear equation.  If you're still not
+convinced that x = 19/2 is a solution, just plug it in.  You'll see
+that it makes the equation true.
+
+Let me know if you have any more questions. 
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

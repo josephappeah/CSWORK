@@ -1,0 +1,78 @@
+ThreadNum: 566876
+Subject: Re: Angle Bisector!
+To: forhuonly@hotmail.com (aryan)
+From: Doctor Rob
+TimeStamp: 08/14/2004 at 09:50:43
+Sent: yes
+
+
+As aryan wrote to Dr. Math
+On 08/14/2004 at 01:45:11 (Eastern Time),
+>[Question]
+>Is there any way or formula for finding coordinates points on an 
+>angle bisector that created with extending of two lines? 
+>Line1=P1P2 AND Line2=P3P4.
+>P1(X1,Y1)
+>P2(X2,Y2)
+>P3(X3,Y3)
+>P4(X4,Y4)
+>O(X,Y) (INTERSECTION POINT OF TWO LINES.)
+>
+>Your response will be greatly appreciated.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Aryan!
+
+Assume that X2 - X1 and X4 - X3 are nonzero.  Let the slope of
+line 1 be m1 and the slope of line 2 be m2.  Then
+
+   m1 = (Y2-Y1)/(X2-X1),
+   m2 = (Y4-Y3)/(X4-X3).
+
+Then the inclinations A1 and A2 of the two lines are given by
+
+   A1 = Arctan(m1),
+   A2 = Arctan(m2).
+
+If X2 - X1 = 0, then line 1 is vertical, and its inclination A1 is
+Pi/2 radians.  If X4 - X3 = 0, then line 2 is vertical, and its
+inclination A2 is Pi/2 radians.
+
+Now notice that there are two angle bisectors.  The first is the
+bisector of angle P1OP3, the second the bisector of angle P1OP4.
+They are perpendicular to each other.  The inclinations B1 and B2
+of the two angle bisectors are
+
+   B1 = (A1+A2)/2,
+   B2 = (A1+A2+Pi)/2.
+
+The slopes m3 and m4 of the two angle bisectors are then
+
+   m3 = tan(B1),
+   m4 = tan(B2) = -cot(B1).
+
+Now if neither m3 nor m4 is zero, with these two slopes and the
+point O, you can write the equations of the angle bisectors,
+
+   y = m3*(x-X) + Y,
+   y = m4*(x-X) + Y.
+
+If m3 = 0 or m4 = 0, then the equations of the angle bisectors are
+
+   y = Y,
+   x = X.
+
+Then a point with coordinates (x,y) satisfying either of the angle
+bisector equations will lie on one of those two angle bisectors.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

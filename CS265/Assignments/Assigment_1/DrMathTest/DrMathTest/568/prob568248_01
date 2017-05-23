@@ -1,0 +1,56 @@
+ThreadNum: 568248
+Subject: Re: paying monthly bills fairly
+To: hdesma44@msn.com (Heather)
+From: Doctor Tom
+TimeStamp: 08/23/2004 at 14:55:56
+Sent: yes
+
+
+As Heather wrote to Dr. Math
+On 08/23/2004 at 14:17:17 (Eastern Time),
+>[Question]
+>We're trying to split our monthly bills equally based on the amount 
+>of money each person makes relative to the other versus just 
+>splitting them (the bills)in half.  If one person makes 67,151 per 
+>year and the other person makes 52,039 per year and the total monthly 
+>bills for July was 1119, what is each person's fair share?
+>
+>[Difficulty]
+>I divided 52039/67151 and get 0.77. Then I tried 1119 X 0.77 and get 
+>861, but that doesn't seem right.  
+>
+>[Thoughts]
+>I know I need to take one number plus another number to equal 1119. 
+>If I can figure out the correct percentages then I can muliply each 
+>percentage by 1119 and the product should tell me what each person 
+>should pay, right?  I did take Math 101 in college but it's been a 
+>long, long time.
+
+Hi Heather,
+
+I assume you'd like to make it work so that if one person earned twice
+what the other did, then that person would pay twice as much, right?
+
+If so, here's how to do the calculation:
+
+Suppose you earn A and the other person earns B.
+
+Your share is A/(A+B) of the total, and the other person's share
+is B/(A+B).
+
+In your example, person 1 would owe 67151/(67151+52039)
+of the total or .5633 of the total or (.5633)(1119) = 630.43.
+
+The same idea will work for any number of people.  For example,
+if four people earn A, B, C and D, then the one who earns A will
+pay A/(A+B+C+D), the B earner will pay B/(A+B+C+D), and so on.
+
+Maybe it'll help you see why this works, since:
+
+A/(A+B+C) + B/(A+B+C) + C/(A+B+C) = (A+B+C)/(A+B+C) = 1,
+
+so the three proportions add to 1 -- the full amount.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

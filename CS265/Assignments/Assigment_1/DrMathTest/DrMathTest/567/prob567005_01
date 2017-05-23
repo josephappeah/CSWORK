@@ -1,0 +1,51 @@
+ThreadNum: 567005
+Subject: Re: (no subject)
+To: tina.mccarty@pepsi.com (Tina)
+From: Doctor Ian
+TimeStamp: 08/15/2004 at 11:36:30
+Sent: yes
+
+
+As Tina wrote to Dr. Math
+On 08/15/2004 at 10:37:49 (Eastern Time),
+>[Question]
+>Tickets for a concert were sold to adults for $3 and to students for 
+>$2.  If the total receipts were $824 and twice as many adult tickets 
+>as student tickets were sold, then how many of each were sold?
+>
+>[Difficulty]
+>how to set it up
+>
+>[Thoughts]
+>I was trying seperate the problem in formuls format to solve.
+
+Hi Tina,
+
+It's often a mistake to try to jump right to a formula.  Let's just
+start with this:
+
+  Total receipts were $824.
+
+What does this tell us?  It tells us that
+
+  824 = (receipts for adults) + (receipts for students)
+
+Does that make sense?  Now we want to find some way to represent the
+two amounts on the right.  The receipts for adults would be 
+
+  receipts for adults = no. of adult tickets * price of adult ticket
+
+We know the price of an adult ticket is $3, so we can shorten this to 
+
+  receipts for adults = no. of adult tickets * 3
+
+Looking back to our equation, we have
+
+  824 = (no. of adult tickets * 3) + (receipts for students)
+
+Can you do the same thing for the second term?  Try that, and let me k
+know what you come up with. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

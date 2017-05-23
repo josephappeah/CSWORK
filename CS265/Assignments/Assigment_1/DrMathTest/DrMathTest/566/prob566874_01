@@ -1,0 +1,72 @@
+ThreadNum: 566874
+Subject: Re: Fibonacci identities - a generalized d'Ocagne's identity?
+To: david_ryan4@hotmail.com (David)
+From: Doctor Pete
+TimeStamp: 08/14/2004 at 06:43:46
+Sent: yes
+
+As David wrote to Dr. Math
+On 08/14/2004 at 00:35:06 (Eastern Time),
+>[Question]
+>Is there a "generalized" d'Ocagne's identity for Fibonacci numbers? 
+>According to MathWorld, d'Ocagne's identity states:
+>
+>F(m)*F(n+1) - F(n)*F(m+1) = (-1)^n * F(m-n)
+>
+>
+>[Difficulty]
+>I don't know how to generalize it to get it of the form:
+>
+>F(m)*F(n+r) - F(n)*F(m+r) = ???
+>
+>Is there a name for the identity of this form and/or where can I 
+>read about it?
+>
+>
+>[Thoughts]
+>I have played with some numbers and come up with the following 
+>generalized formula, although I am not entirely confident that it is 
+>right:
+>
+>F(m)*F(n+r) - F(n)*F(m+r) = (-1)^(m-n) * F(r) * F(m-n)
+
+David,
+
+You're a very good guesser.  There is such a generalized identity, and it can be proven 
+using the Binet identity
+
+     F[n] = (p^n - q^n)/Sqrt[5],
+
+where p = (1+Sqrt[5])/2, and q = (1-Sqrt[5])/2 are the two roots of x^2 - x - 1 = 0.  While 
+we will not prove this elementary formula, we will make the following observation:
+
+     pq = -1.
+
+If we consider the left-hand side of the desired identity, we find
+
+     F[m]F[n+r] - F[n]F[m+r]
+   = ((p^m - q^m)(p^(n+r) - q^(n+r)) - (p^n - q^n)(p^(m+r) - q^(m+r)))/5
+   = (p^(m+r) q^n - p^(n+r) q^m - p^m q^(n+r) + p^n q^(m+r))/5,
+
+since it is clear that the terms raised to the power m+n+r all vanish.  Factoring out powers 
+of r, we find
+
+   = (p^r (p^m q^n - p^n q^m) - q^r (p^m q^n - p^n q^m))/5
+   = (p^r - q^r)(p^m q^n - p^n q^m))/5
+   = (p^r - q^r)(p^(m-n) - q^(m-n))(pq)^n/5
+   = F[r]F[m-n](-1)^n.
+
+So the correct identity is
+
+     F[m]F[n+r] - F[n]F[m+r] = (-1)^n F[r]F[m-n].
+
+Indeed the power of -1 on the right-hand side should be n, not m-n, since r = 1 should 
+reduce to d'Ocagne's identity.
+
+I find this identity particularly interesting because it is easy to prove directly, but not so 
+easy to show through induction or by using the recursive identity.
+
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

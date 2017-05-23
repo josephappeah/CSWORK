@@ -1,0 +1,48 @@
+ThreadNum: 566735
+Subject: Re: (no subject)
+To: mdb@onecallinc.com (Mimi)
+From: Doctor Roy
+TimeStamp: 08/13/2004 at 11:48:15
+Sent: yes
+
+
+As Mimi wrote to Dr. Math
+On 08/12/2004 at 19:21:55 (Eastern Time),
+>[Question]
+>a child asked me this question: what is 4 to the 225th power?
+>
+>[Difficulty]
+>I don't have a calculator that will do exponents.
+>
+>[Thoughts]
+>I said I remember that you could break that up into parts such as:
+>
+>4^100 x 4^100 x 4^25 because when you multiply the same base you 
+>keep the base and add the exponets.
+>
+>I could not get the answer from there.
+>
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+This is where logarithms come in very handy:
+
+        x = 4^225
+   log(x) = 225*log(4)
+   log(x) = 135.463
+        x = 10^0.463 * 10^135
+          = 2.9 * 10^135
+
+So, 4^225 is roughly 2.9*10^135. Finding the value of 4^225 (even
+approximately as we have done) is not going to be possible without a
+calculator that can do logarithms or a chart of logarithms.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

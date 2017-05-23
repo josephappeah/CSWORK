@@ -1,0 +1,72 @@
+ThreadNum: 568663
+Subject: Re: systems with three or more variables
+To: rarediscovery@hotmail.com (Shabana)
+From: Doctor Greenie
+TimeStamp: 08/25/2004 at 10:29:17
+Sent: yes
+
+
+As Shabana wrote to Dr. Math
+On 08/25/2004 at 09:48:16 (Eastern Time),
+>[Question]
+>The pollution count for a big city on a particular day is 
+575.Assume 
+>this pollution is produced by industries A , B , and C.Industry C 
+>contributes twice as much to the pollution count than industry B.It 
+is 
+>known that the pollution count would be 450, if the poluttion from 
+>industry C were reduced by 50%.Find the pollution count of 
+industries 
+>A B and C respectively?
+>
+>[Difficulty]
+>Well i understood the similar questions given in my book but i 
+found 
+>this very confusing .I domt know how to make equations of the 
+>question.I can solve other given equations but i find making 
+equations 
+>very difficult.The answers at the end of my book are given as:
+>-Industry A pollution count is 200, B 125, C 250
+>
+>[Thoughts]
+>Like i said if i get the equation i can solve them but not before 
+>them.
+
+Hi, Shabana --
+
+Let's first think about the problem without using any formal 
+algebra.  The reduction of 125 counts (from 575 to 450) represents 
+half the pollution created by company C; therefore, the amount of 
+pollution created by company C is twice that 125, or 250.  From 
+there, the rest of the problem is easy: C creates twice as much 
+pollution as B, so B produces half of 250 which is 125; then A 
+produces whatever is left to make the total 575.
+
+Using formal algebra, we have, according to the given information,
+
+(1) A+B+C = 575
+(2) C = 2B
+(3) A+B+(1/2)C = 450
+
+Exactly parallelling our informal solution above, we start by 
+comparing (1) and (3) to find C:
+
+(4) (1/2)C = 125
+         C = 250
+
+Then we use (2) and (4) to find B:
+
+(5)  250 = 2B
+     125 = B
+
+And finally we use (1), (4), and (5) to find A:
+
+(6) A+125+250 = 575
+    A = 200
+
+I hope this helps.  Please write back if you have any further 
+questions about and of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

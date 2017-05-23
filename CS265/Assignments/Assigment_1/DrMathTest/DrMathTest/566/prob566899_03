@@ -1,0 +1,101 @@
+ThreadNum: 566899
+Subject: Re: limits
+To: dseng86@msn.com (David)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 09:07:50
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/14/2004 at 23:15:53 (Eastern Time),
+>Dear Dr Fenton, thank you so much for your help. The suggestion to
+>argue using the "Squeeze Theorem" was a very good idea. It had totally
+>slipped my mind. What I meant by "direct substitution" is the idea of
+>taking the value that you are limiting your variable to and
+>substituting it straight in to the function....this works so long as
+>you don't get someting divded by 0. However; I have opted to use the
+>squeeze theorem because it is able to find the limit using simple logic.
+>
+>The part where you have talked about even and odd multiples of pi and
+>then made the link that this violates the Cauchy criterion; could you
+>please explain this a bit differently (as to why the limit does not
+>exist). I'm not quite sure what you mean as I have not read about the
+>Cauchy Criterion before in any of my lectures.
+
+Hi David,
+
+>......d. What I meant by "direct substitution" is the idea of
+>taking the value that you are limiting your variable to and
+>substituting it straight in to the function....this works so long as
+>you don't get someting divded by 0. 
+
+You seem to be using "limit" as a verb, and this is non-mathematical
+and rather confusing terminology.  If I understand you correctly, you
+are saying that you compute the limit as x approaches a by just
+substituting x=a into the formula whose limit you are evaluating.
+This only "works" if the function f(x) is continuous at x=a, so you
+must know that f is continuous at a to apply this logic, otherwise
+it is circular reasoning.  For example, if I define
+ 
+          { sin(x)/x    x =/= 0
+   S(x) = {    0        x = 0 ,
+
+I cannot assert that 
+
+   lim S(x) = 0
+  x->0
+
+by just using the value of S(0).  Since you usually work with 
+continuous functions, it "looks" like you compute the limit by
+substitution, but the value of the function at the limiting point
+x=a, if it even exists, is irrelevant to the question of whether 
+the limit exists.  The issue is whether the values f(x) get closer
+and closer to some fixed number L as x gets closer and closer to a
+(but never equal to a!).
+
+That fact is also the basis of the Cauchy condition.  (Checking some 
+of my references, the Cauchy Criterion is a condition on sequences,
+analogous to the following condition on functions, so my terminology
+was not quite correct.)
+
+If, when x is very close to z, all the values f(x) are very close to 
+L, then all the values f(x) have to be close to each other, too.  The 
+Cauchy condition says that if 
+
+   lim f(x)
+  x->a
+
+exists, then for every positive epsilon (E), there is a delta (D)
+such that for all x and y such that 0 < |x-a| < D and 0 < |y-a| < D,
+
+   |f(x) - f(y)| < E.
+
+(Actually, the Cauchy condition is a sufficient condition for a limit
+to exist, also, so this is often a way to prove that the limit exists,
+even when you don't know its value L.)
+
+I showed you how to find, in every interval (-D,D) points where
+g(x) = +1, and points where g(x) = -1, so there are x values which
+are both close to 0, at which the function g(x) has values which are
+not close to each other, which cannot happen when g(x) has a limit
+as x->0.
+
+You can also just show the non-existence of the limit directly.  If
+g(x) has a limit L as x->0, then the distance from L to +1 (|L-1|)
+and the distance from L to -1 (|L+1|) cannot simultaneously be less
+than 1.  That is, for any real number L, either
+
+  |L-1| >= 1,  or  |L+1| >= 1.
+
+Taking epsilon (E) equal to 1, there is no delta (D) such that
+0 < |x - 0| < D  implies  |g(x) - L| < E, because for every D, I
+showed you how to find a point x where either g(x) = 1 or g(x) = -1,
+so that |g(x) - L| < 1 is false (x is a reciprocal of an integer
+multiple of pi).
+  
+If you still have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

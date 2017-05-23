@@ -1,0 +1,42 @@
+ThreadNum: 567668
+Subject: Re: sequences problem
+To: av_ace11@hotmail.com (Avneesh)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 19:19:28
+Sent: yes
+
+
+As Avneesh wrote to Dr. Math
+On 08/19/2004 at 08:57:17 (Eastern Time),
+>[Question]
+>Suppose the sequence an converges to L, the function f is 
+>continuous, and the
+>sequence bn is given by bn = f(an). Prove that bn ¨ f(L).
+>
+>[Difficulty]
+>The answer seems very straight forward...except im just not sure how 
+>to prove it?? How do i begin??
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Avneesh!
+
+You need to use the definitions of convergence of a sequence to a
+limit and of the continuity of the function f(x).
+
+Pick epsilon > 0.  Then use the continuity of f(x) to find a value
+of delta > 0, such that for all x with |x-L| < delta,
+|f(x)-f(L)| < epsilon.  In particular, substituting x = a(n), one
+has f(x) = f(a(n)) = b(n).  Then use the convergence of a(n) to L
+to find an N > 0 such that for all n > N, |a(n)-L| < delta, and
+that implies that |b(n)-f(L)| < epsilon.
+
+You fill in the details.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

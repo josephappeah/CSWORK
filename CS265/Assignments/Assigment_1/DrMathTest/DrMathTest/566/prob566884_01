@@ -1,0 +1,66 @@
+ThreadNum: 566884
+Subject: Re: Area of a Segment of an Ellipse
+To: damond@paradise.net.nz (Damon)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 09:07:22
+Sent: yes
+
+
+As Damon wrote to Dr. Math
+On 08/14/2004 at 04:01:55 (Eastern Time),
+>[Question]
+>I need an equation that will calculate the minor axis of an Ellipse 
+>where I have the Area, Major Axis Length and Angle of elevation from 
+>the X axis of the segment.
+>
+>I have found this equation on another question on Dr Math:
+>
+>       *************
+>   ****     A|     /****
+> **          |  /Theta  **
+>*------------+------------*
+> **          |     B    **
+>   ****      |      ****
+>       *************
+>
+>Area = (AB/2)*(arctan(A/B*tan(Theta))
+>
+>Area = Area of segment
+>A = length of Radius of x axis
+>B = length of Radius of y axis
+>Theta = Angle of elevation from the X axis of the segment
+>
+>The problem is this, Assuming I know the area, B and Theta, I want an 
+>equation that expresses A.
+>
+>I have tried to make A the subject, but I have had no luck.
+>
+>[Difficulty]
+>I don't know how to deal with arctan when trying to make A the 
+>subject, however I don't even know if that is right way to approach 
+>this problem.
+>
+>
+>[Thoughts]
+>I have tried to use other equations of an ellipse
+>X^2/a^2 + Y^2/b^2 = 1
+>
+>and another way to express arctan:
+>arctan[tan(x)] = x-floor[x/pi + 1/2]*pi
+>
+>but I have had no luck either way.
+>
+
+Hello Damon,  
+
+You said,
+
+"I need an equation that will calculate the minor axis of an Ellipse 
+where I have the Area, Major Axis Length and Angle of elevation from 
+the X axis of the segment."
+
+If you know the area pi*a*b of the ellipse and you know either a or b, then the other of a 
+or b can be calculated.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,39 @@
+ThreadNum: 568069
+Subject: Re: Permutation and Combination
+To: swissnpcc@hotmail.com (Jack)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 05:46:07
+Sent: yes
+
+
+As Jack wrote to Dr. Math
+On 08/22/2004 at 01:27:40 (Eastern Time),
+>[Question]
+>Three different cars are available to take five women and a man on 
+a 
+>particular journey. In how many different ways can the six people 
+be 
+>allocated to the cars so that the man is alone?
+
+
+You can choose the car to carry the man in C(3,1) = 3 ways.
+
+The 5 women can be allocated to 2 different cars in
+
+       2^5 = 32 ways
+
+Total arrangements =  3 x 32
+
+                   =  96
+
+>
+>[Difficulty]
+>Understanding the question
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

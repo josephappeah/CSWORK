@@ -1,0 +1,63 @@
+ThreadNum: 568104
+Subject: Re: challenge
+To: misunderstoodartist@hotmail.com (Regan)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 16:26:34
+Sent: yes
+
+
+As Regan wrote to Dr. Math
+On 08/22/2004 at 16:14:40 (Eastern Time),
+>I have only the trusty dictionary,the challenge example that has been 
+>given to me,and the person winning used this one,I have to find a 
+>word better.
+>
+>SPEART
+>The twelve words are all common enough. 
+>SPA, SEA, SET, SAT, PEA, PER, PET, PAR, PAT, EAR, EAT, ART.
+
+Hi Regan,
+
+There are two ways you might come at this.  One would be to start
+looking for 6-letter words, and process them all the way we talked about.
+
+A second way would be to collect 3-letter words, and then see which
+letters they share.  In fact, you could construct a table in which you
+list the three letter words containing each letter.  If you start with
+the words CAT, DOG, BAT, HOG, PIE, FOR, ART, your table would look like
+
+  A art bat cat 
+  B bat
+  D dog
+  C cat
+  E pie
+  F for
+  G dog hog
+  H hog
+  I pie
+  J
+  K
+  L
+  M
+  N
+  O dog for hog
+  P pie
+  Q
+  R art for
+  S 
+  T art bat cat
+  U
+  V
+  W
+  X 
+  Y
+  Z
+
+As you can see, some letters have many more candidates than others. 
+After I've built up the table a while, I would want to look for the
+letters that give me the most words, and then try to combine those
+into a 6-letter word.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

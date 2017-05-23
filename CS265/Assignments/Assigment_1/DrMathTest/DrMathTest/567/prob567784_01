@@ -1,0 +1,41 @@
+ThreadNum: 567784
+Subject: Re: Algebra
+To: johnson_lily@yahoo.com (Lily)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:14:05
+Sent: yes
+
+
+As Lily wrote to Dr. Math
+On 08/19/2004 at 19:54:03 (Eastern Time),
+>[Question]
+>The farmer has 22 animals, and the animals has a total of 56 legs.  
+>the animals are cows and ducks.  What is the total amount of cows 
+>and ducks?
+>
+>[Difficulty]
+>Can't figure out the formula!
+>
+>[Thoughts]
+>I know there is 6 ducks and 16 cows. I just got the answer out of 
+>the blue, but don't know how to get the formula.
+
+Thanks for writing to Ask Dr. Math, Lily!
+
+Let the number of cows be C and the number of ducks D.  Make two
+equations, one for number of animals, one for number of legs:
+
+   C + D = 22,
+   4*C + 2*D = 56.
+
+Then solve these two equations in two unknowns for C and D.
+
+By the way, your answer is wrong.  6 ducks and 16 cows would have
+12 + 64 = 76 legs, not 56.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,81 @@
+ThreadNum: 566628
+Subject: Re: number theory: multiples of  9
+To: sabaabid@hotmail.com (Saba)
+From: Doctor Luis
+TimeStamp: 08/12/2004 at 10:10:23
+Sent: yes
+
+
+As Saba wrote to Dr. Math
+On 08/12/2004 at 05:19:50 (Eastern Time),
+>[Question]
+>why is it that when you add the individual digits of any multiple 
+>nine until a single digit answer is reached the answer is always 
+>nine?
+>EG. 99 = 9 + 9= 18 = 1+ 8 =9
+>
+>
+>
+>[Difficulty]
+>Why doesn't it work with other numbers between 1-9 either?
+>Is it possible to prove this?
+>
+>[Thoughts]
+> other single digit numbers,seem to follow a pattern:
+>8 : 8, 7, 6, 5, 
+>7 : 7, 5, 3, 1,
+>6 : 6, 3, 9, 6, 3, 9,
+>
+>however, multiples of nine seem to be the only ones which stay the 
+>same. 
+
+
+Hi Saba,
+
+Good job finding that pattern! The reason is that the sum of the 
+digits of ANY multiple of 9 is also a multiple of 9. Since you keep 
+adding the digits (each time getting a new multiple of 9, but 
+smaller multiple however), eventually you'll end up with a single 
+digit number. Think about it: the multiples keep getting smaller and
+smaller, so eventually you'll get to the multiple 9 itself.
+
+Now, how do I know that the sum of the digits is always
+a multiple of 9? Suppose that a number N has digits a,b,c,d,...
+(from right to left),
+
+ N = a + 10b + 100c + 1000d + ...
+   = a + (b + 9b) + (c + 99c) + (d + 999d) + ...
+   = (a + b + c + d + ...) + (9b + 99c + 999d + ...)
+   = (a + b + c + d + ...) + 9*(b + 11c + 111d + ...)
+ N = (sum of digits of N) + 9 * (some number)
+
+Now, look at that equation carefully. It means that
+
+ (sum of digits of N) = N - 9 * (some number)
+
+Since N is assumed to be a multiple of 9, we can write it
+in terms of another integer k, so that N = 9k
+
+   (sum of digits of N) = 9 * k  -  9 * (some number)
+                        = 9 * (k - (some number))
+                        = 9 * (some other number)
+
+Since we showed that the sum of the digits is 9 times
+some integer, then it is also a multiple of 9 itself.
+
+The summary is this: starting from a multiple of 9, you keep adding
+the digits, each time arriving to a multiple of 9. This establishes
+a chain of decreasing multiples of 9, until eventually you reach 9
+(from a two-digit multiple). Does that make sense?
+
+It doesn't work for other integers because the chain is broken.
+For example, multiples of 8 such as 56 don't add up to a multiple
+of 8. 
+
+Well, I hope this helped!
+
+Let us know if you have any more questions.
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

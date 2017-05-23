@@ -1,0 +1,25 @@
+ThreadNum: 567697
+Subject: Re: cubic metre
+To: ahammedmm019@yahoo.com (ahammed)
+From: Doctor Rick
+TimeStamp: 08/29/2004 at 19:23:48
+Sent: yes
+
+Hi, Ahammed.
+
+As ahammed wrote to Dr. Math
+On 08/29/2004 at 02:42:48 (Eastern Time),
+>Dear sir, I have a wood 10m(metre)lenght,30cm(centimetre)width&10cm
+>(centimetre)hight.what is the formula to find out cubic metre?how 
+>much cubic metre are this? thank you sir
+
+Is this a box shape -- all the faces are rectangles (all the angles 
+are right angles)? If so, convert all dimensions to metres and 
+multiply them together:
+
+  length * width * height = volume
+  10 m * 0.30 m * 0.10 m = 0.30 m^3 (cubic metres)
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

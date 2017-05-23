@@ -1,0 +1,52 @@
+ThreadNum: 566803
+Subject: Re: Is pi really never-ending
+To: 08hicksj@cen.trinity.wa.edu.au (Josh Hicks)
+From: Doctor Roy
+TimeStamp: 08/13/2004 at 11:59:37
+Sent: yes
+
+
+As Josh Hicks wrote to Dr. Math
+On 08/13/2004 at 08:48:09 (Eastern Time),
+>[Question]
+>Do the decimals of pi go on and on? is it possible for it to stop 
+>billions of decimal places in?
+>
+>[Difficulty]
+>I find it difficult to believe that pi is a never-ending number. 
+>Isn't it impossible for it to suddenly halt (ie. 
+>3.14....987600000000)?
+>
+>[Thoughts]
+>All the research I have got say that pi is never ending, but it 
+>never supports that statement with evidence.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The decimal representation of pi does not terminate. That is different
+from saying that pi is "never-ending", which doesn't have a clear
+definition.
+
+There's no reason this cannot occur. It doesn't mean pi is infinite.
+It just means we cannot finite represent pi using decimal numbers. The
+fact that such numbers exist, such as the square root of 2 (whose
+digits do not terminate), was well known to the Greeks.
+
+If you would like a proof of that fact, refer to:
+
+  http://mathforum.org/library/drmath/view/55828.html
+
+You will need a bit of calculus to understand the proof, however, the
+fact is that the matter has been proven.
+
+I will make one note of caution: "evidence" in mathematics is
+different from "evidence" in science. In science, one examines real
+world data and hypothesizes. One then creates an experiment to test
+the hypothesis. This is not true in mathematics. You don't just test
+things out. You proof things using definition, axioms, and logic.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

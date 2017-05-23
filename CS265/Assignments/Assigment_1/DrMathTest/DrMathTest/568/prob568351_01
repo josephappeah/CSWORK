@@ -1,0 +1,66 @@
+ThreadNum: 568351
+Subject: Re: A really hard math problem i ve been trying to do!
+To: wiseonekms@hotmail.com (Samuraix)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 21:07:15
+Sent: yes
+
+
+As Samuraix wrote to Dr. Math
+On 08/23/2004 at 20:45:50 (Eastern Time),
+>[Question]
+>here is the math problem...
+>3x-4y+(6x+2y)i=5i
+>
+>ok, here goes...i've done so much work for this i can't solve it...
+>
+>[Difficulty]
+>the problem is that the question wants this in real numbers...and 
+>frankly i can't do that. I square both sides and nothing works! 
+>either im factoring wrong or im going about this all wrong...please 
+>help! (we are supposed to solve for x and y i think)
+>
+>[Thoughts]
+>ew, it'd take forever but basically
+>i factor out a 2 from the (6x+2y) and then i square both sides so 
+>that i might be able to cancel i's..but nothing works, then i 
+express 
+>the whole polynomial..and get stuck...*disgusted look on face*
+
+Hello, Samuraix --
+
+You are making this problem a lot harder than it is supposed to 
+be....
+
+Whenever you have an equation which say
+
+  a+bi = c+di
+
+where a, b, c, and d are real, the coefficients of the real parts 
+must be equal and the coefficients of the imaginary parts must be 
+equal.  So
+
+  a+bi = c+di  ==>  a=c  and  b=d
+
+In your problem, we simply have
+
+  3x-4y+(6x+2y)i=5i
+
+or
+
+  (3x-4y) + (6x+2y)i = 0 + 5i
+
+This means that we must have
+
+  3x-4y = 0  [the real part must be equal]
+  6x+2y = 5  [ the coefficients of the imaginary parts must be equal]
+
+This is simply a pair of linear equations which you can solve by 
+your favorite method.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

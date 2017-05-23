@@ -1,0 +1,155 @@
+ThreadNum: 568918
+Subject: Re: Precalculus question- solving for x
+To: Edavis955@aol.com (Emmanuel)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 19:19:10
+Sent: yes
+
+
+As Emmanuel wrote to Dr. Math
+On 08/26/2004 at 16:38:46 (Eastern Time),
+>Hi Dr.Math,
+>  The problem that you have is correct.  I hope that the work that I 
+>sent was useful for you to help me. Thanks for your time.
+
+Hi Emmanuel, 
+
+Thanks.  I'll go through it step by step:
+
+    2x(x - 1)     3x
+    --------- - -------
+     x^2 - 4    (x - 1)
+
+
+    2x(x-1)(x-1)      3x(x^2-4)
+  = ------------ - ------------           
+    (x^2-4)(x-1)   (x-1)(x^2-4)
+
+
+    2x(x-1)(x-1) - 3x(x^2-4)
+  = ------------------------           
+           (x-1)(x^2-4)
+
+
+    x[2(x-1)(x-1) - 3(x^2-4)]
+  = -------------------------          I can go ahead and factor          
+           (x-1)(x^2-4)                the x out now...
+
+
+    x[2(x^2 - 2x + 1) - 3(x^2 - 4)]
+  = -------------------------------          
+           (x-1)(x^2-4)
+
+
+    x[(2x^2 - 4x + 2) - (3x^2 - 12)]
+  = --------------------------------          
+           (x-1)(x^2-4)
+
+
+    x[2x^2 - 4x + 2 - 3x^2 + 12]
+  = ----------------------------          
+           (x-1)(x^2-4)
+
+
+    x[-x^2 - 4x + 14]
+  = -----------------          
+       (x-1)(x^2-4)
+
+
+    -x[x^2 + 4x - 14]
+  = -----------------          
+       (x-1)(x^2-4)
+
+Just to check this, let's put in a non-singular value, like x=3:
+
+    -3[3^2 + 4*3 - 14]
+  = ------------------          
+       (3-1)(3^2-4)
+
+    -3[9 + 12 - 14]
+  = ------------------          
+       (3-1)(9-4)
+
+    -3[7]
+  = ------          
+    (2)(5)
+
+  = -21/10
+
+Let's try it with the original expression:
+
+    2*3(3 - 1)     3*3
+    ---------- - -------
+     3^2 - 4     (3 - 1)
+
+      6(2)        3*3
+  = --------- - -------
+     9 - 4      (3 - 1)
+
+    12   9
+  = -- - -
+     5   2
+
+    24   45
+  = -- - --
+    10   10
+
+  = -21/10
+
+This doesn't prove that I've done it correctly, but it at least gives
+me some confidence that I didn't drop a sign or a variable or anything
+like that. 
+
+So, what can we do with
+
+    -x[x^2 + 4x - 14]
+  = -----------------          
+       (x-1)(x^2-4)
+
+
+Using the quadratic formula on the part in []'s,
+
+      -4 +/- sqrt(4^2 - 4(1)(-14))
+  x = ----------------------------
+                 2(1)
+
+      -4 +/- sqrt(16 + 56)
+  x = --------------------
+               2
+
+      -4 +/- sqrt(72)
+  x = ---------------
+            2
+
+      -4 +/- 6 sqrt(2)
+  x = ----------------
+            2
+
+
+  x = -2 +/- 3 sqrt(2)
+
+which gives us 
+
+    -x (x - (-2 + 3 sqrt(2))) (x - (-2 - 3 sqrt(2)))
+  = -----------------------------------------------
+                   (x-1)(x^2-4)
+
+That's as factored as it's going to get.  So either that's
+intentional, or there's some kind of misprint in the problem statement. 
+
+What I expected to happen was that you'd end up with
+
+      some cubic
+   ---------------------
+   (x + 2)(x - 2)(x - 1)
+
+and then you'd have to factor the cubic, either by tackling that
+directly, or by dividing it successively by (x+2), (x-2), or (x-1)
+until one of them worked, allowing you to replace the numerator with
+the quotient, and cancel it out of the denominator. 
+
+However, it doesn't look like that's going to work.  :^D
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

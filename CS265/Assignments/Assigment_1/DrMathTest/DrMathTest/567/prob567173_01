@@ -1,0 +1,41 @@
+ThreadNum: 567173
+Subject: Re: sequences
+To: www.Firataras@aol.com (Firat)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 23:05:19
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/16/2004 at 17:59:42 (Eastern Time),
+>[Question]
+>a/b transforms to a+2b/a+b which converges to sqrt of 2.
+>1/1,3/2,7/5,17/12,41/29,....
+>
+>[Difficulty]
+> I am tryying to find out what happens when a/b transforms to 
+>ma+nb/a+b ? 
+>
+>Kind regards,
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Firat!
+
+Write
+
+   (m*a+n*b)/(a+b) = (m*(a/b)+n)/((a/b)+1).
+
+If a/b approaches a limit x, then you would have
+
+   x = (m*x+n)/(x+1).
+
+Solve this for x, and you'll get your answer.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

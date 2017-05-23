@@ -1,0 +1,77 @@
+ThreadNum: 567308
+Subject: Re: equation of a line when you have direction cosines and a pt
+To: gowthamiasam@yahoo.com (sai)
+From: Doctor Rob
+TimeStamp: 08/18/2004 at 16:20:28
+Sent: yes
+
+
+As sai wrote to Dr. Math
+On 08/18/2004 at 13:29:22 (Eastern Time),
+>   
+> Iam really very thankful to those who answered my question. I like 
+>to continue this discussion.
+>
+> 1.After getting the centre of the circle and radius, I have to 
+>   assume an angle less than 180 degrees and divide that sector into 
+>   several parts say for an example 50 and get the coordinates of 
+>   those points(x,y,z)
+>
+> 2.I need to repeat this for two different radii say if R is the
+>   radius I want the same thing to be done for (R+1) and (R-1) and
+>   get the coordinates.
+>
+> 3.I have to connect these points on three arcs to generate a 
+surface 
+>    which is my goal.
+>
+>   Please let me know the better way to divide the arc. Iam thinking 
+>of using the formula 
+>                     Lenght of the arc= radius * angle.
+>   But not sure how to get (50) points on the arc
+>
+> 
+
+Thanks for writing back to Ask Dr. Math, Sai!
+
+I think I'd approach this using vectors.
+
+The radius vectors from the center of the circle to the three points
+are easy to find, by taking the difference of the coordinates of the
+points minus the coordinates of the center.  The dot product of any
+two divided by R^2 will give you the cosine of the angle between
+them.  Pick the pair of vectors v(0) and v(50) with the smallest
+cosine value, and you'll have the two endpoints of the arc.  Taking
+the arccosine will give you the angle theta between those two
+vectors.  Theta should be taken between 0 and 180 degrees (or 0 and
+Pi radians).
+
+Now to divide the arc into 50 parts, you seek 49 vectors v(k),
+k = 1, 2, ..., 49, such that the following equations hold:
+
+   v(k).(A,B,C) = 0,
+   v(k).v(0) = R^2*cos(k*theta/50),
+   |v(k)| = R.
+
+The first two are linear equations in the components of v(k), and
+the last is quadratic.  There should be two solutions, of which one
+is correct, the other is extraneous.  The extraneous one will not
+satisfy the equation
+
+   v(k).v(50) = R^2*cos([1-k/50]*theta),
+
+and the correct one will.  Then the 49 division points on the arc
+are found by adding the components of v(k) to the coordinates of
+the center of the circle.
+
+To change radius to R', multiply the vectors v(k) by the scalar
+R'/R, for k = 0, 1, ..., 50, and add each of those to the
+coordinates of the center.  Those will be the 51 points on the arc
+with radius R', the same center, and lying in the same plane.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

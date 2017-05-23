@@ -1,0 +1,36 @@
+ThreadNum: 568838
+Subject: Re: Finding the constant term of a composite function
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 09:52:54
+Sent: yes
+
+
+As Wheeler Flemming wrote to Dr. Math
+On 08/25/2004 at 22:50:57 (Eastern Time),
+>[Question]
+>For all real x, f(x)=x+3 and g(x) is a polynomial of degree 2 such 
+>that g(f(x))=x^2 +2. Find the constant term in g(x).
+>
+>[Difficulty]
+>How can I tell the constant term when im only given the info that g
+>(x) is a degree two polynomial???
+>
+>[Thoughts]
+>Thank you
+
+Hi Wheeler,
+
+Thanks for writing to Dr Math.  The key point here is that if g(x) is
+a polynomial, then the constant term is g(0).  Can you see why this is
+true?  Can you use this is help you find out the constant term?
+
+Hint:  For what x is f(x) = 0?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

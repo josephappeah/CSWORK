@@ -1,0 +1,71 @@
+ThreadNum: 566859
+Subject: Re: Surface area to volume ratio of cube
+To: jackal_nitsot@hotmail.com (Tinos)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 11:07:07
+Sent: yes
+
+
+As Tinos wrote to Dr. Math
+On 08/13/2004 at 20:10:59 (Eastern Time),
+>[Question]
+>I know that when x = 6, surface area and volume of a cube are equal.
+>But, 6 what? m cm mm??? Does a cube of length 500 cm have more 
+surface 
+>area or volume?
+>
+>[Difficulty]
+>A cube of length 5 m has more surface area than volume, whereas a 
+cube 
+>of length 500 cm has more volume...
+>
+>[Thoughts]
+>I'm doing an assignment on the surface area to volume ratio of 
+animals 
+>etc. The first part of the assignment is on cubes. When x<6 SA>V 
+but 
+>when x>6 SA<V. But this makes no sence when a cube of length 500 cm 
+>has more volume when x = 500 is used, whereas when x = 5 m is used 
+it 
+>has more surface area. I guess it comes down to, what units does 
+the 
+>when x>6 V>SA relationship exist?
+
+Hi, Tinos --
+
+You are right -- the problem here is the units.  The bottom line on 
+all this is that it makes no sense to compare the surface area 
+measurement to the volume measurement, because the units are not the 
+same.
+
+If the side of a cube has length x, then
+
+  SA = 6x^2
+
+and
+
+  V = x^3
+
+The ratio of surface area to volume is
+
+  SA/V = 6x^2/x^3 = 6/x
+
+When x=6, this ratio is equal to 1, so the volume and surface area 
+are numerically equal.  But when x is less than 6, this ratio is 
+bigger than 1, which means the surface area is numerically greater 
+than the volume; and when x is greater than 6, this ratio is less 
+than 1, which means the surface area is less than the volume.
+
+But the ratio 6/x expressing the ratio of surface area to volume is 
+not dimensionless, because it compares square units to cubic units.  
+So it is going to be the case that in any cube the surface area may 
+be numerically larger than the volume if certain units are used 
+while the surface area may be numerically smaller than the volume if 
+different units are used.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

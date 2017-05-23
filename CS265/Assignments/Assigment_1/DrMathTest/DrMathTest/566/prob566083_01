@@ -1,0 +1,35 @@
+ThreadNum: 566083
+Subject: Re: Some Calculus help
+To: kjellconnelly2@hotmail.com (Kjell)
+From: Doctor Fenton
+TimeStamp: 08/09/2004 at 08:14:02
+Sent: yes
+
+
+As Kjell wrote to Dr. Math
+On 08/08/2004 at 21:23:50 (Eastern Time),
+>[Question]
+>Show that the given curves are orthogonal.
+>2x^2 + y^2 = 3        x = y^2
+>
+>[Difficulty]
+>I don't understand how I'm supposed to show this even.
+>
+>[Thoughts]
+>I suppose I could put it into my graphing calculator to prove it to 
+>myself, but how would I show someone else?
+
+Hi Kjell,
+
+Thanks for writing to Dr. Math.  The first thing to do is to find the
+points of intersection of the curves.  At each point, compute the
+slopes of the tangent lines to each curve, and show that the two 
+tangent lines are perpendicular.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

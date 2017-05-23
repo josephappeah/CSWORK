@@ -1,0 +1,54 @@
+ThreadNum: 566152
+Subject: Re: Integral of e^(-x^2)
+To: csmt@cogeco.ca (Christine)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 14:55:03
+Sent: yes
+
+
+As Christine wrote to Dr. Math
+On 08/09/2004 at 13:18:33 (Eastern Time),
+>[Question]
+>I am trying to figure out how to integrate e^(-x^2), would anyone 
+>help please?  
+>
+>[Difficulty]
+>Any derivative of e^(f(x)) will have e^(f(x))f'(x), I can't figure 
+>out what f(x) should be so that f'(x) would get cancelled out in the 
+>process to leave just e^(f(x)) as the derivative.
+>
+>[Thoughts]
+>I have tried substitution like x=e^u, u=-x^2, none of them have 
+>worked out so far.  Please help!
+
+Hi Christine,
+
+Thanks for writing to Dr Math.  The cold truth about integrals is that
+most "natural" functions don't have "natural" integrals.  So whatever
+kinds of functions you allow as "natural," there are almost certainly
+functions whose antiderivatives are not, although proving that a
+particular function has no natural antiderivative is generally very
+hard.  See also:
+
+  The Impossibility of Integrating x^x
+  http://mathforum.org/library/drmath/view/51934.html
+
+In your case, that's such a common case (used frequently in
+statistics, for example), that somebody decided to give it a name (or
+a slight variant), and he called it the "error function," since it is
+often used for seeing how far off you might be when you estimate
+something with a normal distribution.  See also
+
+  http://mathworld.wolfram.com/Erf.html
+
+So, in that case, the antiderivative would be
+
+  erf(x)*sqrt(pi)/2 + C.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

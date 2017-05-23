@@ -1,0 +1,46 @@
+ThreadNum: 566444
+Subject: Re: Solutions of the functional inequality f(x+y)>=f(x)f(y)
+To: jojoproto@yahoo.com (jojoproto)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 10:03:01
+Sent: yes
+
+
+As jojoproto wrote to Dr. Math
+On 08/11/2004 at 01:26:08 (Eastern Time),
+>[Question]
+>Hello.
+>
+>I am wondering whether the functional inequality f(x+y)>=f(x)f(y), 
+>x,y>=0 has a known general solution. I would really appreciate an 
+>answer or help.
+>
+>[Difficulty]
+>This function came up in my thesis research. I have some idea on how 
+>to approach functional equations, but not inequalities. Because, I 
+>do not know a general method to solve functional inequalities, if 
+>there is one.
+>
+>[Thoughts]
+>When equality holds, by taking the derivative with respect to x, and 
+>then replacing x with 0, I found that f(y)=exp(cy) is the solution, 
+>where c=(df/dy)(0). However, for the inequality, I couldn't find a 
+>general solution, though I found some more solutions such as f(x)=
+>(1+x)^-c, where c>=0.
+
+Hi Jojoproto,
+
+Thanks for writing to Dr Math.  There is not a general solution to
+such a functional inequality, for the reason that the space of
+functions that satisfy that inequality is HUGE - you might be able to
+prove that it has the same cardinality as the space of real-valued
+functions, which is at least as big as the cardinality of the power
+set of real numbers.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

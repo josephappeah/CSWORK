@@ -1,0 +1,44 @@
+ThreadNum: 567181
+Subject: Re: Power series
+To: jsepuka@optusnet.com.au (Julie)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 23:11:01
+Sent: yes
+
+
+As Julie wrote to Dr. Math
+On 08/16/2004 at 18:27:02 (Eastern Time),
+>[Question]
+>The power series for ln(x+1)
+>
+>[Difficulty]
+>I don't know where to start.
+>
+>Thanks for your help
+>
+>[Thoughts]
+>I think it is (x+1)ln(x+1)-x
+> but I don't how to get there.
+
+Thanks for writing to Ask Dr. Math, Julie!
+
+The Maclaurin series for f(x) is given by
+
+   f(x) = f(0)/0! + f'(0)/1!*x + f"(0)/2!*x^2 + f"'(0)/3!*x^3 + ...
+
+Now for f(x) = ln(x+1), you can find that
+
+   f'(x) = 1/(x+1),
+   f"(x) = -1/(x+1)^2,
+   f"'(x) = (-1)*(-2)/(x+1)^3,
+   ...
+   f^(n)(x) = (-1)^(n-1)*(n-1)!/(x+1)^n, for every n >= 1.
+
+Put this all together, and you can get the answer you seek.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

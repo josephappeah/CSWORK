@@ -1,0 +1,91 @@
+ThreadNum: 567239
+Subject: Re: negitive fractions
+To: wendydean2@verizon.net (Wendy)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 15:53:45
+Sent: yes
+
+Hi, Wendy.
+
+As Wendy wrote to Dr. Math
+On 08/16/2004 at 23:57:25 (Eastern Time),
+>[Question]
+>Can I change a negitive fraction to a positive fraction? I can work 
+>it out from a mixed or improper fraction. How can I help my son with 
+>his home work, if I don't know how to do it. He is in the 9th grade, 
+>I've taken business math, I have never been through subtracting 
+>negitive fractions with whole numbers on top, and a regular fraction 
+>on bottom. Just show me one and I can figure out the rest my self. 
+>then I can check his home work.
+>
+>[Difficulty]
+>7 -3/5 - 3/4 = ?
+>
+>[Thoughts]
+>        -12
+>7 -3/5 = --
+>         20
+>         15
+> - 3/4 = --
+>         20
+>------------------
+>        27
+>  7     --
+>        20
+>or
+>7 - 3/5 = 6 8/5 would this help change the negitive?
+
+Your method almost worked the first time, but you got confused about 
+signs: you should end up with 7 MINUS 27/20, not 7 PLUS 27/20. Then 
+of course there is still more work to do.
+
+We could take it one step at a time: first subtract 3/5 from 7, then 
+subtract 3/4 from the result. I'll show you this first.
+
+  7 - 3/5 = 6 + 5/5 - 3/5
+          = 6 + (5-3)/5
+          = 6 + 2/5
+          = 6 2/5
+
+It's a lot like subtraction of whole numbers, where we have to borrow 
+1 from the column to the left, changing it to 10. Here, since I don't 
+have any fifths to subtract from, I borrow 1 from the 7, changing the 
+1 into 5/5. Then I can do the subtraction, 5/5 - 3/5 = 2/5, and the 
+whole number left is 6.
+
+Then I want to subtract 3/4 from 6 2/5. As you suggest, I will change 
+both fraction parts into equivalent fractions with the common 
+denominator, 20:
+
+  6 2/5 - 3/4 = 6 8/20 - 15/20
+
+This time I have some 20ths to subtract from -- but still not enough. 
+Again I borrow 1 from the whole-number part, 6, leaving 5 and 
+changing the 1 into 20/20:
+
+  ... = 5 + 20/20 + 8/20 - 15/20
+      = 5 + (20+8-15)/20
+      = 5 + 13/20
+      = 5 13/20
+
+Another way to solve the problem is to add up all the numbers you are 
+subtracting, and subtract the total from 7. Watch:
+
+  3/5 + 3/4 = 12/20 + 15/20
+            = 27/20
+            = 1 7/20
+
+  7 - 1 7/20 = 7 - (1 + 7/20)
+             = 7 - 1 - 7/20
+             = 6 - 7/20
+             = 5 + 20/20 - 7/20
+             = 5 + 13/20
+             = 5 13/20
+
+Negatives can be confusing even without bringing fractions into the 
+picture. If you'd like to discuss some step here in more detail, just 
+ask.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

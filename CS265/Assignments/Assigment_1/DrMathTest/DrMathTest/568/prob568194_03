@@ -1,0 +1,36 @@
+ThreadNum: 568194
+Subject: Re: speed
+To: ajblckl@accesswave.ca (Jason)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 22:13:58
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 08/23/2004 at 21:19:25 (Eastern Time),
+>Alright I understand the relationship now.  I am struggling to get an
+>equation.  Creating an equation has always been the difficult part for
+>me, from there I am fine.
+>Here is all I can figure out:
+>
+>a^2 + b^2 = c^2
+>(30)^2 + (40+10t)^2 = c^2
+>2500 + 800t + 100t^2 = c^2
+>
+>Chances are I am completely off the mark on this one.
+>
+>I am completely confused.
+>Is there anything else you could suggest for me.  
+
+Hi Jason,
+
+So far, so good.  Now take the square root of both sides to solve for
+c; and then you can take the derivative of the left side, which will
+be dc/dt.  That's what you're looking for: the rate at which you have
+to let the line out. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

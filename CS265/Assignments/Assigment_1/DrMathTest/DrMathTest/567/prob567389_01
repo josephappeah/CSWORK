@@ -1,0 +1,48 @@
+ThreadNum: 567389
+Subject: Re: Math team
+To: vickery354545@bellsouth.net (Sam)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 13:46:46
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/17/2004 at 21:34:44 (Eastern Time),
+>[Question]
+>For all non-negative real numbers,, a*b, a*b is defined by a*b= a^2-
+>b/a-b. if 5*x=11*0 then x=?
+>
+>[Difficulty]
+>the  5 * x thing get in the way of what i think is suppose to be 
+>done.
+>
+>[Thoughts]
+>5(a^2-b/a-b)=11(a^2-b/a-b)
+>(5a^2-5b)(11a-b)=(11a^2-b)(5a-b)
+>55a^3-5a^2b-11ab+b^2=55a^3-11a^2b-5ab+b^2
+>
+
+Hi Sam,
+
+Given the definition
+
+  a*b = (a^2 - b)/(a - b)
+
+when you want to evaluate 5*x, you substitute the 5 for 'a' and the x
+for 'b':
+
+  5*x = (5^2 - x)/(5 - x)
+
+Does this make sense? 
+
+Similarly, to evaluate 11*0, you substitute 11 for 'a', and 0 for 'b'.  
+
+
+Then you set these two things equal to each other, and figure out what
+x has to be.  
+
+Can you take it from here? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

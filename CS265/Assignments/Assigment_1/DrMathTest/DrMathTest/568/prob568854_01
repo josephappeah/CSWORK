@@ -1,0 +1,55 @@
+ThreadNum: 568854
+Subject: Re: Finite Math
+To: tenchivuyo@hotmail.com (Confused.)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 09:50:57
+Sent: yes
+
+
+As Confused. wrote to Dr. Math
+On 08/26/2004 at 00:11:47 (Eastern Time),
+>[Question]
+>I was wondering how would i prove that the sum of the first n natural
+>numbers is C(n,2) explicitly in words. I can with examples but im
+>having a problem with explaining in words. 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Confused,
+
+Thanks for writing to Dr Math.  First of all, the sum of the first n
+natural numbers is C(n+1,2) and not C(n,2).  Or you could say that the
+sum of the first n-1 natural numbers is C(n,2).
+
+The easiest way, or the way this is usually proven, is with
+mathematical induction.  If that doesn't work for you, then you will
+probably want a combinatorial proof, which means you count the same
+thing in two different ways, something like this:
+
+Suppose that are n people at a party, and everyone shakes everyone's
+hand exactly once.  So how many handshakes were there in total?
+
+Method 1:  There are C(n,2) different possible pairs of people, and
+every pair had exactly one handshake between them, so there were
+C(n,2) total handshakes.
+
+Method 2:  Line up the people in order.  The first person shakes
+everybody else's hand, which is n-1 handshakes, and then he sits down
+and the second person (who's already shaken the first person's hand)
+shakes the remaining n-2 people's hands.  And the third person shakes
+another n-3 people's hands, and so on down to the last people.  So the
+total number of handshakes is:
+
+  (n-1) + (n-2) + (n-3) + ... + 3 + 2 + 1.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

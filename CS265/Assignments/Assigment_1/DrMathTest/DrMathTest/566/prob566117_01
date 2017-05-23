@@ -1,0 +1,54 @@
+ThreadNum: 566117
+Subject: Re: modular maths
+To: mk@hagley.school.nz (Graeme)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 15:37:01
+Sent: yes
+
+
+As Graeme wrote to Dr. Math
+On 08/09/2004 at 06:08:49 (Eastern Time),
+>[Question]
+>Is there a straight forward way to solve the following problem?
+>
+>All but 1 person from 120 people are to be eliminated from a 
+>competition by using the chant of:
+>
+>Eenie meenie minie mo
+>Catch a tiger by the toe
+>If it squeals let it go
+>Eenie meenie minie mo.
+>
+>If the contestants are numbered from 1 to 120 and lined in order, 
+>which person is going to be in the winning position?
+>
+>[Difficulty]
+>How modular arithmetic can be applied to help solve this problem. 
+>Can it be done without modular arithmetic?
+>I do have university qualifications in maths, but can't get round 
+>this question !!
+>
+>[Thoughts]
+>
+
+Hi Graeme,
+
+Thanks for writing to Dr Math.  You can certainly do it without
+modular arithmetic by lining up 120 people (or other items), numbered,
+and chanting 119 time.
+
+First you should count the beats in the chant to find out how many
+people you'll pass each time you eliminate one.  Then you see who gets
+eliminated after one complete pass around the circle (I get 0 mod 16,
+but it will depend on how you count the beats).  Go around again (8
+mod 17?), and so on.  Sometimes you might get one residue up to some
+point and then another past that point.  Of course, after most of the
+numbers are gone, then you can easilty count out the rest of them.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

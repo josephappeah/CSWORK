@@ -1,0 +1,59 @@
+ThreadNum: 568411
+Subject: Re: Finding angles of a general quadrilateral given the sides
+To: clivehillam@blueyonder.co.uk (Clive Hillam)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 08:01:30
+Sent: yes
+
+Hi, Clive.
+
+As Clive Hillam wrote to Dr. Math
+On 08/24/2004 at 05:59:12 (Eastern Time),
+>[Question]
+>Dear Dr Math
+>
+>How can I determine the angles of a regular quadrilateral given just 
+>the length of the sides ?
+>
+>My example started when ordering a special bathroom mirror which was 
+>not quite rectangular. The sides are 1310 mm, 904 mm, 1314 mm, 908 
+>mm.
+>
+>Can it be done without knowing any other information including the 
+>length of the diagonals ?
+>
+>Yours
+>
+>Clive Hillam
+>
+>[Difficulty]
+>I can't find anything written about it !
+>
+>[Thoughts]
+>I feel that intuitively that there can only be 1 or 2 solutions (1 
+>concave and possibly 1 convex) because it is not a special 
+>quadrilateral (e.g. parallelogram, rhombus) and therefore must be 
+>fixed.
+>
+>I also tried the law of cosines but could only yield a relationship 
+>between opposite angles.
+>
+>It is possible that I would need to use vector analysis or some form 
+>of locii formula or is it possible there I have overlooked something 
+>and the solution is trivial.
+>
+
+It's not as fixed as you think. Try taking sticks of the given 
+lengths and joining their ends with joints (hinges or duct tape or 
+whatever) so that the angles aren't fixed. You'll find that the 
+sticks can be moved around in a plane to give an infinite number of 
+shapes. 
+
+A triangle is the only polygon whose shape is determined by the 
+lengths of its sides alone. That's why knowing one diagonal suffices 
+to fix the shape of your quadrilateral: the diagonal creates a pair 
+of triangles.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,31 @@
+ThreadNum: 567447
+Subject: Re: what is a partial derivative?
+To: s_rchandran@hotmail.com (RAMACHANDRAN)
+From: Doctor Ian
+TimeStamp: 08/21/2004 at 13:17:09
+Sent: yes
+
+
+As RAMACHANDRAN wrote to Dr. Math
+On 08/21/2004 at 11:30:17 (Eastern Time),
+>thanks a lot dr ian.
+>my final query.  
+>In the website given by you there is a sample problem of temperature
+>distribution in a plate where t(x,y) =60/(1+x^2+y^2)
+>and i will partially differentiate w.r to y or x to find the rate of
+>change of temperature at a point along y or x axes respectively.
+>
+>suppose I want to find the rate of change of temperature at a point
+>along a direction at angle theta degrees to the x or y axes what 
+>should I do?.
+>
+>
+
+Hi,
+
+In that case, you change your coordinate system so the angle you're
+interested in lies along one of the axes. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

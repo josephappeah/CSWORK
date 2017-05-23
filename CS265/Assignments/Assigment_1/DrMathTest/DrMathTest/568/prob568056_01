@@ -1,0 +1,68 @@
+ThreadNum: 568056
+Subject: Re: Negative numbers and the rules
+To: blankenshipm@usec.com (Mark Blankenship)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 11:31:44
+Sent: yes
+
+
+As Mark Blankenship wrote to Dr. Math
+On 08/21/2004 at 23:00:58 (Eastern Time),
+>[Question]
+>I have graduated high school many years ago and struggled through my 
+>algebra classes due to never really understanding what I was doing.  
+>I am now wanting to go to college and get an engineering degree.  
+>Knowing that I am going to get killed by the math I am now going 
+>back and trying to learn what I did not understand.  My first 
+>stumbling block seems to be with negative numbers.  I am attempting 
+>to do systems of equations where I typically do fine until running 
+>into negative signs. 
+>
+>I have read your archives extensively about negative numbers but I 
+>am still waiting for something to click.
+>
+>[Difficulty]
+>What are the rules?  At times, its seems like we can just change 
+>signs at will.  I am very confused on the subject and would like to 
+>have someone provide clarification.
+>
+>Thank you!
+>
+>[Thoughts]
+>
+
+Hi Mark,
+
+One way to start thinking about negative numbers is to think of the
+'-' as a shorthand for a direction, e.g., 
+
+  3 means 3 units east, -3 means 3 units west
+
+or
+
+  3 means 3 units up, -3 means 3 units down
+
+Now let's consider what happens if we add positive and negative numbers:
+
+   3 + 3             3 units east + 3 units east 
+
+   3 + -3            3 units east + 3 units west
+  -3 +  3
+ 
+  -3 + -3            3 units west + 3 units west
+
+Do you see how all these would have to turn out?  How about these?
+
+   3 + 5              
+
+   3 + -5            
+  -3 +  5
+ 
+  -3 + -5            
+
+Let me know if this is making sense to you so far, and then we can
+move on to subtraction...
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

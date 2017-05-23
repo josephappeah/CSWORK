@@ -1,0 +1,49 @@
+ThreadNum: 568010
+Subject: Re: Intersection of an ellipse and a line
+To: abbas.mohamed@quest-global.com (Abbas)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 10:03:58
+Sent: yes
+
+
+As Abbas wrote to Dr. Math
+On 08/21/2004 at 11:49:32 (Eastern Time),
+>[Question]
+>I am trying to find the intersection of an ellipse and a line. For 
+>the line I am using the parametric equation P=P1+u(P2-P1) and for 
+>ellipse I am using the standard equation (x^2/a^2)+(y^2/b^2)=1. To 
+>find the intersection point I further expand the line equation as 
+>follows, x=x1+u(x2-x1) and y=y1+u(y2-y1). And then I substitute these 
+>two equations in ellipse equation to find out "u". Now how can I find 
+>the u by solving the equation?
+>
+>[Difficulty]
+>After substitution, I am finding it very difficult to take out U to 
+>one side so that I can find the value for U and then substitute in 
+>the line equation. When a line intersects a ellipse, there are two 
+>possiblities. So the last equation equation has to be quadratic. I am 
+>not able to form the quadratic also.
+>
+>[Thoughts]
+>
+
+Hello Abbas,
+
+After substituting, one has the equation
+
+[ x1+u*(x2-x1) ]^2/a^2+[ y1+u*(y2-y1) ]^2/b^2 = 1
+
+If you expand both terms and arrange this a quadratic in u you will find
+
+{b^2*x1^2 + a^2*y1^2, -2*b^2*x1^2 + 2*b^2*x1*x2 - 2*a^2*y1^2 + 2*a^2*y1*y2, 
+b^2*x1^2 - 2*b^2*x1*x2 + b^2*x2^2 + a^2*y1^2 - 2*a^2*y1*y2 + a^2*y2^2}
+
+
+[b^2*x1^2 - 2*b^2*x1*x2 + b^2*x2^2 + a^2*y1^2 - 2*a^2*y1*y2 + a^2*y2^2]*u^2
+  + [-2*b^2*x1^2 + 2*b^2*x1*x2 - 2*a^2*y1^2 + 2*a^2*y1*y2 ]*u 
+  + [ b^2*x1^2 + a^2*y1^2 - 1] = 0.
+
+Now just solve by the quadratic formula.  Very messy algebra.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

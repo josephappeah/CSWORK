@@ -1,0 +1,64 @@
+ThreadNum: 566034
+Subject: Re: Studying for Praxis  1 exam
+To: hilary185@hotmail.com (Hilary)
+From: Doctor Roy
+TimeStamp: 08/09/2004 at 12:47:55
+Sent: yes
+
+
+As Hilary wrote to Dr. Math
+On 08/08/2004 at 12:26:31 (Eastern Time),
+>[Question]
+>If it takes one person 30 minutes to fill a pool
+>and it takes a second person 45 minutes to fill the same pool and a 
+>third person can fill it in 90 minutes, how long would it take to 
+>fill the pool if all three idivuduals worked together to fill the 
+>pool?
+>
+>[Difficulty]
+>I know the answer is 15 minutes but I can not seem to come up up with 
+>the correct solution (equation, etc.) to solve for the answer.
+>
+>[Thoughts]
+>That's my problem, I'm drawing a blank.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+This is a rate problem. Remember that:
+
+   work = rate * time
+
+For person A:
+
+  1 pool = rate * 30 min
+
+    rate = 1/30 pool/min
+
+For person B:
+
+  1 pool = rate * 45 min
+    rate = 1/45 pool/min
+
+For person C:
+
+  1 pool = rate * 90 min
+    rate = 1/90 pool/min
+
+Their combined rate (if they all work together) is:
+
+   1/30 + 1/45 + 1/90 = 6/90 pool/min
+                      = 1/15 pool/min
+
+   work = rate * time
+   time = work / rate
+        = 1 pool / (1/15 pool/min)
+        = 15 min
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

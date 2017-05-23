@@ -1,0 +1,55 @@
+ThreadNum: 567200
+Subject: Re: adding fractions with a variable on one side with a known fr
+To: Francine84@comcast.net (Marsha)
+From: Doctor Rick
+TimeStamp: 08/16/2004 at 22:18:01
+Sent: yes
+
+Hi, Marsha.
+
+As Marsha wrote to Dr. Math
+On 08/16/2004 at 19:32:10 (Eastern Time),
+>[Question]
+>1/20.0 + 1/x = 1/8.0 
+>What are the steps in solving this?
+>Thanks
+>
+>[Difficulty]
+>I forget how to do algebra
+>
+>[Thoughts]
+>The answer is in the book but I don't know how to get it on my own
+
+There are several ways you could go about it. One common way is first 
+to multiply through by the least common multiple of all the 
+denominators. This will get rid of the denominators and make a more 
+familiar equation. The common denominator of 20, x, and 8 is 40x; 
+multiplying both sides by 40x gives
+
+  40x(1/20 + 1/x) = 40x*1/8
+  (40/20)x + 40x/x = (40/8)x
+  2x + 40 = 5x
+
+Then you can subtract 2x from each side, to get both x's on the same 
+side so they can be combined:
+
+  40 = 5x - 2x
+  40 = (5 - 2)x
+  40 = 3x
+
+Then we have a one-step equation. Are you OK from here?
+
+Another approach is to first solve for 1/x:
+
+  1/20 + 1/x = 1/8
+  1/x = 1/8 - 1/20
+  1/x = 5/40 - 2/40
+  1/x = 3/40
+
+Then you can invert each side (take the reciprocals):
+
+  x = 40/3
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

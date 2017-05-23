@@ -1,0 +1,36 @@
+ThreadNum: 568204
+Subject: Re: Find the missing number in the number pattern.3,6,9,15,?,39
+To: singmin21@hotmail.com (Serene)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 05:33:40
+Sent: yes
+
+
+As Serene wrote to Dr. Math
+On 08/23/2004 at 05:01:19 (Eastern Time),
+>[Question]
+>I can't find the answer.
+>
+>[Difficulty]
+>The numbers are all indifferent.
+
+   3,  6,  9,  15,  ?,   39
+
+
+Note that 3 + 6 =  9
+          6 + 9 = 15
+         9 + 15 = 24
+        15 + 24 = 39
+
+So the missing number is 24.  Each term of the series (apart from 
+the first two) is the sum of the two preceeding terms.
+
+>
+>[Thoughts]
+>It looks weird. I tried the multiplication of 3 but I cannot find 
+>the answer.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,26 @@
+ThreadNum: 568939
+Subject: Re: How many possible 4 digit number factors  from 0 - 9
+To: ron.stambaugh@kctcs.edu (Ron)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 16:03:32
+Sent: yes
+
+
+As Ron wrote to Dr. Math
+On 08/26/2004 at 15:35:41 (Eastern Time),
+>My apology Dr. Math, and yes, you are right! I didn't mean what I 
+>asked. I meant to ask if you could possibly produce all 10,000 of 
+>these 4 digit codes? For example, 0001, 0002, 0003, 0004, and so on 
+>and so on. All 10,000 of these 4 digit codes.
+
+Hi Ron,
+
+Count from 0 to 9999, like you learned how to do when you were young
+and counting pennies: zero, one, two, three, four... you know what
+comes next.  After nine (0009) is ten (0010).  After nineteen (0019)
+is twenty (0020), after ninety-nine (0099) is one hundred (0100), and
+so on and so forth.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

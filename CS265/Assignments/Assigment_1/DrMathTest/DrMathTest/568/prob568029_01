@@ -1,0 +1,30 @@
+ThreadNum: 568029
+Subject: Re: odd and even functions
+To: isa_shah@hotmail.com (Sabrina)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 18:22:32
+Sent: yes
+
+Hi, Sabrina.
+
+As Sabrina wrote to Dr. Math
+On 08/21/2004 at 15:16:25 (Eastern Time),
+>[Question]
+>prove that h1+h2+h3 is an even function.
+>
+>
+>[Difficulty]
+>suppose h1+h2+h3=h(x)
+>then how can h(-x)be equal to h(x)?
+>
+>[Thoughts]
+>
+
+You haven't given enough information. Do you know anything about the 
+functions h1, h2, and h3? Or am I misreading, and h1, h2, and h3 are 
+constants? Every constant function is an even function, because the 
+value of the function for ANY value of x is the same.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

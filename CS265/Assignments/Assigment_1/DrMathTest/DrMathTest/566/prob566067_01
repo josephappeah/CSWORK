@@ -1,0 +1,45 @@
+ThreadNum: 566067
+Subject: Re: divisibility in proofs via number theory
+To: nip_tuk@hotmail.com (98bug)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 15:58:59
+Sent: yes
+
+
+As 98bug wrote to Dr. Math
+On 08/08/2004 at 18:56:43 (Eastern Time),
+>[Question]
+>Let a and b be integers.  If bla^2 and gcd(b, a^2/b)=1, then there 
+>exists an integer c such that b=c^2
+> 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>By theorem 2.3.1 bx + a^2/by=1 so b and a^2/b are relatively prime
+>By 2.4.1 bx + a^2/by =c so b=(c-a^2/by)/x
+>?
+
+Hi 98,
+
+Thanks for writing to Dr Math.  Since b divides a^2,
+
+  b*r = a^2
+
+for some integer r, and r = a^2 / b.  So
+
+  gcd(b, r) = 1,
+
+so b and r are relatively prime.  Do you have a theorem that applies
+when the product of two relative prime numbers is a square?  If not,
+consider the prime factorization of b and of r, and how this relates
+to the prime factorization of a.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,61 @@
+ThreadNum: 566096
+Subject: Re: A word problem that stumped me and many friends
+To: snoopy119504506@yahoo.com (Greg)
+From: Doctor Rick
+TimeStamp: 08/09/2004 at 08:47:39
+Sent: yes
+
+Hi, Greg.
+
+As Greg wrote to Dr. Math
+On 08/08/2004 at 23:26:49 (Eastern Time),
+>[Question]
+>Both pipes are same diameter, neither have a leak, and both have the 
+>same filling potential:
+>One pipe can fill a swimming pool in 5 hours less than another. 
+>Together they fill the swimming pool in 5 hours. How long would it 
+>take each pipe to fill the tank alone?
+>
+>[Difficulty]
+>If one pipe fills the tank 5 hours less than the other, how can just 
+>a one variable answer be found?  Shouldn't a 2 varible answer be 
+>found to make up for the pipes filling at different rates?
+>
+>[Thoughts]
+>This is another friends work:
+>(x+y)5=xt=y(t+5)
+>Answer=10
+
+The question asks how long it takes EACH PIPE to fill the pool alone. 
+Thus you do need to give TWO answers: the time it takes for the first 
+pipe, and the time it takes for the second pipe. Your friend's answer 
+is wrong at least for this reason, that it is incomplete; I don't 
+know what the answer means. (It should also have units.)
+
+Your friend's work has three variables and two equations -- not 
+enough to get an answer, as it stands, but it's pretty close. I 
+suppose x and y are rates for the two pipes and t is the time it 
+takes for the first (faster) pipe to fill the pool.
+
+Let's back up a bit. What is a rate for this problem? What units 
+should it have? The rates will be volumes per unit time. Then the 
+product of a rate and time will be a volume. But we don't know the 
+volume of the pool, so what should xt, for instance, equal? Here is a 
+useful trick. We can make up our own unit of volume -- the natural 
+choice is the volume of the pool. One "pool" is the volume of the 
+pool, so the pool has a volume of 1 pool.
+
+Now, we can say that x is the filling rate of the first pipe, in 
+pools per hour. The product of x and t, the time it takes to fill the 
+pool, is 1 pool. Now we've got an equation
+
+  xt = 1
+
+You can turn your friend's two equations into three equations in this 
+way. Then you've got enough equations to solve for the three 
+variables. Just be aware that the answer requires two numbers, and 
+they are NOT the values of two of these three variables.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

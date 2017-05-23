@@ -1,0 +1,66 @@
+ThreadNum: 566395
+Subject: Re: Converting inches into feet
+To: tfrison1975@yahoo.com (Shuka)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 09:34:44
+Sent: yes
+
+
+Hi Shuka,
+
+>How do I change 3 1/2 inches into feet?
+>
+>My problem is this Brian is on the baseball team this year.  Last 
+>season he was 6ft. 2in. and grew 1 1/2 inches over the summer.  How 
+>tall is Brian now?
+
+6 feet, 3 1/2 inches. 
+
+>I'm really not sure about the changing of inches in this case to feet.
+
+Why would you _want_ to?  You could divide 3 1/2 by 12 to get 
+
+       0.2 9 1
+      ________
+  12 ) 3.5 0 0
+       2 4
+       ---
+       1 1 0
+       1 0 8
+       -----
+           2 0
+           1 2
+           ---
+             8 ...
+
+but if you told someone that Brian is 6.29 feet, they'd just have to
+convert it back to inches to understand what you were talking about. 
+
+You might think of it this way:  3 inches is 1/4 of a foot, so Brian is 
+
+     6 ft + 1/4 ft  + (1/2)(1/12) ft
+
+   = 6 ft + 0.25 ft + 1/24 ft
+
+and 1/24 is pretty close to 1/25, which is 4%, giving
+
+   = 6 ft + 0.25 ft + 0.04 ft (approximately)
+
+   = 6.29 feet (approximately)
+
+      
+>I said 3 1/2 inches by adding the 2 inches and the 1 1/2 inches.
+>I then said 3 + 1/2 inches = 3.5 inches and divided this by 12ft.
+>With dividing I came up with .2916666.  I then took that and adding 
+>it to the 6ft. and came up with an answer of 6.2916666.  Is this 
+>correct?
+
+It's right, but somewhat pointless.  Also, you'd want to truncate the
+decimal expansion, since including decimal places suggests that you
+measured him to the nearest millionth of an inch.  :^D
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

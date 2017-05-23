@@ -1,0 +1,43 @@
+ThreadNum: 568121
+Subject: Re: Percent of men and women who are unionized and not unionized
+To: duong007@umn.edu (Eriq)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 16:17:31
+Sent: yes
+
+
+Hi Eriq,
+
+>In the Excel Manufacturing Company, 46 percent of the 
+>employees are men.  If 60 percent of the employees are 
+>unionized and 70 percent of these are men, what percent of the 
+>non-union employees are women?
+>
+>[Difficulty]
+>I cannot solve using system of equation because there are too 
+>many different variables.
+
+Actually, you don't need any variables to solve this. 
+
+Let's pretend they have 100 employees.  (We can always scale the
+result this gives us, so we don't give anything up this way.)
+
+So we have 46 men, and 54 women.  
+
+And we have 60 union employees.  70% of these are men. 10% of 70 would
+be 6, so 7 times that is 42 union men.  Which means 4 non-union men. 
+Let's summarize our results so far:
+
+          Union     Non-union     Total
+
+   Men      42         4            46
+
+   Women     ?         ?            54
+
+   Total    60        40           100
+
+Can you fill in the missing values? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

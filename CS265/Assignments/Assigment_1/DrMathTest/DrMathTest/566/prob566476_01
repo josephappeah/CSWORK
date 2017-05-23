@@ -1,0 +1,56 @@
+ThreadNum: 566476
+Subject: Re: 4(2y -3) = 28
+To: beanerboy55@yahoo.com (stephen)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 10:44:59
+Sent: yes
+
+
+As stephen wrote to Dr. Math
+On 08/11/2004 at 10:06:20 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>Im not sure how to work out the problem.
+>
+>[Thoughts]
+>
+
+Hi Stephen,
+
+Before trying to 'work' the problem, it would be good to make sure you
+understand what the problem is asking you.  
+
+When we write
+
+  4(something) 
+
+that's shorthand for 
+
+  4*something               '*' = multiplication
+
+So this is really
+
+  4*(2*y - 3) = 28
+
+We're using 'y' to represent some number, whose value we don't yet
+know, that makes the statement true.  For example, could y have a
+value of 9?  let's try it:
+
+  4*(2*9 - 3) =? 28           '=?' means we don't know whether
+                                   it's actually equal...
+   4*(18 - 3) =? 28
+
+         4*15 =? 28
+
+           60 =? 28  (Nope)
+
+60 isn't equal to 28, so y can't be equal to 9.  By trial and error,
+can you find the value of y that makes the equation true?  Try it, and
+let me know what you come up with.  Then we can talk about other, more
+efficient methods that you can use.
+    
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

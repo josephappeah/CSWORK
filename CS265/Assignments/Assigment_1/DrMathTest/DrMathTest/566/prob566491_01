@@ -1,0 +1,58 @@
+ThreadNum: 566491
+Subject: Re: what is a double integral ?give a simple example
+To: s_rchandran@hotmail.com (S.RAMACHANDRAN)
+From: Doctor Roberts
+TimeStamp: 08/12/2004 at 12:08:56
+Approved-By: Doctor Ian
+Sent: yes
+
+As S.RAMACHANDRAN wrote to Dr. Math
+On 08/11/2004 at 12:39:17 (Eastern Time),
+>[Question]
+>I know integral as a sum of individual small quantities over
+>a period of time.
+>What is a double integral?
+>
+>
+>[Difficulty]
+>if double integral exist nth integral will also exist.
+>
+>
+>"it is not possible to differentiate a function continuously because
+>after some derivate we will face a constant."
+>similarly what will happen if we integrate continuously.
+>
+>
+>[Thoughts]
+>
+
+Hi S.!  You've brought up some interesting questions.  I'll do my 
+best to answer them, but let me know if you have any more.
+
+First of all, an integral is typically first introduced as area.  If 
+you imagine the graph of x^2, if we want to find the area between 
+the graph and the x-axis, we can draw vertical rectangles to 
+approximate the area.  By letting the size of the rectangles become 
+arbitrarily thin, we obtain what's called the integral.  Since you 
+have some familiarity, I'm sure this is all review for you.
+
+In addition to regular functions, f(x)=x^2, we can have what are 
+called multivariable functions.  In these, the function value 
+depends on more than just x.  For example, f(x,y)=x^2-2y is a 
+multivariable function.  Rather than having a xy-plane, we have a 
+three dimenionsal xyz graph.
+
+When we speak of a double integral, we integrate with respect to 
+more than one variable.  In visual terms, when we integrate with 
+respect x and y, we obtain a volume rather than an area.
+
+So, as you can hopefully understand from my explanation, double and 
+triple integrals aren't the same as integrating over and over.  
+Finally, you mentioned that we cannot differentiate continuously.  
+But we can!  The exponential, e^x, is continuously differentiable.
+
+
+- Doctor Roberts, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

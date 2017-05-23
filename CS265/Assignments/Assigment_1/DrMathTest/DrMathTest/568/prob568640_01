@@ -1,0 +1,96 @@
+ThreadNum: 568640
+Subject: Re: How to calculate weight of object when lifting from 1 corner
+To: stella@metavisio.com (Stella)
+From: Doctor Rick
+TimeStamp: 08/25/2004 at 09:03:24
+Sent: yes
+
+Hi, Stella.
+
+As Stella wrote to Dr. Math
+On 08/25/2004 at 06:30:31 (Eastern Time),
+>[Question]
+>Say I have a 6 ton gondola that is cube in shape.  How do I figure 
+>out how much weight I am lifting assuming I tip the gondola by 
+>pulling it up from the midpoint of one of the cubes sides?  At 
+>inertia (prior to any angle with the ground) does the cube weight 6 
+>tons?
+>
+>[Difficulty]
+>I belive this is a trig question.  I'm not sure how to look for a 
+>method to solve it though.
+>
+>[Thoughts]
+>I am not a student nor am I in school.  I just became curious after 
+>watching us use a 5 ton motor to tip 6 ton gondolas.
+
+This doesn't become a trig question until we tip the gondola out of 
+its resting position. I'll work it out in general, for any angle, 
+assuming the gondola is a perfect cube, so that it is a trig problem. 
+The solution is a matter of treating the base of the gondola as a 
+built-in lever. Here is the figure (side view):
+
+             *
+            /    \
+           /         \
+          /              \
+   F     /                   \
+   ^    /                        *
+   :   /                        /
+   :  /                        /
+   : /            *           /
+   :/             :    N     /
+   *              :    ^    / s
+       \     s    :    :   /
+           \      :    :  /
+               \  :    : /
+            theta :\   :/
+------------------:----*---------------
+                  :  x
+                  :
+                  v
+                 mg
+
+You are lifting up at the corner with force F. Gravity is pulling 
+down at the center of the cube with force mg (mass times the 
+acceleration of gravity). There is another force: the floor pushes up 
+on the corner that is still on the ground, with "normal force" N.
+
+If I assume that the cube is being raised slowly enough that it can 
+be viewed as stationary, I can write two equations: a force equation
+
+  mg = F + N
+
+and a torque equation (saying that there is no torque or rotational 
+force on the cube)
+
+  F*s*cos(theta) = m*g*s*sqrt(2)/2)*cos(theta+45)
+
+This latter equation comes from calculating the torque due to each 
+force: the force times the moment arm, which is the perpendicular 
+distance between the fulcrum and the line along which the force acts.
+
+We only need the second equation if we just want to solve for F:
+
+  F = mg*sqrt(2)/2)*cos(theta+45)/cos(theta)
+    = mg*sqrt(2)/2)*(cos(theta)*cos(45)-sin(theta)*sin(45))/cos(theta)
+    = mg*sqrt(2)/2)*(cos(theta)*sqrt(2)/2-sin(theta)*sqrt(2)/2)/cos
+(theta)
+    = mg*sqrt(2)/2)*(sqrt(2)/2)*(1-tan(theta))
+    = (mg/2)(1-tan(theta))
+
+That's it. The weight of the gondola, 6 tons, is mg. (I'm being a bit 
+loose with terms, but all we need to think about is ratios, so the 
+fact that tons aren't really a unit of weight but of mass doesn't 
+matter.) When the gondola is still horizontal, theta = 0 and F = 
+mg/2; that is, the force needed to lift a corner is half the total 
+weight. The corner that acts as a fulcrum bears the other half of the 
+weight. This makes sense: the center of mass is exactly between the 
+fulcrum and the lift, so they bear equal loads. As you raise the 
+corner, the equation tells us that the share of the load borne by the 
+lift decreases, until at an angle of 45 degrees, the gondola will 
+fall over on the other side unless you hold it back.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

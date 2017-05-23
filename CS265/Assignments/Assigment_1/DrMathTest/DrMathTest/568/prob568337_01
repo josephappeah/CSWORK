@@ -1,0 +1,49 @@
+ThreadNum: 568337
+Subject: Re: Volume of a cone - Geometry
+To: lacano@sandia.gov (Les)
+From: Doctor Peterson
+TimeStamp: 08/23/2004 at 23:49:39
+Sent: yes
+
+Hi, Les.
+
+As Les wrote to Dr. Math
+On 08/23/2004 at 20:16:43 (Eastern Time),
+>[Question]
+>The volume of a cylinder can be calculated easily by taking the area 
+>of the base and multiplying by the height.
+>
+>Why can't you do this for a cone where you take the area of the right 
+>triangle (formed by the radius and height of the cone) and multiply 
+>it by the circumference (arc) of the circle.
+>
+>e.g. (2*pi*r) * (0.5r*h) = pi*r^2*h
+>
+>I understand your examples I just want to understand why my way 
+>doesn't work.
+>
+>[Difficulty]
+>The cylinder method works fine for a circle moving in a straight 
+>line, why not for a triangle sweeping through an arc?
+>
+>[Thoughts]
+>e.g. (2*pi*r) * (0.5r*h) = pi*r^2*h
+
+The problem is that when a region moves in a circle rather than in a
+straight line, different parts move different distances. The whole
+thing doesn't move through the circumference of the circle.
+Multiplication doesn't work in that case -- unless you know the
+theorem of Pappus, which tells you what you CAN multiply:
+
+  Volume of a Cone
+  http://mathforum.org/library/drmath/view/51840.html
+
+  Pappus' Centroid Theorem
+  http://mathforum.org/library/drmath/view/63136.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

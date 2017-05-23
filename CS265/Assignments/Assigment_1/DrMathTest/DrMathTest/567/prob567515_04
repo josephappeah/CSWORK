@@ -1,0 +1,75 @@
+ThreadNum: 567515
+Subject: Re: Differentiation under the integral sign
+To: pedrocdc1@hotmail.com (pedro castilla)
+From: Doctor Jerry
+TimeStamp: 08/19/2004 at 07:48:01
+Sent: yes
+
+
+As pedro castilla wrote to Dr. Math
+On 08/18/2004 at 20:25:32 (Eastern Time),
+>Because, by assumption, D_2 f is continuous on [a,b] X [c,d], it is 
+>uniformly
+>continuous 
+>there.  Let eps > 0 be given; there is a del >0 for which
+>
+>|D_2f(u,v) - D_2f(p,q)| < eps
+>
+>provided (u,v) is within delta of (p,q).
+>
+>OK, let's say that the partition a= x_0,x_1, ...,x_n =b is such that 
+>for all k = 1,...n we have x_k - x_k-1 < delta.
+>
+>Now I break the integral this way:
+>
+>
+>   b                x_1                    b
+>  /                /                      /    
+>  | D_2 f(x,Y)dx = | D_2 f(x,Y)dx + ... + | D_2 f(x,Y)dx     (1)
+>  /                /                      /
+>  a                a                      x_n-1
+>
+>You say: (Now) use the uniform continuity of D_2 f, which makes of the
+>integrands less 
+>than eps*length of the subintervals.  Add all of these to get eps(b-
+>a).
+>I am afraid I get lost here... the uniform continuity of D_2 f 
+>assures me that |D_2f(u,v) - D_2f(p,q)| < epsilon, but how can I 
+>apply this fact to equation (1) ????
+>
+>Really thanks for your time.
+>
+>Pedro Castilla.
+>Lima, Perú.
+>
+>
+
+Hello Pedro,
+
+Sorry, I got  confused.  Here's what I should have said:
+
+We want to show that if
+
+F(y) = int(x=a,x=b,f(x,y)*dx)
+
+then
+
+F'(y) = int(x=a,x=b,D_2 f(x,y)*dx) for each y in (c,d).
+
+Let y_0 be in (c,d).  We can calculate
+
+[F(y) - F(y_0)]/(y-y_0) = int(x=a,x=b,D_2 f(x,Y)*dx) ,
+
+where Y is between y and y_0.  If the limit of the left side exists, it should be 
+int(x=a,x=b,D_2 f(x,y)*dx).  We subtract this quantity (which exists, from hypothesis) from 
+both sides:
+
+[F(y) - F(y_0)]/(y-y_0) - int(x=a,x=b,D_2 f(x,y)*dx)
+
+          =  int(x=a,x=b, [ D_2 f(x,Y) - D_2 f(x,y) ]*dx)
+
+Now take absolute values and use the uniform continuity of D_2 f.  The right side is less 
+than eps*(b-a) .
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

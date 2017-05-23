@@ -1,0 +1,38 @@
+ThreadNum: 567191
+Subject: Re: a formula of the form y=[x]
+To: KKBug@aol.com (Kendall)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 22:50:00
+Sent: yes
+
+
+As Kendall wrote to Dr. Math
+On 08/16/2004 at 18:58:53 (Eastern Time),
+>[Question]
+>i do not know what this notation means and therefore cannot complete 
+>the problem. it is a review of pre-calculus ideas for AP calculus 
+>AB. if you could provide me with any information as to what this 
+>problem signifies, either graphically or anylitically, that would be 
+>very great!
+>
+>[Difficulty]
+>i do not know what the notation means.
+>
+>[Thoughts]
+>i have none.
+
+Thanks for writing to Ask Dr. Math, Kendall!
+
+The notation [x] means the largest integer less than or equal to the
+real number x.  Thus
+
+   [1.4142] = 1,
+   [7] = 7,
+   [-3.5] = -4.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

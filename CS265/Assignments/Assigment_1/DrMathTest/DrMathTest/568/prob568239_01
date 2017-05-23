@@ -1,0 +1,35 @@
+ThreadNum: 568239
+Subject: Re: Lasers and Optics
+To: s2lai@hotmail.com (Senthuran)
+From: Doctor Tom
+TimeStamp: 08/23/2004 at 14:58:50
+Sent: yes
+
+
+As Senthuran wrote to Dr. Math
+On 08/23/2004 at 13:14:41 (Eastern Time),
+>[Question]
+>If I have a lens with focal length f, back focal plane at -2f and 
+>front focal plane at 2f...
+>
+>If I have two rays of light which are converging at -2f, will they 
+>necessarily be converging at +2f?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Yes, assuming the thin-lens approximation.
+
+The formula that relates d1 and d2 to f, where d1 and d2 are
+the distances in front of and behind the lens of focal length f is:
+
+1/d1 + 1/d2 = 1/f.
+
+In your case, d1 = d2 = 2f, which works in the formula.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

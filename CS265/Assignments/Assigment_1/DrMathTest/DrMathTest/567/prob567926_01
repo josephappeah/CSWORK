@@ -1,0 +1,45 @@
+ThreadNum: 567926
+Subject: Re: octagon
+To: jbehr@shaw.ca (Jason)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:16:14
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 08/20/2004 at 17:40:53 (Eastern Time),
+>[Question]
+>If I want by octagon table to be 46" across, what lentgh does each 
+>piece of the octagon have to be?
+>
+>Also, how did you figure it out?
+>
+>[Difficulty]
+>I have no idea ho to figure it out
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Jason!
+
+Our Doctor Math Frequently Asked Questions (FAQ) gives some useful
+formulas:
+  <http://www.mathforum.org/dr.math/faq/formulas/faq.regpoly.html#8>
+
+When you say 46" across, are you measuring between opposite corners, 
+or between midpoints of opposite sides?  In the first case, you
+have R = 46 and in the second case, you have r = 46.  In either
+case, you want the value of a.
+
+There are two ways to figure this out.  One is to draw the inscribed
+and circumscribed circles, and radii to the corners and midpoints
+of sides, and use trigonometry.  The other is to draw lines exten-
+ding four of the sides to form an enclosing square, and use the
+Pythagorean Theorem.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

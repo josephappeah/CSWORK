@@ -1,0 +1,31 @@
+ThreadNum: 566962
+Subject: Re: Critical Thinking Math Question
+To: NurseKim@cutey.com (Kim)
+From: Doctor Tom
+TimeStamp: 08/15/2004 at 00:01:37
+Sent: yes
+
+
+As Kim wrote to Dr. Math
+On 08/14/2004 at 21:50:45 (Eastern Time),
+>[Question]
+>How many different ways can six children line up for a class photo?  
+>(I am in a college-level critical thinking class) 
+>
+>[Difficulty]
+>I just am having trouble seeing all the possibilities without 
+>repeating a child.
+>
+>[Thoughts]
+>If I understand correctly, I do this like this:
+>6 x 5 x 4 x 3 x 2 x 1 = 720
+>Am I thinking along the right lines?
+
+You're right.  The first kid can be any of the 6.  Once you've
+chosen him or her, there are 5 ways to fill the next slot, for
+a total of 6x5 ways to fill the first two.  For each of those 6x5
+ways, there are 4 kids available to fill the third slot, and so on.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

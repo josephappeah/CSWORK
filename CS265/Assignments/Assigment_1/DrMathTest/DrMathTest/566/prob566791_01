@@ -1,0 +1,93 @@
+ThreadNum: 566791
+Subject: Re: Real World-Airline Business (Hot-Hot)
+To: walter.stewart@united.com (Walter  )
+From: Doctor Douglas
+TimeStamp: 08/13/2004 at 12:17:20
+Sent: yes
+
+
+As Walter   wrote to Dr. Math
+On 08/13/2004 at 04:55:14 (Eastern Time),
+>[Question]
+>My airline company (A) is currently considering outsourcing it's 
+>aircraft brakes to another company (B).  The prices are based on a 
+>cost per aircraft landing (CPAL) formula.  P = (L x CPAL)  
+>
+>P= monthly payment
+>L= total aircraft landings
+>CPAL= charge per aircraft landing ($19.00)
+>
+>This formula is straight forward.  There are provisions in the 
+>agreement to adjust the CPAL.  This is where the problem is 
+unclear.  
+>The adjusted CPAL is based on a certain amount of landing per 
+>overhaul.  The company(B) has a guaranteed that we will receive 1250 
+>(LPO) landings per overhauled brake.  Great.  But what if there 
+>estimates are wrong?  The formula for the adjusted CPAL = (Target 
+>LPO / Actual average LPO) x initial CPAL.  Based on my data, how 
+>would I determine my actual average LPO?
+>
+>Number of aircraft(139) x (4) brakes per aircraft = 556
+>Annual averaged brakes overhauled  = 996
+>Annual Landings = 20,040
+>
+>What formula would I used to determine what was the average amount 
+of 
+>landings per overhauled brake?   
+>
+>[Difficulty]
+>Could I derive this information from the above data?  Simply 
+dividing 
+>the number of landing by the number of overhauls won't give me the 
+>LPO. 
+>
+>Could you please respond as soon as possible.  Millions of dollars 
+>are riding on this issue.
+>
+>[Thoughts]
+>
+
+Hi Walter.
+
+thanks for writing to the Math Forum.  I am an airline traveler, 
+my father worked on B757 and 767 landing gear for Boeing, and I 
+have a good friend that flew 747's and D-10s for United before
+retiring a few years ago.  So I have a personal stake in this type 
+of problem.
+
+If it were me, I would compute the actual average LPO by 
+tracking every single individual brake--you have the records, so
+you should be able to do this, even for all 556 brakes.  You can
+find the dates of its last two overhauls, and compute the number
+of landings between them.  You might also wish to include more 
+recent data (i.e., since last overhaul); you could do this by 
+choosing the minimum of the following two quantities:  
+
+  1.  actual landings since last overhaul,
+  2.  an "expected" number of landings (can be 1250, or perhaps
+      the average number of landings for this aircraft--it may
+      vary by specific aircraft (for instance, an airplane that 
+      is used to locations with shorter runways might have 
+      increased brake use).
+
+Of course you may not want to include this recent [and therefore
+incomplete (#1) or estimated (#2)] data.  I emphasize that the 
+exact choice of how to go about this computation properly depends 
+on the nature of the industry.  I presume that in certain cases 
+not all brakes are simultaneously overhauled on a given aircraft, 
+so that the number of landings must be tracked on a brake-by-brake
+basis.
+
+My belief is that "target LPO" and "average LPO" should either be
+industry standard terms.  If they are not, then they should be 
+spelled out in the contract.
+
+Having said all this, I will suggest that you consult a operations 
+engineer, and I expect that United has some qualified staff.  This 
+type of problem is exactly what they are trained to do, and they 
+will understand which concepts are important from the business 
+point of view.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

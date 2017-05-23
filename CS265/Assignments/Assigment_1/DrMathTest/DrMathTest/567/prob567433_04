@@ -1,0 +1,96 @@
+ThreadNum: 567433
+Subject: Re: Is this a Computable or Uncomputable Function?
+To: Fidika@new.rr.com (Paul Fidika)
+From: Doctor Jacques
+TimeStamp: 08/19/2004 at 02:59:05
+Sent: yes
+
+
+As Paul Fidika wrote to Dr. Math
+On 08/19/2004 at 01:50:52 (Eastern Time),
+>Thank you for your reply! I just have one last question: is there 
+>any sort of (formal) definition that you know of which distinguishes 
+>definitions of functions such as your:
+>
+>"f(n) = 1 if the decimal expansion of pi contains a string of at 
+>least n consecutive "4" digits, and 0 otherwise.",
+>
+>which specifies a unique function but does not say precisely what it 
+>is (leaving it up to the reader to determine), from more "concrete" 
+>function definitions such as the usual definitions for tan, exp(x), 
+>a look-up table, or f(x) = x?
+
+Hi again Paul,
+
+I don't know of any formal definition for the kind of function that 
+you are considering.
+
+In fact, this is probably not a well-defined mathematical concept. A 
+function is a set of pairs (x,f(x)) where every x in the domain 
+appears in exactly one pair; nothing is said about the possibility to 
+obtain f(x) from x.
+
+Even worse, if we consider functions over a given infinite domain, 
+the set of those functions is uncountable. If we assume that the 
+definition of a function can be expressed as a finite string over a 
+fixed finite alphabet, we see that the set of possible definitions is 
+countable. The conclusion is that there are functions that cannot 
+even be defined.
+
+For the functions that can be defined, there are lots of possible 
+types of definitions (some apply only to certain particular domains), 
+for example:
+
+* A "standard name" like exp, cos, ... This is not a definition, just
+  a mnemonic. The definition must be given separately, by other means
+  like those below.
+
+* A geometric construction - this is a typical way of defining
+  trigonometric functions.
+
+* An equation, like those for rational functions.
+
+* A convergent series.
+
+* A differential equation.
+
+* An algorithm to compute the function.
+
+* The cardinality of a set of objects, like combinatorial functions.
+
+* A statement like the one I gave you - in fact, this would have to
+  be expressed in a more formal way, but the definition is
+  unambiguous.
+
+There are also lots of other ways to define functions (and, as I 
+said, most functions cannot even be defined). There may also be 
+different ways to define the same function. It can also happen that a 
+function is defined in a "non-constructive" way, and that we find 
+later a more effective definition. For example, for the function I 
+gave you, it is conceivable (although unlikely) that somebody would 
+find the length of the longest string of "4" in pi by some elaborate 
+argument. We would then know that f is the same function as u_t for 
+some t. Note that the function has not changed, we have merely found 
+another interpretation of it. This means that the kind of definition 
+used is not an intrinsic attribute of the function.
+
+In fact, this is what happens all the time when we solve a problem 
+asking for a function. Consider a typical problem, like "How many 
+subsets are there in a set of n elements ?". The statement of the 
+problem actually defines a function f(n) - the number of subsets 
+(assuming that we can prove that this only depends on n, not on the 
+set in question). The solution of the problem consists in finding 
+another definition of the same function, using a more "classical" 
+type of definition. In this case, we can prove that f(n) is the same 
+function as 2^n - we did not find another function, we merely found 
+another definition for the same function.
+
+The distinction you are considering would then be related to the 
+concept of solved (not solvable) problem; I believe this is 
+unsuitable as the basis of a mathematical definition.
+
+Please feel free to write back if you want to discuss this further.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

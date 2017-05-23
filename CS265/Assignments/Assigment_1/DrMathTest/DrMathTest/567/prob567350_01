@@ -1,0 +1,45 @@
+ThreadNum: 567350
+Subject: Re: Volume question to solve a problem at work
+To: cathyg@omniteaminc.com (cathy)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 13:33:22
+Sent: yes
+
+
+As cathy wrote to Dr. Math
+On 08/17/2004 at 18:43:34 (Eastern Time),
+>[Question]
+>There is a tank that is 48" high and 40" in diameter, I need to know 
+>how to get the volume of the liquid that would go inside?  How many 
+>gallons?
+>
+>[Difficulty]
+>All of it
+>
+>[Thoughts]
+>v=(1/3)Base (Height)          v=base(height)
+>   (1/3) (40")(48")            v = (48)(40)  
+>   = 640                         =1920   
+
+Hi Cathy,
+
+The formula on the left would work for a cone.  I assume the tank is a
+cylinder (like a soup can)?  In that case, the formula on the right,
+
+  v = area of base * height
+
+is the one to use, but the area of the circular base will be pi times
+the square of the radius.  The radius is half the diameter, so 
+
+  v = (pi * (diameter/2)^2) * height
+
+    = pi * 20^2 * 48
+
+That will get you the volume in cubic inches.  To convert to gallons,
+you'd need to know that there are 231 cubic inches in a gallon.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

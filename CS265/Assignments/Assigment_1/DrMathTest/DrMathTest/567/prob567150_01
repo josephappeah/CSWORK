@@ -1,0 +1,48 @@
+ThreadNum: 567150
+Subject: Re: How do I raise a number to a power with a fraction
+To: jesusfreakjune@yahoo.com (Amanda)
+From: Doctor Rick
+TimeStamp: 08/16/2004 at 17:49:23
+Sent: yes
+
+Hi, Amanda.
+
+As Amanda wrote to Dr. Math
+On 08/16/2004 at 15:54:00 (Eastern Time),
+>[Question]
+>I have a math problem, in which i have to raise the number 8 to a 
+>power 3/2 and I don't understnad how to do that. Can you show me an 
+>example on how that is done step by step?
+>
+>[Difficulty]
+>I don't understand how to do it, it looks easy, and it sounds easy, 
+>but when I try to do it, it stomps me completely.
+>
+>[Thoughts]
+>
+
+Have you learned that the 1/2 power is the same as the square root of 
+a number? Do you understand this?
+
+If I can assume this, then the work goes as follows. Write the 
+fraction as 3/2 = 3 * 1/2. Then apply the product property of 
+exponents:
+
+  8^(3*1/2) = (8^3)^(1/2)
+
+or
+
+  8^((1/2)*3 = (8^(1/2))^3
+
+You can proceed either way. The second will give you smaller numbers 
+to work with. Do you know how to simplify the square root of 8? 
+That's what you have inside the parentheses. Once you have that, you 
+will have to cube it. Then simplify the result once more.
+
+If you can't get all the way through the problem with these 
+suggestions, show me all the work you are able to do, and tell me 
+what specifically confuses you so you can't go further.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

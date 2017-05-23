@@ -1,0 +1,65 @@
+ThreadNum: 568449
+Subject: Re: Rounding numbers that end in 5.
+To: tomas.hernandez-1@ksc.nasa.gov (Tomas)
+From: Doctor Peterson
+TimeStamp: 08/24/2004 at 12:27:49
+Sent: yes
+
+Hi, Tomas.
+
+As Tomas wrote to Dr. Math
+On 08/24/2004 at 11:52:57 (Eastern Time),
+>[Question]
+>I disagree with the information you are providing about rounding 25 
+>to 30 instead of to 20.  5 is in the middle so sometimes we have to 
+>round up and sometimes down and that is why mathematics tells us to 
+>round to even.  Mathematics is a set of rules that must be always be 
+>followed.  We must learn them and apply them.  I also don't agree 
+>with having to round 1 number and that tradition tells us to round 
+>up as in a length.  I measure the space for my refrigerator at 35.7" 
+>and go purchase a 36" wide refrigerator and it will not fit.  I 
+>should not have rounded at all and if I had to round to anything 
+>then I should have rounded the space down to ensure my refrigerator 
+>would fit so it would be situation dependent.  Let us learn and 
+>follow the rules mathematics provides.  If the rule is bad (which 
+>this one is not) then let us go change it.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+You seem to have read only one or two pages, not everything we say
+about rounding! See this page:
+
+  http://mathforum.org/library/drmath/sets/select/dm_rounding.html
+
+and especially
+
+  Rounding Decimals: Even/Odd Issues
+  http://mathforum.org/library/drmath/view/58972.html
+
+Mathematics is not really "a set of rules". In many cases there are
+different ways to do the same thing, and even different definitions of
+the same concept depending on context. In this case, since there is no
+one "nearest" whole number, the definition of "round to nearest" has
+to be supplemented by some arbitrary choice between the two nearest
+numbers, and there are different conventions for different situations.
+We usually teach the "round up on 5" rule because it is the easiest,
+and is sufficient for elementary purposes. You apparently were taught
+the "round to even" rule, which is most useful in statistical
+applications. Both are valid.
+
+And as you point out, there are situations where you must only round
+down (to fit the refrigerator) or up (to choose a box to hold the
+refrigerator, say), if you round at all. Math is not just a matter of
+blindly following rules, but of choosing the appropriate rule for the
+circumstances. Right?
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

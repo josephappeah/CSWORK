@@ -1,0 +1,83 @@
+ThreadNum: 567985
+Subject: Re: An answer regarding the value of 0^i
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Ian
+TimeStamp: 09/12/2004 at 11:21:08
+Sent: yes
+
+
+Hi Mitropam,
+
+>            After I received your last proof I showed it to my 
+>school's math teacher and my home tutor(I had consulted them first 
+>after I found the flaw in the first proof). However,both of them told 
+>me that they think the proof is not sound because it consists 
+>manipulations with "ln 0" which is undefined itself.
+
+That's sort of the point of the proof, isn't it?  That trying to
+evaluate it requires you to evaluate an expression that isn't defined.
+
+It's sort of like trying to answer:
+
+  if   f(x) = x/(x-2) 
+  then f(2) = ?
+
+Trying to evaluate it leads you to division by zero, so f(2) has no
+value.  
+
+Similarly, trying to evaluate 0^i leads you to taking the logarithm of
+zero, so 0^i has no value. 
+
+>                            I myself worked with this a little and 
+>have come up with this:-
+>
+>
+>               0^i = (0*a)^i   [Where a is a real number 
+>
+>
+>                   =(0^i)*(a^i) and a is not equal to 0 and 1] 
+>                      or, 0^i - (0^i)*(a^i) = 0    
+>
+>
+>                      or, 0^i(1 - a^i) = 0     
+>
+>
+>                      or, 0^i = 0 [Since a isn't equal to 1 so a^i is  
+>                                    not equal to 1 too. This means     
+>                                   that (1 - a^i) isn't equal to 0]    
+>         
+>
+>
+>          But if 0^i = 0 ............(P) 
+>
+>
+>          then,  (0^i)^i = 0^i   
+>
+>
+>              or, 0^(i*i) = 0^i
+>
+>
+>              or, 0^(-1) = 0^i ............(Q)
+>
+>
+>      So  from(P) & (Q),
+>
+>
+>                        0 = 0^(-1)  !!
+>
+>
+>                         This is impossible and implies that (P) is 
+>false,i.e.,
+>
+>
+>                       0^i is not equal to 0.
+>
+>
+>                Can you enlighten me a bit?
+
+First, what was the purpose of restricting a so that it's not equal to
+zero or one? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,45 @@
+ThreadNum: 566157
+Subject: Re: Combinations
+To: haris90210@hotmail.com (Haris)
+From: Doctor Roy
+TimeStamp: 08/09/2004 at 18:20:02
+Sent: yes
+
+
+As Haris wrote to Dr. Math
+On 08/09/2004 at 13:53:14 (Eastern Time),
+>[Question]
+>If you have a thousand marbles, and you have 10 boxes, how would u 
+>distribute your marbles amongst 10 boxes, such that u would be able 
+>to give any number of marbles asked, by just picking the boxes.. for 
+>example, if some one asks for 3 marbles, u pick up some boxes  
+>without changing the contents of the boxes and get them to add upto 
+>three marbles..
+>
+>[Difficulty]
+>Its the 10 boxes limitation that is most difficult...
+>
+>[Thoughts]
+>I can do this with 12 boxes, since i can place 
+>1,2,2,5,10,20,20,50,100,200,200,500, in 12 boxes and get the 
+>required results, is it possible to have the problem solved by using 
+>10 boxes?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Think about the binary number system. Each digit is a '0' or a '1'. We
+can represent _any_ number using it.
+
+For example, the binary number: 0000101 = 5 (base 10).
+
+Think of each box as a binary digit. The first box has 1 marble. The
+second box has 2 marble. The third box has 4 marbles and so on. You
+can get up to 256 marbles in the 9th box. 
+
+Do you see how this system works?
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

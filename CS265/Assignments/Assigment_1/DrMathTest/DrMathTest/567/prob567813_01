@@ -1,0 +1,35 @@
+ThreadNum: 567813
+Subject: Re: trivia math question
+To: Sands93@aol.com (Sandy)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 00:52:07
+Sent: yes
+
+
+As Sandy wrote to Dr. Math
+On 08/19/2004 at 21:44:19 (Eastern Time),
+>[Question]
+>What number do you always get when you multiply a fraction by its 
+>reciprocal?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Sandy,
+
+Give it a try, and find out.  Let's pick an arbitrary fraction, a/b
+(where neither a nor b is equal to zero).  The reciprocal of a/b is
+b/a, right?  Let's multiply them:
+
+  a   b   a*b
+  - * - = ---
+  b   a   a*b
+
+Can you see what the value of the result has to be?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

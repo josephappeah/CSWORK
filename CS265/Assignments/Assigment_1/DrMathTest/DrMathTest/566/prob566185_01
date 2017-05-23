@@ -1,0 +1,126 @@
+ThreadNum: 566185
+Subject: Re: MathCounts Triangle, Dividends, and Paper
+To: sumajayakar@juno.com (Sujay)
+From: Doctor Roy
+TimeStamp: 08/09/2004 at 17:54:53
+Sent: yes
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Let's take these problems one at a time:
+
+>1) The endpoints of segment AB are A(0,8) and B(15,0).  What is the
+>shortest distance, in units, from P(0,0) to segment AB? Express your
+>answer as a common fraction.
+
+One of the first things to realize is that the shortest distance
+between a point and a line is the one that is perpendicular to the
+line. So, the dotted line in your diagram forms right angles with the
+line segment AB. Let's label the intersection point C.
+
+There are a couple ways to approach this problem knowing that the
+intersection forms right angles.
+
+1) Geometrically: We know that the triangle ABP is a right triangle.
+Therefore, knowing that the angle ACP is a right angle, we can use the
+ fact that the triangle ACP is similar to triangle APB. So, we can
+form the ratios:
+
+     x/15 = 8/17
+
+x is the length of line segment CP (the longer leg of triangle ACP).
+15 is the length of the longer leg of triangle APB. 8 is the length of
+the hypotenuse of triangle ACP. 17 is the length of the hypotenuse of
+triangle APB (use the Pythagorean theorem to calculate 17 is the
+hypotenuse of a right triangle with legs of length 8 and 15). Solving
+for x gives you 120/17.
+
+2) Algebraically: We know the shortest distance is perpendicular.
+Again use C as the intersection point. The line passing through A and
+B is given by the equation:
+
+     y = 8 - 8x/15
+
+We know that the product of the slopes of perpendicular lines is -1.
+So the slope of the line passing through (0,0) and C must be 15/8. So,
+the equation of that line is:
+
+     y = 15x/8
+
+from the point-slope formula.
+
+Solving these two equations gives us the coordinates of C, which can
+be used to get the distance from C to P, which is again 120/17. This
+does involve quite a bit more work, so you are probably better off
+using the geometric approach.
+
+>
+>2) When a positive three digit dividend with a units digit of 2 is
+>divided by a positive one digit divisor, the result is a whole number
+>quotient with a remainder of 1.  How many distinct values are possible
+>for this three digit dividend?
+>
+>2) I didn't know how to start.  I am not sure if the one digit divisor
+>can change or it stays constant.  I think it stays constant.
+>
+
+The problem states _possible_ distinct values. So, any possible
+positive one digit divisor is possible, as long as there is a
+remainder of 1 and the three digit dividend ends in 2. 
+
+Since the three digit dividend ends in 2 and there is a remainder of
+1, we know that the divisor is odd, since an even number divisor will
+always leave an even remainder. That means that divisor can be 1, 3,
+5, 7, or 9. Since every number is divisible by 1, we can eliminate 1.
+Since 9 is a multiple of 3, we can eliminate 9 as well. And all
+numbers which leave a remainder of 1 when divided by 5 end in either 1
+or 6. So, we can eliminate 5 as well.
+
+There are 100 three digit numbers which end in 2. So, we only have to
+consider all the possibilities if they are divided by 3 or 7. 
+
+Let's start with 3. Notice that 22 leaves a remainder of 1 when
+divided by 3. Because that is true, 22+30 = 52 also leaves a remainder
+of 1 when divided by 3. Also 52+30 = 82 leaves a remainder of 1 when
+divided by 3. And so on. So, 112, 142, 172, 202, etc. all leave a
+remainder of 1 when divided by 3. There are 30 such three digit
+numbers which end in 2.
+
+Now, let's move onto 7. 22 leaves a remainder of 1 when divided by 7.
+So, 22+70 = 92 also leaves a remainder of 1 when divided by 7. As does
+92+70 = 162. So, 162, 232, 302, 372, etc. all leave a remainder of 1
+when divided by 7. There are 12 such three digit numbers. However,
+every 3rd such number has already been counted. For example, 232 was
+counted with the 3's. So, 4 of these numbers have already been
+counted, leaving 8 possible numbers.
+
+30 + 8 = 38. So, there are 38 possible three digit numbers which match
+this criterion.
+
+>3) Quadrilateral ABCD is a one inch by three inch piece of paper. 
+>Corner D is folded to coincide with corner B to form the fold EF.  In
+>inches, what is the length fo AE? Express your answer as a mixed
+>number (Illustration can be found on
+>www.geocities.com\sujayakar11\paper.bmp).
+>
+>3) I assumed that DF equals 1.5 and CD equals 1.  But after using the
+>Pythagorean theorem to find CF, I became stuck.
+>
+
+NEVER assume anything in a math problem unless you are told you can do
+so. It's not a good practice.
+
+Notice that the distance BE is equal to the distance ED (why?). Let's
+say that the distance AE = x. Then, the distance BE = 3-x, since the
+distance AE + distance BE = 3. Notice that AED forms a right triangle,
+and the distance AD = 1. Using the Pythagorean theorem, we get:
+
+     x^2 + 1^2 = (3 - x)^2
+
+Solving for x gives you the distance from A to E.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

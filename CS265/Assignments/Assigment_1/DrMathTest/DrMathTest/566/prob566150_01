@@ -1,0 +1,40 @@
+ThreadNum: 566150
+Subject: Re: (no subject)
+To: rtweety0306@aol.com (robyn lynn)
+From: Doctor Ian
+TimeStamp: 08/09/2004 at 23:30:05
+Sent: yes
+
+
+As robyn lynn wrote to Dr. Math
+On 08/09/2004 at 12:52:56 (Eastern Time),
+>[Question]
+>Jean paid the tuition for her three sons who were taking courses at 
+>the same college. Kevin enrolled for five courses, Thomas enrolled 
+>for four courses, and John enrolled for three courses. If Jean paid a 
+>total of $2460 for tuition and all courses had the same tuition fee, 
+>how "much money was for Kevin's tuition.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Robyn,
+
+Since all the courses cost the same amount, it must be true that
+
+  (number of courses) * (cost per course) = total
+
+Does that make sense?  In your case, you know the number of courses
+(just add them up), and the total.  So you can find the cost per
+course this way:
+
+  cost per course = total / (number of courses)
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,58 @@
+ThreadNum: 567635
+Subject: Re: A question about the derivative in n-space
+To: mathewzhao@hotmail.com (mathewzhao)
+From: Doctor Fenton
+TimeStamp: 08/22/2004 at 08:49:52
+Sent: yes
+
+
+As mathewzhao wrote to Dr. Math
+On 08/22/2004 at 03:15:50 (Eastern Time),
+>Hi! Dr. Fenton
+>    Thanks for your response.
+>    At first,I felt I am hard to understand what you said,then I 
+>seriously read my text,but my text  don't mention it.
+>    At this time,I felt discouraged.Suddenly,An idea occurs to my 
+>mind,why not find an one-dimensional example,I try to modify your 
+>example,here
+>  
+>    f(x)=  {(x^2)sin(1/(x))             for x =/= (0,0),
+>           {            0                     x = (0,0).
+>
+>   Oh! You want to tell me an example which the derivative FUNCTION 
+>exists,but it is NOT a continuous function.However,I consider the 
+>figure of the derivative function is hard to draw up ,So could you 
+>give its figure?
+>   By the way,if you have information about the function, tell me 
+>please.
+>
+>  I really appreciate it.
+>
+>Thanks 
+>mathew
+
+Hi Mathew,
+
+That is the function which I was referring to in my reply, when I
+mentioned the one-dimensional example.  However, since the function
+above is only a function of one variable(x), you should write
+
+>    f(x)=  {(x^2)sin(1/(x))             for x =/= 0
+>           {            0                     x = 0  .
+
+f(x) has a graph which oscillates between the curves y=x^2 and y=-x^2,
+oscillating infinitely many times in every open interval containing
+x=0, so you can't graph it near x=0.
+
+f'(x) is a sum of two terms, one of the form c*x*sin(1/x), and one of
+the form b*cos(1/x).  The first term does have a limit as x->0, but
+the second one does not, so f'(x) is not continuous.  Again, because
+of the infinitely many oscillations near the origin, you can't draw
+a graph of f'(x) near x=0.  The cos(1/x) terms keeps oscillating 
+between -1 and +1, faster and faster as x gets closer and closer to 0.
+
+So f is differentiable on R, but f' is not continuous at x=0.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

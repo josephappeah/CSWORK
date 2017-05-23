@@ -1,0 +1,88 @@
+ThreadNum: 566445
+Subject: Re: What is part does cos and sin play in projectiles
+To: alrightee7@yahoo.com (neil)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:09:14
+Sent: yes
+
+
+As neil wrote to Dr. Math
+On 08/11/2004 at 01:50:14 (Eastern Time),
+>[Question]
+>with projectile motion, what part does cos and sin play in these 
+>kind of problems?  One example would be a problem like this:
+>vix=25m/s*cos(45 degrees)  the answer is 17.7m/s. Where did 17.7m/s 
+>come from?
+>
+>i just want to know what cos and sin means.
+>
+>[Difficulty]
+>cos and sin and how did 17.7m/s show up.
+>
+>[Thoughts]
+>what is cos and sin
+
+Hi Neil,
+
+To find out what sin and cos mean (and how they're used), see
+
+  Trigonometry in a Nutshell
+  http://mathforum.org/library/drmath/view/53942.html
+
+In the context of these kinds of problems, we usually 'break up' a
+motion into horizontal and vertical components.  If we know that there
+is an initial speed of V at some angle x to the horizontal, 
+
+         
+        /
+   V   /
+      /
+     / o
+    / x
+   /_______
+
+we can decompose that into components,
+
+          ^
+         /|
+        / |
+   V   /  | v_vert
+      /   |
+     / o  |
+    / x   |
+   /------>
+    v_horiz
+
+From the definitions of sin and cos, we know that
+
+  v_horiz                   v_vert
+  ------- = cos(x)          ------ = sin(x)
+     V                         V
+
+which means that
+
+
+  v_horiz = V * cos(x)      v_vert = V * sin(x)
+
+Since sin(x) and cos(x) can never be greater than 1, the component
+velocities can never be greater than the total velocity. 
+
+The basic idea in analyzing this kind of motion is this:  Gravity only
+works in the vertical direction, so we can ignore the horizontal
+motion while we figure out how long it would take something going
+straight up with initial speed v_vert to go up and down to the final
+height we're interested in.  This is the 'time of flight'. 
+
+Once we know the time of flight, we can assume that the thing moves at
+a constant horizontal speed v_horiz for that much time, which tells us
+how far downrange it ends up.  
+
+You might also want to look at this:
+
+  http://mathforum.org/library/drmath/view/61833.html
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

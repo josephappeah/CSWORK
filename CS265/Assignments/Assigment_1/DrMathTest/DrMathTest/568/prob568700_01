@@ -1,0 +1,41 @@
+ThreadNum: 568700
+Subject: Re: system of linear equations
+To: snappynaima@yahoo.com (Naima)
+From: Doctor Jerry
+TimeStamp: 08/25/2004 at 14:19:15
+Sent: yes
+
+
+As Naima wrote to Dr. Math
+On 08/25/2004 at 13:57:34 (Eastern Time),
+>[Question]
+>The fresh Roasted Nut Store wishes to mix nuts that sells for $1.40 
+>per pound with nuts that sells for $2.00 per pound.In order to make a 
+>mixture that will sell for $1.60 per pound,how many pounds of the $1.
+>40 per pound nuts should be mixed with 50 pounds of $2.00 per pound 
+>nut?
+>
+>[Difficulty]
+>I find the second part of the question hard to understand,because the 
+>second pounds of nuts have already been given in the question.I know 
+>how to account for both nuts type questions but am not able not find 
+>one type of nuts they have asked for
+>
+>[Thoughts]
+>I have had solved similar questions where it is asked how many 
+>quantities of this should be mixed with this to make that much of 
+>mixture but not able to solve for a single quantity of mixture.
+
+Hello Naima,
+
+Let x be the number of pounds of the $1.40/lb nuts  to make x+50 pounds of $1.60/lb 
+nuts.
+
+The amount of dollars must balance:
+
+(x+50)*1.60 = x*1.40 + 50*2.00.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

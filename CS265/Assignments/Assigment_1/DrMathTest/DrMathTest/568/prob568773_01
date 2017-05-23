@@ -1,0 +1,57 @@
+ThreadNum: 568773
+Subject: Re: Can you help me with my homework right now please
+To: littlexochilt@msn.com (Jacqueline or Jackie)
+From: Doctor Korsak
+TimeStamp: 08/25/2004 at 22:54:17
+Sent: yes
+
+
+As Jacqueline or Jackie wrote to Dr. Math
+On 08/25/2004 at 19:17:43 (Eastern Time),
+>[Question]
+>like The Sum of four and twice a number is 52.
+>
+>[Difficulty]
+>where to put the numbers and whatis it +,-,*,/ and to put the n
+>
+>[Thoughts]
+>is it :n+4*2+52
+
+Hello Jacqueline or Jackie,
+
+Here is how to think about a problem like this: start at the word 
+'number' in the sentence and work outwards from it to build an 
+algebraic expression involving it.  
+
+As you began in your 'thoughts', let's take the number to be n.  What 
+do you see right next to 'number'?  Just before 'number', it says 
+'twice a number', so that means 2*n.  Now you can restate the sentence 
+as
+
+   The sum of four and 2*n is 52.
+
+Next, restate 'sum of' four and 2*n as '4 + 2*n'.  Finally, the 'is' 
+means that you are supposed to state this as an equation:
+
+    4 + 2*n = 52.
+
+From here on, it's a matter of solving a linear equation in the 
+unknown variable n.  There's lots of help in the Dr. Math library 
+archives on that, if you need it.  For example, I found
+
+   http://mathforum.org/library/drmath/view/57407.html    
+
+by going to 
+
+   http://mathforum.org/library/drmath/mathgrepform.html 
+
+and searching for the words 
+
+    single variable equation.
+
+Please contact Dr. Math if you need further help.
+
+
+- Doctor Korsak, The Math Forum
+  <http://mathforum.org/dr.math/>
+

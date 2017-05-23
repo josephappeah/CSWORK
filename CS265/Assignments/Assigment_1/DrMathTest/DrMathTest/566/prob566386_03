@@ -1,0 +1,42 @@
+ThreadNum: 566386
+Subject: Re: How many different ways are there...
+To: jonas_burba13@yahoo.com (George)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 18:43:21
+Sent: yes
+
+
+As George wrote to Dr. Math
+On 08/11/2004 at 18:38:29 (Eastern Time),
+>You understood me correctly
+
+Good.  Then think of it like this:
+
+You really only have seven numbers to choose from, with the three
+taken out being the spaces between the four numbers.  So you choose
+ANY four numbers out of seven (1, 2, 3, 4, 5, 6, 7),
+
+  a, b, c, d (written in order)
+
+and then the numbers
+
+  a, b+1, c+2, d+3
+
+will be numbers from 1 to 10, with no two numbers adjacent.  And there
+is an exact correspondence because you can go backward:  If
+
+  r, s, t, u
+
+are four numbers from 1 to 10 with no two numbers adjacent (in order),
+then
+
+  r, s-1, t-2, u-3
+
+are four (different) numbers from 1 to 7.
+
+So do you know how many ways there are to choose four numbers out of
+seven?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

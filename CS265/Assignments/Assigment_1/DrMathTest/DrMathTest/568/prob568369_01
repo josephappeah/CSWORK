@@ -1,0 +1,46 @@
+ThreadNum: 568369
+Subject: Re: Absolute values
+To: morganfournier@students.sd28.bc.ca (Morgan Fournier)
+From: Doctor Peterson
+TimeStamp: 08/23/2004 at 23:02:46
+Sent: yes
+
+Hi, Morgan.
+
+As Morgan Fournier wrote to Dr. Math
+On 08/23/2004 at 22:11:12 (Eastern Time),
+>[Question]
+>I need to know how to do this question. the answer is somehow -1, 
+>but I am unsure how to get that. Can you please help me. 
+>-5|-4|3|-2|(4-9)|
+>
+>[Difficulty]
+>I don't know what to do with teh numbers. Do they multiply, combine. 
+>What?
+>
+>[Thoughts]
+>I have assumed that teh -5 will be multiplied into the -4 and 3
+
+You must have copied the expression incorrectly, because you can't
+have an odd number of absolute value bars; they come in pairs. I'll
+guess you meant
+
+  |-5| - 4|3| - 2|(4 - 9)|
+
+If so, then you want to first replace each absolute value with its
+value: |-5| is 5, |3| is 3, and |4-9| is 5 (the absolute value of -5).
+So you need to evaluate
+
+  5 - 4(3) - 2(5)
+
+Do the multiplications, then the subtractions.
+
+But if the missing bar is somewhere other than the beginning, the
+expression may mean something very different.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

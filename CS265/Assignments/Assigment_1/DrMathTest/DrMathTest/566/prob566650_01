@@ -1,0 +1,99 @@
+ThreadNum: 566650
+Subject: Re: square root of mod prime power
+To: kranthi_reddy2000@yahoo.com (kranthi)
+From: Doctor Vogler
+TimeStamp: 08/12/2004 at 11:48:51
+Sent: yes
+
+
+As kranthi wrote to Dr. Math
+On 08/12/2004 at 10:01:51 (Eastern Time),
+>[Question]
+>Dear Sir,
+>i want to find the square root of number in modulo prime power .
+>for example square root of 146 in F_169(13^2).
+>
+>i am able to solve the problems of type 
+>1)square root of a number mod prime number.
+>2)square root of a number to mod p*q where p and q are prime).
+>
+>i am not able to generalise  this knowledge to solve 
+>for prime power.
+>
+>i.e i am not able to find the least non square number to the mod p.
+>
+>
+>please help me ,i almost spent 1 week on sqare root problems
+>
+>
+>thanks in advance 
+>Kranthi
+>
+>
+>[Difficulty]
+>i am not able to find the least non square number to the mod p.
+>
+>[Thoughts]
+>i tried to find n the least non square number to mod 13
+>i tried to find n^(q-1/2) congruent to -1 that is n^84 congrunet to -1
+>starting with n=2..13 . but i dint find any such number.
+>
+>
+
+Hi Kranthi,
+
+Thanks for writing to Dr Math.  So you have a number k and you want to
+find n mod p^2 such that
+
+  n^2 = k (mod p^2)
+
+and you can already calculate
+
+  r^2 = k (mod p).
+
+In fact, that it really the hardest part.  You know that
+
+  n = r (mod p)
+
+must be true (or n = -r mod p, but -r is just a different square root
+mod p).  So you can assume that
+
+  n = r + p*s
+
+for some integer s (mod p).  Then
+
+  k = n^2 = (r + p*s)^2 = r^2 + 2prs (mod p^2)
+
+  (k - r^2)/2pr = s (mod p).
+
+Notice that k - r^2 will be divisible by p, so you can divide by p. 
+Then (as long as p is not 2 and r is not 0), you can divide by 2r mod
+p using the Extended Euclidean Algorithm (to get the modular inverse).
+ That gives you s mod p, and then
+
+  n = r + p*s.
+
+In fact, this is equivalent to Newton's Method, applied to your polynomial
+
+  f(x) = x^2 - k,
+
+and Newton's Method says to iterate
+
+  n = r - f(r)/f'(r),
+
+or
+
+  n = r - (r^2 - k)/(2r).
+
+Start with the initial guess that is the root mod p, and then after
+one iteration, you have a solution mod p^2.  If you let that be r and
+iterate again, then you get a solution mod p^4 (and therefore also mod
+p^3), and so on, doubling the power each time.
+
+Did that make sense?  If you have any questions about this or need
+more help, please write back and show me what you have been able to
+do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

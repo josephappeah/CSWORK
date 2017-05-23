@@ -1,0 +1,44 @@
+ThreadNum: 568783
+Subject: Re: number theory proof
+To: carolsmithstudent@hotmail.com (Carol Smith)
+From: Doctor Pete
+TimeStamp: 08/26/2004 at 00:40:28
+Sent: yes
+
+As Carol Smith wrote to Dr. Math
+On 08/25/2004 at 19:51:09 (Eastern Time),
+>[Question]
+>Hi
+>QUESTION: 
+>Let a, b integer number. Proof that: GCD(a,b)=1   <=>   GDC(a+b,b)=1 .
+>
+>thanks for your help
+>Carol
+>
+>[Difficulty]
+>Could you please help me with this problem. I have tried it many 
+>times, but I have no idea how to do it correctly. 
+>I have this one proof that I almost get but am not quite how to go 
+>about doing it. 
+
+Hi Carol,
+
+We say GCD(a,b) = d, when d is the largest positive integer such that a = a'd, and b = b'd 
+for some integers a', b'.  The number d is called the "greatest common divisor" of a and b.  
+So let GCD(a,b) = 1, but suppose by contradiction that GCD(a+b,b) = x, where x > 1.  It 
+follows that
+
+     a+b = nx,
+     b = b'x,
+
+for some integers n, b'.  Hence their difference,
+
+     a = (a+b) - b = nx - b'x = (n - b')x,
+
+is also divisible by x.  But if x divides a and b, then this contradicts the fact that GCD(a,b) 
+= 1.  Therefore, GCD(a+b,b) = 1.  The reverse argument is similar; I leave it to you to work 
+through the details.
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

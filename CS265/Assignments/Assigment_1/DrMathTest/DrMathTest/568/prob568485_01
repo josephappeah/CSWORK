@@ -1,0 +1,68 @@
+ThreadNum: 568485
+Subject: Re: Set of irrational numbers versus that of rational numbers
+To: dwilliamson314@earthlink.net (Drew Williamson)
+From: Doctor Vogler
+TimeStamp: 08/25/2004 at 14:23:17
+Sent: yes
+
+
+As Drew Williamson wrote to Dr. Math
+On 08/24/2004 at 16:30:37 (Eastern Time),
+>[Question]
+>My teacher and i disagree on something. I said that the set of 
+>irrational numbers is larger than that of rational numbers. I think 
+>i read this somewhere but i am not sure. Thank you for your time.
+>
+>[Difficulty]
+>The mystery of the aleph.
+>
+>[Thoughts]
+>Since there are less perfect squares than im(non?)-perfect squares 
+>then there should be more irrationals.
+
+Hi Drew,
+
+Thanks for writing to Dr Math.  The first part of your question is
+what *exactly* do you mean by "more."  Because the obvious answer to
+the question is that both sets are infinite.  So next you have to ask
+what does "more" mean in terms of infinite sets.
+
+For example, are there more perfect squares or more positive integers?
+ You could say that there are more positive integers, because every
+perfect square is a positive integer, but not every positive integer
+is a perfect square.  But you could say that there are exactly the
+same number, because you can pair them up one-to-one, by pairing the
+integer n to the perfect square n^2.
+
+So which is it?  The answer is that the perfect squares are a subset
+of the positive integers (which is one possible meaning for "more")
+but that the cardinalities of the two sets are the same (which is
+another possible meaning for "more").
+
+In the same way, the rational numbers are a subset of the real
+numbers, and the cardinalities of the two sets are *NOT* the same. 
+The rational numbers are neither a subset of the irrational numbers
+nor the irrational numbers a subset of the rational numbers.  But the
+rational numbers have a smaller cardinality than the irrationals.
+
+The cardinality of the positive integers is sometimes denoted
+aleph-naught (or aleph-null, aleph being a Hebrew letter, and the
+naught or null meaning a subscript of zero) but is more commonly known
+as being "countable."  It turns out that the smallest infinite set is
+countable, so the set of perfect squares is countable, and the set of
+all integers is countable.  In fact, it can be shown that the set of
+all rational numbers is countable, but the set of irrational numbers
+(or the set of real numbers) is *NOT* countable.  It is a bigger kind
+of infinity.
+
+There is much to be learned about cardinalities, and you can learn
+more by searching our archives for words or phrases like "cardinality"
+or "aleph" or "countable."
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

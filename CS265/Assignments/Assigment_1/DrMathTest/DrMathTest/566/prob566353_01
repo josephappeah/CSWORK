@@ -1,0 +1,42 @@
+ThreadNum: 566353
+Subject: Re: number of circles inside a circle
+To: khyati.fame@gmail.com (khyati)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 17:05:45
+Sent: yes
+
+
+As khyati wrote to Dr. Math
+On 08/10/2004 at 16:44:38 (Eastern Time),
+>[Question]
+>what is the min no of circles each of unit area, that can be 
+>accomodated completely without any overlap within a circle of 
+>radius3/root pi  units?
+>
+>[Difficulty]
+>how to determine the no of circles that can fit in a larger circle
+>
+>[Thoughts]
+>total area of larger circle=9, smaller circle=pi
+>hence the area should b 9/pi.. but that is not the correct answer
+>
+
+Hi Khyati,
+
+Thanks for writing to Dr Math.  Of unit area or unit radius?  You said
+unit area (which would imply radius 1/sqrt(pi)), but then you said
+area = pi (implying radius 1).
+
+Assuming radius 1/sqrt(pi), it looks like the answer is 7.  An upper
+bound would clearly be 9, by area considerations, but there is no way
+that you can fill *all* of the area with smaller circles.  Can you lay
+down 7 circles inside the big one?  The hard part is proving that 8 is
+impossible.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

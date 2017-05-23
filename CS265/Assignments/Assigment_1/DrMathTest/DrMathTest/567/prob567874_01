@@ -1,0 +1,46 @@
+ThreadNum: 567874
+Subject: Re: Ellipses
+To: westlife.fan@tiscali.co.uk (Jennifer)
+From: Doctor Rob
+TimeStamp: 08/20/2004 at 20:39:45
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/20/2004 at 09:19:39 (Eastern Time),
+>[Question]
+>I am in just about to start Year 10 at my secondary school in 
+>Manchester. I have been given a piece of maths coursework to do in 
+>the holidays as I am doind my Higher Maths GCSE in one year. I am 
+>trying to work out teh area of an ellipse with the perimter being 
+>1000m. The, I know how to work out the area if you have a length and 
+>a height, but I do not have these so I was wondering if you could 
+>please tell me how to get the length and the height from teh 
+>perimeter. It is just a formula that I need.
+>
+>[Difficulty]
+>It is just finding the length and the height.
+>
+>[Thoughts]
+>I can't really start it until I know how do do this. 
+
+Thanks for writing to Ask Dr. Math, Jennifer!
+
+You don't have enough information to find the area of the ellipse.
+The best you can do is to give a bound.  The ellipse with the
+greatest area with perimeter 1000m is a circle.  Its radius would
+be given by 500/Pi m, and its area by 500^2/Pi m^2.  This is the
+upper bound, which can be achieved.  The lower bound is zero, which
+can't be achieved.  Thus the best you can say is that the area A
+satisfies
+
+   0 < A <= 250000/Pi m^2.
+
+All values in this interval can happen.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

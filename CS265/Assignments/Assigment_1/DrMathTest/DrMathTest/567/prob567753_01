@@ -1,0 +1,47 @@
+ThreadNum: 567753
+Subject: Re: Fay's rubber ball bounces exactly half the height from which
+To: gladys@aws.org (Gladys)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 12:21:21
+Sent: yes
+
+
+As Gladys wrote to Dr. Math
+On 08/19/2004 at 18:05:51 (Eastern Time),
+>[Question]
+>Fay's rubber ball bounces exactly half the height from which it is 
+>dropped.  She drops the ball from the top of a building that is 64 
+>meters tall.  How high will the ball bounce on its eighth bounce?
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Gladys,
+
+If it's dropped from 64 feet, and it bounces half that high, then on
+the first bounce, it bounces 32 feet.
+
+  Bounce   Height
+  ------   ------
+     1      32 ft
+
+Now it's the same as if you started from 32 feet.  It will bounce half
+as high, so we have
+
+  Bounce   Height
+  ------   ------
+     1      32 ft
+     2      16 ft
+
+From here, he's just a matter of adding more rows to the table until
+we get to the 8th bounce. 
+
+Does this make sense?  Can you take it from here?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

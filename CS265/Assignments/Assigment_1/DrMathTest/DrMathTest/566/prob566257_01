@@ -1,0 +1,107 @@
+ThreadNum: 566257
+Subject: Re: i am a software engineer 
+To: to_alok2k2@yahoo.com (Alok)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 11:29:45
+Sent: yes
+
+Hi, Alok.
+
+As Alok wrote to Dr. Math
+On 08/10/2004 at 02:12:31 (Eastern Time),
+>[Question]
+>Hi,
+> 
+>I am software professional having some idea about objected oriented 
+>and procedure programming i have an idea for which i wana to gather 
+>view from the people who have good knowledge of maths like you.
+> 
+>Consider the problem 
+> 
+>current age of a boy is 1/2 from his father's age and after 10 yrs 
+>his age become 2/3 of his fathers age find the current age of son 
+and
+>father.
+> 
+>we can easily solve the above problem  by using the polynomial eq. 
+>for  the given prob.
+> 
+>Like Let the age of father is x
+>then age of son is x/2
+> 
+>after 10 yrs age of son x/2+10
+> 
+>after 10 yrs age of father x+10
+> 
+>bcz age of son become eq to 2/3 of his father's age after 10 yrs 
+then.
+> 
+>x/2+10=2/3(x+10)
+>x+20=3x+30
+>x=5
+> 
+>fathers age is 5 and son=5/2 is abt 2.5 yrs.
+>it is totaly a fictitious prob. thats why age is become so 
+>amazing.but that is not a issue the issue is that  solution is 
+totaly
+>dedicated for the currentlly  mention situation if the ratio between
+>father son age is changed we have to be reinvent the polynomial eqs 
+>for that .
+> 
+>Is that only way to  solve the problem is ther any possibility to 
+>solve the probelm with other mathematical apporach in which we can 
+>make a machanism for which chage in ratio or change in yrs gap from 
+>the current age would not effect the solution then solution would be
+>more generic and object oriented and i think if some body go for 
+this
+>who can really get the sence of real object oriented programming and
+>perfect class designing for that...
+> 
+>my gussing towords alternative solutions is  can be resolv via set 
+>theory and probability but due to lacck of knowldge in maths i cant 
+>get of from the problem iit will be very nice if u suggest some 
+>solutions for that if u do that it will be very benifitial for my 
+R&D
+> 
+>Thanks 
+>regards
+>Alok ranjan singh......
+>
+>
+>[Difficulty]
+>i am not getting able to draw out the alternate solution for that
+>
+>[Thoughts]
+>this is already mention in the question
+
+If you want to generalize the problem, I would just use more 
+variables, turning the ratios and the time interval into parameters 
+of the problem:
+
+  The son is now p times his father's age; in t years, he will be
+  q times his father's age. How old are they now?
+
+The solution is then
+
+  Father now: x
+  Son now: px
+  Father in t years: x+t
+  Son in t years: px+t
+
+  px + t = q(x + t)
+
+  (p-q)x = (q-1)t
+
+      1-q
+  x = --- t
+      q-p
+
+But I don't see the connection between this and object-oriented 
+programming.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

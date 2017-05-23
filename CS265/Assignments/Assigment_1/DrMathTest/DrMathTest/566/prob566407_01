@@ -1,0 +1,64 @@
+ThreadNum: 566407
+Subject: Re: Fastest way to figure out this question
+To: dell8606@bellsouth.net (Karmelia)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:45:25
+Sent: yes
+
+
+Hi Karmelia, 
+>[Question]
+>In how many ways could $2.43 can be spent on 5 cent and 8 cent 
+>stamps?
+>
+>A)4
+>B)5
+>C)6
+>D)7
+>E)8
+
+Here's how I'd do it.  I'd find _one_ combination that works, and then
+take advantage of the fact that I can exchange 8 5-cent stamps for 5
+8-cent stamps.  
+
+How to find the first one?  Start subtracting 8 cents from $2.43 until
+you get something divisible by 5:
+
+  2.43, 2.35, ...      
+
+Got one!  So I can have 1 8-cent stamp, and 235/5 = 47 5-cent stamps.
+ Now I just exchange:
+  
+  8 cents   5 cents
+  -------   -------
+  1         47
+  6         39
+  11        31
+
+(Note that this is pretty much what you were doing, but I'm counting
+stamps, rather than money, so my numbers are easier to deal with.) 
+
+But wait!  How many times will I be able to do this?  That's just
+47/8, which is just under 6.  So I'll be able to make 5 exchanges:
+
+  8 cents   5 cents
+  -------   -------
+  1         47
+  6         39
+  11        31
+  16        23
+  21        15
+  26         7
+
+I completed the table to verify that there are 6 combinations, but I
+didn't need to do that.  I just had to 
+
+  1) Find the first combination
+  2) Compute the maximum number of exchanges
+  3) Add 
+
+I don't know of a faster way than this to do it. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

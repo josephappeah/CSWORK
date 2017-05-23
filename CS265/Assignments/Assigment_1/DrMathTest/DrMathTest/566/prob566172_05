@@ -1,0 +1,62 @@
+ThreadNum: 566172
+Subject: Re: "Non-Standard" Angles between two Intersecting Lines
+To: peter_walsh_@hotmail.com (Peter)
+From: Doctor Vogler
+TimeStamp: 08/13/2004 at 11:58:34
+Sent: yes
+
+
+As Peter wrote to Dr. Math
+On 08/12/2004 at 14:25:21 (Eastern Time),
+>Sorry, I was a (little) bit confused, but please give this one a try:
+>
+>
+>                  Y
+>                  |
+>      l2  l1      |
+>       \ a/       |
+>      d \/ d      |
+>        /\        |
+>       / a\       |
+>      /    \      |
+>    /b      \  c  |
+>--/---------  \--------------- X
+>                  |
+>                  |
+>                  |
+>
+>To find the tangent of angle a (given the slopes of l1 and l2, m1 
+>and m2) my textbook states:
+>
+>c = a + b
+>a = c - b
+>tan a  = tan (c - b) = (tan c - tan b)/(1 + tan b * tan c),
+>but tan b = m1 and tan c = m2, so tan a = (m2 - m1)/(1+ m1*m2)
+>
+>Now this seems perfectly reasonable for calculating the tangent of 
+>angle a, but could you give a justification that the same method ( = 
+>the formula "(m2 - m1)/(1+ m1*m2)" ) works if you want to calculate, 
+>for example, the tangent of a's supplement, angle d? 
+>
+>Thanks in advance
+
+Hi Peter,
+
+Since
+
+  cos (180 - x) = -cos x, and
+  sin (180 - x) = sin x,
+
+this implies
+
+  tan (180 - x) = -tan x,
+
+so you end up with
+
+  tan d = -tan a = (m1 - m2)/(1 + m1*m2).
+
+Is that what you wanted to know?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

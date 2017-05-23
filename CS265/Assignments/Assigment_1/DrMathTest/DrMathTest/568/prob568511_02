@@ -1,0 +1,55 @@
+ThreadNum: 568511
+Subject: Re: Major Axis and Eccentricity of an Oblique Ellipse
+To: layman@nrl.navy.mil (Gene L)
+From: Doctor Fenton
+TimeStamp: 08/25/2004 at 10:59:57
+Sent: yes
+
+
+As Gene L wrote to Dr. Math
+On 08/24/2004 at 18:11:32 (Eastern Time),
+>[Question]
+>I am working on a problem to determine the elliptical area of 
+>uncertainty for the location of a ship based on statistical bearing 
+>measurements from two distant locations. I have resolved the 
+>probability function down to an oblique ellipse. How do I determine 
+>the rotation angle, semi-major and semi-minor axis from the standard 
+>form of the equation given as:
+>
+>  2          2
+>Ax + Bxy + Cy +Dx + Ey + F = 0
+>
+>I have been able to determine the coefficients for the particular 
+>problem but have not found a way to extract the parameters I need to 
+>describe the oblique ellipse, namely the semi-major axis, semi-minor 
+>axis and angle of orientation with respect to the semi-major axis.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I have been able to move the ellipse to (0,0) which makes the D an E 
+>coefficients equal to zero but am stymied at the next step.
+
+Hi Gene,
+
+I think the following answers from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/51777.html
+  http://mathforum.org/library/drmath/view/51767.html .
+
+I found them by searching on these keywords:
+
+  rotation conic   (all keywords)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

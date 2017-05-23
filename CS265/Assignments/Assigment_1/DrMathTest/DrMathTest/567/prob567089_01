@@ -1,0 +1,98 @@
+ThreadNum: 567089
+Subject: Re: Log
+To: pi5051@yahoo.com (Katie)
+From: Doctor Roy
+TimeStamp: 08/16/2004 at 12:11:10
+Sent: yes
+
+
+As Katie wrote to Dr. Math
+On 08/16/2004 at 01:05:02 (Eastern Time),
+>[Question]
+>What is the sum of all the positive numbers x which satisfy the 
+>equation
+>
+>log2x(log4x)(log6x)= log2x(log4x)+log2x(log6x)+log4x(log6x)?
+>
+>I know the answer is 49, but I don't know how to get it.
+>       
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+One of the solutions is the trivial solution. It's the solution that
+always results in '0' for the logarithm: x = 1. x = 1 always satisfies
+this type of equation (which can easily be checked). So, that's one
+solution. 
+
+The other solution requires a bit more work. I assume by log2x, you
+mean the logarithm of x in base 2. Let's use the notation log_2_x to
+represent the logarithm of x in base 2.
+
+Using the change of base formula:
+
+   log_4_x = log_2_x / log_2_4
+           = log_2_x / 2
+
+So, our original equation becomes:
+
+log_2_x(log_4_x)(log_6_x) =
+log_2_x(log_4_x)+log_2_x(log_6_x)+log_4_x(log_6_x)
+
+log_2_x(0.5*log_2_x)(log_6_x) =
+log_2_x(0.5*log_2_x)+log_2_x(log_6_x)+0.5*log_2_x(log_6_x)
+
+Notice that we can make a simplification:
+
+log_2_x(0.5*log_2_x)(log_6_x) = log_2_x(0.5*log_2_x)+1.5*log_2_x(log_6_x)
+
+Every term has a log_2_x in it, so we can divide it out:
+
+   (0.5*log_2_x)(log_6_x) = (0.5*log_2_x)+1.5*log_6_x
+
+And we can multiply by 2 to get rid of the fractions:
+
+       (log_2_x)(log_6_x) = (log_2_x) + 3*log_6_x
+
+From here, another change of base would probably help:
+
+    log_6_x = log_2_x / log_2_6
+
+Using this change of base, the equation becomes:
+
+   (log_2_x)^2 / log_2_6 = (log_2_x)*(1 + 3/log_2_6)
+
+Notice, we can factor log_2_x out of both sides again:
+
+       log_2_x / log_2_6 = (1 + 3/log_2_6)
+
+Now, solving as a normal equation:
+
+                 log_2_x = log_2_6 + 3
+
+                       x = 2^(3 + log_2_6)
+                         = (2^3)(2^log_2_6)
+
+2^3 = 8, and 2^log_2_6 = 6, so:
+
+                       x = 8 * 6
+                         = 48
+
+So, the other solution to this equation is x = 48. Combining that with
+the solution x = 1, we get that the sum of the solutions is 1 + 48 = 49.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

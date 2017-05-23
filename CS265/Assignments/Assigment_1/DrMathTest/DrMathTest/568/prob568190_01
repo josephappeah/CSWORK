@@ -1,0 +1,69 @@
+ThreadNum: 568190
+Subject: Re: a= y-3 / b , solve for b
+To: malaika2@yahoo.com (malaika)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 13:18:44
+Sent: yes
+
+
+As malaika wrote to Dr. Math
+On 08/23/2004 at 00:30:26 (Eastern Time),
+>[Question]
+>I don't understand which formula to use.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Malaika,
+
+There's no particular formula.  What you want to do is see if you can
+convert what you've got into a form that will make it easier to get
+what you want. 
+
+In this case, you have
+
+          3                                 y - 3
+  a = y - -           (or did you mean  a = ----- ?)
+          b                                   b
+
+If you had an equation that looked like 
+
+              3
+  something = -
+              b
+
+it would be pretty easy to solve for b, right?  You could just
+multiply both sides by b, 
+
+  something * b = 3
+
+and divide both sides by something, 
+
+                      3
+              b = ---------
+                  something
+
+and you'd be done.  So now you have a slightly easier question:  What
+can you do to make
+
+          3                                 
+  a = y - -           
+          b              
+
+look like
+
+              3
+  something = -
+              b
+                     
+Remember, the basic rule is that you can do anything to both sides of
+an equation, so long as you don't divide by zero. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

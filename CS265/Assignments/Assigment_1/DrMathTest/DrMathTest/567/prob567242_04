@@ -1,0 +1,26 @@
+ThreadNum: 567242
+Subject: Re: Thank you (Calculus )
+To: sbmahadik@yahoo.com (S. B. Mahadik)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 10:43:27
+Sent: yes
+
+
+As S. B. Mahadik wrote to Dr. Math
+On 08/18/2004 at 08:26:33 (Eastern Time),
+>Sir,
+>Thanks for the responce. But the function that you have 
+>suggested, i. e. f(x) = x^2 can not be tried as it does not 
+>satisfy the condition, f'(x) < 0 for x > 0.
+>
+
+You're right.  I forgot that condition.  Try
+
+  f(x) = 1/(x^4 + 1).
+
+It is even, continuous, positive, with negative first derivative.  But
+I still get g(0.1) < 0.  Does that work?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

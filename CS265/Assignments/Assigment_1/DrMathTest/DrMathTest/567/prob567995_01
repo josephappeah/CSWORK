@@ -1,0 +1,41 @@
+ThreadNum: 567995
+Subject: Re: sketching a graph by inspection
+To: shinkentom@hotmail.com (kevin)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 08:24:05
+Sent: yes
+
+
+As kevin wrote to Dr. Math
+On 08/21/2004 at 08:13:01 (Eastern Time),
+>[Question]
+>DOC,
+>how would a shetch f(x)= [(e^x)+1]/[(e^(x)-1)] purely by 
+>inspecton.....How would i find the HORIZONTAL asymtotes? AND how 
+>would i judge the shape of the graph.....because to my suprise this 
+>function behaves more like the 1/x ...interms of the shape of the 
+>graph.......can u help me out plz......
+>THanks,
+>kevin
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Kevin,
+
+Well, there's a vertical asymptote at x=0. To find the horizonal asymptotedivide by e^x:
+
+f(x) = [1+1/e^x]/[1-1/e^x]
+
+and we see that as x->oo, f(x)->1.  As x->-oo, we see from the original form of f(x) that 
+f(x)->-1.
+
+Other than those comments, your observation that it looks like y=1/x pretty much finishes 
+the observations you need.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

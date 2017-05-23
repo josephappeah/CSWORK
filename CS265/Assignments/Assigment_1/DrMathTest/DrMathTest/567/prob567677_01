@@ -1,0 +1,27 @@
+ThreadNum: 567677
+Subject: Re: Exponents
+To: dfulmer@susd.org (Darryl)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 11:17:36
+Sent: yes
+
+
+Hi Darryl,
+
+>What is the value of 4^2^3?
+>
+>[Difficulty]
+>The problem could be read as 16^3 or 4^8.  Without any grouping 
+>symbols which is correct?
+
+The correct grouping would be 
+
+  (4^2)^3
+
+although we've never been able to find an 'authoritative' reference
+for this.  The safest thing to do is to always use parentheses to
+indicate the grouping you want, instead of relying on convention. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

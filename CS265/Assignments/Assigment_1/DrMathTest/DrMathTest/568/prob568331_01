@@ -1,0 +1,66 @@
+ThreadNum: 568331
+Subject: Re: Solving Inequalities with Fractions Involved
+To: sarahmae121@yahoo.com (Sarah)
+From: Doctor Rick
+TimeStamp: 08/23/2004 at 20:46:37
+Sent: yes
+
+Hi, Sarah.
+
+As Sarah wrote to Dr. Math
+On 08/23/2004 at 20:01:16 (Eastern Time),
+>[Question]
+>6 is less than or equal to 1/4 (3+x)
+>
+>[Difficulty]
+>I know how to solve normal inequalities but I can't figure out how 
+to 
+>solve them with fractions.  
+>
+>[Thoughts]
+>I know we have to get rid of the fractions but I'm not sure how.  
+>Don't we have to multiply it?
+
+You don't have to get rid of the fractions; you can solve this 
+problem in exactly the same way you would a problem without 
+fractions. For instance, to solve the inequality
+
+  6 <= 3(3+x)
+
+I'd do this:
+
+  6/3 <= 3+x   (I'm dividing by a positive number so
+                direction of inequality doesn't change)
+  2 <= 3+x
+  2-3 <= x
+  -1 <= x
+
+You can follow the same steps with your problem:
+
+  6 <= (1/4)(3+x)
+  6/(1/4) <= 3+x   (I'm dividing by a positive number so
+                    direction of inequality doesn't change)
+  24 <= 3+x
+  24-3 <= x
+  21 <= x
+
+The only tricky thing about this is that you have to remember how to 
+divide by a fraction:
+
+  6/(1/4) = 6 * 4/1 = 24
+
+But you learned that well, right?  ;-)
+
+If you really want to get rid of fractions, the trick is to multiply 
+both sides of the equation or inequality by the denominator (or a 
+common denominator, if there is more than one fraction).
+
+  6 <= (1/4)(3+x)
+  24 <= 4*(1/4)(3+x)
+  24 <= 3+x
+
+That you can solve, right? It was a step in my first solution, too.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

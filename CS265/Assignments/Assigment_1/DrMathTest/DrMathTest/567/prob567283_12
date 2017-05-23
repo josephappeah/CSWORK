@@ -1,0 +1,82 @@
+ThreadNum: 567283
+Subject: Re: limit  of a sequence
+To: FiratAras@aol.com (Firat)
+From: Doctor Vogler
+TimeStamp: 08/20/2004 at 16:11:16
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/20/2004 at 14:30:34 (Eastern Time),
+>Hi!
+>I will be grateful if you can explain to me why does it converges to 
+>sqrt of two?
+>Thank you very much.
+>Firat
+
+I take that to mean that you meant the second of the options I gave,
+that you accept that it will converge to something and you want to
+know why it is the square root of two.
+
+So your function (or transformation) takes
+
+  a/b  to  (a+2b)/(a+b).
+
+That is, it takes
+
+  a/b  to  (a/b + 2)/(a/b + 1).
+
+So we can write the transformation as
+
+  f(x) = (x + 2)/(x + 1).
+
+So we keep iterating
+
+  b = f(a)
+  c = f(b)
+  d = f(c)
+  e = f(d)
+  ...
+
+and eventually we start getting really really close to some number
+
+  ...
+  q = f(p)
+  r = f(q)
+  ...
+
+where p, q, and r are really, really close together.  We know that our
+function (x+2)/(x+1) is continuous, so if applying f to p and q and r
+gets something really close, then applying f to the number that this
+sequence approaches (the limit) will not change that number.  That is,
+if the limit of this sequence is x, then we know that
+
+  x = f(x).
+
+Great!  Well, there are only two possibilities for such an x, because
+it must satisfy the equality
+
+  x = (x + 2)/(x + 1)
+
+  x(x + 1) = x + 2
+
+  x^2 + x = x + 2
+
+  x^2 = 2
+
+which means that x must be either the square root of 2 or the negative
+of the square root of 2.  But it is easy to see that if we start with
+a positive number a/b, then a/b + 2 is also positive, and a/b + 1 is
+also positive, and so f(a/b) will be positive too.  So it has to
+converge to the square root of 2.
+
+In fact, it takes a little more work to show that it also converges to
+the (positive) square root of two if you start with a negative number.
+ The only exception is if you ever hit the number a/b = -1, because
+then you'll divide by zero on the next step.
+
+Is that what you wanted to see?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

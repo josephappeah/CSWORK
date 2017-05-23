@@ -1,0 +1,77 @@
+ThreadNum: 567306
+Subject: Re: Surface Areas of a Cuboid
+To: jasmeet@punniweb.co.uk (Jaz)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 12:49:47
+Sent: yes
+
+
+As Jaz wrote to Dr. Math
+On 08/18/2004 at 07:56:22 (Eastern Time),
+>well the 1st rectangle has a total area of 32cm sq. which makes all 
+>four rectangles have the same area. the 2 squares have an area of 
+>5cm * 4cm which gives you 20cm sq. ading this altogether, i got 
+>168cm sq... 
+>32+32+32+32+20+20
+>64+64+40
+>128+40
+>168cm sq
+>
+>then i had thought that 8 times 4 times 5 gives you 160 cm sq. which 
+>one is right???
+
+Hi Jaz,
+
+Did you try drawing the net of the cuboid, as the problem suggests? 
+There's a good reason for doing that, since it can help you visualize
+all the pieces that have to be added to get the total area. 
+
+Suppose we take a cuboid with dimensions 2, 3, and 4, and we unfold it
+so it lies flat.  It would look like
+
+         
+                   
+         +--------+------+
+         |        |  3   |
+         |       2|      |
+         +--------+------+
+         |   4    |      
+         |       3| 
+         |        |
+  +------+--------+
+  |      |   4    |
+  |  3   |2       |
+  +------+--------+
+         |        |
+         |3       |
+         |        |
+         +--------+
+
+(If you don't see why this is so, try starting with something like a
+cereal box, and see how that looks when you lay it out flat.)         
+
+So you have 6 sides: 2 each in 3 different sizes.  So the total would be 
+
+    2*(2*3) + 2*(2*4) + 2*(3*4) 
+
+  = 2*(2*3 + 2*4 + 3*4)
+
+More generally, if the dimensions are a, b, and c, we would get
+
+    2(a*b + a*c + b*c)
+
+Note that for a cube, c = b = a, so the area is 
+
+    2(a*a + a*a + a*a)
+
+  = 2(3*a*a)
+
+  = 6*a^2
+
+or 6 times the area of one face. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

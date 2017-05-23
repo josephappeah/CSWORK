@@ -1,0 +1,55 @@
+ThreadNum: 567891
+Subject: Re: divergent integral
+To: karen.z.g@att.net (Karen)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 12:23:36
+Sent: yes
+
+
+As Karen wrote to Dr. Math
+On 08/20/2004 at 12:13:39 (Eastern Time),
+>[Question]
+>Integrate 
+>
+>INT[1/(x sqrt(1-x))dx] from 0 to 1
+>
+>[Difficulty]
+>At the zero end point, the integral seems to diverge.  This definite 
+>integral may have no solution but my boss says it does.
+>
+>[Thoughts]
+>I found the following formula in my college calculus book
+>
+>INT[1/(u sqrt(a-bu))du] =    1    ln |sqrt(a+bu) - sqrt(a)|
+>                          -------    |--------------------|, if a>0
+>                          sqrt(a)    |sqrt(a+bu) + sqrt(a)|
+>
+>I substituted u=x, a=1, and b=-1 in this formula and got the 
+>following as the answer for the indefinite integral
+>
+>ln |sqrt(1-x) - 1 |
+>   |--------------|
+>   |sqrt(1-x) + 1 |
+>
+>The value at endpoint 1 is 0.  Is the value at endpoint 0 infinity?
+
+Hello Karen,
+
+Mathematica agrees with you - it says that int(x=0,x=1,dx/(x*sqrt(1-x))) diverges.  
+However, who want to stakes ones life on a computer algebra system.
+
+Near 0,  1/[x*sqrt(1-x)] is like 1/[x] and this diverges.  OK, this isn't absolutely airtight but 
+it points the way.
+
+For 0<x<1,  0 < 1-x < 1 and 0 < sqrt(1-x) < 1.  So,  1/sqrt(1-x) > 1.  So,
+
+1/[x*sqrt(1-x)] > 1/x.
+
+Because the integral of 1/x diverges on [0,1] and the integrand of the one we're interested 
+in is even larger, by the Comparison Test we can say that the given integral diverges.
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

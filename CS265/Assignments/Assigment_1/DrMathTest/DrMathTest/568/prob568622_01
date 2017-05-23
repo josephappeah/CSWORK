@@ -1,0 +1,56 @@
+ThreadNum: 568622
+Subject: Re: what is the angle of a six sided miniature lighthouse
+To: surfsupinhawaii@msn.com (In trouble if I dont have a present for my mother's Birthday)
+From: Doctor Douglas
+TimeStamp: 08/25/2004 at 11:59:41
+Sent: yes
+
+
+As In trouble if I dont have a present for my mother's Birthday wrote 
+to Dr. Math
+On 08/25/2004 at 01:16:11 (Eastern Time),
+>[Question]
+>I am building a miniature lighthouse for my mother's birthday. The 
+>lighthouse has six sides, 8" at the bottom 5" at the top. I would 
+>like to know how to find out what degree to cut each side of the 
+>board so that all six sides come together to form a six sided 
+>lighthouse
+>
+>[Difficulty]
+>I find that my lack of knowledge in mathematics is the most 
+>difficult part
+>
+>[Thoughts]
+>I was thinking that since a 45 degree angle has 4 sides, I would 
+>divide this into 45 coming up with 11.2 or close to this. 
+>Since I am using 6 sides I am not sure if I should add 22 to this 
+>number.
+
+Hi Surfsup.
+
+thanks for writing to the Math Forum.  I'm not exactly sure of what
+you're trying to do.  Is the lighthouse shape a hexagonal prism or
+a (truncated) hexagonal pyramid?    For a prism, we get the following
+angles:
+
+     a-------b        looking down from the top
+    / \     / \
+   /   A---B   \      angles ABb and CBb are 120 degrees.
+  /   /     \   \         (one-third of 360 degrees)
+ f---F       C---c
+  \   \     /   /     angles Bbc and abB are 60 degrees.
+   \   E---D   /          (one-sixth of 60 degrees).
+    \ /     \ /
+     e-------d
+
+If the lighthouse is part of a pyramid (with sloping, rather than
+vertical sides), it is more complicated.  For a start, you can see
+what's involved by looking at the following web page in in our
+archives:
+
+  Angles in a Hexagonal Pyramid
+  http://mathforum.org/library/drmath/view/61102.html
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

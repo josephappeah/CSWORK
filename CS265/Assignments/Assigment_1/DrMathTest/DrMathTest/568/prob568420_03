@@ -1,0 +1,56 @@
+ThreadNum: 568420
+Subject: Re: Equated monthly installments
+To: ackid32@yahoo.com (Kodeeswaran)
+From: Doctor Jerry
+TimeStamp: 08/27/2004 at 09:07:27
+Sent: yes
+
+
+As Kodeeswaran wrote to Dr. Math
+On 08/27/2004 at 06:43:33 (Eastern Time),
+>interest rate 18% for 12 months is 1800 (for principle - 10000)
+>i calculate 11800/12 (983.33) is the monthly due (he is going to pay 
+>the principle and interest in 12 dues)
+>
+>the 18% is the flat interest and i want to know the exact interest 
+>rate (because he paid some principle in each month- so the interest 
+>is higher than the actual 18%)
+>
+>so i want to calculate in each month how much he paid as principle 
+>and interest (the sum is 983.33). 
+>
+>i add .0001 % to the actual interest and calculate 
+>note that in 12 dues the total of the principle is to be 10000
+>                         total of the interest is to be 1800
+>so i using iteration by adding .0001% and calculate which one got 
+>exactly nearer to those values i take that is the rate actualy i got.
+>
+>thanks
+>kodees
+>
+
+Hello Kodees,
+
+The method 
+
+"interest rate 18% for 12 months is 1800 (for principle - 10000)
+i calculate 11800/12 (983.33) is the monthly due (he is going to pay 
+the principle and interest in 12 dues)"
+
+is not standard practice in the U.S."  The calculations I outlined in  my first note are 
+standard practice (although sometimes modified slightly by some banks).
+
+For the standard method, one can calculate principle and interest each  month because 
+interest is calculated on the amount owed during each month.
+
+In your method, the interest is calculated once, on the entire amount, added to the 
+amount borrowed and then paid back in 12 installments.  It makes no sense to me to try 
+to figure out the "higher" interest you refer to when you say "so the interest rate is higher 
+than the actual 18%."
+
+I'm sorry but I can't help you with your calculations.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,65 @@
+ThreadNum: 568868
+Subject: Re: Argz = Arctan(y/x)  is harmonic?
+To: s_rowse@hotmail.com (Sam)
+From: Doctor Rob
+TimeStamp: 08/26/2004 at 07:57:32
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/26/2004 at 02:48:20 (Eastern Time),
+>[Question]
+>let z=x+iy, and the domain D be the first quadrant with x>0 and y>0.
+>I'm looking to show that v(x,y) = Arctan(y/x) is harmonic, ie:
+>_d^2v_   +  _d^2v_  = 0 
+> dx^2        dy^2
+>the second partial derivative of v(x,y) w.r.t 'x' plus the second
+>partical derivative of v(x,y) w.r.t. 'y' is zero.
+>
+>
+>
+>[Difficulty]
+>I've calculated the second order partial derivatives and they don't
+>add up to zero, when it's supposed!
+>
+>[Thoughts]
+>I know the relationship: Arctan(w) = 0.5i Log( 1+iw/ 1-iw), where in
+>my case w = y/x
+>so i thought it would just be a matter of diffentiation. 
+>i end up with dv/dy = -(1/2x)( 1/(1+iy/x)   +  1/(1-iy/x)  )
+> then d^2v/dy^2 = (i/2x^2) ( 1/(1+iy/x)^2   +  1/(1-iy/x)^2  )
+>then w.r.t x:
+>dv/dx = (1/2x^2)( 1/(1+iy/x)   +  1/(1-iy/x)  )
+>then d^2v/dx^2 = (-1/x^3) ( 1/(1+iy/x)   +  1/(1-iy/x)  )
+>+ (yi/2x^4) ( 1/(1+iy/x)^2   +  1/(1-iy/x)^2  )
+>
+>and no matter how i fiddle with these really messy equations, i can't
+>seem to make them equal to each other. I can't think of any other way
+>to go about solving this problem without using that arctan(w)
+>relationship, but the above seems too complicated. Any suggestions
+>would be much appreciated :-)
+>
+
+Thanks for writing to Ask Dr. Math, Sam!
+
+Using the Chain Rule, setting u = y/x,
+
+d/dx[arctan(y/x)] = d[arctan(u)]/du*du/dx,
+                  = 1/(1+u^2)*(-y/x^2),
+                  = 1/(1+y^2/x^2)*(-y/x^2),
+                  = -y/(x^2+y^2).
+
+Now take the second partial derivative with respect to x.
+
+Then comput d/dy[arctan(y/x)] in a similar way, and then the second
+partial derivative with respect to y.
+
+If you are careful, the two partial derivatives will be negatives
+of each other.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,74 @@
+ThreadNum: 568170
+Subject: Re: Closed formula to describe a number pattern
+To: dodg0922@unco.edu (Lisa)
+From: Doctor Tom
+TimeStamp: 08/22/2004 at 22:17:41
+Sent: yes
+
+
+As Lisa wrote to Dr. Math
+On 08/22/2004 at 21:38:59 (Eastern Time),
+>[Question]
+>How do you find the closed formula for the number pattern: 
+>1,5,14,30,55,91...
+>
+>  I can figure out a recursive formula but not one that describes 
+>the pattern not using the previous number in the pattern.
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I know that the difference between consecutive numbers is n-
+>squared.  I know that the recursive formula is S(n) = n^2 + S(n-1).
+>
+
+Hi Lisa,
+
+For problems like this, where if you take successive differences between
+the terms, you eventually get a line of zeroes, there is a mechanical
+way to produce a closed-form.
+
+Here are the successive differences:
+
+1  5 14 30 55 91 140 ...
+  4  9  16 25 36 49 ...
+    5   7   9  11  13 ...
+       2   2   2   2   2 ...
+         0   0   0   0  ...
+
+Now take the numbers down the left diagonal (which obviously
+completely determine the sequence):  1, 4, 5, 2, 0, 0, 0, ...
+and form the following sum:
+
+1 (n choose 0) + 4 (n choose 1) + 5 (n choose 2) + 2 (n choose 3) + 0 + 0 + ...
+
+(n choose k) is the binomial coefficent counting the number of ways of
+choosing k things from a set of n.
+
+(n C 0) = 1
+(n C 1) = n
+(n C 2) = n(n-1)/2
+(n C 3) = n(n-1)(n-2)/6
+
+So for your example, the answer is:
+
+1(1) + 4n + 5n(n-1)/2 + 2n(n-1)(n-2)/6
+
+= (6 + 24n + 15n^2 - 15n + 2n^3 -6n^2 + 4n)/6
+
+= (2n^3 + 9n^2 +13n + 6)/6.
+
+Test it for n = 0, 1, 2, 3 and we obtain:
+
+1, 5, 14, 30, ...
+
+You can prove that the method always works by induction, or, if you've
+got the recursive description for any particular one, you can show that
+the formula satisfies the recursive description.
+
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

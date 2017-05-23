@@ -1,0 +1,40 @@
+ThreadNum: 567256
+Subject: Re: number combinations
+To: laurenjessup@clear.net.nz (Lauren Jessup)
+From: Doctor Anthony
+TimeStamp: 08/17/2004 at 07:28:13
+Sent: yes
+
+
+As Lauren Jessup wrote to Dr. Math
+On 08/17/2004 at 03:37:18 (Eastern Time),
+>[Question]
+>What are the possible combinations of 7 people sharing 3 bedrooms. 
+>The first bedroom has 3 beds, the second and third bedrooms both 
+have 
+>2 beds?
+
+                              7!
+Number of combinations =  -----------  =  105
+                           3!2!2! x 2
+
+The extra 2 in the denominator is to take account of the fact that 
+the pairs in the two double rooms could swap rooms without it 
+counting as a different arrangement of the groupings of PEOPLE.
+
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I have come up with 210 possible combinations.
+>In a two bedded room there are 21 combinations. In the next room of 
+2 
+>beds there are five people left with 10 possible combinations.This 
+>forces the remaining three people into the final bedroom.Therefore 
+>21X10=210
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

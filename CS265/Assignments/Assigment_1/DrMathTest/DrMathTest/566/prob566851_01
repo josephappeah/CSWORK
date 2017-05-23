@@ -1,0 +1,106 @@
+ThreadNum: 566851
+Subject: Re: Adding words together
+To: r_todd_d@msn.com (Todd)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 20:41:04
+Sent: yes
+
+
+As Todd wrote to Dr. Math
+On 08/13/2004 at 18:05:38 (Eastern Time),
+>[Question]
+>How do i figure out what the answer is to the following problem:
+>
+>MEAT + TEAM = GAME
+>
+>Each letter is a number from 1 - 9 and each different letter is a 
+>different number
+>
+>[Difficulty]
+>finding a logical start point
+>
+>[Thoughts]
+>
+Hi, Todd --
+
+It's always a lot easier to see what to do if we arrange the problem 
+in the traditional vertical format:
+
+    MEAT
+  + TEAM
+  ------
+    GAME
+
+From there, there are always many different paths to take towards a 
+solution of the problem.
+
+Here are the significant things I notice first:
+
+(1) The sum of two 4-digit numbers is a 4-digit number, so the sum 
+of M and T is at most 9.
+
+(2) In the 1's column, the sum of M and T gives digit E; in the 
+1000s column, the same sum of M and T gives a different digit G.  
+This means there is a "carry" from the 100s column to the 1000s 
+column.  This in turn means that  (a) E is 5 or greater; and  (b) G 
+is 1 more than E -- which now means the sum of M and T is at most 8.
+
+These observations immediately severely limit the possibilities for 
+the values of E and G; we must have one of the following:
+
+  (E,G) = (5,6)
+  (E,G) = (6,7)
+  (E,G) = (7,8)
+  (E,G) = (8,9)
+
+Next I see that
+
+(3) In the 100s column, E plus E -- possibly with a "carry" or 
+possibly without -- gives digit "A"; and
+
+(4) in the 10s column, A plus A -- without a "carry", because T plus 
+M is less than 10 -- gives digit M.
+
+Now we consider each of the possibilities for (E,G) determined 
+earlier along with items (3) and (4).
+
+Suppose (E,G) = (5,6).  Then from (3), A is either 0 or 1.  But if A 
+is either 0 or 1, there is no "carry" from the 10s column to the 
+100s column, so A would have to be 0.  But then (4) tells us that M 
+would also have to be 0.  And different letters stand for different 
+digits, so this is not possible -- and also the problem says the 
+digits are between 1 and 9, so 0 is not allowed.
+
+Suppose (E,G) = (6,7).  Then from (3), A is either 2 or 3.  Again, 
+in either case, there is no "carry" from the 10s column, so A would 
+have to be 2.  Then (4) tells us that M would have to be 4.  Then in 
+the 1s column, M plus T would have to be equal to E, making T equal 
+to 2.  But then A and T are both 2, which is not allowed.
+
+Suppose (E,G) = (7,8).  Then from (3), A is either 4 or 5.  In this 
+case, either possibility is okay.  If A=4, then there is no "carry" 
+from the 10s column to the 100s column, making the digit A in the 
+100s place of the sum correct; and if A=5, then there IS a "carry", 
+and this again makes the digit A in the 100s place of the sum 
+correct.  However, if A=4, then (4) tells us M=8; but G is 8, so 
+this is not a possibility.  And if A=5, then (4) tells us M=0; but 
+none of the letters is supposed to be 0.
+
+Suppose (E,G) = (8,9).  Then from (3), A is either 6 or 7.  But only 
+the 7 is possible, because if A is either 6 or 7 then there is 
+a "carry" from the 10s column to the 100s column, so the digit A in 
+the 100s column of the sum must be odd.  Since A is 7, (4) tells us 
+that M is 4.  But then in the 1s column, M plus T giving digit E 
+tells us that T must also be 4, which is not allowed.
+
+We have examined all the possible solutions to the problem, and none 
+of them works.  So in this case, unless I have made a mistake in my 
+logic or my arithmetic, the problem as you show it has no solution.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.  Especially write back if you know that 
+the problem has a solution.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

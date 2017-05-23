@@ -1,0 +1,37 @@
+ThreadNum: 568350
+Subject: Re: Percent Error
+To: swati_pradeep@yahoo.com (Swati)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 11:30:22
+Sent: yes
+
+
+As Swati wrote to Dr. Math
+On 08/23/2004 at 20:45:23 (Eastern Time),
+>[Question]
+>find the percent error in measuring a distance of about 20 cm with a
+>meter stick?
+>
+>[Difficulty]
+>I do not understand how the question is worded?
+>
+>[Thoughts]
+>i know percent error is (experimental value - theoretical
+>value)/theoretical value, but the problem is i can't figure out what
+>is the actual value and the theoretical value in this problem.
+
+Hi Swati,
+
+Suppose your meter stick is marked so that you can measure the
+distance to the nearest centimeter.  You might be off by as much as
+half a centimeter, so the percentage error would be 
+
+  1/2 cm     ?
+ -------- = ---
+   20 cm    100
+
+Does that make sense?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

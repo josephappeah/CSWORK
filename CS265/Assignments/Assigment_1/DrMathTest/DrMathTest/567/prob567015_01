@@ -1,0 +1,81 @@
+ThreadNum: 567015
+Subject: Re: Limits and matrices
+To: av_ace11@hotmail.com (av_ace11)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 15:58:32
+Sent: yes
+
+
+As av_ace11 wrote to Dr. Math
+On 08/15/2004 at 12:37:30 (Eastern Time),
+>[Question]
+>1) lim of sqrt(7arctan n + 3)
+>
+>2) Describe explicitly all possible 2x2 row reduced echelon matrices.
+>
+>3) Suppose R and S are 2x3 row reduced echelon matrices and that the 
+>linear systems Rx = 0 and Sx = 0 have exactly the same solutions. 
+>Prove that R = S
+>
+>
+>
+>[Difficulty]
+>1) im having trouble with this limti question because of the sqrt 
+>sign
+>
+>2)im having trouble understanding what this question requires of me? 
+>
+>3)With this one im not sure if my soltuion is correct or sufficient??
+>
+>[Thoughts]
+>1) can i say limit = sqrt(7pi/2 + 3)
+>
+>2) 
+>
+>3) My Solution: Rx - Sx = 0
+>             (R - S)x = 0
+>              R - S = 0
+>               R = S
+> 
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+>1) lim of sqrt(7arctan n + 3)
+>1) can i say limit = sqrt(7pi/2 + 3)
+
+Assuming that the limit in the first line is the limit as n->+oo,
+yes.  Sqrt(x) is a continuous function for x > 0, and continuous from
+the right at x=0.  So, if 
+
+   lim a(n) = A , then  lim sqrt(a(n)) = sqrt(A) .
+  n->oo                n->oo      
+
+>2)im having trouble understanding what this question requires of me? 
+
+Your terminology is confusing.  One usually speaks of "row echelon
+form" and "reduced row echelon form".  By putting "reduced" between
+"row" and "echelon", it's not clear what the problem wants, since
+the process of obtaining either form is called "row reduction".  See
+
+   http://planetmath.org/encyclopedia/RowEchelonForm.html
+   http://planetmath.org/encyclopedia/ReducedRowEchelonForm.html
+   http://www.mathwords.com/r/row-echelon_form.htm
+   http://www.mathwords.com/r/reduced_row_echelon_form.htm
+
+for explanations of the two forms.
+
+Your solution to (3) isn't correct.  You need to examine all the
+possible reduced row echelon forms for a 2x3 matrix, and show that 
+for each possible form for R, if S is not R, the two equations Rx=0
+and Sx=0 will have different solutions.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

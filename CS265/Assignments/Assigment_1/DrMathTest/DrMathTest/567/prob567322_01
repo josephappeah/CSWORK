@@ -1,0 +1,68 @@
+ThreadNum: 567322
+Subject: Re: how to come up with algabreic expressions for patterns?
+To: res0vb33@verizon.net (Taryn)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 17:02:24
+Sent: yes
+
+
+As Taryn wrote to Dr. Math
+On 08/17/2004 at 16:43:46 (Eastern Time),
+>[Question]
+>Hi, This is our reply to yours regarding our problem with patterns 
+>and how to phrase the solution.
+>
+>The numbers at the top, in sequence are patterns that were given 
+>from the homework page.
+>I got 149 for second number, when 50 is the first by doing it the 
+>long way.
+>I also got 599 for an answer to b. when the first number is 200, by 
+>doing it the long way.
+>The only solution we can think of for d. is n=(n x 3)-1.
+>The only problem is we're not sure how we cna justify this, we just 
+>know it works.
+>
+>
+>[Difficulty]
+>How to explain it to our daughter in a way that makes sense.
+>
+>[Thoughts]
+>n=(50 x 3)-1
+>n= 149 
+>  for the first number 50
+
+Hi Taryn,
+
+So perhaps you wrote down your chart incorrectly, which I will copy here:
+
+3...8
+4...11
+4...14
+5...17
+6...20
+7...23
+
+a.  What is the second number, if 50 is the first?
+b.  What is the second number if 200 is the first?
+c.  What is the first number if 89 is the second?
+d.  If n is the first number, what is the second?
+
+If you meant to write
+
+3...8
+4...11
+5...14
+6...17
+7...20
+8...23
+
+Then I would agree that if n is the first number, then 3n-1 is the
+second number.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

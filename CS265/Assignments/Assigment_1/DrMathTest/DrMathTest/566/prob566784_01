@@ -1,0 +1,75 @@
+ThreadNum: 566784
+Subject: Re: Combinatorics with identical elements
+To: bkeane2@bigpond.net.au (John)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 05:27:14
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/13/2004 at 00:37:01 (Eastern Time),
+>[Question]
+>Bob is about to hang his eight shirts in the wardrobe. He has four 
+>different styles of shirt, two identical ones of each particular 
+>style. How many different arrangements are possible if no two 
+>identical shirts are next to one another?
+>
+>[Difficulty]
+>I could do a similar problem with two different types of shirts, 
+but 
+>above this things seem to get complicated
+>
+>[Thoughts]
+>The total number of arrangements, is, I think, 8!/2!2!2!2! = 7!
+>Beyond this I really don't know
+>
+>Thanks!
+
+
+Suppose the shirts are AA, BB, CC and DD.  We require the number of 
+arrangements such that AA or BB etc, does not occur. 
+
+The number of unrestricted arrangements is 8!/[2!2!2!2!] = 2520
+
+You need to use the inclusion-exclusion principle here.
+
+The number of ways with the A shirts together (regardless of what 
+the others are doing) is found by joining the two A's as a single 
+unit and considering in how many ways they can be together.  There 
+are 7 objects to permute and this gives 7!/[2!2!2!] as number of 
+ways they are together. 
+
+So number of ways the A's are together is  7!/[2!2!2!]  and of 
+course the same would apply if B's, C's or D's are together giving C
+(4,1) x 7!/[2!2!2!] as the number of ways that 1 pair is together.
+
+For two pairs together a similar calc. gives  C(4,2) x 6!/[2!2!]
+
+For three pairs together the answer is  C(4,3) x 5!/[2!]
+
+For four pairs together the answer is  C(4,4) x 4!
+
+We now use the inclusion-exclusion formula for the number of ways 
+that one or more pairs are together  
+
+n(A or B or C or D) =   C(4,1) x 7!/[2!2!2!]
+                      - C(4,2) x 6!/[2!2!]
+                      + C(4,3) x 5!/[2!]
+                      - C(4,4) x 4!
+
+                    =  2520 - 1080 + 240 - 24
+
+                    =  1656
+
+This is the number of ways that one or more pairs are together.  The 
+number of ways such that none are together is then
+
+     2520 - 1656 =  864
+
+There are 864 ways in which no pairs are together.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,49 @@
+ThreadNum: 567725
+Subject: Re: Symbolic Logic
+To: iceicexiro@yahoo.com (NB)
+From: Doctor Achilles
+TimeStamp: 08/23/2004 at 13:57:40
+Sent: yes
+
+
+As NB wrote to Dr. Math
+On 08/19/2004 at 15:54:12 (Eastern Time),
+>[Question]
+>1. F -> (G v H) Given
+>2. (~G ^ I) v (J -> ~F) Given
+>3. ~(~H -> ~F)  Given
+>Prove ~S ^ Q
+>
+>[Difficulty]
+>My question is how can I get ~S ^ Q if both of them are not found 
+>anywhere in the premises?
+>
+>[Thoughts]
+>This is what I got:
+>4. ~ ( H v ~F) Conditional Exchange 3
+>5. ~H ^ F DeMorgan's 4
+>6. ~H Simplification 5
+>7. F Simplification 5
+>8. G v H Modus Pollens 1, 7
+>9. G Disjunctive Syllogism 6, 9
+>10. G v ~I 
+>11. ~ (~G ^ I) DeMorgan 10
+>12. J -> ~F Disjunctive Syllogism 11, 2
+>13. ~J v ~F Conditional Exchange 12
+>14. ~J Disjunctive Sylogism 7, 13
+
+Hi again NB,
+
+One of the other members of the math forum pointed out that if the 
+second given is:
+
+  (~G ^ I) v (G -> ~F)
+
+Then a contradiction can be derived.  Was there a typo in your 
+question?
+
+If you still need help with the problem, please write back.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

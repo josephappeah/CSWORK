@@ -1,0 +1,43 @@
+ThreadNum: 566101
+Subject: Re: finding the solution using the quadratic formula
+To: xuan662@yahoo.com (Xany)
+From: Doctor Fenton
+TimeStamp: 08/09/2004 at 08:53:24
+Sent: yes
+
+
+As Xany wrote to Dr. Math
+On 08/09/2004 at 00:37:11 (Eastern Time),
+>[Question]
+>I have this problem which I used a quadratic formula to solve, but 
+>somehow it doesn't work. Since the solution is also the X-intercept, 
+>the equation should at least have x-intercept(s). This problem: 
+>x^2+3x+10, doesn't seem to have an x-intercept.
+>Please help me, 
+>thank you very much!
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Xany,
+
+Thanks for writing to Dr. Math.  The nature of the roots of a quadratic
+equation ax^2 + bx + c = 0 (a,b,c real) is shown by the discriminant:
+
+   D = b^2 - 4ac .
+
+When D > 0, there are two distinct real roots; when D = 0, there is
+a double real root; and when D < 0, the roots are complex numbers.
+When D < 0, since the roots are complex, there are no x-intercepts.
+The graph is either entirely above, or entirely below, the x-axis.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,47 @@
+ThreadNum: 567666
+Subject: Re: Fractions
+To: fifaworldcup2003@aol.com (Michael)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 23:37:32
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/20/2004 at 19:41:28 (Eastern Time),
+>like 28/72 I learned this a while back and at this stage we dont 
+>review so I would like to now the steps and dividing fractions like 
+>this one. Can you also give more than one example?
+>
+>
+>
+>
+>THANKS A MILLION,
+>MICHAEL
+>
+
+Hi Michael,
+
+I'm still not quite sure what you mean.  Given something like 28/72,
+are you trying to reduce it to lowest terms?  To do that, the quickest
+way is to break the numerator and denominator into prime factors:
+
+  28   2 * 2 * 7           2 * 2       7               7        7
+  -- = ----------------- = ----- * --------- = 1 * --------- = --
+  72   2 * 2 * 2 * 3 * 3   2 * 2   2 * 3 * 3       2 * 3 * 3   18
+
+Is this the kind of thing you're talking about?  Or do you mean given
+something like 28/72, you're trying to convert to a decimal by
+dividing the denominator into the numerator:
+
+         0.3
+      __________
+  72 ) 2 8.0 0 0
+       2 1 6
+       -----
+         6 4 0    etc.
+
+Or is it something else?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

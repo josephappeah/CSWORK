@@ -1,0 +1,61 @@
+ThreadNum: 567446
+Subject: Re: exponential series 
+To: roserosedebbie@yahoo.com (rose)
+From: Doctor Fenton
+TimeStamp: 08/18/2004 at 08:22:32
+Sent: yes
+
+
+As rose wrote to Dr. Math
+On 08/18/2004 at 05:58:34 (Eastern Time),
+>[Question]
+>an astronaut is expected to reach a point of e^t meters above earth 
+>after t seconds. by substituting the first 7 terms of an appropriate 
+>series find the approximate height of the astronaut at 0.5, 1 and 2 
+>seconds. when using the sum of the first 7 terms, the height after 4 
+>seconds is 48.555556 meters but the actual value is 54.59815. 
+>investigate the sum of terms of the series for e^t for different 
+>values of t compared with calculator values of e^t and make a comment.
+>
+>[Difficulty]
+>i don't understand what it means by substituting the first seven 
+>terms of an approriate series, does this mean i just substitute t=1 
+>until t=7 into e^t=1+t+1/2!*t^2....also, it says that when using the 
+>sum of the first seven terms the height after t=4  is 48.555556 but 
+>the actual value is 54.59815. i know that comes from 
+>e4=54.59815....but i don't understand how they got 48.555556 in the 
+>first place and how do i compare that with the calculator value?
+>
+>[Thoughts]
+>e0.5=1.648721
+>e1=2.71828, i just found all the values of 'e' until e7=1096.633. 
+>then i added all of them together to get 2700 something...which i 
+>know is completely wrong. So after that i didn't know what to do. 
+>please help!
+
+Hi Rose,
+
+Thanks for writing to Dr. Math.  The series is
+
+                t^2   t^3         t^n
+  e^t = 1 + t + --- + --- + ... + --- + ...
+                 2!    3!          n!
+
+which has an infinite number of terms.  "Use 7 terms of the series"
+means to use the terms with n = 0,1,2,3,4,5,6.  It has nothing to
+do with the value of t: now you have an approximate equality
+
+
+                t^2   t^3         t^6
+  e^t ~ 1 + t + --- + --- + ... + --- 
+                 2!    3!          6!   .
+
+Substitute the t values of interest (e.g. t = 4) into this sum.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

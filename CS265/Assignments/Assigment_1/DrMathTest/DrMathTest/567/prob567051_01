@@ -1,0 +1,45 @@
+ThreadNum: 567051
+Subject: Re: Is -5=x considered to be an open sentence.
+To: ManishaRamak@hotmail.com (Manisha)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 09:48:15
+Sent: yes
+
+
+As Manisha wrote to Dr. Math
+On 08/15/2004 at 19:07:27 (Eastern Time),
+>[Question]
+>I have a homework questions which asks me to identify Open sentence.
+>
+>One of them is -5=x. Would this be considered as an open sentence 
+>since x is assigned a definite value of -5.
+>
+>Thank you.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Manisha,
+
+Actually, this isn't an assignment, it's an assertion.  An assignment
+is when you decide to substitute -5 for x, to get
+
+  -5 = -5
+
+which is a true statement.  The statement 
+
+  -5 = x
+
+may or may not be true, depending on what value you assign to x. 
+
+So in fact, this _is_ an open sentence, even though it's not a very
+_interesting_ one. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

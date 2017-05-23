@@ -1,0 +1,38 @@
+ThreadNum: 568431
+Subject: Re: Least Common Multiple
+To: farheen_butt2000@yahoo.com (Farheen)
+From: Doctor Vogler
+TimeStamp: 08/24/2004 at 10:07:23
+Sent: yes
+
+
+As Farheen wrote to Dr. Math
+On 08/24/2004 at 10:02:32 (Eastern Time),
+>[Question]
+>Find the greatest number of 5-digits which when divided by 25, 30 
+>and 40 leaves a remainder of 20, 25 and 35 respectively.
+>
+>[Difficulty]
+>should i find lcm then what is next
+>
+>[Thoughts]
+>
+
+Hi Farheen,
+
+Thanks for writing to Dr Math.  The lcm will be important, but first
+think about this:  Suppose that you have a number - call it n - that
+has the above property.  Then what remainders do you get if you divide
+the number
+
+  n+5
+
+by 25, or 30, or 40?  What does that tell you about n+5?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

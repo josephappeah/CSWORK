@@ -1,0 +1,76 @@
+ThreadNum: 567133
+Subject: Re: finite fields, splitting fields, galois theory
+To: wigler@cshl.edu (Mike)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 17:10:05
+Sent: yes
+
+
+As Mike wrote to Dr. Math
+On 08/16/2004 at 16:28:33 (Eastern Time),
+>i guess to add two things...
+>A
+>i have shown more rigorously that P(x^2)=P(x)^2
+>so if a is a root, then a^2 is a root
+>when the coefficients are over ground field Z(2)...
+>if P(x)=SUM(a[i]x^i) for i=0,1,...N
+>then P(x)^2=SUM(SUM(a[i]a[k-i]))(x^k) for all k=0,1,...2N
+>and all i less than equal to k...
+>these a[i]a[k-i] come in pairs
+>unless i=k-i,
+>and hence cancel out in Z(2),
+>so P(x)^2=SUM(a[i]a[i]x^(2i)) for all i=0,1,...N
+>but in Z(2), a[i]a[i]=a[i]
+>hence P(x)^2=SUM(a[i]x^(2i))=P(x^2)...
+>thus it is true
+>for polynomials with coefficients in Z(2)
+>that if a is a root, a^2 is a root...
+>of course this is not true 
+>for polynomials with coefficients over other fields...
+>B
+>i distinguish between a field extension
+>where a polynomial has at least one root
+>from a field extension
+>where all roots are found
+>and the polynomial factors completely...
+>the latter i am calling splitting fields,
+>i think correctly...
+>it is clear to me
+>that all polynomials of degree k
+>with coefficients over Z(2)
+>have at least one root in GF(2^k)...
+>it is not clear to me
+>that they all split...
+>it is clear to me that if one splits 
+>they all split...
+>i am trying to show that at least one polynomial
+>splits completely...
+>is this clearer?
+
+Hi Mike,
+
+Yes, I realized that distinction after a while.  Over Q, the
+rationals, a field extension may contain one root without containing
+any others, or may contain some roots without containing all.  One of
+the properties of finite fields is that a polynomial with one root in
+a finite field will have all of its roots in the finite field.  You
+can probably find this proven in your text book.  One way to see this
+is to note that all elements of the finite field GF(q) are roots of
+the polynomial
+
+  x^q - x.
+
+So if "a" is in the field, then the minimal polynomial for a (the
+unique monic irreducible polynomial which has a as a root) must be a
+factor of the polynomial
+
+  x^q - x.
+
+But then, not only are all elements of the field roots of that
+polynomial, so too are all roots of that polynomial elements of the
+field!  So all of the roots of the irreducible polynomial for a (that
+is, the Galois conjugates of a) are in the field.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

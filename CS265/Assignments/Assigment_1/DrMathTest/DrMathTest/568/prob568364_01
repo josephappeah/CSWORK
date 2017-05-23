@@ -1,0 +1,35 @@
+ThreadNum: 568364
+Subject: Re: Probability  of a percentage 
+To: keblakeney@hotmail.com (Kent )
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 09:46:32
+Sent: yes
+
+
+As Kent  wrote to Dr. Math
+On 08/23/2004 at 21:40:03 (Eastern Time),
+>[Question]
+>If something has a 99% chance of working,  how many times would you
+>have to do it in order for the probability of it not happening to be
+>over 50%. 
+>
+>[Difficulty]
+>Not sure what the correct formula to use is. I am a high school
+>history teacher who asked a math teacher this question and neither of
+>us could figure it out.  
+>
+>[Thoughts]
+>I've used Burnelli's formula but it did not get the answer I wanted 
+
+Hi Kent,
+
+I'm not sure what you mean.  If the probability that something works
+on a given try is 99%, the probability that it will work AT LEAST once
+in some number of tries increases as the number of tries increases. 
+So it will never be below 99%. 
+
+Can you tell me more about the problem you're trying to solve? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

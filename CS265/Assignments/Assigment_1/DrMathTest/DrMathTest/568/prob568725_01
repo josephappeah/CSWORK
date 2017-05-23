@@ -1,0 +1,63 @@
+ThreadNum: 568725
+Subject: Re: I am an Algebra II teacher in northeast Atlanta.
+To: mfelton@glynn.k12.ga.us (Mark Felton)
+From: Doctor Tom
+TimeStamp: 08/25/2004 at 20:11:32
+Sent: yes
+
+
+As Mark Felton wrote to Dr. Math
+On 08/25/2004 at 16:19:18 (Eastern Time),
+>[Question]
+>I can solve lim x->0 (2x + sin 2x)/(x)using traditional limit methods 
+>when x is in radians.  Solving when x is in degrees yields a 
+>different result.  Can you explain how to solve it in degree?
+>
+>[Difficulty]
+>The limit in radians is 4.  The limit in degres is about 2.045.  Is 
+>there an easy way to explain this to my former students?
+>
+>
+>[Thoughts]
+>
+
+Hi Mark,
+
+Perhaps the easiest way to think of it is as follows.  If you just
+think of x as a number, without saying whether it represents
+degrees or radians, then there are really two sine functions --
+one where the input value is assumed to be in degrees
+and another where the input is assumed to be in radians.
+
+Let's give them different names to keep then straight:
+
+sin(x) = sine function, where x is in radians
+
+SIN(x) - sine function, where x is in degrees
+
+They are related, of course:
+
+sin(x/57.2957...) = SIN(x)
+
+The problem you want to solve (when x is assumed to
+be measured in degrees) is the limit as x->0 of
+
+(2x + SIN(2x))/x.
+
+I don't know how you usually solve these limits, but
+l'Hopital's rule, for example, says that the limit's
+the same if you take the derivatives of the numerator
+and denominator, so you'll get that the limit is:
+
+2 + (d/dx)(SIN(2x) evaluated at x=0.
+
+2 + (d/dx)(SIN(x)) = 2 + (2/57.2957...)cos(x) and if
+you evaluate this at x=0, you obtain 2 + 0.03490...
+
+(By the way, my answer is slightly different from yours,
+but I checked mine on a calculator and it seems to
+be right.)
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,77 @@
+ThreadNum: 567092
+Subject: Re: summation of inifite series
+To: nmukundan_n@yahoo.com (Mukundan)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:01:00
+Sent: yes
+
+
+As Mukundan wrote to Dr. Math
+On 08/16/2004 at 01:34:26 (Eastern Time),
+>[Question]
+>What is the sum of 1 + 4/7 + 9/49 + .....
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Mukundan,
+
+Thanks for writing to Dr Math.  I think the sum you are asking about is
+
+  inf  n^2
+  sum -----
+  n=1  7^n
+
+Am I right?  Three terms isn't much to base that on, but I'm guessing
+that's what you want.
+
+Have you ever summed an "arithmetico-geometric series"?  That is, one
+of the form
+
+       k
+  S = sum a * n * r^n  ?
+      n=1
+
+Some people do this by taking derivatives, but I won't assume that you
+know calculus, and I'll do it the algebraic way:  Subtract r*S.
+
+             k                 k
+  S - r*S = sum a * n * r^n - sum a * n * r^(n+1)
+            n=1               n=1
+
+             k                k+1
+  S - r*S = sum a * n * r^n - sum a * (n-1) * r^n
+            n=1               n=2
+
+                            k+1
+  S - r*S = a * 1 * r^1 + [ sum a * r^n ] - a * k * r^(k+1)
+                            n=2
+
+and then the middle series is a geometric series, and I assume that
+you can sum a series like that.  This gives you a formula for S - r*S,
+and then you just divide both sides by 1-r to get S.
+
+Well, you have a series of the form
+
+       k
+  S = sum a * n^2 * r^n
+      n=1
+
+In fact, you can sum it in exactly the same way:  Subtract r*S,
+regroup the sums, divide by 1-r, and you will get a formula for S
+which has an arithmetico-geometric series on the right, the type that
+I already solved.  Use the formula for that kind of series to get the
+formula for your kind of series.
+
+And then take the limit as k approaches infinity.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

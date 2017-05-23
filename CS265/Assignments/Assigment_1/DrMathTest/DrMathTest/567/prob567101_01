@@ -1,0 +1,40 @@
+ThreadNum: 567101
+Subject: Re: proving expression in algebra
+To: shinkentom@hotmail.com (kevin)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 17:11:25
+Sent: yes
+
+
+As kevin wrote to Dr. Math
+On 08/16/2004 at 06:17:52 (Eastern Time),
+>[Question]
+>hi,
+>doc, can u help me with this problem
+>
+>If    x    =   y    =   z  
+>     ----    -----     ------
+>     a-b      b-c     c-a
+>
+>
+>show that x+y+z=0...
+>   
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Kevin!
+
+Put r = x/(a-b), so x = r*(a-b).  Do similarly for the other
+fractions in the first equation(s).  Then compute x + y + z in terms
+of r, a, b, and c, and see that it equals zero.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

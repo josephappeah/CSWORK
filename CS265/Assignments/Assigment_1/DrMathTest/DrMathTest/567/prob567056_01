@@ -1,0 +1,59 @@
+ThreadNum: 567056
+Subject: Re: trig intervals
+To: lorim456@aol.com (cayce loren)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 18:40:00
+Sent: yes
+
+
+As cayce loren wrote to Dr. Math
+On 08/15/2004 at 20:44:53 (Eastern Time),
+>[Question]
+>find all solutions in the interval [0,2pi) : cos2x + sinx = 0
+>
+>[Difficulty]
+>we are confused on how to begin the problem because we do not 
+>understand what the question is asking us
+>
+>[Thoughts]
+>we know that cos2x = 2sinxcosx
+
+Hi Cayce,
+
+Thanks for writing to Dr. Math.  
+
+>we are confused on how to begin the problem because we do not 
+>understand what the question is asking us
+
+That is simple.  It is asking for all the values of x between 0
+and 2pi which satisfy the equation.  To determine that, you usually
+need to rewrite the equation to reduce the question to solving an
+equation involving a single trigonometric function.
+
+>we know that cos2x = 2sinxcosx
+
+You are confusing the Double Angle formulas for sin and cos.
+
+   sin(2x) = 2 sin(x)cos(x), 
+
+but
+
+   cos(2x) = cos^2(x) - sin^2(x)
+           = 2cos^2(x) - 1
+           = 1 - 2sin^2(x)  .
+
+Using one of these identities, you can write cos(2x) in terms of
+sin(x), and have a quadratic equation in sin(x).  That is, if you 
+let y = sin(x), you will have a quadratic equation for y, which
+you should know how to solve.  For each root r of this quadratic
+equation, you then have to solve
+
+   sin(x) = r.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

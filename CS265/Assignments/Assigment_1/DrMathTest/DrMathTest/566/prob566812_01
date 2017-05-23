@@ -1,0 +1,49 @@
+ThreadNum: 566812
+Subject: Re: i am not in class but i am studing for a placement test
+To: howelljr8@aol.com (melba  howell)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 10:38:50
+Sent: yes
+
+
+As melba  howell wrote to Dr. Math
+On 08/13/2004 at 10:24:35 (Eastern Time),
+>[Question]
+>how can i find the original price of something if i know the total 
+>price and the percent added on to it ? for example: with a 15% 
+markup 
+>the total price is $97.98 what was the original price and how do 
+you 
+>work this problem?
+
+If the original price was P then we must increase P by 15% to reach 
+a value $97.98
+
+To increase something by 15% we multiply by 1.15
+
+So we have the equation
+
+     1.15P = 97.98
+
+              97.98
+         P = -------  =  $85.20
+               1.15
+
+So the original price was $85.20
+
+To find the original price the final value must be divided by 1.15 
+if markup is 15%. 
+
+
+
+>
+>[Difficulty]
+>I don't know the formula 
+>
+>[Thoughts]
+>i need to know the formula
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

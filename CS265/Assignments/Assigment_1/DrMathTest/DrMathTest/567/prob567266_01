@@ -1,0 +1,57 @@
+ThreadNum: 567266
+Subject: Re: 7c fractions
+To: heylaurs@hotmail.com (ellie)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 15:26:56
+Sent: yes
+
+Hi, Ellie.
+
+As ellie wrote to Dr. Math
+On 08/17/2004 at 06:10:56 (Eastern Time),
+>[Question]
+>division of fractions
+>simplify the following?
+>what does simplify mean?
+>4 over five how many 2 over 15 i really dont understand how to do it 
+>please help i try my hardest
+>
+>[Difficulty]
+>it's fractions and the way it is set out
+>
+>[Thoughts]
+>i think we time the numbers all together and add it up
+
+I can't understand the question well enough to be sure I'm answering 
+it. Could you write it out in numerals and symbols? Perhaps you mean 
+this?
+
+  4    2
+  - * -- = ?
+  5   15
+
+I use "*" for the multiplication sign because "x" has another meaning 
+(a variable, which you may have seen by now).
+
+If this is the problem, there is no simplification to do beyond 
+multiplying the numerators and multiplying the denominators -- which 
+is how you multiply fractions. The numerator is 4*2 = 8, and the 
+denominator is 5*15 = 75, so the answer is 8/75.
+
+Sometimes you can make the answer simpler -- you can reduce it to 
+lowest terms, which means finding an equivalent fraction that has the 
+smallest numbers possible. Here is such an example:
+
+  4    3
+  - * -- = ?
+  9   10
+
+When I multiply the numerators and the denominators, I get 12/90, but 
+this is not in lowest terms: both 12 and 90 are divisible by 6. 
+Dividing both numbers by 6, I get the equivalent fraction 2/15, which 
+is the answer in lowest terms -- I have simplified it as much as I 
+can.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

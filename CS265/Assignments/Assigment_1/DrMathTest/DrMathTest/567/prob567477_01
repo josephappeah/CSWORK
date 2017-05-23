@@ -1,0 +1,42 @@
+ThreadNum: 567477
+Subject: Re: Converting Feet to Square Feet
+To: Tweet1212@aol.com (Mary)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 13:09:02
+Sent: yes
+
+Hi, Mary.
+
+As Mary wrote to Dr. Math
+On 08/18/2004 at 10:54:30 (Eastern Time),
+>[Question]
+>Hello, I am trying to convert some measurements that are in Linear 
+>footage to Square feet.  It has been some time since I have been in 
+>school and now that we are having some construction done on our home 
+>I am trying to work out cost of materials.  I have a room that is 
+>16Ft. by 18 Ft. What would that convert to in square footage and 
+>please explain how you came up with your answer.  I have also 
+>measured our roof and I am trying to get that converted as well.  It 
+>is a peeked roof and each side is 17ft. long and 6 Ft. wide.  
+>     Thank you for your help.
+>
+>[Difficulty]
+>Just how to actually convert.
+>
+>[Thoughts]
+>LxW/9= sq Footage?
+
+The formula you suggest must come from some context in which the 
+length and width were in yards. If the length and width of a 
+rectangle are given in feet, and you simply multiply them together, 
+you get the area of the rectangle in square feet. If the length and 
+width are given in yards, multiplying them gives you the area in 
+square yards.
+
+The floor area of your room, for instance, is
+
+  16 feet * 18 feet = 288 square feet
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,57 @@
+ThreadNum: 567754
+Subject: Re: Perimeter and Area
+To: Buck63eye@charter.net (patricia)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 12:24:36
+Sent: yes
+
+
+As patricia wrote to Dr. Math
+On 08/19/2004 at 18:08:42 (Eastern Time),
+>[Question]
+>how to get the function, the substitute number, then the answer, but 
+>i have to show my work       a+b+a+b=  a+a+b+b 2a+2b then the numbers 
+>and then the answer   
+>
+>
+>[Difficulty]
+>to do all of that
+>
+>[Thoughts]
+>a+a+b+b 2a+2b  change letter to number then area 2(a+b)Buck63
+
+Hi Patricia,
+
+It looks like you're doing fine so far.  The perimeter of a rectangle
+or parallelogram (which is what I assume you're computing) would be
+the sum of the sides:
+
+  area = a + b + a + b
+
+Addition is commutative, so you can change the order:
+
+  area = a + a + b + b
+
+You can replace repeated additions with multiplications:
+
+  area = 2a + 2b
+
+You can use the distributive property to break out the common factor:
+
+  area = 2(a + b)
+
+So now, if you're given two particular values, e.g., a = 3 and b = 4,
+you can substitute these into the equation to get the area for that
+particular shape:
+
+  area = 2(3 + 4)
+
+       = 2(7)
+
+       = 14
+
+What is it, exactly, that you're confused about? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,48 @@
+ThreadNum: 568657
+Subject: Re: (no subject)
+To: fey_lee@yahoo.com (F)
+From: Doctor Greenie
+TimeStamp: 08/25/2004 at 10:53:06
+Sent: yes
+
+
+As F wrote to Dr. Math
+On 08/25/2004 at 08:53:13 (Eastern Time),
+>[Question]
+>what is the fraction of 37 1/2%?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hello, F --
+
+"percent" is parts out of 100, so 37 1/2% is 37 1/2 parts out of 100.
+
+(1) Write the given percent as a fraction with denominator 100
+
+            37 1/2
+  37 1/2% = ------
+             100
+
+(2) Rewrite this fraction as an equivalent fraction without the 
+fraction in the numerator.  One easy way to do this is to multiply 
+numerator and denominator by 2:
+
+            37 1/2   (37 1/2)*2    75
+  37 1/2% = ------ = ---------- = ---
+             100       100*2      200
+
+(3) Reduce the fraction to lowest terms:
+
+            37 1/2   (37 1/2)*2    75   15   3
+  37 1/2% = ------ = ---------- = --- = -- = -
+             100       100*2      200   40   8
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

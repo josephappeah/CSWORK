@@ -1,0 +1,56 @@
+ThreadNum: 568158
+Subject: Re: An Irrigation math problem-- Algebra Trig Honors
+To: Bluefiremonkey@Msn.com (Jessica)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 09:50:50
+Sent: yes
+
+
+As Jessica wrote to Dr. Math
+On 08/22/2004 at 20:03:24 (Eastern Time),
+>[Question]
+> have a math problem i can not figure out, no matter how hard i try. 
+>Could you show me how to set it up and solve it?? the math problem is 
+>below. 
+>
+>A linear Irrigation system consists of a long water pipe on wheels 
+>with sprinklers mounted at regular intervals along the pipe. the 
+>system moves slowly across a rectangular field to fie all parts of 
+>the field the same designated amount of water. 
+>The manufacturer wants you to decide how to space the sprinklers on 
+>the pipe to give the most uniform coverage of water possible. After 
+>you have established the best spacing, you should decide how fast the 
+>system should move across the field to drop one inch of water in one 
+>pass. 
+>here are the specifications: 
+>1. each sprinkler head produces the spray pattern below. (shows a 
+>picture of a round head) the flow rate is five gallons a mintue for 
+>each sprinkler. that is, water falls uniformly on the area between 
+>two concentric circles with radii of one foot and twenty feet. 
+>2. the field is 1000 feet and 2000 feet long. 
+>3. to avoid runoff, there should be no more than double overlap of 
+>spray patters.
+>
+>[Difficulty]
+>I don't know where to start
+>
+>[Thoughts]
+>i don't have any.......could u show me where to start
+
+Hello Jessica,
+
+Choose a distance c between the sprinklers, draw a line, place several sprinklers on the 
+line, drawing circles about each sprinkler, etc.   They can't be too close because you don't 
+want more than double coverage.  They can't be too far apart because the little circle 
+around the sprinkler must be watered.  These ideas will give you a range of values of c.
+
+The coverage can be considered in terms of horizontal lines through the pipe and 
+perpendicular to it.  The length of the intersection of the line with a circle of spray will be 
+proportional to the amount of water received along that line.
+
+You can, with some effort, derive some formulas for amounts of water received at each 
+point.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,104 @@
+ThreadNum: 568805
+Subject: Re: finding inches between seconds?
+To: nikanik@inreach.com (mike)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 22:06:20
+Sent: yes
+
+
+As mike wrote to Dr. Math
+On 08/25/2004 at 21:35:20 (Eastern Time),
+>hi thanks for the help but i was just wondering if i apply those 
+>steps to my problem i will be able to use that to find inches 
+>between seconds? How will this apply to me in life?
+
+Hi Mike,
+
+Consider an arithmetic 'fact' like
+
+  12 = 3 * 4
+
+This has exactly the same meaning as 
+
+  12 / 3 = 4
+
+and 
+
+  12 / 4 = 3
+
+That is, division and multiplication are just two ways of looking at
+the same thing, and when you've got one, you can always replace it
+with the other by changing the form appropriately. 
+
+Now look again at the formula 
+
+  distance = rate * time
+
+All three of the following have exactly the same meaning:
+
+  distance = rate * time
+
+  distance / rate = time
+
+  distance / time = rate
+
+They're just different ways of saying the same thing.  Which form
+you'd want to use depends on what you know, and what you're trying to
+find out.  If you have a rate and a time (e.g., someone traveled at 30
+miles per hour for 3 hours), you use the first to find the distance. 
+
+If you have a distance and a rate (e.g., someone traveled 100 miles at
+50 miles per hour), you use the second to find the time.  
+
+If you have a distance and a time (e.g., someone traveled 80 miles in
+2 hours), you use the third to find the rate. 
+
+Given any two, you can find the third.  This same kind of reasoning
+will apply to other formulas, e.g., from geometry.  The formula for
+the volume of a cylinder with radius R and height H is 
+
+  V = pi * R^2 * H
+
+If you know the radius and the height, you can use this to compute the
+volume.  But what if you know the volume and the height?  Then you can
+rearrange it, using the same reasoning as before, to look like
+    _____________
+  \/ V / (pi * H) = R
+
+and now you can compute the radius.  Or if you know the volume and the
+radius, you can rearrange it to look like 
+
+  V / (pi * R^2) = H
+
+and now you can use it to compute the height.  
+
+When will you use this in your life?  It depends on what kind of life
+you plan to have.  There's an excellent chance that you'll never use
+it, and you may have a very comfortable and happy life anyway.  
+
+But it's one thing to be _able_ to reason this way, and to follow this
+kind of reasoning when presented by others, but _choose_ not to do it
+on a daily basis; and it's quite another thing to be _unable to do it.
+ In the latter case, you are, quite literally, placing yourself at the
+mercy of other people who will be able to use specious but
+mathematical-looking 'arguments' to deprive you of your liberty and
+property without your being able to do much about it, or even
+understand that it's happening to you. 
+
+Think of some very young children you know, and think about how easy 
+it is to lie to them, because there's so much that they don't 
+understand. You can tell them anything, and if you sound sincere, they 
+really have no way of knowing whether you're telling the truth or not.  
+So they have no choice but to trust you. Adults who don't know 
+mathematics are in the same boat, relative to people who are fluent in 
+it.
+
+As simply as I can put it: If you don't understand mathematical
+reasoning, then the people who do understand it will be able to jerk
+you around like a trout.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

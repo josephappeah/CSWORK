@@ -1,0 +1,46 @@
+ThreadNum: 568233
+Subject: Re: Squaring numbers that end with 5
+To: david@spires.com (David)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 12:33:00
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/23/2004 at 12:27:03 (Eastern Time),
+>[Question]
+>I learned a trick as a kid when squaring numbers that end with '5'.
+>
+>X5^2 = (X*X+1)&'25'
+>For example, for 25^2...2*3=6...concatenate with 25 = 625.
+>75^2...7*8=56...5625
+>
+>Can you explain why this is so?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi David,
+
+Thanks for writing to Dr Math.  No problem.  Your number is
+
+  X5 = 10*X + 5
+
+and so you square it and use FOIL to get
+
+  (10*X + 5)*(10*X + 5) = 100*X^2 + 100*X + 25
+                        = 100*X*(X+1) + 25
+
+which is X*(X+1) followed by the two digits 25.  Does that help you
+understand why it works?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

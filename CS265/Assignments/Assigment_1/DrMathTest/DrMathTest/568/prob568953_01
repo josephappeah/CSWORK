@@ -1,0 +1,62 @@
+ThreadNum: 568953
+Subject: Re: Find the number of possible combinations
+To: standmatt@adelphia.net (Matt Standiford)
+From: Doctor Anthony
+TimeStamp: 08/26/2004 at 17:55:44
+Sent: yes
+
+
+As Matt Standiford wrote to Dr. Math
+On 08/26/2004 at 14:45:07 (Eastern Time),
+>[Question]
+>Hey guys, I was wondering if there is a formula for finding the 
+number
+>of combinations if you have a given number of switches or 
+variables. 
+>Sorry I know i'm not explaining this too well but here's an 
+example...
+>
+>There are 4 2-way switches in a fan remote control they got moved
+>accidentally and i need to know if it would be worth it to try and
+>figure it out.
+
+
+There are 2 choices for each of 4 switches.  This gives a total of
+
+      2^4 = 16  different combinations.
+
+>
+>Also what would be the method to determine all of the combos
+>
+>Thank you!!!
+>
+>[Difficulty]
+>I have a whole list of possible combos but I want a formula so that 
+I
+>can determine whether or not I have them all and I cannot figure out
+>the formula
+>
+>[Thoughts]
+>I'm thinking that there must be 32 possible combinations to the said
+>example (4 x 4 x 2) but I really don't know why i'm thinking that-
+like
+>that's what my gut tells me but I cannot justify it algebraicly.  
+Also
+>I have been trying to make a list...
+>U=Up
+>D=Down
+>---------
+>UUUU
+>DUUU
+>DDUU
+>DDDU
+>DDDD
+>UDDD
+>UUDD
+>UUUD
+> and so on 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

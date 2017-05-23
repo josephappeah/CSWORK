@@ -1,0 +1,42 @@
+ThreadNum: 567916
+Subject: Re: Simplifying complex Rational Expressions
+To: stephens1986@mchsi.com (Scott)
+From: Doctor Rob
+TimeStamp: 08/20/2004 at 20:52:35
+Sent: yes
+
+
+As Scott wrote to Dr. Math
+On 08/20/2004 at 16:05:09 (Eastern Time),
+>[Question]
+>I have done all the problems except one that I am having a hard time 
+>solving.
+>
+>   4+2/x  divided by  x/4 + 1/8 
+> 
+>  I am assuming the LCD is 8x, and I believe the correct answer is 
+>16/x but I need help.  at the end I come up with 48/3x which reduces 
+>to 16/x. But i'm not sure if this is correct.  Thanks for your help, 
+>Scott
+>
+>[Difficulty]
+>multiplying lcd into the fractions.
+>
+>[Thoughts]
+>with LCD 8x  4+2/x = 4+16  and x/4+1/8 = 2x^2+ x  
+>I don't think this is correct and need help.   
+
+Thanks for writing to Ask Dr. Math, Scott!
+
+8*x*(4 + 2/x) = 32*x + 16, and not 4 + 16.
+8*x*(x/4 + 1/8) = 2*x^2 + x.
+
+Now factor both numerator and denominator, and cancel the common
+factor of 2*x + 1.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

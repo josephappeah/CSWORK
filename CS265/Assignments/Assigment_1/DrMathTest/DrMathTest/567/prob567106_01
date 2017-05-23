@@ -1,0 +1,51 @@
+ThreadNum: 567106
+Subject: Re: geometry
+To: alnsteph@msn.com (Stephanie)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 13:12:31
+Sent: yes
+
+
+As Stephanie wrote to Dr. Math
+On 08/16/2004 at 08:48:09 (Eastern Time),
+>[Question]
+>Suppose a wire that is stretched tightly around the earth is 
+>elongated by 5 meters and then placed back around the earth. Could 
+a 
+>person crawl under the elongated wire?
+>
+>[Difficulty]
+>I understand the earth is 25000 miles, but I'm not sure where to 
+>begin this problem.
+>
+>[Thoughts]
+>25,000 + 5 meters = no, you can't crawl through
+
+Hi, Stephanie --
+
+This is a classic problem to show that your intuition can fail 
+you....
+
+Suppose you have a circle of a given radius r meters; its 
+circumference is 2pi times r meters.  If you increase the radius by 
+x meters, the circumference is now 2pi times (r+x):
+
+  2pi(r+x) = 2pi(r) + 2pi(x)
+
+When the radius is increased by x meters, the circumference 
+increases by 2pi(x) meters.
+
+Conversely, if you increase the circumference of a circle by x 
+meters, then the radius increases by x/(2pi) meters.
+
+So the earth has a certain circumference, and you increase the 
+circumference by 5 meters.  The radius increases by 5/2pi meters, 
+which is somewhere between 2.5 and 3 feet.  Certainly that is enough 
+for most people to crawl through....
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,81 @@
+ThreadNum: 567046
+Subject: Re: Cube Roots of a Complex Number
+To: adlemon@aol.com (Alex)
+From: Doctor Rob
+TimeStamp: 08/15/2004 at 23:00:57
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/15/2004 at 18:06:57 (Eastern Time),
+>[Question]
+>How can I find the cube roots of a complex number a+bi?
+>
+>[Difficulty]
+>I can't seem to determine a single root, from which all the others 
+>can be derived.
+>
+>[Thoughts]
+>First, derive the formula for square roots:
+>(a+bi)^(1/2)=c+di
+>a+bi=(c^2-d^2)+(2cd)i
+>a=c^2-d^2; b=2cd
+>d=b/(2c)
+>a=c^2-(b/[2c])^2
+>4c^4-4ac^2-b^2=0
+>c^2=(4a +/- SQRT[16a^2+16b^2])/(8)
+>c^2=(a +/- SQRT[a^2+b^2])/(2); Since SQRT(a^2+b^2) > a for all a,b 
+>element of Reals and c is an element of Reals (c^2 >= 0) and only 
+>the positive root applies
+>c^2=(a+SQRT[a^2+b^2])/2
+>c= +/- (a+SQRT[a^2+b^2])/2
+>d= b/(2c)
+>The fourth roots can be derived by repeatedly applying the square 
+>root formula and gives a very large formula.
+>
+>Trying a similar method with cube roots gives a ninth-order equation 
+>which is reducible to a cubic, but the explicit solution of the 
+>cubic requires knowledge of the cube roots of a number.  If one were 
+>to find a formula for sin(x/3), one could use de'Moivre's formula to 
+>find an alegebraic formula for the cube roots. de'Moivre's formula 
+>always eliminates the necessity of finding all three roots:
+>The 3rd Roots of Unity:
+>1=1(cos0+isin0)
+>CBRT(1)=1(cos0+isin0)=1
+>=1(cos[2pi/3]+isin[2pi/3])=(-1/2+iSQRT(3)/2)
+>=1(cos[4pi/3]+isin[4pi/3])=(-1/2-iSQRT(3)/2)
+>Thus, if one can find only one of the roots of a number, the other 
+>two are given by (-1/2 +/- iSQRT(3)/2) times that first root.
+>
+>Can you please help me derive an alegebraic expression for the cube 
+>roots of a complex number.  The methods I have probed include: using 
+>the square and fourth roots of a number to determine the cube roots 
+>(I know that the nth roots of a number are evenly spaced around a 
+>circle of radius r^[1/n] and think this may help in determining the 
+>cube roots), solving for one of the roots of the cubic equation 
+>obtained by using the same method as was used for square roots above 
+>(I have the equation and can post it if it would help), finding a 
+>formula for sin(x/3) (I have found one that seems to work for some 
+>angles, but not others and can post it if you should so desire; it 
+>was found by solving a cubic derived from the formula for sin(3x); 
+>there is a formula under Finding the Exact Value of Sin 1 degree, 
+>but it is patently false).  The method need only find one of the 
+>roots of the number (the other two can be dervied using the 3rd 
+>roots of unity, see above).  Also, I have begun self-studying Galois 
+>Theory (as a sidenote any textbook or other suggestions would be 
+>greatly appreciated) and think this holds possibilities.  Thanks in 
+>advance for any help you can provide.
+
+Thanks for writing to Ask Dr. Math, Alex!
+
+Exactly what do you mean by an algebraic formula for the cube root
+of a + b*i?  Why isn't (a+b*i)^(1/3) such a formula?  Are a and b
+integers, rational numbers, algebraic numbers, or general real
+numbers?
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

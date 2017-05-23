@@ -1,0 +1,77 @@
+ThreadNum: 566702
+Subject: Re: what slope tell you
+To: Ualange06@aol.com (Ashlee)
+From: Doctor Roberts
+TimeStamp: 08/15/2004 at 02:13:04
+Approved-By: Doctor Ian
+Sent: yes
+
+As Ashlee wrote to Dr. Math
+On 08/12/2004 at 17:05:00 (Eastern Time),
+>[Question]
+>
+>I am not sure what they mean in the question about what slope tells 
+>you?
+>
+>Here is one of my porblems Find the slope of the line that passes 
+>through (-3,6) and (4,7).  What does this slope number tel you 
+about 
+>the line?
+>
+>
+>
+>[Difficulty]
+>I don't know how to find slope I am not sure what they mean when 
+they 
+>want me to tell about the line like if it is undefined or zero 
+which 
+>im not sure what that is either!
+>
+>[Thoughts]
+>I am not sure what they are asking, or how to know what the line 
+>means.
+
+Hi Ashley!
+
+Mathematically, the slope of a line is the change in the y values (the
+'rise') divided by the change in the x values (the 'run').  A good way
+to think of it is 'rise over run'.  
+
+Basically, if you know the slope of a line you know how far the line 
+rises and how far it moves to the right.  For example, if we have a 
+line 
+
+   y = 2/3 x + 7
+
+this line has a slope of 2/3.  This means that if we look at it on a 
+graph, it will go up 2 units for every 3 units it moves to the 
+right.
+
+If we know two points that lie on the line, we can find the slope by 
+finding the change in the y's divided by the change in the x's.
+
+For example, let's say we have a line that passes through the points 
+(2,3) and (4,5).  Then the slope ("m" stands for slope) can be found 
+by
+
+    m = (y_1 - y_2)/(x_1 - x_2)
+
+      = (3 - 5)/(2 - 4)
+
+      = -2/-2 
+
+      = 1.
+
+One thing to keep in mind is that your choices for y_1 and x_1 must 
+come from the same point and y_2 and x_2 must come from the same 
+point.
+
+Also, some lines have negative slope--all this means is that the 
+line is moving down as it moves to the right.
+
+If you have any more questions, let me know!
+
+- Doctor Roberts, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

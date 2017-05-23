@@ -1,0 +1,38 @@
+ThreadNum: 567956
+Subject: Re: number theory
+To: nomany_a@yahoo.com (ASHKAN NOMANY)
+From: Doctor Vogler
+TimeStamp: 08/24/2004 at 11:06:17
+Sent: yes
+
+
+As ASHKAN NOMANY wrote to Dr. Math
+On 08/20/2004 at 21:26:02 (Eastern Time),
+>[Question]
+>I believe that if we take S=x^n+y^n and R=1+(xy)^(n-1) and  (x,y are 
+>naturall numbers)  if R was a divisor of S then we can never write
+>(S div R ,(S/R) ) by the form of (z*n, z is again from natural 
+>numbers.) ( n>2).
+>
+>[Difficulty]
+>you see it is simular to FERMAT LAST THEORIOM.Is it easy by you.
+>Ofcorse if it was wrong try to prove that if R was a divisor of S
+>then you can always write (S/R) buy the form of(z^n). (n>2)
+>
+>[Thoughts]
+>
+
+Hi Ashkan,
+
+Thanks for writing to Dr Math.  It is easy to prove that R > S except
+for very small values of x and y, or very small values of n.  So you
+can easily check all of the cases of your theorem in order to prove
+it.  Do you know how to do that?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

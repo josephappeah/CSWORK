@@ -1,0 +1,53 @@
+ThreadNum: 567616
+Subject: Re: Math
+To: latrekker90062@yahoo.com (chris)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:59:52
+Sent: yes
+
+
+As chris wrote to Dr. Math
+On 08/18/2004 at 22:25:49 (Eastern Time),
+>[Question]
+>Main Road and West Road are perpendicular and intersect at 
+>point A. Cross Road intersects Main Road 8 km from point A and 
+>intersects West Road 6 km from point A. What is the length of 
+>Cross Road.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>8km-6km=2
+>8km+2km=10 length of Cross Road
+
+Thanks for writing to Ask Dr. Math, Chris!
+
+Draw a picture:
+
+               C
+               o
+              /|
+             / |
+            /  |
+           /   |
+    Cross /    |
+    Road /     | Main
+        /   8km| Road
+       /       |
+      /        |
+     /   6km   |
+    o----------o
+   B    West    A
+        Road
+
+Here you have a right-angled triangle ABC, with right angle at A
+(because the roads are perpendicular).  Now use the Pythagorean
+Theorem.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

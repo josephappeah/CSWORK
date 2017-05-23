@@ -1,0 +1,38 @@
+ThreadNum: 566220
+Subject: Re: Work
+To: rick@windset.com (Rick)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 17:19:31
+Sent: yes
+
+
+As Rick wrote to Dr. Math
+On 08/09/2004 at 20:29:38 (Eastern Time),
+>[Question]
+>if i have a 6" water pipe and it splits into 2 3" pipes with a pump 
+>on both lines putting out 130L/S then both flow back into 1 6" line 
+>what will the flow be comming out of the 6" pipe?
+>
+>[Difficulty]
+>the whole thing!
+>
+>[Thoughts]
+>
+
+Hi Rick.
+
+thanks for writing to the Math Forum.
+
+Water cannot be created nor destroyed in this system, so the flow
+rate has to be the same at the beginning as it is at the end:
+130 liter/sec.
+
+In the split, the area of the two smaller pipes is smaller than the
+area of either the starting or the ending pipes, so in the region
+where there are two pipes, the velocity of the fluid will be faster
+(to compensate for the smaller area), but the flow rate there will
+still be the same:  130 liter/sec.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

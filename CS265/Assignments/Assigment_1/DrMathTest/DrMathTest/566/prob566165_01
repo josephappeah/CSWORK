@@ -1,0 +1,40 @@
+ThreadNum: 566165
+Subject: Re: how many combinations can be made using 5 of 35 numbers 
+To: barrylang@mail.com (Barry)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 17:22:03
+Sent: yes
+
+
+As Barry wrote to Dr. Math
+On 08/09/2004 at 14:47:40 (Eastern Time),
+>[Question]
+>Using numbers 1 through 35
+>Pick any 5 number combinations Example;1, 17, 23, 31, 34 
+>That equals one 5 number combination.
+>How many possible combinations can be made using 35 numbers.
+>
+>[Difficulty]
+>I don't know haw to set up the equation to figure this out,
+>Because the same number may be used in multiple combinations.
+>Example;1, 7, 8, 19, 12
+>        3, 7, 13, 22, 30
+>        2, 7, 18, 22, 30
+>The same numbers have been used but in different combinations,
+>Very confusing.
+>
+>[Thoughts]
+>I don't have a clue !
+
+Hi Barry.
+
+thanks for writing to the Math Forum.  You're looking for the
+number of "combinations" of 35 different objects, taken 5 at 
+a time.  See this web page in our FAQ:
+
+  Permutations and combinations
+  http://mathforum.org/dr.math/faq/faq.comb.perm.html
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

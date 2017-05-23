@@ -1,0 +1,27 @@
+ThreadNum: 566625
+Subject: Re: Probability
+To: kalees_14@hotmail.com (Kalees)
+From: Doctor Roy
+TimeStamp: 08/13/2004 at 11:15:23
+Sent: yes
+
+
+As Kalees wrote to Dr. Math
+On 08/13/2004 at 01:59:21 (Eastern Time),
+>I understand that my question is not clear. Sorry! 
+>
+>My question is, if there are 3 letters (a,b,c) it can be arranged in 
+>different ways like (abc,acb,bac,bca,cba,cab), likewise, what is the 
+>total number of arranging all 26 letters (a-z) in jumbled order?
+>
+>Thanks for your time!
+
+Hi,
+
+It's in the last post. There are 26! permutations of the 26 letters of
+the alphabet, which is just over 4.03 * 10^26 ways, or just over 403
+septillion.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

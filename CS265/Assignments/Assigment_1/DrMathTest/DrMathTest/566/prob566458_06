@@ -1,0 +1,59 @@
+ThreadNum: 566458
+Subject: Re: farmula for  bearing
+To: kalpana_deo@yahoo.com (kalpana)
+From: Doctor Rick
+TimeStamp: 08/19/2004 at 07:51:02
+Sent: yes
+
+Hi, Kalpana.
+
+As kalpana wrote to Dr. Math
+On 08/19/2004 at 01:05:25 (Eastern Time),
+>HELLO DR.RICK
+>THANKS FOR ANSWERING MY QUESTION. 
+>The coordinates of two points are  :
+>point A  LAT = 17.26N, LON = 78.27E
+>POINT B LAT = 16.19N , LON = 80.26E
+>Direct farmula what I mean is
+>tc1 = fmod(atan2(-sin(lon1-lon2)*cos(lat2) ,
+>    cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(lon1-lon2)), 2*pi)
+>This has given us the answer as 120 degree, If we verify this answer 
+>with the geographical map, the answer is aprroximately correct.
+>
+>But we are getting 30 degree by the following farmula
+>dlat = lat2 - lat1
+>dlon = lon2 - lon1
+>y = arctan(sin(lon2-lon1)*cos(lat2)
+>x = (cos(lat1)*sin(lat2)- sin(lat1)*cos(lat2)*cos(lon1-lon2))
+>
+>if dlat>0 then
+>   if dlon > 0 then   tc1 = 90 - arctan(y/x)
+>   if dlon < 0 then  tc1 = 270 + arctan(y/x)
+>   if dlon = 0 then  tc1 = 0
+>if dlat< then
+>   if dlon > 0 then   tc1 = 90 + arctan(y/x)
+>   if dlon < 0 then  tc1 = 270 - arctan(y/x)
+>   if dlon = 0 then  tc1 = 180
+>if dlat=0 then
+>   if dlon > 0 then   tc1 = 90 
+>   if dlon < 0 then  tc1 = 270 
+>   if dlon = 0 then  ponit1 = point2
+> I want to bring to your notice that  there is no closing bracket  
+>for the first bracket in the equation of y, if we put the bracket in 
+>the end , it gives answer as 30 degree. Please give us the solution. 
+>Thanks for making so  much efforts to answer  our queries.
+>Regards
+>KALPANA
+>
+
+When I put your positions into my spreadsheet, I get 119.0223599 
+degrees.
+
+The problem with the formula you copied is not that a parenthesis is 
+missing at the end, but that "arctan(" should be removed from the 
+beginning. The arctangent is taken later, in the various "then" 
+clauses. I will notify our archivist to correct the entry.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

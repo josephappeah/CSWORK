@@ -1,0 +1,42 @@
+ThreadNum: 566569
+Subject: Re: Geometry
+To: ely40@eriecoast.com (Kate)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 20:13:39
+Sent: yes
+
+
+As Kate wrote to Dr. Math
+On 08/11/2004 at 19:54:34 (Eastern Time),
+>[Question]
+>If a cylinder has a circumference of 6pi inches and its height is 16 
+>inches, and a red stripe wraps around the cylinder exactly 4 times, 
+>what is the length of the red stripe?
+>
+>[Difficulty]
+>Simply do not know where to start
+>
+>[Thoughts]
+>C = 2 pi r
+>Lateral area = 2 pi r square  + 2 pi r square
+
+Hi Kate.
+
+thanks for writing to the Math Forum.  Imagine unwrapping the
+cylinder.  A triangle will wrap neatly around the cylinder, with
+the hypotenuse going four times around if.... what?
+
+                 +
+        S     .  |
+          .      | 16 inches
+      .          |
+   +=============+
+
+   4*circumference
+
+The length of the stripe is S, and it is the hypotenuse of the
+right triangle above.  Can you finish from here?
+        
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

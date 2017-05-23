@@ -1,0 +1,86 @@
+ThreadNum: 567515
+Subject: Re: Differentiation under the integral sign
+To: pedrocdc1@hotmail.com (pedro castilla)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 16:24:21
+Sent: yes
+
+
+As pedro castilla wrote to Dr. Math
+On 08/18/2004 at 15:52:15 (Eastern Time),
+>[Question]
+>In his theorem 7.40 Apostol (Mathematical Analysis) shows how to 
+>differentiate under the integral sign. 
+>
+>T. 7.40.- Let Q = { (x,y)/ a<x<b, c<y<d ). Let's suppose that, for 
+>every fixed "y" of (c,d), this integral
+>
+>         b 
+>        /
+>F(y) =  | f(x,y) dx
+>        /
+>        a
+>
+>exists. If the partial derivative D_2f is continuous in Q, the 
+>derivative F'(y) exists for every "y" of (c,d) and equals to:
+>
+>           b
+>          /
+> F'(y) =  | D_2 f(x,y) dx.
+>          /
+>          a
+>
+>(The theorem includes references to Stieltjes integral, but I have 
+>suppresed those because are irrelevant to my question).
+>
+>That is the theorem. Well, in the last part of his explicit proof, 
+>using the Mean Value Theorem for functions of one variable, Apostol 
+>puts:
+>
+>
+>   b                                       b
+>  /                                       /
+>  | ( f(x,y) - f(x,y_0)/ y - y_0 )dx  =   | D_2 f(x,Y) dx
+>  /                                       /
+>  a                                       a
+>
+>
+>"Y" is meant to be a number between "y" and "y_0".
+>
+>I can understand the equation if and only if "x" is meant a fixed 
+>number. But how Apostol manages to use "x" as a fixed number when it 
+>is a variable (see the dx)? I ask this because I understand that x 
+>must be a fixed number to validate our aplication of MVT to the left 
+>hand side of the equation and obtain the right hand side.
+>
+>Sincerely, thanks for your attention.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Pedro,
+
+I must have a different edition of Apostol than you, but I think the arguments are the 
+same.  The Y is a function of x.  For each x in [a,b], one can use the Mean-value Theorem 
+to find Y such that
+
+( f(x,y) - f(x,y_0) )/ (y - y_0 )  =   D_2 f(x,Y) .
+
+Because, by assumption, D_2 f is continuous on [a,b] X [c,d], it is uniformly continuous 
+there.  Let eps > 0 be given; there is a del >0 for which
+
+|D_2f(u,v) - D_2f(p,q)| < eps
+
+provided (u,v) is within delta of (p,q).
+
+OK, in the integral int(x=a,x=b,D_2f(x,Y)*dx), break [a,b] into subintervals 
+a=x_0<x_1<...<x_n=b  less than del in length. Write the integral as a sum of integrals on 
+the subintervals.  Use the uniform continuity of D_2 f, which makes of the integrands less 
+than eps*length of the subintervals.  Add all of these to get eps(b-a). 
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

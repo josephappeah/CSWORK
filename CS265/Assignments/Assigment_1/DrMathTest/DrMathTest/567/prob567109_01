@@ -1,0 +1,67 @@
+ThreadNum: 567109
+Subject: Re: notation in calculus of many variables
+To: pedrocdc1@hotmail.com (pedro castilla)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 10:55:21
+Sent: yes
+
+
+As pedro castilla wrote to Dr. Math
+On 08/16/2004 at 09:20:52 (Eastern Time),
+>[Question]
+>Weeks before I asked this question, but incomplete. I would thank a 
+>definitive answer: if I see something like this: f(x)= g(x, y) then 
+>there are two and only two options:
+>- "y" may be a constant
+>- "y" may be a function of "x".
+>
+>No more options!! Is that correct?
+>
+>[Difficulty]
+>This may seem a foolish question, but I am trying to study calculus 
+>of many variables and no author bothers to explain in their proofs if 
+>this or that letter is a constant or a variable, and therefore one 
+>gets only a mess!!
+>
+>[Thoughts]
+>
+
+Hi Pedro,
+
+I answered your question before.  When you write
+
+  f(x) = ...
+
+you are implicitly stating that the thing on the right side of the
+equation is a function of x, since you are stating that f is a
+function of x.  That means that everything that appears on the right
+side is a function of x.  Sometimes, there might be a constant (or
+several), as in
+
+  f(x) = a*x^2 + b*x + c,
+
+where the particular values of those constants change what function f
+you are talking about, but those constants should be thought of as
+independent of x.  That, in fact, is what MAKES them constant.
+
+You see,
+
+  f(x) = 3
+
+is a function of x.  But it is a constant function.  So a constant is
+a special TYPE of function of x.  So the first choice choice (y is a
+constant) is really a special case of the second choice (y is a
+function of x), and the second choice is what is stated by writing
+
+  f(x) = ...
+
+In other words, y might be affected by other things, but if it's not
+affected by x, then it's a constant with respect to x and therefore f.
+
+Does that make things any more clear?  If it doesn't, then you should
+give me the context in which this statement appears, and I will try to
+make sense of it and explain more clearly what the author meant.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

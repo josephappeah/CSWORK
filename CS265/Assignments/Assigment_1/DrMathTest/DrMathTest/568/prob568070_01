@@ -1,0 +1,55 @@
+ThreadNum: 568070
+Subject: Re: Relative velocity
+To: swissnpcc@hotmail.com (Jack)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 13:06:56
+Sent: yes
+
+
+As Jack wrote to Dr. Math
+On 08/22/2004 at 01:30:45 (Eastern Time),
+>[Question]
+>From a coastguard vessel at a point P, a ship is observed at a point 
+>Q travelling at 20km/h in a direction 345 degrees. The point Q is 15 
+>km from P on a bearing of 045 degrees. Given that the coastguard 
+>vessel travels at 25km/h, find the diection which it should travel to 
+>intercept the ship and the time taken to intercept the ship.
+>
+>[Difficulty]
+>I don't understand the whole concept of relative velocity involving 
+>interception of object. It will be good if you all can show me the 
+>concept of relative velocity on this type of question with diagrams 
+>to show me and a step by step approach. 
+>
+>[Thoughts]
+>
+
+Hi Jack,
+
+Suppose we make it a little simpler.  
+
+       10 km/hr
+    Q------------>R           PQR = 90 deg
+    |
+    | 5 km                    From P, speed is 15 km/hr 
+    |                         at angle QPR
+    P           
+
+Suppose some amount of time, t, has passed.  What will the length of
+QR be?  It will be (10 km/hr * t).  What will the length of PR be?  It
+will be (15 km/hr * t).  
+
+If the ship starting from P intercepts the ship starting from Q at R,
+you'll have a right triangle, PQR, such that 
+
+  5^2 + (10t)^2 = (15t)^2
+
+where t is measured in hours.  Solve for t, and you know how long it
+will take.  You'll also know all the sides of the triangle, which
+means you can use trigonometry to find the angle of pursuit.  
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

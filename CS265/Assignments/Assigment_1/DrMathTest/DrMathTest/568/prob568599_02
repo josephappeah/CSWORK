@@ -1,0 +1,60 @@
+ThreadNum: 568599
+Subject: Re: quadratic equation
+To: sad0song0eturnal@hotmail.com (Krysta)
+From: Doctor Dotty
+TimeStamp: 08/25/2004 at 10:38:19
+Sent: yes
+
+
+As Krysta wrote to Dr. Math
+On 08/25/2004 at 00:36:39 (Eastern Time),
+>[Question]
+>is the answers x= -2.99, 3.49 the correct quadratic answer to the 
+>problem 2x^2+x-6=0
+>
+>[Difficulty]
+>I just don't understand it
+>
+>[Thoughts]
+>
+
+Hi Krysta,
+
+Thanks for the question.
+
+In answer to your first question, a quadratic is any expression with 
+a single variable where the highest power is 2 and there are no 
+roots or recipricals. That is to say that there is at least one 
+squared term, and all of the other variables aren't raised to any 
+other powers (except 0 and 1).
+
+The way to check whether you solved a quadratic correctly is to feed 
+the values back in.
+
+So for your
+
+         2x^2 + x - 6 = 0
+
+If we put in x = -2.99, we get:
+
+   17.8802 - 2.99 - 6 = 0
+
+               8.9802 = 0
+
+We know that 8.9802 does not equal 0, so I'm afraid the answer must 
+be incorrect.
+
+There is a page explaining three methods of solving a quadratic 
+equation here:
+
+   http://mathforum.org/library/drmath/view/62884.html
+
+All three will work for your particular quadratic.
+
+Does that help? 
+
+Write back if I can be of any more help - on this or anything else.
+
+- Doctor Dotty, The Math Forum
+  <http://mathforum.org/dr.math/>
+

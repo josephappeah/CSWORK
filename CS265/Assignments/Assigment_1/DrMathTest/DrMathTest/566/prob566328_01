@@ -1,0 +1,69 @@
+ThreadNum: 566328
+Subject: Re: functions
+To: wecho5@yahoo.com (Echo)
+From: Doctor Achilles
+TimeStamp: 08/11/2004 at 14:37:39
+Sent: yes
+
+
+As Echo wrote to Dr. Math
+On 08/10/2004 at 13:46:12 (Eastern Time),
+>[Question]
+>I have been taking a math placement test so that I can get college 
+>credit for the calculus class I will be taking this fall. I am not 
+>being able to pass the college algebra section. I know that if I can 
+>pass that, I will do fine on the trig portion. The test is 
+>computorized and if you miss a question it asks similar ones until 
+>you get it right or get too many wrong. The questions I am 
+>struggling with are ones like, "If f(x)=kx^2 -4 and f(4)=4, then f(6)
+>=?" 
+>
+>[Difficulty]
+>I don't understand what the k has to do with it. 
+>
+>[Thoughts]
+>I have tried solving for that and my answer doesn't ever work with 
+>the answers listed. should I ignore the k? there must be some reason 
+>it's there though. my work has gone like this:
+>4=k(4)^2 -4
+>=k16 -4
+>4/16=k16/16
+>k=.25
+>x=.25(6)^2 -4
+>=.25*36 -4
+>=9-4
+>=5
+>but 5 is not an answer given.
+
+Hi Echo,
+
+Thanks for writing to Dr. Math.
+
+You've got the first couple steps right, but you seem to lose track 
+of one of your numbers:
+
+  f(4) = 4 = k(4^2) - 4
+
+  4 = k(16) - 4
+
+Next we add 4 to both sides of the equation:
+
+  8 = 16k
+
+Now divide both sides of the equation by 16 and you will know what k 
+is.
+
+Once you know what k is, you can change the definition of f(x):
+
+  f(x) = kx^2 - 4
+
+You can change "k" to the value you found for k.
+
+Once you have done that, you should be able to solve f(x) for any x.
+
+Hope this helps.  If you have other questions or you'd like to talk 
+about this some more, please write back.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

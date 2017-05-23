@@ -1,0 +1,39 @@
+ThreadNum: 568966
+Subject: Re: Decimal limitations
+To: dresej@dhss.mo.gov (Janet)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 16:06:59
+Sent: yes
+
+
+As Janet wrote to Dr. Math
+On 08/26/2004 at 15:38:14 (Eastern Time),
+>[Question]
+>What does -2.77556E-17 mean?  Does that mean the answer goes to 
+>seventeen decimal places?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Janet,
+
+Thanks for writing to Dr Math.  The E should be read "times ten to
+the" as in "times ten to the power," and therefore it means to move
+the decimal point that many spaces to the right (when the number is
+negative, like yours, it means that many spaces to the left).  So your
+number is
+
+                              -17
+  -2.77556E-17 = -2.77556 * 10
+               = -0.0000000000000000277556
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

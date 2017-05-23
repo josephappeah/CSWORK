@@ -1,0 +1,44 @@
+ThreadNum: 568157
+Subject: Re: AP Calculus AB
+To: lspeegle@wacoisd.org (Lynn Speegle)
+From: Doctor Fenton
+TimeStamp: 08/23/2004 at 08:03:47
+Sent: yes
+
+
+As Lynn Speegle wrote to Dr. Math
+On 08/22/2004 at 20:02:37 (Eastern Time),
+>[Question]
+>I have a graph of an unknown function, h(x).  I know the graph of 
+>the absolute value of h(x) would be positive and the graph would lie 
+>above the x-axis.  But what would the graph of h(abs(x)) look like?  
+>This function appears to be symmetric to the origin.   
+>
+>[Difficulty]
+>abs(h(x)) versus h(abs(x))
+>
+>
+>[Thoughts]
+>I have tried to figure this out using different functions but can 
+>not reach a conclusion I feel confident about.
+
+Hi Lynn,
+
+Thanks for writing to Dr. Math.  Remember that |a| is either a 
+(if a >= 0) or -a (if a < 0), where |a| is the absolute value of
+a.
+
+Look at f(x) = h(|x|).  What is f(x) when x >= 0?  When x < 0?
+
+>This function appears to be symmetric to the origin. 
+
+If h(|x|) is symmetric to the origin, then h(|-x|) = -h(|x|).
+Caompare this formula with your answers to the questions above.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

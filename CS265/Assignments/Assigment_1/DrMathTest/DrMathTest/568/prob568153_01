@@ -1,0 +1,107 @@
+ThreadNum: 568153
+Subject: Re: identifying patterns.
+To: aliunkc2002@yahoo.com (alina)
+From: Doctor Peterson
+TimeStamp: 08/22/2004 at 22:49:39
+Sent: yes
+
+Hi, Alina.
+
+As alina wrote to Dr. Math
+On 08/22/2004 at 19:38:20 (Eastern Time),
+>[Question]
+>hi.  i have a worksheet due tomorrow i dont understand. it says:
+>6 blocks are used to surround 0 empty spaces. 
+>8 blocks are used to surround 1 empty space. 
+>10 blocks are used to surround 2 empty paces. 
+>12 are used to surround 3 empty spaces. and so on...i find the 
+>pattern. the first one adds up (total of blocks) to 6. 6+0=6. the 
+>second one adds up to 9. the third one to 12. so it goes 3 by 3.
+>
+>(as an example there is one i actually understand. its "a house with 
+>no chimney takes 6blocks to build. a house with a one-block chimney 
+>takes 7 blocks to build. one with a 2-block chimney takes 8. and so 
+>on...my thought process was for the first on, 6+0. second one: 6+1. 
+>i get all that about the other one. but what im having problems with 
+>is making the algebraic equation. like in this last case it would be 
+>n+6. n is the number of blocks the chimney has, 6 the blocks to 
+>start with on the house. do u know what im trying to say?... its 
+>pretty hard to explain.)
+>
+>[Difficulty]
+>but thats about as much as i understand! i am sick right now and 
+>cant seem to be ableto concentrate very well on this. so could you 
+>please help me with the equation? or at least help me by giving me a 
+>method on how to make one? because i have two more of those problems!
+>
+>[Thoughts]
+>i would appreciate it if you could reply to this asap. its ok ifyou 
+>cant.
+
+"Patterns" can be a little vague, especially when I can't see the
+sheet to know just what they are asking for. You mentioned an
+equation; are you asked to write an equation with a variable for
+finding the nth number in the sequence? And are there pictures showing
+how these "patterns" are formed?
+
+I think the picture for the problem you're working on (using "O" for a
+block) would be
+
+  OO   OOO   OOOO
+  OO   O O   O  O
+  OO   OOO   OOOO
+  n=0  n=1   n=2
+  ->6  ->8   ->10
+
+There are two ways to approach the problem: you can work with what
+changes when you increase n, or you can go more directly to the total
+for any n.
+
+The first way is to notice that the numbers 6, 8, 10, 12 are just
+counting by 2. So when you increase n by 1, you add 2 to the number of
+blocks. But is that apparent pattern real? Will it always happen just
+because of the way you are adding blocks, or has it just worked that
+way so far? To check, you have to look at the actual pattern. What
+happens when you insert one more empty space? Here's what happens:
+
+  OO*OO
+  O + O
+  OO*OO
+
+I've added the empty space (shown as a "+") in the middle, and had to
+add two more blocks (shown as "*") around it. And you can see that
+this will always happen.
+
+But how does this give you the equation for the number of blocks in
+terms of n? There are ways to figure that out, but it takes some thought.
+
+Let's try a more direct approach. Given some number n of empty spaces
+(which I'll show as "+"), how do we build the pattern around it? We
+can put a block above and below each space:
+
+   OOO
+   +++
+   OOO
+
+and then put three blocks each on the left and right:
+
+  OOOOO
+  O+++O
+  OOOOO
+
+So how many blocks did we need? We used 2 for each of the n spaces,
+and 6 extra for the ends. Can you see how to turn that into an equation?
+
+Your description of the pattern sounds like a nice alternative, though
+I'm not sure how far you were able to take it. For n empty spaces, the
+whole pattern is a rectangle 3 by n+2 (3 rows, with 2 more than the
+number of empty spaces across). From that, and subtracting the number
+of empty spaces, you could find the equation, though it takes a little
+work!
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

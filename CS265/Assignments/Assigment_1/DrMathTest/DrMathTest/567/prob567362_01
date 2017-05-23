@@ -1,0 +1,50 @@
+ThreadNum: 567362
+Subject: Re: how do i figure out a problem with equations
+To: da1gyrl04@yahoo.com (alex)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 15:14:08
+Sent: yes
+
+
+As alex wrote to Dr. Math
+On 08/17/2004 at 19:40:27 (Eastern Time),
+>[Question]
+>(5-1)3+(11-2)2+(7-4)3
+>
+>the numbers outside the brackets are exponents
+>
+>[Difficulty]
+>all the brackets and the exponents
+>
+>[Thoughts]
+>i think the answer is 172
+
+Hi Alex,
+
+First, we resolve the operations in parentheses:
+
+    (5-1)^3 + (11-2)^2 + (7-4)^3
+
+  = 4^3 + 9^2 + 3^3
+
+Then we resolve the exponents:
+
+  = (4*4*4) + (9*9) + (3*3*3)
+
+  = 64 + 81 + 27
+
+  = 172
+
+So I get the same answer as you.  Nicely done! 
+
+Is there some reason you thought it might not be correct?  If you'd
+like a quick review of exponents, take a look at 
+
+  Properties of Exponents
+  http://mathforum.org/library/drmath/view/57293.html
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

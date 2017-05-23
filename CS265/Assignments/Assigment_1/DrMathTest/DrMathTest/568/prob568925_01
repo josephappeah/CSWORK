@@ -1,0 +1,66 @@
+ThreadNum: 568925
+Subject: Re: Abeka 2nd grade Math
+To: dstreet5@cox.net (D.J.)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 13:36:16
+Sent: yes
+
+
+As D.J. wrote to Dr. Math
+On 08/26/2004 at 12:01:35 (Eastern Time),
+>[Question]
+>I want to teach my boy how to understand place values of a double 
+>diget number.  How can I explain it in a fun hands on way?
+>
+>[Difficulty]
+>He finds the way I expain it to be confusing
+>
+>[Thoughts]
+>12
+>14        ones are in tens colomn and 4 and 2 are in ones column
+
+Hi DJ,
+
+Instead of 'columns', which are abstract, why not try 'bags'?  Get out
+enough small objects (cookies, sugar cubes, mints) to make all the
+2-digit numbers.  
+
+Now, make some big pile, and think about how to count the number of
+objects in it.  If you have some ziploc bags, you can do this:  count
+out 10 items, and put them in a bag.  Count 10 more, and put them in
+another bag.  Keep doing that until you can't fill any more bags. 
+
+Now you have some number of bags, and some number (less than 10) of
+individual items.  What number describes this whole thing?  The 'tens'
+digit is the number of bags with 10 items each!  And the 'ones' digit
+is the number of items that couldn't fill a whole bag.  
+
+Now start adding an item at a time to the pile.  Maybe you started
+with 4 bags and 7 items.  You get
+
+   4 bags and 8 items.
+   4 bags and 9 items.
+   4 bags and 10 items.
+
+Ah, but now you can fill another bag!  So that's really 
+
+   4 bags and 8 items.
+   4 bags and 9 items.
+   5 bags and 0 items.      <--- 4 bags and 10 items.
+
+Now you can continue:
+
+   4 bags and 8 items.
+   4 bags and 9 items.
+   5 bags and 0 items.      <--- 4 bags and 10 items.
+   5 bags and 1 item.
+   5 bags and 2 items.
+
+For fun, you might then talk about what should happen when you have 9
+bags and 9 items, and you want to add another one?  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

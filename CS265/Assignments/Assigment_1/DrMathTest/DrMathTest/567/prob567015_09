@@ -1,0 +1,79 @@
+ThreadNum: 567015
+Subject: Re: Limits and matrices
+To: av_ace11@hotmail.com (av_ace11)
+From: Doctor Fenton
+TimeStamp: 08/17/2004 at 17:25:37
+Sent: yes
+
+
+As av_ace11 wrote to Dr. Math
+On 08/17/2004 at 09:55:34 (Eastern Time),
+>Earlier you wrote this...
+>
+>Exactly what you did for part (3), where you have listed all the 
+>possible forms for a 2x3 matrix in reduced row echelon form, just
+>use a 2x2 matrix instead.
+>
+>For (3), suppose R is one of the forms listed.  Take the first one,
+>for example.  What are the solutions of
+>
+>  [ 0 1 0 ][ x ]   [ 0 ]
+>  [ 0 0 1 ][ y ] = [ 0 ]   ?
+>           [ z ]   [ 0 ]
+>
+>If you have a non-zero solution v of this equation, and it is also 
+>a solution of Sv = 0, could S be any of the other five forms? 
+>
+>I understand clearly what you mean. Obviously if v is a solution of 
+>R and of S then S cannot be any of the other forms. But i dont 
+>understand how i would show this mathematically. Could i go through 
+>every matrix i have listed and find solutions in terms of introduced 
+>variables or 
+>
+>could i simply say all other matrices listed are different and so v 
+>can only be a solution of one particular matrix?? if so how do i 
+>show mathematically?? 
+>
+>thx..
+>
+
+You haven't written the solution of the system
+
+>  [ 0 1 0 ][ x ]   [ 0 ]
+>  [ 0 0 1 ][ y ] = [ 0 ]   ?
+>           [ z ]   
+
+(the vector on the right should be a 2-dimensional vector - my error.)
+If you multiply the matrix and vector on the left, you get the column
+vector
+
+   [ y ]   [ 0 ]
+   [ z ] = [ 0 ] ,
+
+so y = z = 0, and there is no restriction on x.  The solution of 
+Rv=0, when R is the above matrix, consists of vectors of the form
+
+     [ x ]
+ v = [ 0 ]
+     [ 0 ]   .  
+
+If you look at your list of possible forms for S, 
+
+>1 0 b   1 a b   0 1 a   0 0 1   0 1 0   1 a 0
+>0 1 a   0 0 0   0 0 0   0 0 0   0 0 1   0 0 1
+
+the first, second, or sixth, applied to the solution v of Rv = 0,
+clearly give a non-zero result (if x is not 0).  The other three
+forms have solutions which are not of the form of v above.
+
+There are a lot of possibilities, but you can narrow them by using
+some general facts about matrices.  If Rv = 0 and Sv = 0 have exactly
+the same solutions, then they must have the same rank, so you just 
+need to consider 6 cases where R and S are rank 2, and 6 where both
+are of rank 1.
+
+Does that help?
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

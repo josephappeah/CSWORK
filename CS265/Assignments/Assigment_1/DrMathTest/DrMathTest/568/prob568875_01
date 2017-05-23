@@ -1,0 +1,41 @@
+ThreadNum: 568875
+Subject: Re: Real analysis
+To: jay_landy@yahoo.com (Landy)
+From: Doctor Jerry
+TimeStamp: 08/26/2004 at 08:24:37
+Sent: yes
+
+
+As Landy wrote to Dr. Math
+On 08/26/2004 at 03:37:08 (Eastern Time),
+>[Question]
+>Given m, p and q are integers not equal to zero.
+>Prove that  m + p[2^(1/2)] + q[3^(1/2)] = 0 has no solution.
+>
+>[Difficulty]
+>How to start?
+>I don't know what the question need us to prove. Is that no any integers 
+>fullfill this equestion?
+>
+>[Thoughts]
+>I try this:
+>Because m + p[2^(1/2)] + q[3^(1/2)] = 0, so 
+>{m + p[2^(1/2)] + q[3^(1/2)]}{m + p[2^(1/2)] + q[3^(1/2)]} = 0
+>But when I do this,{m + p[2^(1/2)] + q[3^(1/2)]}{m + p[2^(1/2)] + q[3^
+>(1/2)]} ,I get back the number, 0.
+
+Hello Landy,
+
+If there were a solution, where non of m, p, and q are 0, then
+
+sqrt(3) = r1+r2*sqrt(2), where r1 and r2 are rational.
+
+square both sides:
+
+3= r3+r4*sqrt(2),
+
+which means sqrt(2) is rational.  Contradiction.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,78 @@
+ThreadNum: 566244
+Subject: Re: addition and subtraction of fractions
+To: CDT061904@YAHOO.COM (Tela)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:05:13
+Sent: yes
+
+
+As Tela wrote to Dr. Math
+On 08/09/2004 at 23:40:55 (Eastern Time),
+>[Question]
+>subtraction with borrowing:  43 3/17 - 21 9/10
+>
+>[Difficulty]
+>i dont understand how to do it.
+>
+>[Thoughts]
+>43 3/17 - 21 9/10= 43 30/170 - 21 146/170
+>
+>I GOT 21 54/170
+
+Hi Tela,
+
+You had the right idea, converting to a common denominator. 
+Unfortunately, note that
+
+   9   17   153
+  -- * -- = ---
+  10   17   170
+
+and not 146/170.  So let's fix that:
+
+    43 3/17 - 21 9/10
+
+  = 43 30/170 - 21 153/170
+
+But we still have the problem that 30/170 is smaller than 153/170. 
+However, here's how we can remedy that situation.  First, note that
+
+   43 30/170
+
+is just a shorthand for 
+
+  43 + 30/170
+
+But that's the same as 
+
+  42 + 1 + 30/170
+
+right?  And that's the same as 
+
+  42 + 170/170 + 30/170
+
+which is equal to 
+
+  42 + 200/170
+
+or just 
+
+  42 200/170
+
+So now we have
+
+  42 200/170 - 21 153/170
+
+So we can subtract the whole numbers and fractions separately to get
+
+    (42 - 21) + (200/170 - 153/170)
+
+  = 21 + 47/170
+
+  = 21 47/170
+
+Does that make sense? 
+ 
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

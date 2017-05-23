@@ -1,0 +1,69 @@
+ThreadNum: 568403
+Subject: Re: trickty math question
+To: scottstetler@hotmail.com (scott)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 08:29:40
+Sent: yes
+
+Hi, Scott, thanks for writing to Ask Dr. Math.
+
+It's not quite clear what are you supposed to do. Is the problem to 
+fill in the 8 blanks with 8 different digits to make this sentence 
+true?
+
+  _ _ * _ = _ + _ _ = _ _
+
+I'll rewrite it with names for the blanks:
+
+  ab * c = d + ef = gh
+
+You're right that the requirement that ab * c is a 2-digit number 
+limits the possible values of a, b, and c, but that's a good thing. 
+The only possibilities we have to consider are
+
+  c = 2, ab < 50
+  c = 3, ab < 34
+  c = 4, ab < 25
+  c = 5, ab < 20  ==> a = 1; b = 2, 3, 4, 6, 7, 8, or 9
+  c = 6, ab < 17  ==> a = 1; b = 2, 3, 4, or 5
+  c = 7, ab < 15  ==> a = 1; b = 2, 3, or 4
+  c = 8, ab < 13  ==> a = 1; b = 2
+  c = 9, ab < 12  -- impossible: 10, 11 are out
+
+That's still a lot of possibilities, though!
+
+Another thing to notice is that, in order for e not to equal g in
+
+  d + ef =gh
+
+we must have a carry: thus, d + f > 9. Then g will be 1 more than e.
+
+I don't see offhand any way you can avoid trying all the 
+possibilities I started to enumerate for the multiplication. Starting 
+from the bottom, where there are fewer possibilities, most 
+possibilities are eliminated quickly. An example of one that remains 
+possibile a bit longer than most is
+
+  6 * 13 = 78 = 6_ + _
+
+This fails at this point because we've duplicated the 6. That's a 
+sample of the thinking you can do.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+As scott wrote to Dr. Math
+On 08/24/2004 at 03:54:40 (Eastern Time),
+>[Question]
+>using only digits between 1 and 9 without using the digit twice.  
+>such as 00 times 0 = 0 +00 = 00
+>
+>[Difficulty]
+>it is not for school just a hard question a co worker brought to me 
+>that was brought to him.  the hardest thing is not going going into 
+>three digits
+>
+>[Thoughts]
+>12 times 3 = 36 but that doesn't work because the digit 3 is 
+>repeated. 
+

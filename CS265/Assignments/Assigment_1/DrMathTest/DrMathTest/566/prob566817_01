@@ -1,0 +1,63 @@
+ThreadNum: 566817
+Subject: Re: simultaneous equations involving logs
+To: hutson44@hotmail.com (Sarah)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 11:14:48
+Sent: yes
+
+
+As Sarah wrote to Dr. Math
+On 08/13/2004 at 11:06:24 (Eastern Time),
+>[Question]
+>I am currently doing some studying before i start college in 
+>September on an Advanced level Mathematics course. i have been 
+>studying logs from a book and have become stuck on the simultaneous 
+>equations.
+>
+>e.g, ylog2 8=x  (1) (here 2 is the base)
+>   
+>2^x + 8^y=8192  (2)
+
+
+From (1)  log2[8^y] = x
+
+               8^y = 2^x
+
+            2^(3y) = 2^x    and so  x = 3y
+
+From (2)  2^x + 2^x = 8192
+
+          2(2^x) = 8192
+
+            2^x = 4096
+
+            2^x = 2^12
+
+so  x = 12  and then  y = 4
+  
+
+    
+>
+>[Difficulty]
+>equation 1 becomes 8^y= 2^x which then beomes 3y=x as 2^3=8
+>
+>not really sure how to deal with equation 2. i thought of taking 
+>logs, but i read somewhere that this cannot work where there is a 
+>plus sign that does not form part of the index.
+>
+>[Thoughts]
+>using base 2 for equation 2
+>
+>2^x + 2^3y=2^13
+>
+>but  x +3y is not equal to 13
+>
+>Please could i have some guidance on how to deal with questions of 
+>this type. Thank you
+>
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

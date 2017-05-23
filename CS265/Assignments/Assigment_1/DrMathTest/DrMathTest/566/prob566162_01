@@ -1,0 +1,51 @@
+ThreadNum: 566162
+Subject: Re: Larger Roman Numerals
+To: mrdesmond@dcgcorp.com (Melissa)
+From: Doctor Peterson
+TimeStamp: 08/09/2004 at 23:03:28
+Sent: yes
+
+Hi, Melissa.
+
+As Melissa wrote to Dr. Math
+On 08/09/2004 at 14:21:35 (Eastern Time),
+>[Question]
+>How do you express 1 billion in roman numerals
+>
+>[Difficulty]
+>There doesn't seem to be a concrete answer.
+>
+>[Thoughts]
+>the two possible answers I came up with are: MM (with the first M 
+>having a line over it) or M(I) with the M having a line over it.  I 
+>believe both of those mean 1000x1000.
+
+Did you look at our FAQ on the subject?
+
+  Roman numerals
+  http://mathforum.org/dr.math/faq/faq.roman.html
+
+The Romans themselves knew nothing of billions. They also did not 
+have a multiplicative system, where MM would mean 1000 times 1000; 
+rather the system was additive, so that MM would mean 
+1000+1000=2000, and with a bar over the first M it would be 
+1,000,000+1000=1,001,000. So your ideas are not valid -- though in 
+fact there was a period when Roman numerals were used very loosely 
+and some people experimented with multiplicative versions.
+
+The best answer I know is to use the bar twice, multiplying M by 
+1000 and then by 1000 again:
+  _
+  _
+  M = 1000*1000*1000 = 1 billion
+
+But whatever you use, it is a modern extension of the Roman numeral 
+system.
+
+If you have any further questions, feel free to write back.
+
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

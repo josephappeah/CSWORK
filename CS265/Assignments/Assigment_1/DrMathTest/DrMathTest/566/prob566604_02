@@ -1,0 +1,41 @@
+ThreadNum: 566604
+Subject: Re: I am just a simple person with a question
+To: geohowl@sbcglobal.net  (George)
+From: Doctor Rick
+TimeStamp: 08/12/2004 at 17:13:18
+Sent: yes
+
+Hi, George, welcome to Ask Dr. Math.
+
+As geohowl@sbcglobal.net  (George) wrote to Dr. Math
+On 08/11/2004 at 22:52:18 (Eastern Time),
+>[Question]
+>I have a 3% solution and I need a .03% solution. I want to make 30 
+>mls of it.
+>
+>[Difficulty]
+>i believe it is 2 mls to 28. 
+>
+>[Thoughts]
+>I believe I work it as though it is a 10x solution
+
+I don't  remember formulas for things like this, so I reason them out 
+from basic principles.
+
+In this case, a 0.03% solution means that 1 ml of solution contains 
+0.03/100 = 0.0003 ml of solute (if it's 3% by volume). The 30 ml you 
+want to make will have 30 times as much solute, or 30 * 0.0003 ml = 
+0.009 ml.
+
+How much of the 3% solution do you need to get 0.009 ml of solute? 
+Each milliliter of 3% solution contains 3/100 = 0.03 ml of solute. 
+That's more than you need; you'll less than one milliliter of 
+solution. Specifically, you'll need
+
+  0.009 ml / 0.03 ml = 9/30 = 0.3 ml of 3% solution
+
+The other 29.7 ml will be water (or whatever the solvent is).
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

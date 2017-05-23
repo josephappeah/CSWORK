@@ -1,0 +1,40 @@
+ThreadNum: 568918
+Subject: Re: Precalculus question- solving for x
+To: Edavis955@aol.com (Emmanuel)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 11:55:20
+Sent: yes
+
+
+As Emmanuel wrote to Dr. Math
+On 08/26/2004 at 11:40:49 (Eastern Time),
+>[Question]
+>(2x(x-1)/x squared -4) - 3x/x-1
+>
+>[Difficulty]
+>I can get it to a certain point but then nothing canels out.
+>
+>[Thoughts]
+>distribute the 2x: (2x squared - 2x)/x squared - 4
+>then get a like denominator
+
+Hi Emmanuel,
+
+Are you trying to add the fractions
+
+  2x(x - 1)     3x
+  --------- - -------
+   x^2 - 4    (x - 1)
+
+by finding a common denominator?  If so, you want to multiply the
+first fraction by (x-1)/(x-1), and the second by (x^2-4)/(x^2-4).
+
+It's really the same thing you'd be doing if you wanted to add 2/3 and
+3/4.  You'd multiply 2/3 by 4/4, and 3/4 by 3/3, to end up with a
+common denominator of 12.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

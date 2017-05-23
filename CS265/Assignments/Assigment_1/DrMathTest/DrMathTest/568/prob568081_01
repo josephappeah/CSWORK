@@ -1,0 +1,56 @@
+ThreadNum: 568081
+Subject: Re: Trigonometry-sine
+To: robin128224@yahoo.com (Robin)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 09:24:19
+Sent: yes
+
+
+As Robin wrote to Dr. Math
+On 08/22/2004 at 04:31:34 (Eastern Time),
+>[Question]
+>My daughter does not understand what the following question is 
+>actually asking her to do...can you please explain it?
+>There is a triangle  A on top  B is on the bottom left and C is on 
+>the right.   The A to B side is 3 cm.  The A to C line is 5 cm.  and 
+>the B to C line is 4 cm
+>Question 1 asks to calulate the area...so far so good...but question 
+>2 asks:  Find the angle BAC and angle ACB using trigonomic ratios and 
+>then find the value of the following 2 expressions: 
+>1/2 x AB x AC x sin (then a triangle symbol with the right angle)BAC =
+>
+>[Difficulty]
+>She does does not understand what it wants.  She tries but does not 
+>understand if she is doing it correctly. 
+>(ps..she was put ahead in math halfway through the year...so missed 
+>some of it)
+>
+>[Thoughts]
+>Angle  BAC = 50 degrees  Angle ACB = 40 degrees
+>a.  1/2 x 3 x 5 x 0.7650443 = 5.8
+>b.  1/2 x 4 x 5 x 0.6427878 = 6.4
+
+Hello Robin,
+
+sin(ACB) = side opposite/hypotenuse = 3/5 = 0.6
+
+So angle ACB = 36.87deg, approx.  I used ASIN on my calculator.
+
+sin(BAC) = side opposite/hypotenuse = 4/5 = 0.8
+
+So angle BAC = 53.13deg, approx.  I used ASIN on my calculator.  I could also have taken 
+90 and subtracted angle ACB=90-36.87 = 53.13
+
+As to the last part, 
+
+1/2 x AB x AC x sin (then a triangle symbol with the right angle)BAC
+
+I don't know what this might mean - maybe (1/2)*AB*AC*sin(BAC).  If this is a good guess, 
+then
+
+(1/2)*AB*AC*sin(BAC)=(1/2)*3*5*sin(BAC) = (15/2)*(4/5) = 3*2 = 6
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

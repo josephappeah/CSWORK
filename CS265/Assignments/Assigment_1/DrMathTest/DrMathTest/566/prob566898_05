@@ -1,0 +1,72 @@
+ThreadNum: 566898
+Subject: Re: Combinations with Doubles,(Ie AA, BB, CC as well as AB, etc)
+To: kermitdfrosch@hotmail.com (Joe)
+From: Doctor Anthony
+TimeStamp: 08/14/2004 at 13:14:45
+Sent: yes
+
+
+As Joe wrote to Dr. Math
+On 08/14/2004 at 12:48:16 (Eastern Time),
+>allright, when i say taken "5 at a time" a combination of 5
+>characters, like 
+>
+>ABCDE,
+>
+>Repeating or Redundant means I can use the same element more than 
+once
+>in a series, like
+>
+>AABCD or AAACD etc. 
+>
+>its like in chemistry you can have CO (Carbon Monoxide) or CO2 
+(Carbon
+>Dioxide) Oxygen is used twice in the molecule, If you were to count
+>all possible combinations with repeats out of 5 elements, it would
+>look like
+>
+>AA
+>AB  BB
+>AC  BC  CC 
+>AD  BD  CD  DD
+>AE  BE  CE  DE EE
+>
+>~~Joe
+
+To find the number of combinations of pairs of letters taken from 5 
+different letters A to E (with repeats allowed) you require the 
+coefficient of x^2 in the expansion of
+
+  (1+x+x^2)^5
+
+ =  1 + 5x + 15x^2 + 30x^3 + 45x^4 + 51x^5 + 45x^6 + 30x^7 + ... 
+
+and the coefficient of x^2 is 15 showing that there are 15 such 
+combinations.
+
+If I had 3 letters A,B,C the generating function is
+
+  (1+x+x^2)^3
+
+  =  1 + 3x + 6x^2 + 7x^3 + 6x^4 + 3x^5 + x^6
+
+and this time the coefficient of x^2 is 6 so there are 6 
+combinations if just 3 letters are available.
+
+If we have 4 letters available the generating function is
+
+   (1+x+x^2)^4
+
+ = 1 + 4x + 10x^2 + 16x^3 + 19x^4 + 16x^5 + 10x^6 + 4x^7 + x^8
+
+and the coefficient of x^2 is 10.  So there are 10 combinations of 2 
+letters if 4 letters are available.
+
+The algebra can be a little tedious, but I use Maple which performs 
+the algebra for me so I am able to give the answers very quickly.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 566587
+Subject: Re: Confusion over Polyhedrons
+To: arvin_poon@hotmail.com (Arvin Poon)
+From: Doctor Tom
+TimeStamp: 08/12/2004 at 15:49:04
+Sent: yes
+
+
+As Arvin Poon wrote to Dr. Math
+On 08/11/2004 at 21:25:30 (Eastern Time),
+>[Question]
+>What do you call a 3d solid shape where the faces are all the same 
+>shape, like eight sided dice and stuff?
+>
+>[Difficulty]
+>I read that a polyhedron is defined by the number of faces, so a 
+>pentahedron is may just be a four sided pyramid (four triangles and 
+>one square).  I want to know the name of the solid made up totally of 
+>pentagons or hexagons, etc.  I'm a Grade 5 teacher and I'm trying to 
+>figure out what I am supposed to call these things.
+>
+>[Thoughts]
+>
+
+Hello Arvin,
+
+I don't know the answer to your specific question -- I have never
+seen a name for such things.
+
+There are so-called "regular polyhedra" where all the faces are
+regular polygons and they all meet at the same angles at all the
+vertices.  There are only five of these: the tetrahedron, the cube,
+the octahedron, the dodecahedron and the icosahedron, having
+4, 6, 8, 12 and 20 faces, respectively.
+
+You might be interested in these web pages:
+
+    http://www.ics.uci.edu/~eppstein/junkyard/polymodel.html
+
+    http://www.korthalsaltes.com/
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

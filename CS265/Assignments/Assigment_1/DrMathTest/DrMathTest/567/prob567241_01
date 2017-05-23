@@ -1,0 +1,76 @@
+ThreadNum: 567241
+Subject: Re: probablity and coin toss
+To: huntt156@cs.com (Taylee Mckell)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 01:23:16
+Sent: yes
+
+
+As Taylee Mckell wrote to Dr. Math
+On 08/17/2004 at 00:09:24 (Eastern Time),
+>[Question]
+>I am conpletely lost when it comes to probability.
+>The question is
+>"A fair coin is tossed 8 times in seccession. find the probabilit of
+>getting at lest 4 heads"
+>
+>[Difficulty]
+>Probablity is hard. I don't know even where to start
+>
+>[Thoughts]
+>i know that (1/2)^8= 1/256 but I don't know where to go form her
+
+Hi, Taylee --
+
+Here are some links to pages in the Dr. Math FAQs where you can find 
+some basic information which can help you with this problem.  Here 
+is the link to the basic section on probability: 
+
+  http://mathforum.org/dr.math/faq/faq.prob.intro.html
+
+You are interested in this particular problem in the numbers of ways 
+of getting 4 out of 8 heads, 5 out of 8 heads, and so on; an 
+introduction to this topic is found in the section on permutations 
+and combinations:
+
+  http://mathforum.org/dr.math/faq/faq.comb.perm.html
+
+In the case of flipping a coin, where there are exactly two equally 
+likely outcomes, Pascal's triangle is very useful:
+
+  http://mathforum.org/dr.math/faq/faq.pascal.triangle.html
+
+I will give a very brief description of the process for finding the 
+answer to your problem; consult the referenced pages in the FAQs if 
+you have any questions about my presentation.  (But then of course 
+write back if you still have any questions about any of the solution 
+process.)
+
+For flipping a coin 8 times, you want to work with the 8th row of 
+Pascal's triangle (the one beginning "1, 8, ...").  This row is
+
+  1, 8, 28, 56, 70, 56, 28, 8, 1
+
+These numbers are, respectively, the numbers of ways of getting 8, 
+7, 6, ..., 1, or 0 heads on 8 flips of a coin.  Note that the sum of 
+the numbers in the 8th row is 2^8=256, as it must be.
+
+This row of Pascal's triangle tells us that there is a
+
+   1/256 probability of getting 8 heads
+   8/256 probability of getting 7 heads
+  28/256 probability of getting 6 heads
+  56/256 probability of getting 5 heads
+  70/256 probability of getting 4 heads
+
+So the probability of getting at least 4 heads is
+
+  (70+56+28+8+1)/256 = 163/256
+
+Again I invite you to write back if you can't find the answer in the 
+referenced pages in the Dr. Math FAQs to any questions you have 
+about this solution process.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,48 @@
+ThreadNum: 568135
+Subject: Re: The effect of "order" in the coloured marbles question ...
+To: rondrysdale@shaw.ca (Ron )
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 18:29:58
+Sent: yes
+
+
+As Ron  wrote to Dr. Math
+On 08/22/2004 at 18:06:15 (Eastern Time),
+>[Question]
+>There are 10 marbles in a bag ... 2 reds, 4 greens and 4 blue. What 
+is
+>the probability of drawing a red, and then a green, and then a blue
+>... in that exact order? "No problem," thinks I. "Just multiply 
+2/10 x
+>4/9 x 4/8." 
+>
+>But then they ask what the probability would be if the order did not
+>matter. I suspect that the probability would be higher, but I am "in
+>over my head" on this one.
+
+If order does not matter
+
+                 C(2,1) x C(4,1) x C(4,1)
+  Probability =  ------------------------
+                       C(10,3)
+
+                   2 x 4 x 4      32       4
+               =  ----------   = ----  =  ----
+                     120         120       15
+
+
+>
+>(I'm a Grade 7 math teacher trying to help my RN wife with a stats
+>course.)
+>
+>[Difficulty]
+>I'm sure that the "in order" answer is right.
+>
+>[Thoughts]
+>All I know/suspect is that the probability has to be higher ...
+>probably about twice as good.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

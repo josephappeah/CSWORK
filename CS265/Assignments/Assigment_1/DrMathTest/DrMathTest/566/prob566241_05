@@ -1,0 +1,61 @@
+ThreadNum: 566241
+Subject: Re: Hexagon
+To: helenanne88@hotmail.com (Anne)
+From: Doctor Douglas
+TimeStamp: 08/13/2004 at 11:28:04
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/13/2004 at 01:28:20 (Eastern Time),
+>Thank you Dr Douglas for correcting me.
+>
+>My second part is even tougher.  I am supposed to calculate the 
+>quantity of ping pong balls that can fit into the hexagonal prism.
+>
+>I got this part from a website in the internet.  Which I thought I 
+>could use for my project.  (What do you think)
+>
+>**I used nearly every ping-pong ball they had, filling my box to the 
+>upper edge. The 1728 in³ box was filled with air and balls. 
+>I counted out 577 ping-pong balls. The volume of one ping-pong ball 
+>is area 1.59 in³ which means that only 53% of the box was ball-
+>volume! 810 in³ were air."
+>
+>
+>My thoughts as follows.  Please correct me if i make any mistake :
+>
+>
+>First I convert the volume of hexagonal prism 330000 cm^2 (the 
+>answer you gave, i am confused should this be cm^3 or cm^2) to 
+>inch^3 and obtain 20140inch^3.
+>
+>Based on 1 ball = 1.59inch^3
+>Then i use the converted amount of 20140inch^3 divide 1.59inch^3
+>This gives me a total of 12666 balls.
+>
+>Can i use this to obtain the answer.  Or is there another way.
+>
+>
+>Once again thank you and I hope to hear from you soon.
+>
+
+Hi Anne.
+
+thanks for writing to the Math Forum.  A volume is measured
+in units that have collectively the units of length-cubed, such
+as in^3 or cm^3.
+
+It sounds like you could fit 12666 balls into the prism IF the
+balls could squash together perfectly, leaving no space unused.
+If they were triangular prisms they might be able to do this, but
+since the balls are spheres, there must be some unused space in
+between.
+
+In general this is a somewhat tricky problem, but you can search
+the internet and our archives for information about "sphere packing".
+That should give you lots to work with.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

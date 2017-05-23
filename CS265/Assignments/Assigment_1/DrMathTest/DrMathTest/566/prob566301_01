@@ -1,0 +1,41 @@
+ThreadNum: 566301
+Subject: Re: Exponential Proof
+To: joey@fredwilson.com (Joey)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 10:45:32
+Sent: yes
+
+
+As Joey wrote to Dr. Math
+On 08/10/2004 at 09:59:11 (Eastern Time),
+>[Question]
+>I work at an engineering firm and we are studying for the EIT and the 
+>PE.  We came across this problem...
+>
+>lim x--> inf (1+1/x)^x
+>
+>I saw on your site that you had a response about this already.  I 
+>know that this limit is e, however, when you follow your instruction 
+>you get the inverse of e.  Instead of 2.718, you get .368.
+>
+>[Difficulty]
+>I can foolow all of the steps that you have laid out, but I cannot 
+>figure out why it comes out to be e^-1.
+>
+>[Thoughts]
+>ln y = x * ln(1 - 1/x)
+>
+>ln y = -1/(1-1/x)
+>
+>ln y = -1
+>
+>y = e^-1
+
+Hi Joey,
+
+Just to make sure we're looking at the same thing, can you tell me the
+URL of the page you were looking at?  Thanks,
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

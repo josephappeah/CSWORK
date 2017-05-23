@@ -1,0 +1,41 @@
+ThreadNum: 566120
+Subject: Re: (no subject)
+To: Ghid5@aol.com (Meron)
+From: Doctor Ian
+TimeStamp: 08/09/2004 at 14:47:55
+Sent: yes
+
+
+Hi Meron,
+
+>HI dear dr math
+>MY question just simple one. 
+>If we measure the velocity of a particle with respect to time, it is 
+>acceleration; 
+
+More precisely, acceleration is the _change_ in velocity with respect
+to time.  
+
+>since velocity is a fucntion of time. What if we 
+>measure it with respect to distance.
+
+The thing is, we don't measure velocity directly.  We can measure
+acceleration by measuring forces; and we can measure position
+directly. We compute velocities.  So it's not clear what it would mean
+to 'measure' velocity with respect to distance. 
+
+>And my second questione is what is mathematical meaning of 
+>      
+>  F=ma
+
+Mathematically, it's just an inverse relationship, and there's no
+difference between this equation and the equation
+
+  z = xy
+
+Physically, it means that if you know any two of Force, mass, and
+acceleration for a given system, you can solve for the third. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

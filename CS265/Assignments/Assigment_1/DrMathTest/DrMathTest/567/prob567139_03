@@ -1,0 +1,101 @@
+ThreadNum: 567139
+Subject: Re: Combination, Permutation, or neither
+To: apatel@spa.com (Amisha)
+From: Doctor Willae
+TimeStamp: 08/16/2004 at 15:36:54
+Sent: yes
+
+As Amisha wrote to Dr. Math
+On 08/16/2004 at 14:07:54 (Eastern Time),
+>[Question]
+>If I have 8 possible messages to send in a network, what is the total 
+>possible combinations of simultaneous occurence (meaning two or more 
+>messages are transmitted at the same time). [According to a published 
+>study I am reading, the answer is 2^8 but this doesn't seem right]. 
+>Note that order doesn't matter (if Messgage "A" is sent at the same 
+>time as Message "B" then AB and BA are the same.
+>
+>[Difficulty]
+>I don't think this is an easy combination or permutation problem. I 
+>keep thinking about it and it seems like a hybrid problem. My initial 
+>instinct was 8! but that doesn't work since it doesn't count the fact 
+>that combinations occur when there are two OR MORE messages occurring 
+>at the same time. So, that means a combination is defined as either 
+>2, 3, 4, 5, 6, 7, or 8 messages occurring at the same time. Also, I 
+>know you can't repeat messages in the context of the problem (because 
+>messages are defined as in a point to point connection from one user 
+>to another).
+>
+>[Thoughts]
+>I started out simple, if you have n=2 (instead of 8) then you have 1 
+>combination.
+>If n=3, then you have 4 combinations (ABC, AB, AC, BC).
+>If n=4, then you have 10 combinations (ABCD, AB, AC, AD, CB, CD, BD, 
+>ABC, ACD, BCD).
+>I was trying to find a pattern, but couldn't come up with one 
+>although it looks like as n increases, the total possible 
+>combinations increases exponentially. 
+
+Amisha,
+This problem is most definitely a combinatorics problem.  And, since
+order doesn't matter, that tells us it's a combinations problem.  So
+before we do anything, let's recall the formula for combinations:
+
+                  n!
+ ncr(n, r) = -------------
+             r! * (n - r)!
+
+Here, ncr(n, r) is the choose function.  In the context of your
+problem, n is the number of possible messages and r is how many are
+sent simultaenously.  What we need to do is add all these up for r =
+2, 3, ..., n.  To help us out with this, there's another formula from
+combinatorics:
+
+ ncr(n, 0) + ncr(n, 1) + ... + ncr(n, n) = 2^n
+
+This is where the 2^8 number comes from in the study.  However, it's
+not QUITE right because you don't want to include the ncr(n, 0) and
+ncr(n, 1) terms.  So let's subtract those from both sides and see what
+we get:
+
+ ncr(n, 2) + ncr(n, 3) + ... + ncr(n, n) = 2^n - ncr(n, 0) - ncr(n, 1)
+
+To simplify this, we can compute ncr(n, 0) and ncr(n, 1) explicity. 
+Let's first look at ncr(n, 0):
+                  n!
+ ncr(n, 0) = -------------
+             0! * (n - 0)!
+
+               n!
+           = ------
+             1 * n!
+
+           = 1
+
+We can do the same for ncr(n, 1):
+
+                   n!
+ ncr(n, 1) = -------------
+             1! * (n - 1)!
+
+                  n!
+           = ------------
+             1 * (n - 1)!
+     
+           = n
+
+Putting it all together, we get:
+
+ ncr(n, 2) + ncr(n, 3) + ... + ncr(n, n) = 2^n - n - 1
+
+This is almost consistent with the results that you computed by hand.
+ If n = 3, the total number of simultaenous messages is 2^3 - 3 - 1 =
+8 - 3 - 1 = 4.  For n = 4, the total number is 2^4 - 4 - 1 = 16 - 4 -
+1 = 11.  You got 10, but you forgot the combination ABD.
+
+I guess this just goes to show that you shouldn't believe everything
+you read in those studies!  :-)
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

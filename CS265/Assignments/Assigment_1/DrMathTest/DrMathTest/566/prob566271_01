@@ -1,0 +1,49 @@
+ThreadNum: 566271
+Subject: Re: recurring........
+To: andrewchen2002@hotmail.com (Andrew)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 11:44:11
+Sent: yes
+
+Hi, Andrew.
+
+As Andrew wrote to Dr. Math
+On 08/10/2004 at 04:37:14 (Eastern Time),
+>[Question]
+>i kno dat 
+>0.999999999999999999999999999999999999999999999999999999999999999999
+9
+>999999999999999999999999999(recurring)
+>dusnt equal 1, but i do not kno how 2 prove it.
+>
+>[Difficulty]
+>if x=0.9(recurring)
+>10x=9.9(recurring)
+>9x=10x-x=9
+>
+>[Thoughts]
+>to my opinion, 0.3(recurring) is not exactly 1/3, its da closest 
+>anyone can get TO 1/3 therefore,0.3(recurring) X 3 does not equal to
+>0.9(recurring)
+>well, dats only my opinion, mayb my way of thought is wrong and dat 
+>0.9(recurring) DOES=1 
+
+Have you looked at our FAQ on this subject?
+
+  0.9999... = 1
+  http://mathforum.org/dr.math/faq/faq.0.9999.html
+                   _
+The fact is that 0.9 is equal to 1 exactly; that happens because we 
+define the value of any infinite (non-terminating) decimal as the 
+value it approaches closer and closer as you add on more digits. If 
+you use any finite number of 9's (that is, if you stop anywhere in 
+writing the decimal), you will not reach 1; but you can get as close 
+as you want by taking enough digits, and that is taken to be the 
+value of the infinite decimal.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

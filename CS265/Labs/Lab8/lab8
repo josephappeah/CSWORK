@@ -1,0 +1,30 @@
+q1. 
+	 i. providing stright forward access to the components while hidding details of the implementation so they can be changed without affecting users.
+	ii. create non-overlapping functions and capabiities, resists temptation to offer more then one way to do something, do onething and do it well. 
+   iii. basically the operations must not do something that the user is un aware of hence do not reach around the users back  
+    iv. be consistant everywhere simmilair behaviers should be taken care of in the same manner each time. 
+	
+q2. long input lines many feilds and unexpected use or missing serators all cause issues. 
+
+q3.
+No limitations to feild or line size. Array growth handling while also adding a function to check end of line and end of file.
+A split function was added. Also supports multiple field seprators.
+
+
+q4.
+it is more than four times as long as the first program and the code is more complicated.
+SInce only onne instance of the variables exist two files can not be parsed at the same time. 
+Also does not use stdin.
+Since the program takes anyline given and sets them into three arrays there is no way to add another file to be manipulated. 
+
+q5. 
+C++ version now allows for multiple instances of these variables making it capeable of handling mulitple csv files.
+This version also allows your to use stdin for inputs. 
+But C++ version is 20 percent slower. 
+
+q6. 
+1. The program does provide straight forward access to the varaibles and everything that is needed while the user does not need to really know any of the implimentation details to use the class.
+2. All the functions within the program do offer there own uses and do not over-lap.
+3. The changes are not made without being clear to the user.
+4. From the functions down to the variable manipulation everything is beeing in taken care of consistantly.
+ 

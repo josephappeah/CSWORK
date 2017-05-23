@@ -1,0 +1,43 @@
+ThreadNum: 566293
+Subject: Re: Calculus
+To: o_kattan@yahoo.com (Oz)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 09:59:52
+Sent: yes
+
+
+As Oz wrote to Dr. Math
+On 08/11/2004 at 00:44:45 (Eastern Time),
+>Hi Doctor Vogler,
+>
+>Thanks for your fast reply. I think I am able to solve it correctly 
+>now. Please comment on this solution:
+>
+>A   = x * sqrt( A )
+>A^2 = x^2 * A
+>A   = x^2
+>
+>I also have the following question:
+>
+>Can you prove the following equation where ‘e’ being the base of the 
+>natural logarithm (e = 2.7182...) and p is the Greek letter ‘Pi’?
+>
+>e^(i*p) = –1
+>
+>Thanks in advance.
+
+Hi Oz,
+
+That looks good.  (Of course, A=0 is also a solution regardless of
+what x is.)  As for the other, refer to our FAQ at
+
+  Imaginary exponents and Euler's equation.
+  http://mathforum.org/dr.math/faq/faq.euler.equation.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

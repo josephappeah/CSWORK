@@ -1,0 +1,73 @@
+ThreadNum: 568429
+Subject: Re: Primes numbers as lengths of the sides of isoseles triangles
+To: brucegpyne_1@juno.com (Bruce)
+From: Doctor Vogler
+TimeStamp: 08/24/2004 at 10:01:06
+Sent: yes
+
+
+As Bruce wrote to Dr. Math
+On 08/24/2004 at 09:42:50 (Eastern Time),
+>[Question]
+>Dr. Math,
+>     You answered one of my questions about every integer being the 
+>midpoint between two primes.   My question this time is this:  Has
+>anyone before me conjectured that every odd number >7, with the 
+>exception of 23, can be represented as the sum of three primes which 
+>form the lengths of an isoceles triangle?
+>
+>     
+>
+>
+>[Difficulty]
+>I'm not sure how to prove it, and there does not seem to be any 
+>reason why it should be true.
+>
+>[Thoughts]
+>I have investigated this up to about 150.   I use only a hand held 
+>calculator and a list of primes to test each odd number.   Some num-
+>bers can be represented as such in two or more ways.  For instance, 
+>29 = 3 + 13 + 13 = 7 + 11 + 11.   I suspect that there exists an odd 
+>number n such that every odd number >= n can be represented as the 
+>sum of three primes which can form the sides of an isoceles, acute
+>(not isoceles), and a scalene triangle.    Also, concerning triangles
+>I had conjectured that at least one leg of every Pythagorean triangle
+>in lowest form (all sides relatively prime to each other) was a prime 
+>number.  (Witness 3-4-5, 5-12-13, 7-24-25, 9-40-41, and 8-15-17).  
+>The first counterexample to this is 33-56-65, none of which are prime.
+>I also suspect that the conjecture relating to triangles can be 
+>extended to closed plane figures with any number of sides.  For 
+>instance, does there exist an odd number n such that every odd number 
+>>= n can be represented as the sum of m primes (m odd) which form the 
+>sides of an m-gon.  Also is the same true for both n and m even?
+>Are there any other conjectures relating primes to geometric figures?
+
+Hi Bruce,
+
+Thanks for writing to Dr Math.  So basically you claim that if n is
+odd, then
+
+  n = 2p + q
+
+for two primes p and q with
+
+  q < 2p.
+
+You have a variant of the famous Goldbach Conjecture.  There are
+enough primes that it is almost certainly true, and yet it is in
+spirit very much like Goldbach, which has never been proven.  I have
+no idea if this has been conjectured before, but there have been so
+many conjectures made that no one can prove that it would be hard for
+anyone to say.
+
+You might be able to prove that this implies the Goldbach Conjecture,
+or is implied by it, or both (which would mean that it is equivalent
+to Goldbach).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

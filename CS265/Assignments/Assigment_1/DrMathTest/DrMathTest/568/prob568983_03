@@ -1,0 +1,50 @@
+ThreadNum: 568983
+Subject: Re: squares, digits, number theory
+To: gentry@excite.com (Charles)
+From: Doctor Vogler
+TimeStamp: 09/13/2004 at 13:56:21
+Sent: yes
+
+
+As Charles wrote to Dr. Math
+On 09/12/2004 at 20:23:30 (Eastern Time),
+>Thank you very much for your help. I was without access to my email 
+>for some time, and I'll have to re-familiarize myself with modular 
+>arithmetic. I've always found it strangely difficult.
+>Charles Gentry
+
+Hi Charles,
+
+Depending on how much modular arithmetic you've already done, the
+following answer might be helpful in reviewing:
+
+  Mod, Modulus, Modular Arithmetic
+  http://mathforum.org/library/drmath/view/62930.html
+
+By the way, I should tell you that, after sending my last response, I
+did get the first technique to work.  I left off at
+
+  a(10^b) = (m-r)(m+r)
+
+where r is either 1, 2, or 3.  Well, since the difference
+
+  (m+r) - (m-r) = 2r
+
+is not divisible by 5, both of those numbers can't be divisible by 5,
+which means that 5^b has to divide either m-r or m+r.  But since this
+is the biggest part of the left-hand side, that makes this factor
+pretty big, and the other factor, which must be a divisor of
+
+  a * 2^b,
+
+pretty small.  Under what conditions could
+
+  bigger factor >= 5^b
+
+be no more than 2r (no more than 6) bigger than
+
+  smaller factor <= a * 2^b ?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

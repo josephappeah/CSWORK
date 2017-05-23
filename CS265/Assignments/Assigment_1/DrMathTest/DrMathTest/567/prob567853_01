@@ -1,0 +1,48 @@
+ThreadNum: 567853
+Subject: Re: Current exchange problem
+To: priyagarg12@hotmail.com (Anon)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:30:30
+Sent: yes
+
+
+As Anon wrote to Dr. Math
+On 08/20/2004 at 01:22:04 (Eastern Time),
+>[Question]
+>Hi there
+>I would like to know how to solve current exchage rate based problems
+>
+>Eg: if ).89 Australian dollar = $1 Nz dollar how do i figure out how 
+>many Nz dollars will i get if i have $500 australian dollars. And 
+>also the other way around($500 Nz dollar = $ Australian)
+>
+>Thanx
+>
+>[Difficulty]
+>ALL THE NUMBERS AND THE FACT THAT THE NUMBERS ARE ALL DIFFERENT
+>
+>[Thoughts]
+>maybe 500 divided by 0.89
+
+Hello Anon,
+
+Let's assume that 0.89 AD = 1 NZ.
+
+                500 AD    1 NZ
+500 AD = ------ * ------- 
+                    1         0.89 AD
+
+notice that "AD" cancels, leaving NZ.  So, the arithmetic is 500/0.89
+
+Also,
+
+                 500 NZ    0.89 AD
+500 NZ =  ------ *  -------
+                      1            1 NZ
+
+and so the arithmetic is 500*0.89.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

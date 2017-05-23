@@ -1,0 +1,40 @@
+ThreadNum: 567195
+Subject: Re: 6
+To: browsedavid@yahoo.com (David Ogedegbe)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 22:35:08
+Sent: yes
+
+
+As David Ogedegbe wrote to Dr. Math
+On 08/16/2004 at 19:15:15 (Eastern Time),
+>[Question]
+>Please i want to know if there is general formular for conversion 
+of 
+>bese 10 digits to base 2,8 and 16.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, David --
+
+There isn't much work to be done in converting base 10 DIGITS to 
+base 2, base 8, or base 16; I assume what you are really asking for 
+is a method for converting any number in base 10 to one of these 
+other bases.
+
+The methods for converting between any two bases are the same; here 
+is a link to one page in the Dr. Math archives where the methods are 
+discussed:
+
+  Converting from Base 6 to 10 and Back
+  http://mathforum.org/library/drmath/view/55738.html
+
+Please write back if you still have any questions after reading the 
+discussion on that page.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

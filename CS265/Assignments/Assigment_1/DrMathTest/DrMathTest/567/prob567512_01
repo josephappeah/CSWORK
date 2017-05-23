@@ -1,0 +1,49 @@
+ThreadNum: 567512
+Subject: Re: math
+To: smilingboy32@hotmail.com (tim)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 19:35:32
+Sent: yes
+
+
+As tim wrote to Dr. Math
+On 08/18/2004 at 15:47:34 (Eastern Time),
+>[Question]
+>how do i figure out the longest line in a cube? 
+>
+>[Difficulty]
+>the angle is not important but that is all I have to work with
+>
+>[Thoughts]
+>without making a model i can not figure it out. I have tried 
+>pythaguris(sic) theory but it does not really apply and breaking the 
+>cube down to a triangle eith the longest side being the answer i'm 
+>looking for but i still can't figure it out.
+
+Hi Tim,
+
+Do you mean you want to describe it?  It's the line connecting
+opposite corners.  
+
+Or do you mean you want to compute the length of it, given the edge
+length of the cube?  To do that, you need to apply the Pythagorean
+Theorem twice...  
+
+      E----F
+     /|   /|
+    A----B |
+    | H--| G
+    |/   |/
+    D----C
+
+For example, suppose you know the length AD. Then you also know the
+lengths DC and CG.  So you can use Pythagoras to find the diagonal DG.
+
+So then you know AD and DG.  Which means you can use Pythagoras again
+to find the length AG, which is the longest line in the cube...
+
+Does this help?   
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

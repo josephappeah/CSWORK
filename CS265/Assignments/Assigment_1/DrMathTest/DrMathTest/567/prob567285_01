@@ -1,0 +1,52 @@
+ThreadNum: 567285
+Subject: Re: Definition of limit and why e/2 is chosen instead of e
+To: Ronald.Moore@csfb.com (Ron)
+From: Doctor Fenton
+TimeStamp: 08/17/2004 at 17:30:01
+Sent: yes
+
+
+As Ron wrote to Dr. Math
+On 08/17/2004 at 10:57:53 (Eastern Time),
+>[Question]
+>Hi Dr.
+>
+>The Calculus book that I'm reading gave an example of the 
+>definite of the limit as this
+>
+>|f(x)-L| if 
+>0 < |x-3| < @ = e/2
+>
+>Where did they get e/2 from? Am I missing something.
+>How is e/2 equal to 0 < |x-3| < @. 
+>Why did they use e/2 and not e/3 or e/4  , etc..
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Ron,
+
+Thanks for writing to Dr. Math.  It is not possible to answer you
+question with only the information you have provided.  You need to
+give the specific function f(x).  How to choose @ when e is given
+depends upon f(x) - it is not one choice which works for all 
+functions.
+
+You might look at 
+
+  http://mathforum.org/library/drmath/view/53403.html
+
+to make sure you understand the rationale of epsilons and deltas,
+and some examples of how to choose delta, given epsilon.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

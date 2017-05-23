@@ -1,0 +1,39 @@
+ThreadNum: 568050
+Subject: Re: calculus- continious function
+To: vinodramki@hotmail.com (vinodr)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 23:51:56
+Sent: yes
+
+
+As vinodr wrote to Dr. Math
+On 08/21/2004 at 20:23:50 (Eastern Time),
+>[Question]
+>Give an example of a continious function on [-1,1] such that f(-1)=f
+>(1) but there is no point c in (-1,1) such that f'(c)=0. (your 
+>example can be give by a graph).
+>
+>[Difficulty]
+>I don't know whether to use rolle's theorem or mean value theorm. 
+>What is the general supposition of an equation here?
+>
+>[Thoughts]
+>I didn;t have a clue as to how to begin. sorry :(
+
+Hi Vinodr,
+
+Thanks for writing to Dr. Math.  If Rolle's Theorem applies, it says 
+that there MUST be a point c where f'(c) = 0.  Look carefully at
+the hypotheses of Rolle's Theorem.  A function for which there is no
+such point c must fail to satisfy one (or more) of the hypotheses.
+
+That will give you a hint about what type of function to look for.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

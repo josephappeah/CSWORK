@@ -1,0 +1,61 @@
+ThreadNum: 567115
+Subject: Re: Graph Symmetry
+To: abittinger@shelbyed.k12.al.us (Amanda)
+From: Doctor Pete
+TimeStamp: 08/16/2004 at 20:35:09
+Sent: yes
+
+As Amanda wrote to Dr. Math
+On 08/16/2004 at 10:27:52 (Eastern Time),
+>[Question]
+>Does the greatest integer function have orgin symmetry or no 
+>symmetry?  Please back the answer up with an explanation. Thanks
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I believe that it has no symmetry by applying the definition of 
+>origin (odd function) symmetry.
+
+Amanda,
+
+You are correct, the greatest integer function does not have origin symmetry; indeed, it 
+does not have any rotational or reflection symmetry.
+
+A function y = f(x) has rotational symmetry about the origin if and only if for all x in the 
+domain,
+
+     f(-x) = -f(x).
+
+We call such a function "odd."  If there is but one x that fails to satisfy this criterion, the 
+function is not odd.
+
+Let us call the greatest integer function Floor[x].  Then
+
+     Floor[1.5] = 1,
+     Floor[3.9999] = 3,
+     Floor[-0.25] = -1,
+     Floor[100] = 100.
+
+And we then have
+
+     Floor[-1/2] = -1,
+
+whereas
+
+     -Floor[1/2] = -(0) = 0.
+
+Thus there is at least one x for which Floor[-x] is not equal to -Floor[x], and the greatest 
+integer function is not odd.
+
+Interestingly, about the point (x,y) = (1/2,0), the greatest integer function is "almost 
+everywhere" rotationally symmetric.  That is,
+
+     Floor[1/2 - x] = -Floor[x + 1/2]
+
+for ALMOST every x.  For which values of x is this equation false?
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

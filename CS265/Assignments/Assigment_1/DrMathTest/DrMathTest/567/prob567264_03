@@ -1,0 +1,77 @@
+ThreadNum: 567264
+Subject: Re: implicit differenciation
+To: shinkentom@hotmail.com (kevin)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 08:16:07
+Sent: yes
+
+
+As kevin wrote to Dr. Math
+On 08/20/2004 at 08:02:23 (Eastern Time),
+>doc....i have some doubts....i'll repeat the question as i have made 
+>a small typing error.."Use Implicit differentiation to help show that 
+>the sum of intercepts made on the x and y axis by the tangent to    
+>sqrt x + sqrt y = c ,at any point is constant.....
+>doc when they talk about constant ...are they refering to "any 
+>number" , that changes when different values..when different points 
+>are chosen......or a unchanging number no matter what even points are 
+>chosen......can u clarify this please....IN CASE IT REFERS TO A 
+>UNCHANGING NUMBER CAN U PLZ HELP ME PROVE IT....AND PLZ DO EXPLAIN 
+>THE IDEAS BEHID DOING SO>>..>>
+>Thanks doctor Fenton
+
+Hi Kevin,
+
+For any positive number c, there is a curve in the first quadrant
+
+   sqrt(x) + sqrt(y) = c.
+
+For example, we can take c=1 and look at
+
+   sqrt(x) + sqrt(y) = 1 ,
+
+or take c = 100 and consider
+
+   sqrt(x) + sqrt(y) = 100 ,
+
+and so on.
+
+No matter what value of c is chosen, if we pick a specific point on
+the curve, which I called (x0,y0), compute the tangent line to 
+the curve at this point, find the intercepts of this tangent and add
+them, we will get a number.  If we pick a second point, (x1,y1) on
+this same curve, compute the tangent line, and add its intercepts, we
+will get the same number that we got for (x0,y0).  If we pick a 
+different value of c, we get a different curve and a different number
+for the sum of the intercepts, but we will get the same number for the
+sum of the intercepts for all points on this second curve.
+
+For example, if we choose c= 7, then (9,16) is a point on the curve
+
+  sqrt(x) + sqrt(y) = 7 ,
+
+since
+
+   sqrt(9) + sqrt(16) = 3 + 4 = 7.
+
+If we compute the tangent line to the curve at (9,16) and add the 
+two intercepts, then we will get the same number that we get if 
+we compute the tangent to the curve
+
+     sqrt(x) + sqrt(y) = 7
+
+at the point (16,9) (which is another point on the curve) and add the
+intercepts.
+
+If the "c" bothers you, use a specific value of c, such as 7, and
+verify the statements I just made.
+
+Can you compute the tangent line to
+
+     sqrt(x) + sqrt(y) = 7
+
+at (9,16) and at (16,9)?
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

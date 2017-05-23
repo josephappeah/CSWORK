@@ -1,0 +1,70 @@
+ThreadNum: 567084
+Subject: Re: Age Problem
+To: jay_soon@hotmail.com (Christopher Jay R. Soon)
+From: Doctor Rick
+TimeStamp: 08/16/2004 at 08:26:23
+Sent: yes
+
+Hi, Christopher.
+
+As Christopher Jay R. Soon wrote to Dr. Math
+On 08/16/2004 at 00:04:11 (Eastern Time),
+>[Question]
+>Hello, I have a simple Age Problem that has two trivial answers. The 
+>two answers arise because of the grammatical interpretation of the 
+>problem. I did not receive an answer to my previous post so I'm 
+>resending it again. I hope this question would be considered this 
+>time.
+>
+>THE PROBLEM:
+>
+>Mary is 24 years old. Mary is twice as old as Ana was when Mary was 
+>as old as Ana is now. How old is Ana?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Here are two solutions on the above problem based on different 
+>grammatical point of views:
+>
+>Solution 1:
+>-------- Ago -- Now
+>Mary --- x ---- 24
+>Ana ---- 12 --- x
+>
+>24 - x = x - 12
+>2x = 36
+>x = 18, therefore Ana is 18 years old
+>
+>Solution 2:
+>
+>-------- Ago -- Now
+>Mary --- 2x --- 24
+>Ana ---- x ---- 2x
+>
+>24 - 2x = 2x - x
+>24 = 3x
+>x = 8
+>2x = 2(8) = 16, therefore Ana is 16 years old
+>
+>Which solution and interpretation is correct or logical? Let me know 
+>your ideas.
+
+It would have helped if you had explained how you got your tables, 
+and how you were interpreting the grammar in each case. Your second 
+solution seems to me to be based on reading the problem as
+
+  Mary is 24 years old. Mary WAS twice as old as Ana when Mary 
+  was as old as Ana is now. How old is Ana?
+
+I don't see how "Mary IS twice as old as Ana was" can be interpreted 
+as saying that Mary's age at the earlier time was twice Ana's age 
+then. The first interpretation is correct.
+
+If your second table is based on a different interpretation, let me 
+know what it is and I will consider it.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

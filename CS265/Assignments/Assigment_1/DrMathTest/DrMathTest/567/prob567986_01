@@ -1,0 +1,47 @@
+ThreadNum: 567986
+Subject: Re: Factorials of numbers which are not Natural or 0
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 09:17:00
+Sent: yes
+
+
+As Mitropam wrote to Dr. Math
+On 08/21/2004 at 04:52:34 (Eastern Time),
+>[Question]
+>The calculators in the Microsoft Windows powered PCs give the values 
+>of the factorials of non-integral numbers also. For example, it 
+>gives  (pi)! = 7.1880827289.... 
+>                           It is unusual regarding the fact that we 
+>are taught in school that n! is defined only for natural numbers and 
+>zero.
+>    So what does the factorial sign really imply ? Does n!= n(n-1)(n-
+>2)(n-3)(n-4).....upto infinity ?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Mitropam,
+
+I think the following answer from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/54540.html
+
+I found it by searching on these keywords:
+
+  gamma function factorial
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

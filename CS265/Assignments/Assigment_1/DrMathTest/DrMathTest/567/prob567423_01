@@ -1,0 +1,57 @@
+ThreadNum: 567423
+Subject: Re: Velocity Problem 
+To: ToxicRainDrops@wmconnect.com (Cynthia)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 02:21:57
+Sent: yes
+
+
+As Cynthia wrote to Dr. Math
+On 08/18/2004 at 00:47:14 (Eastern Time),
+>[Question]
+>We planned to average 90km per hour on our trip.  During the first 
+>half we only average 48 km per hour.  At what velocity must we 
+travel 
+>during the second half of the distance to realize our goal of 
+>averaging 90km per hour for the whole trip.
+>
+>[Difficulty]
+>I'm not sure what formula to use to solve this problem.
+>
+>[Thoughts]
+>90*2=180
+>180-48=132
+>
+>132km per hour was my answer but my teacher told me it was wrong.
+
+Hi, Cynthia --
+
+If you spend half of your TIME at 48km per hour and half of your 
+TIME at 132 km per hour, then you will average 90 km per hour.  But 
+if you travel half of the DISTANCE at 48km per hour and want to 
+average 90 km per hour for the whole distance, then you have used up 
+most of the available time at the lower speed, so you have to go a 
+lot faster over the remaining distance.
+
+Mathematically, probably the easiest way to solve this problem is to 
+pick a convenient distance.  Since you want to average 90km per hour 
+over two halves of the trip, it might be convenient to choose a 
+distance of 180km.
+
+So suppose the distance is 180km; to average 90km per hour, you need 
+to make the trip is 2 hours.  For the first 90km, you average only 
+48km per hour; the time it takes for that part of the trip is
+
+  90/48 = 15/8 = 1 7/8 hours
+
+You only have 1/8 of an hour left to cover the remaining 90km; to do 
+that, your average speed has to be
+
+  90/(1/8) = 720km per hour
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

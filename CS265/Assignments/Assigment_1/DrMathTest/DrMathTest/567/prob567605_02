@@ -1,0 +1,97 @@
+ThreadNum: 567605
+Subject: Re: range of values of the trigonometric function
+To: qwqqwqcn@yahoo.com.cn (Wuyicheng)
+From: Doctor Pete
+TimeStamp: 08/20/2004 at 19:01:01
+Sent: yes
+
+As Wuyicheng wrote to Dr. Math
+On 08/20/2004 at 12:33:44 (Eastern Time),
+>[Question]
+>sin(a)+sin(b)=1,solve the range of values of "cos(a)+cos(b)".
+>
+>
+>[Difficulty]
+>There is two variable "a" and "b",how to confirm them.
+>
+>
+>[Thoughts]
+>sin(a)+sin(b)=2*sin[(a+b)/2]*cos[(a-b)/2]=1,so cos[(a-b)/2]=1/{2*sin
+>[(a+b)/2]}.so cos(a)+cos(b)=2*cos[(a+b)/2]*cos[(a-b)/2]=cot
+>[(a+b)/2],but how to do then?
+
+Hi,
+
+I don't know if there is an elementary (non-calculus) way of solving this question, but if we 
+use calculus, the solution is easy.
+
+First, note that if
+
+     Sin[a] + Sin[b] = 1,
+
+then Sin[a] >= 0 and Sin[b] >= 0.  For if Sin[a] < 0, then Sin[b] = 1 - Sin[a] > 1 which is 
+impossible.  Therefore, let us assume without loss of generality that
+
+     0 <= a <= b <= Pi.
+
+Furthermore, the relation Sin[a] + Sin[b] = 1 implicitly defines b as a function of a.  Thus, 
+the function
+
+     F[a,b] = Cos[a] + Cos[b]
+
+is indeed a function of a single variable,
+
+     F[a] = Cos[a] + Cos[b[a]],
+
+defined on the interval [0, Pi].  Then the extreme values of F occur when dF/da = 0, or at 
+an endpoint of the interval.  Differentiating, we find
+
+     dF/da = -Sin[a] - Sin[b[a]](db/da).
+
+But if Sin[a] + Sin[b] = 1, we have
+
+     (d/da)[Sin[a] + Sin[b[a]] = 1]
+     Cos[a] + Cos[b[a]](db/da) = 0
+     db/da = -Cos[a]/Cos[b[a]].
+
+It follows that
+
+     dF/da = -Sin[a] + Sin[b[a]]Cos[a]/Cos[b[a]].
+
+Setting this equal to zero, we have
+
+     0 = -Sin[a] + Sin[b[a]]Cos[a]/Cos[b[a]],
+
+or
+
+     Sin[a]Cos[b[a]] = Cos[a]Sin[b[a]],
+
+or
+
+     Sin[b[a] - a] = 0.
+
+It follows that b[a] = a + k*Pi, where k is any integer.  But we restricted b to be in the 
+interval [0,Pi], so k = 0.  Therefore, b = a when dF/da = 0, and Sin[a] + Sin[b] = 1 implies 
+that
+
+     Sin[a] = 1/2,
+
+or
+
+    a = b = Pi/6.
+
+Therefore,
+
+     F[Pi/6] = Cos[a] + Cos[b] = Sqrt[3].
+
+Testing the endpoints, we find
+
+     F[0] = Cos[0] + Cos[Pi/2] = 1,
+     F[Pi] = Cos[Pi] + Cos[Pi/2] = -1,
+
+so Sqrt[3] is the absolute maximum, and -1 is the absolute minimum.  The range is 
+therefore 1 + Sqrt[3].
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

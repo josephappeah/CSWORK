@@ -1,0 +1,34 @@
+ThreadNum: 568229
+Subject: Re: finding a point in a non-linear cell
+To: dshah@computing.dcu.ie (DS)
+From: Doctor Vogler
+TimeStamp: 08/24/2004 at 09:37:32
+Sent: yes
+
+
+As DS wrote to Dr. Math
+On 08/24/2004 at 05:40:22 (Eastern Time),
+>hi,
+>
+>thanks for your reply.
+>
+>Let me put it this way:
+>
+>I have a rectangle(2d). I know the bottom left corner of the 
+>rectangle as the origin. Also i know the length and height of the 
+>rectangle.My question is how do i calculate the length of an arbitary 
+>point on this rectangle.Inother word what will be the general 
+>equation of finding the length of an arbitary point on this rectangle.
+>
+>bye.
+>
+
+Points don't have length.  Do you mean the distance from this
+arbitrary point to ... some other point, such as the origin?  If that,
+then the distance is
+
+  sqrt( x^2 + y^2 ).
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

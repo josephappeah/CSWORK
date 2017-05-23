@@ -1,0 +1,104 @@
+ThreadNum: 567133
+Subject: Re: finite fields, splitting fields, galois theory
+To: wigler@cshl.edu (Mike)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 10:11:34
+Sent: yes
+
+
+As Mike wrote to Dr. Math
+On 08/17/2004 at 09:01:16 (Eastern Time),
+>thanks again,
+>you probably tire of this
+>but i had some further thoughts...
+>sorry if this seems too much like philosophy...
+>
+>i have thought about your proof,
+>and i like it, but i have a slight discomfort...
+>i am writing this to rid myself of this discomfort...
+>i do not completely succeed...
+>
+>my approach has been concrete, not abstract...
+>i can construct, in symbols, the finite fields
+>from a given irreducible polynomial,
+>and have rules for computation...
+>and i have comfort that the ring of polynomials
+>modulo an irreducible polynomial is a field
+>and so is my construct...
+>and as an extreme measure, 
+>i worked out algorithms to systematically generate irreducibles
+>with higher and higher degrees
+>(which is why i chose to form my intuitions
+>over finite prime fields p=2)...
+>
+>perhaps you can see now my problem...
+>i did not have a constructive way of showing
+>that these polynomials split, but had the experience
+>and the intuiton that they should,
+>and that would simplify things greatly
+>and have further important implications...
+>
+>i can see that there is some way to "construct" 
+>a minimum splitting field F
+>that will contain irreducible P of degree k,
+>even though i may not know at first
+>whether P will split
+>in the simple extension of Z(p) by a single root...
+>this is the beginning of the "abstract" approach
+>since i do not actually construct the splitting field,
+>but i "reason" about its properties...
+>
+>in F, every root "a" of P
+>has its own minimum subfield containing it,
+>the simple extension of Z(p) by a,
+>and within that subfield, call it Z(p,a),
+>all the other stuff i had shown remains true...
+>in particular any "a" has the property that a^(q)=a,
+>where q=p^k,
+>and so x-a is a divisor of Q=x^q-x...
+>and also Q splits in Z(p,a), so it splits in F...
+>
+>let G be the minimum subfield in F
+>in which Q splits...
+>all the roots of P are in G,
+>but they also make up the basis for F,
+>so F=G...
+>
+>what i find weird about this "proof"
+>is that we do not construct F,
+>we just need to know that 
+>it is possible to constructed it,
+>by iterative simple extensions if needed,
+>to have a splitting field for P...
+>we only need to have F as a convenience,
+>in which we can "talk" about 
+>a field in which both P and Q reside
+>with all their factors...
+>(somewhere we also implicitly use
+>that a polynomial of degree n
+>cannot have more than n roots)...
+>
+>as it turns out
+>no further construction is needed...
+>it is somehow akin to winning a game
+>by making a threat...
+>
+>things get complex
+>as we talk of polynomials with coefficients
+>in the extensions of the finite fields...
+>ie algebraic closure of finite fields...
+>is there a systematic treatment of this subject?
+
+Hi Mike,
+
+I only found one question in all of that, so I'll answer that:
+
+Yes, there is a systematic treatment of this subject, and it is called
+Galois Theory of finite fields.  It is exactly the same subject you
+are studying.  All of the same theorems apply.  It's just that instead
+of polynomials over GF(2), you have polynomials over GF(q) for some
+other prime power q.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 566005
+Subject: Re: Quadratic formula
+To: trevor@1tech.com.au (Trevor Fuggle)
+From: Doctor Fenton
+TimeStamp: 08/09/2004 at 08:39:39
+Sent: yes
+
+
+As Trevor Fuggle wrote to Dr. Math
+On 08/08/2004 at 02:11:26 (Eastern Time),
+>[Question]
+> I am having trouble finding the value of x that makes the total 
+>yield per hectare a maximum. I figure the area has to come into it 
+>somehow as in the fences problem when you only has a certain amount 
+>of fencing. The question is, The yield of peaches from each tree in 
+>an orchard is (500-4x)kg, where x is the density with which the 
+>trees are planted(number of trees per hectare).
+>
+>[Difficulty]
+>I can not figure out how to bring the area into the equation
+>
+>[Thoughts]
+>so far i only get a linear graph decending because i have only 
+>graphed the equation in the question.
+
+Hi Trevor,
+
+Thanks for writing to Dr. Math.  You are apparently only looking at
+the 500-4x formula.  However, you should note the units.  500-4x is
+the yield PER TREE at tree density x (trees per hectare).  What you
+are supposed to maximize is the yield PER HECTARE, not PER TREE.
+
+Can you find a formula for the kg of peaches per hectare when there
+are x trees per hectare, each yielding (500-4x) kg of peaches per
+tree?  That is the quantity you need to maximize.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

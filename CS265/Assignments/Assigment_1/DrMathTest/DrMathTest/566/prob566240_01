@@ -1,0 +1,88 @@
+ThreadNum: 566240
+Subject: Re: Math equation
+To: chynadol76@yahoo.com (Sha-Ronda )
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:28:56
+Sent: yes
+
+
+As Sha-Ronda  wrote to Dr. Math
+On 08/09/2004 at 23:09:47 (Eastern Time),
+>[Question]
+>If the width of a rectangle is 1 inch less than its length and the 
+>diagonal is 1 inch longer than its length, find the length.
+>
+>[Difficulty]
+>I am having difficulty developing a formula.
+>
+>[Thoughts]
+>w-1= L+1
+>(w-1)(L+1)=
+>LW+W-L-1
+>
+
+Hi Sha-Ronda,
+
+The tricky part here will be representing the diagonal.  And you'll
+have more luck if you don't try to do too much at once, but instead
+take things one step at a time. 
+
+Let's look at a rectangle, with width W and length L:
+
+  A-----------B
+  |           |
+  |           | W
+  |           |
+  D-----------C
+       L
+
+What is the length of the diagonal?  (That's the distance from A to C,
+or from D to B.)  We can use the Pythagorean Theorem to find that:
+
+   diagonal^2 = L^2 + W^2
+
+                  _________
+     diagonal = \/L^2 + W^2
+
+(If that doesn't look familiar, let me know.  The Pythagorean Theorem
+is pretty important to know, as it shows up in a lot of different
+places.) 
+
+Okay, so now let's look at the problem again:
+
+  If the width of a rectangle is 1 inch less than its length 
+  and the diagonal is 1 inch longer than its length, find the 
+  length.
+
+We've already decided to represent the width and length with W and L,
+so we can just substitute those in:
+
+  If W is 1 inch less than L 
+  and the diagonal is 1 inch longer than L, find L.
+
+And we've noted that the diagonal is sqrt(L^2 + W^2).  So let's
+substitute that in:
+
+  If W is 1 inch less than L 
+  and sqrt(L^2+W^2) is 1 inch longer than L, find L.
+
+The first part tells us that
+
+  W = L - 1
+
+Do you see why?  The second part tells us that
+
+  sqrt(L^2+W^2) = L + 1
+
+So we have two equations, with two variables.  Can you take it from here? 
+
+Note how I didn't just try to read the problem and write down the
+relevant equations.  That hardly ever works.  It's much safer to start
+with the English words, and translate them to symbols a little at a
+time, so that after each part of the translation you can look at
+everything and see that it still says the same thing it said before,
+only using different symbols. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,73 @@
+ThreadNum: 567139
+Subject: Re: Combination, Permutation, or neither
+To: apatel@spa.com (Amisha)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 15:25:50
+Sent: yes
+
+
+As Amisha wrote to Dr. Math
+On 08/16/2004 at 14:07:54 (Eastern Time),
+>[Question]
+>If I have 8 possible messages to send in a network, what is the 
+total 
+>possible combinations of simultaneous occurence (meaning two or 
+more 
+>messages are transmitted at the same time). [According to a 
+published 
+>study I am reading, the answer is 2^8 but this doesn't seem right]. 
+>Note that order doesn't matter (if Messgage "A" is sent at the same 
+>time as Message "B" then AB and BA are the same.
+
+
+The answer 2^8 - 1 would be correct if you included single letters 
+as a combination.  This is because the number of combinations is 
+decided by looking at each letter in turn and either including it or 
+excluding it.  The -1 is there to remove the case of excluding every 
+element.  If you exclude single letters then you must subtract 8 as 
+well.  So the answer you want is
+
+            2^8 - 9  = 247
+
+Check this with just 3 letters A, B, C.  You showed that there were 
+4 combinations, ABC, AB, AC, BC.  So applying opur formula we get
+
+            2^3 - 4  =  8 - 4
+
+                     = 4  (as required)
+
+
+
+>
+>[Difficulty]
+>I don't think this is an easy combination or permutation problem. I 
+>keep thinking about it and it seems like a hybrid problem. My 
+initial 
+>instinct was 8! but that doesn't work since it doesn't count the 
+fact 
+>that combinations occur when there are two OR MORE messages 
+occurring 
+>at the same time. So, that means a combination is defined as either 
+>2, 3, 4, 5, 6, 7, or 8 messages occurring at the same time. Also, I 
+>know you can't repeat messages in the context of the problem 
+(because 
+>messages are defined as in a point to point connection from one 
+user 
+>to another).
+>
+>[Thoughts]
+>I started out simple, if you have n=2 (instead of 8) then you have 
+1 
+>combination.
+>If n=3, then you have 4 combinations (ABC, AB, AC, BC).
+>If n=4, then you have 10 combinations (ABCD, AB, AC, AD, CB, CD, 
+BD, 
+>ABC, ACD, BCD).
+>I was trying to find a pattern, but couldn't come up with one 
+>although it looks like as n increases, the total possible 
+>combinations increases exponentially. 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

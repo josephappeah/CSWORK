@@ -1,0 +1,41 @@
+ThreadNum: 567334
+Subject: Re: Geometry or coordinate plan
+To: BeloteJojo@AOL.com (jojo)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 20:20:54
+Sent: yes
+
+
+As jojo wrote to Dr. Math
+On 08/17/2004 at 17:44:17 (Eastern Time),
+>[Question]
+>Points M(1,-3)and N(-2,-15)lie on the graph of Y=4X-7. Determine 
+>whether each point is collinear with M and N.  
+>Q(0,-7)
+>R(0.5,-5)
+>S(-1,11)
+>
+>[Difficulty]
+>I do not get how to work the problem out. My teacher is not a very 
+>good person at aexplaining how to work them out.
+>
+>[Thoughts]
+>It is very hard and confusing like how to get the answer 
+
+Thanks for writing to Ask Dr. Math, Jojo!
+
+Collinear means lying on the same line.  Since M and N lie on the
+graph of Y = 4*X - 7, Q, R, or S will be collinear if and only if
+they line on the same graph.  That happens if and only if the
+coordinates of Q, R, or S satisfy that equation.
+
+To test this, substitute the X- and Y-coordinates of the point into
+the equation, and see if it gives a valid equality.  If so, the
+point is on that graph, and if not, it is not.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

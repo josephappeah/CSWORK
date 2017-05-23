@@ -1,0 +1,29 @@
+ThreadNum: 568135
+Subject: Re: The effect of "order" in the coloured marbles question ...
+To: rondrysdale@shaw.ca (Ron )
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 19:33:06
+Sent: yes
+
+
+As Ron  wrote to Dr. Math
+On 08/22/2004 at 19:27:32 (Eastern Time),
+>Hi Dr. A,
+>
+>Wow ... speedy ... thank you! How does C (10,3) become 120 ?
+>
+>Ron
+>
+>
+
+  C(10,3)  is the number of combinations of 3 things that can be 
+chosen from 10 different things.  It is calculated from
+
+              10 x 9 x 8
+   C(10,3) = ------------  = 120
+               1 x 2 x 3
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

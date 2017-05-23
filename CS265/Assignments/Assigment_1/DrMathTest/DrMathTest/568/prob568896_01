@@ -1,0 +1,37 @@
+ThreadNum: 568896
+Subject: Re: a family has four children what are the odds of all boys
+To: mhupe69@yahoo.com (tracey)
+From: Doctor Mitteldorf
+TimeStamp: 08/28/2004 at 11:49:25
+Sent: yes
+
+
+As tracey wrote to Dr. Math
+On 08/26/2004 at 09:39:54 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>setting up the probllem
+>
+>[Thoughts]
+>1/16
+
+You've got it just right.  There are many ways to think about it, 
+and you should choose the way that makes most sense to you.  Here's 
+one:
+
+Half the families have a boy first.
+Half of this half have a boy first, then a boy second. (1/4)
+Half of this 1/4 also have a boy third (1/8)
+Half of this 1/8 also have a boy fourth (1/16)
+
+(Of course, the real world doesn't work this way, and some couples 
+seem more prone to having a boy, so after 3 boys in a row, the 
+probability of the next child being a boy isn't really 1/2.  This is 
+different from coin flips, where each time you flip the coin, the 
+probability really is 1/2 for "heads".)
+
+- Doctor Mitteldorf, The Math Forum
+  <http://mathforum.org/dr.math/>
+

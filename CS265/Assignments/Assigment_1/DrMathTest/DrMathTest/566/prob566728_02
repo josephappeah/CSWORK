@@ -1,0 +1,99 @@
+ThreadNum: 566728
+Subject: Re: parent
+To: cshaneryals@earthlink.net (daddy)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 19:51:37
+Sent: yes
+
+
+As daddy wrote to Dr. Math
+On 08/12/2004 at 18:53:46 (Eastern Time),
+>[Question]
+>what number can you add to 52 and get a square #, subtract by 48 
+and 
+>get a square # and divide by 3 and get a square #
+>
+>[Difficulty]
+>uhhhhh
+>
+>[Thoughts]
+>went through Square #s 8 through 45
+
+Hello....
+
+I'm not sure what you mean when you say you tried square numbers 8 
+through 45.  A logical way to do that would be to start with
+
+  8^2=64
+  64*3=192
+  192-48 = 144 = perfect square
+  192+52 = 244 = not a perfect square
+
+  9^2=81
+  81*3=243
+  243-48 = 195 = not a perfect square
+
+  10^2=100
+  ...
+  ...
+
+But I don't know if that is what you did.
+
+If so, you started too late:
+
+  4^2=16
+  16*3 = 48
+  48-48 = 0 = perfect square
+  48+52 = 100 = perfect square
+
+The number you are looking for is 48.
+
+There is an algebraic way to find this answer, but trial and error 
+is probably faster.  For the algebraic approach, let the number we 
+are looking for be n; then the numbers n+52 and n-48 are perfect 
+squares -- call them x^2 and y^2.  Then the difference between those 
+two perfect squares is 100, so we can write
+
+  x^2-y^2 = 100
+
+We can use elementary algebra to write this as
+
+  (x+y)(x-y) = 100
+
+We can write this as
+
+  (x+y)(x-y) = a*b
+
+where the product a*b is 100.  Then, assuming the numbers n, x^2, 
+and y^2 are integers, we want a and b also to be integers such that 
+both (x+y) and (x-y) are integers.  There are only two ways to do 
+this:
+
+(1)  (x+y)(x-y) = 50*2
+
+This possibility leads us to
+
+  x=26; y=24
+  x^2=676; y^2=576
+  n = 676-52 = 576+48 = 624
+  624/3 = 208
+
+  This is not a solution, because 208 is not a perfect square
+
+(2)  (x+y)(x-y) = 10*10
+
+This possibility leads us to
+
+  x=10; y=0
+  x^2=100; y^2=0
+  n = 100-52 = 0+48 = 48
+  48/3 = 16
+
+  This IS a solution, because 16 is a perfect square
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

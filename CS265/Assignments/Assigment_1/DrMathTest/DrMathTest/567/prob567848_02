@@ -1,0 +1,75 @@
+ThreadNum: 567848
+Subject: Re: Simplifying Complex Division Problems with Exponents
+To: sammiejune29@cs.com (Sam)
+From: Doctor Greenie
+TimeStamp: 08/21/2004 at 23:07:12
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/20/2004 at 00:23:24 (Eastern Time),
+>[Question]
+>This is the problem:
+>
+>Simplify:
+>
+>3x^2-27           18-6x
+>--------    /    --------
+>x^2+4x+3         x^2-x-2
+>
+>[Difficulty]
+>I'm not quite sure if I'm approaching the problem correctly. I'm 
+not 
+>sure if I'm approaching it correctly.
+>
+>[Thoughts]
+>So far I have changed it from a division problem to a 
+multiplication 
+>by flipping the second fraction. Then I multiplied across using the 
+>distribution property. This is what I got:
+>
+>3x^4 - 3x^3 - 33x^2 + 27x + 54
+>------------------------------
+>-6x^3 - 6x^2 + 54x + 54
+>
+>But I'm not sure what to do now. I don't want the answer, I just 
+need 
+>to be pointed in the right direction. Can you please help me?
+>
+Hi, Sam --
+
+Whenever you have a fraction, it is good form to write the fraction 
+in lowest terms.  To reduce a given fraction to lowest terms, you 
+need to find  all the common factors between the numerator and 
+denominator and cancel them.
+
+So to simplify the answer in the type of problem you have here, you 
+don't want to multiply the expressions together to get higher-degree 
+polynomials -- you want to do exactly the opposite: factoring every 
+expression in the problem... and hoping that there are some common 
+factors in the numerator and denominator.
+
+In your specific problem, we have
+
+  3x^2-27           18-6x
+  --------    /    --------
+  x^2+4x+3         x^2-x-2
+
+     3x^2-27   x^2-x-2
+  = -------- * -------
+    x^2+4x+3    18-6x
+
+   3(x+3)(x-3)   (x-2)(x+1)
+ = ----------- * ----------
+   (x+3)(x+1)      6(3-x)
+
+It appears there are several common factors between numerator and 
+denominator, so this expression will simplify considerably.  I leave 
+the rest of the work to you....
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,53 @@
+ThreadNum: 567897
+Subject: Re: Calculation to determine % increase
+To: Audrey.Goelz@MHSHealth.com (Audrey)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 13:15:45
+Sent: yes
+
+
+As Audrey wrote to Dr. Math
+On 08/20/2004 at 13:00:47 (Eastern Time),
+>[Question]
+>What is the calculation to determine the % increase of one number to 
+>another?
+>
+>example:  What is the % increase from 2415 to 2953?
+>
+>[Difficulty]
+>Not sure what the calculation is.
+>
+>[Thoughts]
+>Divide one # by the other??
+
+Hi Audrey,
+
+When we say 'percent increase', what we're really asking is:
+
+  The increase from 2415 to 2953 is what percentage of
+  the original value, 2415? 
+
+
+For example, if something increases from 200 to 300, the increase is
+100, which is 50% of the original 200.  So that's a 50% increase. 
+
+Once you realize this, you can see that to find the percentage
+increase, we have to solve the proportion
+
+  new value - old value    ?
+  --------------------- = ---
+        old value         100
+
+Multiplying both sides by 100, we get
+
+  new value - old value    
+  --------------------- * 100 = ? 
+        old value         
+
+which is the formula you're looking for.  
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

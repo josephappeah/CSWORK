@@ -1,0 +1,99 @@
+ThreadNum: 568193
+Subject: Re: Analytic Geometry
+To: roggie@mozcom.com (rey)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 09:04:39
+Sent: yes
+
+
+As rey wrote to Dr. Math
+On 08/23/2004 at 01:10:29 (Eastern Time),
+>[Question]
+>i have two assignments on my class,, can you help me on this .
+>
+>==================
+>1) ellipse
+>
+>A point moves so that its distance from the line x – 16 = 0 is always 
+>twice its distance from the point (4,0) . Derive the equation of its 
+>locus.
+>
+>==================
+>
+>2Hyperbola
+>
+>Transverse axis parallel to the y axis, center at (3,-3) , distance 
+>between directress square root of 8, passing through (1, 2 sr2 – 3).
+>
+>note: sr = square root
+>Ans.
+>
+> (y + 3)2                 (x – 3) 2
+>--------------------    -   -----------------  = 1
+>     6                            12
+>
+>And
+>
+>    (y + 3) 2                (x – 3) 2
+>--------------------    -   -----------------  = 1
+>       4                     4
+>===================
+>
+>answers of the hyperbola is given.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Rey,
+
+A point moves so that its distance from the line x – 16 = 0 is always twice its distance 
+from the point (4,0) . Derive the equation of its locus.
+
+Let (x,y) be a general point.  The distance from (x,y) to the line x=16 is |x-16|.  The 
+distance from (x,y) to the point (4,0) is sqrt((x-4)^2+y^2).  So,
+
+ |x-16| = 2*sqrt((x-4)^2+y^2)
+
+Now square both sides and simplilfy.
+
+
+
+Transverse axis parallel to the y axis, center at (3,-3) , distance between directrices is 
+sqrt(8) , passing through (1, 2*sqrt(2) – 3).
+
+So, equation is
+
+(x-h)^2/a^2 - (y-k)^2/b^2 = 1.
+
+h=3 and k=-3.  The distance between directrices is 2a/e  (see http://www.mathsnet.net/
+asa2/modules/p51hyperbola.html)  Goes through (1,2*sqrt(2)-3).
+
+2a/e=2*sqrt(2).
+
+b^2=a^2(e^2-1).
+
+So,
+
+(1-3)^2/a^2 - (2*sqrt(2)-3+3)^2/b^2=1
+
+4/a^2 - 8/b^2 = 1
+
+So, we have
+
+2a/e=2*sqrt(2)
+
+b^2=a^2(e^2-1)
+
+and
+
+4/a^2 - 8/b^2 = 1
+
+These can be solved for a, b, and e.
+
+I tried this and got no real solutions.  I'm puzzled.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

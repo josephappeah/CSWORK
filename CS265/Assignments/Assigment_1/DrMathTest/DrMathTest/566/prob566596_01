@@ -1,0 +1,41 @@
+ThreadNum: 566596
+Subject: Re: I need help with coefficients
+To: rene_latina13@cmaaccess.com (Nia)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 13:58:22
+Sent: yes
+
+
+As Nia wrote to Dr. Math
+On 08/11/2004 at 22:17:30 (Eastern Time),
+>[Question]
+>The question is what is the coefficient of the term?
+>(2/3)xy 
+> 
+>Could you show me the steps to figuring out the coefficient
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Nia,
+
+The coefficient is the part that isn't variable.  For example, in a
+polynomial like
+
+  3x^2 + 2x - 4
+
+each term has a variable part, and a coefficient:
+
+  3x^2 + 2x - 4
+  |      |    |_____ coefficient of x^0 term
+  |      |__________ coefficient of x^1 term
+  |_________________ coefficient of x^2 term
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

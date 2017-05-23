@@ -1,0 +1,46 @@
+ThreadNum: 566239
+Subject: Re: Tournament Brackets
+To: charlie@clementcreative.com (Charlie Clement)
+From: Doctor Douglas
+TimeStamp: 08/10/2004 at 12:15:20
+Sent: yes
+
+
+As Charlie Clement wrote to Dr. Math
+On 08/09/2004 at 23:04:01 (Eastern Time),
+>[Question]
+>I am running a tournament in which the younger teams are 
+>guaranteed three games. With untidy bracket numbers (5,6,7 for 
+>instance), what is the minimum number of games that need to 
+>played to ensure that each team plays at least three in the 
+>qualifying rounds? Or better still, what is the formula for 
+>determining the number? 
+>
+>With limited fields, I need to know whether I need to cut off the 
+>incoming applications at this point.
+>
+>
+>
+>[Difficulty]
+>The permuations. Four teams makes it easy. When I write out 
+>the round robin, then cross out the duplicates, it takes six games 
+>for all to play three. With 5,6, or 7 teams, however, it just ins't 
+as 
+>tidy.
+>
+>[Thoughts]
+>4 teams: AvB, AvC, AvD; BvC, BvD, CvD
+
+Hi Charlie.
+
+thanks for writing to the Math Forum.
+
+It's not clear what type of tournament you're trying to run.
+Is it a round robin?  Or a modified (so that some teams get to
+play a minimum of 3 games) double-elimination?  Or something
+else?  If a round-robin (which is ideal--every team plays every
+other team exactly once) isn't possible, what is the constraint?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

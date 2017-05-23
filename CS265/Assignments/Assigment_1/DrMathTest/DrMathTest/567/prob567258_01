@@ -1,0 +1,47 @@
+ThreadNum: 567258
+Subject: Re: moving averages
+To: sanjaybahl1@rediffmail.com (sanjay)
+From: Doctor Roy
+TimeStamp: 08/17/2004 at 12:02:54
+Sent: yes
+
+
+As sanjay wrote to Dr. Math
+On 08/17/2004 at 04:07:57 (Eastern Time),
+>[Question]
+>what are moving averages? i hav sales figs of previous year & also 
+>for the current year. how to calculate moving average ? & what is the 
+>significance? thanx.
+>
+>[Difficulty]
+>i just cannot begin even.
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+A moving average is an average that is computed for every N data
+points. For example, let's say that I had temperature data for the
+last 300 days. In order to avoid worrying about unusual days (say 1
+day was 10 degrees warmer/colder than the 15 days around it), I
+consider 5 day averages. This means we record the average temperature
+of the previous 5 days. This has the effect of "smoothing" the curve.
+
+Consider stocks. Whenever you see a stock's performance in the past
+represented graphically, it appears very jagged if you look at it on
+an hourly basis. However, if you take a moving average for every 2 day
+period, it looks much smoother. If the moving average is for 1 week
+periods, the plot looks even smoother.
+
+So, long-term trends in the data can be observed while "filtering" the
+short-term noise.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

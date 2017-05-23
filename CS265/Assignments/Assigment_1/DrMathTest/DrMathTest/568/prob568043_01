@@ -1,0 +1,37 @@
+ThreadNum: 568043
+Subject: Re: Solving Equations by Factoring
+To: bansheegirl4@aol.com (Steel)
+From: Doctor Greenie
+TimeStamp: 08/21/2004 at 19:22:26
+Sent: yes
+
+
+As Steel wrote to Dr. Math
+On 08/21/2004 at 18:24:01 (Eastern Time),
+>[Question]
+>How do you solve equations by factoring.  For example, 3n(n-4)(2n+7)
+>=0
+>
+>[Difficulty]
+>I'm not sure how to begin the problem.
+>
+>[Thoughts]
+>Distribute the 3n to the (n-4) and the (2n+7) to make a full phrase?
+
+Hi, Steel --
+
+You want to leave the equation in its current (factored) form.  In 
+this form, the equation says that the product of 3, n, (n-4), and 
+(2n+7) is 0.  The only way a product of several factors can be zero 
+is if one of those factors is equal to zero.
+
+So the equation in its current form is satisfied if
+
+  3 = 0 (never...!); or
+  n = 0; or
+  n-4 = 0 (n=4); or
+  2n+7 = 0 (n = -7/2)
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

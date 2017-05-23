@@ -1,0 +1,90 @@
+ThreadNum: 568600
+Subject: Re: Adding percentages
+To: tdedecker@sbcglobal.net (Terri )
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 10:54:14
+Sent: yes
+
+
+Hi Terri,
+
+>My daughter had the following question on a math worksheet: 
+>
+>On three math tests, Jason scored 95%, 100% and 88%. What was the 
+>total score? 
+>
+>The title of the worksheet is "Addition" and all the other problems 
+>on it require the student to add several numbers from short story 
+>problems. Based on this, it would seem that the answer is 283%, but 
+>this doesn't make sense to me. 
+
+Yeah, that's a pretty badly worded question.  Suppose the first test
+has 20 questions, the second has 2 questions, and the third has 100
+questions.  Then these percentages correspond to raw scores of 19, 2,
+and 88 questions correct.  That's a total score of 109 for the three
+tests.  But if the individual tests have different numbers of
+questions, the total score would be different, while the percentages
+remain the same. 
+
+>This question would make more sense if it asked for an average of the 
+>three scores. 
+
+Yes, although not entirely.  If all the questions are supposed to have
+the same weight, given the example I made up above, the combined
+percentage for the three tests would be
+
+  19 + 2 +  88   109
+  ------------ = --- = about 89%
+  20 + 2 + 100   122
+
+On the other hand, if the tests are supposed to have equal weights,
+then it _does_ make sense to average the percentages, which gives us a
+different result:
+
+   95 + 100 +  88   283
+  --------------- = --- = about 94%
+  100 + 100 + 100   300
+
+So is the 'total score' supposed to be the number of questions
+correct, or the number of 'points' (assigning each test a total score
+of 100 possible points), or something else entirely?  There's no way
+to know.  
+
+This kind of reminds me of a story that Richard Feynman (the Nobel
+Prize-winning physicist) told about his experiences reviewing
+textbooks for the state of California.  What drove him nuts was
+constantly running across problems like this, which were obviously
+made up by people who didn't really understand the concepts involved.
+His favorite example was something like:  
+
+   Tommy and his father are looking at the sky one night.  
+   They notice 3 green stars, 2 purple stars, and one red 
+   star.  A green star has a temperature of 3000 degrees, 
+   a purple star has a temperature of 4500 degrees, and a 
+   red star has a temperature of 6000 degrees.  What was the
+   total temperature of the stars that they were looking at?
+
+Apart from the problems with specific details about star colors and
+temperatures, it just makes no sense to ask about the 'total
+temperature' of a collection of stars.  The question was obviously
+made up by someone who was just trying to think of some context that
+would produce numbers to add, without considering whether addition
+made any sense for those numbers.  It looks like the same thing is
+going on here. 
+
+>Asking for a total score when all you have to work with 
+>is percentages does not, in my opinion, lead to a meaningful answer 
+>and actually seems to confuse the issue. 
+
+We're in total agreement here.  But look on the bright side:  This is
+a nice opportunity to discuss with your daughter the danger of
+assuming that other people know what they're talking about, just
+because they have degrees or titles, or happen to be in positions of
+authority.  In the long run, that lesson is as important as anything
+she's going to learn about mathematics. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

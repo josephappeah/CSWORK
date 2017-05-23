@@ -1,0 +1,50 @@
+ThreadNum: 568975
+Subject: Re: SAT prep Question
+To: Nethala@netzero.com (Dave)
+From: Doctor Roy
+TimeStamp: 08/26/2004 at 17:24:42
+Sent: yes
+
+
+As Dave wrote to Dr. Math
+On 08/26/2004 at 16:29:17 (Eastern Time),
+>[Question]
+>A certain phone call costs 75 cents for the first three minutes plus 
+>15 cents for each additional mintute. If the call lasted X minutes 
+>and X is an integer greater than 3,whcich of the following expresses 
+>the cost of the call in dollars?
+>
+>I know the answer i just would like to know how to get to it.
+>
+>[Difficulty]
+>Well the answer that i fell for in the answer booklet seemed like 
+>the right one, yet on further inspection it turned out to be wrong.
+>
+>[Thoughts]
+>well when i did the word problem i came out with .75(3)+.15(x+3)
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The first three minutes cost $0.75. So, that's the base cost:
+
+   C = $0.75 + stuff
+
+Every minute past 3 minutes cost $0.15. If a call lasts X minutes,
+then (X-3) represents the minutes past 3 minutes. So, each of those
+minutes costs $0.15, or:
+
+   C = 0.15*(X - 3)
+
+Adding these two quantities together, we get:
+
+   C = $0.75 + $0.15(X - 3)
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

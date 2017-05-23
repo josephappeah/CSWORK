@@ -1,0 +1,41 @@
+ThreadNum: 566692
+Subject: Re: calculus
+To: kharriett@mail.ocasd.org (kerri)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 21:14:35
+Sent: yes
+
+
+As kerri wrote to Dr. Math
+On 08/12/2004 at 15:16:07 (Eastern Time),
+>[Question]
+>Prove that if f(x) is even, then F(x) is odd
+>
+>[Difficulty]
+>i can't get the signs to work because i want -F(x) = F(x)
+>
+>[Thoughts]
+>f(x)=f(-x) and if i integrate over [-a,a] i get
+>F(a)-F(-a)=F(-a)-F(a)
+>2F(a)=2F(-a)
+>F(a)=F(-a) which is even, where am i going wrong?
+
+Hi Kerri,
+
+Thanks for writing to Dr. Math.  You haven't clearly indicated what
+the problem is.  What is F(x)?  How is it related to f(x)?  I would 
+guess that
+           x
+          /
+   F(x) = | f(t) dt ,
+          /
+          0
+
+but I don't want to spend time on what might be the wrong problem.
+
+Please resubmit your problem, explaining precisely what each function
+is and what you are trying to prove.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

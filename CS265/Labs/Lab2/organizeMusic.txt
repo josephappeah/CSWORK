@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for f in *.mp3; do 
+
+dash=$(expr index "$f" "-");
+
+echo artist=${f:0:dash};
+echo song=${f:dash};
+
+done;

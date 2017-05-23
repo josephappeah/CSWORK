@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<direntry>
+	<index>
+	   <file>index.html</file>
+	<index>
+	<required>
+	   <file>file1.1</file>
+	<other>
+	   <dir>test</dir>
+	   <file>index</file>
+	   <file>README</file>
+	<other>
+<direntry>

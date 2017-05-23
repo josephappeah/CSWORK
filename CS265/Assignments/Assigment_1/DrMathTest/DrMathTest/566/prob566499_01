@@ -1,0 +1,44 @@
+ThreadNum: 566499
+Subject: Re: Trouble with simple percentages
+To: capri302@intergate.com (Ken)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 14:54:30
+Sent: yes
+
+Hi, Ken.
+
+As Ken wrote to Dr. Math
+On 08/11/2004 at 13:24:41 (Eastern Time),
+>[Question]
+>Hi,
+>     I just cant remember how to figure out percentages. I know that
+>this is simple to do I just cant remember how. I need to know the 
+>formula for finding the the occupancy percent if I have 90 units and
+>15 of them are empty I would be ??? percent occupied. 
+>
+>[Difficulty]
+>this is just something that I never learned and now need to know.
+>
+>[Thoughts]
+>
+
+We get a LOT of questions about percentages; here is a page of 
+answers to questions like yours:
+
+  http://mathforum.org/library/drmath/sets/select/dm_percentage.html
+
+In your case, you know 15 are NOT occupied, so 90 - 15 = 75 ARE 
+occupied. The occupancy percentage is
+
+  75
+  -- * 100%
+  90
+
+(that is, the fraction that is occupied, times 100%).
+
+If that doesn't fully answer your question, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

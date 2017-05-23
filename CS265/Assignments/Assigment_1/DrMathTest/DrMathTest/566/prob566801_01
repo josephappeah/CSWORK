@@ -1,0 +1,80 @@
+ThreadNum: 566801
+Subject: Re: How to calculate 'y' equals 'a' to the power of 'x' plus 'c'
+To: acess@ukonline.co.uk (Adrian)
+From: Doctor Vogler
+TimeStamp: 08/13/2004 at 17:29:26
+Sent: yes
+
+
+As Adrian wrote to Dr. Math
+On 08/13/2004 at 08:12:37 (Eastern Time),
+>[Question]
+>If any number in a range of numbers can be expressed as:
+>
+>'y' equals 'a' to the power 'x' plus 'c'
+>
+>Knowing 'y' calculate 'a', 'x' and 'c' where:
+>
+>'y' is a number in the range 0 to ((2 to the power of 64) - 1)
+>'a' must be in the range 0 to 255
+>'x' must be in the range 0 to 255
+>'c' must be in the range 0 to 65535
+>
+>
+>[Difficulty]
+>Trying to find a result for 'a', 'x' and 'c' that are whole numbers.
+>
+>[Thoughts]
+>I tried using logs and iterating through all combinations, but to no 
+>avail. If my initial assumption is correct then I'm missing 
+>something quite fundamental. It has been some time since I've done 
+>any math on this level.
+
+Hi Adrian,
+
+Thanks for writing to Dr Math.  I gather that you are given an integer
+y in that range and you seek to calculate a, x, and c.  Am I right? 
+In general, there is not just one solution to your problem.  For
+example, for y = 65000, you can use
+
+  65000 = 0^x + 65000 with any x
+  65000 = 1^x + 64999 with any x
+  65000 = 2^3 + 64992
+  65000 = 67^2 + 60511
+
+and many, many others.  (By the way, we write "a^b" to mean "a to the
+power b.")  So the hard part is how to find any ONE solution. 
+Unfortunately, there are numbers that CANNOT be written in the form
+you want, and I can explain why:  First of all, there are 2^64
+different possible y values you need to express in this way.  That's a
+lot of numbers.  Well, you can only choose the a, x, and c values in
+
+  256 * 256 * 65536
+
+different ways (256 ways to choose the a, 256 ways to choose the x,
+and 65536 ways to choose the c).  You multiply those three numbers
+together, and you get
+
+  2^32
+
+which is smaller than 2^64 by a LOT.  Worse, not every (a, x, c)
+choice will give you a different number for
+
+  a^x + c.
+
+As shown above, many choices will give the same number.  Also, many
+other choices will give a value for y that is too big.  So there will
+actually be quite a lot FEWER values y in the range 0 to 2^64 - 1 that
+can be expressed as
+
+  a^x + c
+
+with a, x, and c in the ranges you specified.
+
+Does that answer your question?  If you have any other questions about
+this or need more help, please write back and show me what you have
+been able to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,29 @@
+ThreadNum: 567283
+Subject: Re: limit  of a sequence
+To: FiratAras@aol.com (Firat)
+From: Doctor Vogler
+TimeStamp: 08/25/2004 at 14:07:40
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/24/2004 at 17:12:05 (Eastern Time),
+>Hello Dr. Vogler,
+>I am having difficulty with this problem.
+>I have to prove that;
+>d/dx(x)^-1/2=-1/2(x)^-3/2
+>and what I have done so far is;
+>(1/x^1/2-1/h^1/2)/x-h=(h^1/2-x^1/2)/(x^1/2*h^1/2)over x-h
+>I could not go any further, can you please help?
+
+Multiply by
+
+  h^(1/2) + x^(1/2)
+  -----------------
+  h^(1/2) + x^(1/2)
+
+and then simplify the numerator.  Does that help?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,125 @@
+ThreadNum: 566427
+Subject: Re: Long division (Algebra Refresher)
+To: michaelperez18@netscape.net (Michael)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:22:21
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/10/2004 at 22:33:43 (Eastern Time),
+>[Question]
+>what is 4/105 I just dont get what you do after you divide 4 into 10? 
+>Please help! I am so confused...
+>
+>[Difficulty]
+>  I get confused after you divide the first couple times. Here, I'll 
+>try and you tell me if I am right. 
+>           
+>
+>[Thoughts]
+>           26R1
+>        4/105    
+>          -8
+>           25
+>          -24
+>            1
+
+Hi Michael,
+
+The first thing to note is that
+
+   4
+  ---
+  105
+
+means '4 divided by 105', and not '105 divided by 4'.  So you want to
+do this:
+
+       __
+  105 ) 4
+
+We can add zeros after a decimal point, so this is the same as
+
+       ____________
+  105 ) 4.0 0 0 0 0
+
+105 doesn't go into 4 even once, so we have
+
+        0.
+       ____________
+  105 ) 4.0 0 0 0 0
+
+It doesn't go into 40, either; so we have
+
+        0.0
+       ____________
+  105 ) 4.0 0 0 0 0
+
+But it goes into 400 3 times:
+
+        0.0 3
+       ____________
+  105 ) 4.0 0 0 0 0
+        3 1 5
+        -----
+          8 5
+
+We bring the next digit down, and find that 105 goes into 850, 8 times:
+
+        0.0 3 8
+       ____________
+  105 ) 4.0 0 0 0 0
+        3 1 5
+        -----
+          8 5 0
+          8 4 0
+          -----
+            1 0 
+
+We bring the next digit down, and find that 105 doesn't go into 100
+even once:
+
+        0.0 3 8 0
+       ____________
+  105 ) 4.0 0 0 0 0
+        3 1 5
+        -----
+          8 5 0
+          8 4 0
+          -----
+            1 0 0
+
+So we bring another digit down, and find that 105 goes into 1000, 9 times:
+
+        0.0 3 8 0 9
+       ____________
+  105 ) 4.0 0 0 0 0
+        3 1 5
+        -----
+          8 5 0
+          8 4 0
+          -----
+            1 0 0 0
+              9 4 5
+            -------
+                5 5
+
+And so on.  Eventually, one of two things will happen:  (1) we'll end
+up with a zero after the subtraction, which the decimal expansion
+terminates; or (2) we'll end up in a place we've been before, which
+means the decimal expansion repeats.  In either case, at that point
+we're done. 
+
+Were you able to follow all that?  Would you be able to work something
+like it on your own, e.g., 
+
+               ______________
+  7/209 = 209 ) 7.0 0 0 0 ...
+
+Give that a try, and let me know what you come up with.  (It will help
+if you show me your steps.)
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

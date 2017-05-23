@@ -1,0 +1,53 @@
+ThreadNum: 567283
+Subject: Re: limit  of a sequence
+To: FiratAras@aol.com (Firat)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 10:49:37
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/17/2004 at 10:37:49 (Eastern Time),
+>[Question]
+>Hello Dr maths!
+>
+>a/b transform to a+2b/a+b  (a,b are whole numbers)
+>When a=b=1, the sequence converges to square root of 2.
+>I am trying to find out what would be the behaviour when a/b 
+>transforms to ma+nb/a+b. 
+>
+>[Difficulty]
+>I generated lots of data but I could not make any conjecture. Please 
+>help me!
+>Kind regards,Firat
+>
+>[Thoughts]
+>
+
+Hi Firat,
+
+Thanks for writing to Dr Math.  I would write this as:
+
+  a/b  ->  [m(a/b) + n]/[(a/b) + 1].
+
+That is,
+
+  x    ->  (mx + n)/(x + 1).
+
+Now the trick is that if you keep doing this, and you expect it to end
+up at a certain number, then you should also expect that applying the
+transform to that number would not change it, right?  So that means
+that you should solve for x in
+
+  (mx + n)/(x + 1) = x.
+
+Note, in particular, what this means when m=1, n=2 (in your first
+example).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

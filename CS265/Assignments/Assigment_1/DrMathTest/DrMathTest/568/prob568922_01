@@ -1,0 +1,60 @@
+ThreadNum: 568922
+Subject: Re: What is the formula for finding the volume of a horizontal 
+To: jravionics@webworkz.com (Jim)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 14:56:37
+Sent: yes
+
+
+As Jim wrote to Dr. Math
+On 08/26/2004 at 11:54:19 (Eastern Time),
+>[Question]
+>You have a thread that shows the volume in gallons of a horizontal 
+>tank.  I used it to make a spreadsheet for a report on gallons sold.  
+>It works great but can you give me the formula when gallons is known 
+>and I need to know the inches.  The tank is 96 inches in diameter and 
+>132 inches long.  
+>
+>Would it be easier to just build a look up table with the formula 
+>given and have the spreadsheet look it up to the nearest .1 inche?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Jim,
+
+Thanks for writing to Dr Math.  If you don't want to know where this
+formula comes from, then the volume of liquid in a cylindrical tank
+lying on the curved side is:
+
+        1     2                      2     2          h
+  w * [ -*pi*r  + (h-r)*sqrt( 2rh - h ) + r * arcsin( - - 1 ) ]
+        2                                             r
+
+where r is the radius of the circular ends of the tank (half the
+diameter, so r = 48 inches), w is the length of the tank (so w = 132
+inches), and h is the height of the water (h=0 for empty, h=2*r for
+full, h=r for half full).
+
+Then convert from cubic inches to gallons by multiplying by
+
+  0.00432900432900433 gallons / cubic inch
+
+(read the "/" as "per"), which is exactly
+
+  1/231 of a gallon per cubic inch.
+
+In other words, instead of multiplying you can divide by
+
+  231 cubic inches / gallon.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

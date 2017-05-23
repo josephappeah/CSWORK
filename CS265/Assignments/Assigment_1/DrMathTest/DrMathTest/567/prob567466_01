@@ -1,0 +1,57 @@
+ThreadNum: 567466
+Subject: Re: How do i work a percentage on lots of results
+To: gannon_03@hotmail.com (Richard aka Gannon)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 14:59:28
+Sent: yes
+
+
+As Richard aka Gannon wrote to Dr. Math
+On 08/18/2004 at 09:09:12 (Eastern Time),
+>[Question]
+>hello, please help me, im a php programmer and i just need to know 
+>the forumar then i can get on with it, i have a script that numerous 
+>amounts of answers but i dont know how to figure out the percentage, 
+>eg:
+>Whats your fav colour?
+>red - 34
+>green - 2
+>blue - 345
+>orange - 112
+>black - 73
+>white - 3
+>
+>now how would i work out the percentage for them? just one will do 
+>pleasem i would be able to find out how to do the rest going on your 
+>example.
+>Thanks very much.
+>
+>[Difficulty]
+>The forumlar, i know you add them up or something and divide by the 
+>number or results but dont understand how.
+>
+>[Thoughts]
+>
+
+Hi Richard,
+
+To find the percentage, you want to compare each to the total.  That
+is, the percentage of red is found by solving the proportion,
+
+              34                 ?
+  --------------------------- = ---
+  34 + 2 + 345 + 112 + 73 + 3   100
+
+which you can do by multiplying both sides by 100:
+
+              34                  
+  --------------------------- * 100 = ?
+  34 + 2 + 345 + 112 + 73 + 3   
+
+So that's the 'formula' you'd want to use.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

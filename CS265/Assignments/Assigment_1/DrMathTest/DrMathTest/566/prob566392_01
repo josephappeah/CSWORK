@@ -1,0 +1,51 @@
+ThreadNum: 566392
+Subject: Re: word problem
+To: resgjones87@earthlink.net (amy)
+From: Doctor Roy
+TimeStamp: 08/11/2004 at 12:38:42
+Sent: yes
+
+
+As amy wrote to Dr. Math
+On 08/10/2004 at 19:51:12 (Eastern Time),
+>[Question]
+>In a class of 26 students,each girl drew a triangle and each boy 
+>drew a rectangle.  There were 92 sides in all.   How many girls and 
+>how many boys were in the class?
+>
+>[Difficulty]
+>Just don't know where to start.
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Let's use variables to represent our unknowns:
+
+    G = # of girls in class
+    B = # of boys in class
+
+There are a total of 26 students, or:
+
+    G + B = 26
+
+Each girl draws a triangle, so each girl contributes 3 sides to the
+total: 3G. Each boy draws a rectangle, so each boy contributes 4 sides
+to the total: 4B:
+
+   3G + 4B = 92
+
+Now, we have two equations to solve for our unknowns:
+
+       G + B = 26
+     3G + 4B = 92
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

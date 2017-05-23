@@ -1,0 +1,53 @@
+ThreadNum: 568597
+Subject: Re: order of math operations
+To: Stevswann@aol.com (Mom)
+From: Doctor Peterson
+TimeStamp: 08/24/2004 at 23:28:34
+Sent: yes
+
+Hi, Mom.
+
+As Mom wrote to Dr. Math
+On 08/24/2004 at 22:32:31 (Eastern Time),
+>[Question]
+>One of my daughter's home work problems is to solve the following 
+>problem using the symbols +  -  x  / . A symbol may be used more than
+>once or not at all. So far no one can solve it. I would like to know 
+>how to explain to her how to solve it. What steps do we use?
+>
+>17___16___4___8___6___3=7
+>
+>[Difficulty]
+>No one I've asked knows how to do this except trial and error and we 
+>still aren't solving it. My daughter is a 7th grader is regular math 
+>class.
+>
+>[Thoughts]
+>The only thing I can figure is that before the 3 the number should be
+>21/3=7 or  10-3=7  or  4+3=7
+
+I can't see any method other than trial and error, though there is a 
+lot of logic that can help decide what to try. There may be several 
+answers.
+
+Here's the beginning of my thinking that led to an answer (after 
+several other false leads):
+
+Start with 17, and try to subtract to get down to 7. We need to 
+subtract 10 from it. Since 16 is too big, try dividing it by the 4. 
+So far we have
+
+  17 - 16/4 ...
+
+That takes us down to 13; we need to subtract another 6. How can I 
+make 6 from 8, 6, 3? I see a way ...
+
+But your approach of working from the right is no less likely to 
+produce an answer.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

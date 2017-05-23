@@ -1,0 +1,35 @@
+ThreadNum: 566537
+Subject: Re: what tpe of shape do i get if the shap has 7.2 sides
+To: michaelalbazi@hotmail.com (michael)
+From: Doctor Rick
+TimeStamp: 08/11/2004 at 17:39:00
+Sent: yes
+
+Hi, Michael.
+
+As michael wrote to Dr. Math
+On 08/11/2004 at 17:09:47 (Eastern Time),
+>[Question]
+>the question is that a shape has exterior angle 50 degrees on each
+>side so therefore it must have 7.2 side. What will this shape look 
+like???
+>
+>[Difficulty]
+>what the shpae will look like
+>
+>[Thoughts]
+>the shape
+
+It won't be a polygon. It could be a "star polygon". For example, 
+consider a 5-pointed star. In tracing around the 5 sides, you make 5 
+angles but you make two full turns (720 degrees) in the process, so 
+the exterior angles are each 720/5 = 144 degrees. You can derive a 
+general formula for the exterior angles of star polygons following 
+this example, and from the formula deduce how many points yours will 
+have and how many times you must go around. It isn't a common figure. 
+Perhaps there is something else stated in the problem that allows 
+another answer, but this is all I can think of.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,77 @@
+ThreadNum: 567515
+Subject: Re: Differentiation under the integral sign
+To: pedrocdc1@hotmail.com (pedro castilla)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 07:36:46
+Sent: yes
+
+
+As pedro castilla wrote to Dr. Math
+On 08/19/2004 at 20:12:10 (Eastern Time),
+>Thanks. Yet I will try your patience one more time... we have:    
+>
+>                           b     
+>                          /      
+>(F(y) - F(y_0))/(y-y_0) = | D_2f(x,Y)dx
+>                          /
+>                          a
+>
+>Now, "Y" depends on "y" and, as you said, also depends on "x". Right?
+>Therefore to be complete we must write Y_x,y to show that dependence.
+>
+>                           b
+>                          /      
+>(F(y) - F(y_0))/(y-y_0) = | D_2f(x,Y_x,y)dx
+>                          /
+>                          a
+>
+>Is this ok?
+>
+>
+
+Hello Pedro,
+
+My reply might be clearest if I first copy my earlier reply and then add some comments in 
+square brackets.
+
+We want to show that if
+
+F(y) = int(x=a,x=b,f(x,y)*dx)
+
+then
+
+F'(y) = int(x=a,x=b,D_2 f(x,y)*dx) for each y in (c,d).
+
+[Above, in the statement of the theorem, y is a general variable within (c,d).  Below, we 
+take a specific y in (c,d) and denote this y by y_0; the notation was chosen to emphasize to 
+me that y_0 is fixed.  Then,  I took a variable y as the point to approach y_0 in the limit 
+process leading to the derivative F'(y_0).]
+
+Let y_0 be in (c,d).  We can calculate
+
+[F(y) - F(y_0)]/(y-y_0) = int(x=a,x=b,D_2 f(x,Y)*dx) ,
+
+where Y is between y and y_0.  [With y_0 fixed, Y depends upon both x and y.]  If the limit 
+of the left side exists, it should be int(x=a,x=b,D_2 f(x,y)*dx).  We subtract this quantity 
+(which exists, from hypothesis) from 
+both sides:
+
+[F(y) - F(y_0)]/(y-y_0) - int(x=a,x=b,D_2 f(x,y)*dx)
+
+          =  int(x=a,x=b, [ D_2 f(x,Y) - D_2 f(x,y) ]*dx)
+
+Now take absolute values and use the uniform continuity of D_2 f.  The right
+side is less than eps*(b-a) .
+
+You say that "... must write Y_x,y to show that dependence."  Yes, that's fine.  I think that 
+I'd write it as Y_{x,y}, to clearly indicate that both x and y are subscripts.
+
+
+
+
+
+- Doctor Jerry, The Math Forum
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

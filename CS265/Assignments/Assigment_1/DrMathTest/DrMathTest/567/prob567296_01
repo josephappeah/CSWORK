@@ -1,0 +1,84 @@
+ThreadNum: 567296
+Subject: Re: Ring theory
+To: robinch79@yahoo.com (Robin)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 16:32:43
+Sent: yes
+
+
+As Robin wrote to Dr. Math
+On 08/17/2004 at 12:29:00 (Eastern Time),
+>[Question]
+>Dear SIr,
+>
+>I am an electrical engineering student and am perplexed to find the 
+>solution of the foolowing theorem.It stems from the applications of 
+>ring theory to Electrical engineering problems. My question is the 
+>following , for every pair of integers c abd d with d non-zero, 
+>there is a unique pair of integers Q(the quotient) and s(the 
+>remainder) such that c=dQ+s, where 0=<s< /d/...(where / is intended 
+>to be vertical line signifying the modulus operation). Its all fine 
+>up to here.....However what is irritating me, is although obvious I 
+>cannot find a mathematic way of proving ==> 
+>i.e. s=R_d[c]
+>
+>s=(this is supposed to representthree horizontal lines signifying 
+>equivalence) c(mod d).
+>
+>Now this is the theorem that I am not able to prove unfortunately
+>
+>R_d[a+b]=Rd_d{R_d[a]+R_d[b]}.
+>R_d[a.b]=Rd_d{R_d[a].R_d[b]}.
+>
+>
+>[Difficulty]
+>My unfamilairity with rings, abelian groups is probably the reason 
+>why I am missing an obvious reasoning operation.
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Robin!
+
+Write
+
+   a = d*q1 + s1,  0 <= s1 < |d|,
+   b = d*q2 + s2,  0 <= s2 < |d|,
+   a + b = d*q3 + s3,  0 <= s3 < |d|,
+   a*b = d*q4 + s4,  0 <= s4 < |d|.
+
+Then
+
+   s1 = R_d[a],
+   s2 = R_d[b],
+   s3 = R_d[a+b],
+   s4 = R_d[a*b],
+
+by the definition of R_d.  The first statement you want to prove is
+that
+
+   s3 = R_d[s1 + s1].
+
+Start with
+
+   s3 = a + b - d*q3,
+      = (d*q1 + s1) + (d*q2 + s2) - d*q3,
+      = d*(q1+q2-q3) + s1 + s2,
+   s1 + s2 = d*(q3-q1-q2) + s3,  0 <= s3 < |d|.
+
+That implies that
+
+   R_d[s1 + s2] = s3,
+
+by the definition of R_d.  Q.E.D.
+
+Make sure you understand each step and the reasons for it.
+
+The other proof is similar.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

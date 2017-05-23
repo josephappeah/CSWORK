@@ -1,0 +1,57 @@
+ThreadNum: 567499
+Subject: Re: GED Finding a coordinate when the slope is given
+To: bobcatts@nashville.net (Adam)
+From: Doctor Roy
+TimeStamp: 08/18/2004 at 14:41:14
+Sent: yes
+
+
+As Adam wrote to Dr. Math
+On 08/18/2004 at 14:26:22 (Eastern Time),
+>[Question]
+>The text doesn't explain their work very well.
+>
+>Find x if the slope of a line passing through points A(4,3) and
+B(x,7) equals 4.
+>
+>[Difficulty]
+>The way they show plus or minus in the example and use the = so much
+I can't tell which 
+>is the problem and where they are demonstrating the steps.  I don't
+know the explanation 
+>behind their work.
+>
+>[Thoughts]
+>m = y2 - y1       4 = 3-7       1 = 4+x           -1=4+x         -5=x
+>      -------  =         ---  =  --    ----   =                    =  
+>       x2 - x1             4-x       -4     4
+>
+>The answer is supposed to be x=5 and I get a negative.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+It helps if you know what x1, x2, y1, and y2 are. Label them clearly:
+
+   A(4,3) --> x1 = 4, y1 = 3
+   B(x,7) --> x2 = x, y2 = 7
+
+   m = (y2 - y1) / (x2 - x1)
+     = (7 - 3) / (x - 4)
+
+   4 = 4 / (x - 4)
+
+   4(x - 4) = 4
+      x - 4 = 1
+          x = 5
+
+As long as you keep track of which point is (x1,y1) and which point is
+(x2,y2), these sign problems should go away.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

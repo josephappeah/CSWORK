@@ -1,0 +1,52 @@
+ThreadNum: 567914
+Subject: Re: calculate a solution using specific gravity at 1.0
+To: smmfrancis@cox.net (Sam)
+From: Doctor Vogler
+TimeStamp: 08/20/2004 at 16:24:03
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/20/2004 at 15:55:02 (Eastern Time),
+>[Question]
+>Calculate the amount of a chemical in pounds if 175 gallons of a 3.1% 
+>chemical solution is used - assume specific gravity = 1.0.
+>
+>[Difficulty]
+>I don't understand specific gravity.
+>
+>[Thoughts]
+>8.34lbs = gallons
+
+Hi Sam,
+
+Thanks for writing to Dr Math.  That's exactly right.
+
+  Specific gravity = 1.0
+
+means that you should assume that the density is exactly that of
+water, which is approximately 8.34 lbs per gallon.  You see, you can't
+convert volume (gallons) into weight (pounds) without knowing the
+density.  The specific gravity is just a measurement of density, where
+
+  density = weight / volume,
+
+and
+
+  specific gravity = density / (density of water).
+
+And the density of water is exactly
+
+  1 gram / milliliter
+
+or approximately
+
+  8.34540445201933 pounds / gallon.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

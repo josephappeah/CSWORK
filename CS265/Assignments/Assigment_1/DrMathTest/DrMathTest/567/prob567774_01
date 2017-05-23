@@ -1,0 +1,50 @@
+ThreadNum: 567774
+Subject: Re: converting mixed numbers  and decimals to fractions
+To: ssei@ecentral.com (betty)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 12:38:39
+Sent: yes
+
+
+As betty wrote to Dr. Math
+On 08/19/2004 at 19:30:20 (Eastern Time),
+>[Question]
+>How do I convert a mixed number like 6.333 to a fraction?
+>
+>[Difficulty]
+>finding the right denominators for the question.
+>
+>[Thoughts]
+>I have no idea
+
+Hi Betty,
+
+If you're starting with a decimal, you can just count up the number of
+decimal places, and that tells you the denominator of the
+corresponding fraction.  For example, 
+
+                 333
+  6.333   ->  6 ----
+                1000        Same number of zero as decimal places
+
+                  24
+  6.024   ->  6 ----
+                1000
+
+                   129
+  6.00129 ->  6 ------
+                100000
+
+Once you have it as a mixed number, you this
+
+  Converting Mixed Numbers to/from Improper Fractions
+  http://mathforum.org/library/drmath/view/58876.html
+
+will tell you how to change it to an improper fraction, if that's what
+you want to do. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

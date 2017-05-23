@@ -1,0 +1,77 @@
+ThreadNum: 567204
+Subject: Re: square root of negative numbers
+To: arachide2003@yahoo.ca (Heather)
+From: Doctor Rick
+TimeStamp: 08/16/2004 at 22:08:01
+Sent: yes
+
+Hi, Heather.
+
+As Heather wrote to Dr. Math
+On 08/16/2004 at 19:58:39 (Eastern Time),
+>[Question]
+>Hello,
+>
+>I am having an argument with a friend over a movie review.  While 
+>reading the newspaper, we saw a review which rated the movie (Alien 
+>vs. Predator) a Sqrt(-4). To which I said the that the reviewer 
+>means "2" and my friend argued that it meant "-2".
+>
+>OK, i (small i) aside because I am sure the reviewer wasn't talking 
+>imaginary numbers, what is the answer?
+>
+>If by some fluke, the reviewer was talking imaginary numbers, what 
+is 
+>the answer?
+>
+>[Difficulty]
+>Well, I guess I feel that years of math class have failed me because 
+>this is what I remember from school.  
+>
+>If the reviewer was talking about imaginary numbers, shouldn't the i 
+>(small i) have been listed in the question?  That is, I am asking 
+how 
+>does one know if the question wants you to consider imaginary 
+numbers?
+>
+>
+>
+>[Thoughts]
+>When you "square" any number (i.e. taking something to the power of 
+>two) you ALWAYS get a positive 9 x 9 = 81; 4 x 4 = 16; -4 x -4 = 
+16; -
+>9 x -9 = 81.  Squaring does not mean -9 x 9 (i.e. when squaring a 
+>number, the signs ALWAYS have to be as they were listed.  If the 
+>number is -4 "squared" it is -4 x -4 if it is 4 "squared", then it 
+is 
+>4 x 4).  Therefore, the inverse of "squaring" is called the square-
+>root so it too must always be positive (not including imaginary 
+>numbers).
+
+That's exactly correct. If you disregard imaginary numbers, there is 
+no number whose square is -4, therefore there is no number that is 
+the square root of -4. In order to give the expression any meaning, 
+you *must* allow imaginary numbers.
+
+In that case, there are two square roots of -4: 2i and -2i. Each, 
+when squared, gives -4:
+
+  2i * 2i = (2*2)*(i*i)
+          = 4*-1
+          = -4
+
+  -2i * -2i = (-2*-2)(i*i)
+            = 4*-1
+            = -4
+
+It's possible that the reviewer wasn't thinking about imaginary 
+numbers and just wanted to give the movie no rating at all. If he/she 
+had the imaginary number concept in mind, I don't know what 
+an "imaginary" rating would mean to the reviewer -- maybe either way 
+he is opining that the movie strains belief too much.
+
+Does this help, or are you asking for something more?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,75 @@
+ThreadNum: 567671
+Subject: Re: (no subject)
+To: JVONNER@JUNO.COM (Jenny)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 11:37:50
+Sent: yes
+
+
+As Jenny wrote to Dr. Math
+On 08/19/2004 at 09:46:05 (Eastern Time),
+>[Question]
+>What is the least possible product of three distinct members of the 
+>set {-3, -2, -1, 1, 2, 3}?
+>
+>[Difficulty]
+>I need to know how to solve this in detail
+>
+>[Thoughts]
+>Is it asking me to pair them up or find the mean?
+
+Hi, Jenny --
+
+You want to find the three numbers in this set which, when 
+multiplied together, give you the smallest product.  Since some of 
+the numbers are negative, you can get either positive or negative 
+products.  The "smallest" product is thus going to be the "most 
+negative" number you can get.
+
+When we multiply positive and negative numbers, the answer is 
+positive if the number of negative numbers is even; and the answer 
+is negative if the number of negative numbers is odd.  In 
+multiplying three positive or negative numbers together, then, we 
+can have
+
+  3 positive, 0 negative  ==>  positive answer
+  2 positive, 1 negative  ==>  negative answer
+  1 positive, 2 negative  ==>  positive answer
+  0 positive, 3 negative  ==>  negative answer
+
+We want a negative number; this means that in our product we need to 
+use either three negative numbers or one negative number and two 
+positive numbers.
+
+Let's now find the "smallest" -- i.e., the most negative -- products 
+we can get by multiplying either 3 negative numbers or one negative 
+number and two positive numbers.  To do this, we for the moment 
+ignore the signs on the numbers and look for the "biggest" (ignoring 
+signs) numbers we can find.
+
+There are only three negative numbers in the given set, so if we 
+make a product using three negative numbers, that product has to be
+
+  (-3)(-2)(-1) = -6
+
+For the case where we use one negative number and two positive 
+numbers in our product, we again want to choose the "biggest" 
+(ignoring signs) negative and positive numbers we can find.  
+The "biggest" negative number is -3, and the biggest positive 
+numbers are 2 and 3 -- so the "biggest" (ignoring signs) product we 
+can have is
+
+  (-3)(3)(2) = -18
+
+Now paying attention to the signs, this product, -18, is smaller 
+than our other product of -6, so the least possible product of three 
+distinct members of the given set is
+
+  (-3)(3)(2) = -18
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

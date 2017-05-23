@@ -1,0 +1,61 @@
+ThreadNum: 567521
+Subject: Re: (no subject)
+To: rpaintiff-jr@msn.com (russ)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 16:50:07
+Sent: yes
+
+
+As russ wrote to Dr. Math
+On 08/18/2004 at 16:21:03 (Eastern Time),
+>[Question]
+>I am trying to find the area of a triangle that has base od 30 ft 
+>and sides of 18 ft. I saw your formula and really didnt understand 
+>it. I am 45 and its been so long since school I cant remember. 
+>Please help
+>
+>Russ
+>
+>[Difficulty]
+>I understand how to do it if it has a right angle. but not this
+>
+>[Thoughts]
+>
+
+Hello Russ,
+
+Suppose we have a triangle with vertices A, B, and C and sides a, b, and c opposite these 
+vertices.  You have said that a=30, b=18, and c=18.  Think about this triangle with the 
+vertex A on top and the opposite side a=30 on the bottom and horizontal.
+
+There are at least two way to approach this problem.  The easiest is to calculate the height 
+directly and then use the formula area= (1/2)*height*base.
+
+Draw a line from A to the midpoint M of side BC.  Triangle AMC is a right triangle.  AM has 
+length h.  Using the Pythagorean Theorem
+
+18^2 = h^2 + 15^2
+
+So,
+
+h^2=18^2-15^2 = 3*33=99.
+
+So,
+
+h=3*sqrt(11).
+
+So, area = (1/2)*3*sqrt(11)*30 = 45*sqrt(11) = 149.248, approximately.
+
+The other way is to use Heron's Formula.  
+
+Let s = (a+b+c)/2
+ 
+Then the area is 
+
+K = sqrt[s(s-a)(s-b)(s-c)] 
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,74 @@
+ThreadNum: 566701
+Subject: Re: building a geodesic dome
+To: jpcurran1@verizon.net (Jim Curran)
+From: Doctor Tom
+TimeStamp: 08/13/2004 at 14:50:19
+Sent: yes
+
+
+As Jim Curran wrote to Dr. Math
+On 08/12/2004 at 16:45:01 (Eastern Time),
+>[Question]
+>I am seriously considering building a geodesic dome home and need to 
+>estimate the cost of the roofing on a square foot basis. The type of 
+>dome is referred to as a 5/8" scale, i.e. the bottom of the dome 
+>starts to come in at the bottom, and so the floor or diameter of the 
+>dome is slightly less than the true diameter I think for my 
+>estimating purposes this difference would not ber terribly important. 
+>The dome I am considering has a 35' diameter. 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I used the formula a=2 x Pi x r and this doesn't seem to be a large 
+>enough area.
+
+The surface area of an entire sphere is 4 pi r^2  (the r value is squared),
+so an upper limit for the area would be this:
+
+4 pi (17.5)^2 = 3847 square feet (approximately).
+
+Here's a way to obtain the exact value.  Go to the "dome calculator"
+here:
+
+    http://www.desertdomes.com/domecalc.html
+
+and select the type of dome you want (maybe it's a "3V"?)
+
+Type in the radius and you'll obtain the lengths of the edges of
+the triangles.  Using the diagram, you can figure out how many
+of each kind of triangle you have and work out the areas of
+each using Heron's formula (which I'll show you below).  Add
+them up, and there you go!
+
+If you just want a pretty good estimate, you can use the largest
+length and assume the triangles are equilateral of that length
+and just get their area and multiply by the number of triangles.
+
+The website is meant for building temporary "tent domes" where
+the edges are pipe and it's covered with cloth or something, but
+the lengths of pipe will be the lengths of the edges you want
+for a permanent structure.
+
+Heron's formula:
+
+If the three sides of a triangle have lengths a, b and c, then
+first calculate s = (a + b + c)/2  (the semi-perimeter -- half-way
+around the triangle) and the area is given by this formula:
+
+A = square_root(s(s-a)(s-b)(s-c))
+
+For your equilateral upper bound approximation, a = b = c, so
+s = (3/2)a and the area is
+
+A = square_root(3a^4/4) = (sqrt(3)/2)(a^2) = .866 a^2
+
+I know that the dome calculator works, since I've built 4
+domes (of the tent variety) using its calculations.
+
+Good luck!
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

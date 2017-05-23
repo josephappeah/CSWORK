@@ -1,0 +1,71 @@
+ThreadNum: 567146
+Subject: Re: Meaning of "on the order of". 
+To: davel158@comcast.net (David)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 16:38:25
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/16/2004 at 15:07:57 (Eastern Time),
+>[Question]
+>For the central limit theorem the difference beteween the sum of n 
+>idd random variables and n times their expected value is of the order 
+>of the square root of n? 
+>
+>[Difficulty]
+>I have an intuitive feeling about the meaning of this statement but 
+>don't know the excact meaning. I see it as a sort of speed of 
+>converergence, say proportional to the square root of n. Not very 
+>fast!
+>
+>[Thoughts]
+>
+
+Hi David,
+
+Thanks for writing to Dr Math.  The phrase "on the order of" can be
+given a precise technical meaning, but it is usually used more
+generically as "about."  Historically, the "order" refers to "order of
+magnitude," which is essentially the exponent when you write something
+in scientific notation,
+
+  3.256 * 10^8
+
+as 8 orders of magnitude.  So I have heard people say that something
+is "bigger by an order of magnitude" meaning ten times, or "by two
+orders of magnitude" meaning 100 times, and so on.  But then people
+use "on the order of" more generically to mean "approximately."
+
+On the other hand, the Central Limit Theorem *does* say exactly what
+it means.  It says:  The difference between a sum of n iid
+(independent, identically distributed - not idd) random variables and
+n times the expected value of one of those variables DIVIDED BY the
+square root of n is a random variable whose distribution is
+approximately Gaussian (that is, normal) with mean 0 and standard
+deviation sqrt(n) times the standard deviation of any one of those
+random variables.  Even more specifically, it states that said sum
+minus n times the mean of a variable divided by the product sqrt(n)
+times the standard deviation of a variable approaches a limiting
+probability distribution function which is Gaussian with mean 0 and
+variance (and standard deviation) 1.
+
+Suppose you have 1000 random variables which have a flat probability
+distribution from 0 to 1.  You add them all up.  What do you expect to
+get?  Well, these are random variables, so you might get anything from
+0 to 1000, but some results are more probable than others.  And,
+naturally, you expect to get about 500.  But how far off do you expect
+to be from 500?  The difference will be approximately Gaussian with
+mean 0 and standard deviation sqrt(1000) time the standard deviation
+of each of our variables.  (Can you calculate the std. dev. of these
+variables?)  So the magnitude of that difference (either positive or
+negative) should be expected to be some small multiple of the standard
+deviation.  Does that make sense?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

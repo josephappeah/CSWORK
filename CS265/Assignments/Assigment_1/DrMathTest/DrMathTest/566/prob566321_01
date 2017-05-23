@@ -1,0 +1,80 @@
+ThreadNum: 566321
+Subject: Re: converting a large percent problem into written form
+To: sharon.williams@husch.com (Sharon Williams)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 23:19:06
+Sent: yes
+
+Hi, Sharon.
+
+As Sharon Williams wrote to Dr. Math
+On 08/10/2004 at 13:09:38 (Eastern Time),
+>[Question]
+>If .05 is (five tenths) and 2.50 is two and fifty one hundredths, 
+how
+>would I write percentages such as  4.3221412 or 5.2822 in a legal 
+>document that must show both the mathematical form and the written 
+>form? 
+>
+>[Difficulty]
+>I don't know how to word the percentage the longer the percentage 
+>gets.  I have several such numbers to be put in a document to be 
+>filed with a jurisdictional court, and these figures must be written
+>out in word form and in mathematical form, and must be correct or it
+>can effect the outcome of the probate estate. 
+>
+>[Thoughts]
+>One percentage may be (28.5%) which would be twenty-eight and five-
+>tenths percent, but I may have one that is (5.2822%).  I wrote it as
+>five and two thousand eight hundred and twenty-two one hundredths 
+>percent.  I am not sure that is correct.  When they get larger, such
+>as 4.3221412, I cannot even begin to translate that in word form.  
+>Math was never my strong point in school and that was over 30 years 
+>ago.
+
+Typically when I answer questions about this, I point out that in 
+real life we just say "four point three two ..." rather than what is 
+taught in schools:
+
+  Multi-Digit Decimal Numbers
+  http://mathforum.org/library/drmath/view/59180.html
+
+But legal documents would be one case I'm not thinking of when I say 
+that.
+
+Here are the answers to your examples:
+
+  .05       = 5 hundredths
+  2.50      = two and fifty hundredths
+  4.3221412 = four and three million, two hundred twenty-one
+              thousand, four hundred twelve ten-millionths
+  5.2822    = five and two thousand, eight hundred twenty-two
+              ten-thousandths
+
+On the page referred to above, I briefly explain the process. The 
+idea is to write a fraction using 1 as the denominator, then move 
+the decimal point in both numbers until the numerator is whole; then 
+read the resulting fraction:
+
+  0.3 221 412    3,221,412
+  ----------- = ----------
+  1.0 000 000   10,000,000
+
+Because there are seven decimal places in the given number, the 
+denominator is 1 followed by seven zeroes, or ten million.
+
+See this page for the general issue of writing the names of 
+fractions (and how to hyphenate them):
+
+  Use of Hyphen When Writing Fractions with Words
+  http://mathforum.org/library/drmath/view/64567.html
+
+  Writing Numbers with Hyphens
+  http://mathforum.org/library/drmath/view/63129.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,46 @@
+ThreadNum: 568683
+Subject: Re: Coordinate mapping
+To: jfinnie@tuks.co.za (Joe)
+From: Doctor Fenton
+TimeStamp: 08/25/2004 at 22:47:45
+Sent: yes
+
+
+As Joe wrote to Dr. Math
+On 08/25/2004 at 12:17:56 (Eastern Time),
+>[Question]
+>I would like a formula that returns the distance in meters between 2 
+>points defined by longitude and latitude. The formula must take into 
+>account the true shape of the earth (geoid).
+>
+>[Difficulty]
+>The shape of the earth.
+>
+>[Thoughts]
+>I have found many solutions that use spherical mapping and polar 
+>coordinates, but they are not accurate enough.
+
+Hi Joe,
+
+Thanks for writing to Dr. Math.  Your question is in a specialized 
+area called geodesy, and you need to check geodesy sites.  The most 
+popular algorithm for the computation you describe seems to be 
+Vincenty's Algorithm, which is in the paper at
+
+   http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf  .
+
+A listing of a program implementing this algorithm is at
+
+   http://wiki.tcl.tk/9325 
+
+and you can find other references by doing a search on "Vincenty's 
+algorithm".  Some sites have online calculators if you just need to
+make a few computations.  Another good resource for geodesy is
+
+  http://www.icsm.gov.au/icsm/gda/gdatm/ .
+
+I hope you find some of these helpful.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

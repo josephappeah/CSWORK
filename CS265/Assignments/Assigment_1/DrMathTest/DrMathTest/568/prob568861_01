@@ -1,0 +1,102 @@
+ThreadNum: 568861
+Subject: Re: Range and codomain, natural domain
+To: dolphrin_luv@ilovejesus.net (Confused)
+From: Doctor Fenton
+TimeStamp: 08/28/2004 at 08:53:01
+Sent: yes
+
+
+As Confused wrote to Dr. Math
+On 08/26/2004 at 01:28:42 (Eastern Time),
+>[Question]
+>Why is range a subset of codomain?
+>
+>Why do we need to union the natural domain sometimes ? 
+>Eg: Squareroot (4-x^2)(1-x^2)
+>
+>Natural domain is given as [-2,-1]union[1,2]
+>
+>[Difficulty]
+>I dun understand the why range and codomain can be used 
+>interchangeably.
+>
+>I dunno how to find the natural domain of a function
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+>Why is range a subset of codomain?
+
+That is the definition.  See
+
+   http://mathworld.wolfram.com/Codomain.html .
+
+Sometimes we are only interested in some general property of the 
+values of a function, such as the fact that f(x) is a real number, or
+that g(n) is a positive integer.  It may be very difficult to 
+determine the range of a function, but we may be able to specify a
+codomain easily, and that might be all we need.  For example, if
+you want to form a composition sqrt(g(x)), you don't need to know the
+specific range of g, just that g(x) is a non-negative real number.
+
+>I dun understand the why range and codomain can be used 
+>interchangeably.
+
+Did you mean that you don't know why they CANNOT be use 
+interchangeably?  The range of a function is the smallest possible
+codomain, but it may be difficult to determine.  The codomain can
+be any set which contains the range.
+
+>Why do we need to union the natural domain sometimes ? 
+>Eg: Squareroot (4-x^2)(1-x^2)
+>
+>Natural domain is given as [-2,-1]union[1,2]
+
+The "natural domain" of a formula is understood to be any element in
+the real numbers (in this case) for which the formula makes sense.
+I assume the square root applies to the whole product (since your
+notation is ambiguous - you need to use more parentheses to make
+the problem clear).  Since you are taking a square root, and you can
+only take the square root of non-negative numbers if you want a real-
+valued answer (instead of a complex number), the expression inside
+the radical must be non-negative, so you must solve the inequality
+
+   (4-x^2)(1-x^2) >= 0 .
+
+To solve polynomial inequalities like this, the usual method is to
+locate the values where the polynomial on the left is 0, since these
+are the only places where the polynomial can change sign.  In this
+case, those points are -2,-1,1, and 2.  These four points divide
+the real number line into five intervals: (-oo,-2); (-2,-1); (-1,1);
+(1,2); and (2,+oo).  The polynomial must have the same sign 
+throughout each interval, so you can pick a point in each interval
+and evaluate the polynomial to determine its sign in that interval
+(or, you can look at the factors (2+x)(2-x)(1+x)(1-x) and determine
+the sign of each factor in each interval, and then determine the 
+sign of the product in that interval).  
+
+If you do that, you will find that (4-x^2)(1-x^2) has the following
+signs:
+           +  :  - :    +    : -  :  +    
+        ------+----+----+----+----+-----
+              -2   -1   0    1    2  
+
+so the natural domain consists of three disjoint intervals.  You can
+write the domain as the union of these three intervals:
+
+  (-oo,-2] U [-1,1] U [2,+oo)   .
+
+(Either you wrote the problem incorrectly or you were given the wrong
+solution.)
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

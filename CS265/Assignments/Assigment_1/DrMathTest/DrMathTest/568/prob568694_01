@@ -1,0 +1,64 @@
+ThreadNum: 568694
+Subject: Re: zeros and poles at infinity for a rational funciton?
+To: bunnysoft2001@yahoo.com (Bunny)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 10:09:12
+Sent: yes
+
+
+As Bunny wrote to Dr. Math
+On 08/25/2004 at 13:22:03 (Eastern Time),
+>[Question]
+>How do I find zeros and poles of a rational function at infinity?
+>
+>I know how to find zeros and poles that are non-infinite.  That's just
+>setting the numerator and denominator equal to zero and finding the
+>roots.  but, what about the zeros and poles at infinity?
+>
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I think it has something to do with limits.
+
+Hi Bunny,
+
+Thanks for writing to Dr Math.  Good question.  The easy answer is to
+look at the degrees of the numerator and denominator.  If the degree
+of the numerator is n, and the degree of the denominator is d, then
+
+  n > d:  There is a pole of order n-d at infinity.
+  n < d:  There is a zero of order d-n at infinity.
+  n = d:  There is no pole or zero at infinity.
+
+This might be unsatisfying, though, and might make you think that
+somebody just made this up to satisfy a theorem that wasn't true
+otherwise.  But, in fact, this definition has many useful properties
+that make it seem more worthwhile.  For example, if you take any
+(non-constant) rational function of degree 1 (also known as a bilinear
+or fractional linear transformation, or as a Moebius function - these
+are all rational functions which have inverses that are rational
+functions), and you compose your rational function with this one, then
+you will move around the poles and zeros in a predictable way.  The
+poles and zeros at infinity behave just like the others.  For example,
+if you have a rational function f(z), then f(1/z) will have poles at
+1/m whenever f had a pole at m, of the same order, and similarly with
+zeros.  Furthermore, the poles and zeros at infinity (determined by
+the degrees) will switch with those at zero.
+
+You can also consider the limit.  Take a limit as z goes to infinity.
+ If n > d, then the function will go to infinity.  If n < d, then the
+function will go to zero.  If n = d, then the function will approach a
+constant, which can be thought of (and often is) as the value of the
+function at infinity.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

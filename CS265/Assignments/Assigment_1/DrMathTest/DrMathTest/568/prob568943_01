@@ -1,0 +1,75 @@
+ThreadNum: 568943
+Subject: Re: Does a function change if I punch a hole in it?
+To: vipul_bhatt@ieee.org (Vipul)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 14:11:39
+Sent: yes
+
+
+As Vipul wrote to Dr. Math
+On 08/26/2004 at 13:43:59 (Eastern Time),
+>[Question]
+>Let f(x) = (x^2 + x - 2)/(x^2 - x)
+>and g(x) = (x + 2)/x
+>
+>At x = 1, f is undefined, but g = 3.
+>
+>If you cancel common factors, we get f = g. But going by the ordered 
+>pair definition of a function -- a function is a set of ordered pairs 
+>(x, y) --  f and g are not equal. The set of ordered pairs of g 
+>includes (1, 3), while that of f doesn't.
+>
+>So, f = g : true or false?
+>
+>[Difficulty]
+>We routinely cancel common factors and assume that the function 
+>remains the "same". Do we no longer have the same function if we add 
+>or remove common factors in the numerator and denominator of a 
+>rational function? Can we arbitrarily put "holes" in a continuous 
+>function by adding common factors to it?
+>
+>
+>[Thoughts]
+>I think f and g are not equal, even though we routinely treat them as 
+>equal and get away with it in solving most practical problems.
+
+Hi Vipul,
+
+Thanks for writing to Dr Math.  I'm not sure who "we" you are talking
+about, but some people are more careless about cancelling factors than
+they should be.  A good mathematician should always be careful.  You
+can get some examples of things that can go wrong when you cancel
+carelessly on our FAQ on
+
+  False proofs, classic fallacies
+  http://mathforum.org/dr.math/faq/faq.false.proof.html
+
+The correct answer to your question is:
+
+  f = g  everywhere except at x = 1
+
+or you could also say that:
+
+  f = g  everywhere where both of them are defined.
+
+For some applications, however, missing one point doesn't matter. 
+This is most commonly true when you know that the function is not
+going to be evaluated at that point, or its value at that point
+doesn't matter.  For another example, in complex analysis, we
+generally deal with analytic continuations anyway, so you would just
+assume that f *is* defined at x = 1 despite the way you actually wrote
+it out.  But sometimes the value at that special point makes a big
+difference.
+
+So the answer to your question is:  No, you cannot arbitrarily put
+holes in your functions, but you can sometimes carefully put holes in
+your functions (or remove them) after verifying that it doesn't change
+your results.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

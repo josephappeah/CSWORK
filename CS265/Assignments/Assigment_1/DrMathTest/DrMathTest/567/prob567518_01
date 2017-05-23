@@ -1,0 +1,46 @@
+ThreadNum: 567518
+Subject: Re: Dividing a circle into 12 pieces
+To: jim.dishman@framatome-anp.com (Jim)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:23:20
+Sent: yes
+
+
+As Jim wrote to Dr. Math
+On 08/18/2004 at 16:03:24 (Eastern Time),
+>[Question]
+>How does one divide a circle into 12 pieces, not necessarily equal, 
+>using only 4 straight lines?
+>
+>[Difficulty]
+>I can only get 10 in any combination
+>
+>[Thoughts]
+>a trashcan full of crumpled paper!
+
+Hi Jim,
+
+Thanks for writing to Dr Math.  The best you can do is 11.  Let me try
+to explain why:  Start with a circle.  That's one piece.  We draw a
+line across the circle, and we have split that one piece into two
+pieces.  Draw another line across the circle, and we will either split
+one piece or both pieces into two pieces each, leaving a maximum of
+four pieces.  Draw a third line.  Can we split all four pieces?  No,
+because we can only cross each of the other two lines once, which will
+divide our line into three sections, and each section will be in one
+piece of the circle.  So we can only split at most three of the four
+pieces, giving us seven.  In a similar manner, the fourth line can
+cross the other three lines only once each, dividing the fourth line
+into four sections, which means that we can only split at most four
+sections, leaving us eleven.  I found it not very hard to get 11
+sections (draw four lines so that no three intersect at the same
+point, and no two are parallel, and then draw a circle around all six
+points of intersection).  There is no way to get 12.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

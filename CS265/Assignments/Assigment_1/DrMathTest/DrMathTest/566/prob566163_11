@@ -1,0 +1,60 @@
+ThreadNum: 566163
+Subject: Re: Algebra II --- equations with fractions
+To: sweetygirl1213@yahoo.com (Deanna)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 15:43:53
+Sent: yes
+
+
+As Deanna wrote to Dr. Math
+On 08/12/2004 at 14:00:50 (Eastern Time),
+>Moving form point (5,3) to point (1,4) I moved to the left four in 
+>the x direction, and then from there I moved up one in the y 
+>direction.
+>
+>
+>---Also I was trying to remember if there was another way to find 
+>slope rather than to graph the points.... was it y2 +(-) y1
+>                                          ---------
+>                                           x2 +(-) x1
+>
+>I can't remember is it was + or - (just wondering)
+>
+
+Hi Deanna,
+
+Thanks.  So that's
+
+  change in y:  up 1, or +1
+
+  change in x:  left 4, or -4
+
+Once you have those, you can compute the slope this way:
+
+          rise   change in y    1
+  slope = ---- = ----------- = --
+          run    change in x   -4
+
+If you forget whether it's rise/run or run/rise, remember that a
+larger number means a steeper slope.  
+
+Okay, so now we know the slope.  The slope-intercept form for a line
+looks like this:
+
+  y = slope*x + intercept
+
+We know the slope is -1/4, so we can write it as
+
+  y = (-1/4)*x + intercept
+
+We know something else, too.  We know that (5,3) is a point on this
+line, which means that 
+
+  3 = (-1/4)*5 + intercept
+
+Can you solve this to find the value that 'intercept' must have to
+make this equation true? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

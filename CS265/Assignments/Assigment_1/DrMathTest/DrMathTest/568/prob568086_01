@@ -1,0 +1,51 @@
+ThreadNum: 568086
+Subject: Re: (no subject)
+To: aboasing@hotmail.com (Abo)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 13:11:55
+Sent: yes
+
+
+As Abo wrote to Dr. Math
+On 08/22/2004 at 06:13:04 (Eastern Time),
+>[Question]
+>I have difficulty to find the limit of x*sin(Pi/x) as x approaches 
+>infinity. However, I know the answer is Pi, but unable to derive it 
+>using limit theory.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Abo, 
+
+One thing you can do is use L'Hopital's rule.  But to do that, you
+need to write the expression as a fraction where both the numerator
+and the denominator approach the same limit.  Here's a way to do that:
+
+                  sin(pi/x)
+  x * sin(pi/x) = ---------
+                    1/x
+
+Both of these now approach zero as x approaches infinity.  So we can
+differentiate both of them to get
+
+   d/dx sin(pi/x)    cos(pi/x) * d/dx pi/x
+  ---------------- = ---------------------
+   d/dx 1/x              d/dx 1/x
+
+                     cos(pi/x) * pi * d/dx 1/x
+                   = -------------------------
+                         d/dx 1/x
+
+                   = cos(pi/x) * pi
+
+As x approaches infinity, this approaches cos(0) * pi, or pi. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

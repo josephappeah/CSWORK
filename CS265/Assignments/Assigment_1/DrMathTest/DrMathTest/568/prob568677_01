@@ -1,0 +1,73 @@
+ThreadNum: 568677
+Subject: Re: Algebra - Square Roots
+To: parkov@gmail.com (Tom)
+From: Doctor Fenton
+TimeStamp: 08/27/2004 at 13:22:40
+Sent: yes
+
+
+As Tom wrote to Dr. Math
+On 08/25/2004 at 11:52:39 (Eastern Time),
+>[Question]
+>We are all taught that you must consider both the + and - case when 
+>taking the square root. One problem has me stumped though, because it 
+>just doesn't make sense in my head. Can the square root of 1 minus 
+>the square root of 1 equal 2? Given that the square root of 1 is +-1, 
+>that means that it could be +1 - -1 = 2.
+>
+>This is the final steps of the problem square root of (3x + 1) = 2 + 
+>square root of (x + 1). Could x=0 be a solution since square root of 
+>1 = 2 + square root of 1?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Tom,
+
+Thanks for writing to Dr. Math.  You are correct that for any
+positive number x, there are two numbers whose square is x.  However,
+to avoid ambiguity, there is an agreement or convention that the
+symbol sqrt(x) denotes the POSITIVE square root.  If we want to
+indicate the negative square root, it is necessary to write
+-sqrt(x), and if we want to consider both roots, +/- sqrt(x).
+
+See  
+
+  http://mathforum.org/library/drmath/view/58266.html
+
+and
+
+  http://mathforum.org/library/drmath/view/52627.html .
+
+If you are solving
+
+   x^2 = 36, 
+
+then the solutions are x=6 and x = -6, but for your problem
+
+>This is the final steps of the problem square root of (3x + 1) = 2 + 
+>square root of (x + 1). Could x=0 be a solution since square root of 
+>1 = 2 + square root of 1?
+
+the equation is
+ 
+   sqrt(3x+1) = 2 + sqrt(x+1) ,
+
+and writing the problem in this form invokes the convention, so that
+when x=0, the equation reads
+
+   sqrt(1) = 2 + sqrt(1)
+or
+      1    = 2 + 1 
+
+which is not true, so x=0 is not a solution of this equation.
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

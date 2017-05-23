@@ -1,0 +1,63 @@
+ThreadNum: 568107
+Subject: Re: High School Geometry
+To: chrisjg10@msn.com (Chris)
+From: Doctor Tom
+TimeStamp: 08/22/2004 at 18:27:45
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/22/2004 at 12:26:34 (Eastern Time),
+>[Question]
+>Line AG is the same as GA and contains points b through f. How many 
+>different names can I give to this line? Each end of the line is a 
+>ray. 
+>
+>[Difficulty]
+>I know my teacher wants me to find a mathematical approach to 
+>determining  the number of names, but I am confused  as to how to do 
+>this. 
+>
+>[Thoughts]
+>I can count the segments, such as AB,AC,AD etc. I am not even sure 
+>this is the right approach. 
+>
+
+I think you just want to find out how many pairs of letters there are in
+the set A ... G.  There are 7 letters that you can choose for the first
+one, but once you've picked the first letter, there are only 6
+possibilities for the second, so there are 7x6 = 42 two-letter
+combinations.
+
+But you also said that AG and GA, for example, are the same.  Notice
+that in your set of 42 pairs, every time you have two letters in one
+order, they will also appear in the other, so each combination is
+counted twice, giving 42/2 = 21 pairs.
+
+Let me show you what's going on by listing all the pairs for a
+simpler problem: 5 points: A, B, C, D, E.
+
+Here are the pairs:
+
+AB BA
+AC CA
+AD DA
+AE EA
+BC CB
+BD DB
+BE EB
+CD DC
+CE EC
+DE ED
+
+There are 20 pairs as we expect (5 ways to choose the first, and
+after it's picked, 4 ways to choose the next, for a total of 5x4 = 20
+pairs).
+
+But notice how I've arranged them above: each pair is listed twice
+-- in one order and then in the reverse order, so you've really
+only got 10 pairs if you consider AB = BA, AC = CA, and so on.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

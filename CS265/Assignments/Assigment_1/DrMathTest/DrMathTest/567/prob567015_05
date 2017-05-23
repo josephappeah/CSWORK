@@ -1,0 +1,43 @@
+ThreadNum: 567015
+Subject: Re: Limits and matrices
+To: av_ace11@hotmail.com (av_ace11)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 11:43:57
+Sent: yes
+
+
+As av_ace11 wrote to Dr. Math
+On 08/16/2004 at 09:37:09 (Eastern Time),
+>Thank you very much for your help..
+>
+>I have a good idea now..
+>
+>With question 3) im just not sure whether i have listed all possible 
+>2x3 matrices???
+>
+>have i listed them all or not?? and if so which ones am i missing???
+
+Hi,
+
+The matrices are either rank 1 (with only one non-zero row) or rank
+2, with two non-zero rows.  If a matrix is of rank 1, there are three
+possible positions for the pivot (ther first non-zero entry in the row),
+and if it is of rank 2, the there are three possible positions for the
+column which doesn't contain a pivot, so there should be six possible
+forms in all.
+
+However, if the matrix is rank 1 and the pivot is in the first column,
+the form should be
+
+  [ 1 a b ]
+  [ 0 0 0 ]
+
+instead of
+
+  [ 1 0 0 ]
+  [ 0 0 0 ]  ,  etc.
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

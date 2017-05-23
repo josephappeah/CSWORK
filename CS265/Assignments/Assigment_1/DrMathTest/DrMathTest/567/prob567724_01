@@ -1,0 +1,39 @@
+ThreadNum: 567724
+Subject: Re: integration of trig functions
+To: wareed@st-aug.edu (Drew)
+From: Doctor Pete
+TimeStamp: 08/20/2004 at 04:33:00
+Sent: yes
+
+As Drew wrote to Dr. Math
+On 08/19/2004 at 15:50:28 (Eastern Time),
+>[Question]
+>How do you integrate secant x dx?
+>
+
+Hi Drew,
+
+     Sec[x] = Sec[x](Sec[x] + Tan[x])/(Sec[x] + Tan[x])
+          = (Sec[x]^2 + Sec[x]Tan[x])/(Sec[x] + Tan[x]),
+
+and since
+
+     (Sec[x])' = Sec[x]Tan[x],
+     (Tan[x])' = Sec[x]^2,
+
+it follows that the substitution
+
+     u = Sec[x] + Tan[x],
+     du = (Sec[x]Tan[x] + Sec[x]^2) dx
+
+transforms the integrand into
+
+     (1/u) du,
+
+which integrates to
+
+     Log[u] = Log[Sec[x] + Tan[x]] + C
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

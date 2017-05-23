@@ -1,0 +1,89 @@
+ThreadNum: 567003
+Subject: Re: fifth power of a number
+To: johngalv@virgilio.it (Giovanni)
+From: Doctor Douglas
+TimeStamp: 08/15/2004 at 18:21:00
+Sent: yes
+
+
+As Giovanni wrote to Dr. Math
+On 08/15/2004 at 10:18:40 (Eastern Time),
+>[Question]
+>I wonder if someone can help me in finding the solution for a tricky 
+>problem.
+>Some years ago a coworker did compute the fifth power of a number 
+>just in a matter of seconds.
+>The number had to be less than one hundred.
+>I’m trying to find an algorithm but have no viable result (and the 
+>coworker has gone).
+>I only found a solution for the inverse, that is find the number 
+>given the power.
+>Could you please suggest the solution or give some direction?
+>Many thanks 
+>
+>Saluti, Giovanni
+>
+>[Difficulty]
+>Unable to find a viable algorithm or recurrence
+>
+>[Thoughts]
+>Just found that the last digit of the result is equal to the the 
+>last digit of the number
+
+Salve, Giovanni.
+
+thanks for writing to the Math Forum.
+
+Suppose you want to compute the fifth power of say, 37.  Of course,
+we want to do this without resorting to a calculator, other than
+one's brain and maybe pencil-and-paper.
+
+A straightforward (but inefficient) way is to multiply 37 by itself
+four times:  
+
+  37 x 37 x 37 x 37 x 37 = 1369 x 37 x 37 x 37
+                         = 50653 x 37 x 37
+                         = 1874161 x 37
+                         = 69343957
+
+but ouch, that's a lot of work.  You can save a little work by doing
+the computation this way:
+
+ 37 x 37 x 37 x 37 x 37 = 1369 x 37 x 37 x 37
+                        = 1369 x 1369 x 37
+                        = 1874161 x 37
+                        = 69343957
+
+but that's still painful.  I suspect that your coworker might 
+instead have exploited Pascal's Triangle:
+
+  37^5 = (30 + 7)^5
+       = [1]*30^5 + [5]*30^4*7 + [10]*30^3*7^2 + [10]*30^2*7^3
+             + [5]*30*7^4 + [1]*7^5
+
+where the numbers in brackets come from the fifth (or sixth,
+depending on how you count) row of the Triangle.  Note that now,
+you only have to know the powers of the various single digits
+up to 5:
+
+  e.g. 3^1 = 3, 3^2 = 9, 3^3 = 27, 3^4 = 81, 3^5 = 243
+       7^1 = 7, 7^2 = 49, 7^3 = 343, 7^4 = 2401, 7^5 = 16807
+       (and similarly for the other digits--some, like 0 and 1,
+        are very easy).
+
+Then our fifth power becomes
+
+  37^5 = 1*243*100000 + 5*81*7*10000 + 27*49*10000 +
+           9*343*1000 + 5*3*2401*10 + 16807
+       = 24300000 + 28350000 + 13230000 + 3087000 + 360150 + 16807
+       = 69343957
+
+and the only real multiplications that we had to perform by hand
+were 5*81*7, 27*49, 9*343, and 5*3*2401, the rest of the work being
+multiply by 10's (which are easy, of course).  Whether or not
+one can do this in a matter of seconds probably depends on practice.
+For example, I would probably compute 9*343 as 3430 - 343 = 3087.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

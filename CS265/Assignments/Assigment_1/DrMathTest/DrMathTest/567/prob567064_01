@@ -1,0 +1,59 @@
+ThreadNum: 567064
+Subject: Re: Help please?
+To: ohs5@adelphia.net (Cassie Cobb)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 09:45:39
+Sent: yes
+
+
+As Cassie Cobb wrote to Dr. Math
+On 08/15/2004 at 21:19:22 (Eastern Time),
+>[Question]
+>i dont understand my homework and its due tomorrow and i dont have 
+>the write calculator the TI 83 calculator i have the Ti 30x 
+>calculator.
+>
+>[Difficulty]
+>i dont have the write the calculator
+>
+>[Thoughts]
+>y4 /8 when 8 equals 4
+
+Hi Cassie,
+
+Do you mean
+
+    4
+   y
+  ----      when y = 4 ?
+    8
+
+Note that it's never true that '8 equals 4'.  :^D
+
+In a case like this, you subsitute the value for the variable, giving you 
+
+    4
+   4
+  ---- 
+    8
+
+which you can then simplify by noting that
+
+     4
+   4     4 * 4 * 4 * 4   4 * 2 * 2 * 4 * 4   8 * 2 * 4 * 4
+  ---- = ------------- = ----------------- = -------------
+    8          8                 8                 8
+
+Does that make sense?  
+
+If you're not comfortable with exponents, this would be a good time
+for you to look at 
+
+  Properties of Exponents
+  http://mathforum.org/library/drmath/view/57293.html
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

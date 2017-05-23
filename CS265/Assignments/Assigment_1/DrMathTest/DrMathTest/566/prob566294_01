@@ -1,0 +1,92 @@
+ThreadNum: 566294
+Subject: Re: College Math
+To: men3productions@hotmail.com (Gill)
+From: Doctor Willae
+TimeStamp: 08/10/2004 at 10:20:48
+Sent: yes
+
+As Gill wrote to Dr. Math
+On 08/10/2004 at 08:45:26 (Eastern Time),
+>[Question]
+>You are offered two options for debt settlement.  Option 1 is that 
+>you pay $400 at the end of 4 years and $700 at the end of 7 years. 
+>Option 2 you pay $X at the end of 5 years adn $3X at teh end of 10 
+>years.  Find the amount of X if the effective rate is 4% compounded 
+>annually.
+>
+>[Difficulty]
+>Applying the correct formula.
+>
+>[Thoughts]
+>I'm confused on this question. I don't know how to figure out the 
+>two options.
+
+Gill,
+For this problem, you're going to need the compound interest formula.
+ The most general form of the compound interest formula is:
+
+ F = P * (1 + r / n)^(n * t)
+
+Where F is the future value, P is the present value (or principle), r
+is the interest rate, n is the number of compounding periods per year
+and t is the number of years.  For your specific problem, we know that
+r = .04 and n = 1, so let's just plug those numbers in now to simplify
+things:
+
+ F = P * 1.04^t
+
+Here's how were going to go about solving this problem.  We'll look at
+option 1 and determine the future value of both of those payments in
+10 years.  Why 10 years?  Option 2 has a payment in 10 years, so we
+need to go that far in to the future.  Then we'll go back to option 2
+and figure out what those payments have to be in order to equal the
+future value of option 1.  It sounds like a lot, but we'll take it
+step by step.
+
+We begin with option 1.  You pay $400 in 4 years and $700 in 7 years.
+ Let's take each payment in turn.  If we're looking at the future
+value in 10 years, the $400 payment will have 10 - 4 = 6 years to
+grow.  If we apply the compound interest formula from above, we get
+the future value:
+
+ F_1 = 400 * 1.04^6
+
+I use the subscript 1 to indicate this is the future value of the
+first payment.  We can do the same thing with the 2nd payment (it has
+10 - 7 = 3 years to grow):
+
+ F_2 = 700 * 1.04^3
+
+If we put them together, we get the total future value of both
+payments in 10 years:
+
+ F = F_1 + F_2
+   = 400 * 1.04^6 + 700 * 1.04^3
+   = 1293.53
+
+OK, so there's our goal.  Now let's work on option 2.  You make a
+payment of $X after 5 years and $3X after 10 years.  Again, we take
+each payment in turn.  The first payment has 5 = 10 - 5 years to grow
+so its future value is:
+
+ F_1 = X * 1.04^5
+
+The 2nd payment has 10 - 10 = 0 years to grow so its future value is:
+
+ F_2 = 3X * 1.04^0
+     = 3X
+
+So the total future value of both payments for option 2 is:
+
+ F = F_1 + F_2
+   = X * 1.04^5 + 3X
+
+So now you have 2 formulas for the future value in 10 years.  If you
+set them equal, you'll have 1 equation and 1 unknown (X) for which you
+can solve.  That will tell you your payments for option 2.
+
+Let me know if you have any more questions about this interesting problem.
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,45 @@
+ThreadNum: 567099
+Subject: Re: Geometry interpretion about  the intercep equation of plane
+To: mathewzhao@hotmail.com (mathewzhao)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 09:12:19
+Sent: yes
+
+
+As mathewzhao wrote to Dr. Math
+On 08/16/2004 at 06:04:43 (Eastern Time),
+>[Question]
+>Hi!Dr. Math
+>   When I learned Geometry n-spaces,I saw the equation of plane:
+>     x/(a)+y/(b)+z/(c)=1
+>   I know a(b,c) stands for the intercept,however,I feel strange 
+>which magic makes x/(a)+y/(b)+z/(c) equal 1 on the beam? So I regard 
+>x/(a) as a whole and want to know its Geometry interpretion.In other 
+>words,How can I guess the result from figure?
+>   Could you give me a hand?
+>mathew 
+>      
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Mathewzhao,
+
+There's no magic.  The most general form of the equation of a plane is
+A*x+B*y+C*z+D=0.  If we divide both sides by -D we find
+
+(-A/D)*x + (-B/D)*y+(-C/D) = 1.
+
+If we let a=-D/A, etc, then the equation becomes
+
+x/a + y/b + z/c = 1.
+
+If we set, for example, y=z=0, we are asking where the plane intersects the x-axis (on 
+which y=z=0).  So,  x/a=1 and x=a is the place, the x-intercept.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,46 @@
+ThreadNum: 567982
+Subject: Re: elementary exponential problem! 
+To: dhinesh_dravid5@hotmail.com (dhinesh)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:29:47
+Sent: yes
+
+
+As dhinesh wrote to Dr. Math
+On 08/21/2004 at 03:01:39 (Eastern Time),
+>[Question]
+>1^0=1.Also 1^1=1....and so on.why doesnt it imply that 1=0 or any 
+>number equal to any number..what is the flaw...im unable to tell my 
+>friends..pleez help
+>
+>[Difficulty]
+>Elucidate on the necessary conditions required to equate 2 poweres 
+>when the bases are equal..
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Dhinesh!
+
+The flaw is that to draw that conclusion, you have to divide by
+zero, and that is not allowed.
+
+If
+
+   a^x = a^y,
+
+then, taking logarithms of both sides, you get
+
+   log(a^x) = log(a^y),
+   x*log(a) = y*log(a).
+
+Now you want to divide both sides by log(a).  This is fine unless
+either log(a) is undefined (that is, a isn't positive) or log(a) is
+zero (that is, a = 1).
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

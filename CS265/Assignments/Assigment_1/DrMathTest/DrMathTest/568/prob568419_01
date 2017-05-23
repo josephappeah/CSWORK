@@ -1,0 +1,68 @@
+ThreadNum: 568419
+Subject: Re: Converting Bytes into Megabytes
+To: b-j-c@b-j-c.co.uk (Brynn-Dafydd Tudor)
+From: Doctor Vogler
+TimeStamp: 08/24/2004 at 09:41:39
+Sent: yes
+
+
+As Brynn-Dafydd Tudor wrote to Dr. Math
+On 08/24/2004 at 08:05:04 (Eastern Time),
+>[Question]
+>I am trying to work out how much space I have left on my webpage.  I 
+>have used 24721 bytes but need to convert this into Megabytes to 
+>then hopefully work out how much space I have left.
+>
+>I have a total space of 100 Megabytes that I can use and have used 
+>24721 Bytes.  How would I work all this out?
+>
+>Much thanks.
+>
+>Yours very confused
+>
+>
+>
+>[Difficulty]
+>The converting
+>
+>[Thoughts]
+>I divided 24721 by 8 then that answer I divided by 1024 and same 
+>again with that answer getting 0.0029469 which is most confusing.
+
+Hi Brynn-Dafydd,
+
+Thanks for writing to Dr Math.  You have plenty of space left.  Some
+people use "megabyte" to mean one million bytes.  Others use it to
+mean 2^20 or
+
+  1,048,576
+
+bytes (which is slightly more than one million).  So you have at least
+one hundred million bytes of space
+
+  100,000,000
+
+and you have used
+
+  24,721
+
+bytes, which is less than a tenth of one percent of your available
+space, less than a fortieth of one percent in fact.  To get the number
+of megabytes that 24,721 bytes is, divide by 1,000,000 or 1,048,576,
+and you will find that you have used about 
+
+  0.024721
+
+or
+
+  0.023576
+
+of a megabyte, much less than one megabyte.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

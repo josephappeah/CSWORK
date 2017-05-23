@@ -1,0 +1,86 @@
+ThreadNum: 566258
+Subject: Re: bracket tournaments
+To: rsampsell@alltel.net (Roger S)
+From: Doctor Douglas
+TimeStamp: 08/10/2004 at 12:06:41
+Sent: yes
+
+
+As Roger S wrote to Dr. Math
+On 08/10/2004 at 02:22:07 (Eastern Time),
+>[Question]
+>How many different bracket combination/results can there be for a 8 
+>team/player bracket tourny? 
+>
+>How about if all combinations have same scores, but are placed in 
+>different brackets?
+>
+>If each players plays three games unless they are elimanted (beaten) 
+>by their opponent.  How many different combinations are possible?
+>
+>[Difficulty]
+>The elimination process.... its also late, which may be why I cant 
+>think right now)
+>
+>1st Round 1-2, 3-4, 5-6, 7-8
+>2nd Round     1-4     5-8
+>3rd Round         1-8       
+>4th Rd (Winner)    1          This is ONE scenerio
+>
+>1st Round 1-2, 3-4, 5-6, 7-8
+>2nd Round     1-4     5-8
+>3rd Round         1-8       
+>4th Rd (Winner)    8          This is another scenerio
+>
+>1st Round 4-6, 3-1, 5-7, 2-8
+>2nd Round     4-3      5-8
+>3rd Round         3-8               
+>4th Rd (winner)    8         This is another scenerio
+>
+>1st Round 4-6, 3-1, 5-7, 2-8
+>2nd Round     4-3      2-8
+>3rd Round         3-8               
+>4th Rd (winner)    8         This is another scenerio
+>
+>
+>
+>
+>1st Round  8-3  2-6  4-7  5-1
+>2nd Round     8-6      7-1
+>3rd round          6-7                     
+> 4th Rd (winner)    7             This is another
+>
+>How many more scenerios can their be?
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>[Thoughts]
+>(8x7)x(4x3)x(2x1)
+>
+>I am confused on how to figure this problem.
+
+Hi Roger.
+
+thanks for writing to the Math Forum.  If you fix the teams in 
+the bracket before counting (i.e. the starting teams are
+({1 vs 2} vs {3 vs 4}) vs ({5 vs 6} vs {7 vs 8}), then there
+are seven games, each of which can have two possible outcomes.
+Thus there are 2 x 2 x 2 x 2 x 2 x 2 x 2 = 128 ways for this
+tournament to get played out.
+
+If you allow the teams to fill into the bracket in different
+ways, then you'll have to be more careful about what is a different
+scenario:  certainly (1 v 2) v (3 v 4) is different from (1 v 3) v
+(2 v 4) because the teams meet different opponents in the first
+round, but is (1 v 2) v (3 v 4) different from (3 v 4) v (2 v 1)?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

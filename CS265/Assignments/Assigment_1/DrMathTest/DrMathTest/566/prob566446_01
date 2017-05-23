@@ -1,0 +1,50 @@
+ThreadNum: 566446
+Subject: Re: on number theory
+To: jmanxano@yahoo.com (jake)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 14:35:26
+Sent: yes
+
+
+As jake wrote to Dr. Math
+On 08/11/2004 at 02:14:50 (Eastern Time),
+>[Question]
+>is there a formula for the sequence, 1,11,111,1111,11111,...and so 
+>on?
+>
+>[Difficulty]
+>if you look at the difference of two adjacent terms, you get powers 
+>or factors of 10. but then, it seems that there is no definite 
+>formula for finding the nth term of the sequence.
+>
+>[Thoughts]
+>|1-11|=10    => 10^1
+>|11-111|=100 => 10^2
+>|111-1111|=1000=>10^3
+>
+>it is easy to use summation formula on this, summation(10^n) but 
+>using a formula for finding the nth term is the one im looking for. 
+>please help me on this one. thanks a lot.
+>
+>
+>
+>
+>
+
+Hi Jake,
+
+Thanks for writing to Dr Math.  Notice that
+
+  10^n - 1 = 9999...9999
+
+So I think the formula you want is
+
+  (10^n - 1)/9.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

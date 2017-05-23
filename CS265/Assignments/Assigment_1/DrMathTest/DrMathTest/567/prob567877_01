@@ -1,0 +1,40 @@
+ThreadNum: 567877
+Subject: Re: Permutations
+To: currysauce@hotmail.com (pete)
+From: Doctor Anthony
+TimeStamp: 08/20/2004 at 15:39:11
+Sent: yes
+
+
+As pete wrote to Dr. Math
+On 08/20/2004 at 09:39:51 (Eastern Time),
+>[Question]
+>How many ways can the letters of the word APPLE be arranged
+>
+>i) in a row?
+
+        5!
+       ---  = 60
+        2!
+
+>ii) so that a vowel comes first and last
+
+          3!
+   = 2 x ---- = 2 x 3 = 6 
+          2!
+
+
+>
+>[Difficulty]
+>just the working, i may be confused
+>
+>[Thoughts]
+>i) 5! / 2! ?
+>
+>ii) 2!3! ?
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

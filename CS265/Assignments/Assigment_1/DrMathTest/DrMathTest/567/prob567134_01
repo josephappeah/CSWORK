@@ -1,0 +1,39 @@
+ThreadNum: 567134
+Subject: Re: (no subject)
+To: kim.steel@strath.ac.uk (Kim)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 14:31:42
+Sent: yes
+
+
+As Kim wrote to Dr. Math
+On 08/16/2004 at 13:40:57 (Eastern Time),
+>[Question]
+>Hi, I have uni exam tomorrow and am trying to do a past paper but 
+>lecturer cannopt hand out the answers or solutions of any type so i 
+>was wondering if you could help
+>
+>I have to:
+>Find the coefficient of the x^16 term (as an integer) in the binomial 
+>expansion of (x^2 + 3/x)all to the power 14
+>
+>[Difficulty]
+>Dont want to use pascals triangle - to long winded and not enough 
+>time in exam
+>
+>[Thoughts]
+>I know you can use the binomial expansion by pascals triangle but it 
+>has to be done a different way as i dont have that amount of time in 
+>the exam
+
+Hi, Kim.
+
+You don't need to actually set up Pascal's triangle.  You can use the
+formula for 'n choose k' to generate any particular coefficient
+directly, as explained in our FAQ on Pascal's triangle...
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

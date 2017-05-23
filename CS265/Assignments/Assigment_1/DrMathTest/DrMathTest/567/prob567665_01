@@ -1,0 +1,49 @@
+ThreadNum: 567665
+Subject: Re: derivatives
+To: kenneth.hurd@navy.mil (Ken)
+From: Doctor Jerry
+TimeStamp: 08/19/2004 at 09:24:31
+Sent: yes
+
+
+As Ken wrote to Dr. Math
+On 08/19/2004 at 08:00:59 (Eastern Time),
+>[Question]
+>x = f(y)     x is a function of y
+>y = g(z)     y is a function of z 
+>
+>what is the meaning and usage of dx/dz?
+>
+>is there another notation that should be used?
+>
+>[Difficulty]
+>something is indirect or not connected
+>
+>[Thoughts]
+>I tried to relate variables x y and z
+
+Hello Ken,
+
+If you substitute y=g(z) in x=f(y), you will find x=f(g(z)).  So, x is a function of z.  
+Depending upon f and g, the derivative dx/dz exists and is equal to
+
+dx/dz = (dx/dy)*(dy/dz).
+
+Another way of expressing this is in functional notation:
+
+Let
+
+h(z) = f(g(z)).
+
+Then
+
+h`(z) = f`(g(z))*g`(z).
+
+The first factor, f`(g(z)), is to be understood this way.  Differentiate f(y) with respect to y; 
+afterwards, replace y by g(z).
+
+g'(z) is just the derivative of g with respect to z.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

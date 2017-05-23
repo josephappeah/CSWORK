@@ -1,0 +1,116 @@
+ThreadNum: 568345
+Subject: Re: calculating sample sizes given an average
+To: laisaac@uvic.ca (Leanne)
+From: Doctor Pete
+TimeStamp: 08/24/2004 at 06:57:48
+Sent: yes
+
+As Leanne wrote to Dr. Math
+On 08/23/2004 at 20:30:22 (Eastern Time),
+>[Question]
+>Hello:
+>In a particular class, a teacher is exactly 48 years old.  The 
+>average age of all the students is exactly 15 years.  If the average 
+>age of all the students and teacher together is exactly 18 years, how 
+>many students are in this class?
+>
+>[Difficulty]
+>This is confusing because we are dealing with an exact age and an 
+>average and we have to back calculate.
+>
+>[Thoughts]
+>I was thinking that 48 + X = 18 and then we had to solve for X and 
+>then divide by 15.  If so, that means 48-18 = X, 30 = X.
+>if 30 / X = 15, then 30/15 = X, hence x=2
+>I think this is the right answer but I can't explain what I'm doing!
+
+Leanne,
+
+The average A of a set of values is equal to the sum of the values T, divided by the number 
+of values N.  In other words,
+
+     Average = Total/Number,
+
+or
+
+     Average * Number = Total,
+
+or
+
+     A * N = T.
+
+So for instance, we know the average of the students' ages is 15, but we don't know how 
+many students there are.  So we have
+
+     15N = T.
+
+The sum of everyone's age in the room is T + 48, since the teacher is the only additional 
+person not counted among the students.  But the average of everyone's age in the room is 
+18, and the number of people in the room is N + 1, so
+
+     18(N+1) = T + 48.
+
+It follows that
+
+     18(N+1) = 15N + 48,
+
+or
+
+     3N = 48 - 18 = 30,
+
+from which we obtain N = 10.
+
+Looking at your work, I need to point out a few things that might help you with word 
+problems in general:  First, identify the quantity you are solving for.  In this case, it is the 
+number of students.  Second, represent this quantity by a variable.  In my solution, I used 
+the letter N.  Third, identify other quantities in the problem, and relationships between 
+these and the variable to be solved for.  Finally, use algebra to find the solution of the 
+resulting equation(s).
+
+So there's something not quite correct in the equation 48 + X = 18.  The variable X can 
+only mean the sum of the students' ages, because this is the only quantity that can be 
+added to the teacher's age, according to the question.  But this leads to a problem because 
+the left-hand side describes the total sum of everyone's ages, whereas the right-hand side 
+describes the average of everyone's ages.  The right-hand side needs to be multiplied by 
+the total number of people in the room, which is one more than the number of students.  
+But the number of students is equal to the sum of the students' ages, which is X, divided 
+by the average of their ages, which is 15.  Thus your equation should read
+
+     48 + X = 18(1 + X/15),
+
+the solution of which gives
+
+     48 + X = 18 + 18X/15,
+or
+     30 + X = 18X/15,
+or
+     30 = (18/15 - 1)X
+or
+     30 = (3/15)X
+or
+     30 = X/5
+or
+     X = 150.
+
+So the sum of the students' ages is 150, and dividing by their average age of 15 gives the 
+number of students, which is 150/15 = 10.  In my opinion this is somewhat more 
+complicated to set up and solve, as the variable X you are solving for does not represent 
+the desired quantity.  In my solution, I used more than one variable, but only because I 
+was using the "ANT" approach which helps to make clear the relationship between 
+average, number, and total.
+
+Indeed, if you follow the step-by-step guideline for solving word problems, you will avoid 
+confusion because you will always know what the variable(s) stand for.  When you arrive at 
+an answer, you will be able to check to see if it makes sense:  X = 2 is clearly meaningless 
+because the sum of the students' ages cannot be 2.  Also, be careful to avoid 
+miscalculations; in solving 48 + X = 18, it is obvious that X must be negative, since 48 > 
+18.  But you had found X = 30, when it should be X = -30.  This should immediately alert 
+you to an improper setup, since no variable in this problem should be negative, as we are 
+dealing with ages.
+
+Keep practicing--word problems are often challenging, but do become easier with 
+experience.
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

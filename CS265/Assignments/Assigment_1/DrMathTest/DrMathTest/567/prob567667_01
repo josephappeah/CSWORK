@@ -1,0 +1,51 @@
+ThreadNum: 567667
+Subject: Re: Permutation or Combination?
+To: brice5@flash.net (Melissa)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 09:29:10
+Sent: yes
+
+
+As Melissa wrote to Dr. Math
+On 08/19/2004 at 08:54:57 (Eastern Time),
+>[Question]
+>In a math class with 15 students, the instructor assigned probles 
+#1 
+>through #12. The instructor wants problems #1,#3, and #5 put on the 
+>board by three different students. In how many ways can the 
+>instructor assign the problems to be put on the board?
+
+Your reasoning is correct.
+
+There is no change in the probability configuration if the 
+instructor first allocates question 1, then 3 then 5 to three 
+different students.  With 15 students to choose from this can be 
+done in P(15,3) =  2730 ways.
+
+
+>
+>[Difficulty]
+>What part of the information that my teacher is giving me is 
+useless? 
+>He is only asking about numbers 1,3 and 5 so I need to work with 15 
+>students and those three problems and not be concerned about 1-12 
+so 
+>that would make it a permutation. But when I went to get help at 
+the 
+>school math lab one of the helpers thinks that it should be the 
+>numbers 1-12 and only putting 3 on the board. But I think that is 
+>wrong. So I wanting to make sure.
+>
+>[Thoughts]
+>There are numbers 1,3and 5 to be put on the board. After the 
+teacher 
+>chooses 1 of the 15 students he only has 14 choices left for the 
+next 
+>problem and after he chooses the second choice he only has 13 
+choices 
+>left so...15*14*13= 2730
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

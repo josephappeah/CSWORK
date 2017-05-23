@@ -1,0 +1,62 @@
+ThreadNum: 568631
+Subject: Re: conditional probability 
+To: Bigbadsnoopy1@yahoo.com (Mike )
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 11:37:22
+Sent: yes
+
+
+As Mike  wrote to Dr. Math
+On 08/25/2004 at 03:19:36 (Eastern Time),
+>[Question]
+>The number of accidents that a person has in a given year is a 
+>poisson random variable with mean lambda.  However, suppose that 
+the 
+>value of lambda changes from person to person.  The proportion of 
+the 
+>population having a value of lambda less than x is equal to 1-exp(-
+x).
+>What is the conditional probability that a person chosen at random 
+>will have 3 accidents in a given year, given that he had no 
+accidents 
+>the preceding year?
+
+
+With a Poisson variable the number of events in a given period is 
+independent of what happened in preceding intervals of time. 
+
+    P(3 accidents in 2nd year and 0 accident in 1st year)
+    -----------------------------------------------------
+              P(no accident in 1st year)
+
+
+Since the number of accidents in second year is independent of the 
+number in first year this reduces to
+
+   P(3 accidents in 2nd year)
+
+If the average number of accidents per year is x then you require
+
+  =  x^3/3! . e^(-x)
+
+
+>
+>[Difficulty]
+>Let X = # of accidents in a given year.
+>Let Y = # of accidents in the preceding year.
+>The difficulty for me is this, lets make things simpler, suppose 
+that 
+>lambda does not change, i have problem computing P(X=3|Y=0)
+=          
+>P(x=3,Y=0)/P(Y= 0), I don't know how to compute P(X=3,Y=0). 
+>We don't know if X and Y are Independent. X, and Y are Poisson 
+Random 
+>variables.  Thanks
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

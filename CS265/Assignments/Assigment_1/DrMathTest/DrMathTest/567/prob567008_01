@@ -1,0 +1,44 @@
+ThreadNum: 567008
+Subject: Re: i have to simplify   -4m(-7n)+(3d)(-4c)
+To: skyangel91m@aol.com (meagan)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 10:01:57
+Sent: yes
+
+
+As meagan wrote to Dr. Math
+On 08/15/2004 at 12:08:33 (Eastern Time),
+>[Question]
+>simplify -4m(-7n)+(3d)(-4c)
+>
+>[Difficulty]
+> dont knoe how i would simplify this because there are to many 
+>letters and i find it very confusing i jus dont know where to start.
+>
+>[Thoughts]
+>-4m(-7n)+(3d)(-4c)
+>28mn + -12dc that is what i think the answer would be
+
+Hi Meagan,
+
+that's an excellent start.  Note that it's simpler to write it as
+
+  28mn - 12dc
+
+Now, let's ask if these two terms have anything in common.  What
+occurs to me is that both 28 and 12 are even numbers, so they're both
+divisible by 2.  This means that
+
+  28mn - 12dc = 2*14mn - 2*6dc
+
+              = 2(14mn - 6dc)
+
+Now, do 14 and 6 have any common divisors?  If so, you can factor them
+out as well, and keep going until there are no common divisors of the
+two terms. 
+
+Give it a try, and let me know what you come up with, okay? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

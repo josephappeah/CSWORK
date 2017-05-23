@@ -1,0 +1,53 @@
+ThreadNum: 567111
+Subject: Re: turning Percentages decimal points
+To: ahoney_bee@hotmail.com (melissa)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 11:57:59
+Sent: yes
+
+
+As melissa wrote to Dr. Math
+On 08/16/2004 at 09:50:50 (Eastern Time),
+>[Question]
+>like 3/16 how do i turn it in to a decimal point what is the formula 
+>to get the answer
+>
+>[Difficulty]
+>i have not turning Percentages decimal points in a long time and have 
+>forgot 
+>
+>[Thoughts]
+>
+
+Hi Melissa,
+
+Note that a fraction is just a division that we haven't done yet.  For
+example, 
+
+  3/4
+
+has the same meaning as 
+
+     __
+  4 ) 3
+
+so the way to convert from a fraction to a decimal is to go ahead and
+divide the numerator by the denominator:
+
+      0.75
+     _____
+  4 ) 3.00
+      2 8
+      ---
+        20
+        20
+        -- 
+         0
+
+So 3/4 is the same as 0.75.  
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

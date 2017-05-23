@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [[ $# = 2 ]] ; then
+
+	for f in *$1; do 
+
+	  filename=${f/%$1/$2};
+	 
+	 cp "$f" "$filename"; 
+	 rm "$f";
+	 
+	done;
+else
+ echo "Eorror not enough arguments or incorect argument";
+fi
+
+
+
+
+
+
+
+

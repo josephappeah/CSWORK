@@ -1,0 +1,41 @@
+ThreadNum: 567872
+Subject: Re: setting up an algebraic equation
+To: kvanwag5@cfl.rr.com (Jodi)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:17:44
+Sent: yes
+
+
+As Jodi wrote to Dr. Math
+On 08/20/2004 at 09:04:18 (Eastern Time),
+>[Question]
+>Peter takes 15 minutes longer to mow the lawn by himself than 
+>Charles does.  Together they can mow the lawn in 18 minutes.  How 
+>long would it take Charles to mow the lawn by himself?
+>
+>[Difficulty]
+>I am not sure how to set up the equation
+>
+>[Thoughts]
+>I have tried to work it out as one equation and then as simultaneous 
+>equations and just can't figure it out.
+
+Hello Jodi,
+
+Let P be the time (in minutes) Peter takes to  mow the (entire) yard and C the time for 
+Charles.
+
+The first sentence says that P = C + 15.  For the second sentence, we note that Peter can 
+do 1/P of the yard in one minute and Charles can do 1/C in one minute.  Together they 
+can do 1/P + 1/C in 1 minute.  In 18 minutes they get the whole job done, that is,
+
+18(1/P+1/C) = 1.
+
+Now you have two equations in two unknowns.  It has two solutions but only one solution 
+in which both P and C are positive.
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

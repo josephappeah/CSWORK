@@ -1,0 +1,49 @@
+ThreadNum: 566641
+Subject: Re: How to interpret the negative sign
+To: eecolucci@tva.gov (Edward Colucci)
+From: Doctor Luis
+TimeStamp: 08/12/2004 at 09:14:02
+Sent: yes
+
+
+As Edward Colucci wrote to Dr. Math
+On 08/12/2004 at 08:48:30 (Eastern Time),
+>[Question]
+>What's the mathamatical difference between
+>-(X)**2  and -X**2 ?
+>
+>[Difficulty]
+>How do you treat the negative sign?
+>
+>[Thoughts]
+>X=4
+>So -(X)**2 = -(4)**2 = -(4)(4) = -16
+>
+>What about -X**2 ?
+>I would want to say -X**2 = -4**2 = (-4)(-4) = 16
+>
+>Is this correct?
+
+
+Hi Edward,
+
+ -(X)**2 and -X**2 mean the same thing. the ** is always applied
+before any + or - operation (since exponentiation is essentially
+multiplication, and multiplications always happen before additions).
+
+So, in your case X=4, if actually meant to write (-4)(-4) you
+would have to write that as (-4)**2, NOT as -4**2, which equals
+-(4)(4) = -16.
+
+If you actually meant (-X)(-X), you should ALWAYS write that
+as (-X)**2  [or as (-X)^2]. You need the parenthesis there
+to force the minus to be applied first, i.e. *before* the 
+exponentiation.
+
+I hope this clears any confusion!
+
+Let us know if you have any more questions.
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

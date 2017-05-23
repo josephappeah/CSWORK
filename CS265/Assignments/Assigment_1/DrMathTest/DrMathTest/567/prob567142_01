@@ -1,0 +1,40 @@
+ThreadNum: 567142
+Subject: Re: How do I refer to modulo math?
+To: nathan-s@telus.net (Nathan)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 14:25:29
+Sent: yes
+
+
+As Nathan wrote to Dr. Math
+On 08/16/2004 at 14:19:37 (Eastern Time),
+>[Question]
+>How do I refer to returning the remainder of the division of two 
+>integers? For example: "Divide seven into three" or "Divide this 
+>integer".
+>
+>[Difficulty]
+>mainly the english part, dictionary.com wasn't too mutch of a help. I 
+>have the basiscs down on modulo math, but I don't know how to 
+>communicate it :P
+>
+>[Thoughts]
+>I'm thinking it would be something like "Modify this integer", but 
+>that sounds to generic, and could be mis-understood.
+
+Hi Nathan,
+
+Thanks for writing to Dr Math.  If you are speaking to a
+mathematician, then you can say "the smallest nonnegative residue of 7
+mod 3," or sometimes just "7 mod 3."  If you are speaking to a
+computer programmer, then you can almost certainly just say "7 mod 3."
+ If you are speaking to someone else, then you should probably say
+"the reminder when you divide 7 by 3."
+
+Does that answer your question?  If you have any questions about this
+or need more help, please write back, and I will try to offer further
+suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

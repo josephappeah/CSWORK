@@ -1,0 +1,38 @@
+ThreadNum: 566622
+Subject: Re: angle of a line within a circle
+To: HarisKhan@jerichoschools.org (Haris)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 14:15:12
+Sent: yes
+
+
+As Haris wrote to Dr. Math
+On 08/12/2004 at 03:04:49 (Eastern Time),
+>[Question]
+>My problem is a little difficult to explain but here it goes. I have 
+>a point on a grid (0,0). And i make another point at (4,5) that 
+>creates the line segment.I need the know the angle of that line if 
+>the whole thing was wrapped in a circle. 
+>
+>[Difficulty]
+>Finding out a set formula for this
+>
+>[Thoughts]
+>My friend showed me this problem because he needed to code this for a 
+>program, since i couldnt figure out a formula. I doubt there could 
+>even be a formula for this but then again I'm not great at geometry
+
+Hi Harris,
+
+You can only have an angle _between_ two things.  Do you mean the
+angle between the line segment and the x-axis?  To find that angle,
+you'd use trigonometry:
+
+  Trigonometry in a Nutshell
+  http://mathforum.org/library/drmath/view/53942.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

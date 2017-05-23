@@ -1,0 +1,48 @@
+ThreadNum: 567273
+Subject: Re: Surface area of rectangular prism, equation 
+To: kbgirl@bellsouth.net (Kathryn Boyuka)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:35:47
+Sent: yes
+
+
+As Kathryn Boyuka wrote to Dr. Math
+On 08/17/2004 at 07:58:54 (Eastern Time),
+>[Question]
+>Write the formula for surface area of a rectangular prism.
+>We have expressed the formula as
+>2(l+w)+2(l+h)+2(h+w)
+>is this correct? I'm a mom trying to help 8th grader and it's been a 
+>long time!!!
+>
+>[Difficulty]
+>Wording of this problem in her book.
+>
+>[Thoughts]
+>
+
+Hello Kathryn,
+
+You can see
+
+http://mathforum.org/dr.math/faq/formulas/faq.prism.html
+
+The "1" you see there is intended to be a small "ell."    I'll use L for the "height" of the 
+prism.  So, letting S be the LATERAL SURFACE AREA,
+
+S = L*P,
+
+where P is the perimeter.  In this case P = 2W+2B, where W and B are the width and 
+breadth of the rectangular base.
+
+If the prism is standing on its rectangular base, then each  base is W*B.  So,
+
+total surface area = 2W+2B+2W*B.
+
+I may not have understood exactly what a rectangular prism is.  I took it as the bases are 
+rectangles.  
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,34 @@
+ThreadNum: 568423
+Subject: Re: d^2/dx^2
+To: amy_c20012001@yahoo.com.cn (Chao)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 09:46:33
+Sent: yes
+
+
+As Chao wrote to Dr. Math
+On 08/24/2004 at 08:34:53 (Eastern Time),
+>[Question]
+>Find d^2y/dx^2 in terms of x and y for 1-xy=x-y
+>
+>[Difficulty]
+>I don't understand the question and don't know where to start.
+>
+>[Thoughts]
+>
+
+Hello Chao,
+
+Implicit differentiation.  Imagine that y is a function of x, even if you don't know it, 
+explicitly. Differentiate with respect to x.
+
+0 - 1*y - x*y' = 1 - y'
+
+Solve this for y'.
+
+Afterwards, differentiate both sides with respect to x.  Ocassionally, you'll come to a y'.  
+You can replace y' by the result you found above.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

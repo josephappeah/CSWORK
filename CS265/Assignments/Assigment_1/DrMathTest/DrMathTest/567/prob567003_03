@@ -1,0 +1,45 @@
+ThreadNum: 567003
+Subject: Re: fifth power of a number
+To: johngalv@virgilio.it (Giovanni)
+From: Doctor Douglas
+TimeStamp: 08/18/2004 at 18:48:05
+Sent: yes
+
+
+As Giovanni wrote to Dr. Math
+On 08/15/2004 at 10:18:40 (Eastern Time),
+>[Question]
+>I wonder if someone can help me in finding the solution for a tricky 
+>problem.
+>Some years ago a coworker did compute the fifth power of a number 
+>just in a matter of seconds.
+>The number had to be less than one hundred.
+>I’m trying to find an algorithm but have no viable result (and the 
+>coworker has gone).
+>I only found a solution for the inverse, that is find the number 
+>given the power.
+>Could you please suggest the solution or give some direction?
+>Many thanks 
+>
+>Saluti, Giovanni
+>
+>[Difficulty]
+>Unable to find a viable algorithm or recurrence
+>
+>[Thoughts]
+>Just found that the last digit of the result is equal to the the 
+>last digit of the number
+
+Hi Giovanni.
+
+thanks for writing to the Math Forum.  After consulting some other
+people I have still not found an algorithm for quickly evaluating 
+the fifth power of a number (between 1 and 100).  However, there
+are numerous references to extracting the fifth ROOT (of a perfect
+fifth power between 1 and 100000.  The method is fairly straight-
+forward to discover, once you have identified the units digit as the
+same in both k^5 and k.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

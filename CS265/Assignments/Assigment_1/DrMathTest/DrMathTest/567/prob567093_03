@@ -1,0 +1,40 @@
+ThreadNum: 567093
+Subject: Re: mean valur theorm
+To: wallystudent@yahoo.com (Wally)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 11:34:38
+Sent: yes
+
+
+As Wally wrote to Dr. Math
+On 08/16/2004 at 09:45:00 (Eastern Time),
+>Hi,
+>Thank you so much for your respond. I really did search the archive 
+>and found nothing about it. I also know how to prove this theorem in 
+>two different ways, but I couldn't work out this problem while I was 
+>helping out my students. Please help me out....
+>
+>Wally
+
+Hi Wally,
+
+The Fundamental Theorem of Calculus says that if f(x) is continuous
+on [a,b], then
+ 
+          x
+         /
+  F(x) = | f(t) dt 
+         /
+         a
+
+is differentiable on (a,b), and for any c in (a,b),
+
+   F'(c) = f(c),
+
+so F(x) is an antiderivative of f(x).
+
+The archived answer gives a proof of this result.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

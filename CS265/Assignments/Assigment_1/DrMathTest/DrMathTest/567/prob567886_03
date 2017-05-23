@@ -1,0 +1,47 @@
+ThreadNum: 567886
+Subject: Re: intergral of ln(1+sqrt(x))
+To: keanfoster@comhem.se (Kean)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 07:27:47
+Sent: yes
+
+
+As Kean wrote to Dr. Math
+On 08/21/2004 at 04:34:02 (Eastern Time),
+>Hi doc,
+>
+>I get the substitution but I am not sure how to continue by parts 
+>ie, what should the intergral look like after the sub., surely it 
+>can't be ln(u) as this would then ignore the second function! I 
+>would appreciate another pointer.
+>
+>Regards Kean
+
+Hello Ken,
+
+If u=1+sqrt(x), then du=dx/(2*sqrt(x)) and so the integral becomes
+
+2*int ( (u-1)*ln(u)*du )
+
+and then we can separate it into two integrals.  Actually, I think we can keep it as one.  
+Either way.  For the parts  
+
+int(U*dV) = U*V - int(V*dU)
+
+U=ln(u)
+
+dV=(u-1)*du
+
+dU=du/u
+
+V=(1/2)u^2 - u
+
+So,
+
+2*int ( (u-1)*ln(u)*du ) = 2 [ ln(U)*((1/2)u^2 - u) - int( ((1/2)u-1)du)
+
+Etc.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

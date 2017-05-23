@@ -1,0 +1,73 @@
+ThreadNum: 567558
+Subject: Re: partial fractions
+To: al1owusu@yahoo.co.uk (ALBERT)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 14:26:43
+Sent: yes
+
+
+As ALBERT wrote to Dr. Math
+On 08/18/2004 at 18:41:23 (Eastern Time),
+>[Question]
+>10-4x/(x^2+6)(x+1)
+>
+>[Difficulty]
+>i have solve it but i don't know if i am right
+>
+>[Thoughts]
+>10-4x/(x^2+6)(x+1)= A/(x^2+6)+B/(x+1)
+>
+>(x^2+6)(x+1)(10-4x)/(x^2+6)(x+1)= A(x^2+6)(x+1)/(x^2+6)+B(x^2+6)
+>(x+1)/(x+1)
+>
+>10-4x=A(x+1)+B(x^2+6)
+>
+>10-4x=(A+B)x+(A+6B)
+>
+>10=A+B
+>4X=(A+6B)
+
+Hi Albert,
+
+Thanks for writing to Dr. Math.  You haven't given values for A and
+B, so I would not consider the problem "solved" by what you have
+written.
+
+First, you are using an incorrect form.  The denominator x^2+6 is
+quadratic, so you must allow a linear denominator, not just a 
+constant:
+
+    10 - 4x       Ax + B     C
+  ------------ = ------- + -----
+  (x^2+6)(x+1)   x^2 + 6   x + 1   .
+
+Even if your earlier computations had been correct, when you go from
+
+>10-4x=(A+B)x+(A+6B)
+ to
+
+>10=A+B
+>4X=(A+6B)
+
+that is an error.  On the left side of the equation 
+
+>10-4x=(A+B)x+(A+6B)
+
+the constant term is 10, and the coefficient of x is -4, and the
+constant term on the right and the coefficient of x on the right side
+must equal those on the left, which gives
+
+   10 = A + 6B
+   -4 = A + B 
+
+instead of your equations, which still have a variable in them.
+You should obtain numbers for A,B, and C when you write the correct
+equations for these three variables.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

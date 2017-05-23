@@ -1,0 +1,41 @@
+ThreadNum: 567672
+Subject: Re: Can we say 'parameterise a function'
+To: jyneeng@yahoo.com (Jynee Ng)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:52:01
+Sent: yes
+
+
+As Jynee Ng wrote to Dr. Math
+On 08/19/2004 at 10:27:33 (Eastern Time),
+>When we solving a line integral in a vector field in 3D, we can 
+>parameterise the function to just one variable and solve the problem.
+>For example,
+>Vector F(x; y; z) = F1(x; y; z)i + F2(x; y; z)j + F3(x; y; z)k
+>to get the work done for the Vector F between two points, we can 
+>parameterise the Vector F and integrate separately with respect to 
+>x, y and z as follow (Note that Z = Integral):
+>Work Done =Z cF1(x; y; z)dx + F2(x; y; z)dy + F3(x; y; z)dz
+>
+>so in this way, we can solve the question by parameterization that 
+>is find the x representation in a variable (let's say 't') then find 
+>the y representation in 't' and also z representation in 't'. By 
+>doing in this way, we can simplify our work on integration and solve 
+>the problem easily. 
+>
+>My doubt is, can we say we are 'Parameterizing a Vector F given'?
+>
+>In another case, can we Parameterise a Function f(x, y, z)?
+>
+>Thanks in advance
+>
+>Regards,
+>Jynee Ng
+
+You are not parameterizing the function but rather parameterizing the
+curve (or line) over which you are taking the line integral.  Does
+that make sense?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

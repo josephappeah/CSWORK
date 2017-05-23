@@ -1,0 +1,53 @@
+ThreadNum: 566426
+Subject: Re: Work required to pump water
+To: felixsis3@hotmail.com (Aimee)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:27:13
+Sent: yes
+
+
+As Aimee wrote to Dr. Math
+On 08/10/2004 at 22:29:26 (Eastern Time),
+>[Question]
+>A cylindrical tank is full of water.  The tank looks like a soda can 
+>on its side.  The radius of each end is 1.5 m, and it is 6m long.  
+>There is a one meter high outlet at the very end and the very top of 
+>the "can."  Find the work required to pump the water out of the 
+>outlet.  
+>
+>[Difficulty]
+>I am having trouble setting up the integral to figure this out.  
+>
+>[Thoughts]
+>I think I need to set up an integral, evaluated from 0 to 3 (the 
+>diameter of the tank), of the weight of the water in the tank at any 
+>given point multiplied by the height the water is to be "lifted."  
+>What I have is that the distance lifted needs to be 4-x if x is 
+>defined as the height of the water level at any given moment.  The 
+>weight of the water is where I get stuck.  I try to calculate the 
+>volume of a "slice" of water that is perpendicular to the circular 
+>ends, so they look like rectangles.  Obviously the length of the 
+>slice is 6, the thickness is dx, but how do I define the width?  And 
+>am I going to have to define it differently if the level is below 
+>the halfway point rather than above?  Then I need to multiply the 
+>volume by 9.8 x 10^3 to get the weight.  
+>
+>Can you help?  Anything is appreciated.
+
+Hi Aimee,
+
+I'm a little confused by the description of the situation (in
+particular, where the outlet is located), but it sounds like you're on
+the right track.  
+
+Each slice of water will be rectangular.  The length of the rectangle
+will be the length of the tank.  The width of the rectangle will be
+the length of the chord across the circular cross-section of the tank
+at the given height.  To see how you'd go about representing that, try
+searching our archive for the keyword 'dipstick'.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

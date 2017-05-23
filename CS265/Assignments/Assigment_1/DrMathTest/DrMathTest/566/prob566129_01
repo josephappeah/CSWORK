@@ -1,0 +1,51 @@
+ThreadNum: 566129
+Subject: Re: I'm an old guy trying to build something.....
+To: catchem4@bellsouth.net (Don Hancock)
+From: Doctor Willae
+TimeStamp: 08/09/2004 at 09:28:45
+Sent: yes
+
+As Don Hancock wrote to Dr. Math
+On 08/09/2004 at 08:41:30 (Eastern Time),
+>[Question]
+>Can't remember how to find length of two sides of a right triangle 
+>when only length of hypot. is known. Pythagorean theor.?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+
+Don,
+I hate to be the bearer of bad news, but you can't do it.  At least
+not uniquely.  Suppose A is the length of 1 leg of your right
+triangle, B is the length of the other leg and C is the length of the
+hypotenuse.  Then the Pythagorean theorem tells us that:
+
+ A^2 + B^2 = C^2
+
+That's 3 variables.   If you know C, that still leaves 2 unknowns with
+only 1 equation.  So there are an infinite number of solutions.  We
+can rearrange Pythagoras's Formula to generate solutions, but they
+won't be unique.  Let's take a look at that:
+
+ B = sqrt(C^2 - A^2)
+
+Here, if you know the length of leg A, in addition to the hypotenuse,
+you can solve for the length of leg B.  Just remember that A has to be
+in the range (0, c).  You don't want to have a 0-length side, nor can
+you have a leg with length greater than or equal to the hypotenuse.
+
+In general, to "solve" a triangle (that is, to determine all the
+angles and sides), you need 3 pieces of information.  This is true for
+any triangle, not just right triangles.  Those 3 can be any
+combination of sides and angles EXCEPT 3 angles.  In the case of 3
+angles, you can only determine the ratio of the lengths of the sides.
+
+I'm sorry I couldn't help you further.  If you come up with another
+constraint on your triangle, let me know and we can work through that
+together.
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

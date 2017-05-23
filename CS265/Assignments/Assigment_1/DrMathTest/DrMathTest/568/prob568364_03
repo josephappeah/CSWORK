@@ -1,0 +1,67 @@
+ThreadNum: 568364
+Subject: Re: Probability  of a percentage 
+To: keblakeney@hotmail.com (Kent )
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 11:24:21
+Sent: yes
+
+
+Hi Kent,
+
+>Okay, my friend said that if something is 99% effective it will not 
+>work one out of one hundred times. 
+
+There's a joke I really like:  An American company subcontracted the
+manufacture of a part to a Japanese company, and specified a defect
+rate of 1 in 10,000.  When the order came in, it was accompanied by a
+note, saying "Here are the 100,000 parts you ordered.  For your
+convenience, we've packaged the defective parts separately."
+
+It's funny, of course, because that's not how probabilities work. If
+something is 99% defective, it means that if we run sets of 100 tests,
+on average we'll expect to find 1 failure per set.  Sometimes we'll
+find more than one.  Sometimes we won't find any.  Probability tells
+us what's likely to happen, but not what _will_ happen.
+
+If you already understood that, forgive me for emphasizing it.  A lot
+of people don't understand it.  
+
+>I want to find out at what trial 
+>it should statistically have more than a 50% chance of not 
+>happening.  Let me know if you can piont me in the right direction 
+>or if it still doesn't make sense.
+
+At _every_ trial, it has a 99% chance of succeeding, and a 1% chance
+of failing - assuming the trials are independent (i.e., what happens
+in one trial doesn't affect what happens in any of the others):
+
+  What makes events independent? 
+  http://mathforum.org/library/drmath/view/60767.html
+
+I think perhaps the question you want to ask is this:
+
+   If we start generating events, where each event has
+   a 99% probability of success, how many events will 
+   we have to generate before there is a 50% probability 
+   that AT LEAST ONE of the events is a failure? 
+
+This is something we can answer.  If we generate N events, the
+probability that we will have NO failures is 0.99^N.  So we want to
+know the value of N for which 
+
+  0.99^N < 0.5
+
+It turns out that 
+
+  0.99^69 < 0.5 < 0.99^68    
+
+so after 69 trials, there would be a better than 50% probability of
+one failure _somewhere_ in those 69 trials. 
+
+But still, on any given trial, the probability of success is 99%. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

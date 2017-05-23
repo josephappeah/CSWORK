@@ -1,0 +1,85 @@
+ThreadNum: 567414
+Subject: Re: 2nd order non-homogeneous differential equations
+To: toptech@edutron.ecorp.net (Martin)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 10:50:33
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/17/2004 at 23:29:35 (Eastern Time),
+>[Question]
+>Find the general solution of
+>
+>  y'' + n^2y = cos(mx)        where m and n are constant
+>
+>and the solutions satisfying the initial conditions,
+>
+>  y(0) = 1 and y'(0) = 0
+>
+>
+>
+>[Difficulty]
+>Integration and the constants.
+>
+>
+>[Thoughts]
+>I thought that if I could find two linearly independent solutions to 
+>the homogeneous case then I could used these two solutions and their 
+>Wronskian to find the solution that solved the initial value problem.
+>
+>I tried a few ideas out and basically found by observation that the 
+>d.e. 
+>
+>     y'' + Cy = 0
+>
+>can be solved with
+>
+>     C = 1 and y_1 = cos(x) 
+>or
+>
+>     C = 1 and y_1 = sin(x)
+>
+>I know of a theorem that gives the formula
+>
+>
+>   Y(x) = y2 * int[y1/W]dt - y1 * int[y2/W]dt
+>
+>Perhaps I can use this formalu to get the solution?
+>    
+
+Hi Martin,
+
+Thanks for writing to Dr Math.  You are right.  In fact, you should
+consider the functions
+
+  cos(nx)
+
+and
+
+  sin(nx)
+
+for the general case.  You can get this by considering the complex
+roots of the polynomial
+
+  y^2 + n^2 = 0.
+
+Now you just need a particular solution.  The general idea is to guess
+something similar to the form of the nonhomogeneous part, that is, the
+
+  cos(mx),
+
+so consider something like
+
+  a*cos(mx) + b*sin(mx)
+
+and see if you can find some constants a and b that will make this
+solution work.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

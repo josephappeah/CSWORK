@@ -1,0 +1,35 @@
+ThreadNum: 567146
+Subject: Re: Meaning of "on the order of". 
+To: davel158@comcast.net (David)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 16:39:09
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/16/2004 at 15:07:57 (Eastern Time),
+>[Question]
+>For the central limit theorem the difference beteween the sum of n 
+>idd random variables and n times their expected value is of the order 
+>of the square root of n? 
+>
+>[Difficulty]
+>I have an intuitive feeling about the meaning of this statement but 
+>don't know the excact meaning. I see it as a sort of speed of 
+>converergence, say proportional to the square root of n. Not very 
+>fast!
+>
+>[Thoughts]
+>
+
+Hi David,
+
+See also
+
+  http://mathworld.wolfram.com/CentralLimitTheorem.html
+
+for a detailed, technical description of the theorem.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

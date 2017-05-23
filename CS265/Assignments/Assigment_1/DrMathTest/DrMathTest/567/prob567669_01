@@ -1,0 +1,35 @@
+ThreadNum: 567669
+Subject: Re: Combinations
+To: brinda@celtycs-consulting.com (Ben)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 09:34:19
+Sent: yes
+
+
+As Ben wrote to Dr. Math
+On 08/19/2004 at 09:27:04 (Eastern Time),
+>[Question]
+>The trucks below are waiting to park at a depot.
+>
+>(There is picture of four different trucks parked one behind the 
+>other).
+>
+>The trucks must enter one at a time and park in a line, each behind 
+>another. In how many different ways can the trucks park?
+>
+>[Difficulty]
+>According to book I am using, the correct answer is 120. Since this 
+>is 5! and there are only four trucks, I am not sure how they have 
+>arrived at this answer. 
+>
+>[Thoughts]
+>
+
+I don't have the diagram, but perhaps there is an empty space and if 
+so the number of arrangements would be 5!.  If the empty space is in 
+a different position that constitutes a different arrangement.  
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

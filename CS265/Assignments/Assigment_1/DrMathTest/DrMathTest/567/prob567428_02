@@ -1,0 +1,57 @@
+ThreadNum: 567428
+Subject: Re: integration
+To: toptech@edutron.ecorp.net (martin)
+From: Doctor Fenton
+TimeStamp: 08/25/2004 at 09:15:39
+Sent: yes
+
+
+As martin wrote to Dr. Math
+On 08/18/2004 at 02:00:49 (Eastern Time),
+>[Question]
+>Evaluate the indefinite integral,
+>
+>     int[(2x-1)/(2x+1)]dx
+>
+>[Difficulty]
+>The method to use
+>
+>[Thoughts]
+>I tried integration by substitution with u = 2x+1, but found this 
+>didn't simplify the problem.
+>
+>I looked for a similar form in my textbooks extensive table of 
+>integrals. None have a form that seems to lend itself to this problem.
+>
+>I tried some algebraic manipulation to change the form of the 
+>question. that is, i tried variations with completeing the square and 
+>other variations using differences of two squares.
+>
+
+Hi Martin,
+
+Thanks for writing to Dr. Math.  The integrand is a rational function,
+but not a proper rational function, since the degree of the numerator
+is equal to the degree of the denominator.  In such a situation, you
+should always first make the rational function proper by carrying out
+the long division to obtain a polynomial plus a proper rational 
+function.  At worst, you will need to use Partial Fractions to 
+integrate the proper rational function, but in this case, that isn't
+necessary.  An algebraic trick also lets you avoid the explicit long
+division: write
+
+   2x - 1   2x + 1 - 1 - 1
+   ------ = --------------   .
+   2x + 1       2x + 1
+
+                   2
+          = 1 - ------
+                2x + 1   .
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,37 @@
+ThreadNum: 568191
+Subject: Re: Finding the center and radius of a circle
+To: jingles123@hotmail.com (LeAnn)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 08:38:27
+Sent: yes
+
+
+As LeAnn wrote to Dr. Math
+On 08/23/2004 at 00:49:21 (Eastern Time),
+>[Question]
+>Where do I start as I don't believe completing the square in this 
+>case will work.  I am supposed to find the center and radius of the 
+>circle described by the equation and graph each equation.  I was 
+>given X squared plus Y squared = 49
+>
+>[Difficulty]
+>Where do I start as I cannot complete the square?
+>
+>[Thoughts]
+>X + Y = 7
+
+Hello LeAnn,
+
+x^2+y^2=49
+
+has center (0,0) and radius 7.
+
+The general formula is
+
+(x-h)^2+(y-k)^2=r^2.
+
+This is the equation of a circle with center (h,k) and radius 4.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

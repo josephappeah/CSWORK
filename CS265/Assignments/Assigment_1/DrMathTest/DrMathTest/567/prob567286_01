@@ -1,0 +1,65 @@
+ThreadNum: 567286
+Subject: Re: Dividing a smaller number by a larger number
+To: Derek.finneran@acs-inc.com (Derek)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 15:17:56
+Sent: yes
+
+Hi, Derek.
+
+As Derek wrote to Dr. Math
+On 08/17/2004 at 11:02:33 (Eastern Time),
+>[Question]
+>1/2  How would you figure this out with out a calculator?
+>
+>[Difficulty]
+>How to go about this with out using a calculator
+>
+>[Thoughts]
+>possibility using decimals maybe.
+
+I'd hope you'd know by now that 1 divided by 2 is one-half, and that 
+the decimal equal to 1/2 is 0.5. But it's less likely that you'd 
+remember something like the decimal equal to 9/16. Let's do that. 
+It's just a matter of dividing with a decimal point.
+
+       0.5 6 2 5
+     -----------
+  16 ) 9.0 0 0 0
+       8 0
+       ---
+       1 0 0
+         9 6
+       -----
+           4 0
+           3 2
+           ---
+             8 0
+             8 0
+             ---
+
+At the start I tried to divide 9 by 16 but of course I couldn't; 9 is 
+less than 16. Therefore, as usual in division, I had to bring down 
+the next digit from the dividend -- but there wasn't one (at first). 
+That's when I added the decimal point and a zero after it; I know 
+that 9 is the same as 9.0, and this gives me a digit to bring down.
+
+Now I divide 90 by 16, and the largest whole number of 16's that will 
+go into 90 is 5, since 5 * 16 = 80. I write down the 80 and subtract 
+it from 90, getting a remainder of 10.
+
+I bring down the next digit from the dividend -- which again isn't 
+there until I add another zero to the dividend: 9.00 is still the 
+same number as 9. I keep going like this until I get no remainder; my 
+answer is 9/16 = 0.5625.
+
+In most cases you will never get a zero remainder. Instead we get 
+something called repeating decimals. For most purposes all you really 
+have to do is stop dividing when you have enough decimal places; you 
+don't really need the exact answer, just something close. But you can 
+search the Dr. Math Archives for information on repeating decimals if 
+you're interested.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

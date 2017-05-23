@@ -1,0 +1,41 @@
+ThreadNum: 567590
+Subject: Re: Finding X with out enough hints, should X be an exact number
+To: xuan662@yahoo.com (Xany)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 14:25:25
+Sent: yes
+
+
+As Xany wrote to Dr. Math
+On 08/18/2004 at 20:46:34 (Eastern Time),
+>[Question]
+>I have a big trouble on this problem:
+>How wide a strip could be cut from all four sides of a 20- by-30 
+>rectangle to form a new rectangle one less than half the original 
+>area?
+>
+>[Difficulty]
+>It doesn't gave me an exact number for the sides of the rectangle cut 
+>from the origional one or the area of it, so should X be an exact 
+>number?
+>
+>[Thoughts]
+>I know X should be less than 20 and greater than 0. I set an equation 
+>that set 300 to the area of the rectangle cut from the origional one.
+>(20-2x)(30-2x)=300 and I solved for x. I got x=21.51 and x=3.49. 
+>since 21is greater than 20, it can't be x. so it has to be 3.49. so 
+>is x anything between 3.49 and 20?
+
+Hi Xany,
+
+Take a look at
+
+  http://mathforum.org/library/drmath/view/53320.html
+
+It's the same problem, but cast in a different context. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

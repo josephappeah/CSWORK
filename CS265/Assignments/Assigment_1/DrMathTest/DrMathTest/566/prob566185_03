@@ -1,0 +1,39 @@
+ThreadNum: 566185
+Subject: Re: Thank you (MathCounts Triangle, Dividends, and Paper)
+To: sumajayakar@juno.com (Sujay)
+From: Doctor Roy
+TimeStamp: 08/10/2004 at 11:47:12
+Sent: yes
+
+
+As Sujay wrote to Dr. Math
+On 08/10/2004 at 11:22:57 (Eastern Time),
+>Dear Dr. Math,
+>
+>Thanks a lot!  I have one question though.  In number 2, why
+>do you add 30 and 70 to 22, instead of adding 3 and 7?  And
+>also, why did you start with 22 rather than 25, 31, or any
+>other number?
+>
+>Thanks!
+>Sujay 
+
+Hi,
+
+Recall that the single digit divisor could only be 3 or 7. They are
+both relatively prime to 10. So, if we start with 21, the next
+multiple of 3 which will also end in '1' is 21 + 30, because 30 is the
+least common multiple of 3 and 10. Let's add 3. 22 + 3 = 25. 25
+doesn't end in 2. 25 + 3 = 28. 28 doesn't end in 2. 28 + 3 = 31. 31
+doesn't end in 2. We could have to continue in this fashion until we
+get to 52 = 22 + 30. 
+
+Recall, from the problem, we wanted the number to end in 2, not 5 or 1
+or some other digit. It's in the problem statement. Further, we wanted
+the number to be 1 more than a multiple of the one digit divisor. If 3
+is the one digit divisor, 22 meets both criteria. It is 1 more than a
+multiple of 3, and it ends in 2.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

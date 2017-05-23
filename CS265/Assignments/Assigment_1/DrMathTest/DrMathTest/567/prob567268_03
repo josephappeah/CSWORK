@@ -1,0 +1,32 @@
+ThreadNum: 567268
+Subject: Re: How do i prove at test for divisibiliby of a number by 7
+To: spark@stedmunds.cg.catholic.edu.au (Jae)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 09:51:36
+Sent: yes
+
+
+As Jae wrote to Dr. Math
+On 08/19/2004 at 06:28:15 (Eastern Time),
+>Thank you for your suggestion to start...
+>
+>Now what i am thinking is how i will prove this.
+>
+>I am thinking about using a truth table, but it won't be that 
+>effective and it won't look like advanced working (if you know what i 
+>mean...)
+>
+>Is there other ways to prove your suggestion other than truth table? 
+>like 'proof by induction' , 'proof by contradiction' , etc.?
+>
+>Thank you for your time
+
+Hi Jae,
+
+Use the fact that adding or subtracting a multiple of 7 doesn't change
+whether a number is divisible by 7.  Then prove that 21b is a multiple
+of 7.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

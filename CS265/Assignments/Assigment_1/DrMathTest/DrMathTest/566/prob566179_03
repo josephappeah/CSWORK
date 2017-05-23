@@ -1,0 +1,115 @@
+ThreadNum: 566179
+Subject: Re: Number Pattern
+To: treeharp@aol.com (Teresa )
+From: Doctor Wilko
+TimeStamp: 08/10/2004 at 14:50:11
+Approved-By: Doctor Ian
+Sent: yes
+
+As Teresa  wrote to Dr. Math
+On 08/09/2004 at 16:12:35 (Eastern Time),
+>[Question]
+>How do I figure out the next 2 numbers in this pattern?
+>1, 8, 27, 64, ___, ____?
+>Thank you
+>
+>[Difficulty]
+>Using Addition, the pattern doesn't add up.
+>If I use multiplication, I'm stumped -see below
+>
+>[Thoughts]
+>I get 1x1; 4x2; 9x3; 16x4;
+>Don't understand what the next number would be to use for ___x5 and 
+>then ____ x6.
+>Tks
+
+Hi Teresa,
+Thanks for writing to Dr. Math!
+
+Sequence or pattern problems can sometimes be very challenging or 
+fairly easy.  This is a matter of perspective and depends how many 
+problems like this you've been exposed to.  The more you do and see, 
+the less challenging these types of problems become.
+
+I'll tell you how I approach a problem like this. 
+
+First thing is that I know there is a pattern, so that is my goal, to 
+find the pattern.
+
+I might see if there is a pattern using addition.  
+
+          1, 8, 27, 64, __, __, 
+           \/ \/  \/  \/  \/
+           +7 +19 +37  ?   ?
+
+Hmmm, I don't see any pattern using addition.  
+
+Next, I might try to use multiplication.  
+
+The question is:  Is there a number that I can multiply each term by 
+to get the next term?  
+To get from 1 to 8, there is only one number that I can multiply 1 by 
+to get 8--it's 8.  
+But I also notice that I can't multiply 8 by any other number to get 
+exactly 27 (no remainder).
+
+            1, 8, 27, 64, __, __, 
+             \/ \/  \/  \/  \/
+             *8  *?
+
+So far, I don't see a pattern with using addition from term to term 
+and I don't see a number that I can multiply each term by to get the 
+next.  
+
+Now, I'm going to look at the positions of each numbers, sometimes 
+this will reveal a pattern.  1 is in the 1st position, 8 is in the 
+2nd position, ...(see below)
+
+            1,   8,   27,   64,   __,   __, 
+            |    |     |     |     |     |
+            1    2     3     4     5     6  
+
+I might ask, 
+Does 1 have anything to do with 1?
+Does 8 have anything to do with 2?
+Does 27 have anything to do with 3?
+Does 64 have anything to do with 4?
+
+This might go somewhere!
+
+1 is a divisor of 1.
+2 is a divisor of 8.
+3 is a divisor of 27.
+4 is a divisor of 64.
+
+So maybe multiplication will work, but not in the way I tried above!  
+I'm going to factor each term in the sequence to look at the divisors.
+1:     1     =      1
+8:  (4 * 2)  = (2 * 2 * 2)
+27: (9 * 3)  = (3 * 3 * 3)
+64: (16 * 4) = (4 * 4 * 4)  
+
+The 4s could be factored further, but I'm starting to see a pattern 
+emerge, so I'll keep it as (4 * 4 * 4).
+
+If this pattern continues, can you find the 5th and 6th term of the 
+sequence? (I rewrote the 1s to match the pattern.)
+
+1  =  (1 * 1 * 1)  
+8  =  (2 * 2 * 2)
+27 =  (3 * 3 * 3)
+64 =  (4 * 4 * 4)
+?  =  (? * ? * ?)
+?  =  (? * ? * ?)
+
+
+
+Does this help?
+Please write back if you need anything else.
+:-)
+
+
+- Doctor Wilko, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

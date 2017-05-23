@@ -1,0 +1,77 @@
+ThreadNum: 566392
+Subject: Re: word problem
+To: resgjones87@earthlink.net (amy)
+From: Doctor Achilles
+TimeStamp: 08/11/2004 at 12:50:23
+Sent: yes
+
+
+As amy wrote to Dr. Math
+On 08/10/2004 at 19:51:12 (Eastern Time),
+>[Question]
+>In a class of 26 students,each girl drew a triangle and each boy 
+>drew a rectangle.  There were 92 sides in all.   How many girls and 
+>how many boys were in the class?
+>
+>[Difficulty]
+>Just don't know where to start.
+>
+>[Thoughts]
+>
+
+Hi Amy,
+
+Thanks for writing to Dr. Math.
+
+Well we need to make some equations.  The first step in that is 
+coming up with variables.  Let's call the number of girls "x" and the 
+number of boys "y".
+
+What do we know about the class?  We know there are 26 students 
+total, so we can write this equation:
+
+  x + y = 26
+
+Now each girl drew a triangle.  That means each girl drew 3 sides.  
+Each boy drew a rectangle (4 sides).
+
+So the total number of sides is 3 times x plus 4 times y:
+
+  3x + 4y = 92
+
+Let's go back to the first equation:
+
+  x + y = 26
+
+To solve that for x, let's subtract y from both sides:
+
+  x = 26 - y
+
+If x is equal to (26-y), then we can take "x" and replace it with "26-
+y".  So we can change equation 2 to:
+
+  3(26-y) + 4y = 92
+
+Or
+
+  3*26 - 3y + 4y = 92
+
+Or:
+
+  78 - 3y + 4y = 92
+
+Or
+
+  78 + y = 92
+
+Can you find y?
+
+Once you find y, can you go back to the first equation and use that 
+to find x?
+
+Hope this helps.  If you have other questions or you'd like to talk 
+about this some more, please write back.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

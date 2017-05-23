@@ -1,0 +1,73 @@
+ThreadNum: 567405
+Subject: Re: storage capabilities of irrational numbers
+To: paez_d_bestest@yahoo.com (Don)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 15:28:44
+Sent: yes
+
+
+Hi Don,
+
+>it is known that irrational numbers are non-terminating and non-
+>repeating infinite series of numbers. 
+
+Well, series of _digits_.  It's important to use clear terminology
+when talking about this stuff, or you can get completely confused. 
+
+>since they are non-terminating 
+>and non-repeating, is it possible for them to contain any finite 
+>string of numbers. 
+
+Any finite sequence of digits?  Yes.  If you pick any finite sequence
+digits, you should be able to find it _somewhere_ in the expansion of
+a randomly chosen irrational number.  
+
+Of course, that depends on the number.  For some artificially
+constructed numbers, it will _not_ be true.  For example, here is an
+irrational number:   
+
+  0.10110111011110111110
+
+Do you see why it will never repeat or terminate?  Do you also see why
+the sequence '123' will never, ever appear? 
+
+>and since they are infinite, is it also possible 
+>for them to include other irrational numbers as well?
+
+Here's what I meant about terminology.  The numbers themselves aren't
+infinite - the square root of 2 is irrational, but it's _very_ finite.
+ What's infinite is the number of digits in the decimal expansion of
+the number.  Do you see the difference?
+
+Since it's the length of the decimal expansion that's infinite, you
+can't really find another irrational number in there, because you've
+really just got digit sequences, which would normally be interpreted
+as integers, which are not irrational.  
+
+But here's the thing.  We know that pi is irrational.  So let's write
+some of the sequence of digits in pi:
+
+  3.14159...
+
+This sequence continues without terminating or repeating.  So suppose
+we move the decimal place over by one, to get
+
+  31.4159...
+
+This is certainly another irrational number, and in some sense it's
+'contained' in pi.  So if you're not too careful about how you phrase
+things, the answer to your question could be 'yes'. 
+
+>and if the 
+>answer to the second question is in the affirmative, would it be 
+>safe to say that irrational numbers are subsets of ech other?
+
+It doesn't really make sense to say that any number is a 'subset' of
+another number.  Subsets of sets are themselves sets.  Numbers aren't
+sets.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

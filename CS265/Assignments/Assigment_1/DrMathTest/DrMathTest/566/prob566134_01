@@ -1,0 +1,64 @@
+ThreadNum: 566134
+Subject: Re: Calculus Optimization Problem
+To: clock_3@juno.com (Carol)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 17:32:28
+Sent: yes
+
+
+As Carol wrote to Dr. Math
+On 08/09/2004 at 09:36:04 (Eastern Time),
+>[Question]
+>A 216 square meter rectangular pea patch is to be enclosed by a 
+>fence and divided into two equal parts by another fence parallel to 
+>one of the sides.  What dimensions for the outer rectangle will 
+>require the smallest total length of fence?  How much fence will be 
+>needed?
+>
+>[Difficulty]
+>Expressing the unknown as a function of a single variable.  
+>Identifying the domain.
+>
+>[Thoughts]
+>I have drawn a picture and identified the variables as length (l) 
+>and width (w).  The two equations that I have are:  216=2(l)(w)  and
+>3(w) + 4(l) = Perimeter
+>I'm having trouble consolidating these 2 equations into one where I 
+>can differentiate to find the smallest total length of fence.
+
+Hi Carol.
+
+thanks for writing to the Math Forum.  Good start:  your first 
+equation is a statement about the (known) area of the patch:
+
+  216 = (2l)*w
+
+     w
+  +-----+
+  |     |  l
+  +-----+
+  |     |  l
+  +-----+
+
+The other equation is a statement about fence lengths:
+
+  total fence length T = 4l + 3w.
+
+To get these boiled down into one equation that you can differentiate,
+solve one of these equations for one variable or the other, and then
+substitute the result in the other equation.  Since you will probably
+want to optimize T, you will probably have to save that equation to
+be differentiated.  Thus, we rearrange the first equation:
+
+   w = 216/(2l) = 108/l
+
+and substitute this in T to obtain
+
+   T = 4l + 3*108/l
+     = 4l + 324/l
+
+Now we require dT/dl = 0.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

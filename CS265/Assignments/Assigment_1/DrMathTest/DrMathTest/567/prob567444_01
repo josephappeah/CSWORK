@@ -1,0 +1,94 @@
+ThreadNum: 567444
+Subject: Re: differential equations - integration
+To: toptech@edutron.ecorp.net (Martin)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 09:00:49
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/18/2004 at 05:54:31 (Eastern Time),
+>[Question]
+>Veryify that 
+> 
+>     y_1 = 1/x
+>
+>is a solution for the d.e.
+>
+>   (4x^2 - x)y'' + 2(2x - 1)y' - 4y = 0
+>
+>Find the general solution of the d.e.,
+>
+>   (4x^2 - x)y'' + 2(2x - 1)y' - 4y = 12x^2 - 6x
+>
+>[Difficulty]
+>Not sure if my method will work and I got stuck on one an indefinite 
+>integral.
+>
+>[Thoughts]
+>The verification part is strait forward.
+>
+>y_1 = 1/x
+>
+>hence
+>
+>y_1' = -1/x^2   and  y_1'' = 2/x^3
+>
+>Substitution gives:
+>
+>          2(4x^2 - x)   2(2x-1)   4
+>     0 =  ----------- - ------- - -
+>              x^3         x^2     x
+>
+>       = (8x^2 - 2x - 4x^2 + 2x - 4x^2)/x^3
+>
+>       = 0
+>
+>I think I can find a second lenearly independent solution with the 
+>following formula:
+>
+>  y_2 = y_1 * int[2(2x - 1)/(4x^2 -x)]dx
+>
+>But I can't integrate this!!
+>
+>However once I have this second solution then I can compute a 
+>Wronskian for y_1 and y_2 with the formula:
+>
+>     W(x) = y_1 * y_2' - y_2 * y_1'
+>
+>Lastly, armed with knowledge of y_1, y_2 and W(x) I should be able to 
+>compute Y(x) - the general solution of the non-homogeneous d.e. using 
+>the formula:
+>
+>
+>     Y(x) = y_2 * int(x_0 to x)[(y_1(t) * g(t)/W(t)]dt  -
+>            y_1 * int(x_0 to x)[(y_2(t) * g(t))/W(t)]dt
+>
+>Where g(x) = (12x^2 - 6x)/(4x^2 - x)
+>
+>
+>
+
+Hi Martin,
+
+Thanks for writing to Dr Math.  So your question is how to integrate
+
+  int[2(2x - 1)/(4x^2 -x)]dx
+
+First factor the denominator as
+
+  x*(4x-1),
+
+and then use partial fractions to write this in the form
+
+  2(2x - 1)/(4x^2 -x) = A/x + B/(4x-1)
+
+for some real numbers A and B.  Then integrate the last expression.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

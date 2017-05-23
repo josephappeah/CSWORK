@@ -1,0 +1,41 @@
+ThreadNum: 566300
+Subject: Re: number theory
+To: majid_math1982@yahoo.com (majid ghamary)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 10:11:02
+Sent: yes
+
+
+As majid ghamary wrote to Dr. Math
+On 08/10/2004 at 09:27:34 (Eastern Time),
+>[Question]
+>Find all value (n)such that, PHI(n)=n-2   :    (phi function)
+>
+>
+>[Difficulty]
+>I can't find all value (n) such that PHI(n)=n-2
+>
+>[Thoughts]
+>I have a conjecture for (n)
+>My conjecture is n=4
+>
+
+Hi Majid,
+
+Thanks for writing to Dr Math.  I would start like this:
+
+First show that phi(n) is always even for n>2.  So it looks like n
+must be even, too.  Now show that phi(n) <= n/2 when n is even.  Use
+this to conclude that
+
+  phi(n) = n-2 implies n <= 4.
+
+Then check all the values n = 1,2,3,4.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,50 @@
+ThreadNum: 566359
+Subject: Re: How do I take off the sales tax 
+To: bridge72@comcast.net (Lisa)
+From: Doctor Achilles
+TimeStamp: 08/11/2004 at 12:53:25
+Sent: yes
+
+
+As Lisa wrote to Dr. Math
+On 08/10/2004 at 17:04:48 (Eastern Time),
+>[Question]
+>I have an amount $20273.30.  Sales tax is already calculated into 
+>it.  But I need to know the figure before the sales tax was 
+>calculated into it.  How do I do this?
+>
+>[Difficulty]
+>I tried dividing the amount by .082, the sales tax, which i thought 
+>might work but it didn't.
+>
+>[Thoughts]
+>I thought that when you find the sales tax, you multiply your amount 
+>by .082, therefore when you undo the sales tax it should divided 
+>form the amount.  But it didn't work.
+
+Hi Lisa,
+
+Thanks for writing to Dr. Math.
+
+When you add sales tax, you multiply by 0.082 and then add that to 
+the original value.
+
+An item that costs $100 before tax will cost $108.20 after.
+
+The formula for getting from the pre-tax price to the total price is:
+
+  Total = preTax + 0.082*preTax
+
+Which is equivalent to:
+
+  Total = 1.082*preTax
+
+So to find the pretax, we just divide both sides by 1.082:
+
+  Total/1.082 = preTax
+
+Does that help?
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

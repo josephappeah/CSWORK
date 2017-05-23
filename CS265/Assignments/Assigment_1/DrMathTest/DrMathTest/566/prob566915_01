@@ -1,0 +1,43 @@
+ThreadNum: 566915
+Subject: Re: Geometry exam
+To: Nevil54@msn.com (Von)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 23:08:06
+Sent: yes
+
+
+As Von wrote to Dr. Math
+On 08/14/2004 at 13:15:42 (Eastern Time),
+>[Question]
+>If one chord of a circle is the perpendicular bisector of another, 
+>then
+>A. the first chord is a diameter of the circle
+>B. the second chord is a diameter of the circle
+>C. both chords are diameters of the circle
+>D. neither chord is a diameter of the circle
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hello, Von --
+
+Answer A.
+
+(1) The perpendicular bisector of a line segment is the set of all 
+points equidistant from the endpoints of the segment.
+
+(2) The endpoints of a chord of a circle are points on the circle 
+and are therefore the same distance from the center of the circle.
+
+From (1) and (2), a perpendicular bisector of a chord of a circle, 
+containing as it does all the points equidistant from two points on 
+a circle, in particular contains the center of the circle.  So if 
+that perpendicular bisector is also a chord of the circle, then it 
+is a chord which passes through the center of the circle, and so it 
+is a diameter.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

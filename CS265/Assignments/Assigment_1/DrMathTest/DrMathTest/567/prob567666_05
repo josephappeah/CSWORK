@@ -1,0 +1,42 @@
+ThreadNum: 567666
+Subject: Re: Fractions
+To: fifaworldcup2003@aol.com (Michael)
+From: Doctor Ian
+TimeStamp: 08/28/2004 at 18:40:01
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/28/2004 at 18:06:45 (Eastern Time),
+>the last thing- Do you have to add a decimal to 28?
+
+Hi Michael, 
+
+Thanks for clearing that up. 
+
+You don't _have_ to add a decimal.  Sometimes you'll have an improper
+fraction, where the numerator is larger than the denominator.  For
+example, 
+                  3
+  15            ___
+  --   -->    5 )15
+   5             15
+                 --
+                  0
+
+But in something like
+
+         0.3
+      __________
+  72 ) 2 8.0 0 0
+       2 1 6
+       -----
+         6 4 0    etc.
+
+you have to include the decimal.  This makes some sense, since if you
+divide something like 28 by something larger like 72, you have to end
+up with something smaller than 1, right? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

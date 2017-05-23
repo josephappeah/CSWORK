@@ -1,0 +1,80 @@
+ThreadNum: 568486
+Subject: Re: Introduction to Algebra
+To: Crowsdreamofdeth@aol.com (Anthony)
+From: Doctor Douglas
+TimeStamp: 08/27/2004 at 10:57:11
+Sent: yes
+
+
+As Anthony wrote to Dr. Math
+On 08/27/2004 at 01:51:22 (Eastern Time),
+>[Question]
+>I have a question concerning two world problems that I have 
+>encountered in my studies. It seems to be relatively simple and I 
+>know the answers as well as the steps it took to come to its 
+>conclusion, however, I still need a few things clarified.
+>
+>Problem number 1:
+>A franchise is owned by three people. The first owns 5/12 of the 
+>business
+>and the second owns 1/4 of the business. What fractional part of the
+>business is owned by the third person?
+>The solution: 1/1 - 5/12 - 1/4 
+>The LCD for denominators: 1, 12 and 4 is 12.  So we change 
+>denominators for the first and second fractions:
+>    1*12    5    1*3    12 - 5 - 3     4     1
+>    ---- - --- - --- = ------------ = --- = ---
+>    1*12    12   4*3       12          12    3
+>
+>The second problem is:
+>A recipe calls for 3/4 cup of sugar. How much is needed to make half 
+>of the recipe?   
+>The solution: 1* 3   3
+>              - --- =- 
+>              2* 4   8
+>
+>              
+>
+>[Difficulty]
+>What I don't understand about the first problem is what in the word 
+>problem gave the reader the idea to put a whole and to subtract from 
+>the whole. That is to 1/1 - 5/12 - 1/4. Where did the 1/1 come from? 
+>And what gave away the clue to subtract?
+>
+>In the second problem what gave the clue that it was a 
+>multiplication problem? When I read it I think that to make half of 
+>the recipe you would have to find half of 3/4.
+>
+>[Thoughts]
+>
+
+Hi again, Anthony.
+
+thanks for writing to the Math Forum.
+
+In problem 1, the whole is the (entire) franchise.  The whole
+franchise must be equal to the sum of its parts, so 
+
+  1 = 5/12 + 1/4 + something,
+
+and the something is what the equation is solving for.
+
+In problem 2, the key word is "of".  In most mathematical problems,
+this is interpreted as multiplication:
+
+  35% of 200                 0.35 x 200
+  half of a dozen            (1/2) x 12
+
+and in your problem, note that "half of 3/4" is indeed (1/2) x (3/4)
+= 3/8, and this is found by multiplication.
+
+For future questions that are unrelated to old questions, it is
+strongly preferred that you resubmit them as a new thread.  This
+increases the chances that someone will respond, because if
+you submit it as a followup to a previous question, most of the
+Doctors on staff will defer to the previous answerer (i.e. me), and
+so this reduces the number of people that can respond.  
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,21 @@
+Q1. Q1.csv submited 
+
+T(n) is increasing. So, it is bound below by a constant. T(n) = ω( 1 ).
+
+f(n) = n: still increasing to infinity. So, T(n) is bound below by a line, but not tightly. T(n) = ω( n ). In other words, T(n) grows faster than a line.
+
+f(n) = n^3: T(n)/n3 is probably decreasing to zero. This means that n^3 is an upper bound, but not tight. I.e., T(n) grows more slowly than n^3. T(n) = ο( n^3 ).
+
+f(n) = n^2: T(n)/n2 is tending towards some non-zero constant. So, T(n) is Θ( n2 ).
+
+Q2. Q2.csv submited 
+
+#swap() Calls is increasing. So, it is bound below by a constant. #swap() Calls= ω( 1 ).
+
+f(n) = n: still increasing to infinity. So, #swap() Calls is bound below by a line, but not tightly. # swap() Calls= ω( n ). In other words, # swap() Calls grows faster than a line.
+
+f(n) = n^3: # swap() Calls/n^3 is probably decreasing to zero. This means that n^3 is an upper bound, but not tight. I.e., # swap() Calls grows more slowly than n^3. # swap() Calls = ο( n^3 ).
+
+f(n) = n^2: # swap() Calls/n^2 is tending towards some non-zero constant. So, # swap() Calls= Θ( n^2 ).
+
+

@@ -1,0 +1,60 @@
+ThreadNum: 568659
+Subject: Re: Air Force ROTC Prep Math Quesion
+To: brian.k.tschabold@boeing.com (Brian)
+From: Doctor Greenie
+TimeStamp: 08/25/2004 at 10:42:50
+Sent: yes
+
+
+As Brian wrote to Dr. Math
+On 08/25/2004 at 09:20:43 (Eastern Time),
+>[Question]
+>Solve for n:
+>
+>2n to the -3 exponent = 32
+>The 2n is not in ( ) so the -3 exponent should impact just the 
+>variable n
+>
+>Ans Choices are:
+>A) 5; B) 6;  C) 7;  D) 8;  E) 9
+>
+>
+>[Difficulty]
+>To me there should be a choice F) None of the Above
+>
+>I'm helping my daughter.
+>
+>
+>
+>[Thoughts]
+>2 x 1/n to the 3rd power = 32
+>1/n to the 3rd power = 16
+>16n to the 3rd power = 1
+>n to the 3rd power = 1/16
+>n = the 3rd root of 1/16
+>
+Hello, Brian --
+
+The equation as you have presented it is
+
+  2(n^-3) = 32
+
+Given this equation, your solution is correct.  None of the answer 
+choices given is anywhere near to a solution.
+
+I suspect you have misread the problem (or perhaps the problem was 
+presented incorrectly); with the answer choices given, the equation 
+is probably supposed to be
+
+  2^(n-3) = 32
+
+The solution to this equation is, quite simply, answer "D":
+
+  2^(n-3) = 32
+  2^(n-3) = 2^5
+  n-3 = 5
+  n = 8
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

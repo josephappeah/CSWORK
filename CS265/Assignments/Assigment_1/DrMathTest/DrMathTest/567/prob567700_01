@@ -1,0 +1,88 @@
+ThreadNum: 567700
+Subject: Re: Just need a quick review
+To: gman_the_man@yahoo.com (Grant)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 13:58:27
+Sent: yes
+
+
+Hi Grant,
+
+>I need a quick review, but I think I am doing this problem correctly.
+>solve for X: 2x/7=x2.  
+>
+>[Difficulty]
+>It has been over 10 years since I worked the same kind of problems.  
+>Need a quick refresher.
+>
+>[Thoughts]
+>First multiply both sides by 7/2x. 
+
+Good start:
+
+  2x    7          7
+  -- * -- = x^2 * --
+   7   2x         2x
+
+
+            7 * x^2
+        1 = -------
+              2x
+
+>On the left because everything 
+>cancels you are left with one.  
+
+Correct. 
+
+>On the right you cancel out the Xs 
+>and are left with 7x.  
+
+Well, not quite.  What about the 2? 
+
+>So it will be 1=7x.  
+
+Or 1 = 7x/2.  :^l
+
+>Divide both sides by 7x 
+>and you are left with x=1/7
+
+The problem with your strategy is that it misses one of the possible
+solutions.  Here's a different way to approach it:
+
+  2x
+  -- = x^2
+   7
+ 
+             2x
+   0 = x^2 - --              It's often nice to have zero on one 
+              7              side of an equation, because then we
+                             can multiply the other by anything
+                             we want. 
+
+   0 = 7x^2 - 2x             Multiply both sides by 7. 
+
+   0 = x(7x - 2)             Factor out an x.
+
+Now, at this point it's useful to note that the ONLY way to get a
+product of zero is if at least one factor is zero.  So for this
+equation to be true, at least one of the following must be true:
+
+  1) x = 0
+
+  2) 7x - 2 = 0
+
+The first condition is trivial.  The second is true when x = 2/7.  So
+there are two values that satisfy the original equation. 
+
+The moral of the story is that while it's always a good idea to cancel
+constants (like 2 or 7), you have to be very, very careful when
+canceling variables or variable expressions:
+
+  Premature Simplification
+  http://mathforum.org/library/drmath/view/63758.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

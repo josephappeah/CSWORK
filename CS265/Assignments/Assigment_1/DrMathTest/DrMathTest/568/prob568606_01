@@ -1,0 +1,95 @@
+ThreadNum: 568606
+Subject: Re: (no subject)
+To: catcrawford@msn.com (Cat)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 11:10:33
+Sent: yes
+
+
+Hi Cat,
+
+>okay, i am just going to tell you the question. use the formula 
+>c=p+r(p) to find the total cost of each purchase, where c id the 
+>total cost, p is the price, and r is the sales tax rate written as a 
+>decimal. 
+>
+>A coat cost $34.99. the sales tax is 6%. 
+>
+>[Difficulty]
+>i just get confused because of all the letters and numbers and i have 
+>been searching around looking for someone to help me but everyone 
+>keeps giving me different answers so i came to you.
+
+As a first step towards getting comfortable with letters, you might
+consider using whole words.  Instead of writing
+
+  c = p + r(p)
+
+write
+
+  total_cost = price + tax_rate*price
+
+You're told the price ($34.99), so you can replace 'price' with that
+value wherever it occurs:
+
+  total_cost = 34.99 + tax_rate*34.99
+
+And you're told the tax rate (6%), but to use that properly, you need
+to understand that 
+
+  something%
+
+is just a shorthand for the fraction
+
+  something/100
+
+and that when we write something in decimal notation, we're just
+writing the numerator of a fraction with a power of 10 in the
+denominator, e.g., 
+
+    0.1 = 1/10
+
+   0.12 = 12/100
+
+  0.123 = 123/1000
+
+   0.06 = 6/100           <- Then number of zeros in the denominator
+                             is the same as the number of decimal
+                             places.
+
+So to use a rate of 6% in the problem, we have to write it as 6/100,
+or 0.06.  That gives us 
+
+  total_cost = 34.99 + 0.06*34.99
+
+And now we just have some operations to evaluate. 
+
+Does this make sense? 
+
+>well i first wrote out the problem: 
+>c=p+r(p) then i replaced the letters with numbers
+>c=$34.99+.06($34.99) then i multiplied the pecent an the price
+>c=$34.99+2.1 then i added and i got 
+>c=$37.09   please get back to me asap
+
+Note that you can use the distributive property to make this a little
+simpler:
+
+  c = 34.99 + 0.06*34.99
+
+    = 1*34.99 + 0.06*34.99          This looks a little weird, but 
+                                    it makes the next step clearer...
+    = (1 + 0.06)*34.99
+
+    = 1.06 * 34.99
+
+    = 37.0894
+
+    = 37.09 (rounded to the nearest penny)
+
+So you were exactly right.  Can you tell me why you thought you might
+have been wrong? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

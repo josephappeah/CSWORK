@@ -1,0 +1,98 @@
+ThreadNum: 566792
+Subject: Re: Geometric Series: Finding the # of terms  11,-22,44,...704
+To: edwardh@mail.rism.ac.th (Edward Hamilton)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 11:46:55
+Sent: yes
+
+
+As Edward Hamilton wrote to Dr. Math
+On 08/13/2004 at 05:50:47 (Eastern Time),
+>[Question]
+>Find the number of terms in this geometric series.  
+>
+>11, -22, 44,.....704
+>
+>Formula An = A1*R^(n-1)
+>
+>An = 704
+>A1 = 11
+>R = -2
+>
+>Use logs to solve??
+>
+>log(704/11) = (n-1) log (-2)
+>
+>
+>
+>
+>[Difficulty]
+>We can't take a log of "-2" ; however, I noticed that I get the
+>correct answer if I "just" take the absolute value of r.  This is
+>really bugging me!  
+>
+>Can you explain a better way to solve this?  Or explain to me why I 
+am
+>allowed to "just" switch signs like that.
+>
+>
+>[Thoughts]
+>Work shown above.
+>
+>n-1 = (log(704/11))/(log2)
+>
+>n = 7
+>
+>Note: this is not an issue when using the Sum of Geometric Series
+>formula.  
+
+Hi, Edward --
+
+You can, at least temporarily, ignore the negative sign on the 
+common ratio.  And you don't really need to get into logs for this 
+problem.  The use of logarithms can be useful and often necessary 
+when we have a general geometric series with a "weird" common 
+ratio.  But in cases where the common ratio is "nice", we usually 
+don't need to use logs.
+
+In this example, we simply have
+
+  A(n) = A(1)r^(n-1)
+
+or
+
+  A(n)/A(1) = r^(n-1)
+
+  704/11 = r^(n-1)
+
+  64 = r^(n-1)
+
+We know
+
+  64 = 2^6
+  64 = (-2)^6
+  64 = 4^3
+
+Any of these potentially provides a solution to the problem; 
+inspection of the second term in the series tells us that the common 
+ratio is -2, and so
+
+  n-1 = 6
+  n = 7
+
+Of course, all of this is really a long way around the problem 
+anyway.  Inspection of the first two terms shows us the common ratio 
+to be -2, so we simply solve
+
+  A(n) = A(1)r^(n-1)
+  704 = 11*(-2)^n-1
+  ...
+
+to find the value of n.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

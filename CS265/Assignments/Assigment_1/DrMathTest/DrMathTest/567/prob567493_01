@@ -1,0 +1,38 @@
+ThreadNum: 567493
+Subject: Re: a SAT math problem
+To: tiger23904@yahoo.com (Tammy )
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 14:34:20
+Sent: yes
+
+
+As Tammy  wrote to Dr. Math
+On 08/18/2004 at 13:11:45 (Eastern Time),
+>[Question]
+> In a class of 78 students 41 are taking French, 22 are taking 
+>German and 9 students are taking both French and German. How many 
+>students are not enrolled in either course? 
+>
+>[Difficulty]
+>The answer is 24 but I forget how to solve this problem. Please 
+help 
+>me. Thank you.
+>
+>[Thoughts]
+>
+Hi, Tammy --
+
+41 students are taking French and 22 are taking German.  If we count 
+all of those students together, we get 41+22=63 students.
+
+But 9 students are taking both French and German; our count of 63 
+students includes those students twice.  So the actual number of 
+students taking one or both of the languages is 63-9=54.
+
+Then, since there are 78 students in the class, of which 54 are 
+taking at least one of the two languages, the number not enrolled in 
+either language is 78-54=24.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

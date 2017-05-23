@@ -1,0 +1,124 @@
+ThreadNum: 566781
+Subject: Re: Word Problem on probability
+To: Nbygj@aol.com (Sam)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 12:16:06
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/13/2004 at 00:26:29 (Eastern Time),
+>[Question]
+>"A bag of candy contains only nut chewies and marshmallow 
+delights.  
+>There are twice as many nut chewies as marshmallow delights.  The 
+nut 
+>chewies are either peanut or cashew and there are 1/3 as many 
+cashew 
+>chewies as there are peanut chewies.  If Julie selects one piece of 
+>candy at random, what are the odds that she picks a cashew chewy?"  
+>The answer is 1/6.
+>
+>[Difficulty]
+>What I find extremely confusing is the part that says there are 
+twice 
+>as many nut chewies as marshmallow delights and also the part that 
+>says there are 1/3 as many cashew chewies as there are peanut 
+chewies.
+>
+>[Thoughts]
+>The way I did the problem was by picking numbers. For the number of 
+>marshmallow chewies I chose 60 and for the nut chewies I chose 120; 
+>since the nut chewies are "twice as many as marshmallow delights."  
+>Then I multiplied 1/3 by 120 to get the number of cashew chewies 
+and 
+>got the result 40 which I subtracted from 120 and got 80 for the 
+>amount of cashew chewies and 40 became the number of peanut 
+chewies.  
+>After that for the probability formula I plugged in 80 for the 
+>desired outcome and 120+60= 180 for the number of possible 
+outcomes.  
+>But my answer came to 2/3; which is wrong.  My confusion is in the 
+>part about where it says "twice as many" and "1/3 as many".  Could 
+>you please explain to me what I am doing wrong here?  Thank you.
+
+Hi, Sam --
+
+You are right -- your confusion is over the "1/3 as many" wording.
+
+Your approach is a very good one, and you chose "nice" numbers:
+
+>The way I did the problem was by picking numbers. For the number of 
+>marshmallow chewies I chose 60 and for the nut chewies I chose 120; 
+>since the nut chewies are "twice as many as marshmallow delights."  
+
+This looks fine....
+
+But then you didn't use the "...1/3 as many..." information 
+correctly:
+
+>Then I multiplied 1/3 by 120 to get the number of cashew chewies 
+and 
+>got the result 40 which I subtracted from 120 and got 80 for the 
+>amount of cashew chewies and 40 became the number of peanut 
+chewies.  
+
+There are two problems here.  If you multiply the 120 (nut chewies) 
+by 1/3 to find the number of cashew chewies, then the number of 
+peanut chewies is going to be the other 2/3 of the 120.  But 1/3 of 
+120 (40) and 2/3 of 120 (80) do not satisfy the condition that one 
+of the numbers is 1/3 of the other.  And you (probably 
+inadvertently) switched the numbers of cashew chewies and peanut 
+chewies around, so that the number of cashew chewies is more than 
+the number of peanut chewies.
+
+Note that it is easy to check your results to this point.  If you 
+look at your numbers of 80 cashew chewies and 40 peanut chewies, you 
+can see that the number of cashew chewies is twice the number of 
+peanut chewies, whereas it is supposed to be 1/3 as much -- so you 
+know you have made an error somewhere.
+
+Then your final step is okay...:
+
+>After that for the probability formula I plugged in 80 for the 
+>desired outcome and 120+60= 180 for the number of possible 
+outcomes.  
+
+The "120+60" is correct for the number of possible outcomes; 
+however, as noted in the previous paragraph, the "80" is not correct 
+for the number of cashew chewies.
+
+So if you fix your arithmetic so that the 120 nut chewies are 
+divided into two groups with 1/3 as many cashew chewies as peanut 
+chewies, then you should get the right answer.
+
+While choosing specific numbers is often a good approach, I usually 
+try an algebraic approach first to see if it doesn't get too messy.  
+Here is how I would solve this problem:
+
+(1) There are twice as many nut chewies as marshmallow delights.
+
+Okay...  x = marshmallow delights; 2x = nut chewies
+
+(2) The nut chewies are either peanut or cashew and there are 1/3 as 
+many cashew chewies as there are peanut chewies.
+
+I avoid fractions whenever possible, so I read this as there being 3 
+times as many peanut chewies as cashew chewies:  y = cashew chewies; 
+3y = peanut chewies
+
+Now I have a total of y+3y = 4y nut chewies.  And from (1) I know 
+the number of marshmallow delights is half that, so I have 2y 
+marshmallow delights.
+
+So altogether I have 4y+2y=6y candies; and of those, y are cashew 
+chewies.  So the probability that I will choose a cashew chewy is
+
+  y/6y = 1/6
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

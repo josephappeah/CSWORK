@@ -1,0 +1,42 @@
+ThreadNum: 566309
+Subject: Re: Is the set of irrational numbers closed under any operation
+To: Scampori@aol.com (Chris)
+From: Doctor Roy
+TimeStamp: 08/10/2004 at 11:43:49
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/10/2004 at 11:37:42 (Eastern Time),
+>[Question]
+>I have read on this website about rational numbers, whole numbers and 
+>integers being closed under an operation but nothing about irrational 
+>numbers. I was wondering if the set of irrational numbers is closed 
+>under the opperation of addition. Thank you for your help
+>
+>[Difficulty]
+>The irrational part of it. If I don't even know what the numbers end 
+>at, then how will I know if it is closed under the operation of 
+>addition.
+>
+>[Thoughts]
+>I would think that irrational numbers are closed under the operation 
+>of addition but I cannot prove it...the closest I can get is:
+>PI (using 3.141592654) minus the square root of 2 (using 1.414213562) 
+>is 1.727379092 which is also irrational so is closed. My problem is 
+>that both PI and square root of 2 is being rounded and may effect the 
+>final outcome (1.727379092). Also if I was to continue the answer 
+>(1.727379092) out, eventually I might have a pattern.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Consider pi and -pi. They are both irrational. Their sum is not.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

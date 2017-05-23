@@ -1,0 +1,40 @@
+ThreadNum: 566194
+Subject: Re: Russell's Paradox
+To: emayev@earthlink.net (Emil)
+From: Doctor Ian
+TimeStamp: 08/09/2004 at 23:25:37
+Sent: yes
+
+
+As Emil wrote to Dr. Math
+On 08/09/2004 at 17:22:55 (Eastern Time),
+>[Question]
+>A set is defined as a class which belongs to another(defined) class. 
+>As I understand, this is to get around Russell's Paradox. However, 
+>it seems that the intuitive way to get around it is to understand 
+>that it is impossible to construct a set of all sets which don't 
+>belong to themselves, even if provided an infinite amount of time. 
+>It is not clear how the above definition helps you understand this. 
+>Can you explain what the definition is for?
+>
+
+Hi Emil,
+
+Note that time doesn't really enter into mathematics, since math is
+mostly about imagination, and we can imagine processes that require
+infinitely many steps but are completed in finite amounts of time. 
+(We do this every time we take an integral, for instance.)
+
+So it doesn't help to say that we wouldn't have time to construct the
+set of all sets that don't contain themselves.  We can imagine that
+we've constructed it (in the same way we can imagine that we've
+constructed 'the set of all integers', even though we wouldn't really
+have time for that, either), and when we do that, we run into a
+contradiction.  It's to avoid the contradiction that the somewhat
+clumsy definition of sets is constructed. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

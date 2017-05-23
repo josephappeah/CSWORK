@@ -1,0 +1,26 @@
+ThreadNum: 568838
+Subject: Re: Finding the constant term of a composite function
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Vogler
+TimeStamp: 08/27/2004 at 10:04:02
+Sent: yes
+
+
+As Wheeler Flemming wrote to Dr. Math
+On 08/26/2004 at 17:58:26 (Eastern Time),
+>Thanks for that key tip.... I think I might have it figured out-
+>
+>so since g(f(x))= x^2 + 2 then 
+>g(x+3)= x^2 + 2
+>
+>Here's where Im not sure if Im right:
+>
+>So then g(x) would equal (x-3)^2 +2 and the answer would be 11....
+>Is that right?
+>Thanks for your help and time.
+
+That looks right to me.  Good job!
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

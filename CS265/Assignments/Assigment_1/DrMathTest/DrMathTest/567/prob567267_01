@@ -1,0 +1,35 @@
+ThreadNum: 567267
+Subject: Re: calculus
+To: ukidjo@yahoo.com (jerome)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 08:33:55
+Sent: yes
+
+
+As jerome wrote to Dr. Math
+On 08/17/2004 at 06:36:01 (Eastern Time),
+>[Question]
+>1. Derive the formula d/dx cosh x = sinh x.
+>
+>2. Find Y'if y = tanh exponent -1 (sin3x).
+>
+>[Difficulty]
+>the derivation
+>
+>[Thoughts]
+>
+
+Hello Jerome,
+
+Just use the definitions of cosh(x) and sin(x).  
+
+d[cosh(x)]/dx = d[(e^x + e^{-x})/2] = ... = sinh(x).
+
+y=tanh [ e^{-sin(3x)} ]  may be the problem.
+
+y' = sech^2 [ e^{-sin(3x)} ] * e^{-sin(3x)} * (-3cos(3x))
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,41 @@
+ThreadNum: 567972
+Subject: Re: Pool Leakage Problem
+To: jjsn9920485@aol.com (John)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 08:17:49
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/21/2004 at 00:21:45 (Eastern Time),
+>[Question]
+>.  You have a rectangular swimming pool 20 ft. by 10 ft, and a 
+>uniform depth of 8 ft.    You want to fill the pool to the top.  You 
+>calculate that it will take 4 hours to fill the pool.    It actually 
+>takes you 4.5 hours to fill the pool.  You suspect the pool is 
+>leaking.  Assuming a uniform filling rate, and neglecting 
+>evaporation,  what is the leakage rate (to the nearest gal. per 
+>minute)  (1 cu. ft. =7.5 gal.) 
+>
+>[Difficulty]
+>All of it.
+>
+>[Thoughts]
+>Ratio of some sort
+
+Hello John,
+
+If you have calculated that it takes 4 hours to fill a 20 by 10 by 8 ft pool, then the filling 
+rate is  20*10*8*7.5 gal per 4*60 minutes.  This is 50 gal per minute.
+
+But it took 4.5 hours; so  20*10*8*7.5 gal per 4.5*60 minutes.  This is 44.44 gal per 
+minute. 
+
+So just subtract these two rates (and round).
+
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

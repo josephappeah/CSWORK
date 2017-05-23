@@ -1,0 +1,43 @@
+ThreadNum: 566788
+Subject: Re: Finding a limit
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Vogler
+TimeStamp: 08/13/2004 at 12:17:03
+Sent: yes
+
+
+As Mitropam wrote to Dr. Math
+On 08/13/2004 at 02:26:36 (Eastern Time),
+>[Question]
+>Find   lim        [{1+2^(1/2)+3^(1/3)+.....+n^(1/n)}/n]
+>     n--> infinity
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Mitropam,
+
+Thanks for writing to Dr Math.  First you should check
+
+    lim     n^(1/n)  =  1.
+  n -> inf
+
+Then you can verify that each of the terms in the sequence is, in
+fact, bounded.  (In fact, the largest term is 3^(1/3), and the
+sequence descreases monotonically after that.)
+
+Using those two facts together, you can show that the limit is 1.  The
+idea is that you are adding up n different things, most of which are
+very close to 1, so you will get something very close to n, and then
+you divide by n and get something very close to 1.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

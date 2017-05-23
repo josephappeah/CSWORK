@@ -1,0 +1,55 @@
+ThreadNum: 567113
+Subject: Re: Train Question
+To: agalliao148@hotmail.com (Confused)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 11:15:43
+Sent: yes
+
+
+As Confused wrote to Dr. Math
+On 08/16/2004 at 10:35:46 (Eastern Time),
+>I do not understand where you got the 5280 and 3600. 5280...is that 
+>the amount of feet in a mile? Further explanation on the answer 
+would 
+>really be appreciated so that I can better understand. Thank you I 
+>really do appreciate your help!
+
+The answer is shown again below.
+
+          60 x 5280
+ 60 mph = ---------  =  88 ft/sec
+            3600
+
+The train has to travel = 1200 + 2640 =  3840 feet at 88 ft/sec
+
+     Time = 3840/88
+
+          = 43.64 secs
+
+The numbers arise as follows
+
+I have converted speed in mph to speed in ft/sec and I have 
+converted miles into feet.  So all the work is in feet and seconds.
+
+   5280 = number of feet in a mile
+   3600 = number of seconds in an hour.
+
+This leads to result 60 mph = 88 feet per second
+
+Train has to travel = 1200 feet + 1/2 mile
+
+                    = 1200 ft + 2640 ft
+
+                    =  3840 feet
+
+speed of train = 88 ft/sec
+
+            distance      3840
+   Time =  ---------   =  -----  =  43.64 secs.
+             speed         88
+
+              
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

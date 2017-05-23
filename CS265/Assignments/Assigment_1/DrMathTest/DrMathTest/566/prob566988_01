@@ -1,0 +1,43 @@
+ThreadNum: 566988
+Subject: Re: Calculus (Prooving Limits)
+To: annakiut03@hotmail.com (Anna)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 08:29:30
+Sent: yes
+
+
+As Anna wrote to Dr. Math
+On 08/15/2004 at 05:26:21 (Eastern Time),
+>[Question]
+>Suppose that f(x)>=0 for all x sufficiently near a number A, if    
+>lim(x->A) f(x) exists, show that lim(x->0) f(x)>=0.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I understand the question and know what it is asking for but I just 
+>can't prove it!
+
+Hi Anna,
+
+Thanks for writing to Dr. Math.  Let
+
+   L = lim f(x)
+       x->A
+
+
+Suppose L < 0.  Then for any positive epsilon (E), you can choose
+a delta (D) such that if 0 < |x-A| < D, then
+
+   |f(x) - L| < E.
+
+Can you choose an E such that if |f(x) - L| < E, then f(x) < 0?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

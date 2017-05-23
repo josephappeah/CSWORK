@@ -1,0 +1,46 @@
+ThreadNum: 567417
+Subject: Re: Number Theory (divisibility)
+To: seckshin@yahoo.com (Tan Seck Shin)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 09:25:00
+Sent: yes
+
+
+As Tan Seck Shin wrote to Dr. Math
+On 08/17/2004 at 23:53:25 (Eastern Time),
+>[Question]
+>p is a prime. How to show that (p-1)!+1 is a power of p iff p=2,3 and 5
+
+Hi Tan,
+
+Well, in one direction, this is easy:  If p = 2, 3, or 5, then just
+substitute that into (p-1)! + 1 and see that you have a power of p.
+
+The other direction is harder:  Showing that if (p-1)! + 1 is a power
+of p, then p is either 2, 3, or 5.
+
+>[Difficulty]
+>The confuxing thing is that is p^[(p-1)!+1]=p ?
+
+No, that's not at all what they said.  To say (p-1)! + 1 is a power of
+p means that
+
+  (p-1)! + 1 = p^k
+
+for some integer k.
+
+So you want to assume that (p-1)! + 1 is a power of p and try to prove
+that p is either 2, 3, or 5.
+
+>[Thoughts]
+>the hint is that if (n-1)^k divides (n^k-1) then (n-1) divides k.
+
+Yes, except for k=1.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

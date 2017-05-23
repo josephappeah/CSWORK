@@ -1,0 +1,69 @@
+ThreadNum: 566304
+Subject: Re: Numbers
+To: jay_soon@hotmail.com (CJS)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 11:54:05
+Sent: yes
+
+Hi, CJS.
+
+As CJS wrote to Dr. Math
+On 08/10/2004 at 10:43:01 (Eastern Time),
+>[Question]
+>Does an aliquot part include the number itself as a divisor? (i.e. 
+6 -
+> the aliquot parts are: 1, 2, 3,... so is 6 included?
+>
+>[Difficulty]
+>An aliquot is defined as an integer that is an exact divisor of some
+>quantity. It however does not specify if the number itself is 
+>included (but if interpret it right, the number itself is 
+included...
+>correct me if I'm wrong).
+>
+>The confusion it brought to me was when this term was used to define
+>an abundant number. 
+>
+>I read a definition that a number "n" is said to be abundant if the 
+>sum of its aliquots is greater than "n".
+>
+>Contrary, I also read a definition that a number "n" is said to be 
+>abundant if the sum of its aliquots is greater than "2n".
+>
+>Doing further research, I found out that these are better 
+definitions
+>for an abundant number, both of which are clear:
+>
+>1. a number "n" is said to be abundant if the sum of its proper 
+>divisors is greater than "n". Example: s(12) = 1+2+3+4+6 = 16>12, so
+>12 is an abundant number. 
+>2. a number "n" is said to be abundant if the sum of its positive 
+>divisors is greater than "2n". Example: s(12) = 1+2+3+4+6+12 = 28>2
+>(12), so 12 is an abundant number.
+>
+>On the ambiguous definition using the word "aliquot", which one is 
+>better... aliquot=proper divisor or aliquot=positive divisor?
+>
+>
+>[Thoughts]
+>Proper divisor is a positive divisor of a number, excluding the 
+>number itself. If it includes the number itself, how do you call 
+>these divisors? Is it safe to call them aliquots or is it better to 
+>cell them positive divisors?
+
+It is probably better to avoid using the word "aliquot"; I don't 
+know that I've ever used it in my life. Perhaps the source that used 
+the word in its definition of "abundant number" also gave a 
+definition of "aliquot"; that is the proper procedure whenever one 
+uses a term that is used in different ways depending on context.
+
+See this page for confirmation of the ambiguity you have found:
+
+  http://mathworld.wolfram.com/AliquotDivisor.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

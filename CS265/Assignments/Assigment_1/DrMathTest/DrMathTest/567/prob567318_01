@@ -1,0 +1,88 @@
+ThreadNum: 567318
+Subject: Re: How do you subtract a fraction from a whole number
+To: Kbeim24@charter.net (Kris)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 16:42:57
+Sent: yes
+
+
+As Kris wrote to Dr. Math
+On 08/17/2004 at 16:05:06 (Eastern Time),
+>[Question]
+>How do you subtract a fraction from a whole number?
+>
+>   Here is an example:
+>      4 - 2/8
+>
+>[Difficulty]
+>I find most difficult to understand is that the whole number has no 
+>fraction with it so I have no idea how to subtract these fractions.
+>
+>[Thoughts]
+>My thoughts on this question are that this questio is very difficult 
+>to understand and I am having a hard time answering the question. 
+>Please help me.
+
+Hi Kris,
+
+There are a couple of ways you might approach this.  By analogy, let's
+look at the problem
+
+  9 - 3 = ?
+
+One thing we can do is replace 9 by 5+4, giving us
+
+  (5+4) - 3 = ?
+
+  5 + 4 - 3 = ?
+
+  5 + (4-3) = ?
+
+      5 + 1 = 6
+
+In the same way, you could do this:
+
+      4 - 2/8 = ?
+
+  (3+1) - 2/8 = ?
+
+  3 + 1 - 2/8 = ?
+
+  3 + (1-2/8) = ?
+
+      3 + 6/8 = 0
+
+        3 6/8 = 0
+
+So it's sort of like asking, "What's 4 dollars minus a quarter?" 
+That's 3 dollars, plus 4 quarters minus 1 quarter, or 3 dollars and 1
+quarter.  Does that make sense?
+
+A second way to approach is is to convert the whole number into a
+fraction with the same denominator.  For example, 
+
+  4 = 1 + 1 + 1 + 1
+
+    = 8/8 + 8/8 + 8/8 + 8/8
+
+    = (8+8+8+8)/8
+
+    = (4 * 8)/8
+
+    = 32/8
+
+So
+
+   4 - 2/8 = 32/8 - 2/8
+
+           = (32 - 2)/8
+
+           = 30/8
+
+Which you may or may not want to convert back to a mixed number. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

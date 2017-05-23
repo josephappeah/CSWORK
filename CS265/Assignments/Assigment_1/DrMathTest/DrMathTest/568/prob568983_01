@@ -1,0 +1,111 @@
+ThreadNum: 568983
+Subject: Re: squares, digits, number theory
+To: gentry@excite.com (Charles)
+From: Doctor Vogler
+TimeStamp: 08/27/2004 at 10:41:56
+Sent: yes
+
+
+As Charles wrote to Dr. Math
+On 08/26/2004 at 17:08:45 (Eastern Time),
+>[Question]
+>Is there a square of an integer greater than 9 whose only non-zero 
+>digits are its first and last?
+>
+>[Difficulty]
+>It would seem to require examining large numbers of the digits of the 
+>decimal expansions of the sqrts of the one-digit integers, and of 
+>their products with the sqrt of 10. I think such a square would 
+>require a long enough string of zeroes early enough in the square 
+>root.
+>
+>[Thoughts]
+>I came to the above conclusion using my calculator, inspecting many 
+>squares just greater than various numbers of the form a(10^b)+c, 
+>where a, b, and c are integers between 0 and 10.
+
+Hi Charles,
+
+Thanks for writing to Dr Math.  That's a very interesting question. 
+So you suppose that a and c are integers strictly between 0 and 10
+(that is, between 1 and 9 inclusive), and b is an integer bigger than
+1.  And we want to prove that
+
+  a(10^b) + c
+
+is not a square.  (Of course, if c=0, then it's not hard to show that
+"b" has to be even and "a" has to be a square (0, 1, 4, or 9).  If
+a=0, then "c" has to be a square.)
+
+I thought about going at this from two directions.  Modular arithmetic
+is often very helpful, and that would suggest starting out like this:
+
+First we have
+
+  a(10^b) + c = c mod 100,
+
+so we need to know what are all of the squares mod 100, and how many
+of them are from 1 to 9?  Clearly 1, 4, and 9 are squares mod 100. 
+What about 2, 3, 5, 6, 7, and 8?  Well, 2 and 6 are not because the
+square of an odd is odd, and the square of an even is divisible by 4,
+mod 100.  And 3, 7, and 8 are not, because 2 and 3 are not squares mod
+5, therefore not mod 100.  And 5 is not either, because the square of
+a multiple of 5 is a multiple of 25 (mod 100), and the square of a
+non-multiple of 5 is a non-multiple of 5.  So we conclude that c has
+to be 1, 4, or 9.
+
+We can then consider what happens modulo larger powers of 10, or
+perhaps powers of 10 plus or minus 1.  For example,
+
+  a(10^b) + c = a + c mod 9,
+
+so we consider the squares mod 9.  Also, we can now suppose that
+
+  a(10^b) + c = m^2
+
+and then try factoring m^2 - c for the three values that we know c
+must be chosen from
+
+  a(10^b) = (m-1)(m+1)
+
+or
+
+  a(10^b) = (m-2)(m+2)
+
+or
+
+  a(10^b) = (m-3)(m+3).
+
+And since we know a lot about the left side of the equation, that can
+tell us many things about the right side.
+
+The other way to go about this problem is to take the square root:
+
+  a(10^b) + c = m^2
+
+so
+
+  m = sqrt( a(10^b) + c ),
+
+so what is that square root?  Well, it's very close to
+
+  sqrt( a(10^b) ) = sqrt(a)*10^(b/2).
+
+Can you prove that m and this square root cannot differ by more than 1
+if b>=2?  So if b is even, then we just need to consider sqrt(a), and
+if b is odd, then we just need to consider sqrt(10a).  If that square
+root is exactly an integer divided by a power of 10, then c must be
+zero (can you explain why?).  But it has to be very close, and you
+only have 18 square roots to choose from.
+
+I'm not even sure if either of these methods will get you the answer.
+ I started to think the first method seemed more promising, then I
+thought the second one did, and now I'm thinking the first one does
+again.  See if you can use any of these ideas to finish off a proof. 
+And if you have any other questions about this or need more help,
+please write back and show me what you have been able to do, and I
+will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

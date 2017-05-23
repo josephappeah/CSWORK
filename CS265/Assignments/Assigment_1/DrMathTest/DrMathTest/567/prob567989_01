@@ -1,0 +1,69 @@
+ThreadNum: 567989
+Subject: Re: Problem with 0 multiplied by 0 ?
+To: Bjarke@grevestrand.dk (Bjarke)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 14:07:15
+Sent: yes
+
+
+As Bjarke wrote to Dr. Math
+On 08/21/2004 at 05:59:15 (Eastern Time),
+>[Question]
+>I admit I left the the academic world 20 yeras ago I havent used it 
+>much since, BUT:
+>
+>I recall that in some engineering/math situation it turned out to be 
+>a problem if 0 multiplied by 0 should be 0, so by definition we had 
+>to make it 1. - just as 0^0=1 and 0!=1.
+>
+>However I don't recall if it was in a very specific engineering 
+>situation we had to twist the math *or* if it was in one of the more 
+>intertaining corners of math lessons
+>
+>Please remind me.
+>
+>
+>[Difficulty]
+>Simply, my son is now so old that he starts t0 ask these questions. 
+>I told him 1, but now i'm not so sure anymore....
+>
+>[Thoughts]
+>
+
+Hi Bjarke,
+
+Thanks for writing to Dr. Math.  I'm not sure what you are thinking
+of, but there is no mathematical problem with multiplying 0 by 0.
+0*a = 0 for any real (or even complex) number a, and a=0 in 
+particular.  This isn't hard to prove from the usual properties for
+arithmetic.
+
+0/0 is undefined, and 0! is defined to be 1 as a convenience: 
+otherwise you have to write the term for index 0 as a separate 
+term in many infinite series.  0^0 is more of a problem, since there
+are reasons for defining it to be 0 (0^x = 0 for any x > 0), and
+reasons for defining it to be 1 (x^0 = 1 for all x not equal to 0).
+There seems to be a consensus now that 0^0 = 1 is better.  See
+
+  http://mathforum.org/dr.math/faq/faq.divideby0.html
+  http://mathforum.org/dr.math/faq/faq.0factorial.html
+
+and
+
+  http://mathforum.org/dr.math/faq/faq.0.to.0.power.html .
+
+You can find more archived answers by searching with the keywords
+
+   0/0
+   0!
+   0^0  ,
+
+which produced the results above, among many others.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

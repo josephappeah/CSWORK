@@ -1,0 +1,77 @@
+ThreadNum: 568414
+Subject: Re: I believe I have discovered a new formula! I need help!
+To: darkangel8121@yahoo.com (Brad)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 07:52:03
+Sent: yes
+
+
+As Brad wrote to Dr. Math
+On 08/24/2004 at 06:28:01 (Eastern Time),
+>[Question]
+>I hope this wasn't ignored! Obviously not if you are reading it! I
+>have discovered an algebraic formula for finding the sum of a string
+>of numbers in consective order. (ie: How would you figure out what the
+>sum of all the numbers from 1-1000 equals added into each other)
+>However, I am unsure if there is already a formula in existence for
+>this process. Could you please tell me if you know of one, and if so
+>e-mail it to me? I will keep in touch about this if there is a way to
+>respond to your e-mail. If there is no way thank you none the less.
+>Oh, and this is not a prank.
+>
+>[Difficulty]
+>I don not know what to do with it if it is not already in existence! 
+>
+>[Thoughts]
+>
+
+Hi Brad,
+
+Given the numbers from b to e, we can add them in opposing order, 
+
+  b  b+1   b+2   ...  e-2   e-1   e
+
+  e  e-1   e-2   ...  b+2   b+1   b
+ 
+If we add these up, 
+
+  b    b+1   b+2   ...  e-2   e-1   e
+
+  e    e-1   e-2   ...  b+2   b+1   b
+  ---  ---   ---        ---   ---   ---
+  b+e  b+e   b+e        b+e   b+e   b+e
+
+we get (e-b+1) terms, each of which sums to (b+e).  And that's twice
+the sum we're looking for.  So the sum is
+
+  (b+e)(e-b+1)/2
+
+If b=1 and e=n, we get the sum of the first n positive integers, 
+
+  (1+n)(n-1+1)/2 = n(n+1)/2
+
+Note that if we represent each number from 1 to N this way, 
+
+  *
+  **
+  ***
+  ****
+  *****
+
+we can double the triangle to get
+
+  *@@@@@
+  **@@@@
+  ***@@@
+  ****@@
+  *****@
+
+so the sum we're looking for is just half the area of the rectangle,
+or n(n+1)/2. 
+
+Is this the formula you found?  If so, how did you come up with it? 
+Even though the formula is known, new ways of deriving it are interesting.
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

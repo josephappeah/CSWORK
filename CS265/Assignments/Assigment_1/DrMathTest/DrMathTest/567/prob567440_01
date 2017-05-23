@@ -1,0 +1,64 @@
+ThreadNum: 567440
+Subject: Re: Modular Exponentiation and Fermat's Little Theorem
+To: benjjonesuk@yahoo.co.uk (Ben Jones)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 09:03:51
+Sent: yes
+
+
+As Ben Jones wrote to Dr. Math
+On 08/18/2004 at 05:42:34 (Eastern Time),
+>[Question]
+>Hi,
+>
+>I'm trying to prove (or disprove) the following:
+>
+>  (n ^ (x mod (p-1))) mod p === (n ^ x) mod p
+>
+>where p is prime and n is relatively prime to p. (I'm using the
+>"computing style" mod operator here, rather than the math one. Hope
+>that's OK, because I'm a computer programmer, not a mathematician! :))
+>
+>[Difficulty]
+>I guess I'm just not confident enough with shuffling these "mod"
+>operators around. Also, in the specific case where this has cropped
+>up, n is in fact a primitive root of p, and x is always prime (and, x
+>is always relatively prime to (p-1)!). I can't decide if this is
+>significant or not, which makes it harder to think about, if you see
+>what I mean.
+>
+>[Thoughts]
+>Intuitively, I think the proposition is true by Fermat's Little
+>Theorem. If I express x as being q*(p-1)+r (where q is the integer
+>part of x/(p-1) and r is the remainder), then:
+>
+>  (n^x) mod p = n ^ (q*(p-1)+r)  mod p
+>              = (n ^ (q*(p-1))) * (n^r)  mod p
+>              = (n ^ (p-1))^q * (n^r) mod p
+>
+>Then by F.L.T, as (n,p) = 1:
+>
+>              = (1^q * (n^r) mod p 
+>              = (n^r)) mod p
+>              = (n^(x mod (p-1))) mod p
+>
+>Is this argument sound? I can never quite be sure with all these mods
+>floating around. Are there any necessary conditions that I've missed?
+>
+>I tested this emperically for a few values and it seemed to work, but
+>I don't feel I have a rigorous proof and without that I can't accept
+>the result. 
+>
+>Many thanks in advance for your help!
+
+Hi Ben,
+
+Thanks for writing to Dr Math.  Yes, you have the right idea.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

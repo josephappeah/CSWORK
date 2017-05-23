@@ -1,0 +1,45 @@
+ThreadNum: 567906
+Subject: Re: Prime Numbers
+To: brucegpyne_1@juno.com (Bruce Pyne)
+From: Doctor Roy
+TimeStamp: 08/20/2004 at 15:05:55
+Sent: yes
+
+
+As Bruce Pyne wrote to Dr. Math
+On 08/20/2004 at 14:50:30 (Eastern Time),
+>[Question]
+>I have conjectured that every positive integer > 3 is the midpoint 
+>between two primes.   Put in mathematical terms, for every n > 3 
+>there exists a number a such that n + a and n - a are both prime.
+>For instance, if n = 24, a = 5 because both 19 and 29 are prime.
+>My question is simply this:  Has anyone else before me conjectured
+>this?  I have found no reference to it anywhere.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+This is actually a re-wording of the Goldbach conjecture: Every even
+number greater than 2 can be expressed as a sum of two primes.
+
+Notice that if n+a and n-a are primes (presumably odd primes, since 2
+is the only even prime), then:
+
+   n+a + n-a = 2*n
+
+2*n is the generic form for any even number, and it is the sum of two
+prime numbers. So, your conjecture is really the Goldbach conjecture
+expressed slightly differently. 
+
+Hope this helps.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

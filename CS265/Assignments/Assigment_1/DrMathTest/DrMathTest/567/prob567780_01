@@ -1,0 +1,37 @@
+ThreadNum: 567780
+Subject: Re: Order of Operations Algebra I
+To: gguillory@charter.net (BRMEG)
+From: Doctor Peterson
+TimeStamp: 08/20/2004 at 16:57:06
+Sent: yes
+
+Hi, BRMEG.
+
+As BRMEG wrote to Dr. Math
+On 08/19/2004 at 19:44:09 (Eastern Time),
+>[Question]
+>Evaluate abc when a= 4/7, b= 1 1/6, and c= 3
+>
+>[Difficulty]
+>How do you evaluate abc when there are no other numbers to evaluate 
+>it by.
+>
+>[Thoughts]
+>I think you put each number in () and then multiply them one by one.
+
+The expression "abc" means "the product of the values of the variables
+a, b, and c". So you are correct: to evaluate it with the three given
+values, you multiply those values; and the way to write that
+algebraically is to replace each variable with its value (in
+parentheses so that the mixed numbers don't get mixed up):
+
+  when a= 4/7, b= 1 1/6, and c= 3,
+
+  abc = (4/7)(1 1/6)(3) = ...
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

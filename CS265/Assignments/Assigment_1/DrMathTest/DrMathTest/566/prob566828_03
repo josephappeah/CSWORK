@@ -1,0 +1,37 @@
+ThreadNum: 566828
+Subject: Re: college mathematics
+To: spny18@aol.com (Jennifer)
+From: Doctor Roy
+TimeStamp: 08/13/2004 at 14:16:32
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/13/2004 at 14:13:06 (Eastern Time),
+>Could you please show me an example. I am trying to teach this math 
+>to myself.
+
+Hi,
+
+An example of using the quadratic formula:
+
+     x^2 + 3x + 4 = 0
+
+   a = 1
+   b = 3
+   c = 4
+
+     x = [-b +/- sqrt(b^2 - 4ac)]/(2a)
+
+       = [-3 +/- sqrt(3^2 - 4(1)(4))]/(2*1)
+       = [-3 +/- sqrt(-7)]/2
+
+     x = (-3 + i*sqrt(7))/2
+    or
+     x = (-3 - i*sqrt(7))/2
+
+where i = sqrt(-1). These are the two solutions.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,81 @@
+ThreadNum: 567776
+Subject: Re: The Tulip Word Problem
+To: lmatherne@selu.edu (Lisa)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 13:02:20
+Sent: yes
+
+
+As Lisa wrote to Dr. Math
+On 08/19/2004 at 19:35:25 (Eastern Time),
+>[Question]
+>I am working on this problem solving situation, using 10 discs.  I am 
+>not having any luck.  Before I present this problem to my students, I 
+>would like to solve it.  Here it is:
+>I have ten tulips in a garden with 5 rows and 4 tulips in each row.  
+>Use the discs to show the garden configuration.
+>
+>[Difficulty]
+>I can not seem to "see" the problem.
+>
+>[Thoughts]
+>I have tried many configurations with the discs, mostly guess and 
+>check, but no luck.
+
+Hi Lisa,
+
+Let me begin by saying that probably the single most educational thing
+you could do for your students would be to go ahead and present the
+problem, without knowing how to solve it, and work through it _together_.
+
+I say this because if you stop a moment to think about what kids are
+supposed to be learning in school, it's how to figure out what to do
+when they don't know what to do.  Isn't that true?  If you believe
+it's true, as I do, then it's interesting to consider how often kids
+get a chance to observe their teachers doing that.  
+
+I think most kids go through 12 years of formal education without
+_ever_ seeing it, largely because teachers are careful not to present
+problems that they don't already know the answers to - which is what
+you're doing right now, correct? 
+
+The solution to this problem is completely unimportant in the larger
+scheme of things.  What's important are things like knowing how to
+identify the assumptions you're making (and decide which ones can be
+loosened up a little), how to keep track of what you've tried so you
+don't go in circles, and so on.  
+
+For what it's worth, I don't actually know the solution to this
+problem.  What I _do_ know is that when the obvious approaches have
+failed, a good thing to do is to reconsider how to interpret the words
+in the problem.  For example, it might be a good idea to think about
+what it means to have 'rows' of tulips.  
+
+Here are two rows of 4 tulips:
+
+        3               rows:  0123, 3456
+      2   4
+    1       5 
+  0           6
+
+I can add 3 more to get 4 rows of 4:
+
+        3
+    8       9           rows: 0123, 3456, 6728, 0749
+      2   4
+        7
+    1       5 
+
+  0           6
+
+The rows aren't parallel or perpendicular to each other (which is
+normally how we think of arranging things in 'rows'), and they're not
+distinct.  And this opens up a lot more possibilities for arranging
+the tulips.  
+
+Does this help?  Write back if you'd like to talk more about this, or
+anything else.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

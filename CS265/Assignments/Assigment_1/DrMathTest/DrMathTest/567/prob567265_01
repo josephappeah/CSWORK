@@ -1,0 +1,143 @@
+ThreadNum: 567265
+Subject: Re: Year 8 Maths (13 years old) equations
+To: nbouzanis1990@hotmail.com (Nicholas)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 11:08:46
+Sent: yes
+
+
+As Nicholas wrote to Dr. Math
+On 08/17/2004 at 06:01:39 (Eastern Time),
+>[Question]
+>My maths teacher said that we can't yet do equations with more than 
+>one type of pronumeral. eg.
+>
+>2x+1= 33 that is easy but
+>
+>2x=y =33 is one we cant yet do.
+>
+>Can you tell me how to work it out so i can surprise my teacher
+>
+>[Difficulty]
+>i dont yet understand it although i may have read something about it 
+>before and i really want to find out the answer to it.
+>
+>[Thoughts]
+>i have not yet  been given a probem on this but want to learn how to 
+>solve it.
+
+Hi Nicholas,
+
+When we write something like 
+
+  2x + 1 = 33
+
+there are a limited number of values that can be assigned to the
+variable to make the statement true.  In this case, there's only one,
+which is x=16.  Any other assignment makes the statement false:
+
+  2*16 + 1 = 33               True
+
+   2*5 + 1 = 33               False
+
+Sometimes there can be more than one value possible.  For example, in
+the equation
+
+  x^2 + 1 = 10
+
+the value x=3 works, and so does the value x=-3:
+
+   (3)^2 + 1 = 10              True
+
+  (-3)^2 + 1 = 10              Also true.
+
+Now, consider what happens when we throw another variable into the
+mix.  Let's look at a simple example, like 
+
+   2x + y = 5
+
+Now we're looking, not for individual values, but for _pairs_ of
+values that make the statement true.  For example, if I assign x=1 and
+y=3, I get
+
+   2*1 + 3 = 5 
+
+which is true.  So the pair (x=1,y=3) is a solution to this equation.
+For this particular equation, it's not hard to write down other pairs
+that would work:
+
+  (x =  0,   y = 5)
+  (x = -1,   y = 7)
+  (x =  1.5, y = 2)
+
+A moment's thought should convince you that there are, in fact,
+infinitely many pairs that satisfy the equation.  
+
+By default, when we are using 'x' and 'y' for our variables, we agree
+that we'll always write the x value first, which saves us some effort.
+ The pairs above would then be written 
+
+  (0, 5)
+  (-1, 7)
+  (1.5, 2)
+
+Note that changing the order changes the meaning, so (0,5) is a
+different thing from (5,0).  For this reason, we call these 'ordered
+pairs'.  
+
+So, we have an infinite number of possible solutions.  What do we do
+about that?  Surely we can't write them _all_ down!  It would take too
+long (and we'd never be able to afford enough paper, or computer
+memory, to do it).  
+
+The short answer is:  We use a _graph_.  In theory, we would look at
+each solution, and mark a corresponding point on a coordinate plane. 
+If you're not sure how that works, look at 
+
+  http://mathforum.org/cgraph/cplane/
+
+If we did this for each solution of the equation
+
+  2x + y = 5
+
+the points would all form a line.  That is, the line and the equation
+are just two different ways of representing the same set of (x,y) pairs.  
+
+Other equations correspond to different kinds of curves.  For example,
+if you plot all the solutions to the equation
+
+  y = x^2 - 3x + 2 
+
+the points corresponding to the solutions form a parabola.  If you
+plot all the solutions to the equation
+
+  (x-3)^2 + (y+5)^2 = 4^2
+
+you get a circle (whose center is at the point (3,-5), and whose
+radius is 4). 
+
+Once the connection between equations and graphs is made, there are
+two kinds of questions that are easy to ask.  The first is
+
+  Given a particular equation, like  x^2 - y^2 = 4,
+  what is the shape of the corresponding graph? 
+
+The second is, 
+
+  Given a particular graph, or a few points on a graph,
+  what is the corresponding equation? 
+
+Because it's so easy to ask these questions, you should expect to be
+asked a lot of them.  :^D
+
+You'll start with lines first, because those are the easiest to work
+with.  If you'd like to get a head start on that, take a look at
+
+  http://mathforum.org/cgraph/cslope/
+
+I hope this helps!  Write back if you'd like to talk more about this,
+or anything else. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,54 @@
+ThreadNum: 567603
+Subject: Re: about discovering averages and the formulation of decimals.
+To: joydigi1@earthlink.net (April Crews)
+From: Doctor Rick
+TimeStamp: 08/19/2004 at 14:33:23
+Sent: yes
+
+Hi, April.
+
+As April Crews wrote to Dr. Math
+On 08/18/2004 at 21:51:03 (Eastern Time),
+>[Question]
+>If a person invests 6000.00 and earns interest of 372.00 total, a 
+>part of his investment is earning 7 percent, and another part is 
+>earning 5 percent-how much is invested in each percentage?  We are 
+so 
+>close it's not funny, but do not understand the formula to figure it 
+>out.  If you could give us an idea of the formula we can do it!
+>
+>Thank you so much.
+>
+>J. Cummings
+>Naples, FL
+>
+>
+>[Difficulty]
+>The formula. It was never explained how to do this, yet is is a 
+>homework question.
+>
+>[Thoughts]
+>We have three pages of guesses with myself and my daughter and a 
+>calculator.  The closest we have is this:
+>
+>2395.00 x .05=   119.75
+>3605.00 x .07=   252.35
+>_______          ______
+>6000.00          372.01
+>
+>
+
+I take it you're not the 15-year-old. (You did right in giving your 
+daughter's age rather than your own, we don't care how old you are!)
+
+Guessing is a bad way to go. You can use your guess, though, as a 
+model for writing equations which you can then solve. You don't know 
+the amount invested at 5%, so call it x instead of guessing a number. 
+Then the interest earned on this portion is 0.05x. The amount 
+invested at 7% interest is (6000-x). Replacing the other elements of 
+your sample calculation with expressions in x will result in an 
+equation. Try it.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

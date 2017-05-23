@@ -1,0 +1,50 @@
+ThreadNum: 566291
+Subject: Re: finding the domain and range of some problems
+To: ducttapeman531@comcast.net (steve)
+From: Doctor Justin
+TimeStamp: 08/10/2004 at 14:44:38
+Approved-By: Doctor Ian
+Sent: yes
+
+As steve wrote to Dr. Math
+On 08/10/2004 at 08:14:52 (Eastern Time),
+>[Question]
+>I have come across some problems I was given and I do not remember 
+>how to solve them for there domain and range.
+>
+>Examples: y=sqrtx-4
+>          y=sqrtx^2-4
+>          y=sqrt4-x^2
+>          y=sqrtx^2+4
+>
+>These are just a few of the many problems I was given that are like 
+>this.  Can you please show me how to solve them?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Steve,
+
+The domain is the set of possible inputs and the range is the set of 
+possible outputs.  For example, in
+
+        y = sqrt(x-4)
+
+The quantity (x-4) must be greater than or equal to zero (do you see 
+why?).  Therefore,
+
+           x-4 >= 0
+
+So the domain is x >= 4.  The domain will determine the range,
+
+                y = sqrt(x-4) = sqrt(4-4) = sqrt(0) = 0
+
+So y >= 0.  Does this help?
+
+- Doctor Justin, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

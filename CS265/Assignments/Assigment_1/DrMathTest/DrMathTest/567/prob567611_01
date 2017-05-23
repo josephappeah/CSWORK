@@ -1,0 +1,31 @@
+ThreadNum: 567611
+Subject: Re: To Dr. Vogler
+To: seckshin@yahoo.com (Tan Seck Shin)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 10:49:05
+Sent: yes
+
+
+As Tan Seck Shin wrote to Dr. Math
+On 08/18/2004 at 22:12:41 (Eastern Time),
+>[Question]
+>if p is prime, then (p-1)!+1 is a power of p iff p = 2,3 and 5.
+>
+>[Difficulty]
+>I still don't see how this can help to solve the problem
+>
+>[Thoughts]
+>Agree that one direction is easy and have shown that (n-1)^2 divides
+n^k-1 
+>Proofing the hint: n^k-1=a(n-1)^2
+>(n-1)(n^(k-1) +n^(k-2)+ ... +n+1)=(n-1)^2
+>n^(k-1) +...+n+1= 0 (mod n-1)
+>but n=1 (mod n-1)
+>therefore 1+1+...+1=0 (mod n-1)
+>hence k = 0 (mod n-1)
+
+Very good.  Now can you prove that (p-1)^2 divides (p-1)! ?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

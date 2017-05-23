@@ -1,0 +1,85 @@
+ThreadNum: 567849
+Subject: Re: how do I cross multiply this problem?  
+To: ANA_CASTOR@YAHOO.COM (Anna Karen)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 01:15:15
+Sent: yes
+
+
+Hi Anna Karen,
+
+>in my class we are learning about how to find the ratio and things
+>like that . when i used the ratio format i got this 
+>cross multiply     
+>                           y   8     
+>                           - = -  cross multiply = 64    6y
+>                           8   6                   -- =  --   = 11
+>                                                    6
+
+It looks like you have an extra 6 in there.  One way to catch these
+things is to leave everything un-multiplied until you've got things
+arranged the way you want.  A good way to avoid the problems
+altogether is to proceed one step at a time. 
+
+For example, 
+
+      y   8
+      - = -
+      8   6
+
+      y     8
+    6*- = 6*-             Multiply both sides by 6
+      8     6
+
+      y     
+    6*- = 8               Cancel the 6's on the right.
+      8     
+
+      y     
+  8*6*- = 8*8             Multiply both sides by 8.
+      8     
+
+            
+    6*y = 8*8             Cancel the 8's on the right.
+
+Now we can divide both sides by 6 to get
+
+          8*8
+      y = ---    
+           6
+
+But of course, we _could_ have just multiplied both sides by 8 to
+begin with!
+
+      y     8
+    8*- = 8*-
+      8     6
+
+          8*8
+      y = ---
+           6
+
+          64
+        = --
+           6
+
+> my problem and what i found most confusing about was the answer that
+>i got. I got an answer of 11 but my teacher said that the answer was 10.7
+>please help me. 
+
+Do you see now where you went astray? 
+
+These kinds of problems - called proportions - come up so often that
+it's worth taking some time to learn to deal with them quickly and
+easily.  Take a look at
+
+  Flipping and Switching Fractions
+  http://mathforum.org/library/drmath/view/58193.html
+
+and write back if it's not clear, or if you still have questions. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

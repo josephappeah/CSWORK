@@ -1,0 +1,63 @@
+ThreadNum: 567116
+Subject: Re: Help with explaining how to work with double angles?
+To: cimob838@student.liu.se (Cim Öberg)
+From: Doctor Fenton
+TimeStamp: 08/17/2004 at 12:24:29
+Sent: yes
+
+
+As Cim Öberg wrote to Dr. Math
+On 08/17/2004 at 12:08:18 (Eastern Time),
+>Thanks for your quick answer Dr. Fenton, however I am afraid I must
+>bother you again: I can't make much use of it, I don't know how to
+>Rewrite cos^3(x) as an expression in sin(x) times cos(x), if you could
+>help me with that or direct to me to some sort of resource where I can
+>read about more transformation rules than the following:
+>
+>cos^2(x) + sin^2(x) = 1
+>sin^2(x) = 2*sin(x)* cos(x) = cos(x)
+>cos^2(x) = ( 1 + cos(2*x)) )/2
+>cos(2*x) = ( 1 - 2*sin(x)^2 )
+>cos(2*x) = cos^2(x)-sin^2(x)
+>
+>(I might have forgotten or miswritten something)
+>
+>These are the rules I've been working with so far, and the only rules
+>I've found on websites that write about trigonometry, but I don't seem
+>to be able to do much with them in order to rewrite the whole function
+>to something I can obtain a primitive from.
+>
+>Thanks for your time
+
+Hi Cim,
+
+>....., I don't know how to
+>Rewrite cos^3(x) as an expression in sin(x) times cos(x),...
+
+   cos^3(x) = cos^2(x) sin(x)
+
+and you can rewrite cos^2(x) in terms of sin(x) by using
+
+>cos^2(x) + sin^2(x) = 1 .
+
+In your identities,
+
+>cos^2(x) + sin^2(x) = 1
+
+is correct.
+
+>sin^2(x) = 2*sin(x)* cos(x) = cos(x)
+
+The first equality is correct.  Neither expression is equal to cos(x).
+
+>cos^2(x) = ( 1 + cos(2*x)) )/2
+>cos(2*x) = ( 1 - 2*sin(x)^2 )
+>cos(2*x) = cos^2(x)-sin^2(x)
+
+are correct.  For additional identities, see
+
+   http://mathforum.org/dr.math/faq/formulas/faq.trig.html .
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

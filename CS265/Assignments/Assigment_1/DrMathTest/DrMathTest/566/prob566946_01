@@ -1,0 +1,50 @@
+ThreadNum: 566946
+Subject: Re: Using a power of 10 to convert fractions to decimals
+To: netram59@aol.com (Michael)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 19:09:55
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/14/2004 at 18:29:46 (Eastern Time),
+>[Question]
+>Use a power of ten to change 4/50 to a decimal.
+>
+>I would like to learn to do this correctly so that I can help my 
+>daughter who is entering 8th grade.
+>
+>[Difficulty]
+>I'm not sure if you convert it first or use the power of 10 first.
+>
+>So, is it 4/50 = .08
+>
+>and then .08 = 8x10^-2
+>
+>
+>I don't know of any other way to appraoch this.  Please help.
+>
+>[Thoughts]
+>
+Hi, Michael --
+
+The instructions are not clear, so I'm not sure what is expected.
+
+You converted the 4/50 to the decimal .08 and then wrote that 
+decimal using a power of 10 as 8x10^-2.
+
+With the way the instructions are written, I think you are supposed 
+to somehow use a power of 10 before converting anything to a 
+decimal.  The way to do that would be
+
+  4/50 = 8/100 = 8x10^-2
+
+In other words, we first express the given fraction as an equivalent 
+fraction which has a denominator which is a power of 10.
+
+But that is only a guess as to what they wanted you to do with 
+this....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,39 @@
+ThreadNum: 567068
+Subject: Re: Probability
+To: maclampert@optonline.net (Katie)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 11:57:10
+Sent: yes
+
+
+As Katie wrote to Dr. Math
+On 08/15/2004 at 21:56:40 (Eastern Time),
+>[Question]
+>Someone stated that there is a 70% chance of rain every day and 
+that 
+>what happens one day will not affect the next.  What are the 
+chances 
+>that we will get 15 days of rain in a 30 day month?
+>
+>[Difficulty]
+>I thought I had the right answer 70% x (15/30) = 35% chance but I 
+>was told I was wrong.  Can you explain why I was wrong? What did I 
+>do wrong?  I am confused.
+>
+>[Thoughts]
+>70% x (15/30) =
+> 70% x 1/2 = 35%
+
+If you mean EXACTLY 15 days and no more or less the probability is 
+calculated from
+
+   C(30,15) x 0.7^15 x 0.3^15  =  0.0105669
+
+This is known as binomial probability and applies when you have a 
+given number of independent 'trials' with a constant probability 
+of 'success' at each trial.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

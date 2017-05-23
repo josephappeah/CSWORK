@@ -1,0 +1,42 @@
+ThreadNum: 568727
+Subject: Re: remainder in division by negative integers
+To: ferezya@yahoo.com (Jasmine)
+From: Doctor Peterson
+TimeStamp: 08/25/2004 at 22:47:51
+Sent: yes
+
+Hi, Jasmine.
+
+As Jasmine wrote to Dr. Math
+On 08/25/2004 at 16:41:03 (Eastern Time),
+>[Question]
+>If we divide 88 by -11 we get 0 remainder, however we know that the 
+>remainder should be less than -11. How can we explain this?
+>
+>
+>[Difficulty]
+>88 is divisible by 11, and the remainder should be less than the 
+>divisor.
+>
+>[Thoughts]
+>I am stuck
+
+When we divide by a POSITIVE integer, we define the remainder as a
+number between 0 and the divisor, or exactly 0. But that definition
+doesn't work for a negative divisor. In fact, for a negative divisor
+there are two different ways we can define the remainder (though they
+will agree in your example). It might be either between the number and
+zero, or between zero and the absolute value of the number.
+
+See this page and the page it points to for some related issues in
+computer programming:
+
+  Integer Modulus vs. Remainder
+  http://mathforum.org/library/drmath/view/54377.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

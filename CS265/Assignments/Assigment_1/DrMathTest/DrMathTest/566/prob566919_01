@@ -1,0 +1,147 @@
+ThreadNum: 566919
+Subject: Re: Finding the distribution of Z = X + Y (random variables)
+To: ludvigooo@hotmail.com (Ludvig)
+From: Doctor Anthony
+TimeStamp: 08/15/2004 at 07:38:05
+Sent: yes
+
+
+As Ludvig wrote to Dr. Math
+On 08/14/2004 at 13:29:00 (Eastern Time),
+>[Question]
+>how can i find the distribution of the sum of 2 variables or the 
+>ratio of 2 variables?
+>
+>ex: f(x,y)=x+y (0<x<1, 0<y<1)
+>f(x,y)=0 otherwise
+>find the distributions of the variables Z=X+Y and U=X/Y
+
+
+If we plot possible values of x and y using rectangular coordinates 
+in the plane, the region corresponding to x+y <= z is all that part 
+of the plane lying below and to the left of the line x+y = z.  For 
+any given y the probability that x < z-y is  G(z-y)  (where G is the 
+distribution function of x).  So the required probability is 
+obtained by multiplying G(z-y) by the probability for y and 
+integrating over all y.
+
+    P(z) = INT[G(z-y).h(y).dy]
+
+By differentiating with respect to z we obtain
+
+    p(z) = INT[g(z-y).h(y).dy]   ........(1)
+
+This is called the convolution of the density functions g and h.  It 
+is the density function for z.
+
+The first thing we require is the pdf's of g(x) and h(y) for the 
+variables x and y.  This is obtained from
+
+          1
+  g(x) = INT[(x+y) dy]    treating x as constant
+          0
+
+                    y=1
+       =  [xy + y^2/2]      =  x + 1/2                   
+                    y=0
+
+   g(x) = x + 1/2
+
+Check that this is a valid pdf
+
+           x                                 x
+   G(x) = INT[(x + 1/2).dx]  =  [x^2/2 + x/2]  
+           0                                 0
+
+  and G(1) = 1  which is correct.
+
+          1
+  h(y) = INT[(x+y).dx]     treating y as a constant.
+          0
+
+By symmetry we get 
+
+     h(y) = y + 1/2
+                  
+We now substitute into (1)
+
+      p(z) = INT[g(z-y).h(y).dy]   ........(1)
+
+The given density functions are:
+
+  g(x) = x + 1/2    0 < x < 1
+
+  h(y) = y + 1/2   0 < y < 1
+
+g(z-y) = z-y + 1/2   where  0 < z-y < 1
+
+   The first inequaity is   y < z
+
+the second inequality is  z-1 < y < 1
+
+The limits we have for y are  0 < y < z    with 0 < z < 1
+
+                            z-1 < y < 1    with 1 < z < 2
+
+                             
+There are 2 expressions for the intervals of z, namely:
+
+  0 < z < 1  and  1 < z < 2  
+
+                   z
+So we have p(z) = INT[z-y +1/2)(y + 1/2).dy]     for  0 < z < 1
+                   0
+             
+                   z
+                  INT[(zy - y^2 + y/2 + z/2 - y/2 + 1/4).dy]
+                   0
+     
+                   z
+                = INT[(zy - y^2 + z/2 + 1/4)dy]
+                   0
+
+                                                z
+                =  [zy^2/2 - y^3/3 + zy/2 + y/4]
+                                                0
+
+                =  z^3/2 - z^3/3 + z^2/2 + z/4
+
+                =  z^3/6 + z^2/2 + z/4    for 0 < z < 1
+
+Integrating this between 0 and 1 we obtain
+
+                                         1
+                 [z^4/24 + z^3/6 + z^2/8]
+                                         0
+
+             =  1/24 + 1/6 + 1/8   =  1/3
+
+                                  
+ Secondly we integrate between z-1 and 1 for 1 < z < 2    
+           
+         1
+ p(z) = INT[(zy - y^2 + y/2 + z/2 - y/2 + 1/4.dy]     for 1 < z < 2
+        z-1
+
+                                 1                                  
+ =  [zy^2/2 - y^3/3 + zy/2 + y/4]          for 1 < z < 2
+                                 z-1
+
+ =  7z/4 - z^3/6 - z^2/2 - 1/6     for 1 < z < 2
+
+If we integrate this between z=1 and 2 the result is 2/3.  So, as 
+required, the total pdf of z sums to 1.
+
+We can summarize as follows
+
+  p(z) = z^3/6 + z^2/2 + z/4            for 0 < z < 1
+
+       = 7z/4 - z^3/6 - z^2/2 - 1/6     for 1 < z < 2
+
+
+I will look at the pdf of U = X/Y later. 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,46 @@
+ThreadNum: 566334
+Subject: Re: what something means
+To: kasieguthrie@yahoo.com (Kasie)
+From: Doctor Tom
+TimeStamp: 08/10/2004 at 14:35:31
+Sent: yes
+
+
+As Kasie wrote to Dr. Math
+On 08/10/2004 at 14:20:36 (Eastern Time),
+>[Question]
+>If I had the equation |x|-10=-3, what do the two vertical lines on 
+>each side of the x mean?
+>
+>[Difficulty]
+>I don't know what the lines me.  I think it makes the x positive, 
+>but I am not sure.
+>
+>[Thoughts]
+>x = 7
+
+Hello Kasie,
+
+You're right.  The two vertical lines around a number take the
+"absolute value" of the number inside.  Here are a couple of examples:
+
+|2| = 2
+|-2| = 2
+|-6.71| = 6.71
+|0| = 0
+|.0002| = .0002
+
+If you don't know what x is, then |x| might be x and it might be -x,
+since x may stand for a negative number.  In other words, it is NOT
+necessarily true that:
+
+|x| = x
+
+If x = -7, for example, then |x| = |-7| = 7 = -x
+
+In your original problem, you are correct that x=7 is a solution, but
+there is another: x = -7.  Do you see why?
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,86 @@
+ThreadNum: 568277
+Subject: Re: Calculus: Probability of Three Distinct Roots
+To: idwhitta@hotmail.com (John)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 19:01:26
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/23/2004 at 18:30:29 (Eastern Time),
+>Thanks for the reply. Why is the condition for 3 real roots of the 
+>equation
+>
+>    x^3 - Px + Q = 0  
+>
+>   4P^3 - 27Q^2 > 0 
+>? 
+
+
+This requires a lengthy delve into solution of cubic equations.  I 
+will give a version of this below.  You will see that I have had to 
+adapt it to the cubic that you quoted by putting P = -3H and Q = G.
+
+The general cubic ax^3 + 3bx^2 + 3cx + d = 0 is changed to a simpler 
+cubic without a term in x^2 by the substitution  y = ax+b  (or x = 
+(y-b)/a) to get
+
+    y^3 + 3Hy + G = 0
+
+where  H = ac-b^2    G = a^2.d - 3abc + 2b^3
+
+We now make use of the identity shown below, where w is a complex 
+cube root of unity
+
+  x^3 + y^3 + z^3 - 3xyz = (x+y+z)(x+wy+w^2.z)(x+w^2.y +wz)
+
+This is easily proved if you know how to factorize determinants, but 
+if not, you can prove it the long way by multiplying out the 
+factors, and remembering that w^3 = 1
+
+The cubic is now expressed as 
+
+   y^3 - 3pqy + p^3 + q^3 = 0    with  G = p^3 + q^3    H = -pq
+
+So y^3 -3pqy + p^3+q^3 = (y+p+q)(y+wp+w^2.q)(y+w^2p+wq) = 0
+
+and the three roots will be:
+
+(1)    y = -p - q
+(2)    y = -wp - w^2q
+(3)    y = -w^2p - wq
+
+So all that is required is that we have the values of p and q from 
+the two equations 
+
+          p^3 + q^3 = G     and     pq = -H
+
+Here, think in terms of p^3 and q^3 rather than p and q, and 
+consider instead the two equations
+
+          p^3 + q^3 = G      and   p^3.q^3 = -H^3
+
+Now we can see that p^3 and q^3 are the roots of the quadratic
+
+    t^2 - Gt - H^3 = 0
+
+and their cube roots must be chosen so that pq = -H
+
+The roots of this quadratic are 
+
+         (1/2)[G +-sqrt(G^2 + 4H^3)]
+
+If G^2 + 4H^3 > 0   p and q are real and distinct
+
+If G^2 + 4H^3 = 0   p and q are real and equal. The corresponding 
+roots of the cubic are  -2p, p, p.
+
+If G^2 + 4H^3 < 0   p and q are complex.  The cubic then, 
+ironically, has 3 real roots.  In this situation it is better to use 
+a trigonometrical method.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

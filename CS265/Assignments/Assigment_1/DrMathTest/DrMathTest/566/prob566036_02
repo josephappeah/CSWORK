@@ -1,0 +1,66 @@
+ThreadNum: 566036
+Subject: Re: Pre-algebra word problems
+To: shp12debbie@aol.com (Lindsey)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:55:38
+Sent: yes
+
+
+As Lindsey wrote to Dr. Math
+On 08/08/2004 at 14:03:10 (Eastern Time),
+>[Question]
+>this is my question - Jenny is planning to the round deck in her back 
+>yard for her birthday party.  It has 5 poles equally spaced around 
+>it. Jenny wants to connect each pole to every other pole with crepe-
+>paper streamers. How many streamers will she need?
+>
+>[Difficulty]
+>that is could be a lot of different answers and i get something 
+>different each time i do it.
+>
+>[Thoughts]
+>I drew it out a whole bunch of times each time i got either 5,10,11 
+>or something out of the blue.The answer can only be 17, 6cm, 
+>10,12cm,90mi,7,11,16,70mi,75cm,13,82cm. this is very complicated in 
+>my eyes.
+
+Hi Lindsey,
+
+Sometimes the way to proceed is to start with a small case and build
+your way up.  Suppose there are just two poles, A and B:
+
+    A................B
+
+For that, we just need one streamer, right?  Now, suppose we add a
+third pole, C:
+
+
+    A...............B
+      .           .
+        .       .
+          .   .
+            C 
+             
+We need two more streamers: one from the new pole to each of the poles
+we had already.  Let's make a table to keep track of what's happening:
+
+  Poles       Streamers
+  --------    ---------
+  A, B        1
+  A, B, C     1+2
+
+Let's add a fourth pole, D.  Now we'll need _three_ more streamers:
+one from the new pole to each pole we had already.
+
+  Poles         Streamers
+  ----------    ---------
+  A, B          1
+  A, B, C       1+2 
+  A, B, C, D    1+2+3 
+
+Can you see a pattern forming?  What will happen when we add a 5th
+pole, E? 
+ 
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

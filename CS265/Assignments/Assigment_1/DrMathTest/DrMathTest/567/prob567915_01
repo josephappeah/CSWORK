@@ -1,0 +1,115 @@
+ThreadNum: 567915
+Subject: Re: Additive (Superposition) & Scaling (Homogeneity) Properties
+To: whm@despammed.com (Will)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 19:23:02
+Sent: yes
+
+
+As Will wrote to Dr. Math
+On 08/20/2004 at 16:00:46 (Eastern Time),
+>[Question]
+>Hi.  I ma having a heck of a time trying to understand the definition
+>of a linear function.  As I understand it, to be linear a function
+>must have 2 properties the additive (aka superposition) properties and
+>the scaling (aka homogeneity) properties.  Can you (1) provide an
+>intuitive verbal description of these two properties and (2) show me
+>how I can demonstrate that one specific function fails to meet one or
+>both properties while another specific function meets both?
+>
+>
+>[Difficulty]
+>How to establish that f(x) = ax + bz is a linear function, but f(x) =
+>ax + bz + c; f(x) = ax + bz^2; and f(x) = ax + byz are not, given that
+>a, b, and c are constants and x, y, and z are variables (assuming I am
+>correct about classifying those functions as linear and non-linear).
+>
+>[Thoughts]
+>It seems to me that the additive and commutative properties of
+>arithmetic imply that the superposition and homogeneity properties of
+>functions will hold even for functions such as f(x) = ax + bz^2 and
+>f(x) = ax + byz.  But they should not hold, so I must be
+>misunderstanding/ doing something wrong...
+>
+>Thanks!
+
+Hi Will,
+
+Thanks for writing to Dr. Math.  Thinking of vectors as directed line
+segments, we will use the notation v = <x,y,z> to denote the directed
+line segment from the origin to the point with coordinates (x,y,z), 
+then think about the additivity property like this.  Given two
+vectors v1 = <x1,y1,z1> and v2 = <x2,y2,z2>, the values of the 
+function f on them will be two new vectors u1 = f(v1) and u2 = f(v2).
+[Incidentally, you seem to be discussing linear functions of three
+variables, or equivalently, linear functions on three dimensional
+space R^3, so you should use a notation such as f(x,y,z) or
+f(<x,y,z>) instead of just f(x)].
+
+You only mention real-valued functions, but the concept of a linear 
+function is also defined for vector-valued functions of vectors.
+
+You can add the vectors v1 and v2 using the usual parallelogram
+addition, so that if we form a parallelogram with legs v1 and v2
+(with a common base, say the origin), the sum v1+v2 is the vector 
+from the origin to the opposite vertex.  Similarly, you can add 
+u1 and u2, and the additivity property means that the value of f
+on the sum v1+v2 will be the sum u1+u2 of the values of f on the 
+individual vectors: f(v1+v2) = u1 + u2 .  in your examples, u1 and
+u2 are just numbers. 
+
+Given a vector v and a positive scalar c, the vector c*v is the 
+vector parallel to v with magnitude c times the magnitude of v
+(i.e. c times as long as v).  If c < 0, then the vector is parallel
+to v but points in the opposite direction.  The homogeneity property
+says that if f(v) = u, then f(2*v) = 2*u, f(3*v) = 3*u, etc.
+
+Putting the two properties together, if you know the value of f on
+two vectors which are not parallel, then you know the value of f on
+the lines through the two vectors (each line consists of all scalar 
+multiples of the vector), by the homogeneity property.  Then you also
+know the value of f on the entire plane containing the two vectors,
+since every point in this plane is a linear combination c1*v1+c2*v2
+of v1 and v2: you can think of the two lines through v1 and v2, 
+intersecting at the origin, as two skewed coordinate axes.  Given any
+point in this plane, draw lines through the head of the vector 
+parallel to v1 and to v2, and the lines will intersect the lines 
+through v1 and v2, determining the multiples c1*v1 and c2*v2.  Then
+the value of f on every vector in the plane determined by v1 and v2
+is also determined, by the linearity properties.  The knowledge of
+f on just three linearly independent vectors completely determines
+all the values f(v), for all vectors v.
+
+It is easy to see that your other examples are not linear.  For
+example, if 
+
+  f(x,y,z) = ax + bz + c,
+
+and if you multiply the vector <x,y,z> by 2, the value of 
+
+   f(2x,2y,2z) = a*(2x) + b*(2z) + c
+
+               = 2ax + 2bz + c .
+
+The first two terms have been doubled, but not the third, so
+the result is NOT twice f(2x,2y,2z), which is 2ax + 2bz + 2c
+(unless c=0, in which case f IS linear).
+
+For f(x,y,z) = ax + bz^2, 
+
+   f(2x,2y,2z) = a*(2x) + b*(2z)^2
+               = 2ax + 4bz^2 ,
+
+so the first term is doubled but the second term is quadrupled,
+which is not twice the original value 2(ax+bz^2) = 2ax + 2bz^2.
+
+You can also show that the additivity property fails for both 
+examples.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

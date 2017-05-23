@@ -1,0 +1,76 @@
+ThreadNum: 566430
+Subject: Re: Algebraic expressions
+To: rene_latina13@cmaaccess.com (Nia)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 23:23:47
+Sent: yes
+
+
+As Nia wrote to Dr. Math
+On 08/10/2004 at 22:42:18 (Eastern Time),
+>[Question]
+>What is the answer to this algebraic expression if 
+>a=2 b=-5 c=0      
+>           Equation:
+>         a2b+(-3)c-(c/ab)
+>
+>the two and first c are suppose to be small letters on the top.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Nia,
+
+You mean
+
+   2        c    c
+  a b + (-3) - (--) ?
+                ab
+
+The first thing to note is that when we put two variables together, like 
+
+  ab
+
+it's just a shorthand for multiplication:
+
+  ab = a*b = a times b
+
+So we can put the multiplication signs back in to make things clearer:
+
+   2         c    c
+  a *b + (-3) - (---) 
+                 a*b
+  
+So far, so good?  Since we're told that a = 2, we can replace 'a' with
+'2' wherever we see it:
+
+   2         c    c
+  2 *b + (-3) - (---) 
+                 2*b
+
+A good next step would be to expand the first exponent:
+
+   2
+  2  = 2*2 
+
+which gives us 
+
+              c    c
+  2*2*b + (-3) - (---) 
+                  2*b
+
+If you're not sure how I expanded it, look at 
+
+  Properties of Exponents
+  http://mathforum.org/library/drmath/view/57293.html
+
+If you do the same kind of substitution for the values of b and c,
+you'll end up with an arithmetic expression to evaluate.  Try it, and
+let me know what you come up with, okay? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,27 @@
+ThreadNum: 568225
+Subject: Re: limits
+To: av_ace11@hotmail.com (avneesh)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 12:30:44
+Sent: yes
+
+
+As avneesh wrote to Dr. Math
+On 08/23/2004 at 11:23:10 (Eastern Time),
+>I am very slightly familiar with L;Hopitals rule..
+>
+>Ive read up on it myself a little but never beeen taught..
+>
+>So how do i get solution using L'Hopitals rule??
+
+Write your function as
+
+         2^(1/n) - 1
+  f(n) = -----------
+             1/n
+
+Now what does L'Hopital's Rule tell you to do?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

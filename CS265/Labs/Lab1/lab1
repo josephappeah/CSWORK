@@ -1,0 +1,61 @@
+q1. Describe when the shell invokes .bashrc, and when it invokes .bash_profile 
+	-bashrc file is the file that appiles only to bash itself, such as alias and function defintions shell options, and prompt settings. 
+	-bash_profile can be used instead of ~/.profile but it is read bybash only, not bby any other shell. 
+	-basically when an intractive shell that is not a login shell is started, bash read and excutes commans from .bashrc .bash_profile is invoked before the instial shell to configure it. 
+q2.submited 
+q3.
+-rwx---r-x 1 Sanjay Sanjay  8059 Sep 27 21:07 funny
+-rwx---r-x 1 Sanjay Sanjay   221 Sep 27 21:07 hello.bash
+q4. chmod 644 
+	user: read and write 
+	group: read 
+	others: read 
+q5. chmod 755
+	user: read, write, and execute 
+	group: read and execute
+	others read and execute 
+q6. yes 
+q7. yes 
+q8. no
+q9. chmod 700
+	chmod u+x hello.bash
+q10. the file is not able to be written readonly 
+q11.
+	ls *:
+		annoy     funny       itemList        lab1           temp              vimtutor
+		annoy.cc  hello.bash  itemList-2cols  TelecomTruths  UnitTestingPhase
+	ls a*:
+		annoy  annoy.cc
+	ls *m*
+		itemList  itemList-2cols  TelecomTruths  temp  vimtutor
+	ls anno?
+		annoy
+	ls annoy?
+		ls: cannot access annoy?: No such file or directory
+q12. vi attempted to open two files "a" and "space"
+q13. 
+	$ echo is a< b?
+-bash: b?: No such file or directory
+	$ echo "Is a < b"
+Is a < b
+	$ echo "\$USER is $USER"
+$USER is Sanjay
+	$ echo '\$USER is $USER'
+\$USER is $USER
+	$ echo "Today is 'date'"
+Today is 'date'
+	$ echo "Today is $(date)"
+Today is Sun, Sep 27, 2015 10:35:57 PM
+	$ echo 'Today is `date`'
+Today is `date`
+	$ echo -e "Files that start w/e:\n`ls e*`"
+ls: cannot access e*: No such file or directory
+Files that start w/e:
+q14. -n sorts the file numercially 
+q15. sort itemList-2cols -n -r | head -8
+q16. lab1.tar.gz
+q17. the file is now a .tar file 
+q18. $ grep -rnw cs265 -e 'Vacation'
+cs265/Labs/TelecomTruths:32:"Vacation" is something you roll over to next year, or a check you get
+q19. $ find /home -name lab1
+

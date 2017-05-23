@@ -1,0 +1,68 @@
+ThreadNum: 568436
+Subject: Re: LCM
+To: farheen_butt2000@yahoo.com (Farheen)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 10:33:45
+Sent: yes
+
+
+As Farheen wrote to Dr. Math
+On 08/25/2004 at 08:13:12 (Eastern Time),
+>[Question]
+>Find the greatest number of 5-digits which when divided by 25, 30 
+>and 40 leaves a remainder of 20, 25 and 35 respectively.
+>
+>
+>[Difficulty]
+>you have given a solution but i am not getting it. kindly tell me by 
+>finding lcm
+>
+>[Thoughts]
+>
+
+Hi Farheen,
+
+If I just find the answer for you, then that isn't going to help you
+learn how to solve similar problems in the future.  
+
+Here are all the 5-digit numbers divisible by 25:
+
+  10000, 10025, 10050, 10075, 10100, 10125, ...
+
+The ones that will leave a remainder of 20 when divided by 25 are:
+
+  10020, 10045, 10070, 10095, 10120, 10145, ...
+
+Make similar lists for numbers that leave a remainder of 25 when
+divided by 30, and a remainder of 35 when divided by 40.  Then see
+what numbers fall into all three lists.  
+
+You should be able to spot a pattern without actually completing any
+of the lists. 
+
+Note that the conditions you need to satisfy are
+
+  n = 10,000 + a*25 + 20         a > 0
+
+  n = 10,000 + b*30 + 25         b > 0
+
+  n = 10,000 + c*40 + 35         c > 0
+
+Because 25, 30, and 40 are all divisible by 5, we can simplify this a
+little:
+
+  n = 10,000 + 5(5a + 4)         a > 0
+
+  n = 10,000 + 5(6b + 5)         b > 0
+
+  n = 10,000 + 5(8c + 7)         c > 0
+
+And really, we can reduce the problem to 
+  
+  5a + 4 = 6b + 5 = 8c + 7
+
+which makes generating the lists a lot easier...
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

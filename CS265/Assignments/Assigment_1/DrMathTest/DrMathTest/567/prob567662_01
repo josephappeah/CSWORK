@@ -1,0 +1,72 @@
+ThreadNum: 567662
+Subject: Re: The scaling of data in linear programming
+To: sitheo1@yahoo.fr (THEOPHILE SIMO)
+From: Doctor Willae
+TimeStamp: 08/19/2004 at 11:30:27
+Sent: yes
+
+As THEOPHILE SIMO wrote to Dr. Math
+On 08/19/2004 at 07:42:11 (Eastern Time),
+>[Question]
+>I want to use a code to  solve a minimum cost network flows problem. 
+>The code is for integer data, but mine are real. I have been told to 
+>scale my data in order to use the code. How can I do that?
+>
+>[Difficulty]
+>The constraints are of the form A*X=B where A is the incidence matrix 
+>with integer elements(0,+1,-1), but since B is real, X should be 
+>real. How can I transform X and B so that their values are integer 
+>and use the code, and after retrieve the actual real X ?
+>
+>[Thoughts]
+>I thought that since the basis matrix could be brought into 
+>triangular form, the integer solutions could be obtained by taking 
+>only the integer part of the right hand side B, and later add the 
+>decimal part.
+
+Hi!  Thanks for writing to Dr. Math.  You raise an interesting
+question.  On the one hand, you would like to take advantage of the
+specialized code for network LP problems.  On the other hand, your
+data doesn't exactly fit with the classic network LP format.  I could
+be wrong, but I don't think you're going to be able to take advantage
+of this network LP code.  Let me explain why.
+
+It is a fact that network LPs with integer data have integer
+solutions.  In fact, every basic feasible solution is integer.  This
+is due to a 1-1 correspondence between basic feasible solutions of the
+LP and spanning trees of the network.  However, it's important to
+realize that this is a property of the data, NOT the result of any
+constraint saying the solution must be integer.
+
+So if we did impose such a constraint on a network flow LP with
+integer data, it would be redundant.  But now suppose we impose an
+integrality constraint on a network flow LP WITHOUT integer data (like
+you're proposing).  The result is an unpredictable (and perhaps
+dramatic) shift in the geometry of the problem.  It's this shift that
+makes integer linear programming so hard.
+
+My advice to you is to use an interior point method to solve your
+problem.  Interior point methods are pretty much taking over the realm
+of mathematical programming, especially linear programming.  For
+specialized LPs (like network flow), the simplex codes are still
+faster.  But not by much.  In addition, interior point methods are
+much easier to understand.
+
+There are a handful of freely available interior point solvers: lipsol
+and lp_solve, just to name a few.  In addition, if you have access to
+the MATLAB Optimization Toolbox, it contains some general LP solvers.
+ I'll refer you to the "Decision Tree for Optimization Software" for a
+list of solvers:
+
+   http://plato.la.asu.edu/guide.html
+
+Also, if you can get a copy of Stephen Wright's book, "Primal-Dual
+Interior-Point Methods", you should be able to implement Mehrotra's
+Method (one of the more popular interior point methods for LPs) very
+easily in MATLAB.
+
+Good luck and let me know how it turns out!
+
+- Doctor Willae, The Math Forum
+  <http://mathforum.org/dr.math/>
+

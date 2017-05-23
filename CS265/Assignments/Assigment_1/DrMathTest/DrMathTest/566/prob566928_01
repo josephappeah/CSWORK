@@ -1,0 +1,34 @@
+ThreadNum: 566928
+Subject: Re: prove this by mathematical induction
+To: shalu_fire@rediffmail.com (shalini)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:19:45
+Sent: yes
+
+
+As shalini wrote to Dr. Math
+On 08/14/2004 at 15:56:47 (Eastern Time),
+>[Question]
+>prove that r^n - 1 >= r^n-1 - 1 for any r>=2
+>
+>[Difficulty]
+>i want to prove this for r=k+1 from r=k
+>
+>[Thoughts]
+>first put r=2,then prove that lhs = rhs,after that put r=k & assume 
+>that k^n>=k^n-1.now i don't know how to prove that (k+1)^n>= (k+1)^n-1
+>by mathematical induction
+
+Hi Shalini,
+
+Thanks for writing to Dr Math.  Try using induction on n instead of
+induction on r.  That is, assume it is true for n=k, and prove it for
+n=k+1.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

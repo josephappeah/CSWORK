@@ -1,0 +1,48 @@
+ThreadNum: 566952
+Subject: Re: Complex Variable Calculus
+To: sebascast77@yahoo.com (Sebastian)
+From: Doctor Jaime
+TimeStamp: 09/16/2004 at 13:33:04
+Sent: yes
+
+
+As Sebastian wrote to Dr. Math
+On 08/14/2004 at 19:24:25 (Eastern Time),
+>[Question]
+>Hi Dr Math!!
+>
+>How can I find the sum of:
+>
+>cos(x)+cos(2x)+cos(3x)+...+cos(nx)
+>
+>Using the DeMoivre theorem.
+>
+>Thanks!!
+>
+
+Hello
+
+The answer is in our archives:
+
+Deriving Lagrange's Trig Identity
+http://mathforum.org/library/drmath/view/64574.html
+
+De Moivre's formula is not mentioned
+as such but is used in that answer when
+the author writes
+
+e^(ikx) = cos(kx) + i*sin(kx)
+
+which is De Moivre's formula because
+
+(cos x + i sin x)^k = ( e^(ix) )^k = e^(ikx) 
+
+
+Please feel free to ask again if
+you have more questions.
+
+Don't forget to visit our FAQ at
+http://mathforum.com/dr.math/faq/
+
+- Doctor Jaime, The Math Forum
+  <http://mathforum.org/dr.math/>

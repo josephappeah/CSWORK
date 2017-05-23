@@ -1,0 +1,40 @@
+ThreadNum: 568612
+Subject: Re: what are conjectures, and how do u solve them
+To: boopdabetty@hotmail.com (bj)
+From: Doctor Peterson
+TimeStamp: 08/25/2004 at 22:51:52
+Sent: yes
+
+Hi, BJ.
+
+As bj wrote to Dr. Math
+On 08/24/2004 at 23:33:10 (Eastern Time),
+>[Question]
+>the sum of an odd number is
+> 1+1=2       7+11=18
+> 1+3=4      13+19=32
+> 3+5-8      201+305=506
+>
+>[Difficulty]
+>i don't have any idea what they are talking about or how to do it
+>
+>[Thoughts]
+>i have none cuz i don't know how to do it
+
+I think you were told to make a conjecture about the sum of any two
+odd numbers based on the given examples, and then to prove it.
+
+A conjecture is just a reasonable guess. Do you see any pattern in the
+examples? Look at them all and think about which numbers are odd or
+even. What do the sums seem to have in common?
+
+Then, one way to prove your conjecture will be to write any odd number
+as 2n+1, where n is some integer. What happens when you add two odd
+numbers 2n+1 and 2m+1?
+
+If you need more help, please write back and show me how far you got.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

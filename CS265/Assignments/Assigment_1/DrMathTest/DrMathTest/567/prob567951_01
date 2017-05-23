@@ -1,0 +1,28 @@
+ThreadNum: 567951
+Subject: Re: series
+To: cerayna@yahoo.co.nz (Cerayna)
+From: Doctor Wilkinson
+TimeStamp: 08/21/2004 at 10:46:09
+Sent: yes
+
+
+As Cerayna wrote to Dr. Math
+On 08/20/2004 at 20:25:31 (Eastern Time),
+>[Question]
+>use the sum of the first five terms of the series ln (1+x) to find 
+>anapproximate value for ln(1.1)
+>
+>[Difficulty]
+>i'm not sure which series to use
+>
+>[Thoughts]
+>i know i have to make up a table of values of n=0 to n=4, but i 
+>haven't come across a natural logarithm function before so i'm not 
+>sure what to do. 
+
+Hi, Ceranya.  The series for ln(1+x) is x - x^2/2 + x^3/3 - x^4/4 + x^5/5 and so 
+on.  I hope this answers your question.
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

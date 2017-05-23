@@ -1,0 +1,74 @@
+ThreadNum: 568464
+Subject: Re: factoring
+To: sftballgal12@yahoo.com (Em)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 15:34:17
+Sent: yes
+
+
+As Em wrote to Dr. Math
+On 08/24/2004 at 13:50:37 (Eastern Time),
+>[Question]
+>how do you factor?
+>
+>
+>[Difficulty]
+>i forgot how to factor cuz its been a long summer.
+>
+>[Thoughts]
+>14d-2
+
+Hi,
+
+Hi Gigi,
+
+Suppose we have a sum like 
+
+   15 + 25 = ?
+
+We might go ahead and just do the addition, but we might also notice
+that both of these numbers are multiples of 5:
+
+  5*3 + 5*5 = ?
+
+That would allow us to use the distributive property to write it this way:
+
+  5*(3 + 5) = ?
+
+        5*8 = ?
+
+        5*8 = 40
+
+Now, for numbers like this, it's not so useful.  But when we start
+using variables, this can help us write complicated expressions more
+simply.  For example, suppose I have
+
+  5x - 5y = ?
+
+This is basically the same situation I was just in, so I can write
+
+  5(x+y) = ?
+
+Or if I have
+
+  5x - 15 = ?
+
+I can do this:
+
+  5x - 5*3 = ?
+
+  5(x - 3) = ?
+
+This is one of the things we mean when we talk about 'factoring'. 
+Basically, we're taking a sum of things, and rewriting it as a product
+of things, i.e., identifying factors. 
+
+Looking at 
+  
+  14d - 2 = ?
+
+can you think of anything that evenly divides both 14d and 2?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

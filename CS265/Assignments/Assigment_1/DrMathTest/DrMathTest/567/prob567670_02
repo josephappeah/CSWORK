@@ -1,0 +1,44 @@
+ThreadNum: 567670
+Subject: Re: one of your problems on your site
+To: ktlh3@hotmail.com (unknown)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 09:39:02
+Sent: yes
+
+
+As unknown wrote to Dr. Math
+On 08/19/2004 at 09:29:33 (Eastern Time),
+>[Question]
+> I am trying to prepare for CPT and I haven't taken math in 2 
+>years.  I am having trouble with factoring polynomials.  I just 
+>wanted to know if i got the right answer to one of your problems.  
+>y^2+10y+25=y(y+5)+y(5+5). Thank You.
+
+ This should read  y(y+5) + 5(y+5)
+
+                = (y+5)(y+5)
+
+                = (y+5)^2   
+>
+>[Difficulty]
+> How the exponents seem to diappear and the common factors are 
+there 
+>instead.
+>
+>[Thoughts]
+>y^2+10y+25
+>y^2+(5+5)y+25
+>y^2+5y+5y+25
+>(y^2+5y)+(5y+25)
+>y(y+5)+y(5+5)    <-----------Wrong.  It should read
+
+ y(y+5) + 5(y+5)
+
+ = (y+5)(y+5)
+
+ =  (y+5)^2
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

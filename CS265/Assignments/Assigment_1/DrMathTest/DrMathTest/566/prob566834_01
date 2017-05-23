@@ -1,0 +1,40 @@
+ThreadNum: 566834
+Subject: Re: dividing polynomials
+To: spny18@aol.com (Jennifer)
+From: Doctor Roberts
+TimeStamp: 08/15/2004 at 02:10:40
+Approved-By: Doctor Ian
+Sent: yes
+
+As Jennifer wrote to Dr. Math
+On 08/13/2004 at 14:46:28 (Eastern Time),
+>[Question]
+>what is the remainder when x^3+5x^2-6x+10 is divided by x+3?
+>
+>[Difficulty]
+>I get stuck half way through
+>
+>[Thoughts]
+>x^3+5x^2-6x+10/x+3= x^+2x with a remainder of 10, I know this is 
+the 
+>wrong answer. The book says it's 46. What am I doing wrong?
+
+Hi Jennifer,
+
+You say that you book has 
+  
+   x^2 + 2x remainder 46?
+
+Are you sure didn't mean
+
+   x^2 + 2x -12 remainder 46?
+
+In any case, I think if you'll be a little more careful with you 
+subtraction you'll see what the problem is.
+
+If you need more help, let me know.
+
+- Doctor Roberts, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

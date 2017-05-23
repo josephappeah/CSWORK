@@ -1,0 +1,49 @@
+ThreadNum: 566051
+Subject: Re: least upper bound
+To: lem81@comcast.net (Linda)
+From: Doctor Fenton
+TimeStamp: 08/09/2004 at 08:34:32
+Sent: yes
+
+
+As Linda wrote to Dr. Math
+On 08/08/2004 at 16:37:04 (Eastern Time),
+>[Question]
+>If x is real, define B(x) to be the set of all numbers b^t, where t 
+>is rational and t is less than or equal to x.  Prove that b^r =
+>sup B(r) when r is rational.  Hence it makes sense to define b^x = 
+>sup B(x) for every real x.
+>
+>[Difficulty]
+>I have proven that b^r is an upper bound of B(r) but how do I show it 
+>has least upper bound.  Maybe I'm going about the proof incorrectly???
+>
+>[Thoughts]
+>Let b^r be an element in B(r).  For all b^t in B(r) where t is 
+>rational and t is less that or equal to r.  Hence b^r =
+>b^tb^(r-t) is greater than b^t1^(r-6) since b> 1 and r-t is greater 
+>than or equal to 0.  Hence b^r is an upper bound of b(r).
+
+Hi Linda,
+
+Thanks for writing to Dr. Math.  In your argument, you state
+
+>Let b^r be an element in B(r)...
+
+I'm not sure why you say "let ...".  It is just an observation that
+b^r belongs to B(r)={b^t: t rational and t <= r}, since t=r satisfies
+the two conditions "t rational and t <= r".  "Let..." usually means to
+assume something hypothetically, but here, you just verify that the
+statement is true.
+
+When an upper bound u of a set B belongs to the set B, then u must
+be the least upper bound of B, because if v is any other upper bound
+of B, then u <= v since u belongs to B.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 566218
+Subject: Re: What is they key to all integers
+To: BriteStar91@aol.com (Megan)
+From: Doctor Peterson
+TimeStamp: 08/09/2004 at 23:21:16
+Sent: yes
+
+Hi, Megan.
+
+As Megan wrote to Dr. Math
+On 08/09/2004 at 20:14:19 (Eastern Time),
+>[Question]
+>What is the key to multiplying, subtracting, adding, dividing and 
+>divideing fractons of intergers? And what if there are three or four
+>numbers to multiply or addition or subraction?
+>
+>[Difficulty]
+>There is more than just 2 numbers, and it's hard to figure out if 
+>your dividing or dividing fractions.
+>
+>[Thoughts]
+>-553(-)-632(-)-11, (111)(-63)(19), -72/-18
+
+You can find help in working with signed numbers here:
+
+  http://mathforum.org/library/drmath/sets/select/dm_pos_neg.html
+
+Your first sample expression is meaningless; you can't have "(-)", 
+since the "-" has nothing to operate on.
+
+The second is a product of three numbers, one of which is negative; 
+the simple rule is that in such a case, if there are an odd number 
+of negative factors, the product is negative.
+
+The third is a quotient of two numbers, and again since there are an 
+EVEN number of negatives, the product is POSITIVE.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

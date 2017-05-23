@@ -1,0 +1,65 @@
+ThreadNum: 566651
+Subject: Re: puzzle placement combinations
+To: sgthomas1@aol.com (Susan)
+From: Doctor Anthony
+TimeStamp: 08/12/2004 at 16:58:25
+Sent: yes
+
+
+As Susan wrote to Dr. Math
+On 08/12/2004 at 10:06:32 (Eastern Time),
+>[Question]
+>If you have 9 puzzle squares that match up to make a picture, how 
+>many wrong ways can they be matched? Each edge has pictured half a 
+>different butterfly. When finished, you should have 3 blue, 3 
+orange, 
+>3 yellow, and 3 brown butterflies in the completed picture.  If you 
+>match incorrectly, you might get 4 yellow but then only 2 orange, 
+or 
+>they don't match up at all. To solve the puzzle correctly, all 
+edges 
+>must match correctly and you must have exactly 3 butterflies of 
+each 
+>color.  It looks simple, but I tried for two hours and could't do 
+>it.  I began to wonder if there are thousands of possibly wrong 
+>combinations, since each of the 9 tile squares can be turned 4 
+>different ways.  The tile pieces do not have what look 
+like "border" 
+>pieces, so that's no help. When completed, the outer edges will 
+show 
+>unfinished butterflies (1/2 a butterfly not matched on each outside 
+>tile).  In other words, it doesn't turn out "evenly," even when 
+done 
+>correctly.
+>
+>[Difficulty]
+>I see no way to methodically find a solution other than trial and 
+>error.
+>
+>[Thoughts]
+>I turned over the pieces and wrote on each of the tile's back sides 
+a 
+>code for each colored butterfly that appeared along the edge--
+>i.e., "o1" (for orange head and legs picture) "o2" (for orange's 
+>wings side)etc. and tried to match them up that way.  Each of the 
+>square's sides show half of four different butterflies.  No help 
+with 
+>this method, as it still was trial and error.  I was told that 
+>someone tried to write a computer program to solve it and that 
+didn't 
+>work either.
+
+
+
+The number of actual configurations is   9! x 4^9
+
+                                     =  9.5127 x 10^10
+
+Which is approximately 10^11 = 100 thousand million
+
+I am not surprised you coul;dn't finish it in 2 hours.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

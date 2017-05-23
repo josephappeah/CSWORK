@@ -1,0 +1,52 @@
+ThreadNum: 568026
+Subject: Re: Number Patterns
+To: sugarsp@gvtc.com (Michael)
+From: Doctor Greenie
+TimeStamp: 08/21/2004 at 19:33:24
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/21/2004 at 14:42:22 (Eastern Time),
+>[Question]
+>I need help finding the next numbers in the following pattern
+>12 24 36 48 510?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, Michael --
+
+You can never be sure in a problem like this what the "correct" 
+answer is, because usually more than one answer is possible....
+
+With the first 4 numbers in this sequence, it appears that the 5th 
+number should be 60:
+
+  12 24 36 48 60 ...
+
+But the 5th number is "510" instead of 60....
+
+So I suspect that they are simply writing "sixty" as "five tens and 
+10 ones":
+
+   12 = 1 ten  and  2 ones
+   24 = 2 tens and  4 ones
+   36 = 3 tens and  6 ones
+   48 = 4 tens and  8 ones
+  510 = 5 tens and 10 ones
+
+So then the next numbers in the sequence would be
+
+  612 = 6 tens and 12 ones
+  714 = 7 tens and 14 ones
+  816 = 8 tens and 16 ones
+  ...
+
+But again, that is only a good guess....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

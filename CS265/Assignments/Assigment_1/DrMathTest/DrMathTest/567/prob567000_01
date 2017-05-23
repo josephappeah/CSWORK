@@ -1,0 +1,45 @@
+ThreadNum: 567000
+Subject: Re: sampling distribution
+To: pls38@hotmail.com (Peter)
+From: Doctor George
+TimeStamp: 08/17/2004 at 07:58:44
+Sent: yes
+
+
+As Peter wrote to Dr. Math
+On 08/15/2004 at 09:13:27 (Eastern Time),
+>[Question]
+>I need to calculate the standard deviation of a normal distribution 
+>with a mean of 56,000, and with 4% more than 77,000.  This has 
+>proven to be rather confusing and frustrating.
+>
+>Can you help?
+>
+>[Difficulty]
+>Setting the problem up
+>
+>[Thoughts]
+>
+
+Hi Peter,
+
+Thanks for writing to Doctor Math.
+
+On a z chart, 4% in the right tail corresponds to a value of 1.75. 
+In other words, you need to have a standard deviation such that 
+77,000 is 1.75 standard deviations above the mean of 56,000.
+
+As an equation we write it this way.
+
+                77,000 - 56,000
+                --------------- = 1.75
+                    std_dev
+
+
+Now solve for std_dev.
+
+Does that make sense? Write again if you need more help.
+
+- Doctor George, The Math Forum
+  <http://mathforum.org/dr.math/>
+

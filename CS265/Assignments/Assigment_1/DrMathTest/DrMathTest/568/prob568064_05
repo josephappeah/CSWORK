@@ -1,0 +1,69 @@
+ThreadNum: 568064
+Subject: Re: Number of odd 3 digit integers (positive) containing 5
+To: mrkw@comcast.net (Cleo Krasnow)
+From: Doctor Vogler
+TimeStamp: 08/30/2004 at 14:32:08
+Sent: yes
+
+
+As Cleo Krasnow wrote to Dr. Math
+On 08/29/2004 at 13:17:00 (Eastern Time),
+>I thought I had this licked, but then I got a new problem wrong.
+>
+>The new problem essentially asks:  if the odds of an outcome are 25% 
+>each time, what are the odds that you will get that outcome once in 
+>three times?
+>
+>So, I used your formula    
+>
+>= [P(E) + P(F) - P(E & F)] + P(G)
+>             - [P(E & G) + P(F & G) + P(E & F & G)]
+>
+>and calculated
+>
+>= [1/4 + 1/4 - 1/16] + 1/4 - [1/16 + 1/16 + 1/64]
+>
+>= [2/4 - 1/16] + 1/4 - [2/16 + 1/64]
+>
+>= 2/4 + 1/4 - 1/16 - 2/16 - 1/64
+>
+>= 3/4 - 3/16 - 1/64
+>
+>= (3x16)/64 - (3x4)/64 - 1/64
+>
+>= 48/64 - 12/64 - 1/64
+>
+>= 48/64 - 13/64
+>
+>= 35/64
+>
+>The book says the right answer is 37/64!
+>
+>I can't find my own mistake because (for reasons I don't understand) 
+>they calculate the odds of no occurrence and then subtract from 1.
+>Calculated as [1 - (3/4 x 3/4 x 3/4)] = 1 - 27/64.
+>
+>What am I doing wrong now????
+>
+>Thank you
+
+Hi Cleo,
+
+I'm sorry; I made a typo.  Recall that the first time I wrote the
+formula I wrote it as
+
+  P(E, F, or G) = P(E) + P(F) + P(G)
+              - P(E & F) - P(F & G) - P(E & G) + P(E, F, & G).
+
+This is correct, while I made a typo when I wrote
+
+          = [P(E) + P(F) - P(E & F)] + P(G)
+             - [P(E & G) + P(F & G) + P(E & F & G)].
+
+The last + should be a -.  And that should fix your problem.
+
+Sorry.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,35 @@
+ThreadNum: 567888
+Subject: Re: sample test question
+To: redhedgentry@msn.com (Heidi)
+From: Doctor Rob
+TimeStamp: 08/20/2004 at 20:44:07
+Sent: yes
+
+
+As Heidi wrote to Dr. Math
+On 08/20/2004 at 11:51:46 (Eastern Time),
+>[Question]
+>There are four horses at a stable. In how many different orders can 
+>they be ridden by their owner?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Heidi!
+
+Assuming he rides no horse twice, this is how to figure that out.
+How many ways can he choose the first horse to ride?  For each of
+those choices, how many ways can he choose the second horse?  For
+each pair of those choices, how many ways can he choose the third
+horse?  The last horse leaves only one possible choice.  Multiply
+those numbers together to get the answer.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

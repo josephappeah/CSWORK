@@ -1,0 +1,66 @@
+ThreadNum: 566824
+Subject: Re: understanding trigonometry
+To: CrzyRocker11@aol.com (Bones)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 14:20:41
+Sent: yes
+
+
+Hi Bones,
+
+>hi Dr. Math...my question is in regard to trigonometry.  the problem 
+>is trying to understand and visualize how trig functions work.
+
+Start by taking a look at 
+
+  Trigonometry in a Nutshell
+  http://mathforum.org/library/drmath/view/53942.html
+
+before reading further. 
+
+>whats confusing is understanding what the trig functions do and when 
+>to use any of the six of them.  my question is how do i know when to 
+>use which of the six trig functions and also to know how they work 
+>and their purpose.  
+
+In fact, you can get away with just three of them: sine, cosine, and
+tangent.  The others are just the reciprocals of these, so usually the
+first thing I do when I see one is convert it to the more basic one,
+e.g., 
+
+                         sin(x)
+  sin(x) * cot(2x)   ->  -------
+                         tan(2x)
+
+Their purpose is explained in the URL above:  there are sometimes
+situations where you know some distances and angles, and you want to
+be able to compute others that you can't measure directly. 
+Trigonometry tells you that certain ratios of distances remain the
+same, so long as certain angles remain unchanged.  And that lets you
+fill in missing values. 
+
+>i know trig leads into calculus 
+
+Well, it doesn't, really.  Calculus is a whole other thing.  The
+relationship between trig and calculus is this:  Calculus deals with
+operations (differentiation and integration) that you can perform on
+functions.  And trig functions are included in those functions.  But
+you could learn calculus even if you'd never heard of trigonometry. 
+
+>so i would like 
+>to have a good understanding of trig before diving into calc.  
+
+For a quick overview of calculus, see 
+
+  http://mathforum.org/library/drmath/view/52121.html
+
+To get a better sense of how to prepare to take full advantage of a
+course in calculus, see
+
+  http://mathforum.org/library/drmath/view/53780.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

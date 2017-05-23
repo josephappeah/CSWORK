@@ -1,0 +1,46 @@
+ThreadNum: 568463
+Subject: Re: How to find the domain of a function
+To: tulam05@yahoo.com (Tam Lam)
+From: Doctor Greenie
+TimeStamp: 08/25/2004 at 14:35:45
+Sent: yes
+
+
+As Tam Lam wrote to Dr. Math
+On 08/25/2004 at 13:02:55 (Eastern Time),
+>[Question]
+>What is the domain of 3/ (x^2 + 4) ?
+>
+>[Difficulty]
+>A professor help me solve thsi problem, and the answer concluded as 
+>imaginary numbers. When I solved it myself, it came out to be -2, 
+2. 
+>I don't understand. Please help !
+>
+>[Thoughts]
+>
+Hello again, Tam Lam --
+
+If the function were
+
+    3          3
+  ----- = ----------
+  x^2-4   (x+2)(x-2)
+
+Then the domain would not include the values x=-2 or x=2, because 
+either one of them will make the denominator zero, which is not 
+allowed.
+
+But your function is
+
+    3
+  -----
+  x^2+4
+
+"x^2" is always 0 or positive, so x^2+4 is always positive (for real 
+numbers); thus there are no real values of x for which the 
+denominator is zero.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

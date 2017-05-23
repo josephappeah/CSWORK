@@ -1,0 +1,68 @@
+ThreadNum: 567717
+Subject: Re: Probability(open-ended problem)
+To: DezinhaFamosa1@hotmail.com (cris)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 16:25:59
+Sent: yes
+
+
+As cris wrote to Dr. Math
+On 08/19/2004 at 14:48:13 (Eastern Time),
+>[Question]
+>A group of students bought hats and tee shirts at a fair.Hats codt 
+>$4each and tee shirts cost $6 each.The students spent $80 in 
+all.Write 
+>two possible combinations of hats and tee shirts that the students 
+>could have bought.
+
+Let x = number of hats   y = number of shirts
+
+Then  4x + 6y = 80
+
+      2x + 3y = 40
+
+You require solution of this equation in positive integers for x and 
+y.  One method is to plot the straight line 2x + 3y = 40 and where 
+this line passes through points (x,y) where both x and y are 
+positive integers you will have solutions to the problem.
+
+Since 2x and 40 are both even we can see at once that y must be even.
+
+So solutions could be
+                                                 y=       x=
+                                                Shirts   Hats
+                                               ---------------
+ y=2  x = (40-3y)/2  =  (40-6)/2 = 34/2 = 17      2       17
+
+ y=4  x = (40-12)/2   = 14                        4       14
+
+ y=6  x = (40-18)/2   = 11                        6       11
+
+ y=8  x = (40-24)/2   =  8                        8        8
+
+ y=10 x = (40-30)/2   =  5                       10        5
+
+ y=12 x = (40-36)/2   =  2                       12        2
+
+These are all the possible solutions.
+
+
+
+>
+>[Difficulty]
+>I surelly know the answer, but because it is a open-ended question 
+I 
+>don't know how to explain it. Maybe I might even know the answer 
+but 
+>I'm not sure if it is the "right way to do it".
+>
+>[Thoughts]
+>First I multiplied 6*6=36
+>              then,80-36=44
+>so I'll have to find what number times 4 is equal to 44.
+>               11* 4=44 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

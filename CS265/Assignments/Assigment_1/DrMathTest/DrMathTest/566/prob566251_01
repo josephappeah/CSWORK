@@ -1,0 +1,39 @@
+ThreadNum: 566251
+Subject: Re: number series
+To: jjdmc5@ados.com (jim)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 16:09:04
+Sent: yes
+
+
+As jim wrote to Dr. Math
+On 08/10/2004 at 00:58:04 (Eastern Time),
+>[Question]
+>298 209 129 58 -4         
+>
+>[Difficulty]
+>none of the multiple choice answers make sense to me 
+>
+>[Thoughts]
+>i havent done any work on this specific problem because i dont know 
+>how
+
+Hi Jim,
+
+Thanks for writing to Dr Math.  It looks like the differences form an
+arithmetic progression:
+
+  298 - 209 = 89
+  209 - 129 = 80
+  129 - 58  = 71
+  58 - (-4) = 62
+
+so this would be called a "quadratic progression."  Does that help?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

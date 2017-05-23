@@ -1,0 +1,56 @@
+ThreadNum: 566920
+Subject: Re: Counting the Number of Line Segments
+To: bdye5@netzero.com (Lauryn)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 22:59:28
+Sent: yes
+
+
+As Lauryn wrote to Dr. Math
+On 08/14/2004 at 13:44:28 (Eastern Time),
+>[Question]
+>??Write a general rule or formula for finding the number of 
+segments 
+>that can be named by a given number of points on a line. Also, 
+>explain why the rule works.
+>
+>
+>
+>[Difficulty]
+>We made a table of values with x being the number of points and y 
+>being the number of line segments but we are unable to find the 
+rule 
+>or formula.  
+>
+>[Thoughts]
+>We know that it is not linear but maybe parabolic.
+
+Hi, Lauryn --
+
+Given a set of n points on a line, each distinct choice of two of 
+those points determines exactly one line segment; and every possible 
+line segment is determined by some choice of two of thos points.  So 
+the number of line segments which can be determined by n points on a 
+line is the number of ways of choosing 2 out of n objects.
+
+Perhaps you have worked other problems involving the concept of "m 
+choose n".  If not, you can get some basic information on the 
+concept by looking in the Dr. Math FAQs under the topic 
+of "permutations and combinations".
+
+For your particular problem, the number of ways of choosing 2 out of 
+n objects is
+
+  n(n-1)
+  ------ = (n^2-n)/2
+   2*1
+
+Note that this function is indeed quadratic (or, as you called 
+it, "parabolic") -- as you guessed it might be.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

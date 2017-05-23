@@ -1,0 +1,49 @@
+ThreadNum: 568035
+Subject: Re: factoring
+To: pinkistheneworange@sbcglobal.net (Maranda)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 12:54:18
+Sent: yes
+
+
+As Maranda wrote to Dr. Math
+On 08/21/2004 at 16:52:06 (Eastern Time),
+>[Question]
+>What are the vertical asymptotes, holes, and horizontal asymptotes of 
+>the equation x+2/x^2-4x+8
+>
+>[Difficulty]
+>Im confused because im not sure if it is factorable. Im in PreCal and 
+>we're doing vertical asymptotes, holes and horizontal asymptotes. If 
+>it is factorable can you please help me get started on how to do it? 
+>And if it isn't factorable then can you help me on how to find the 
+>holes, vertical asymptotes, and horizontal asymptotes if there are 
+>any?
+>
+>[Thoughts]
+>I was thinking that the factors could be (x+2)(x-6) but then i worked 
+>it out and it didn't work because it equaled x^2-4x+12 And this is 
+>where i get stuck. 
+
+Hi Maranda,
+
+Checking the discriminant of the denominator, 
+
+  sqrt(b^2 - 4ac) = sqrt((-4)^2 - 4(1)(8))
+
+                  = sqrt(16 - 32)
+
+shows that it's not factorable... which tells you something important,
+i.e., that it's a parabola that doesn't intersect the x-axis.  It's
+always positive. 
+
+This means there aren't any places where the denominator goes to zero,
+which eliminates one source of asymptotes.  The remaining ones, if
+any, occur as x tends to infinity or negative infinity.  To figure out
+what happens there, you would want to consider what happens as the x^2
+term dwarfs all the other terms.  What will happen to the value of the
+entire expression? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

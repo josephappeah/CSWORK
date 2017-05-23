@@ -1,0 +1,39 @@
+ThreadNum: 566458
+Subject: Re: farmula for  bearing
+To: kalpana_deo@yahoo.com (kalpana)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 08:33:06
+Sent: yes
+
+Hi, Kalpana.
+
+As kalpana wrote to Dr. Math
+On 08/18/2004 at 03:13:45 (Eastern Time),
+>HELLO DR.RICK
+>THANKS FOR ANSWERING MY QUESTION. AGAIN I HAVE A DOUBT, THE FARMULA 
+>GIVEN BY YOU AND ON WEB SITE IS 
+>Y = arctan(sin(lon2-lon1)* cos(lat2)
+>x = (cos(lat1)* sin(lat2)- sin(lat1)*cos(lat2)*cos(lon1-lon2))
+>I want to bring to your notice that there is no closing bracket for 
+>first bracket for the equation of Y . If I put the bracket in the 
+>end, the whole algorithm gives me the answer as 30 degree bearing, 
+>but actually we had got 120 degree as answer by the direct farmula. 
+>Can you please clartify my doubt
+>Thanks
+> Regards
+>KALPNA
+
+Could you remind me what your input data are for this example? If you 
+told me before, it is lost because you didn't always respond using 
+the link in our e-mails. If I have the inputs, I can run them through 
+my spreadsheet and check it out.
+
+My first thought is that, if by "the direct formula" you mean the one 
+with atan2(), you may be using the direct formula incorrectly. The 
+atan2() function works differently in different systems (the two 
+arguments are sometimes interchanged), and this could account for an 
+error of 90 degrees.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

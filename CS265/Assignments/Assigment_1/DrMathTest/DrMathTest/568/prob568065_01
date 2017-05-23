@@ -1,0 +1,60 @@
+ThreadNum: 568065
+Subject: Re: Solving Without usage of a calculator
+To: ricomania77@sbcglobal.net (Joseph)
+From: Doctor Fenton
+TimeStamp: 08/22/2004 at 08:21:51
+Sent: yes
+
+
+As Joseph wrote to Dr. Math
+On 08/22/2004 at 01:01:36 (Eastern Time),
+>[Question]
+>The question is asks to prove the following without usage of a 
+>calculator (except to find out the logs of numbers and so forth)
+>
+>27.109*x^(2.651), where x is 30
+>
+>[Difficulty]
+>I know that most probably logs will be needed to solve this problem. 
+>I try to use them but i don't get the same solution
+>
+>[Thoughts]
+>On the calculator i'll i have to do is plug in the 30 in place of x 
+>and then I fing the answer to be around 223337.7
+>
+>However, i think that i need to know how to use logs to answer this 
+>question.  This is what i have so far.
+>
+>27.109*x^(2.651) ======> 27.651*(2.651log(X))
+>
+>help!
+>
+
+Hi Joseph,
+
+Thanks for writing to Dr. Math.  What does the arrow mean, in line
+above?  It apparently doesn't mean "=", or you would have used that
+symbol, so it isn't clear what it means.  If it isn't "=", then 
+what relationship does the quantity on the right side have to the
+quantity on the left side?  Given the first expression, you have 
+written a second expression, using the numbers in the first expression
+in a different combination, but how does that help you find the value
+of the first expression?
+
+You need to use mathematical principles.  Your idea to take the 
+logarithm is good, but you can't apply it to only a part of the 
+original expression.
+
+Let y = 27.109*30^(2.651).  Then what is ln(y) (or log(y), if you
+prefer common logarithms instead of natural logarithms)?  ln(y) or
+log(x) will be a much simpler quantity to compute, but you will have
+to use properties of the logarithm, which you have not done above. 
+Then, given the logarithm of y, how do you find y?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

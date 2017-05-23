@@ -1,0 +1,43 @@
+ThreadNum: 568972
+Subject: Re: find the differences
+To: LILJGORDEN24@AOL.COM (JOEY)
+From: Doctor Ian
+TimeStamp: 08/27/2004 at 00:46:48
+Sent: yes
+
+
+As JOEY wrote to Dr. Math
+On 08/26/2004 at 15:58:48 (Eastern Time),
+>[Question]
+>HOW CAN YOU USE THE SECOND DIFFERENCE IN EACH PAIR TO HELP YOU FIND 
+>THE FIRST? 38-16=22  42-20=22.
+>
+>[Difficulty]
+>THE WAY IT IS WORDED.
+>
+>[Thoughts]
+>ALL I COME UP WITH IS THE ANSWER I DONT UNDERSTAND THE QUESTION
+
+Hi Joey,
+
+Suppose I'm trying to subtract 24 from 52, and I'm feeling confused. 
+I might note that if I add 6 to both quantities, I get
+
+  (52+6) - (24+6)
+
+which should give me the same amount.  (Do you see why?)
+
+Why would I do that?  Because then I can solve my problem by
+subtracting 30 from 58, which is very easy, compared to the original
+problem. 
+
+Basically, when I look at 24 and 52, I think:  Man, this would be so
+much easier if the number I'm subtracting was a nice round number. 
+Hey!  I can _make_ it a round number by adding 6 to it.  And as long
+as I add 6 to the larger number, I'm golden. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

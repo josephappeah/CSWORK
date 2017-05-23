@@ -1,0 +1,142 @@
+ThreadNum: 567956
+Subject: Re: number theory
+To: nomany_a@yahoo.com (ASHKAN NOMANY)
+From: Doctor Vogler
+TimeStamp: 08/28/2004 at 09:39:04
+Sent: yes
+
+
+As ASHKAN NOMANY wrote to Dr. Math
+On 08/27/2004 at 18:05:55 (Eastern Time),
+>[Question]
+>about the equation x^n+y^n=n!
+>By saying the proof is easy I didn't mean it is'nt good for 
+>examining it ,maybe you solve it harder than me .I want to see your 
+>solution and I believe you'll find it interesting if I send the 
+>solution to you.Again thanks alot for your reply.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Ashkan,
+
+Are you asking me to prove that x^n + y^n = n! has no integer
+solutions?  Well, I'll try.
+
+For n=0, there are no solutions.
+
+For n=1, there are infinitely many solutions
+
+  (x, y, n) = (x, 1-x, 1).
+
+For n=2, there are four solutions
+
+  (x, y, n) = (1, 1, 2)
+            = (-1, 1, 2)
+            = (1, -1, 2)
+            = (-1, -1, 2).
+
+Suppose that x, y, and n are integers, n > 2, and
+
+  x^n + y^n = n!.
+
+If n is even, then |x| and |y| is also a solution, so we may as well
+assume that x and y are nonnegative if n is even.  Furthermore, by
+possibly switching x and y, we may as well assume that
+
+  x^n >= y^n.
+
+This also implies that
+
+  x^n >= n!/2 > 1
+
+(since n > 2), and since either n is odd or x is nonnegative, this
+implies that
+
+  x > 1.
+
+Now let p be the smallest (or any) prime factor of x.  We must have
+
+  p > n,
+
+because if p <= n, then p divides n!, and p divides x^n, so p must
+divide y^n, which means p divides y.  But x and y cannot have a common
+factor, because if p divides x and p divides y, then p^n divides x^n,
+and p^n divides y^n, which means that p^n divides n!.  But the largest
+power of p that divides n! is
+
+  inf        n     inf  n     n
+  sum floor(---) < sum --- = --- <= n.
+  i=1       p^i    i=1 p^i   p-1
+
+So we must have p > n.  Since x is positive, and p > n divides x, that
+means that
+
+  x >= p > n,
+
+and therefore
+
+  x^n >= p^n > n^n > n!,
+
+which means that
+
+  -(y^n) = x^n - n! > 0.
+
+This means that y^n must be negative, which means that n cannot be
+even, and y must be negative.  So let
+
+  z = -y > 0,
+
+so that
+
+  z^n = (-y)^n = -(y^n),
+
+and then we have
+
+  x^n - z^n = n!
+
+with x and z positive.  Then we must have
+
+  x > z,
+
+since n! > 0 implies
+
+  x^n > z^n,
+
+and therefore
+
+  x >= z+1,
+
+which implies that
+
+  n! = x^n - z^n >= (z+1)^n - z^n > n*z^(n-1).
+
+But we also have
+
+  z^n = x^n - n! > n^n - n! > 1,
+
+which means that there is also some prime divisor p of z.  For the
+same reason as before, we must have
+
+  p > n,
+
+which means that
+
+  z >= p > n.
+
+Putting this with the other, we have
+
+  n! > n*z^(n-1) > n*n^(n-1) = n^n
+
+which is clearly false.  QED.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

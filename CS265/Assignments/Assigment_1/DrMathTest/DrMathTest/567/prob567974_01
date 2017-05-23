@@ -1,0 +1,39 @@
+ThreadNum: 567974
+Subject: Re: 7th grade mathexcel
+To: ywon@sbcglobal.net (yi lee)
+From: Doctor Peterson
+TimeStamp: 08/21/2004 at 22:26:54
+Sent: yes
+
+Hi, Yi Lee.
+
+As yi lee wrote to Dr. Math
+On 08/21/2004 at 00:39:15 (Eastern Time),
+>[Question]
+>There are 40 people at a party. Twenty-nine people were 25 years of 
+>age or younger. Twenty-three people were 16 years of age or older. 
+>Howmany people were between the ages of 16 and 25?
+>venn diagrams?
+>
+>[Difficulty]
+>they alltogether 52 people. only 40 people 
+>
+>[Thoughts]
+>I did 40-29=11 and 40-23=17 
+>so, 11+17=28 is that right?
+
+Your "difficulty" comes closer to finding the answer than your 
+"thoughts". Can you explain why you did what you did? What do these 
+subtractions and additions mean?
+
+To solve it my way, think about what that number 52 means. If the 
+sets "25 or younger" and "16 or older" were disjoint (that is, had no 
+members in common), then you could just add the number of people in 
+each set to get the total number of people. You can't, because the 
+sets overlap. How are the numbers 52 and 40 related to the size of 
+the overlap?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

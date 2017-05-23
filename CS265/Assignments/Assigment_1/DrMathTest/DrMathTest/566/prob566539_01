@@ -1,0 +1,56 @@
+ThreadNum: 566539
+Subject: Re: lists and recursion
+To: greenup7@yahoo.com (Genny)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 17:59:09
+Sent: yes
+
+
+As Genny wrote to Dr. Math
+On 08/11/2004 at 17:19:03 (Eastern Time),
+>[Question]
+>Dear Dr. Math,
+>I am beginning to look at the mathematical software Mathematica, and 
+>am looking at a list of lists.  I need to extract an element from the 
+>larger list, which is a smaller list of the form {a,b,c,d,e}.  From 
+>here, I need to assign values to the elements in the smaller list, 
+>and then evaluate an expression.  I need to do this for 
+>all "sublists" in the larger list.  My first roadblock is trying to 
+>assign values to the elements in a given sublist.  In whatever way I 
+>try to do this, the entire sublist is redefined as an entirely new 
+>list, rather than assigning its elements values.  See below for an 
+>example.  Can you help? Thanks!
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Permutations[{a,b,c}][[2]]  
+>
+>((this gives the list {a,c,b}))
+>
+>Permutations[{a,b,c}][[2]]={1,2,4}
+>
+>((this should give a value 1, c value 2, and b value 4, but it does 
+>not))
+>
+>a^2+b-c
+>
+>((ideally this gives 1^2+4-2, or 3, but it does not))
+>
+
+Hi Genny,
+
+Thanks for writing to Dr Math.  You're right, but
+
+  {a, b, c} = Permutations[{1, 2, 4}][[2]]
+
+works.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

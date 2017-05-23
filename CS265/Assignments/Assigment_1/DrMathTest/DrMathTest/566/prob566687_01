@@ -1,0 +1,58 @@
+ThreadNum: 566687
+Subject: Re: probability
+To: safiajd@yahoo.com (Yaser)
+From: Doctor Anthony
+TimeStamp: 08/13/2004 at 07:49:07
+Sent: yes
+
+
+As Yaser wrote to Dr. Math
+On 08/12/2004 at 14:20:39 (Eastern Time),
+>[Question]
+>hi
+>i have a question and i hope u can answer it.
+>an archery target consists of central ring "bull", an "inner" ring 
+>and an "outer"ring.the radius of the circles are 10cm 20cm 30cm 
+>respectively..
+>(a)Show that the ratio of the areas of bull:inner:outer is 1:3:5.
+
+The areas of the 3 circles are in the ratio 1^2 : 2^2 : 3^2
+
+                                 1 : 4 : 9
+
+Area of "inner" ring = 4 - 1 = 3
+Area of "outer" ring = 9 - 4 = 5
+
+So area  bull : inner : outer =  1 : 3 : 5
+
+
+
+>(b)If an arow is likely to hit anywhere on the target, wht is the 
+>probability tht it hits the bull?
+
+                        1        1
+  Prob hits bull =   ------  =  ---
+                      1+3+5      9
+
+
+>(c)The probability tht Alexander hits the bull inner and outer are 
+>2\5,1\2 and 1\10 respectively._
+>(1)he shoots 2 arrows.wht is the probability tht they both hit the 
+>outer?
+
+      1/10 x 1/10  = 1/100
+
+
+>i m sorry if the question was too long.this is my only problem i 
+>guess.
+>
+>[Difficulty]
+>i dont know how to solve it at all
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

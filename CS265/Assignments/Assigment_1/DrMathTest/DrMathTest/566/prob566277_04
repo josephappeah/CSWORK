@@ -1,0 +1,38 @@
+ThreadNum: 566277
+Subject: Re: Using Longitude and Latitude to Determine Distance 
+To: 0105650F@student.tp.edu.sg (Bryan Tran)
+From: Doctor Rick
+TimeStamp: 08/11/2004 at 08:12:23
+Sent: yes
+
+Hi, Bryan.
+
+As Bryan Tran wrote to Dr. Math
+On 08/11/2004 at 04:10:29 (Eastern Time),
+>Thank you Dr for your quick response.Your supervising helped me to 
+>dicided to use the linear scaling formula in my case.
+>
+>I would like to recall the formula :
+>
+>x = w*(a - a1)/(a2 - a1)
+>y = h*(b - b1)/(b2 - b1)
+>
+>How the formula would be changed if my origin point a1,b1 is at top 
+>left ( I'm programming using Java which coordinate starting point O
+>(0,0) at the top left ) ?
+>
+>Your help is greatly appreciate.
+>
+>Best Regards,
+>
+>Bryan Tran
+
+The formula doesn't change at all. If (a1,b1) are the longitude and 
+latitude of the upper left corner, then you calculate (x,y) in the 
+same way and measure them from the upper left corner. Thus, when a=a1 
+and b=b1, you'll get x=0 and y=0 -- the upper left corner. When a=a2 
+and b=b2, you'll get x=w and y=h -- the lower right corner.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

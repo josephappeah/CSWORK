@@ -1,0 +1,50 @@
+ThreadNum: 568214
+Subject: Re: Ferris Wheel Motion Problem
+To: croydongarners@optusnet.com.au (Jack)
+From: Doctor Jerry
+TimeStamp: 08/23/2004 at 08:14:14
+Sent: yes
+
+
+As Jack wrote to Dr. Math
+On 08/23/2004 at 07:13:24 (Eastern Time),
+>[Question]
+>Ok, There's a diagram but I'm pretty confident I can describe it in 
+>words.
+>There's a Ferris Wheel with radius of 15 metres. John is riding the 
+>ferris wheel and his starting position is 15m right of the y-axis 
+>and he's on the x-axis line. 
+>The formula for his path: P(t)=15cos(Pi X t/60)i + 15sin(Pi X t/60)j
+>He moves in anticlockwise direction
+>
+>A) Find the time (t) it takes for john to complete 1 revolution of 
+>Ferris Wheel?
+>
+>B) Find John's Co-ordinates at t=45?
+>
+>C) Find the Cartesian Equasion of John's path?
+>
+>
+>[Difficulty]
+>Not Quite sure what I'm meant to do, help please :(
+>
+>[Thoughts]
+>A) Make x=15cos(pi X t/60) and y=15sin(pi X t/60). Unsure if this is 
+>right though
+>
+>B) I figure you substitute t=45 into those 2 above but still unsure.
+>
+>C) Not much clue
+
+Hello Jack,
+
+The angle is 0 at t=0; for what t will pi*t/60 = 2pi?  That's when it will start retracing its 
+path.
+
+Yes, substitute t=45 into the equation.
+
+For C) do what you suggested for A, then calculate x^2+y^2.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,42 @@
+ThreadNum: 567562
+Subject: Re: fractions
+To: alandrus@msn.com (L.A.)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 19:15:27
+Sent: yes
+
+
+As L.A. wrote to Dr. Math
+On 08/18/2004 at 18:55:21 (Eastern Time),
+>[Question]
+>What are some non-terminating, non-repeating fractions other than pi?
+>
+>[Difficulty]
+>Pi is the only one I can think of.  I do not know how to arrive at 
+>others except through random attempts.  Even then it may repeat at 
+>some point down the line after I have stopped dividing.
+>
+>[Thoughts]
+>I know that 22/7 or pi will not repeat or terminate.  I think there 
+>is a formula to use to find others.
+
+Hi,
+
+Here's one:
+
+  e = 2.71828...
+  http://mathforum.org/dr.math/faq/faq.e.html
+
+You can find others by taking the square root of any integer that
+isn't a perfect square, e.g., 
+    _    _    _
+  \/2, \/3, \/5, ..
+
+By the way, note that 22/7 _will_ repeat; but it's just an
+approximation to pi, not pi itself. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

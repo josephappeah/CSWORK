@@ -1,0 +1,44 @@
+ThreadNum: 568029
+Subject: Re: odd and even functions
+To: isa_shah@hotmail.com (Sabrina)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 12:10:22
+Sent: yes
+
+Hi, Sabrina.
+
+As Sabrina wrote to Dr. Math
+On 08/24/2004 at 09:54:56 (Eastern Time),
+>yes, i did make a mistake while sending my question.
+>the question was, assuming h1,h2,h3 even functions, prove h1+h2+h3 
+>an even function.
+>could u also solve this one:
+>"X" raised to the power "2/3"  ------check if its an even or odd 
+>function.
+>(n i GREATLY APPRECIATE the quick respond i got from u)--THANK U!!!
+
+Do you have any thoughts on how to prove these things? You should 
+begin, I would think, with the definition of an even function:
+
+f(x) is an even function if, and only if, f(x) = f(-x) for all x.
+
+Thus, in the first problem, you know
+
+  h1(x) = h1(-x) for all x
+  h2(x) = h2(-x) for all x
+  h3(x) = h3(-x) for all x
+  f(x) = h1(x) + h2(x) + h3(x)
+
+and you want to prove
+
+  f(x) = f(-x) for all x
+
+To prove it, start by evaluating f(-x) for any x.
+
+For the second problem, again, try evaluating f(-x) where
+
+  f(x) = x^(2/3)
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

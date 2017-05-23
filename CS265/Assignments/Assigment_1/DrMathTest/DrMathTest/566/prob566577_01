@@ -1,0 +1,58 @@
+ThreadNum: 566577
+Subject: Re: Smallest possible value of an equation
+To: hagusquebec@yahoo.ca (Ashley Watson)
+From: Doctor Vogler
+TimeStamp: 08/12/2004 at 11:33:19
+Sent: yes
+
+
+As Ashley Watson wrote to Dr. Math
+On 08/11/2004 at 20:37:13 (Eastern Time),
+>[Question]
+>Hello
+>
+>Given this equation
+>
+>w = -tan0.8w
+>
+>How do you solve this equation in order to find the smallest possible 
+>value of w.
+>
+>
+>
+>
+>
+>[Difficulty]
+>I know that the answer is 2.4482 and I have tried various methods 
+>like trial substituion, but do not understand how to arrive at the 
+>answer. 
+>
+>Any help most appreciated
+>
+>[Thoughts]
+>I have asked several other people but they are not sure either.
+
+Hi Ashley,
+
+Thanks for writing to Dr Math.  That's what we call a transcendental
+equation, and there is no easy way to solve for the solutions.  So you
+have to use numerical methods, such as iteration or Newton's Method,
+or others.  Newton's method would say to start at some value like
+
+  w = 2
+
+and then to change w to
+
+  w - (w + tan 0.8w)/(1 - 0.8sec^2 w)
+
+and repeat.  It should get closer and closer to the correct value,
+rather quickly.  (Starting with w=1 will end up getting close to 0,
+which is not the solution you want.)
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

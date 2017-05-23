@@ -1,0 +1,56 @@
+ThreadNum: 566373
+Subject: Re: Combinatorics - counting words, but with a twist
+To: revoklaw@gmail.com (Asher)
+From: Doctor Anthony
+TimeStamp: 08/10/2004 at 19:06:01
+Sent: yes
+
+
+As Asher wrote to Dr. Math
+On 08/10/2004 at 18:21:44 (Eastern Time),
+>[Question]
+>I'm interested in counting the number of possible words of a certain
+>length I can make out of a given supply of letters - the same letter
+>might appear multiple times in the supply, of course.
+>
+>For example, let's say I wanted to make four letter words, and I was
+>given a supply of unlimited 'A's, 'B's, and 'C's. Then naturally for
+>each of the four letters in the word I'm trying to make I have three
+>choices, so the total number of possible words is 3^4.
+>
+>But what if my supply is limited - I only have two each of the 'A's,
+>'B's and 'C's, let's say. So AABB or CAAB is valid but AABA is not.
+>Now how do I count the words?
+
+
+You would use generating functions.  The number of 4-letter words 
+that can be made from 2 A's, 2 B's and 2 C's is the coefficient of 
+x^4/4! in the expansion of
+
+   (1 + x + x^2/2!)^3   which expands to
+
+ 1 + 3x + (9/2)x^2 + 4x^3 + (9/4)x^4 + (3/4)x^5 + (1/8)x^6
+
+The coefficient of x^4 is 9/4  and of x^/4! is  4!(9/4)
+
+                                             =  54
+
+So there are 54 possible 4-letter 'words' made from 2 A's, 2 B's and 
+2 C's.
+
+
+If order doesn't matter the number of combinations of 4 letters is 
+the coefficient of x^4 in the expansion of
+
+    (1 + x + x^2)^3
+
+ =   1 + 3x + 6x^2 + 7x^3 + 6x^4 + 3x^5 + x^6
+
+And the coefficient of x^4 is 6, so there are 6 combinations of 4 
+letters from 2 A's, 2 B's and 2 C's.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

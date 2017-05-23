@@ -1,0 +1,46 @@
+ThreadNum: 568584
+Subject: Re: Trying too help my son with his sixth grade math homework.
+To: griffith3819@charter.net (bum fusal)
+From: Doctor Peterson
+TimeStamp: 08/24/2004 at 22:36:24
+Sent: yes
+
+Hi, Bum.
+
+As bum fusal wrote to Dr. Math
+On 08/24/2004 at 21:36:48 (Eastern Time),
+>[Question]
+>The example given was I have 2 ice cream flavors. 2 scoops gave me 4 
+>combinations (different order in which flavors could be stacked, i.e.
+>vanilla, vanilla; chocolate, chocolate; chocolate, vanilla; and 
+>vanilla,chocolate).
+>
+>The question is. By using the same two flavors, how many scoops would
+>it take to give you 88 different combinations?
+>
+>[Difficulty]
+>I am an engineer trying to help a 6th grader. I am thinking to 
+>advanced.
+>
+>[Thoughts]
+>
+
+You won't get exactly 88 combinations; I don't know why they chose 
+that number. You'll have to look for a way to get at least 88.
+
+One way to think of it is to represent each combination with a binary 
+number, using 0 for a vanilla scoop and 1 for a chocolate scoop. The 
+four pairs you list are then the numbers 00, 11, 10, and 01 (0, 3, 2, 
+and 1). If you know enough about binary numbers, the answer is not 
+too hard.
+
+If the student does not know anything about binary numbers, then 
+another approach is multiplication. With one scoop there are 
+two "combinations"; with two, the second multiplies that number by 2, 
+since for each choice of the first scoop, there are 2 choices for the 
+second. Can you take it from there?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

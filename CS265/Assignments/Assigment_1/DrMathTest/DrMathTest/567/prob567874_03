@@ -1,0 +1,66 @@
+ThreadNum: 567874
+Subject: Re: Ellipses
+To: westlife.fan@tiscali.co.uk (Jennifer)
+From: Doctor Rob
+TimeStamp: 08/28/2004 at 10:08:49
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/28/2004 at 05:04:52 (Eastern Time),
+>Thank you for your help on ellipses. I am now moving on with the 
+>coursework and have been asked to use differentiation. I have looked 
+>in all of my textbooks and on the internet, but I cannot find 
+>anywhere what it is. Our teacher said she would tell us when we went 
+>back to school but I would like to get it done. Would you please be 
+>able to tell me what it is? Thank you again. 
+
+Thanks for writing to Ask Dr. Math, Jennifer!
+
+Differentiation is the name given to the process of finding a
+derivative.  The verb is "to differentiate".
+
+Let x be the independent variable, and y a dependent variable.  The
+derivative y with respect to x (denoted dy/dx) is the instantaneous
+rate of change y with respect to x, that is, the amount of change
+in y per unit change in x.  In other words, if x changes by a small
+amount, what change in y do you see?  To find derivatives, you need
+to understand limits.  If you do, then this is how the derivative is
+defined.
+
+Let y = f(x).  Then
+
+   dy/dx = lim [f(x+h)-f(x)]/h.
+           h->0
+
+You see that h is a change in x, from x to x+h.  The values of y
+which correspond are f(x) and f(x+h).  The change in x is (x+h) - x,
+or h, and the change in y is f(x+h) - f(x).  The ratio of the change
+in y to the change in x is the fraction inside the limit.  That's
+the average rate of change of y with respect to x over the interval
+[x,x+h].  Taking the limit as h approaches zero gives the
+instantaneous rate of change of y with respect to x at the point
+(x,f(x)).  That's the derivative dy/dx at that same point.
+
+Sometimes the limit does not exist, or is infinite.  In those cases,
+the derivative is undefined for that value of x.
+
+If you draw the graph of the function y = f(x), you can see that the
+two points (x,f(x)) and (x+h,f(x+h)) are on the curve, and the ratio
+[f(x+h)-f(x)]/h is the slope of the line joining these points.  That
+line is a secant of the curve.  As h approaches zero, the secant
+approaches the tangent to the curve at (x,f(x).  The limit of the
+slope thus approaches the slope of the tangent line at that point
+(unless, of course, the curve has no tangent, or more than one
+tangent, there).  Thus the value of the derivative dy/dx at that
+point is the slope of the tangent line to the curve y = f(x) there.
+
+The study of limits, derivatives, and differentiation is usually
+part of a beginning course in calculus.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

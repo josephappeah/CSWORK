@@ -1,0 +1,30 @@
+ThreadNum: 568939
+Subject: Re: How many possible 4 digit number factors  from 0 - 9
+To: ron.stambaugh@kctcs.edu (Ron)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 14:59:44
+Sent: yes
+
+
+As Ron wrote to Dr. Math
+On 08/26/2004 at 14:28:45 (Eastern Time),
+>Is it possible to factor all 10,000 of these 4 digit codes?
+>If so, can you please help?
+
+Hi Ron,
+
+I don't think you meant what you asked.  What you asked would be
+answered:  Most certainly yes.  For example, you can factor
+
+  5880
+
+as
+
+  5880 = 2^3 * 3 * 5 * 7^2.
+
+But I don't think that's what you meant.  So what do you mean by
+"factor these codes"?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,63 @@
+ThreadNum: 566371
+Subject: Re: math
+To: samokersky@att.net (Sandy)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 11:52:03
+Sent: yes
+
+
+As Sandy wrote to Dr. Math
+On 08/10/2004 at 18:04:46 (Eastern Time),
+>[Question]
+>How do you add and subract feet and inches that have fractions in the 
+>problem. Example 14ft 5 1/2 minus 5ft 8 1/4inches. 
+>
+>[Difficulty]
+>the feet and inches
+>
+>[Thoughts]
+>
+
+Hi Sandy,
+
+Let's look at something simpler, but along the same lines.  Suppose I
+ask you to subtract
+
+  (5 dollars and 6 dimes) - (3 dollars and 2 dimes)
+
+You could subtract the dollars and dimes separately, right?
+
+    (5 dollars and 6 dimes) - (3 dollars and 2 dimes)
+ 
+  = (5 dollars - 3 dollars) + (6 dimes - 2 dimes)
+
+  = 2 dollars and 4 dimes
+
+Does that make sense?  What if the number of dimes is higher in the
+amount being subtracted?
+
+    (5 dollars and 2 dimes) - (3 dollars and 6 dimes)
+
+  = (5 dollars - 3 dollars) + (2 dimes - 6 dimes)
+
+Uh oh!  Fortunately, we can avoid this situation by 'making change':
+
+    (5 dollars and 2 dimes) - (3 dollars and 6 dimes)
+
+  = (4 dollars and 12 dimes) - (3 dollars and 6 dimes)
+
+  = (4 dollars - 3 dollars) - (12 dimes - 6 dimes)
+
+  = 1 dollar and 6 dimes
+
+So far, so good?  If so, note that your problem is the same as this,
+except you have feet and inches instead of dollars and dimes; and when
+you 'break' a foot, you get 12 inches (where 'breaking' a dollar gives
+you 10 dimes).
+
+With this in mind, take another shot at your problem, and let me know
+what you come up with. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

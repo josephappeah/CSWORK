@@ -1,0 +1,56 @@
+ThreadNum: 567900
+Subject: Re: Determing a sum to an infinite series
+To: aak190@earthlink.net (Alex)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 09:38:21
+Sent: yes
+
+
+As Alex wrote to Dr. Math
+On 08/23/2004 at 08:58:29 (Eastern Time),
+>I'm trying to determine the value of the limit of series using 
+>the "Squeeze Theorem" but wasn't able to come-up with usable 
+>estimates on both sides of the (in)equality to apply the "Squeeze 
+>Theorem".
+>
+>Thanks for following up. 
+
+Hi Alex,
+
+Did you look at the link I sent you last time?  That will give you
+close enough estimates.  It is based on the following idea:
+
+  1/(k+1) < INT[1/x]dx from k to k+1 < 1/k
+
+and therefore
+
+  INT[1/x]dx from k to k+1 < 1/k < INT[1/x]dx from k-1 to k
+
+and therefore
+
+  b+1  1        b   1     b   1
+  int --- dx < sum --- < int --- dx
+   a   x       i=a  i    a-1  x
+
+and if you have trouble with the inequality in this form, then write
+it instead as
+
+   b   1       b-1  1
+  int --- dx < sum ---
+   a   x       i=a  i
+
+and
+
+   b    1     b   1
+  sum  --- < int --- dx
+  i=a+1 i     a   x
+
+which gives
+
+   b   1        1     b   1     1     b   1
+  int --- dx + --- < sum --- < --- + int --- dx
+   a   x        b    i=a  i     a    a-1  x
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

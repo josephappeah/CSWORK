@@ -1,0 +1,46 @@
+ThreadNum: 567961
+Subject: Re: problem with log question ?
+To: nathen147@yahoo.com (patmanathen)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 09:09:27
+Sent: yes
+
+
+As patmanathen wrote to Dr. Math
+On 08/20/2004 at 22:24:29 (Eastern Time),
+>[Question]
+>give log base b (xy^3)=m
+>log base b (x^3y^2)= p
+>
+>show log base b (surd xy) = 1/14 (m + 2p)
+>
+>[Difficulty]
+>
+>[Thoughts]
+>1/14 (log base b x + log base b y^3+ 2(log base b x^3 +logbase b y^2)}
+>log base b x^1/14 + logbase b y^3/4 +logbase b x^3/7 +log base b y^2/7
+>log base b x^1/14 + logbase b x^3/7 +log base b y^2/7+logbase b y^3/4 
+>log baseb (x^1/14 +x^3/7) + logbse b (y^2/7 + y^3/4)
+>
+>than i does not know how to complete it i stuck here
+
+Hi Patmanathen,
+
+Thanks for writing to Dr. Math.  Just use logarithm properties to
+rewrite the given logarithm statements as a linear system in log_b(x)
+and log_b(y).  For example, the first equation 
+
+>given log base b (xy^3)=m ....
+
+can be rewritten using log_b(u*v) = log_b(u)+log_b(v), and
+log_b(u^n) = n*log_b(u).  You can solve for log_b(x) and log_b(y),
+and then it is easy to determine log_b(sqrt(xy)) (after rewriting
+this expression in terms of log_b(x) and log_b(y)).
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

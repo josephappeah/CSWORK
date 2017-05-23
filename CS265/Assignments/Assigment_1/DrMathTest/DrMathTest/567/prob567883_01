@@ -1,0 +1,65 @@
+ThreadNum: 567883
+Subject: Re: the relationship between a point and the corners of a square
+To: yunussasmaz2000@yahoo.com (yunus sasmaz)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 12:51:39
+Sent: yes
+
+
+As yunus sasmaz wrote to Dr. Math
+On 08/20/2004 at 10:31:22 (Eastern Time),
+>[Question]
+>I was studying on a math project and I figured out an equation which 
+>I wonder about its originality, in other words, is the first person 
+>me who figured out that equation. I searched for a while on the 
+>internet and I did not see anything about it, however I am trying to 
+>be more sure as you can understand. Thank you very much for your 
+>assistance...
+>
+>[Difficulty]
+>Not the most difficult or confusing, but it was surprisingto find 
+>such an equation by using just "Pythagoras Theorem".
+>
+>[Thoughts]
+>ABCD is a square. P is any point.
+> 
+>|PA|^2 + |PC|^2 = |PB|^2 + |PD|^2
+> 
+>Proof
+> 
+>Let 
+>one side of the square = k,
+> the perpendicular distance from |BC| to P = d
+> the intersection point of BC and the line which is drawn from 
+>P, and perpendicular to BC = O
+> |BO| = x
+> |CO| = k-x
+> 
+>|PA|^2 = (k+d)^2 + x^2
+>|PB|^2 = d^2 + x^2
+>|PC|^2 = d^2 + (k-x)^2
+>|PD|^2 = (d+k)^2 + (k-x)^2
+> 
+>If we add them, it gives the equation above.
+> 
+>I have derived lots of things from that (for ex: 3-D, cubes, 
+>different planes), if nobody did it before, I think it will be a good 
+>project (because I just used pisagor theorem. It is easy and 
+>understandible).
+>
+>
+
+Hello Yunus,
+
+|PA|^2 = (k-d)^2 + x^2
+
+|PD|^2 = (k-d)^2 + (k-x)^2
+
+Otherwise your proof look fine.
+
+I don't know a reference for this result, but I feel certain it has been discovered.  I'll return 
+your question to the active list - maybe someone else will know the answer.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

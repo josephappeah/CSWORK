@@ -1,0 +1,36 @@
+ThreadNum: 566625
+Subject: Re: Probability
+To: kalees_14@hotmail.com (Kalees)
+From: Doctor Roy
+TimeStamp: 08/12/2004 at 12:23:39
+Sent: yes
+
+
+As Kalees wrote to Dr. Math
+On 08/12/2004 at 04:51:43 (Eastern Time),
+>[Question]
+>Thanks for setting this wonderful informative site!
+>
+>There are 26 letters (a,b,c...x,y,z), what are the total number of 
+>ways of getting the alphabets in a random way?
+>
+>[Difficulty]
+>Is it 2^26 or 26x26?
+>
+>[Thoughts]
+>I have multiplied 2^26=67108864, if its 26x26=676, which one is 
+>correct?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+What do you mean by "random way"? Are you asking for the number of
+ways to arrange all 26 letters? That is actually 26!.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

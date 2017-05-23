@@ -1,0 +1,49 @@
+ThreadNum: 567697
+Subject: Re: cubic metre
+To: ahammedmm019@yahoo.com (ahammed)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 12:27:15
+Sent: yes
+
+Hi, Ahammed, thanks for writing to Ask Dr. Math.
+
+As ahammed wrote to Dr. Math
+On 08/24/2004 at 02:04:36 (Eastern Time),
+>how can i find out 1(one)cubic metre or cubic foot? for example:i 
+have
+>8 metre lengh wood &60 cm(centimetre)at the round dimension (cnter 
+of 
+>the wood)how can i find out,how many cubic metre are this?
+
+I could tell you if I knew what you mean by "at the round dimension 
+(center of the wood." Is 60 cm the diameter (the distance across, 
+going through the center), or the circumference (the distance around 
+the outside), or the radius (distance from the center to the outside)?
+
+I am assuming that the wood is a cylinder, like a round pole. The 
+formula for the volume of a cylinder is
+
+  V = pi*h*r^2
+
+where pi is the number 3.1416 (approximately), h is the length (8 
+metres in your example), and r is the radius (half the diameter). If 
+the diameter is 60 cm then the radius is 30 cm, so
+
+  h = 8 m
+  r = 30 cm = 0.3 m
+  V = 3.1416 * 8 m * 0.3 m * 0.3 m
+    = 2.262 cubic metres
+
+If you want to find the length that will give a volume of 1 cubic 
+metre, the volume is proportional to the length so all you have to do 
+is divide the length of this piece by 2.262 to get a volume of 1 
+cubic metre:
+
+  8 m / 2.262 = 3.537 metres
+
+If this isn't enough information to answer your questions, please try 
+again to explain what you know and what you want to find out.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

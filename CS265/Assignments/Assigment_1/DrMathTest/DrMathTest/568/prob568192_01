@@ -1,0 +1,42 @@
+ThreadNum: 568192
+Subject: Re: Explanation of term
+To: caseym@orion-online.com.au (Michele)
+From: Doctor Rick
+TimeStamp: 08/23/2004 at 13:29:56
+Sent: yes
+
+Hi, Michele.
+
+As Michele wrote to Dr. Math
+On 08/23/2004 at 00:50:20 (Eastern Time),
+>[Question]
+>If I am asked the probability of sell at least two dishwashers in 
+>any given week given the table  No of d/w sold     No of weeks
+>                                      0                20
+>                                      1                15
+>                                      2                10
+>                                      3                 4
+>                                      4                 1
+>does at least mean 2,3,or 4 being 1x15/50 .3
+>or does it mean 0,1,2 up to but no more than being 1x10/50 .2
+>
+>[Difficulty]
+>If somebody says at get me at least 3 marbles they do not want 1 or 
+>2 but three, does this mean 4 will even do or does at least 3 mean 
+>up to and including 3
+>
+>[Thoughts]
+>Not sure if I was asked to get somebody at least 3 I would think 
+>they wanted 3 or more but not sure if in statistics this means at 
+>least 3 but no more.
+
+"At least 3" means "no less than 3," which is the same as "3 or 
+more," as you guessed. If they wanted at least 3 but no more, that 
+would be "exactly 3".
+
+In your first example, if they meant 0,1,2 up to but no more than 2, 
+that would be "at most 2" or "no more than 2."
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

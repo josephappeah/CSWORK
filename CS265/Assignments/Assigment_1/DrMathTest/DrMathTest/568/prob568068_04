@@ -1,0 +1,87 @@
+ThreadNum: 568068
+Subject: Re: matrices
+To: av_ace11@hotmail.com (avneesh)
+From: Doctor Fenton
+TimeStamp: 08/29/2004 at 14:00:33
+Sent: yes
+
+
+As avneesh wrote to Dr. Math
+On 08/29/2004 at 02:11:24 (Eastern Time),
+>[Question]
+>If H is an m x n matrix and K is an n x m matrix with n < m, prove 
+>that HK is not invertible.
+>
+>
+>[Difficulty]
+>Hwo to begin a proof.
+>
+>[Thoughts]
+>I was thinking that a proof by contradiction would be appropriate..
+>
+>My friend has come up with this solution..however, i don't 
+>understand it..i was hoping i could get an explanation or a simpler 
+>and more pracitcal approach??
+>
+>suppose HK is invertible: 
+>-> there exists a vector x in R^n such that:
+>(HK)x = u, for every vector u in R^n
+>-> there exists x in R^n such that:
+>H(Kx) = u, for all u in R^n.
+>-> The function T(v) = Hv is an invertible function. ...(A)
+>
+>But H is an m x n matrix with n < m,
+>-> H is not a square matrix
+>-> T(v) = Hv is not invertible
+>-> Contradiction with (A) !!
+>-> HK is not invertible.
+>
+
+Hi Avneesh,
+
+Thanks for writing to Dr. Math.  There are several errors in your 
+friend's proof as you have stated it.  First, a quantifier in the 
+statement is misplaced:
+
+>suppose HK is invertible: 
+>-> there exists a vector x in R^n such that:
+>(HK)x = u, for every vector u in R^n
+
+This says that there is one vector x in R^n which is mapped by HK onto
+EVERY u in R^n.  The universal quantifier on u must go BEFORE the
+existential quantifier on x: the x chosen will depend upon u.
+
+Next, HK does not map R^n to R^n.  H is m x n and K is n x m, so 
+HK is m x m, not n x n, and so HK is a mapping from R^m to R^m.
+
+Finally, the proof nowhere uses the hypothesis that n < m, so it 
+would apply to the matrices
+
+  H = [ 1 0 1 ]     and   K = [ 1 0 ]
+      [ 0 1 1 ]               [ 0 1 ]
+                              [ 0 0 ] ,
+
+for which its conclusion is clearly false.  It is essential that 
+n be less than m.
+
+You need to think about the rank of the matrices, and what this tells
+you about their nullspaces and ranges.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+You sent your question in as if it were a follow-up to
+a previous answer, asking for further clarification of
+the answer or additional help on the problem.  However,
+your question is really a new question, unrelated to
+any previous answer.  Follow-up questions are directed
+to the Doctor who originally answered the question, and
+other Math Doctors will not usually look at the question.
+If I am unavailable, your new question will probably not
+be read or answered.  Please send in new questions as
+such, and not as follow-ups.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

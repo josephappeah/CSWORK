@@ -1,0 +1,49 @@
+ThreadNum: 568338
+Subject: Re: algebra review
+To: hawkins5@charter.net (jeri)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 21:51:22
+Sent: yes
+
+
+As jeri wrote to Dr. Math
+On 08/23/2004 at 20:18:03 (Eastern Time),
+>[Question]
+>how do I simplify the square root of a fraction like sqrt (3/5)
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>sqrt (3/5) = sqrt 3
+>            _________  = ?
+>             sqrt 5
+
+Hi, Jeri --
+
+What you have done is fine; the two expressions are equivalent.  But 
+it is almost always considered bad form to leave a radical in the 
+denominator of a fraction, so we should get rid of the "sqrt 5" in 
+the denominator.
+
+The only way to get rid of that "sqrt 5" is to multiply numerator 
+and denominator of the fraction by another "sqrt 5":
+
+              sqrt 3   (sqrt 3)(sqrt 5)   sqrt 15
+  sqrt(3/5) = ------ = ---------------- = -------
+              sqrt 5   (sqrt 5)(sqrt 5)      5
+
+Some people find it easier to perform the process a bit differently -
+- by making the denominator of the fraction a perfect square before 
+taking the square roots of numerator and denominator:
+
+                            sqrt 15   sqrt 15
+  sqrt(3/5) = sqrt(15/25) = ------- = -------
+                            sqrt 25      5
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

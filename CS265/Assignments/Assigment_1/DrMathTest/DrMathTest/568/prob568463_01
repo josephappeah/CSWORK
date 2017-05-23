@@ -1,0 +1,73 @@
+ThreadNum: 568463
+Subject: Re: How to find the domain of a function
+To: tulam05@yahoo.com (Tam Lam)
+From: Doctor Greenie
+TimeStamp: 08/24/2004 at 14:57:07
+Sent: yes
+
+
+As Tam Lam wrote to Dr. Math
+On 08/24/2004 at 13:24:53 (Eastern Time),
+>[Question]
+>use absolute value to express the domain of -3<x<5?
+>
+>[Difficulty]
+>I don't understand how you can use absolute value to express a 
+>function.
+>
+>[Thoughts]
+>
+Hi, Tam Lam --
+
+You aren't being asked to express a function using absolute value -- 
+you are being asked to express the domain of a function using 
+absolute value.
+
+One useful way to read the inequality
+
+  |x-5|<2
+
+is
+
+  "the set of numbers for which the difference between the number
+   and 5 is less than 2"
+
+And this can be read as
+
+  "the set of numbers less than 2 away from 5"
+
+Interpreted this way, it is easy to see that
+
+  |x-5|<2 = "numbers less than 2 away from 5" =  "3<x<7"
+
+In your problem, you are given the domain and asked to express that 
+domain using absolute values.  So let's see how, in the preceding 
+example, we take the given domain
+
+  "3<x<7"
+
+and convert it to
+
+  "|x-5|<2"
+
+To do this, we find the midpoint of the domain; for the given 
+domain "3<x<7", the midpoint is x=5.  Then we see that each endpoint 
+of the domain is 2 units from that midpoint, so the domain "3<x<7" 
+is the set of all numbers less than 2 units from 5.
+
+And using the interpretation described above, the "set of all 
+numbers less than 2 units from 5" is expressed by the absolute value 
+inequality
+
+  |x-5|<2
+
+So to find the answer to your question, you just need to convert the 
+given domain "-3<x<5" to an absolute value inequality using the 
+method shown just above.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

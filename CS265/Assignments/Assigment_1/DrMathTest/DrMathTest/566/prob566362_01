@@ -1,0 +1,65 @@
+ThreadNum: 566362
+Subject: Re: "solving for the unknown in cubed binomials"
+To: azn_serpent_1989@hotmail.com (Jean)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 10:20:55
+Sent: yes
+
+
+As Jean wrote to Dr. Math
+On 08/10/2004 at 17:20:00 (Eastern Time),
+>[Question]
+>This question isn't really a request for math help.  I was just 
+>curious if there is currently a way to "complete the cube" at a 
+>highschool level.  For instance, if you were given the equation:
+>
+>                3x^3 + 6x^2 + 12x + 88 = 160
+>
+>How would you go about in solving for "x"?  In this case, you can't 
+>factor it out to something like (x+y)^3.  Is there a really simple 
+>way of doing this, similar to "completing the square"?  If so, would 
+>you please explain?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I am a grade 9 student (going to grade 10 this September) who enjoys 
+>a math problem once in a while.  I recently read about "completing 
+>the square" and the quadratic formula on the internet.  That got me 
+>curious if there was a way to complete the "cube" or solve for a 
+>cubed binomial.  I've thought about it and am on the stage of 
+>perfecting my ideas and just wanted to know if there was already a 
+>way to do that.  Thanks so much.  
+
+Hi Jean,
+
+Thanks for writing to Dr Math.  Good question.  You *can* complete the
+cube or any power, but you can only absorb one term into the cube or
+other power.  In the quadratic case, that means you only have a
+constant left, which is great, but in the cubic, you will have a
+linear term left, so you would get
+
+  3x^3 + 6x^2 + 12x + (88 - 160) = 3(x + 2/3)^3 + 8x - 656/9.
+
+Only in special circumstances would the coefficient of the x left over
+be zero.  That said, there is a way to "complete the cube" and get a
+cubic equation, but it's not easy.  There is another way to get a
+cubic equation (also not easy) known as "Cardano's Formula."  The
+following Dr Math site describes the second and has a link to a
+description of the first. 
+
+  Cubic and quartic equations
+  http://mathforum.org/dr.math/faq/faq.cubic.equations.html
+
+The link goes to
+
+  http://mathforum.org/dr.math/faq/faq.cubic.equations2.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

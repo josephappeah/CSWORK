@@ -1,0 +1,46 @@
+ThreadNum: 568039
+Subject: Re: An Irrigation problem
+To: bloom@pixigirl.nu (Elisa)
+From: Doctor Rick
+TimeStamp: 08/22/2004 at 21:30:36
+Sent: yes
+
+Hi, Elisa.
+
+As Elisa wrote to Dr. Math
+On 08/21/2004 at 23:41:57 (Eastern Time),
+>I'm sorry I'm still a bit confused on how to work the problem.  
+>Please have patience for me. For the first part of the problem, how 
+>would a calculate the overlap of circles and how would I know if I 
+>reach the maximum uniform coverage?  And for the second part what do 
+>you mean by the volume of one inch.  
+
+The second question first: When we speak of a rainfall of 1 inch, we 
+mean that if the water didn't soak in, you'd end up with a pool of 
+water 1 inch deep. If the sprinklers drop 1 inch of water on the 
+field, you end up with a pool of water 1 inch deep, 1000 feet wide 
+and 2000 feet long. The volume of that pool is the total amount of 
+water dropped in one pass of the pipe across the field.
+
+On the first question, I assume this is a significant project and not 
+a simple homework problem, because as I said, it looks like a good 
+bit of thinking and work to me. I don't have a clear idea in mind, 
+and I don't want to duplicate the work you are to do. What I would do 
+to start with is to suppose that the heads are spaced some distance d 
+apart, and figure out how to compute the amount of water dropped on 
+one spot (x,y) in the field in one pass. If the x coordinate is along 
+the pipe and the y coordinate is perpendicular to the pipe, the 
+amount of water will be a function of x only. Then I'd want to study 
+the amount of water dropped, f(x), and how this function changes with 
+the distance d. Consider how you want to define uniformity in terms 
+of properties of the function f(x), then find what value of d makes f
+(x) the most uniform.
+
+Those are just my first thoughts about a plan of action, without 
+actually doing the work. You must proceed from here; you may need to 
+change the plan as you see how things turn out, but at least it's a 
+way to get started.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

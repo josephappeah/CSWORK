@@ -1,0 +1,56 @@
+ThreadNum: 567352
+Subject: Re: please help me with this problem it keeps going on for ever 
+To: jazyesprincesses@sbcglobal.net (junior)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 19:28:17
+Sent: yes
+
+
+As junior wrote to Dr. Math
+On 08/17/2004 at 19:10:54 (Eastern Time),
+>[Question]
+>17 divided by 7.65 this is a decimal problem hard to solve?
+>
+>[Difficulty]
+>It tells me to keep adding zeros until it evevn out but It keeps 
+>going forever
+>
+>[Thoughts]
+>17 divided by 7.65=0.03823539411
+
+Hi,
+
+Can you show me your work?  Note that if we double 7.65, we get 15.3,
+which is about the same size as 17; so 17 divided by 7.65 should be
+about equal to 2.  
+
+If it's easier, you can note that
+
+   17    100   1700
+  ---- * --- = ----
+  7.65   100    765
+
+so now you can do the same division with no decimal places in the
+divisor, 
+
+              2.2 2 
+       ____________
+  765 ) 1 7 0 0.0 0
+        1 5 3 0
+        -------
+          1 7 0 0
+          1 5 3 0
+          -------
+            1 7 0 0
+            1 5 3 0
+            -------
+              1 7 0
+
+As you can see, the 2's will just repeat forever.  
+
+But I would like to help you figure out where you went wrong with your
+original attempt.  Can you show me how you got your answer?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 566877
+Subject: Re: Right angle triangle. Hypotinusa how to find it
+To: elinaprima@optusnet.com.au (Sophie)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 09:27:52
+Sent: yes
+
+
+As Sophie wrote to Dr. Math
+On 08/14/2004 at 02:02:48 (Eastern Time),
+>[Question]
+>Could you please tell me how I can calculate the size of the 
+>hypotinusa of the right triangle when we only know the size of one 
+>of the arms which is 19cm.  The smaller arm and the hypotinousa we 
+>dont know.
+>
+>Also if you have an uneven side triangle and you know the size only 
+>of the base that is 25cm how can you find the hight and the other 
+>sides. The line that comes down from the peak of the triangle and 
+>touches the base creates a right ancle. Is this a good point to 
+>start thinging using the Pythagorian rule?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Sophie,
+
+If you know only one side of a right triangle, it is impossible to calculate the length of the 
+hypotenuse.
+
+In a right triangle with sides a and b and hyp. c, we know that
+
+c^2 = a^2 + b^2.
+
+If we know a or b, we cannot solve this equation for the other two.  There are infinitely 
+many possibilities.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

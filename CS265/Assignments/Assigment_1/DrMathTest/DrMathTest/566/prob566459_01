@@ -1,0 +1,49 @@
+ThreadNum: 566459
+Subject: Re: what is logarithm of zero?
+To: mnrcc@rediffmail.com (vijay)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 07:23:10
+Sent: yes
+
+
+As vijay wrote to Dr. Math
+On 08/11/2004 at 05:31:35 (Eastern Time),
+>[Question]
+>log(0) defined are not defined?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Vijay,
+
+If 
+
+   a
+  b  = c
+
+then 
+
+  log (c) = a
+     b
+
+So if 
+  
+  log (0) = a
+     b
+
+then 
+
+   a
+  b  = 0
+
+but there's no way to raise a number to any power and end up with
+zero.  So log(0) is undefined. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

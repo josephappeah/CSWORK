@@ -1,0 +1,38 @@
+ThreadNum: 568467
+Subject: Re: pre-algebra problem with a fraction that contains a variable
+To: sudykas@cox.net (stephen)
+From: Doctor Rick
+TimeStamp: 08/24/2004 at 17:04:48
+Sent: yes
+
+Hi, Stephen.
+
+As stephen wrote to Dr. Math
+On 08/24/2004 at 14:11:33 (Eastern Time),
+>[Question]
+>5(3-c/7)= 8
+>
+>[Difficulty]
+>how do I multiply the 5 and the c/7 and then reduce it?
+>
+>[Thoughts]
+>15-5c/35=8  or 15-5c/7=8  or what?
+
+Do what you would do if there were a number there in place of the c; 
+after all, the c does stand for some number. Expand using the 
+distributive property:
+
+  5(3 - 2/7) = 5*3 - 5*2/7
+             = 15 - 10/7
+
+When the c is there, you can't do that last multiplication, but you 
+can rearrange factors in the last term to make it neater:
+
+  5(3 - c/7) = 5*3 - 5*c/7
+             = 15 - (5/7)c
+
+Your second thought is correct.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

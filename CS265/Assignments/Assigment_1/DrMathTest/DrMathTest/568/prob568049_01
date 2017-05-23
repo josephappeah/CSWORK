@@ -1,0 +1,44 @@
+ThreadNum: 568049
+Subject: Re: roots of an equation
+To: vinodramki@gmail.com (Vinod)
+From: Doctor Greenie
+TimeStamp: 08/21/2004 at 22:37:39
+Sent: yes
+
+
+As Vinod wrote to Dr. Math
+On 08/21/2004 at 20:19:07 (Eastern Time),
+>[Question]
+>how many real roots does the equation x^5+10x+10=0 have?
+>
+>[Difficulty]
+>I don't know how to start. Does this use the b^2-4ac formula? I'm 
+>supposed to usd calculus to answer this question.
+>
+>[Thoughts]
+>
+Hello, Vinod --
+
+You are given
+
+  f(x) = x^5+10x+10
+
+The derivative of the function is
+
+  f'(x) = 5x^4+10
+
+For all real x, x^4 is 0 or positive, so this derivative is always 
+positive.  That means the graph is always rising; this in turn means 
+the function has exactly one real root.
+
+You can also find this result using Descartes' rule of signs.  There 
+are no changes of sign in f(x), so there are no positive real roots; 
+and there is only one change of sign in f(-x), so there is exactly 
+one negative real root.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

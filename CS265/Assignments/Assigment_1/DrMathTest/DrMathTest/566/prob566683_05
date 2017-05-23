@@ -1,0 +1,77 @@
+ThreadNum: 566683
+Subject: Re: I'm in need of an easy way to teach Integers/Algebra
+To: LessTJake182@optonline.net (John)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 13:03:28
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/13/2004 at 09:48:38 (Eastern Time),
+>Well I know she knows how to add and subtract and do basic 
+>arithmetic but how do I know that she's ready for integers?  Like 
+>how do you make the transition?  
+
+Hi John,
+
+The issue isn't whether she can _do_ basic arithmetic.  It's whether
+she can _explain_ basic arithmetic.  For example, maybe she can solve
+a problem like
+
+  412
+ - 86
+ ----
+  326
+
+by blindly following the algorithm she's been given.  But when she
+gets done, does she understand the relationship among all these
+numbers?  In particular, does she understand that 326 is the number
+she would have to _add_ to 86 to get 412?   
+
+If she does, then she can understand that 
+
+  412 - 86 = 326
+
+is the same thing as
+
+  412 = 86 + 326
+
+And if she can understand that, then she can understand that
+
+  -7 - 3 = ?
+
+is the same thing as 
+
+  -7 = 3 + ?
+
+That is, the result of the operation
+
+  -7 - 3
+
+is whatever I would have to add to 3 to get to -7.  And what would
+that be?  If I add -3, I get down to zero:
+
+  -7 = 3 + (-3 + ?)
+
+And to get from zero to anything, I just add the thing:
+
+  -7 = 3 + (-3 + -7)
+
+     = 3 + -10
+
+There are two things to keep in mind about all this.  The first is
+that it's much better for her to work through a slow, tedious, even
+silly-looking procedure (like the one I just used) that she
+understands, than for her to try to follow a 'better' procedure that
+she doesn't understand.  
+
+The second is that the way you can tell if she understands arithmetic
+isn't to give her problems and see if she can work them, but to see if
+she can _explain_ to you what she's doing as she works them, and why.
+ If she's just able to say what steps she's doing (e.g., "And next, I
+make the 4 smaller and borrow a 1 to put over the 1"), but not why
+they work, then she's not ready to move on. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

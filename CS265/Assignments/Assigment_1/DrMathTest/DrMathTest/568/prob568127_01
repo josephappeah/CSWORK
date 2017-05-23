@@ -1,0 +1,44 @@
+ThreadNum: 568127
+Subject: Re: what do you do first when you have to intersect &union sets
+To: mars210@aol.com (tc)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 14:11:34
+Sent: yes
+
+
+As tc wrote to Dr. Math
+On 08/22/2004 at 16:48:50 (Eastern Time),
+>[Question]
+>for ex:
+>(x U y)n z 
+>what do you do first?
+> x n z then U y   or do you do it the way its laid out 
+>(x U y) then n with set z 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi TC,
+
+You can do it in the indicated order, 
+
+  Find union(x,y) and then find the intersection of that with z.
+
+Or you could transform the expression to an equivalent one:
+
+  (x U y) ^ z = (x ^ z) U (x ^ y)
+
+and then do the intersections first.  In practice, you do it whichever
+way turns out to be easiest.  
+
+For example, if it's clear that (x ^ z) and (y ^ z) are going to be
+empty, there's no point constructing the union. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

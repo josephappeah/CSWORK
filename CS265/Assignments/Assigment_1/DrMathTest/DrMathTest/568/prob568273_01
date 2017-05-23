@@ -1,0 +1,87 @@
+ThreadNum: 568273
+Subject: Re: Figuring the number of triangles in a figure 
+To: monge25@earthlink.net (Linda)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 18:50:13
+Sent: yes
+
+
+As Linda wrote to Dr. Math
+On 08/23/2004 at 16:47:14 (Eastern Time),
+>[Question]
+>Given one triangle, there is exactly one triangle that can be 
+seen;  
+>given a triangle that is made up of 5 equilateral triangles, there 
+>are 5 triangles that can be seen;  Given a triangle that is made up 
+>of 9 equilateral triangles, there are 13 triangles that can be 
+>seen...what is the pattern to all of this?
+
+You should draw out a reasonable number of diagrams so that you can 
+see 
+what patterns develop.
+
+Let n = number of rows of little triangles
+
+If you draw the figure for n=1 to 6, i.e. up to six little triangles 
+along an edge of the large triangle it soon becomes apparent that 
+for triangles the right way up (point at 
+the top), the total number of triangles is given by the sum
+
+ 1 + 3 + 6 + 10 + 15 + 21 +..... + n(n+1)/2
+
+Then for the upside down triangles the series goes differently 
+depending on whether n is odd or even.
+
+If n is even the series is
+
+  1 + 6 + 15 + 28 + .....+ k(2k-1)   for k=1 to k=n/2
+
+If n is odd the series is
+
+  3 + 10 + 21 + 36 + ... + k(2k+1)  for k=1 to k=(n-1)/2
+
+You will notice that these two series are obtained from the series 
+at the top by taking alternate terms.
+
+So the complete results are
+
+Number of triangles with n even
+
+  SUM(r=1 to n)[r(r+1)/2]  +  SUM(r=1 to n/2)[r(2r-1)]
+
+Number of triangles when n is odd
+
+  SUM(r=1 to n)[r(r+1)/2]  +  SUM(r=1 to (n-1)/2)[r(2r+1)]
+
+If we carry out the summations we get the following formulae
+
+When n is even:
+
+Total number of triangles  = n(n+2)(2n+1)/8
+
+When n is odd:
+
+Total number of triangles is = (n+1)(2n^2+3n-1)/8
+
+For example with n=3 (3 rows of little triangles)
+
+ Total number of triangles = (n+1)(2n^2+3n-1)/8
+
+                           = 4 x (18 + 9 - 1)/8
+
+                           = 4 x 26/8
+
+                           =  13  (correct)
+
+With n=2 (2 rows of little triangles)
+
+  Total number of triangles = n(n+2)(2n+1)/8
+
+                            = 2 x 4 x 5/8
+
+                            =  5   (correct)
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

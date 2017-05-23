@@ -1,0 +1,65 @@
+ThreadNum: 568386
+Subject: Re: Story problem dealing with ratios
+To: nkrebs@moseslake-wa.com (Richard)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 08:41:46
+Sent: yes
+
+
+As Richard wrote to Dr. Math
+On 08/23/2004 at 23:27:20 (Eastern Time),
+>[Question]
+>On a straight road, an inspecting officer traveled from the rear to 
+>the front of an army column, and back, while the column marched 
+>forward its own length.  If the officer and the column maintained 
+>steady (but different) speeds, what was the ratio of their speeds, 
+>faster to slower?
+>
+>[Difficulty]
+>At least two things.  (1) the answer given is (1 + sq.rt of 2):1
+>which seems to imply you will be using the Pathagorean Theorem, and 
+>(2) on the return trip how would you account for the officer and 
+>column going in the opposite directions?  It seems like the 
+>officer's speed would increase by the speed of the column.
+>
+>[Thoughts]
+>D = RT but on the return trip it appears that you would have to add 
+>the speed of the column to the officer's speed.  I don't know how 
+>you would set up a mathmatical equation that gives  a ratio 
+>comparing the officer's rate to the column's rate.  I'm at my wits 
+>end on this problem and desparately need your help! 
+
+Hello Richard,
+
+I presume the officer will walk faster, say at f m/s and the column will march at c m/s.
+
+Let L be the length of the column.  The time required for the column to march its own 
+length is L/c.  In this time the officer must complete his walk, back and forth. The officer's 
+speed relative to the column when he's walking in the opposite direction will be f+c.  So, 
+the time is L/(f+c).  When he's walking in the same direction his speed will be f-c and the 
+time will be L/(f-c).  So,
+
+L/c = L/(f+c) + L/(f-c)
+
+We want f/c
+
+Cancel the L,
+
+1/c = 1/(f+c) + 1/(f-c)
+
+"Clear fractions"
+
+(f+c)(f-c) = c(f-c) + c(f+c)
+
+f^2 - c^2 = c*f - c^2 + c*f + c^2
+
+remove -c^2 from both sides and then divide both sides by c^2:
+
+f^2/c^2 = 2f/c +1
+
+You can solve this quadratic in f/c.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

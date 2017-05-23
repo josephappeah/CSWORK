@@ -1,0 +1,101 @@
+ThreadNum: 566936
+Subject: Re: finding equal parts of an unequal area
+To: bcrawford@globalco.net (Brenda)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 21:46:10
+Sent: yes
+
+
+As Brenda wrote to Dr. Math
+On 08/14/2004 at 17:17:36 (Eastern Time),
+>[Question]
+>I have a problem that I'm not sure what formula to use.  I have an 
+>area that is 60 feet long and 4 foot wide on one end and 2 foot 
+wide 
+>on the other.  What formula do I use to devide this area into 2 
+equal 
+>parts with only one lind down the middle?   
+>
+>[Difficulty]
+>I just do not know what formula to use.  
+>
+>[Thoughts]
+>
+Hi, Brenda --
+
+This is an easy problem if you draw the line down the middle 
+lengthwise -- but I assume that is not what you want to do.  And 
+determining where to draw the line to divide the area in two the 
+other way is not an easy problem.
+
+We have to make some assumptions about the problem.  I assume the 4-
+foot and 2-foot ends are parallel and that you want to draw a line 
+parallel to those two ends to divide the area into two equal parts.
+
+Here is a very crude picture -- not to scale -- of what I think we 
+are trying to do:
+
+                G
+  D ************************ C
+     *          *         *
+      *         * P      *
+     E ****************** F
+        *       *      *
+         *      *     *
+          *     *    *
+           *    *   *
+          A ******** B
+                H
+
+We have AB = 2 feet and CD = 4 feet; and GH is 60 feet.  We want to 
+find where to draw EF so that it divides the area of trapezoid ABCD 
+into two equal parts.  So we want to find where to place line EF so 
+that ABFE and CDEF have the same area.  One relatively easy way to 
+think of this is that ABFE has to have half the area of ABCD.
+
+The formula for the area of a trapezoid is
+
+  Area = (average of the two bases) times (height)
+
+The original trapezoid has bases 4 and 2 feet and height 60 feet; 
+this gives an area of 180 square feet.  So we need to find where to 
+place EF so that ABFE has an area of 90 square feet.
+
+Suppose we call the length of HP "x".  The ratio of HP to HG is then 
+x/60.  Assuming the sides BC and AD are straight lines, the length 
+of EF is then equal to the length of AB plus x/60 of the difference 
+between the lengths of AB and CD.
+
+We now have expressions for the lengths of the two bases and the 
+height of ABFE, so we can find an expression for its area.  Setting 
+that expression equal to the desired value of 90 and solving will 
+give us the solution to the problem.  We have, for ABFE,
+
+  base AB = 2
+
+  base FE = 2 + (x/60)*(4-2) = 2 + x/30
+
+  height = x
+
+  Area = ((4 + x/30)/2)*x
+
+So we need to solve the equation
+
+  ((4 + x/30)/2)*x = 90
+
+The algebra doesn't work out very "nicely"; my graphing calculator 
+shows the answer to be
+
+  x = 34.86833  (approximately)
+
+Plugging this value back into the formula above for the area of ABFE 
+does indeed give the area of ABFE as 90 square feet.
+
+I hope you can follow all of this, and that it help....
+
+Please write back if you have any further questions about any of 
+this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

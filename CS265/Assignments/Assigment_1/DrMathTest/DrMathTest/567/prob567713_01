@@ -1,0 +1,43 @@
+ThreadNum: 567713
+Subject: Re: Number of ways to arrange two letters in a five letter word
+To: carpediem_zak@yahoo.com (Zak)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 16:52:31
+Sent: yes
+
+
+As Zak wrote to Dr. Math
+On 08/19/2004 at 14:33:08 (Eastern Time),
+>[Question]
+>I have to put a three letter word in a five letter place holder. 
+For 
+>instance, _ _ CAT , C_AT_ , etc.
+>
+>In the blank spaces, I can insert any character I want. The only 
+>thing is that the ordering of the other three letters should not be 
+>disturbed. Let's assume that I have 2 options for characters to 
+>insert in the empty places. what would be maximum number of ways in 
+>which i could order the word ?
+
+
+You can treat this as a 5 letter word with 3 letters the same.  That 
+is because we keep the 3 letters C, A, T in the same order and so 5! 
+would be too large by a factor of 3! just as it would be if the 3 
+were all the same letter.
+
+                             5!
+  Number of arrangements =  ----  = 20
+                             3!
+
+
+>
+>[Difficulty]
+>i don't know how to keep the ordering information intact.
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,51 @@
+ThreadNum: 566254
+Subject: Re: Calculus-formal (Cauchy) definition of a limit 
+To: justfudgeit87@yahoo.com (C.J. )
+From: Doctor Fenton
+TimeStamp: 08/10/2004 at 05:56:11
+Sent: yes
+
+
+As C.J.  wrote to Dr. Math
+On 08/10/2004 at 01:20:44 (Eastern Time),
+>[Question]
+>Various sources, including my textbook (by Larson, Hostetler, and 
+>Edwards) says that sigma depends on epsilon.  I thought it should be 
+>the other way around, since it seems like I should "set" my sigma 
+>first, which is on the x axis, the axis w/independent variables.  Why 
+>does sigma depend on the epsilon value?  And also, why does the text 
+>keep talking about how epsilon and sigma both have to be greater than 
+>zero?    
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi C.J.,
+
+I think the following answers from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/53403.html
+  http://mathforum.org/library/drmath/view/51933.html
+
+I found them by searching on these keywords:
+
+  epsilon delta  (all keywords)
+
+(the symbol you call sigma is actually the Greek letter delta,
+in the most common notation for limits, and formal arguments are
+called epsilon delta proofs)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

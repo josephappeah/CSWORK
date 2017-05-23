@@ -1,0 +1,44 @@
+ThreadNum: 568713
+Subject: Re: 5th degree equations
+To: lindaeirin@yahoo.no (linda)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 09:58:26
+Sent: yes
+
+
+As linda wrote to Dr. Math
+On 08/25/2004 at 15:05:27 (Eastern Time),
+>[Question]
+>Is there a formula for solving 5th degree equations?
+>Does it involve pascal's triangle?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Linda,
+
+Thanks for writing to Dr Math.  If you mean a formula like the
+quadratic formula, involving square roots or other roots (also known
+as "radicals"), that gives you one or all of the solutions to any
+polynomial of degree 5, then the answer to your question is no.  In
+fact, there are such formulas for 3rd degree and 4th degree
+polynomials, though they are very complicated, as described here:
+
+  Cubic and quartic equations
+  http://mathforum.org/dr.math/faq/faq.cubic.equations.html
+
+But it has been proven that there are 5th degree polynomials (not all
+of them, but most of them, in fact) whose solutions CANNOT be written
+exactly using only integers, addition, subtraction, multiplication,
+division, and taking radicals.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 566941
+Subject: Re: (no subject)
+To: jatwinz01@yahoo.com (michelle)
+From: Doctor Douglas
+TimeStamp: 08/15/2004 at 18:25:42
+Sent: yes
+
+
+As michelle wrote to Dr. Math
+On 08/14/2004 at 17:46:53 (Eastern Time),
+>[Question]
+>does square feet convert into inches?
+>
+>[Difficulty]
+>im confused 
+>
+>[Thoughts]
+>
+
+Hi Michelle.
+
+thanks for writing to the Math Forum.
+
+A square foot is a unit of area, and so is a SQUARE inch:
+
+   1 sq ft = 1 ft x 1 ft = (12 inch) x (12 inch) = 144 sq inch
+
+But to convert a square foot (area) to an inch (length) doesn't make
+sense, unless you have some other specified reference length (such 
+as the width of a carpet roll, say 8 ft):
+
+  10 sq ft = (8 ft) x (? inch)
+  
+  answer:  ? = 10 sq ft / (8 ft)
+             = 1.25 ft x ft / ft
+             = 1.25 ft
+             = 1.25 ft x [12 inch/ft]         conversion factor
+             = 15 inch
+
+I hope this helps.  
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

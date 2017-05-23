@@ -1,0 +1,61 @@
+ThreadNum: 568987
+Subject: Re: max/min values from a differential equation
+To: stokebob@hotmail.com (Bob)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 17:30:09
+Sent: yes
+
+
+As Bob wrote to Dr. Math
+On 08/26/2004 at 17:26:28 (Eastern Time),
+>[Question]
+>Hi,
+>
+>My problem is this, I’m trying to get a max/min value out of this 
+>differential equation
+>
+>dv/dt = [cos(è) + 1 / q.cos(2è)]
+>
+>I’ve set dv/dt to 0, hence
+>
+>0 = [cos(è) + 1 / q.cos(2è)]
+>
+>q is a know value of 3.2 and so I’ve simplified the equation to….
+>
+>-0.3125 = cosè . cos2è
+>
+>Hopefully I’ve got this much right.
+>
+>My problem is, how do I find è from the last equation? It looks 
+>pretty simple but I just can’t figure it out!!
+>
+>Any help you could offer me would be much appreciated. Thanks in 
+>advance.
+>
+>Bob
+>
+>[Difficulty]
+>I can't find a way of joining/simplifing the two cos element of the 
+>equation. Experimented with loads of different ways but can't get my 
+>ideas to add up.
+>
+>[Thoughts]
+>There must be a rule on how to deal with the two cos elements but i 
+>can't find it or figure it out. Keep hitting dead ends.
+
+Hi Bob,
+
+Thanks for writing to Dr Math.  Use the cosine double-angle formula to
+write that as a polynomial in z=cosè, and then solve the polynomial
+using your favorite technique (such as Newton's Method).
+
+  Formulas: Trigonometry
+  http://mathforum.org/dr.math/faq/formulas/faq.trig.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

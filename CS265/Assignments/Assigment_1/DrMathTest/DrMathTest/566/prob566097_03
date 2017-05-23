@@ -1,0 +1,103 @@
+ThreadNum: 566097
+Subject: Re: I 'm having trouble with  algebra problems 
+To: rene_latina13@cmaaccess.com (Nae)
+From: Doctor Rick
+TimeStamp: 08/09/2004 at 17:40:57
+Sent: yes
+
+Hi, Nae, thanks for writing back.
+
+As Nae wrote to Dr. Math
+On 08/09/2004 at 14:41:37 (Eastern Time),
+>I now understand what to do but I still need a little help. 
+>When multipling and adding how are you suppose to work them how they 
+>seem different and i dont know how to do them.
+> 3y+2=-16 also subtracting is it different then the adding problems 
+>because the only problems i know how to do are the addition.I don't 
+>get these : -10y-9=61 or -9-y=-11
+
+The first problems you sent were one-step problems; these are two-
+step problems. Remember how I said that because the left side of one 
+equation, -2+y, was made by adding -2 to y, you had to undo this step 
+by subtracting -2? Well, two-step problems work the same way except 
+that there are two steps to undo! Let's look at the equation
+
+  3y + 2 = -16
+
+The left side is made from the variable, y, in two steps (following 
+the order of operations):
+
+(1) Multiply by 3.
+(2) Then add 2.
+
+To undo these two steps, you undo each in REVERSE ORDER:
+
+(2) Subtract 2 (this undoes the "add 2" step).
+(1) Divide by 3 (this undoes the "multiply by 3" step).
+
+Why reverse order? It's no mystery, you do it every day. When you get 
+dressed, you first put on a sock, then a shoe. When you get undressed 
+at the end of the day, first you take off the shoe (undoing the 
+SECOND step), then you take off the sock (undoing the FIRST step).
+
+As before, whatever you do to the left side of the equation, you have 
+to do the same thing to the right side. Watch me:
+
+  3y + 2 = -16
+  3y + 2 - 2 = -16 - 2 (undo the addition of 2)
+  3y = -18
+  3y/3 = -18/3 (undo the multiplication by 3)
+  y = -6
+
+That's the answer. As before, you should CHECK your answer:
+
+  3y + 2 = -16
+  3*-6 + 2 = -16
+  -18 + 2 = -16
+  -16 = -16
+
+It works: the equation is true if we let y = -6.
+
+If you have trouble with subtraction, remember that subtraction is 
+just the same as addition of a negative number. For the most part, 
+you will do exactly the same things when you have negative numbers as 
+when all the numbers are positive; you just need to remember how to 
+do operations with negative numbers. Watch me do your second example:
+
+  -10y - 9 = 61 
+  -10y - 9 + 9 = 61 + 9
+  -10y = 70
+  y = 70 / -10
+  y = -7
+
+The only tricky part is dividing 70 by -10, remembering that a 
+positive divided by a negative is negative.
+
+Your last example can be done two ways. One is to think of 
+subtraction of y as addition of -y, and then remember that you can 
+get -y by multiplying y by -1:
+
+  -9 - y = -11
+  -9 + -1*y = -11
+
+Then it's just the same kind of 2-step problem we've been working 
+with; I'll let you finish the work. The other way to do it is a trick 
+to get rid of the negative sign: you can add y to both sides! (You'll 
+use this same trick soon when you have a variable on both sides of 
+the equation, in order to bring them both to the same side.) Watch 
+again:
+
+  -9 - y = -11
+  -9 - y + y = -11 + y
+  -9 = -11 + y
+
+If you subtract any number from -9, then add it back on, you'll get 
+-9 back -- no matter what the number is. That's why I can do this 
+with a variable, as well as a number: we know the variable stands for 
+some number, so we know this will work.
+
+I hope these examples help you in your preparation.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

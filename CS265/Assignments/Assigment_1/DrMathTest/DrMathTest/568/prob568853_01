@@ -1,0 +1,70 @@
+ThreadNum: 568853
+Subject: Re: solving algebra equations where exponents are present
+To: dyolf1@earthlink.net (davie)
+From: Doctor Rick
+TimeStamp: 08/26/2004 at 08:48:30
+Sent: yes
+
+Hi, Davie.
+
+As davie wrote to Dr. Math
+On 08/25/2004 at 23:57:23 (Eastern Time),
+>[Question]
+>n2-n=20
+>( n is squared)
+>
+>n3-3=24
+>(n is cubed)
+>
+>[Difficulty]
+>I know the answers from estimating.However, I do not know how to 
+>solve for n. Please expaing how to solve the equation.
+>
+>[Thoughts]
+>
+
+Your first equation is a quadratic equation. The standard form is
+
+  n^2 - n - 20 = 0
+
+(We write n^2 for n to the 2nd power.) The quickest solution method 
+is to use the quadratic formula. With the equation in standard form
+
+  ax^2 + bx + c = 0
+
+we identify the coefficients
+
+  a = 1
+  b = -1
+  c = -20
+
+then plug them into the formula
+
+  x = (-b +or- sqrt(b^2 - 4*a*c))/(2a)
+
+  n = (-(-1) +or- sqrt((-1)^2 - 4*1*-20))/(2*1)
+    = (1 +or- sqrt(1+80))/2
+    = (1 +or- 9)/2
+    = (1+9)/2 or (1-9)/2
+    = 5 or -4
+
+Try those solutions in the original equation and you'll find that 
+they work.
+
+If the equation has powers other than 1 (the variable itself) and 2 
+(the variable squared), the problem *may* be much harder. The Doctor 
+Math FAQ has a section on solving cubic and quartic equations 
+(equations where the highest power is 3 and 4 respectively). Your 
+example, however, is easy, because n^3 is the *only* power. We can 
+write
+
+  n^3 - 3 = 24
+  n^3 = 27
+  n = cube root of 27
+
+A scientific calculator can give you the cube root, but in this case 
+the solution is an integer so it's easy to find.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

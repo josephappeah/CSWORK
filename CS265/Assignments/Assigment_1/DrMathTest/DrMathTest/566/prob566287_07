@@ -1,0 +1,46 @@
+ThreadNum: 566287
+Subject: Re: fractions with different denominators
+To: ducttapeman531@comcast.net (steve)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 20:48:03
+Sent: yes
+
+Hi, Steve.
+
+As steve wrote to Dr. Math
+On 08/11/2004 at 15:41:25 (Eastern Time),
+>Doctor Peterson,
+>   I found that the least common denominator of my problem is (x-3)
+(x-
+>3)(x+1) or x^3-5x^2+3x+9.  I then added the numerator and got x^2-
+14x-
+>15.
+>
+>My answer:   x^3-5x^2+3x+9
+>             -------------
+>              x^2-14x-15
+>
+>Is this the correct answer?  Are either of them right?
+
+You've done this:
+
+       2x          1           8
+  ------------ - ----- - ------------ =
+  x^2 - 6x + 9   x + 1   x^2 - 2x - 3
+
+      2x        1           8
+  --------- - ----- - -------------- =
+  (x - 3)^2   x + 1   (x - 3)(x + 1)
+
+  2x(x + 1) - (x - 3)^2 - 8(x - 3)
+  --------------------------------
+         (x - 3)^2(x + 1)
+
+At least I think you did that -- your answer seems to be inverted, 
+with the cubic on top rather than on the bottom. I haven't checked 
+your work from here; am I right about what you did?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

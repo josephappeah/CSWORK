@@ -1,0 +1,53 @@
+ThreadNum: 567909
+Subject: Re: Reading inequality
+To: Ronald.Moore@csfb.com (Ron)
+From: Doctor Vogler
+TimeStamp: 08/20/2004 at 16:14:20
+Sent: yes
+
+
+As Ron wrote to Dr. Math
+On 08/20/2004 at 15:05:16 (Eastern Time),
+>[Question]
+>I'm having trouble reading equations/inequaltiies of this form
+>
+>0 < |x-3| < a = e/2
+>
+>Does this mean that the whole expression
+>
+>(0 < |x-3| < a) is = e/2 
+>
+>    or a =  e/2.
+>
+>I'm confused.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Ron,
+
+Thanks for writing to Dr Math.  No, the expression you put in
+parentheses is either true or false, and it cannot equal a number like
+e/2.  Rather, the first statement,
+
+  0 < |x-3| < a = e/2
+
+is really three different statements:
+
+  0 < |x-3|,
+  |x-3| < a, and
+  a = e/2.
+
+So it means that zero is less than the absolute value of x-3, which is
+less than a, which equals e/2.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

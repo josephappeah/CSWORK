@@ -1,0 +1,67 @@
+ThreadNum: 566053
+Subject: Re: Combinatorics - Occupancy problems
+To: rmbeekman@msn.com (Rich)
+From: Doctor Anthony
+TimeStamp: 08/08/2004 at 18:40:16
+Sent: yes
+
+
+As Rich wrote to Dr. Math
+On 08/08/2004 at 17:04:08 (Eastern Time),
+>[Question]
+>If I have 3 red marbles, 4 white marbles, and 5 blue marbles, in 
+how 
+>many different ways can I distribute the marbles into, say, 4 
+>indistinguishable boxes?
+
+We find the partitions of each of the colours separately into at 
+most 4 parts.
+
+The number of partitions of 3 is the coefficient of x^3 in the 
+expansion of
+
+             1
+    -------------------
+    (1-x)(1-x^2)(1-x^3) 
+
+The first few terms are
+
+   1 + x + 2x^2 + 3x^3 + 4x^4 +  ......
+
+And we can see that there are 3 partitions of 3, namely
+
+    3,   2,1,   1,1,1  =  3 in number
+
+Similarly the partitions of 4 into at most 4 parts is the 
+coefficient of x^4 in the expansion of
+
+             1
+   -------------------------
+  (1-x)(1-x^2)(1-x^3)(1-x^4)
+
+  1 + x + 2x^2 + 3x^3 + 5x^4 + 6x^5 + ....
+
+And we see that there are 5 partitions of 4 into at most 4 parts.
+
+These are   4,  3,1,  2,2,  2,1,1,   1,1,1,1  = 5 in number
+
+We can use the above expansion for the partitions of 5 into at most 
+4 parts.  It is the coefficient of x^5 in that expansion, and we see 
+that there are 6 such partitions into AT MOST 4 parts, so we exclude 
+1,1,1,1.1.   The acceptable partitions are:
+
+   5,  4,1,  3,2,  3,1,1   2,2,1,   2,1,1,1, =  6 in number
+
+So we have partitions of 3 into at most 4 parts =  3
+               "         4          "   4   "   =  5
+               "         5          "   4   "   =  6
+
+So the total ways of distributing 3 red, 4 white and 5 blue marbles 
+into 4 indistinguishable boxes (with empty boxes allowed) is
+
+          3 x 5 x 6  =  90
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

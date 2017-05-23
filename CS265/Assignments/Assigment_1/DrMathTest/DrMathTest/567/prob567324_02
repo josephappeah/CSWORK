@@ -1,0 +1,35 @@
+ThreadNum: 567324
+Subject: Re: Finding out the sum of each row and column in this square
+To: jellybeen3793@aol.com (Jelly)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 20:16:19
+Sent: yes
+
+Hi, Jelly.
+
+As Jelly wrote to Dr. Math
+On 08/17/2004 at 16:50:45 (Eastern Time),
+>[Question]
+>Pictured on the paper is a large square with 2 colomns and rows in 
+>it. The sum of each row row and colomn  is 12. Using the digits 
+>1,2,3,4,5,6,7, and 8 (one each), find the proper location of each.   
+>
+>[Difficulty]
+>The entire problem
+>
+>[Thoughts]
+>I have none it is to hard
+
+It looks impossible to me! Maybe I'm not understanding the problem. 
+Did you mean that there are two columns and TWO rows in the square? 
+Then you have to write four numbers using the 8 digits. Since the 
+sums are all 12, no number can have more than 2 digits, so each 
+number must have exactly 2 digits. But using the digits once each, 
+you can't make ANY 2-digit number that is less than 12, so it is 
+impossible to get even one row or column to add up to 12.
+
+What am I misunderstanding? Can you try explaining the puzzle again?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

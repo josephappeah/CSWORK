@@ -1,0 +1,66 @@
+1. add() will add a new prefix to the suffix able and update the prefixwhile addSuffix(0 adds the new suffix to the hash table 
+  
+2. the lookup() searches for a prrefix and creates one if the argument create is 1. It then returns a pointer to the present prefix or NULL if it doesn't exist 
+  
+3. 
+(null) (null) | It's
+(null) It's   | a
+It's   a      | new
+a      new    | dawn
+new    dawn   | (null)
+
+a. 3
+b. 3
+c. 3
+d. 2
+  
+4. It gives the programmer complete control over the implementation and saves memory and copying time 
+  
+5. the programmer has to do  a lot more work such as allocat and reclaiming memory and creasting hash tables,etc. 
+  
+6. 
+  
+  void clean() 
+  {
+     int i=0 
+     state *sp = NULL 
+     state *tmp = NULL
+  
+     for( i = 0; i<NHASH; I++) 
+     { 
+        for(sp = statetab[i]; !=NULL; sp = temp) 
+        { 
+           temp = sp-next; 
+           printf(freed %s and %s\n, sp-pref[1]);
+           free(sp); 
+        } 
+  
+     } 
+  } 
+  
+7. Yes it does. I put in a debug statement which tells us what states it frees. It was dificult to delete items from the list 
+  
+8. we free each string exactly once becuase once it has been freed, the memory is no longer in the programs stack 
+if we try to free it again, it would return an error. for this not to happen to need to check allocated memory 
+  
+9. prefixes are stored in a deque this allows us to pop and add elements. Both in 0(1) time. 
+  
+10. A Map 
+  
+11. They are soted as a ventor of suffixes 
+  
+12. the C++ has various built in datatypes. We do not have to create a has table line in C which means less work needs to be done. 
+
+13. Since we use STL we have less control in C. 
+  
+14. prefixes are stored as tuples 
+  
+15. Dictionary is used to create the hash table. 
+  
+16. suffixes are stored in a list 
+  
+17. data structure is easier to understand 
+  
+18. it's interpreted slower. 
+[-1 its slower] 
+  

@@ -1,0 +1,59 @@
+ThreadNum: 567503
+Subject: Re: Altitude & horizontal component of Oblique Triangles
+To: JWinkowski@porter-ath.com (John)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 16:12:22
+Sent: yes
+
+Hi, John.
+
+As John wrote to Dr. Math
+On 08/18/2004 at 15:00:49 (Eastern Time),
+>[Question]
+>How can I find the Altitude of B to C (of an Oblique triangle)
+>           AND/OR
+>Find the Horizontal Component from B to C(of an Oblique triangle)
+>
+>
+>The Oblique Triangle (A,B,C)that has the following info:
+>
+>Angle A = 15°
+>Angle B = 104°
+>Side B  = 8
+>
+>
+>
+>[Difficulty]
+>I looked at your site and did not find the answere for the known 
+>components of: two angles and ONE side.  All I would like is the 
+>formula for this (if there is one).  I can do the rest by myself.
+>
+>Thanks for your help!
+>
+>[Thoughts]
+>
+
+First of all, if you know two angles of a triangle, you can find the 
+third: C = 180 - 15 - 104 = 51 degrees.
+
+If your side b is opposite angle B (the usual way we label these 
+triangles, but using small letters for the sides), you can use the 
+Law of Sines to find a missing side -- for instance, side a (opposite 
+angle A):
+
+  a/sin(A) = b/sin(B)
+
+  a = b*sin(A)/sin(B)
+
+Once you have side a as well as angle C, you can find the altitude 
+from B to AC (vertical component of side a):
+
+  v = a*sin(C)
+
+and the component of side a parallel to side b:
+
+  h = a*cos(C)
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

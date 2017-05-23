@@ -1,0 +1,64 @@
+ThreadNum: 567229
+Subject: Re: Rolling the die and probability
+To: huntt156@cs.com (Taylee McKell)
+From: Doctor Anthony
+TimeStamp: 08/17/2004 at 12:18:13
+Sent: yes
+
+
+As Taylee McKell wrote to Dr. Math
+On 08/17/2004 at 11:56:48 (Eastern Time),
+>Thank you for responding so quickly. I agree that the bacj of the 
+book
+>is wrong. Can you help me with one more so I can truely 
+understand. "A
+>single die is rolled twice. Find the probability of geting two 
+numbers
+>whose sum is less than 5"
+
+The possibilities are
+
+             1 + 1, 2, 3   =  3 ways
+             2 + 1, 2      =  2 ways
+             3 + 1         =  1 way
+                          ------------
+                     Total =  6 ways
+
+    Probability = 6/36  = 1/6
+
+Note that in this and the first question we have not considered the 
+probability of a total of EXACTLY 5.
+
+If you want that probability we have
+
+          1 + 4
+          2 + 3      = total of 4 ways
+          3 + 2
+          4 + 1
+
+So probability of a total of exactly 5 is  4/36 = 1/9
+
+>
+>And "A fair coin is tossed 6 times in succession. Find the 
+probability
+>of getting as least 4 heads"
+>Using the n!/(n-r)!r!
+
+   You can have 4, 5 or 6 heads
+
+     P(4) =  C(6,4) x (1/2)^ x (1/2)^2  = C(6,4) x (1/2)^6
+     P(5) =                             = C(6,5) x (1/2)^6
+     P(6)                               = C(6,6) x (1/2)^6
+                                  ---------------------------
+                Total = (1/2)^6.[C(6,4) + C(6,5) + C(6,6)]
+
+                      =  (1/64).[15 + 6 + 1]
+
+                      =  22/64
+
+                      =  11/32
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

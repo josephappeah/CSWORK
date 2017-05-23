@@ -1,0 +1,53 @@
+ThreadNum: 566329
+Subject: Re: Large Exponent Evaluations
+To: qeoleglifts@hotmail.com (Daniel)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 14:44:58
+Sent: yes
+
+
+As Daniel wrote to Dr. Math
+On 08/10/2004 at 13:55:55 (Eastern Time),
+>[Question]
+>If written out completely, how many digits would the number 1999^2000
+>have?  What would the first three digits be?
+>
+>[Difficulty]
+>Im not sure how to approach this problem correctly and efficiently.
+>
+>[Thoughts]
+>I tried the binary method, converting the exponent into binary and
+>assiging "x^2" or "x" to each 0 and 1, respectively.  This approach is
+>not efficient as you have to calculate the whole number, which has
+>many digits.  I searched for exponential patterns but could not find
+>one that remains consistant. 
+
+Hi Daniel,
+
+Thanks for writing to Dr Math.  You should use logarithms to answer
+this question:  The logarithm to base b (think b=10, which is called
+the "common logarithm" and written on your calculator as "log") will
+tell you how many digits a number has.  (Round down to the nearest
+integer, then add one.)  To get the highest digits, take the
+fractional part of your logarithm, and then take the "antilogarithm,"
+which is 10 raised to the fraction.
+
+For example, 12345678 gives
+
+  log 12345678 = 7.0915149455092...
+
+and you'll notice that it has 8 digits, and
+
+  10^(0.0915149455092) = 1.2345678000...
+
+Finally, remember the number one rule for logarithms:
+
+  log (a^b) = b*(log a).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

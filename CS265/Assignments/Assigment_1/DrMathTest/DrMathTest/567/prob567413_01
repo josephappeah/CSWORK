@@ -1,0 +1,40 @@
+ThreadNum: 567413
+Subject: Re: Pysics
+To: lori.ross@baker.edu (Lori)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 15:05:54
+Sent: yes
+
+
+>[Question]
+>I am teaching out of Giancoli's book for the first time. It says 
+>that 85.10 +,- .01.   To calculate percent uncertainty,the text 
+>says, would be .01/85.10 x 100%, or .01%. 
+>
+>[Difficulty]
+>they do not state what the 85.10 was rounded from nor do they give 
+>contextual examples.
+>
+>[Thoughts]
+>To me means it was rounded from 85.09 or 85.11. 
+>
+>Normal rounding 
+>would be from the midpoint of either 85.104 or 85.095 which would be 
+>approximately +,- .005 with a range of .01.  My way, it would 
+>be .005% for percent uncertainty.  What gives?
+
+Hi Lori,
+
+What gives is that it wasn't rounded. 
+
+If I have a scale, and I put something on it, and the reading is 85.10
+grams, and I know that the scale can be off by 0.01 grams either way,
+then the measurement is just 85.10 +/- 0.01 grams. 
+
+Basically, you're trying to read too much into it. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

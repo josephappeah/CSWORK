@@ -1,0 +1,35 @@
+ThreadNum: 567963
+Subject: Re: stuck in this log problem
+To: nathen147@yahoo.com (patmanat5hen)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 10:59:15
+Sent: yes
+
+
+As patmanat5hen wrote to Dr. Math
+On 08/21/2004 at 10:26:53 (Eastern Time),
+>STILL does not understan
+>dr, can u please show some specific example
+
+Hi Patmanathen,
+
+I gave you the expression for x obtained from
+
+>log base2a a=x  ,
+
+namely
+
+   ln(a)                   ln(a)
+  ------ = x ,  or  x = -----------  .
+  ln(2a)                ln(a)+ln(2)
+
+Can you write
+
+>log base3a 2a=y
+>log base4a 3a=z 
+
+in similar forms, using the change of base formula?
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

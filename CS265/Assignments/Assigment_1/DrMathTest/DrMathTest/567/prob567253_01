@@ -1,0 +1,58 @@
+ThreadNum: 567253
+Subject: Re: 11th grade
+To: elizabethyong2001@yahoo.com (elizabeth)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 10:36:46
+Sent: yes
+
+
+As elizabeth wrote to Dr. Math
+On 08/17/2004 at 03:02:15 (Eastern Time),
+>[Question]
+>if 2^x=7, then 2^2x=
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, Elizabeth --
+
+According to basic laws of exponents, we have
+
+  (a^b)^c = a^(bc)
+
+and
+
+  (a^c)^b = a^(bc)
+
+So whenever you see an exponent which is a product, you can break it 
+down in at least two different ways.  Some example:
+
+  2^12 = (2^3)^4
+  2^12 = (2^6)^2
+  2^12 = (2^4)^3
+
+  3^5x = (3^5)^x
+  3^5x = (3^x)^5
+
+In your problem we are asked to find the value of 2^2x.  We can 
+break this down into either
+
+  2^2x = (2^2)^x
+
+or
+
+  2^2x = (2^x)^2
+
+The first of these doesn't help us; but the second one does, because 
+we are told that 2^x=7:
+
+  2^2x = (2^x)^2 = (7)^2 = 49
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

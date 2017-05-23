@@ -1,0 +1,50 @@
+ThreadNum: 567366
+Subject: Re: Don't have a clue!
+To: cvolkerts@aol.com (Mike)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 20:18:57
+Sent: yes
+
+
+As Mike wrote to Dr. Math
+On 08/17/2004 at 20:06:00 (Eastern Time),
+>[Question]
+>the positive difference between the squares of two consecutive odd 
+>inegers is  128. what is the product of  the two integers?
+>
+>[Difficulty]
+>I'm 53 years old and my grandson ask me what this was.
+>
+>[Thoughts]
+>?????????
+
+Hello Mike,
+
+Let the integers be 2n+1 and 2n+3 .  We are told that
+
+(2n+3)^2-(2n+1)^2 = 128.
+
+You can expand each term, simplify, and solve for n OR you can note that the equation has 
+the form
+
+a^2-b^2,
+
+which is
+
+(a-b)(a+b).  So,
+
+(a-b)(a+b) = [2n+3-(2n+1)][2n+3+(2n+1)] = [2][4n+4] .
+
+So,
+
+2*4(n+1)=128
+
+n+1 = 128/8 = 16
+
+n=15.
+
+Please look over my work.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,60 @@
+ThreadNum: 567921
+Subject: Re: volume...how much a container can hold given the dimensions
+To: neumantj@state.gov (Travis)
+From: Doctor Peterson
+TimeStamp: 08/20/2004 at 17:34:56
+Sent: yes
+
+Hi, Travis.
+
+As Travis wrote to Dr. Math
+On 08/20/2004 at 17:11:02 (Eastern Time),
+>[Question]
+>A glass measures 3 in. by 3 in. by 6 in. tall.  How many ounces of 
+>fluid can it hold?
+>
+>[Difficulty]
+>It has been 7 years since I have been in any math class and cannot 
+>remember the most basic formula to figure out the above question
+>
+>[Thoughts]
+>You would laugh..so I will leave it at that..
+
+A lot of people don't remember formulas. We've put a lot of them
+together into a FAQ:
+
+  Formulas: Geometric
+  http://mathforum.org/dr.math/faq/formulas/
+
+But that may be too dense for you!
+
+There's one essential detail missing from your question: what shape is
+the glass? I can probably assume it is cylindrical; a rectangular
+glass is rare (though that's the case in which you would give the
+dimensions the way you did), and the fact that a real glass is not
+quite cylindrical, but is really a frustum of a cone (see the FAQ!)
+won't make a huge difference.
+
+So the formula we want is
+
+  V = pi r^2 h
+
+which means that the volume of a cylinder is pi (about 3.14) times the
+square of the radius times the height. Our radius is half the
+diameter, or 1.5 inches, and our height is 6 inches, so
+
+  V = 3.14 * 1.5 * 1.5 * 6 = 42.39 cubic inches
+
+Now we have to convert cubic inches to FLUID ounces. (An ounce is a
+weight, which we could only find if we knew what fluid you have.)
+
+For that, you have to look up the definition of fluid ounce; our FAQ
+has a section near the bottom with links that will either convert for
+you, or tell you the definitions of units. I'm going to let you try
+doing that part yourself to get some mental exercise; feel free to
+write back if you need help!
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

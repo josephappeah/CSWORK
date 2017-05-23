@@ -1,0 +1,48 @@
+ThreadNum: 567262
+Subject: Re: rational exponents
+To: marriam_waseem@hotmail.com (MARRIAM WASEEM)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 16:51:44
+Sent: yes
+
+
+As MARRIAM WASEEM wrote to Dr. Math
+On 08/17/2004 at 05:22:22 (Eastern Time),
+>[Question]
+>what are the conditions on which rational exponents are not defined???
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Marriam,
+
+Here's an example:  The square root of -2 is not defined, right? 
+(Unless you get into complex numbers.)
+
+So 
+
+    1/2
+  -2
+
+is not defined; and neither would 
+
+    3/2    5/2    7/2
+  -2   , -2   , -2   
+
+and so on.  
+
+And of course, something like 
+
+   3/0
+  2
+
+isn't defined, because division by zero isn't defined.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

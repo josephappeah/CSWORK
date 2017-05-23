@@ -1,0 +1,56 @@
+ThreadNum: 567328
+Subject: Re: AP Calculus AB (prequistes to)
+To: pochacco221@yahoo.com (Ursula)
+From: Doctor Roy
+TimeStamp: 08/17/2004 at 17:29:07
+Sent: yes
+
+
+As Ursula wrote to Dr. Math
+On 08/17/2004 at 17:24:23 (Eastern Time),
+>[Question]
+>4<(x+3)^2 we're suppose to sketch the intervals defined by the given
+>inequality, in class my teacher went over it and gave the final solution:
+>x^2+6x+9>4
+>X^2+6x+5>0
+>(x+1)(x+5)>0
+>x+1>0 & x+5>0
+>x>-1 & x>-5
+>------------------
+>x+1<0 & x+5<0
+>x<-1 & x<-5
+>
+>He said that the only answers that worked were: x>-1 and x<-5
+>when I got home i couldn't figure out where he got the "6x" come
+>from?! I'd like to know if there was a simple way for me to learn how
+>to factor (a major weakness of mine). 
+>-Thank You
+>
+>
+>
+>[Difficulty]
+>factoring; where "6x" came from
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Use the distributive property:
+
+   (x+3)^2 = (x+3)(x+3)
+           = x(x+3) + 3(x+3)
+           = x^2 + 3x + 3x + 9
+           = x^2 + 6x + 9
+
+Remember, you don't simply square each term. You must square the
+entire expression.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

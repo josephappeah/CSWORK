@@ -1,0 +1,51 @@
+ThreadNum: 567179
+Subject: Re: gaussian distribution
+To: neelesh411@purdue.edu  (neelesh )
+From: Doctor Roy
+TimeStamp: 08/16/2004 at 18:24:10
+Sent: yes
+
+
+As neelesh411@purdue.edu  (neelesh ) wrote to Dr. Math
+On 08/16/2004 at 18:16:13 (Eastern Time),
+>[Question]
+>why do we we normalize variables i.e use z=(x-myu)/sigma in gaussian 
+>distribution? what is the significance of using such a 
+>transformation? 
+>
+>[Difficulty]
+>the advantages of using such a transformation 
+>
+>[Thoughts]
+>i understand that we can then use the gaussian distribution 
+>irrespective of their std deviations? but wont all gaussian 
+>distributions having different deviations end up having the same 
+>shape and form when we transform them to std normal distribution? 
+>whats the use then? 
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+There are a couple benefits to normalizing:
+
+1) Ease of analysis. Once you become familiar with the properties of
+the normal distribution with mean 0 and variance 1, you develop useful
+intuition about the normal distribution itself from this basic form.
+If you have to constantly deal with a non-zero mean and different
+variances, the intuition is harder to achieve.
+
+2) Ease of calculation. The value of the cumulative distribution
+function for a normally distributed r.v. with mean 0 and variance 1
+can be found in a chart in just about any book on probability. So, if
+you normalize, you can find a value of z such that F(z) = 0.95 very
+easily in the text. Although we have computer software and calculators
+which can numerically integrate the function quickly, sometimes a
+chart is easier to use.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

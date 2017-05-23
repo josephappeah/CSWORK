@@ -1,0 +1,53 @@
+ThreadNum: 567015
+Subject: Re: Limits and matrices
+To: av_ace11@hotmail.com (av_ace11)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 08:02:02
+Sent: yes
+
+
+As av_ace11 wrote to Dr. Math
+On 08/16/2004 at 03:42:03 (Eastern Time),
+>For my 2) question it asks me to explicitly describe all possible 
+>2x2 matricces in reduced row echelon form. So what am i required to 
+>do???
+>
+>And as for the third question: 
+>
+>I thnk i have listed all possible 2x3 reduced row ecehlon matrics: 
+>
+>0 1 0    1 0 0    0 1 0    0 0 1    1 a 0    1 0 a         
+>0 0 1    0 0 0    0 0 0    0 0 0    0 0 1    0 1 b
+>
+>no w i think i juss match each of these with each other and prove 
+>that wheneer R doesnt = S that solutionss arent same???
+>
+>but i dun noe how to do this???
+>
+>An exmple would be really helpfuL!!
+>
+>THX!!!
+
+Hi,
+
+>For my 2) question it asks me to explicitly describe all possible 
+>2x2 matricces in reduced row echelon form. So what am i required to 
+>do???
+
+Exactly what you did for part (3), where you have listed all the 
+possible forms for a 2x3 matrix in reduced row echelon form, just
+use a 2x2 matrix instead.
+
+For (3), suppose R is one of the forms listed.  Take the first one,
+for example.  What are the solutions of
+
+  [ 0 1 0 ][ x ]   [ 0 ]
+  [ 0 0 1 ][ y ] = [ 0 ]   ?
+           [ z ]   [ 0 ]
+
+If you have a non-zero solution v of this equation, and it is also 
+a solution of Sv = 0, could S be any of the other five forms? 
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

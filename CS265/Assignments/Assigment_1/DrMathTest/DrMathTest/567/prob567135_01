@@ -1,0 +1,49 @@
+ThreadNum: 567135
+Subject: Re: aditya again
+To: goel_aditya2003@yahoo.com (aditya)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 14:30:16
+Sent: yes
+
+
+As aditya wrote to Dr. Math
+On 08/16/2004 at 13:44:50 (Eastern Time),
+>[Question]
+>well dont u think it will still get to big you will have so many terms
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Aditya,
+
+If it seems to be getting too big, you can do what I did, and
+substitute smaller symbols for the bigger parts.  If you have
+
+  3x*this + 3x*that + 3x*other + stuff = whatever
+
+you can do this:
+
+   3x*(this + that + other) + stuff = whatever
+
+          3x*(this + that + other) = whatever - stuff
+
+                                        whatever - stuff
+                                 x = ----------------------- 
+                                     3*(this + that + other)
+
+Then you can unto the substitution.  But at that point, the work of
+solving is done, so it doesn't matter how big the thing on the right
+gets, since you don't have to manipulate it.  
+
+This is a very useful trick to know about, which will become more
+useful as you continue in math.  It's hard for people to see when
+simple patterns like the distributive property apply when there's lots
+of random-looking stuff around.  Substitution can help you get around
+that.  
+  
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

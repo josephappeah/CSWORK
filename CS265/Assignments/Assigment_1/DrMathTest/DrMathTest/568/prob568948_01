@@ -1,0 +1,46 @@
+ThreadNum: 568948
+Subject: Re: Growth rates
+To: amykboone@yahoo.com (Amy)
+From: Doctor Jerry
+TimeStamp: 08/26/2004 at 14:40:17
+Sent: yes
+
+
+As Amy wrote to Dr. Math
+On 08/26/2004 at 14:14:29 (Eastern Time),
+>[Question]
+>A company that sells newspaper subscriptions has 200 customers at the 
+>beginning of the year (Jan. 1).  Assume that the company loses no 
+>customers and that each customer pays a monthly fee.  The company 
+>needs to have 500 accounts (i.e. customers) by the end of the year to 
+>meet revenue goals.  If the company is able to acquire customers at 
+>the same constant growth rate during Jan-March and Sept-Dec (months 
+>of slow growth) but at a different constant growth rate during April-
+>August (the busy season), what growth rate is needed in the busy and 
+>slow seasons to reach the revenue goals?
+>
+>[Difficulty]
+>I'm having difficulty determining how to set this up as an algebra 
+>problem.
+>
+>[Thoughts]
+>There are 2 growth rates, x and y.  x for the busy season, y for the 
+>slow season.  
+>
+>500=200x +x(200x)+ x(x(200x)).........
+
+Hello Amy,
+
+I presume that the growth rates x and y will be so many new accounts per month.  So
+
+500 = 200 + 7*x + 5*y
+
+So,
+
+300 = 7x+5y.
+
+This is a Diophantine Equation, but  I'll guess that they want you to guess.  I know at least 
+one solution x and y integral.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,98 @@
+ThreadNum: 567613
+Subject: Re: Can you help me with this problem
+To: gdn3r2@yahoo.com (geraldine)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 10:38:38
+Sent: yes
+
+
+As geraldine wrote to Dr. Math
+On 08/18/2004 at 22:13:22 (Eastern Time),
+>[Question]
+>   FOUR
+>+ SEVEN
+> ELEVEN
+>
+>FOUR PLUS SEVEN EQUALS ELEVEN
+>
+>
+>
+>[Difficulty]
+>I know that the seven has to be a 9 but I can't figure out the rest.
+>
+>[Thoughts]
+>
+
+Hi Geraldine,
+
+Thanks for writing to Dr Math.  This kind of problem is called a
+"cryptarithm."  The usual rules are that each letter stands for a
+different digit.  There are web sites that solve them automatically,
+such as
+
+  http://bach.istc.kobe-u.ac.jp/llp/crypt.html
+
+where you type in
+
+  four+seven=eleven
+
+and it finds all of the solutions.  In fact, it will tell you
+immediately that there are no solutions.
+
+Now how would you have checked that by hand?  Well, first of all you
+decided that the S has to be a 9 if the answer is going to have one
+more digit that each operand.  Also, there will need to be a carry
+into that (the fifth) column, so that 9 + carry will give two digits,
+and then the biggest number it could give is 10, which means
+
+  S = 9
+  E = 1
+  L = 0.
+
+Now we have
+
+     FOUR
+   +91V1N
+   ------
+   101V1N
+
+Now if we add F to 1 and get 1 plus a carry, that means that we have
+to get 11.  But even F can't be bigger than 9, and it can't equal 9
+since S is 9, so F can't be bigger than 8.  But then even if we have a
+carry into that column too, the most we could get is 8 + 1 + carry =
+10, which is still too small.  So there is no way to solve this.
+
+There is a different way to do this, too, by starting on the right. 
+Look at the ones column, and suppose that
+
+  R + N = N,
+
+or, if there is a carry out of that column, then
+
+  R + N = 10 + N.
+
+So what does R have to be?  Now look at the last two columns:
+
+  (10*U + R) + (10*E + N) = 10*E + N
+
+or, if there is a carry out of the second column, then
+
+  (10*U + R) + (10*E + N) = (10*E + N) + 100.
+
+You already found R.  Solve for U.  But that's the same thing that R
+is!  So you have a repeat again!  So there are no solutions.
+
+In fact, even if you allow repeats, you also have to allow for the
+leftmost digit E to be zero, and still the only solutions are
+
+  F = O = U = R = E = 0,
+  S = L,
+  L, V, and N can be anything.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

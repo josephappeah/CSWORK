@@ -1,0 +1,65 @@
+ThreadNum: 566092
+Subject: Re: equations with Fractions and variables
+To: srcoronel@megamail.pt (Coronel)
+From: Doctor Ian
+TimeStamp: 08/09/2004 at 10:16:37
+Sent: yes
+
+
+As Coronel wrote to Dr. Math
+On 08/08/2004 at 22:10:34 (Eastern Time),
+>[Question]
+>Hello, I need help solving the following type of equations:
+>
+>5/x + 3/(x+4) = 7/x (x not 0 and x not -4)
+>
+>and
+>
+>8/(x-2) + 15/(x-3) = 21/(x-3) (x not 2 and x not 3)
+>
+>Thanks for your help.
+>
+>[Difficulty]
+>Well I know I should transform the terms so they have the same
+>denominator, and then add/subtract them but I'm having trouble with
+>that "(x-4)".
+>
+>[Thoughts]
+>I think I need to multiply each fraction by x and then do something
+>but that (4-x) is confusing.
+
+Hi Coronel,
+
+Let me show you a trick.  Suppose we make a little substitution, i.e.,
+wherever we see '(x-4)', we substitute a 'u'.  Now we have
+
+  5   3   7
+  - + - = -
+  x   u   x
+
+Now finding the common denominator is pretty straightforward:
+
+  5u   3x   7u
+  -- + -- = --
+  xu   ux   xu
+
+  5u + 3x = 7u
+
+But now we can just undo the substitution:
+
+  5(x-4) + 3x = 7(x-4)
+
+Now, you don't actually have to _do_ the substitution, if you realize
+that any term like (x-4) can be treated like a single number.  (If x
+is a number, then subtracting 4 from it gives us another number,
+right?)  So we could have just done this:
+
+  5(x-4)     3x     7(x-4)
+  ------ + ------ = ------
+  x(x-4)   (x-4)x   x(x-4)
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

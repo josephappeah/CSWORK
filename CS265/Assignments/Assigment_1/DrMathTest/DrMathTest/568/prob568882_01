@@ -1,0 +1,69 @@
+ThreadNum: 568882
+Subject: Re: conversion from hexadecimal to binary and decimal using c++ 
+To: buzzylim99@hotmail.com (Lionel)
+From: Doctor Mitteldorf
+TimeStamp: 08/28/2004 at 11:45:20
+Sent: yes
+
+
+As Lionel wrote to Dr. Math
+On 08/26/2004 at 06:27:22 (Eastern Time),
+>[Question]
+>i am a beginner to c++ programming language. however, i have some 
+>basic understanding of this subject after 2 weeks of lecture in 
+>school. i would like to know how should i write a program to 
+convert 
+>hexadecimal to binary and decimal using c++ language. your help is 
+>gladly appreciated. thanx!
+>
+>[Difficulty]
+>i can do the conversion from hexadecimal to binary and decimal 
+>mathematically. however, i find it difficult to apply such 
+knowledge 
+>to my program as i am currently weak in applications.
+>
+
+Most C compilers contain routines for doing this automatically.  For 
+example, when you input a number with "0x" before it, the number is 
+interpreted as a hexadecimal.  0x1D is the same as decimal 29.
+
+printf("%x",29)
+
+will display the number 29 as a hexadecimal = 1D
+http://www.cplusplus.com/ref/cstdio/printf.html
+
+The function itoa converts a number from integer to string, and you 
+get to specify the base ("radix") that's used - in your case 2, 10 
+or 16.
+http://www.cplusplus.com/ref/cstdlib/itoa.html
+
+
+If you are doing this for an assignment, and need to do it the long, 
+hard way, then the result will be long and hard.  To convert from 
+hex to binary, you can use the trick that each character of hex 
+represents exactly 4 binary characters:
+
+0000 = 0
+0001 = 1
+0010 = 2
+0011 = 3
+...
+1110 = D
+1111 = E
+
+For example, if you have a 3-digit hex number, you can make it into 
+a 12-digit binary number by converting one digit at a time.
+
+To convert from hex do decimal "manually", you just do what you 
+would do by hand.  For example,  "1B04" gets converted to
+ 
+   4 
+  +0 * 16
+  +11 * 16*16
+  +1 * 16*16*16
+-------------------
+  sum = 6916
+
+- Doctor Mitteldorf, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,35 @@
+ThreadNum: 568594
+Subject: Re: limits and change of rates
+To: d.patel@ballarat.edu.au (dekey)
+From: Doctor Fenton
+TimeStamp: 08/25/2004 at 08:57:34
+Sent: yes
+
+
+As dekey wrote to Dr. Math
+On 08/24/2004 at 22:28:12 (Eastern Time),
+>[Question]
+>show by means of an example that lim x-->a [f(x)+g(x)]may exist even 
+>though neither of lim x-->a f(x) nor lim x-->a g(x) exists.
+>
+>[Difficulty]
+>whole thing?
+>
+>[Thoughts]
+>to find out if any of those exist separately?
+
+Hi Dekey,
+
+Thanks for writing to Dr. Math.  First, do you know any functions
+which do not have a limit at some point x=a?  If you can think of
+one, call it f(x), then try to think of a function g(x) such that
+f(x) + g(x) doesn't have the "bad" behavior of f(x).  g(x) needs 
+to "counteract" the bad behavior of f(x) in some way.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

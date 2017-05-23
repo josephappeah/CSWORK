@@ -1,0 +1,86 @@
+ThreadNum: 567625
+Subject: Re: Distance Formula and Coordinate Systems
+To: aleks1429@yahoo.com (Aleks)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 00:39:56
+Sent: yes
+
+
+As Aleks wrote to Dr. Math
+On 08/18/2004 at 23:05:27 (Eastern Time),
+>[Question]
+>I can't figure out this problem. I tried finding out pathagorean 
+>then dividing by two to find the result, but that is wrong, what am 
+>I doing wrong?
+>
+>Question:
+>Find point on segment PQ taht is twice as far from P as from Q?
+>P is (0,-1), Q is (3,2)
+>
+>[Difficulty]
+>I don't understand this problem. i found some things that I think 
+>are relevant but i can't seem to get to the answer.
+>
+>[Thoughts]
+>I found distance: 3sqrt(2)
+>I found slope: 1
+>
+>
+Hi, Aleks --
+
+This seems to confuse many students the first time they do a problem 
+like this....
+
+Think about what you have done.  You have found the distance between 
+the two given points, and you have divided that distance in two.
+
+But when you divide the distance in two, the two parts are the same 
+length.  You want to find a point so that the distance from P is 
+twice the distance from Q.
+
+You want the distance between the two given points to be divided 
+into two parts in the ratio 2:1.  If we use the standard process for 
+solving ratio problems and call those distances 2x and 1x, then the 
+total length of the segment is 3x.  So we have, according to your 
+calculation of the distance between the two given points,
+
+  3x = 3 sqrt(2)
+   x = sqrt(2)
+
+Once you get to this point, however, you still need to find the 
+coordinates of the point which is 2 sqrt(2) units from P and sqrt(2) 
+units from Q; that involves a lot more work.
+
+You will find this problem a lot easier to work if you work with the 
+x- and y-coordinates separately.  For the x-coordinates, we have 0 
+for P and 3 for Q; the difference is 3.  If we divide that length of 
+3 into 3 equal parts, each on part is one unit.  So the x-coordinate 
+of the point which is twice as far from P as it is from Q is x=2.  
+And for the y-coordinates, we have -1 for P and 2 for Q; again the 
+difference is 3, and when we divide that difference of 3 into three 
+equal parts and find the y-coordinate of the point which is twice as 
+far from P as it is from Q, we get y=1.
+
+So the point we are looking for is (2,1).
+
+Reviewing the critical parts of the process:
+
+(1) Divide the distance between the points using a ratio.  In this 
+problem, the prescribed ratio is 2:1, so we need to divide the 
+distance between the given points into 2+1=3 equal parts, with the 
+two resulting segments represented by 2x and 1x.  If the prescribed 
+ratio were 4:3, then we would have to divide the distance into 4+3=7 
+equal parts, with the two resulting segments represented by 4x and 
+3x.
+
+and
+
+(2) Work with the x- and y-coordinates of the points separately to 
+make your work easier.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

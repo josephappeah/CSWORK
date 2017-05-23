@@ -1,0 +1,67 @@
+ThreadNum: 566239
+Subject: Re: Tournament Brackets
+To: charlie@clementcreative.com (Charlie Clement)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 13:37:29
+Sent: yes
+
+
+As Charlie Clement wrote to Dr. Math
+On 08/10/2004 at 13:35:05 (Eastern Time),
+>It is modified. ALL teams are guaranteed three games. At the 
+>older age groups, there are playoffs. The playoffs themselves 
+>don't appear to be too much of an issue. I just need to minimize 
+>games in the qualifying rounds due to field capacity. 
+>
+>So the question becomes in brackets with 5, 6 or 7 teams, what 
+>is the minimum number of games (for the entire bracket) I have 
+>to plan for to get everyone 3 games — and perhaps one or two 
+>get four. 
+>
+>I am using an online tool that will schedule them, but one of my 
+>inputs is Max Games Per Bracket. Thus my question.
+>
+>Does this make it clearer?
+>
+>Thanks. Charlie
+>
+
+Hi again, Charlie.
+
+Suppose you have N teams and you want to guarantee that each team
+plays at least K games (where K is equal to N-1 or less).  Then the
+total number of matches is N*K/2.  This number is rounded up to the
+next higher number if N and K are both odd.  The division-by-two
+comes from the fact that each match needs two participants.
+
+Example:  5 teams (ABCDE) with at least 3 games each.
+This could be accomplished with 5*3/2 = 7.5 -> eight matches:
+
+  A v B, C v D
+  A v E, B v C
+  A v D, B v E
+  C v E, D v B       team B gets a fourth game
+
+Example:  6 teams (ABCDEF) with 3 games each.
+This can be accomplished with 6*3/2=9 -> nine matches:
+
+  A v B, C v D, E v F
+  A v C, B v E, D v F
+  A v D, B v F, C v E
+
+Example:  7 teams (ABCDEFG) with 3 games each.
+This can be accomplished with 7*3/2 = 21/2 = 10.5 -> eleven matches:
+
+  A v B, C v D, E v F
+  G v A, B v C, D v E
+  F v G, A v C, B v D
+  E v G, F v (ABCD)          You can choose any one of {ABCD} to
+                             get an extra game.
+
+The number of columns in these tables is the number of playing fields
+that you have.  You may have fewer than what I've assumed, in which
+case you may have to reschedule a bit.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

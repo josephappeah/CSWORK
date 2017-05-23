@@ -1,0 +1,84 @@
+ThreadNum: 567652
+Subject: Re: Calculate distance in KM from Coordinates in Decimal Degrees
+To: philip@maxlifestyle.net (Philip)
+From: Doctor Rick
+TimeStamp: 08/19/2004 at 08:09:00
+Sent: yes
+
+Hi, Philip.
+
+As Philip wrote to Dr. Math
+On 08/19/2004 at 05:31:13 (Eastern Time),
+>[Question]
+>I have roamed the internet for functions that convert decimal degree 
+>coordinates into a distance in KM and found a lot of different ones. 
+>All functions come with very different results and mostly faulty 
+>ones. I think my problem is that I need a function that will take 
+>decimal degrees coordinates as input and give distance in KM as 
+>output. Not understanding the formulas I do not know what input they 
+>require and what output they deliver.
+>
+>[Difficulty]
+>I think I am using formulas that expect different format of inputs, 
+>most likely coordinates in degrees, minutes, seconds format or in 
+>radians or not. Not knowing the details of these things I am having 
+>a hard time figuring them out.
+>
+>[Thoughts]
+>Currently I am using this function:
+>
+>x = (sin(lat1/57.2958) * sin(lat2/57.2958)) + (cos(lat1/57.2958) * 
+>cos(lat2/57.2958) * abs( cos(lon2/57.2958 - lon1/57.2958)))
+>
+>Distance = abs(6367 * atn(sqr(1-x^2)/x))
+>
+>Not being a math wiz I have no idea what is wrong but it seems to 
+>give distances that are much too small on long distances and too big 
+>distances on smaller distances.
+>
+>Other formulas I have tried but never understood and do not work:
+>
+>R = 6378.7
+>dlon = lon2 - lon1 
+>dlat = lat2 - lat1 
+>a = (sin(dlat/2))^2 + cos(lat1) * cos(lat2) * (sin(dlon/2))^2 
+>If sqr(a) < 1 Then
+>     c = 2 * Arcsin(sqr(a))
+>Else
+>     c = 2 * Arcsin(1) 
+>End If
+>Distance = R * c 
+>
+>Great Circle Distance Formula using decimal degrees:
+>Distance = R * Arccos(sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) 
+>* cos(lon2 - lon1))
+>
+>I really need help I have been at it for 28 hours straight!
+>
+
+The inputs required by trigonometric functions such as sin() can 
+depend on the system (computer language, calculator, spreadsheet, 
+etc.) involved, but most often, trig functions take arguments in 
+radians and inverse trig functions return values in radians. In 
+dividing by 57.2958, you are converting from degrees to radians (1 
+radian becomes 57.2958 degrees) which is the correct thing to do, 
+unless your trig functions happen to take arguments in degrees. I 
+doubt that they take arguments in degrees-minutes-seconds; I have 
+never seen this. However, you'll have to check the manual or help 
+system to know for sure.
+
+I can see no error in what you are doing. The abs() functions 
+shouldn't be needed, but they shouldn't hurt, either. Also, I notice 
+that your two formulas use different values for the radius of the 
+earth. I use 6367 km, but since the earth is not a perfect sphere, 
+any choice will produce error somewhere on the globe -- not the kind 
+of error you're seeing, though.
+
+Perhaps you can send me sample data you are using and the results you 
+get, including intermediate results. I can compare with what my 
+formulas produce, and possibly tell where the error is occurring. But 
+you'll have to know your own system, how the trig functions work.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

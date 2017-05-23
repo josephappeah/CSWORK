@@ -1,0 +1,39 @@
+ThreadNum: 567748
+Subject: Re: 0,2,3,4,4,5  What is the median, Is it 3,5, or 3?
+To: rbethdavis@hotmail.com (Beth)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 19:35:03
+Sent: yes
+
+
+As Beth wrote to Dr. Math
+On 08/19/2004 at 17:40:25 (Eastern Time),
+>[Question]
+>0,2,3,4,4,5  What is the median?
+>
+>[Difficulty]
+>I'm not sure what to do with an even number of values.  Do I average 
+>the middle 2?  Would the 4 in the above question be considered 
+>twice, or just once?
+>
+>Another example: 0, 4,4,6,7,9,9,9, 10, 11  What would be the median?
+>
+>
+>[Thoughts]
+>I'm helping my 4th grader with his math homework.  
+
+Hi Beth,
+
+When you have an odd number of values, the median is the one in the
+middle.  With an even number of values, the median is the mean of the
+two values in the middle.  So the median of 
+
+  0, 2, 3, 4, 4, 5
+
+would be (3+4)/2, or 3.5.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

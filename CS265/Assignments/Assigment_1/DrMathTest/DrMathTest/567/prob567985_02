@@ -1,0 +1,31 @@
+ThreadNum: 567985
+Subject: Re: An answer regarding the value of 0^i
+To: mitropam@yahoo.co.in (Mitropam)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 11:42:22
+Sent: yes
+
+
+Hi Mitropam,
+
+>In the Imaginary/Complex Numbers section of Ask Doctor Math (in a 
+>message sent by someone on 11/26/2002 as far as I remember) Dr. Ian 
+>has given a proof that 0^i in undefined.But it seems that in the 
+>proof he has used a technique which proves that 0^(anything) is 
+>undefined.Indeed,according to that proof,
+>0^7 = (e^(ln 0))^7 = e^(7ln 0). And since ln 0 is undefined,so is 
+>0^7! But the value of 0^7 is equal to (0x0x0x0x0x0x0)=0.
+>Where am I wrong? On the other hand, 7ln 0 = ln 0^7 = ln 0. So e^(7ln 
+>0)=e^(ln 0)=0  (since e^(ln m)= m. Here we don't take regard of the 
+>fact that ln 0 is undefined).
+>                    So if 0^i is really undefined,can't we have 
+>another proof ?
+
+Good point.  :^l  
+
+We've changed the proof to one that doesn't suffer from this flaw...
+Thanks for catching this!
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,125 @@
+ThreadNum: 568201
+Subject: Re: i am in the top maths class for my grade and i need help plz
+To: 7049@aquinas.qld.edu.au (James)
+From: Doctor Anthony
+TimeStamp: 08/23/2004 at 07:06:19
+Sent: yes
+
+
+As James wrote to Dr. Math
+On 08/23/2004 at 03:47:05 (Eastern Time),
+>[Question]
+>hi i currently have a maths assignment and it is on area. one of 
+the 
+>question ask me to find picks rule from a table- the rule that will 
+>give you the area of the shape,  given you know the number of dots 
+>inside here is the table
+>
+> Shape Dots on boundary(B)     Dots inside shape      area of shape
+>                                                         
+>
+>Rectangle  20          7                 16
+>Triangle 16         17                 24
+>Square         12          4                  9
+>Triangle 14         35                 40.5
+>Rectangle 14          4                 10
+>Trapezium 18         32 
+>Rhombus          8               6                 12
+>also i dont know hot to find the area of the trapezium
+>
+>
+>
+>i know that you might find this a bit confusing but if your not a 
+>machine can you please  try and solve this problem i get $1000 if i 
+>get the best reportcard and if i do ill donate some to you guys
+>
+>
+>[Difficulty]
+>lol i dont know what the hell it is 
+>
+>[Thoughts]
+>see table
+
+
+Pick's Theorem states that the area of a simple lattice polygon P
+is given by  I + B/2 - 1, where I is the number of lattice points
+in the Interior of P and B is the number of lattice points on the
+Boundary of P.
+
+To help remember the correct formula, you can check it on easy
+cases (unit square, small rectangles, etc) or, better, you can
+view how it arises from additivity of area. One can view Pick's
+formula as weighting each interior point by 1, and each boundary 
+point by 1/2, except that two boundary points are omitted. Now
+suppose we are adjoining two polygons along an edge as in the
+diagram below. Let's check that Pick's formula gives the same
+result for the union as it does for the sum of the parts (and
+thus it gives an additive formula for area, as required).
+
+           1/2           1/2                    1/2   1/2
+      ... - @             @ - ...          ... - @     @ - ...
+    /         \         /         \      /         \ /         \
+             0 @       @ 0                          @ 0 
+               |       |                            
+   .       1/2 @       @ 1/2       .    .           @ 1         . 
+   .           |   +   |           .  = .                       . 
+   .       1/2 @       @ 1/2       .    .           @ 1         .
+               |       |                            
+             0 @       @ 0                          @ 0 
+    \         /         \         /      \         / \         /
+      ... - @             @ - ...          ... - @     @ - ...
+           1/2           1/2                    1/2   1/2
+
+The edge endpoints we choose as the two omitted boundary points.
+The inside points on the edge were each weighted 1/2 + 1/2 on the 
+left, but are weighted 1 on the right since they become interior.
+All other points stay interior or stay boundary points, so their
+weight remains the same on both sides. So Pick's formula is additive.
+
+Let the rectangle have length x and width y.  The area is clearly 
+length times width:
+
+     area = xy
+
+The rectangle with length x and width y has (x+1) lattice points 
+along each of the two sides of length x and (y+1) lattice points 
+along each of the two sides of length y.  The total number of 
+lattice points on the rectangle, counting the lattice points in the 
+corner only once each, is
+
+     lattice points on rectangle = 2x+2y
+
+The lattice points inside the rectangle form a rectangular array of 
+length (x-2) and width (y-2); the number of lattice points in this 
+rectangular array is
+
+     lattice points inside rectangle = (x-1)(y-1) = xy-x-y+1
+
+We want to express the area "xy" as a function of the number of 
+lattice points on the rectangle, "2x+2y", and the number of lattice 
+points inside the rectangle, "xy-x-y+1".
+
+The expression we want, "xy", is part of the expression for the 
+number of lattice points inside the rectangle "xy-x-y+1".  What do 
+we have to do to the expression "xy-x-y+1" to get to the desired 
+expression "xy"?  We need to add "x+y" and subtract "1".  But "x+y" 
+is just half of "2x+2y", which is the number of lattice points on 
+the rectangle.
+
+So we have
+
+     xy = (xy-x-y+1) + (x+y) - 1
+     xy = (xy-x-y+1) + (1/2)(2x+2y) -1
+
+Replacing the expressions "xy", "xy-x-y+1", and "2x+2y" with the 
+words represented by those expressions, we have the answer to our 
+problem:
+
+area of rectangle 
+ =  (number of lattice points inside rectangle)
+ + (1/2 no. of lattice points on perimeter of the rectangle) - 1
+   
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

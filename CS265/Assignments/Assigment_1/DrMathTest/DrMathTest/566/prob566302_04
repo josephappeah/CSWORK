@@ -1,0 +1,103 @@
+ThreadNum: 566302
+Subject: Re: 2nd order differential equations
+To: martin@edu-tech.com.au (Martin)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 11:35:24
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/11/2004 at 09:14:44 (Eastern Time),
+>As always Dr Fenton, your answer is very helpful and very much 
+>appreciated. However I am not sure how to find the derivitive of,
+>
+>  y = x^(-1)(A + B*ln|x|)
+>
+>The product rule sould seem to apply. We have y = uv, where
+>
+>     u = x^(-1)
+>     v = (A + B*ln|x|)
+>
+>Thus,
+>
+>    dy       dv       du
+>    -- = u * -- + v * --
+>    dx       dx       dx
+>
+>    dy             d
+>    -- = x^(-1) * --(A + B*ln|x|) + (A + B * ln|x|) * (-1)*x^(-2)
+>    dx            dx
+>
+>               d
+>I am stuck on --(A + B*ln|x|)
+>              dx
+>
+>This is what I can do.
+>
+>   d                 d       d
+>  --(A + B*ln|x|) = --(A) + --(B*ln|x|)
+>  dx                dx      dx
+>
+>                           d
+>                  = 0 + B*--(ln|x|) + (ln|x|)*0
+>                          dx
+>
+>                         d
+>                  = B * --(ln|x|)
+>                        dx
+>
+>Clearly the bit I can't do is:
+>
+>     d
+>    --(ln|x|)
+>    dx
+>
+>I suspect that:
+>
+>     d
+>    --(ln|x|) = 1/x
+>    dx
+>
+>Since int[1/x]dx = ln(|x|) + c
+>
+>Sorry for all my doddering on. But I suspect that you math doctors 
+>like to see that your students have made an effort to try and do some 
+>work on their own.
+>
+
+H Martin,
+
+You are correct that
+
+>     d
+>    --(ln|x|) = 1/x  .
+>    dx
+
+ln(|x|) is just the function ln(x) extended to all non-zero x by
+reflecting the graph in the y-axis, so that the new graph is an
+even function.  Under reflection, the slope of the tangent at the 
+reflected point -x (x > 0) is the negative of the slope at the 
+point x, which is x, so
+
+    - (1/x) = 1/(-x) 
+
+which means that the above formula works for all x.
+
+If you prefer a more formal argument, for x , 0, |x| = -x,
+so ln(|x|) = ln(-x), and
+
+   d            d
+   -- ln(|x|) = -- ln(-x)
+   dx           dx
+
+                 1
+              = --- * (-1)
+                -x
+
+                 1
+              = ---   .
+                 x
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

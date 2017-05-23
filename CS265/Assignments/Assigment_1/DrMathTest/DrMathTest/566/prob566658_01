@@ -1,0 +1,45 @@
+ThreadNum: 566658
+Subject: Re: probability of three generations having the same birthday
+To: jsullivanilla@msn.com (jerry)
+From: Doctor Roy
+TimeStamp: 08/12/2004 at 12:30:10
+Sent: yes
+
+
+As jerry wrote to Dr. Math
+On 08/12/2004 at 11:20:36 (Eastern Time),
+>[Question]
+>my daughter, her son and I all were born on august 9.  What is the 
+>probability of this happening?
+>
+>[Difficulty]
+>I took statistics 40 years ago and I'm pretty rusty.
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Unfortunately, there's no way of really calculating this sort of
+probability. Assuming the birthdays are all random, it is (1/365)^2 =
+0.0007%.  But that assumes the birthdays are random. That's definitely
+not an assumption you can casually make. 
+
+The probability that this phenomenon occurs at all is actually quite
+high. I saw an entry in either a Ripley's book or the Guinness book of
+records which recorded a family where 5 family members over 3 or 4
+generations shared a birthday. It's the same principle as the lottery.
+The chance that any particular person (say John Doe) wins is low, but
+the probability that somebody wins is quite high.
+
+The above probability works, however, as long as you make the
+assumption that the birthdays are completely random.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

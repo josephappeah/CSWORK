@@ -1,0 +1,49 @@
+ThreadNum: 566176
+Subject: Re: Finding the radius of a beam angle for a certain height
+To: sps@madisonco.com (Steven)
+From: Doctor Douglas
+TimeStamp: 08/10/2004 at 12:20:51
+Sent: yes
+
+
+As Steven wrote to Dr. Math
+On 08/09/2004 at 15:52:15 (Eastern Time),
+>[Question]
+>What is the formula to find the radius (from middle of cone to outer 
+>edge)if you know the beam angle and the height of a container.  For 
+>example you know that a radar unit will emitt a signal with a 5 
+>degree beam angle, if the tank is 60 inches in height how far from 
+>the wall must the radar unit be to make sure it doesn't hit the side 
+>wall.
+>
+>[Difficulty]
+>Not sure what the formula is or where to find it.
+>
+>[Thoughts]
+>
+
+Hi Steven.
+
+thanks for writing to the Math Forum.
+
+I think the following diagram will help:
+
+   A---B---C    AB = BC = radius
+   |\  |  /|    BD = height of emitter from aperture (ABC)
+   | \ | / |    @ = angle ADC = beam angle (e.g. 5 deg)
+   |  \|/  |
+   |   D   |
+   |       |
+
+The relation that connects the radius with the height is found from
+trigonometry:
+
+   tan(@/2) = radius/height,
+
+from which you can easily solve for the radius.  
+
+Please write back if I misunderstood your question.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

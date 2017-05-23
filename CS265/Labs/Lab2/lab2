@@ -1,0 +1,32 @@
+q1.
+./.bash_history
+./.minttyrc
+./cs265/Labs/Lab1/funny
+./cs265/Labs/Lab1/hello.bash
+./cs265/Labs/Lab1/lab1
+./cs265/Labs/Lab1/lab1.tar.gz
+./cs265/Labs/Lab1/vi_lab
+q2.
+find -name "*.bash"
+q3.
+./cs265/Labs/Lab1/hello.bash
+./cs265/old/Assign1/2xml.bash
+./tmp/gotMe.bash
+q4.
+Lines 73
+words 421 
+chars 2538
+q5.
+grep "the" breadIsDangerous.txt | wc -l
+q6.
+a spellExampe.bak file is created 
+q7. 
+the diff cmd gives you a line by line comparison of the two files
+q8.
+nothing there is nothing diff about the two inputs 
+q9.
+each return value 0,1,and 2 means that either the string 
+	was found =0
+	was not found =1
+	or no such file exist=2
+

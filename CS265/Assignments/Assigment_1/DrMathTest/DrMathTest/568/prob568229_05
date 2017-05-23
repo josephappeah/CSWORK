@@ -1,0 +1,44 @@
+ThreadNum: 568229
+Subject: Re: finding a point in a non-linear cell
+To: dshah@computing.dcu.ie (DS)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 16:27:42
+Sent: yes
+
+
+As DS wrote to Dr. Math
+On 08/23/2004 at 16:07:25 (Eastern Time),
+>hi,
+>
+>Thanks for the reply once again .
+>
+>what i just know is the origin of the cell w.r.t to my co-ordinate 
+>sytem in which my rectangle is. I need to find out the position or 
+>the distance of a particular point in that cell w.r.t the cell origin.
+>
+>Please reply me back if its not clear.
+
+It's not clear, but let me describe what I think you might have said,
+and you can tell me what you meant to say:
+
+I think you said that you know that the bottom-left corner of your
+rectangle is at a certain point, such as
+
+  (17, 26)
+
+and you have another point inside the rectangle such as
+
+  (19, 29)
+
+and you want to know what the coordinates would be if you moved the
+origin (0, 0) to the bottom-left corner of the rectangle, so that your
+point was now
+
+  (19-17, 29-26) = (2, 3).
+
+Is that the idea?  A simple translation or "sliding"?  Then you just
+subtract.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

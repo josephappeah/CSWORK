@@ -1,0 +1,95 @@
+ThreadNum: 568883
+Subject: Re: proper subsets
+To: mpurcell@nist.ac.th (Mick Purcell)
+From: Doctor Luis
+TimeStamp: 08/28/2004 at 06:08:38
+Sent: yes
+
+
+As Mick Purcell wrote to Dr. Math
+On 08/26/2004 at 06:42:51 (Eastern Time),
+>[Question]
+>What is the use of proper subsets?  It seems that when we do proofs in 
+>set theory we often say "is contained in" but we never use the 
+>concept "is strictly contained in".  So why are we dragging that extra 
+>line through all our proofs (the one at the bottom of the "is
+contained in" 
+>symbol)?  Does the concept come up in measurable sets?  
+>
+>Also, is the empty set a proper subset of every set except itself?
+>
+>[Difficulty]
+>I have found three definitions for "proper subset".  Basically, a proper 
+>subset of A is a subset that is not equal to A.   Therefore, the
+empty set 
+>is a proper subset of every set except itself.  However, I think a
+teacher 
+>once told me that a proper subset must be nonempty.  
+>
+>[Thoughts]
+>I want to know who coined the term "proper subset" (was it Cantor?) 
+>and why that particular mathematcian found it important.  I have 
+>researched the internet (including Ask Dr. Math) but cannot find the 
+>answer.  I have also been through a book on Lebesgue integration 
+>where I thought I would find a theorem involving proper subsets but I 
+>couldn't find it.  Also, I developed this argument.
+>
+>Q: What is the use of “proper subset”?
+>
+>A possible use:
+>
+>If A and B are finite sets and A is a proper subset of B, then n(B) <
+n(A).
+>
+>Note: If A and B are infinite sets, then A is a proper subset of B does 
+>NOT imply  n(B) < n(A).
+>
+
+
+Hi Mick,
+
+Good job researching the various uses of the (often abused) word
+"proper". I can tell you that the most common usage I've seen
+is the one you described (subsets of A not equal to A). As for the
+empty set, it is usually described as the trivial subset, but it is 
+still considered a proper subset (unless A={}, then the empty set
+is both a trivial and improper subset).
+
+I'm not sure if you could trace the terminology back to a single
+mathematician, but you could probably argue that whoever talked
+about sets first was likely the one that introduced the term.
+Since Cantor is considered the father of set theory, your guess
+is well founded :-)
+
+As for your first question "strictly contained in" vs. "contained in",
+I believe that it's simply a matter of logical simplicity. It is much
+much simpler to write
+
+ A is a subset of B iff every element of A is also in B
+
+than throwing extra conditions in there that ensure the two sets
+are not equal.
+
+Practically speaking, it's just the opposite. One could pretty
+much define set equality as the requirement that you have *both*
+conditions A subset B, and B subset A. It is a common proof technique 
+that you see over and over again in all branches of mathematics that 
+deal with sets (linear algebra, topology, etc..). I can give you an 
+example of a proof that does exactly that, if you're interested.
+Although, you should be able to find plenty of examples where this 
+technique is used, if you look around a bit.
+
+In other words, it is much more logically elegant and practical to 
+keep the "contained in" concept as the basic one rather than the
+slightly more complex "strictly contained in" concept. Note that
+if you consider the latter as the basic concept, you'd have to
+define equality of sets first. With the former, you could define
+equality after the fact.
+
+Well, I hope this helped!
+
+Let us know if you have any more questions.
+
+- Doctor Luis, The Math Forum
+  <http://mathforum.org/dr.math/>
+

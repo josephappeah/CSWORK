@@ -1,0 +1,47 @@
+ThreadNum: 566228
+Subject: Re: How many gallons of water will it take to fill a swim pool ?
+To: LOGGINS@centurytel.net (Kathy)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:16:24
+Sent: yes
+
+
+Hi Kathy,
+
+>I have a small swim pool for my grandkids.  It is 1-1/2 foot 
+>deep ... 5 feet wide and 10 feet long.  How many gallons of water 
+>will it take to fill it?
+
+I assume it's rectangular in shape, when viewed from above?  If so,
+then the volume is 
+
+    5 ft * 10 ft * 1 1/2 ft
+
+  = 75 ft^3
+
+There are about 7.5 gallons in a cubic foot, so the total number of
+gallons would be
+
+  75 ft^3 * 7.5 gal/ft^3 = 562.5 gal
+
+>pool demisions:  22" deep (but I will only fill it to 12"), 72" wide 
+>and 120" in length.
+
+Note that 72" is 6 feet, not 5 feet.  And 12 inches is 1 foot, not
+1 1/2 feet.  So the calculation would be 
+
+    6 ft * 10 ft * 1 ft
+
+  = 60 ft^3
+
+and
+
+  60 ft^3 * 7.5 gal/ft^3 = 450 gal
+
+If you'd like to use other measurements, you can follow these examples.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

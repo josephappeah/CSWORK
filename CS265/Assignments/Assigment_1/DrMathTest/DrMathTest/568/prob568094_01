@@ -1,0 +1,37 @@
+ThreadNum: 568094
+Subject: Re: Statistics - correlation & covariance
+To: sam.martin@cbre.com (Sam)
+From: Doctor George
+TimeStamp: 08/24/2004 at 13:25:27
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/22/2004 at 10:41:54 (Eastern Time),
+>[Question]
+>Is is possible to calculate the covariance of two data sets from 
+the 
+>correlation of the two?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Sam,
+
+Thanks for writing to Doctor Math.
+
+To get the covariance from the correlation you must multiply by the 
+two standard deviations of the individual data sets. Strictly, the 
+standard deviations in this case are the square roots of the maximum 
+likelihood estimators of the variances.
+
+If you have a good statistics book look at how R is defined.
+
+Write again if you need more help.
+
+- Doctor George, The Math Forum
+  <http://mathforum.org/dr.math/>
+

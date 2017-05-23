@@ -1,0 +1,39 @@
+ThreadNum: 567940
+Subject: Re: retired working on son's race car.
+To: porchracer1@aol.com (robert)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 09:56:07
+Sent: yes
+
+
+As robert wrote to Dr. Math
+On 08/20/2004 at 19:30:45 (Eastern Time),
+>[Question]
+>when moving something from a zero position, down 3 degrees. how do 
+>you figure in inch measurments how far you have to move it 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Robert,
+
+I would have to know more about the geometry involved before I could answer.
+
+If, for example, one had a horizontal line, from A to B, and it were d inches long, then one 
+might ask where would point B go if AB were pivoted about A and moved counterclockwise 
+through 3 degrees.
+
+The answer is that B would go up and to the left.
+
+Specifically,
+
+B would go up by d*sin(3deg)  and would move to the left by d - d*cos(3deg).
+
+Write back if you wish and it's not too late.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

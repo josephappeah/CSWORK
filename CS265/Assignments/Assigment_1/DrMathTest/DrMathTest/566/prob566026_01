@@ -1,0 +1,42 @@
+ThreadNum: 566026
+Subject: Re: maths
+To: aini_lonli@hotmail.com (aini)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:57:37
+Sent: yes
+
+
+As aini wrote to Dr. Math
+On 08/08/2004 at 10:33:39 (Eastern Time),
+>[Question]
+>why we consider zero as even number and one as odd number?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Aini,
+
+To determine whether a number is even or not, we divide it by 2 and
+see if there is a remainder.  For example, if we divide 37 by 2, 
+
+      18
+    ____
+  2 ) 37
+      2
+      --
+      17
+      16
+      --
+       1  <-- remainder
+
+we get a remainder, so 37 is odd.  On the other hand, if we divide 24
+by 2, we get no remainder.  
+
+What happens when you divide 1 by 2?  What about when you divide 0 by 2?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

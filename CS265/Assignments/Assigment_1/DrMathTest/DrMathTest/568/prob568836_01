@@ -1,0 +1,64 @@
+ThreadNum: 568836
+Subject: Re: How do I find cos[Arcsin 1/3 + Arcsin 3/4]?
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Pete
+TimeStamp: 08/26/2004 at 00:26:50
+Sent: yes
+
+As Wheeler Flemming wrote to Dr. Math
+On 08/25/2004 at 22:44:33 (Eastern Time),
+>[Question]
+>Evaluate cos [Arcsin 1/3 + Arcsin 3/4]
+>
+>[Difficulty]
+>I don't know the first step to take! The most confusing part is the 
+>1/3 and 1/4 because they're not on the unit circle
+>
+>[Thoughts]
+
+Hi,
+
+When one writes ArcSin[1/3], this represents an angle whose sine is equal to 1/3.  
+Similarly, ArcSin[3/4] is an angle whose sine is 3/4.  So let A, B represent these angles.  We 
+have
+
+     Sin[A] = 1/3,
+     Sin[B] = 3/4,
+
+and by the circular identity Sin[x]^2 + Cos[x]^2 = 1, we have
+
+     Cos[A] = Sqrt[1 - (1/3)^2] = Sqrt[8]/3,
+     Cos[B] = Sqrt[1 - (3/4)^2] = Sqrt[5]/4.
+
+However, we must be careful in evaluting the cosines, because their signs will depend on 
+which quadrant the angles A and B lie in.  Since we know that the sines of A and B are both 
+positive, we must have
+
+     0 < A < B < Pi.
+
+However, for Pi/2 < T < Pi, Cos[T] < 0.  Keeping this in mind, we find that
+
+     Cos[ArcSin[1/3] + Arcsin[3/4]] = Cos[A+B] = Cos[A]Cos[B] - Sin[A]Sin[B],
+
+by the angle addition identity.  Substituting, we get
+
+     (Sqrt[8]/3)(Sqrt[5]/4) - (1/3)(1/4) = (2 Sqrt[10] - 3)/12,
+
+if both Cos[A] and Cos[B] > 0; that is, if A and B lie in the same quadrant.  Otherwise, if 
+they lie in different quadrants, exactly one of Cos[A] and Cos[B] is negative, giving
+
+     -(Sqrt[8]/3)(Sqrt[5]/4) - (1/3)(1/4) = -(2 Sqrt[10] + 3)/12.
+
+So in fact, there are two distinct answers, because the problem did not specify any 
+restrictions on how to evaluate the inverse sine.  If we use the "traditional" restriction of 
+the range, e.g.,
+
+     -Pi/2 < ArcSin[x] < Pi/2,
+
+it follows that the answer is (2 Sqrt[10] - 3)/12.  You may verify this numerically with a 
+calculator.
+
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

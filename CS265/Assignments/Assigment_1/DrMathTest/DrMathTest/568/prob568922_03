@@ -1,0 +1,35 @@
+ThreadNum: 568922
+Subject: Re: What is the formula for finding the volume of a horizontal 
+To: jravionics@webworkz.com (Jim)
+From: Doctor Vogler
+TimeStamp: 08/30/2004 at 14:28:13
+Sent: yes
+
+
+As Jim wrote to Dr. Math
+On 08/28/2004 at 19:47:03 (Eastern Time),
+>Thanks for the reply so quickly.  I need to solve for h and my math 
+>is as rusty as...well,  the tank.  I now the gallons but need to 
+>compute the H of the water.
+>
+>thanks again.
+>
+>Jim
+
+Hi Jim,
+
+Oh, I see.  Well, now you can't put a simple formula to get h from the
+volume, unfortunately.  You can do the table idea.  Alternately, you
+can use any of a variety of numerical methods to get h.  For example,
+if we let f(h) denote the formula that I gave you, then Newton's
+Method says to start with a guess for h (you can just start with h=r),
+and then to change h to
+
+  h - f(h)/f'(h)
+
+where f'(h) is the derivative of f(h).  Have you done calculus?  Do
+you know what derivatives are?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

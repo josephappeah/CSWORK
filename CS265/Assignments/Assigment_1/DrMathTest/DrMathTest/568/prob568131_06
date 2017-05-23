@@ -1,0 +1,56 @@
+ThreadNum: 568131
+Subject: Re: problems using intercept form
+To: ruben_mertens_@hotmail.com (Ruben)
+From: Doctor Justin
+TimeStamp: 08/24/2004 at 10:58:59
+Approved-By: Doctor Ian
+Sent: yes
+
+As Ruben wrote to Dr. Math
+On 08/23/2004 at 03:32:30 (Eastern Time),
+>Thanks for introducing me to the mathematical concept "elegancy".
+>
+>The problem is that I don't rely that much on "elegancy". It's 
+>difficult to believe that the fact you get -8/5 And 8/5 as the y-
+>intercept does totally depend on "elegancy"...
+
+Hi Ruben,
+
+What I said about "elegancy" was a little misleading, let me try to 
+clarify by writing and explaining the proof to the intercept form of 
+linear equations.
+
+For some line l, not horizontal or vertical, the x intercept (a,0) 
+and the y intercept (0,b) must exist (can you see why the x 
+intercept has y coordinate 0 and why the y intercept has x 
+coordinate 0?).  We have two points, so we can find an equation to 
+describe this line:
+
+      m = (b-0)/(0-a) = b/-a
+
+We now assume some point (x,y) exists and continue, not (x,-y), 
+which would make your form of the equation fully simplified.
+
+ (1)       b/-a = (y-b)/(x-0)
+
+ (2)      bx/-a = y - b
+
+ (3)         bx = -ay + ab
+
+ (4)    bx + ay = ab  <---Divide both sides by the quantity ab
+
+ (5)  x/a + y/b = 1  
+
+Going by this way of proof, we can see that the equation is only 
+completely simplified when x and y are not negated.
+
+You did not violate any rules by changing the equation as you did.  
+It is just that the form you had the equation in isn't as 
+informative as the correct intercept form.
+
+Does this help?
+
+- Doctor Justin, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

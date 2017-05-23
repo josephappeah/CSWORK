@@ -1,0 +1,45 @@
+ThreadNum: 566385
+Subject: Re: Using probability distribution models
+To: mterure@southerncross.school.nz (Michelle Te Rure)
+From: Doctor Anthony
+TimeStamp: 08/11/2004 at 11:44:33
+Sent: yes
+
+
+As Michelle Te Rure wrote to Dr. Math
+On 08/10/2004 at 19:21:27 (Eastern Time),
+>[Question]
+>In a warehouse, accidents have been taking place at the rate of 2 
+>every 3 months.
+>
+>If a month is chosen at random, find the probability of at least 
+one 
+>accident.
+>
+>[Difficulty]
+>Because we are using distributions I dont know really where to 
+start?
+>Im lost.
+>
+>[Thoughts]
+>Ive chosen the Poisson distribution and have calculated the mean 
+and 
+>standard deviation.
+
+
+The average in 1 month = 2/3
+
+The probability of at least 1 accident in a month
+
+        = 1 - P(no accidents)
+
+        =  1 - e^(-2/3)
+
+        =  1 - 0.513417
+
+        =  0.48658
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

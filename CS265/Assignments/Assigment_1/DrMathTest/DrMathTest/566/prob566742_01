@@ -1,0 +1,62 @@
+ThreadNum: 566742
+Subject: Re: help
+To: lilstepho@hotmail.com (nat)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 15:29:59
+Sent: yes
+
+
+As nat wrote to Dr. Math
+On 08/12/2004 at 19:45:39 (Eastern Time),
+>[Question]
+>the heart rate r of an animal decrease when its temperature t 
+>decreases. at 37 degrees its heart rate is 200 and at 32 degrees its 
+>heart rate is 140. r is a linear function of t for 26<or=t<or=38. 
+>detrermine this funtion.
+>
+>[Difficulty]
+>i dont know how to determine this funtion can you show me the 
+>correct steps
+>
+>[Thoughts]
+>
+
+Hi Nat,
+
+Suppose I'm inviting some people to dinner.  I need to spend $15 on
+stuff that I'll use regardless of how many people show up; and then
+I'll spend $10 for each person who shows up.  My cost is a linear
+function:
+
+  cost = $15 + $10*(number of people)
+
+I could use this function to generate cases,
+
+   people (x)     cost (y)
+   ----------     --------
+       0             15
+       1             25
+       2             35
+       3             45
+
+and so on.  If I plot these on a graph, all the (people,cost) pairs
+will lie on a line... which is why it's called a linear function. 
+
+In fact, if you look at the function,
+
+  cost = $15 + $10*(number of people)
+
+  cost = $10*(number of people) + $15
+
+     y =   m*x                  + b
+
+Does this look familiar? 
+
+You're trying to set up the same kind of thing.  What you need to do
+is figure out what corresponds to y, to x, to m, and to b.  
+
+Is this enough to get started? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

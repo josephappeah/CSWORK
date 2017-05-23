@@ -1,0 +1,55 @@
+ThreadNum: 567470
+Subject: Re: solving an equation with parameters
+To: mark.witteveen@xs4all.nl (Mark)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 11:08:37
+Sent: yes
+
+
+As Mark wrote to Dr. Math
+On 08/18/2004 at 09:55:44 (Eastern Time),
+>[Question]
+>(ax+b)/(cx+d) = A  solve for x
+>
+>answer should be: x = (dA-b)/(a-cA)
+>
+>[Difficulty]
+>I don't succees in getting x to one side of the equation
+>
+>[Thoughts]
+>(ax+b) / (cx+d) =A
+>ax+b = A . (cx+d)
+>x+b= (A.(cx+d))/a
+>x = (A.(cx+d))/a - b
+>x= (A.(cx+d)-ab)/a
+>x = (Acx+Ad-ab)/a
+>
+
+Hi Mark,
+
+Thanks for writing to Dr Math.  Both of your problems are solved in
+the same way:  Multiply both sides of the equation by the denominator,
+and expand the right side, as in
+
+  ax + b = A(cx + d)
+  ax + b = Acx + Ad
+
+and then subtract the x term on the right side to move it on the left,
+and the subtract the non-x term on the left side to move it on the right:
+
+  ax - Acx = Ad - b
+
+Then factor out the x and divide:
+
+  (a - Ac)x = (Ad - b)
+  x = (Ad - b)/(a - Ac).
+
+Now can you solve the other equation for z in the same manner?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

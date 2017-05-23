@@ -1,0 +1,52 @@
+ThreadNum: 567639
+Subject: Re: Proportional quantity
+To: lee.yewwah@taylors.edu.my (lee)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 10:09:40
+Sent: yes
+
+
+As lee wrote to Dr. Math
+On 08/19/2004 at 00:32:03 (Eastern Time),
+>[Question]
+>If y is proportional to x, we write y = kx as equation, k constant.
+>If y is also proportional to z , we write y = cz, c another constant.
+>Why do we write y = (constant)xz ?
+>
+>
+>[Difficulty]
+>why is x multiplied by z and not, say,  x added to z?
+>Also why not y = constant(square root xz) ?
+>
+>[Thoughts]
+>y = ax
+>y = bz
+>
+>y*y = abxz
+>  y = square root (abxz)
+
+Thanks for writing to Ask Dr. Math, Lee!
+
+For any fixed value of z, y is proportional to x.  That means that
+for all x, y = c(z)*x, where c(z) depends on z but not x.
+
+Now for any fixed value of x, y is proportional to z.  That means
+that for all z, y = z*k(x), where k(x) depends on x but not on z.
+Putting these together, for all x and z,
+
+   z*k(x) = y = c(z)*x,
+
+Now pick some value of x, such as x = 1.  Then for all z,
+
+   c(z) = c(z)*1 = z*k(1).
+
+Substituting, we have that for all x and z,
+
+   y = x*z*k(1) = (constant)*x*z.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

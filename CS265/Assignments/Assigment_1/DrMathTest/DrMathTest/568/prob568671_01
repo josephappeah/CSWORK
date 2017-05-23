@@ -1,0 +1,34 @@
+ThreadNum: 568671
+Subject: Re: something to be corrected.
+To: constatinscherr@web.de (Constantin)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 22:28:07
+Sent: yes
+
+
+Hi Constantin,
+
+>One of your answers seems not to be correct:
+>
+>http://mathforum.org/library/drmath/view/54544.html
+>"In cases where f(g(x)) = g(f(x)), the functions are inverses of each 
+>other. " 
+>The converse is true, but they don't have to be the inverse of each
+other.
+>
+>e.g. :  f(x)=1/x,  g(x)=-x      f(g(x))=-1/x = g(f(x))
+
+You're right.  We've corrected that.  Thanks for catching it!
+
+>I've just become interested in the part of functions that satisfy this
+>property  (  f(g(x))= g(f(x)) ) I would be very happy to find
+>literature or links concerning this subject.
+
+I'm not aware of any, but now that you've mentioned it, I'm interested
+in it, too.  I'll let you know if I find anything. 
+
+Thanks again,
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

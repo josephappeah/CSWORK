@@ -1,0 +1,111 @@
+ThreadNum: 567468
+Subject: Re: what is H.C.F & L.C.M
+To: samwin33@hotmail.com (SAM)
+From: Doctor Pete
+TimeStamp: 08/18/2004 at 11:40:32
+Sent: yes
+
+As SAM wrote to Dr. Math
+On 08/18/2004 at 09:34:55 (Eastern Time),
+>[Question]
+>    l don't what is H.C.F & L.C.M ?For example,what is meaning from 
+>that & how to find out?
+>
+>[Difficulty]
+>   l don't know how to find out H.C.F & L.C.M?
+>
+>[Thoughts]
+
+Hi,
+
+"HCF" stands for Highest Common Factor, which is also known as 'greatest common 
+divisor' or GCD.  The latter terminology, GCD, is used more often in the mathematical 
+literature and therefore we will use this notation instead.
+
+"LCM" stands for Least Common Multiple.
+
+Some examples may make these ideas more clear.  The GCD of two numbers, say x and y, 
+is the largest divisor of both.  So for instance,
+
+     GCD(15,27) = 3,
+
+because the largest number which divides both 15 and 27 is 3.  One way we can determine 
+the GCD is to find the prime factorization of each number, and then choose the largest 
+prime powers occurring in both.  So for example,
+
+     15 = (3)(5) = (3^1)(5^1),
+     27 = (3*3*3) = (3^3).
+
+The largest power of 3 that is common to both numbers is 3^1 = 3, and the largest power 
+of 5 that is common to both numbers is 5^0 = 1, because 5 is not a prime factor of 27.
+
+As another example, GCD(600,420) = 60, because
+
+     600 = (2*2*2)(3)(5*5) = (2^3)(3^1)(5^2),
+     420 = (2*2)(3)(5)(7) = (2^2)(3^1)(5^1)(7^1),
+
+and so the largest prime powers occurring in both are 2^2, 3^1, and 5^1, the product of 
+which is 60.
+
+The LCM of two numbers is the smallest multiple of both, so for example
+
+     LCM(10,25) = 50,
+
+because 50 is the smallest number that is a multiple of 10 as well as 25.  One way to 
+compute the LCM is to take the largest prime powers occurring in either prime 
+factorization, so
+
+     10 = (2)(5) = (2^1)(5^1)
+     25 = (5*5) = (5^2);
+
+the largest power of 2 is 2^1, and the largest power of 5 is 5^2, so the LCM is 2*25 = 50.
+
+Interestingly, the GCD can be computed without finding the prime factorization of a 
+number, by the Euclidean Algorithm.  This method is fast and is the traditional way to 
+compute the GCD.  Let's find
+
+     GCD(195,525).
+
+To do this, we compute the quotient and remainder of 525/195:
+
+     525 = 2(195) + 135.
+
+We repeat the process with the divisor and remainder of the previous step, so we want to 
+find the quotient and remainder of 195/135:
+
+     195 = 1(135) + 60.
+
+The process continues until the remainder is zero:
+
+     135 = 2(60) + 15,
+     60 = 4(15) + 0.
+
+The GCD is the last nonzero remainder, which is 15, so GCD(195,525) = 15.  Let's do 
+another:
+
+     GCD(421,597):
+
+     597 = 1(421) + 176
+     421 = 2(176) + 69
+     176 = 2(69) + 38
+     69 = 1(38) + 31
+     38 = 1(31) + 7
+     31 = 4(7) + 3
+     7 = 2(3) + 1
+     3 = 3(1) + 0,
+
+so GCD(421,597) = 1.  When the GCD of two numbers is equal to 1, we say that they are 
+relatively prime.  That is, they have no nontrivial common divisor.
+
+You might think that this algorithm is as easy as factoring the numbers, but it really is.  To 
+to see why, try to compute
+
+     GCD(59125700152712,39399572875124)
+
+by factoring the numbers, and then by using the Euclidean Algorithm.
+
+Here's a question for you:  Is there a similar algorithm to find the LCM of two numbers?
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

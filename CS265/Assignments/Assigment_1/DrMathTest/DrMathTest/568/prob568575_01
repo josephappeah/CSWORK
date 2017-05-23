@@ -1,0 +1,49 @@
+ThreadNum: 568575
+Subject: Re: 3|x+6|=9x-6
+To: AMBERANGELSTAR@MSN.COM (amber)
+From: Doctor Fenton
+TimeStamp: 08/25/2004 at 09:03:00
+Sent: yes
+
+
+As amber wrote to Dr. Math
+On 08/24/2004 at 21:20:45 (Eastern Time),
+>[Question]
+>what are the steps to get the answer i need to solve for x
+>
+>
+>[Difficulty]
+>everything i dont understand how to get the answer
+>
+>[Thoughts]
+>3|x+6| 3|x-6|
+
+Hi Amber,
+
+Thanks for writing to Dr. Math.  You can always write the absolute
+value of a quantity of a number, |a|, without the absolute values,
+if you know the sign of a.  If a >= 0, then |a| = a, and if a < 0,
+then |a| = -a.
+
+You need to break your problem into two cases.
+
+1.  What values of x make x+6 >= 0?  If x+6 >= 0, what is the
+equation when |x+6| is written without absolute value signs?  What
+must x be?
+
+2.  What values of x make x+6 < 0?  If x+6 < 0, what is the
+equation when |x+6| is written without absolute value signs?  What
+must x be?
+
+Remember to check your answer against the inequality on x for each
+case.  If you assumed that x > 3 in a problem, and come up with a 
+solution x = 1, then x=1 is not a valid solution, since 1 is not 
+greater than 3.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

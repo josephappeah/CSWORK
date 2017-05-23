@@ -1,0 +1,51 @@
+ThreadNum: 567599
+Subject: Re: finding a rule for a sequence
+To: etfaithful@juno.com (Tom)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:10:31
+Sent: yes
+
+
+As Tom wrote to Dr. Math
+On 08/18/2004 at 21:25:25 (Eastern Time),
+>[Question]
+>I found the following problem in a algebra 1 text.  Given inputs: 
+>1,2,3,4,5 with corresponding outputs 60,30,20,15,12 find outputs for 
+>inputs 6,10,30,120 and find a rule given the input that gives the 
+>output.
+>
+>[Difficulty]
+>I can calculate the outputs for successive inputs but I cannot come 
+>up with a rule for say the nth input.
+>
+>[Thoughts]
+>I get the next output by multiplying the previous output by input/
+>(input+1).  Thus finding a specific output requires the previous 
+>output.
+
+Hi Tom,
+
+Thanks for writing to Dr Math.  That's not the rule I noticed, but it
+follows from the one I noticed.  It works, so it's a place to start.  So:
+
+We start with 60.
+If our input > 1, then we multiply by 1/2.
+If our input > 2, then we multiply by 2/3.
+If our input > 3, then we multiply by 3/4.
+And we keep going up until we multiply by (input-1)/input.
+
+So let's look at the product:
+
+       1   2   3   4         input-1
+  60 * - * - * - * - * ... * -------
+       2   3   4   5          input
+
+Can you simplify this product at all?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

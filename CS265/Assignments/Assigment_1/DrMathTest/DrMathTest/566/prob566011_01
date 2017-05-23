@@ -1,0 +1,53 @@
+ThreadNum: 566011
+Subject: Re: Even
+To: sajidraheem@hotmail.com (Sajid)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 10:24:26
+Sent: yes
+
+
+As Sajid wrote to Dr. Math
+On 08/08/2004 at 03:50:25 (Eastern Time),
+>[Question]
+>Sir! My problem is that why zero is considered even? What is the 
+>condition for a number to be even? 
+>
+>[Difficulty]
+>Conditions of Even and odd..
+>
+>[Thoughts]
+>I have asked my teacher but he was unable to answer
+
+Hi Sajid,
+
+Thanks for writing to Dr Math.  An even number is a number which is a
+multiple of 2.  That is, if there is an integer n such that
+
+  2*n
+
+is your number, then your number is even.  Otherwise it is odd.  For
+example,
+
+  2*5 = 10
+
+and
+
+  2*(-7) = -14
+
+are both even numbers, as is
+
+  2*0 = 0,
+
+but 1 is not an even number, because there is no integer n such that
+
+  2*n = 1.
+
+Does that make sense?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,52 @@
+ThreadNum: 567638
+Subject: Re: How formula can I teach my kid 
+To: jim.l.king@gdwireless.com (James L. King)
+From: Doctor Jerry
+TimeStamp: 08/19/2004 at 09:44:29
+Sent: yes
+
+
+As James L. King wrote to Dr. Math
+On 08/19/2004 at 00:27:38 (Eastern Time),
+>[Question]
+>I do know how to figure when a number is stated as a specific 
+>percentage of a unknown number. The problem on his paper is 540 is 
+>120% of what number?
+>
+>
+>[Difficulty]
+>To be quite honest I am lost right from the start. The first (same) 
+>problem was 36 is 75% of what number? I figured it out but could not 
+>get the same formula to work with the other problems.
+>
+>[Thoughts]
+>The only question (of this type that I figured out was 36 is 75% of 
+>what number? I figure it out by knowing that 75% was 3 parts of 
+>100%, so I divide 36 by 3 to get 12 and then added that to the 36 to 
+>get the answer of 48.
+
+Hello James,
+
+540 is 120% of what number.
+
+For the formula, let n be the number we're looking for.  We know that
+
+n * (120/100) = 540
+
+or
+
+n*1.2 = 540
+
+So, if n times 1.2 is 540, n must be 540 divided by 1.2
+
+n = 540/1.2  = 450
+
+We can test this:
+
+450 * 1.2 = 540.
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

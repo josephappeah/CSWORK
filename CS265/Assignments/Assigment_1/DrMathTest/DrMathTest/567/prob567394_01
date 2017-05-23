@@ -1,0 +1,70 @@
+ThreadNum: 567394
+Subject: Re: Rational numbers and integers
+To: Sonnyfarms3@aol.com (Travis)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 13:57:57
+Sent: yes
+
+
+As Travis wrote to Dr. Math
+On 08/17/2004 at 21:45:39 (Eastern Time),
+>[Question]
+>My question:  Determine whether each statement is sometimes, always, 
+>or never true. ... (1) The difference of two rational numbers is an 
+>integer.  Can you help explain this to me?
+>
+>[Difficulty]
+>I don't understand it!
+>
+>[Thoughts]
+>I don't even know where to begin.
+
+Hi Travis,
+
+Let's look at something similar, but less mathematical.  Is the
+following always, sometimes, or never true?
+
+   The distance between two cities is less than 1000 miles.
+
+There are many pairs of cities for which this is true (e.g., Los
+Angeles and San Francisco, Paris and London), but there are also some
+pairs of cities for which it's not true (e.g., Paris and Sydney,
+Australia).  So the answer would be 'sometimes'. 
+
+What about this statement?  
+
+   The distance between two cities is more than a million miles.
+
+In this case, there's no place on earth that you can get to that's a
+million miles from any other place, so the answer would be 'never'. 
+
+And for 
+
+   The distance between two planets is greater than a mile,
+
+the answer would be 'always'. 
+
+So that's what kind of question this is.  If you're not sure about
+what rational numbers are, they're numbers you get when you divide one
+integer by another, e.g., 
+
+  1/2, 3/4, 17/19, 25/3, 48/6
+
+and so on.  So what you're being asked is this:
+
+  Is it possible to find two rational numbers that, when 
+  subtracted, give an integer result?  
+
+If it's possible, then the answer is 'sometimes', since it's clearly
+possible to find examples (e.g., 1/2 and 2/3) for which the difference
+is not an integer. 
+
+If it's not possible, the answer is 'never'.  (There's no way for the
+answer to be 'always'.  Do you see why?)
+
+Does this help? 
+
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

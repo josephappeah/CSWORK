@@ -1,0 +1,61 @@
+ThreadNum: 567080
+Subject: Re: word problems
+To: roxannew54@msn.com (roxanne)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 01:34:51
+Sent: yes
+
+
+As roxanne wrote to Dr. Math
+On 08/15/2004 at 23:00:47 (Eastern Time),
+>[Question]
+>if you have 6 letters abcdef this makes up a word,  and you cannot 
+>use the same letter twice in a word How many words can you use. All 
+>words consist of 6 letters   I said 192 words  .  example  abcdef  
+>you cannot use the letter A twice in the word.
+>
+>[Difficulty]
+>how do you callulate how many words
+>
+>[Thoughts]
+>i multiplied each letter by 6 there are 6 letters only can be use 
+>once which equals 192 words  6 letters makes a word and you can 
+only 
+>use the alphapbelt letter abcdef once in a word 
+
+Hi, Roxanne --
+
+I don't know what you mean when you say you "multiplied each letter 
+by 6...".  The correct answer is 720, which is 6! ("6 factorial") 
+which means 6*5*4*3*2*1 = 720.
+
+The formal mathematical way to approach this problem is as follows:
+
+You have six blanks to fill (the six letters in the word); you have 
+six letters to use to fill those blanks.
+
+(1) You have 6 choices for the first letter to put in one of the 
+blanks.
+
+(2) For each of those 6 choices you had for the first letter to put 
+in one of the blanks, you have 5 choices for the second letter to 
+put in another of the blanks.  This gives you a total of 6*5 ways to 
+fill two of the six blanks.
+
+(3) For each of those 6*5 choices you had for the first two letters 
+to put in two of the blanks, you have 4 choices left for the third 
+letter to put in another of the blanks.  This gives you a total of 
+6*5*4 ways to fill three of the six blanks.
+
+...
+
+And so on, until all the blanks have been filled with one of the 
+letters; the total number of ways of doing that will be 6*5*4*3*2*1 
+= 720.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

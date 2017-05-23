@@ -1,0 +1,77 @@
+ThreadNum: 566097
+Subject: Re: I 'm having trouble with  algebra problems 
+To: rene_latina13@cmaaccess.com (Nae)
+From: Doctor Rick
+TimeStamp: 08/09/2004 at 08:26:27
+Sent: yes
+
+Hi, Nae.
+
+As Nae wrote to Dr. Math
+On 08/08/2004 at 23:48:07 (Eastern Time),
+>[Question]
+>First of all, this is not homework. This year I am getting 
+>homeschooled and I have to take a placement test.The school said if 
+>I did good on the placement test that they could put me in tenth 
+>grade but there is one problem I don't understand algebra I doing 
+>these problems but without integers and i was wondering if you could 
+>help. For example,
+>                      -2+y=2 or -4-y=8
+>                     
+>
+>[Difficulty]
+>What I find most difficult and confusing is i dont understan how the 
+>problem is suppose to be worked out every time i see how the problem 
+>is suppose to be its really long and it confuses me and i dont 
+>understand how you are supose to work it out
+>
+>[Thoughts]
+>-2+y=2         -4-y=8
+>-2-2=-0        -4-8=4
+>y=-0            y=4
+>
+>This is how i think you work it out but when i look at the other 
+>problems they are all worked out to be longer problems
+
+Thanks for showing your working. I can't see exactly what you are 
+thinking as you do the problems, though. Why does the variable 
+disappear in the second step each time? In the first problem, it 
+appears that you just forgot about the y, and subtracted 2 from each 
+side. In the second problem, though, if you did this you wouldn't get 
+4 on the right side.
+
+Here is what you should do on the first problem: -2 + y = 2. You want 
+to get y alone on one side of the equation. To get the left side as 
+it is, starting from y alone, you would add -2 to it. To get it back 
+to y alone, you have to undo this step -- that is, subtract -2 from 
+it. This is the same as adding 2. To get an equivalent equation when 
+you add 2 to the left side, you must also add 2 to the right side:
+
+  -2 + y = 2
+  -2 + y + 2 = 2 + 2
+
+The left side can be rearranged to y + -2 + 2. You can add in any 
+order, so we can add -2 + 2 first, getting zero; and y + 0 = 0. Thus 
+we have
+
+  y = 4
+
+By adding 2 to each side, we got y alone on the left, as we wanted. 
+On the right we get the solution: y must be equal to 4 in order to 
+make the equation true.
+
+We should then CHECK OUR ANSWER by replacing y with 4 in the original 
+equation:
+
+  -2 + y = 2
+  -2 + 4 = 2
+       2 = 2
+
+Yes, it's true when y = 4: each side of the equation equals 2. We got 
+the right answer.
+
+Now can you try to do the second example in the same way?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

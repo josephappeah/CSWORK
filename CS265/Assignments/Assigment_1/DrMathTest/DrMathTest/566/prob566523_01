@@ -1,0 +1,86 @@
+ThreadNum: 566523
+Subject: Re: Pi
+To: wilson_walley@yahoo.com (Wilson)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 17:28:06
+Sent: yes
+
+
+As Wilson wrote to Dr. Math
+On 08/11/2004 at 16:11:25 (Eastern Time),
+>[Question]
+>Why is it that when I continue to increase the diameter of a circle 
+>by a fixed amount each time the amount of increase in the 
+>circumference does not rise? For example, if I take a circle 20 
+>inches the circumference is 62.8, if I increase the diameter to 25 
+>the circumference is 78.5 (difference of 15.7), if I increase the 
+>diameter to 30 the circumference is 94.25 (difference of 15.7).
+>
+>[Difficulty]
+>I would have expected the difference between the circumferences to 
+>steadily increase as I increased the diameter.
+>
+>[Thoughts]
+>Shown in section 1
+
+Hi Wilson,
+
+Thanks for writing to Dr. Math.  The circumference of a circle is a
+LINEAR function of the diameter: if C is the circumference and D the
+diameter of a circle, then
+
+   C = pi*D .
+
+If we increase the diameter by d, so that the new diameter is 
+D' = D+d, then the new circumference C' will be
+
+   C' = pi*D'
+      = pi*(D+d)
+      = pi*D + pi*d
+      = C + pi*d .
+
+The difference between the new and old circumferences is 
+
+   C' - C = pi*d .
+
+Note that this formula depends ONLY on d, the CHANGE in the diameter,
+not on the size of the diameter.
+
+Compare this to the area. The original area is
+
+   A = pi*(D/2)^2     since the radius is D/2
+     = pi*D^2/4 .
+
+The new area, after increasing the diameter to D' = D + d, is
+
+   A' = pi((D+d)/2)^2
+
+             (D^2 + 2D*d + d^2)
+      = pi * ------------------
+                      4
+
+        pi*D^2   pi*D*d   pi*d^2
+      = ------ + ------ + ------
+           4        2        4     
+
+             pi*D*d   pi*d^2
+      =  A + ------ + ------   ,
+                2        4    
+      
+so the change in area due to a change in diameter of size d is
+
+
+            pi*D*d   pi*d^2
+   A' - A = ------ + ------
+               2        4      ,
+
+so the change in area has a formula which depends on BOTH D and d,
+the (original) size of the diameter, as well as the change in the
+diameter.
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

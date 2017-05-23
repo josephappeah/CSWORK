@@ -1,0 +1,72 @@
+ThreadNum: 568042
+Subject: Re: Unknown complementary and supplementary angles
+To: vanessamperales@yahoo.com (Vanessa)
+From: Doctor Greenie
+TimeStamp: 08/21/2004 at 22:56:23
+Sent: yes
+
+
+As Vanessa wrote to Dr. Math
+On 08/21/2004 at 18:21:02 (Eastern Time),
+>[Question]
+>I keep getting confused when I end up with a question like this:
+>Find the measure of the angle that is one-half of it's supplement.
+>
+>
+>[Difficulty]
+>It's confusing because I only know that two angles adding up to 180 
+>degrees are supplement, and I don't have the supplement to solve 
+the 
+>question.
+>
+>[Thoughts]
+>x'+y'=180'
+
+Hi, Vanessa --
+
+I suppose you are using the ' to indicate a measurement in degrees.  
+That just confuses things, so let's do the problem without the 
+units.  We have, as you say,
+
+  x+y = 180
+
+You don't define what x and y are; presumably, they are the angle 
+and its supplement -- but I don't know which is which.  So I'm going 
+to say
+
+  x = angle
+  y = supplement
+
+  x+y = 180
+
+Now you need to use the other information given in the problem.  We 
+are told the angle is half its supplement.  We could then write
+
+  x = (1/2)y
+
+But I always like to avoid fraction whenever possible, because they 
+are harder to work with than whole numbers.  So I am going to say, 
+instead,
+
+  y = 2x
+
+The equation in this form says the supplement is twice the angle -- 
+which is the same as saying the angle is half its supplement.
+
+So now we have
+
+  x+y = 180
+  y = 2x
+
+Using substitution, we then get
+
+  x+2x = 180
+  3x =  180
+  x = 60
+  y = 2x = 120
+
+The angle is 60 degrees and its supplement is 120 degrees.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

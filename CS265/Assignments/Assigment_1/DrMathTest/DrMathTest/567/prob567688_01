@@ -1,0 +1,41 @@
+ThreadNum: 567688
+Subject: Re: To Dr Vogler
+To: seckshin@yahoo.com (Tan Seck Shin)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 13:27:26
+Sent: yes
+
+
+As Tan Seck Shin wrote to Dr. Math
+On 08/19/2004 at 11:54:49 (Eastern Time),
+>[Question]
+>can you prove that (p-1)^2 divides (p-1)! ?
+>
+>
+>[Difficulty]
+>This is really something i can't prove.
+>
+>
+>[Thoughts]
+>Anyway when n = 5, then (5-1)^2=16 does not divides (5-1)!=24. Or 
+>does it? then how to go about proving it?
+
+You'll notice a link in this email where you can continue the
+discussion; if you use that, the system will automatically connect
+your new comment to this question, and you won't have to continually
+address your question to me.  The system also notified me
+automatically when you do that.
+
+Anyway, you are correct that (p-1)^2 does not divide (p-1)! for p=3 or
+p=5, which is part of why those are exceptions to the theorem.  For
+p>5, however, it is true, and it is not hard to prove, since
+
+  2 < (p-1)/2 < p-1
+
+in those cases.  Do you see why this implies that
+
+  (p-1)^2 divides (p-1)!  ?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

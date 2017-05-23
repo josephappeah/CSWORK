@@ -1,0 +1,45 @@
+ThreadNum: 566236
+Subject: Re: (no subject)
+To: dkreckler@yahoo.com (Sean)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 00:46:41
+Sent: yes
+
+
+As Sean wrote to Dr. Math
+On 08/09/2004 at 22:26:37 (Eastern Time),
+>[Question]
+>Midway through a 2000 meter race, a photo is taken of five runners.  
+>It shows Meg 20 meters behind Edith.  Edith is 50 meters ahead of 
+>Wanda, who is 20 meters behind Olivia.  Olivia is 40 meters behind 
+>Nadine.  Who is ahead?
+>
+>[Difficulty]
+>Just don't understand where to start to figure out the problem.
+>
+>[Thoughts]
+>
+
+Hi Sean,
+
+Try drawing a diagram.  Meg is 20 meters behind Edith:
+
+
+     |--|--|--|--|------->             |--| = 5 m
+     M           E
+
+Edith is 50 meters ahead of Wanda, 
+
+     |--|--|--|--|--|--|--|--|--|--|--|--|--|------->             
+              W                 M           E
+
+who is 20 meters behind Olivia, 
+
+     |--|--|--|--|--|--|--|--|--|--|--|--|--|------->             
+              W           O     M           E
+
+and so on.  Can you take it from here? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

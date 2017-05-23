@@ -1,0 +1,82 @@
+ThreadNum: 566209
+Subject: Re: solving equations by factoring/using the quadratic formula
+To: loliworm34@yahoo.com (lauren)
+From: Doctor Fenton
+TimeStamp: 08/10/2004 at 08:14:06
+Sent: yes
+
+
+As lauren wrote to Dr. Math
+On 08/09/2004 at 19:00:43 (Eastern Time),
+>[Question]
+>two things... one, i don't know when i am supposed to factor and 
+>when i am supposed to use he quadratic formula. two, i don't know 
+>how to solve them even when i have an example. the problem is:
+>2xsquared-7x-4= 0
+>can you please help me solve this equation.
+>
+>[Difficulty]
+>i'm not sure which formula i should use or even how to solve it if i 
+>did.
+>
+>[Thoughts]
+>my work:
+>(2x-4)(x+4)=0
+>2x- 4= 0 or x+ 4= 0
+>x=-2 or x= -4
+
+Hi Lauren,
+
+Thanks for writing to Dr. Math.  Sometimes on an assignment, you may
+be directed to use one method or the other, just for practice and
+to show that you know the technique, very similar to the way one
+does calisthenics to get in physical shape.
+
+However, if you're solving a problem, and no method is dictated by
+a teacher, for example, you can use whatever method you wish.  With
+practice, some quadratics are easy to factor, and if I can see a
+factorization easily, I'd probably use that.  But if I can't see how 
+to factor a quadratic easily, then I would use the Quadratic Formula,
+because it ALWAYS works, and there is no guessing or trial-and-error.
+You just substitute into the formula and crank out the answer.
+
+For your factoring attempt,
+
+>2x^2-7x-4= 0
+
+you need to look at the factors of the coefficient of x^2, 2 in
+this case: 2 = 1*2, and aside from order, that is the only way to
+factor 2 (i.e. 2 is prime).  The constant term 4 can be factored in
+two ways: 4 = 1*4 or 4 = 2*2.
+
+Since 2 has only the one factorization, if the polynomial can be 
+factored with integer coefficients, then it must be of the form
+
+   (2x +/ ?) (x +/- ?)  .
+
+Since the constant term is negative, the two constant terms in the
+factors must have opposite signs, so you either have the form
+
+   (2x + ?)(x - ?)    or (2x - ?)(x + ?)  .
+
+Now it is a mattter of trial and error:  you just list all the 
+possibilities and check them out.
+
+   (2x + ?)(x - ?)    or (2x - ?)(x + ?)
+         1      4              1      4
+         4      1              4      1
+         2      2              2      2   .
+
+At worst, you have to make six computations, but you might get lucky
+and find a factorization on the first or second try.
+
+Using the Quadratic Formula eliminates all this guesswork, and
+cranks out the answer, although you may have to do some simplification.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

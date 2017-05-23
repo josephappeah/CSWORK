@@ -1,0 +1,106 @@
+ThreadNum: 566574
+Subject: Re: plz help me with this simplify
+To: Scampori@aol.com (Chris)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 13:51:54
+Sent: yes
+
+
+Hi Chris,
+
+>how do you simplify fractions like x^(4)-2x^(3)-x+2 OVER x^(3)-x^(2)-
+>x+1? I have the answer to this problem but none of my work leads up 
+>to it.
+
+The basic idea in simplification is to take something that looks like 
+
+  this + that + other
+  --------------------------
+  something + something else
+
+and convert it to something that looks like 
+
+  bibbity * bobbity * boo
+  -----------------------
+  bibbity * bobbity * hoo
+
+so that you can cancel the common factors and end up with
+ 
+  boo
+  ---
+  hoo
+
+With polynomials, that means factoring into binomials, e.g., 
+
+  x^2 + 2x + 1   (x + 1)(x + 1)   (x + 1)
+  ------------ = -------------- = -------
+    x^2 - 1      (x + 1)(x - 1)   (x - 1)
+
+Does that make sense? 
+
+>That I know the answer yet nothing my work shows brings me to that 
+>answer. Also it being a fraction hurts also.
+>
+>[Thoughts]
+>This is what I did---> from the numerator i grouped the first two 
+>terms together and the second two terms together to get: x^(3)(x-2)-1
+>(x-2) which then becomes (x^(3)-1) (x-2) 
+
+That was the hardest part!  Nicely done. 
+
+>and in the denominater i 
+>grouped as well to get----> (x^2 - 1) (x - 1) but neither the 
+>numerator or denominator is fully there plz help me get my answer to 
+>the answer (x-2) (x^2 + x + 1) OVER (x+1)(x-1) Please help me I have 
+>woked on this problem for soo long and looked it up on the web but 
+>dont understand what they are saying, plz help me
+
+So you've got
+
+  (x^3 - 1)(x - 2)
+  ----------------
+  (x^2 - 1)(x - 1)
+
+Note that the first factor in the denominator can be factored further, 
+
+    (x^3 - 1)(x - 2)
+  ---------------------
+  (x + 1)(x - 1)(x - 1)
+
+Now, there are a couple of things you might try.  One would be to
+factor (x^3 - 1) into binomials.  Another would be to guess that it's
+going to be divisible by something in the denominator, since that's
+the only way we'll be able to cancel anything. 
+
+Let's check that.  Is it divisible by (x-1)?
+
+          x^2 +  x   +  1
+         ____________________
+  x - 1 ) x^3 + 0x^2 + 0x - 1 
+          x^3 -  x^2
+          ----------
+                 x^2 + 0x
+                 x^2 -  x
+                 --------
+                        x - 1
+                        x - 1
+                        -----
+                            0
+
+So we can rewrite the numerator as
+
+  (x^2 + x + 1)(x - 1)(x - 2)
+  ---------------------------
+    (x + 1)(x - 1)(x - 1)
+
+And now we can cancel an (x - 1) from the numerator and denominator:
+
+  (x^2 + x + 1)(x - 2)
+  --------------------
+    (x + 1)(x - 1)
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

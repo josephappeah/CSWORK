@@ -1,0 +1,47 @@
+ThreadNum: 567229
+Subject: Re: Rolling the die and probability
+To: huntt156@cs.com (Taylee McKell)
+From: Doctor Anthony
+TimeStamp: 08/17/2004 at 05:28:14
+Sent: yes
+
+
+As Taylee McKell wrote to Dr. Math
+On 08/16/2004 at 23:16:16 (Eastern Time),
+>[Question]
+>I apreciate your time. The question is 
+>"A single die is rolled twice. find the probabilty of getting two
+>numbers whose sume exceeds 5"
+
+You could have  1 + 5, 6             =  2 ways
+                2 + 4, 5, 6          =  3 ways 
+                3 + 3, 4, 5, 6       =  4 ways
+                4 + 2, 3, 4, 5, 6    =  5 ways
+                5 + 1, 2, 3, 4, 5, 6 =  6 ways
+                6 + 1, 2, 3, 4, 5, 6 =  6 ways
+                                   ------------
+                               Total = 26 ways
+
+
+The total number of possible outcomes = 6 x 6 = 36 so the required 
+probability
+                  26      13
+               = ----  = ----
+                  36      18
+
+
+>
+>[Difficulty]
+>I understand probability until it adds more then one die. I know 
+that
+>in ovder to get a number that exceeds 5 is only 1/6 with one die 
+but 2
+>I don't know where to start
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 568243
+Subject: Re: find an equation of a tangent line
+To: amy_c20012001@yahoo.com.cn (Chao)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 13:54:35
+Sent: yes
+
+
+As Chao wrote to Dr. Math
+On 08/23/2004 at 13:44:02 (Eastern Time),
+>[Question]
+>Find the equation of the tangent line at the indicated point:
+>
+>f(x)=(3x^2-2)^1/2  at (3,5)
+>
+>[Difficulty]
+>I think finding the tangent line is same as finding the 
+derivative.  
+>I don't understand what do I have to do with the point.
+>
+>[Thoughts]
+>I think I should add the point to the equation of finding 
+>derviative, but I am not sure.  I don't know what is the equation 
+>either.
+
+Hello, Chao --
+
+The derivative only gives you the slope of the line at each point on 
+the graph.  To find the equation of the tangent line at the given 
+point, you need to
+
+(1) evaluate the derivative for that value of x to find the slope at 
+the given point; and
+(2) find the equation of the tangent line at that point by using the 
+point-slope form for the equation of a line, using the given point 
+and the slope at that point as determined in (1)
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

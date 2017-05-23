@@ -1,0 +1,50 @@
+ThreadNum: 566737
+Subject: Re: what would be my percentage?
+To: s_stefanac@hotmail.com (steve)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 20:34:56
+Sent: yes
+
+
+As steve wrote to Dr. Math
+On 08/12/2004 at 19:28:46 (Eastern Time),
+>[Question]
+>I had 7 tests. these are my grades.  94,90,88,88,86,84,80
+>Now on the Final I got a 91.7% and this is worth 25% of my grade, 
+>what would be my average?
+>
+>[Difficulty]
+>because if their is 7 tests and the final is one more test to make 
+>it 8. then 25% of 8 equals 2. So I figure add two more tests on to 
+>my grade and find the average. But if I do that then I have 9 tests 
+>and 25% of 9 is not 25% So Im lost? Where am I going wrong?
+>
+>[Thoughts]
+>AGHHHH!!!!
+
+Hi, Steve --
+
+Yes, this kind of problem can be very confusing.  The final is 25% 
+of your grade and your other test are (presumably) 75% of your 
+grade.  These percentages represent 1/4 of your grade and 3/4 of 
+your grade -- so you want to count your average on the 7 tests as 3 
+tests and your score on the final as 1 test.
+
+So you have
+
+  average on first 7 tests:
+    (94+90+88+88+86+84+80)/7 = 610/7 = 87.1...
+
+  score on final: 91.7
+
+Then your overall average is found by counting your earlier test 
+average 3 times as much as the score on the final:
+
+  average = (3(87.1...) + 91.7)/4 = 88.28...
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,170 @@
+ThreadNum: 566417
+Subject: Re: Freecell
+To: eubie@bellsouth.net (Christopher)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 23:59:00
+Sent: yes
+
+
+As Christopher wrote to Dr. Math
+On 08/12/2004 at 21:41:55 (Eastern Time),
+>Dear Doctor  Ian,
+>
+>All six of us would like to thank you for your explanation of the 
+>Freecell problem. We read the problem again and agree that your 
+>answer is excellent. We can only imagine how busy you must be and 
+>that makes us appreciate your help even more. But if you have the 
+>time, could you explain the math of the probability of winning 23 
+>games out of 26 given an 86% probability of winning each hand?
+>
+>Thanks in advance
+>
+>Chris Kaloroplos
+
+Hi Christopher, 
+
+The first thing to note is that you don't necessarily have an 86%
+probability of winning each hand.  What you have is a long-term win
+rate of just under 86%.  Presumably you're getting better at the game
+as you continue to play it, no? 
+
+For illustrative purposes, let's say you're terrible at Freecell when
+you start out, winning just 10% of your games.  After a week, you're
+winning 30%, then 50%, then 70%, and by the fifth week you're winning
+90% of the games you play.  If you play 100 games a week, your
+long-term win rate will be
+
+   10 +  30 +  50 +  70 +  90   250
+  --------------------------- = --- = 50% 
+  100 + 100 + 100 + 100 + 100   500
+
+Does this mean that your probability of winning the next game is 50%? 
+
+Let's look at a simpler version of the Freecell situation. Suppose we
+put 100 balls into a jar.  75 of them are labeled 'W', and 25 of them
+are labeled 'L'.  If we just reach into the jar and pull out a ball,
+the probability of getting a 'W' is 75/100 (or 3/4), and the
+probability of getting a 'L' is 25/100 (or 1/4):
+
+  W: (3/4)
+  L: (1/4)
+
+Now suppose we do it again.  Our list of possibilities looks like
+
+  WW: (3/4)(3/4)
+  WL: (3/4)(1/4)
+  LW: (1/4)(3/4)
+  LL: (1/4)(1/4)
+
+If we do it again, we get
+
+  WWW: (3/4)(3/4)(3/4)
+  WWL: (3/4)(3/4)(1/4)
+  WLW: (3/4)(1/4)(3/4)
+  WLL: (3/4)(1/4)(1/4)
+  LWW: (1/4)(3/4)(3/4)
+  LWL: (1/4)(3/4)(1/4)
+  LLW: (1/4)(1/4)(3/4)
+  LLL: (1/4)(1/4)(1/4)
+
+And if we do it a fourth time, we get
+
+  WWWW: (3/4)(3/4)(3/4)(3/4)
+  WWWL: (3/4)(3/4)(3/4)(1/4)
+  WWLW: (3/4)(3/4)(1/4)(3/4)
+  WWLL: (3/4)(3/4)(1/4)(1/4)
+  WLWW: (3/4)(1/4)(3/4)(3/4)
+  WLWL: (3/4)(1/4)(3/4)(1/4)
+  WLLW: (3/4)(1/4)(1/4)(3/4)
+  WLLL: (3/4)(1/4)(1/4)(1/4)
+  LWWW: (1/4)(3/4)(3/4)(3/4)
+  LWWL: (1/4)(3/4)(3/4)(1/4)
+  LWLW: (1/4)(3/4)(1/4)(3/4)
+  LWLL: (1/4)(3/4)(1/4)(1/4)
+  LLWW: (1/4)(1/4)(3/4)(3/4)
+  LLWL: (1/4)(1/4)(3/4)(1/4)
+  LLLW: (1/4)(1/4)(1/4)(3/4)
+  LLLL: (1/4)(1/4)(1/4)(1/4)
+
+Now, we can ask:  If we actually pull 4 balls out, what is the
+probability that we'll end up with 3 W's and 1 L?  To find out, we
+identify those events, and add up their probabilities:
+
+  WWWL: (3/4)(3/4)(3/4)(1/4)    27/256
+  WWLW: (3/4)(3/4)(1/4)(3/4)    27/256
+  WLWW: (3/4)(1/4)(3/4)(3/4)    27/256
+  LWWW: (1/4)(3/4)(3/4)(3/4)    27/256
+                               -------
+                               108/256
+
+So even though 3 W's and 1 L is the most likely event, we should
+expect to end up with that less than half the time.  In fact, if we
+group our outcomes by the ratio of W's to L', we get
+
+  4:0   WWWW: (3/4)(3/4)(3/4)(3/4)     1*81/256 =  81/256
+
+  3:1   WWWL: (3/4)(3/4)(3/4)(1/4)     4*27/256 = 108/256
+        WWLW: (3/4)(3/4)(1/4)(3/4)
+        WLWW: (3/4)(1/4)(3/4)(3/4)
+        LWWW: (1/4)(3/4)(3/4)(3/4)
+
+  2:2   WWLL: (3/4)(3/4)(1/4)(1/4)     6*9/256  =  54/256
+        WLWL: (3/4)(1/4)(3/4)(1/4)
+        WLLW: (3/4)(1/4)(1/4)(3/4)
+        LWWL: (1/4)(3/4)(3/4)(1/4)
+        LWLW: (1/4)(3/4)(1/4)(3/4)
+        LLWW: (1/4)(1/4)(3/4)(3/4)
+  
+  1:3   WLLL: (3/4)(1/4)(1/4)(1/4)     4*3/256  =  12/256
+        LWLL: (1/4)(3/4)(1/4)(1/4)      
+        LLWL: (1/4)(1/4)(3/4)(1/4)
+        LLLW: (1/4)(1/4)(1/4)(3/4)
+
+  0:4   LLLL: (1/4)(1/4)(1/4)(1/4)     1*1/256  =   1/256
+
+So even though you have a 75% chance of 'winning' each draw (i.e.,
+drawing a W), you have a better than 30% chance of winning 4 games in
+a row. 
+
+Looking again at the table 
+
+  4:0      1 * (3/4)^4 * (1/4)^0  =  81/256
+
+  3:1      4 * (3/4)^3 * (1/4)^1  = 108/256
+
+  2:2      6 * (3/4)^2 * (1/4)^2  =  54/256
+  
+  1:3      4 * (3/4)^1 * (1/4)^3  =  12/256
+
+  0:4      1 * (3/4)^0 * (1/4)^4  =   1/256
+
+there are a couple of things we might notice.  The first is that the
+coefficients 1, 4, 6, 4, 1 come from the 5th row of Pascal's triangle.
+ The second is that the exponents always add up to 5.  
+
+To return to the Freecell situation, we want to consider the case
+where the probability of winning is 86/100 instead of 75/100, and we
+want to consider the case where we play 26 games instead of 5.  We can
+start by finding the elements of the 26th row of Pascal's triangle:
+
+  26:0      1 *
+  25:1     25 *
+  24:2    300 *
+  23:3   2300 *
+
+Then we'll multiply by the probabilities of winning and losing, raised
+to the appropriate exponents:
+
+  26:0       1 * (0.86)^26 * (0.14)^0
+  25:1      25 * (0.86)^25 * (0.14)^1
+  24:2     300 * (0.86)^24 * (0.14)^2
+  23:3    2300 * (0.86)^23 * (0.14)^3  = 0.197
+
+So there is about a 20% chance that you'd win exactly 23 out of 26
+games.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

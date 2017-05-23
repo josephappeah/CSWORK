@@ -1,0 +1,23 @@
+ThreadNum: 568836
+Subject: Re: How do I find cos[Arcsin 1/3 + Arcsin 3/4]? (Correction)
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Pete
+TimeStamp: 08/26/2004 at 00:32:15
+Sent: yes
+
+Hi,
+
+I made a few typos in my response, although the answer itself is correct; the correct 
+evaluation should be
+
+     Cos[ArcSin[1/3] + ArcSin[3/4]]
+   = Cos[A + B]
+   = Cos[A]Cos[B] - Sin[A]Sin[B]
+   = (Sqrt[8]/3)(Sqrt[5]/4) - (1/3)(3/4)
+   = (Sqrt[10]/6) - 1/4
+   = (2 Sqrt[10] - 3)/12,
+
+assuming A and B are in the same quadrant.
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,50 @@
+make -f java.mak
+#0	SUCCESS (drawer was successfully changed)
+#1	Bad arguments (format/number)
+#2	Amounts don't jibe. E.g., left- and right-hand side of change aren't equal, or amount tendered is less than purchase price
+#3	Drawer has insufficient money or denominations to make proper change
+#4	Unable to read/write data file
+
+#-------test set 1 no errors-----------#
+# Initialize the till with fifteen $1 one $5 two $10 four $20
+./assn4 init 120 = 15 1 2 4 
+# Purchase $38 with two $20s:
+./assn4 purchase 38 = 0 0 0 2
+#output:2 0 0 0
+# Change a five for 5 ones
+./assn4 change 0 1 = 5 
+#output:5 0 0 0
+# Change a 20 for a ten, five and five ones:
+./assn4 change 0 0 0 1 = 5 1 1 0	
+# Report the contents of the till
+./assn4 report
+#output: 38 : 158 = 3 1 1 7 
+
+#-----test set 2 error code 1,2,3-------#
+# try to Initialize given bad args outputs error 1 
+./assn4 init 10=5200
+# Initialize the till with a two five dollar bills and five ones.
+./assn4 init 10 = 5 2 0 0 
+# Verify input for init (that amounts match):
+#output: return code 2 
+# Purchase $38 with two $20s:
+./assn4 purchase 38 = 0 0 0 2
+#oputut:2 0 0 0
+# Change a five for 5 ones
+./assn4 change 0 1 = 5 
+#ouput: error code 3
+# Change a 20 for a ten, five and five ones:
+./assn4 change 0 0 0 1 = 5 1 1 0
+#output: error code 3
+# Report the contents of the till
+./assn4 report
+#ouptut:76 : 196 = 1 1 1 9
+
+# Initialize the till with fifteen $1 one $5 two $10 four $20
+./assn4 init 120 = 15 1 2 4 
+#change five $20s for 100 $1s 
+./assn4 change 0 0 0 5 = 100 
+#output: return code 3 
+
+
+

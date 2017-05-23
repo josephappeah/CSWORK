@@ -1,0 +1,101 @@
+ThreadNum: 566799
+Subject: Re: Polynomial
+To: hualogeng@hotmail.com (Lorex)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:41:08
+Sent: yes
+
+
+As Lorex wrote to Dr. Math
+On 08/14/2004 at 07:02:25 (Eastern Time),
+>Thanks for your reply. Your explaination do make sense to me.
+>However, i am in the Pre-U level of mathematics. Normally, in one 
+>question, if i want to use some statement, identity, or law, i have 
+>to prove it first before i can proceed.
+>From common sense and our experience working with polynomials, i know 
+>that polynomials function is a smooth, continuous function. But this 
+>is base on what our mind thinking, in order to use this statement to 
+>explain, i have to prove it first (if not, my teacher will only give 
+>50% of mark). 
+>Now this is the problem, how can we prove this statement ?
+>
+>The second question is, according to your method,it seen like i can 
+>simply substitute a value for X into the function f(x), and if i 
+>found that
+>f(m) > 0   and f(n) < 0 , then i can state that there must exist at 
+>least a root which lies between n and m, ie n < x < m   , am i right ?
+>
+>if like that, this kind of inequality seen like doesn't help us much 
+>in order to determine the range of the roots because the value of M 
+>and N can be very small or very big as long as one of them is 
+>positive and another one is negative, am i right ? 
+>
+>the third question is, is there exist any method to determine the 
+>range of the roots for an polynomial equation?
+>
+>The fourth question is, from your explaination, you make me feel that 
+>there is some function which is not continuous, can you tell me some 
+>examples and together with the prove why that are called not 
+>continuous.
+>
+>Thanks you for your help.
+
+Hi Lorex,
+
+The law that Dr Greenie implicitly referred to is called the
+
+  Intermediate Value Theorem,
+
+and you can find a proof of it in any good calculus or analysis text.
+
+Secondly, yes, you only need to find n and m such that
+
+  f(n) < 0 < f(m)
+
+and then you know that f(x) has a root between n and m, as long as
+f(x) is a continuous function.  If you are concerned that the range
+from n to m (or from m to n) is too large, then choose a point k in
+between n and m, and check if f(k) is positive or negative.  In this
+way, you can cut your interval in half.  Repeat as much as you like to
+get as small an interval as you want.
+
+Third, yes again.  You can write out general formulas for bounds
+involving the degree of the polynomial and all of the coefficients. 
+For example, if
+
+  f(x) = x^n + a_(n-1)*x^(n-1) + ... + a_2*x^2 + a_1*x + a_0
+
+then every root x of f(x) = 0 has
+
+                 n-1
+  |x| <= max( 1, sum |a_i| )
+                 i=0
+
+which is easily proven by dividing f(x) = 0 by x^(n-1) and then using
+the triangle inequality.  This is not the best bound that can be
+found, but it's easy to prove.
+
+Fourth, there most certainly are discontinuous functions.  I will let
+you prove that they are not continuous, but I can give you some examples:
+
+  f(x) = [x],
+
+the so-called "greatest integer function" or "floor function" which
+returns the largest integer less than or equal to x.  This is
+discontinuous at every integer value of x, continuous at all
+non-integer values.
+
+           0:  if x is rational
+  g(x) = {
+           1:  if x is irrational
+
+This function is discontinous at every value for x, and it provides a
+nice counterexample for many false theorems.
+
+If you have any other questions about this or need more help, please
+write back and show me what you have been able to do, and I will try
+to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

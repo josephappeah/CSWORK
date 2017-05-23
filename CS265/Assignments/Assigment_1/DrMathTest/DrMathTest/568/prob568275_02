@@ -1,0 +1,91 @@
+ThreadNum: 568275
+Subject: Re: Why is e an irrational number?
+To: dinoboi13@aol.com (Prez)
+From: Doctor Fenton
+TimeStamp: 08/23/2004 at 17:47:58
+Sent: yes
+
+
+As Prez wrote to Dr. Math
+On 08/23/2004 at 17:03:36 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Prez,
+
+Thanks for writing to Dr. Math.  While it is usually difficult to show
+that a number is irrational (except for square roots of non-perfect 
+squares), it isn't very hard to show that e must be irrational,
+provided you accept that
+
+               1    1    1    1          1
+   e = 1 + 1 + - + -- + -- + -- + ... + -- + ...   .
+               2   3!   4!   5!         n!
+
+Suppose e is rational, so that there are integers p and q with
+
+       p
+   e = -
+       q   ,
+
+so that qe = p is an integer.  Then q! * e is also an integer, and
+
+                      1    1          1           1        1
+   q! e = q! [1 + 1 + - + -- + ... + -- ] + q![------ + ------ + ... ]
+                      2   3!         q!        (q+1)!   (q+2)!
+
+The first term on the right side is clearly an integer, and the second 
+term can be written
+
+    1         1              1
+   --- + ---------- + --------------- + ...
+   q+1   (q+1)(q+2)   (q+1)(q+2)(q+3)
+
+which is less than
+
+    1         1              1
+   --- + ---------- + --------------- + ...
+   q+1   (q+1)(q+1)   (q+1)(q+1)(q+1)
+
+which equals
+
+    1       1         1
+   --- + ------- + ------- + ...  .
+   q+1   (q+1)^2   (q+1)^3
+
+This last series is a geometric series, whose sum is
+
+     1/(q+1)          1       1
+    ----------- = --------- = - < 1
+    1 - (1/q+1)   (q+1) - 1   q      .
+
+This means that we can rewrite the equation
+
+                      1    1          1           1        1
+   q! e = q! [1 + 1 + - + -- + ... + -- ] + q![------ + ------ + ... ]
+                      2   3!         q!        (q+1)!   (q+2)!
+
+as
+
+                      1    1          1           1        1
+   q! e - q! [1 + 1 + - + -- + ... + -- ] = q![------ + ------ + ... ]
+                      2   3!         q!        (q+1)!   (q+2)!
+
+but the left side of this equation is an integer, while the right
+side is a number between 0 and 1, which is impossible.
+
+So, assuming that e is rational leads to a contradiction, so e must
+not be rational.
+    
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

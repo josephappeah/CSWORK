@@ -1,0 +1,46 @@
+ThreadNum: 567646
+Subject: Re: solve
+To: moongirl_1366@yahoo.com (sara)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 09:59:09
+Sent: yes
+
+
+As sara wrote to Dr. Math
+On 08/19/2004 at 02:26:57 (Eastern Time),
+>[Question]
+>how can I solve
+>(x-1)(-sinx)=cosx
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Sara!
+
+You can rewrite this in the form
+
+   cot(x) = 1 - x.
+
+Equations of this kind cannot be solved algebraically.  Solutions
+can sometimes be found by inspection, but in general, only numerical
+solution is effective.  In this case, one can use Newton's Method
+to find approximations to solutions.  From the graph, one can see
+that there are infinitely many solutions: for each integer n, there
+is one in the interval (n*Pi,[n+1]*Pi).
+
+Pick a starting value x(0).  Then for each integer k >= 0, compute
+
+   x(k+1) = x(k) - (x(k)-1+cot[x(k)])/(1-csc^2[x(k)]).
+
+Then when x(k+1) and x(k) agree to the degree of accuracy desired,
+you have the approximate solution sought.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

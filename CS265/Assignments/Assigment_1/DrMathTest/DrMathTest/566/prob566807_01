@@ -1,0 +1,65 @@
+ThreadNum: 566807
+Subject: Re: Sum of digits
+To: el_ninogold@yahoo.com.sg (Steven)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 08:53:49
+Sent: yes
+
+
+As Steven wrote to Dr. Math
+On 08/13/2004 at 09:08:32 (Eastern Time),
+>[Question]
+>Find the sum of the digits appearing in the integers 1,2,3, …, 10^n -
+>1.
+>
+>[Difficulty]
+>I have tried to work out the answer but is unsure how to proceed 
+>further.
+>
+>[Thoughts]
+>S_n = 1 + 2 + 3 +...+ 10^n - 1
+>S_n = 10^n -1 + 10^n -2 +...+ 3 + 2 + 1
+>2S_n= 10^n + 10^n +... 10^n
+>
+>         10^n + 10^n +... 10^n        x(10^n)
+>  S_n =  ---------------------   = -------------
+>                  2                      2
+>
+>When n = 1, S_1 = 1 + 2+ 3 +...+ 9 = 45
+>When n = 2, S_2 = 1 + 2+ 3 +...+ 99 = 4950
+>
+>             x(10^1)
+>S_1 = 45 = ------------
+>                2
+>
+>10x = 90
+>x = 9
+
+Hi Steven,
+
+Thanks for writing to Dr Math.  Line up your numbers like this:
+
+  00000
+  00001
+  00002
+  00003
+   ...
+  99999
+
+(This was drawn for n=5, but you can imagine the same chart for any
+other n.)  Notice that all of the zeros I threw in won't add anything
+to the final sum of digits.  Now consider this:  How many numbers are
+there in the list?  How many times does the 0 digit appear in any one
+column?  What about the other digits?  So how many times does each
+digit appear in the whole chart?  Now multiply that by 0, 1, 2, ... 9
+and add them all together.  Or, more easily, first add 0+1+2+...+9 and
+then multiply by the number of times each digit appears.
+
+Does that make sense to you?  Do you understand why it works?  If you
+have any other questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

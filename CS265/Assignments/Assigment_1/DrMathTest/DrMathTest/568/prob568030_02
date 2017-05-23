@@ -1,0 +1,79 @@
+ThreadNum: 568030
+Subject: Re: area of circles
+To: www.amyliu2020@yahoo.com (Amy)
+From: Doctor Dotty
+TimeStamp: 08/21/2004 at 23:26:17
+Sent: yes
+
+
+As Amy wrote to Dr. Math
+On 08/21/2004 at 15:31:40 (Eastern Time),
+>[Question]
+>How many square inches are in the area of the largest circle which 
+>can be drawn on a piece of paper measuring 8"x11". Express your 
+>answer in terms of Pi.
+>
+>[Difficulty]
+>everything
+>
+>[Thoughts]
+>nothing
+
+Hi Amy,
+
+Thanks for the question.
+
+Here is a circle drawn inside a rectangle:
+
+  _ _ _ _ _ _ _ _ _11_ _ _ _ _ _ _ _ _ _
+ |              *   *                    |
+ |          *           *                |
+ |                                       |
+ |       *                 *             |
+ |                                       |
+ |      *         .         *            |8
+ |                                       |
+ |       *                 *             |
+ |                                       |
+ |          *           *                |
+ | _ _ _ _ _ _ _*_ _*_ _ _ _ _ _ _ _ _ _ |
+
+Can you see from the diagram that the diameter (distance across 
+circle through the centre) of the largest circle that will fit is 8?
+
+There is a formula which we use to find the area of a circle:
+
+    Area = Pi * Radius * Radius
+
+Or simplified that is:
+
+    Area = Pi * Radius^2      [where ^2 means squared].
+
+Now, Pi is a number. It is always the same - it is roughly 3.14. Out 
+of interest, it is the circumference of any circle (distance around 
+the outside) divided by the diameter.
+
+The radius is the distance from the centre of a circle to the 
+outside. It is therefore half of the diameter. Can you see why?
+
+So for our circle we have a radius of 8/2 = 4. This gives:
+
+    Area = Pi * Radius * Radius
+
+    Area = 3.14 * 4 * 4
+
+Can you work that out to find the area?
+
+By the way, if you would like to know where the formula for the area 
+of a circle came from, it is explained here:
+
+    http://mathforum.org/library/drmath/view/62504.html
+
+Does that help? 
+
+Write back if you want any of those steps explaining in more detail, 
+or if you have any other questions.
+
+- Doctor Dotty, The Math Forum
+  <http://mathforum.org/dr.math/>
+

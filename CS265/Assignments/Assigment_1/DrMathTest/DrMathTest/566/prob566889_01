@@ -1,0 +1,71 @@
+ThreadNum: 566889
+Subject: Re: proving of sequence
+To: qwqqwqcn@yahoo.com.cn (Wuyicheng)
+From: Doctor Fenton
+TimeStamp: 08/14/2004 at 15:16:00
+Sent: yes
+
+
+As Wuyicheng wrote to Dr. Math
+On 08/14/2004 at 05:36:05 (Eastern Time),
+>[Question]
+>     a(1)+2*a(2)+3*a(3)+.....+n*a(n)
+>b(n)=-------------------------------  The "n" means subscript
+>      1+2+3+....................+n
+>The a(n) is a arithmetic progression,to prove the b(n) is also a 
+>arithmetic progression.
+>This problem may take you some time,thank you!
+>
+>[Difficulty]
+>I had thought it for 20 minutes and compute it also for 20 
+>minutes,but it's no faring.
+>
+>[Thoughts]
+>                               n*(n+1)
+>a(1)+2*a(2)+3*a(3)+...+n*a(n)=--------b(n)         [1]
+>                                  2
+>                               n*(n-1)
+>a(1)+2*a(2)+....+(n-1)*a(n-1)=---------b(n-1)      [2]
+>                                  2
+>then [1]-[2]
+>      n+1        n-1
+>a(n)=-----b(n) - ----b(n-1);
+>       2          2
+>That's all my work
+
+Hi Wuyicheng,
+
+Thanks for writing to Dr. Math.  What you need to show is that
+the difference of successive b terms is independent of the index,
+so you need to show that
+
+   b(n+1) - b(n)
+
+does not depend upon n, given that a(n+1)-a(n) does not depend upon
+n.  Let d = a(n+1)-a(n).  Then a(n) = a(1)+(n-1)d, and
+
+  a(1)+2*a(2)+3*a(3)+...+n*a(n) =
+
+ a(1)+2*[a(1)+d]+3*[a(1)+2d]+...+n*[a(1)+(n-1)d] =
+
+ a(1)[1+2+3+...+n] + d[2*1+3*2+4*3+...+n(n-1)]
+
+Since k(k-1)= k^2-k, the sum 
+
+  2*1+3*2+...+k(k-1)+...+n(n-1) = (1^2-1)+(2^2-2)+(3^2-3)+...+(n^2-n)
+                                =(1^2+2^2+...+n^2)-(1+2+3+...+n)
+
+You can use standard summation formulas to simplify these expressions,
+and then show algebraically that 
+
+   b(n+1)-b(n)
+
+does not depend upon n by computing its formula explicitly.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

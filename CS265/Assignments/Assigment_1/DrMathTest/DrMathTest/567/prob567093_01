@@ -1,0 +1,51 @@
+ThreadNum: 567093
+Subject: Re: mean valur theorm
+To: wallystudent@yahoo.com (Wally)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 08:16:14
+Sent: yes
+
+
+As Wally wrote to Dr. Math
+On 08/16/2004 at 01:34:40 (Eastern Time),
+>[Question]
+>given a funtion f(x) = e^(-x^2). find a formula for a function F so 
+>that F prime of x  = f(x). 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I tried to use the mean value theorem because this function is 
+>continusley differentiable on the real numbers, then I can use it. 
+>But I couldn't end up with a solution. And as we know that it is 
+>very hard to find the integration for this given fuction.
+>Also, I tried to use the second fundemantel theorem of calculus and 
+>didn't work either.
+>
+>Please help me out. I just need a hint or so...
+
+Hi Wally,
+
+Your idea to use the Fundamental Theorem of Calculus is the right
+track.
+
+I think the following answer from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/52018.html
+
+I found it by searching on these keywords:
+
+  Fundamental Theorem of Calculus (phrase)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

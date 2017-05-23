@@ -1,0 +1,36 @@
+ThreadNum: 568432
+Subject: Re: Geometry
+To: farheen_butt2000@yahoo.com (Farheen)
+From: Doctor Ian
+TimeStamp: 08/31/2004 at 09:47:18
+Sent: yes
+
+
+As Farheen wrote to Dr. Math
+On 08/31/2004 at 08:21:42 (Eastern Time),
+>[Question]
+>What is the difference between point of intersection and point of 
+>concurrance?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>i think point of intersection of more than two lines is called point 
+>of concurrancy? but why is it convention?
+
+Hi Farheen,
+
+As I understand it, two lines are concurrent if they intersect in a
+single point.  So the location of that point would be their point of
+concurrency. 
+
+Two lines can intersect at one point (if they are concurrent), or at
+infinitely many points (if they are identical).  So that seems to be
+the reason for making the distinction. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

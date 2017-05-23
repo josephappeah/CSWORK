@@ -1,0 +1,64 @@
+ThreadNum: 567418
+Subject: Re: I don't get algebra!
+To: crazi_janc@hotmail.com (jan)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 14:08:58
+Sent: yes
+
+
+As jan wrote to Dr. Math
+On 08/17/2004 at 23:54:42 (Eastern Time),
+>[Question]
+>Dear Dr. Math,
+>
+>Math is one of my worst subjects and i have a test on algebra coming 
+>up, so can you please help me?
+>
+>I dont no how to solve questions simmilar to this: 11D-4D+D=(-8
+>I don't get it! 
+>
+>[Difficulty]
+>I dont get how you're supposed to move the numbers around.
+>
+>[Thoughts]
+>I think you have to simplify it like this: 11D-4D= 7D, so 7D plus D = 
+>7+2D=(-8)?? im stuck!
+
+Hi Jan,
+
+The first thing to realize is that when we write 
+
+  11D
+
+that's just a lazy way of writing
+
+  11 times D
+
+So you're starting with 
+
+  11*D - 4*D + 1*D = -8
+
+So far, so good?  Okay, now suppose we change it around a little:
+
+  11*5 - 4*5 + 1*5 = ?
+
+We could go ahead and do three multiplications, and then add the
+products... or we could use the distributive property, which would let
+us do three additions and one multiplication:
+
+  (11 - 4 + 1)*5 = ?
+
+             8*5 = ?
+
+              40 = ?
+
+Does this look familiar?  Back to the original equation.  Since D is
+just a number whose value we don't know yet, we can do the same thing:
+
+  (11 - 4 + 1)*D = -8
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

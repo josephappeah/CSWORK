@@ -1,0 +1,58 @@
+ThreadNum: 568071
+Subject: Re: Gaussian elimination
+To: twinnies_flower_power@hotmail.com (Tash)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 09:47:07
+Sent: yes
+
+
+As Tash wrote to Dr. Math
+On 08/22/2004 at 01:32:51 (Eastern Time),
+>[Question]
+>Use Gaussian elimination to solve the systems of equations~
+>x+2y-z=-2
+>2x-y-2z=6
+>x+y-3z=6
+>
+>Also, Use Gaussian elimination to find the inverse of the matrix~
+>[1  1  1]
+>[2  3  1]
+>[0  2 -1]
+>
+>[Difficulty]
+>I have researched the Gaussian elimination method and find it very 
+>confusing and hard!
+>
+>[Thoughts]
+>NA
+
+Hello Tash,
+
+Try
+
+http://mathworld.wolfram.com/GaussianElimination.html
+
+If you still have questions, please write again.
+
+To find the inverse, one ajoins the identiy and then does row operations until the identity 
+appears where the matrix was.
+
+
+[1  1  1  1   0  0]
+[2  3  1   0  1  0]
+[0  2 -1  0  0  1]
+
+
+First step: add to row 2   -2 times row 1:
+
+[1  1   1    1   0  0]
+[0  1  -1  -2  1  0]
+[0  2  -1    0  0  1]
+
+Next, add to row 1   -1 times row 2, Etc.  You should find
+
+{{-5, 3, -2}, {2, -1, 1}, {4, -2, 1}}
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,41 @@
+ThreadNum: 567373
+Subject: Re: finding the pattern
+To: ebrown@hspower.com (beth brown)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 22:37:29
+Sent: yes
+
+
+As beth brown wrote to Dr. Math
+On 08/17/2004 at 20:30:55 (Eastern Time),
+>[Question]
+>What numbers should fill in the blanks, and what is the pattern's 
+>core? 98,84,_____, 56, 52, 28,_____
+>
+>[Difficulty]
+>I can not find a pattern.
+>
+>[Thoughts]
+>I thought the pattern was add 4 then add 24, but the last two 
+numbers 
+>do not fit that pattern.
+
+Hi, Beth --
+
+For a 9-year-old, the pattern should be a relatively simple one.
+
+There is no easy pattern for the numbers you show.  However, if we 
+change the "52" to "42", then the numbers are formed by subtracting 
+14 each time.  Then the sequence is
+
+  98, 84, 70, 56, 42, 28, 14, 0
+
+And so the two missing numbers are 70 and 14.
+
+I suspect this is supposed to be the way this problem works out.  
+You probably just copied the "52" wrong when you wrote the problem 
+down....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

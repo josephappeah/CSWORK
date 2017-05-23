@@ -1,0 +1,112 @@
+ThreadNum: 568568
+Subject: Re: Lightning strike, then  shark attack on the same person?
+To: wryrytr@juno.com (Dave Tozier, Sacramento-area, N. CA USA)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 09:39:58
+Sent: yes
+
+
+Hi Dave,
+
+>A new (?) book states that the former's 1 in 39,000/ the later's, 
+>1 in 3.7 million. Is the probabily of BOTH (to one individual) 1 in 
+>(39,000 TIMES 3.7 million)?
+
+That would be the case if the events are independent.  When you're
+doing things like rolling dice and drawing cards from a deck, it's
+easy to declare independence (ha, ha).  But when you're talking about
+real-world events, it's not so easy.  
+
+For example, let's suppose that in a given year in the United States,
+3 million people a year suffer from chicken pox , and 3 million people
+a year suffer from strokes.  (I'm just making these numbers up, by the
+way, because the actual values aren't relevant to the point I'm trying
+to make.) 
+
+We might easily conclude that given a population of 300 million or so,
+the probability that you'll get chicken pox in a given year is about 1
+in 300, and the probability that you'll get a stroke in a given year
+is about 1 in 300, so the probability that you'll get BOTH chicken pox
+and a stroke in a given year is 1 in 300^2.  
+
+We might easily conclude that, but we would be wrong.  :^D
+
+Why?  Because most people who get chicken pox are less than 12 years
+old, and post people who have strokes are more than 50 years old.  So
+the actual probability we want is given by Bayes's theorem, 
+
+  P(pox,stroke) = P(stroke|pox) * P(pox)
+
+where
+
+  P(pox,stroke)     is the probability of getting both chicken
+                    pox AND a stroke in the same year.
+
+  P(stroke|pox)     is the probability of getting a stroke in 
+                    a given year, PROVIDED that you've have 
+                    chicken pox in the same year. 
+
+  P(pox)            is the probability of getting chicken pox
+                    in a given year. 
+
+For independent events, P(B|A) is the same as P(B) - in fact, that's
+how we _define_ independence.   But let's consider 
+
+  P(stroke|pox)
+
+This will be close to, but not exactly the same as, 
+
+  P(age < 12 | age > 50)
+
+which is, of course, zero.  So the combined probability, 
+
+  P(pox,stroke)
+
+is very, very much smaller than 1 in 300^2.  Does that make sense? 
+
+In your case, the situation looks like
+
+  P(lightning,shark) = P(shark|lightning) * P(lightning)
+
+So what you need to ask yourself is:  To what extent are being struck
+by lightning and being attacked by a shark independent?  
+
+That's more a science question than math question; but one way to
+think about it is to consider the kinds of people who tend to suffer
+lightning strikes and shark attacks.  It's possible that, just as with
+chicken pox and strokes, these are largely disjoint populations (e.g.,
+perhaps lightning strikes mostly people who live in inland areas,
+while sharks attack mostly people who live on the coasts).  In that
+case, the conditional probability 
+
+  P(shark|lightning)
+
+would be very close to zero, and the chances of suffering both a
+lightning strike and a shark attack would also be close to zero. 
+
+On the other hand, the two populations might overlap completely, in
+which case 
+
+  P(shark|lightning) = P(shark)
+
+and 
+
+  P(lighting,shark) = P(shark) * P(lightning)
+
+Does this help? 
+
+>I'm "in" my "SECOND CHILDHOOD." 
+
+As they say, it's never too late to have a happy childhood.  :^l
+
+>My most recent Stat. course was 40 
+>years ago! WHERE are my, relevant, college texts? I, no longer, am 
+>able to concentrate: My mind used to be like a steel trap. It 
+>devolved to a rusty sieve!
+
+But maybe that's a good thing.  A steel trap will catch anything that
+comes into it, whether it's worth catching or not...
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

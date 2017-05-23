@@ -1,0 +1,99 @@
+ThreadNum: 566511
+Subject: Re: Natural Logarithms
+To: lalajenkins87@aol.com (Dionna Williams)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 17:37:59
+Sent: yes
+
+
+As Dionna Williams wrote to Dr. Math
+On 08/11/2004 at 14:42:13 (Eastern Time),
+>[Question]
+>How do I go about solving this problem?
+>     ln(x+4)+ln(x-4)=9t (solve for x a function of t)
+>I already have some of it done, but I'm stuck. I don't even know if 
+>what I'm doing is correct. Here's what I have done so far:
+>     ln(x+4)(x-4)=9t
+>     e^ln(x+4)(x-4)=e^ln9t
+>     (x+4)(x-4)=9t
+>     x^2-16=9t
+>     (x^2-16)/9=t
+>That's all I have done so far.
+>
+>[Difficulty]
+>I don't really know what "solve for x as a function of t" means. I 
+>don't know what to do next.
+>
+>[Thoughts]
+>     ln(x+4)(x-4)=9t
+>     e^ln(x+4)(x-4)=e^ln9t
+>     (x+4)(x-4)=9t
+>     x^2-16=9t
+>     (x^2-16)/9=t
+
+Hi Dionna,
+
+Thanks for writing to Dr. Math.  You're on the right track, but in
+your second step,
+
+>     ln(x+4)(x-4)=9t
+>     e^ln(x+4)(x-4)=e^ln9t
+
+you have added a "ln" on the right side which is not in the original
+equation.  You are taking the two expressions ln(x+4)(x-4) and 9t,
+which are equal, and using them as exponents of e.  Since the two
+exponents are equal, the two exponentials must be equal:
+
+      e^[ln(x+4)(x-4)] = e^(9t)  ,
+
+but there is no "ln" function on the right side. 
+
+Try starting again from this point.  Your next equation
+
+>     (x+4)(x-4)=9t
+
+is almost correct, since you have a quadratic in x on the left
+(correct), but the right side should be an exponential in t.
+
+>I don't really know what "solve for x as a function of t" means...
+
+It means that you can write a formula
+
+    x = (formula in t) .
+
+When you wrote
+
+>     x^2-16=9t
+>     (x^2-16)/9=t
+
+you solved for t in terms of x, which is not what the problem asked.
+If this were correct, you could write
+
+   x^2 = 16 + 9t ,
+
+and then
+
+   x = +/- sqrt(16+9t) .
+
+However, since the original problem wrote ln(x+4) and ln(x-4), and
+since ln(y) is only defined for positive y, you must have both
+
+   x + 4 > 0   and  x - 4 > 0 ,
+or
+       x > -4   and   x > 4 
+
+(both inequalities must hold).
+
+Therefore, no negative values of x are allowed, and
+
+   x = sqrt(16 + 9t) .
+
+However, that formula was wrong, so you need to correct it.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

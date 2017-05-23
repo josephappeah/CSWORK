@@ -1,0 +1,66 @@
+ThreadNum: 568951
+Subject: Re: Calculus
+To: sclaxplayer@hotmail.com (Brendan)
+From: Doctor Fenton
+TimeStamp: 08/26/2004 at 20:38:29
+Sent: yes
+
+
+As Brendan wrote to Dr. Math
+On 08/26/2004 at 14:34:59 (Eastern Time),
+>[Question]
+>I am completely lost on this one,
+>
+>Let F(x) = x^2+4x-3
+>
+>Firstly calculate f(a+h)-f(a)/h where h does not =0, and simplify the
+>results. no fractions or exponents in final answer.
+>Then Solve f(x-3) = 3 for x
+>
+>[Difficulty]
+>I have absolutely no clue on where to start, I have tried simplifing
+>the problem both through the original equation and then the second
+>equation and I just felt like I was getting further and further away
+>from the answer.
+>
+>[Thoughts]
+>(x^2+4x-3 + h) - (x^2+4x-3)/h
+>(x^2+4x-3+h) + (x-3)(x-4)/h
+>
+
+Hi Brendan,
+
+Thanks for writing to Dr. Math.  You seem to misunderstand function
+notation.  When you have a formula f(x), think of the x as a 
+"placeholder": if f(x) = x^2, think of this as saying that
+"f(something) = something^2".
+
+You are supposed to evaluate (f(a+h)-f(a))/h  , but when you write
+
+>[(x^2+4x-3 + h) - (x^2+4x-3)]/h
+
+your first term is f(x) + h, which is NOT f(x+h).  Also, you are 
+supposed to evaluate f(a+h), not f(x+h).  If
+
+   f(x) = x^2+4x-3 ,
+
+or 
+  
+   f(something) = something^2 + 4*something - 3,
+
+so
+
+   f(a+h) = (a+h)^2 + 4(a+h) - 3 .
+
+To compute f(a+h), you must replace each x in the formula by a+h.
+
+Can you finish the problem now?  
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

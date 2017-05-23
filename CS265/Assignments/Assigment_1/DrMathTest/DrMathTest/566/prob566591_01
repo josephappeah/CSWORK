@@ -1,0 +1,53 @@
+ThreadNum: 566591
+Subject: Re: finding the length of a piece of paper 
+To: ccgrezeszak@yahoo.com (chrisg)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 13:54:56
+Sent: yes
+
+
+As chrisg wrote to Dr. Math
+On 08/11/2004 at 21:45:47 (Eastern Time),
+>[Question]
+>what would the length of a piece of paper be if the width is 0.08 m 
+>and the total amount of paper is 10m squared?
+>
+>[Difficulty]
+>just don't understand i guess 
+>
+>[Thoughts]
+>would you times 10 times 10 then divide 0.8 into it
+
+Hi Chris,
+
+To find the area, we can multiply the length by the width:
+
+   area = length * width
+
+We're given the area, 
+
+  10 m^2 = length * width
+
+and we're given the width, 
+
+  10 m^2 = length * 0.08 m
+
+So now what?  Well, let's stop and think for a moment about something
+I'll bet you've seen before.  Note that the following
+
+  12 = 3 * 4         12 / 3 = 4           12 / 4 = 3
+
+are three different ways of saying exactly the same thing.  So if
+someone asked you to solve this, 
+
+  12 = ? * 3
+
+you could find the answer by rewriting it in one of the other forms:
+
+  12 / 3 = ?
+
+Your problem looks an awful lot like that, doesn't it? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,77 @@
+ThreadNum: 568924
+Subject: Re: getting unknown by itself in order to solve
+To: farrington@ermco-eci.com (Josh)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 13:30:53
+Sent: yes
+
+
+Hi Josh,
+
+>k=mt+2  solve for m
+>
+>[Difficulty]
+>forgot procedure
+
+There's no 'procedure', per se.  What there is, is the rule that if
+you have an equation that's true, you can do anything to both side
+(except divide by zero) and it will still be true. 
+
+So if I assume that 
+
+  k = mt + 2
+
+is true, then I can add 1 to both sides, 
+
+  k + 1 = mt + 2 + 1
+
+and it will STILL be true.  Does that make sense?  Or I could multiply
+ both sides by 3, 
+
+  3(k + 1) = 3(mt + 2 + 1)
+
+    3k + 3 = 3mt + 6 + 3
+
+and it will STILL be true. 
+
+Now, most of the things I _can_ do to an equation won't really be all
+that helpful.  But it's very, very important to realize that
+'unhelpful' is not at all the same as 'wrong'.  If I take some steps
+that are unhelpful, but correct, the worst that can happen is that it
+will take me longer to get to the answer than it might otherwise. 
+
+So let's look at 
+
+  k = mt + 2
+
+again.  Let's consider some things we might do.  
+
+  Subtract k from both sides:
+
+    0 = mt + 2 - k                 
+
+  Subtract mt from both sides:
+
+    k - mt = 2
+
+  Subtract 2 from both sides:
+
+    k - 2 = mt
+
+  Divide both sides by k:
+  
+    1 = (mt + 2)/k
+
+Of these, the most promising one seems to be subtracting 2 from both
+sides.  Why?  Because I've almost got m by itself, which is what I
+want.  So it looks like a step in the right direction. 
+
+So, starting from 
+
+  k - 2 = mt
+
+what things might you try?  Do any of them lead you closer to a solution? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,74 @@
+ThreadNum: 567930
+Subject: Re: Orderd Paris, Inverse Functin, Proof
+To: bolemdemu1@hotmail.com (Lousi)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 08:44:00
+Sent: yes
+
+
+As Lousi wrote to Dr. Math
+On 08/20/2004 at 17:58:48 (Eastern Time),
+>[Question]
+>The problem is prove that if f is an injection from A to B then f^-1 =
+>{(b,a):(a,b) in f} is a function.
+>
+>
+>
+>To ask the question what does (b,a1) in f^-1 means.
+>
+>
+>
+>
+>
+>
+>[Difficulty]
+>
+>How to translate teh question (b,a1) in f^-1 so that I can use in the
+>proof.
+>
+>
+>[Thoughts]
+>This is what I have so far for the proof:
+>
+>Suppose f is an injection from A to B. We must show that f^-1 is a
+>function. Let b be an arbitrary elment of R(f) = {f(a): a in f}.
+>suppose tht (b,a1) in f^-1 and (b,a2) in f^-1. Now, we must show that
+>a1 = a2.
+>
+>My thought on the question are:
+>(b,a1) in f^-1 means 
+>1) for all b and a1 (b = f(a1)), or 
+>2) for all b there exist a1 such that b = f(a1).
+
+Hi,
+
+Thanks for writing to Dr. Math.  Your approach is correct, but when
+you say
+
+>My thought on the question are:
+>(b,a1) in f^-1 means 
+>1) for all b and a1 (b = f(a1)), or 
+>2) for all b there exist a1 such that b = f(a1).
+
+(b,a1) is assumed to be a specific ordered pair in f^(-1), so you
+shouldn't be talking about "for all b...".  Your options indicate
+that you know the interpretation of the statement (b,a1) is in f^(-1):
+the definition you give ( f^-1 =  {(b,a):(a,b) in D(f)} [I changed
+the f in the predicate to D(f)]) tells you what '(b,a1) is in f^(-1)'
+means: (a1,b) is in f.  Since functions are viewed as sets of 
+ordered pairs, this means that f(a1) = b.  That is all you need.
+
+You have to get the injectivity hypothesis into the problem.  To show
+that f^(-1) is a function, suppose that you have two specific ordered
+pairs (b,a1) and (b,a2) in f^(-1) [so that f^(-1)(b) = a1 and also
+f^(-1)(b) = a2 ].  You just need to translate these two statements, 
+which are about two specific ordered pairs, into statements about
+f, so that you can use the hypothesis, which is on f.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

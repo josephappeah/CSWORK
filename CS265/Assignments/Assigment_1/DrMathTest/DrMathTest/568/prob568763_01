@@ -1,0 +1,42 @@
+ThreadNum: 568763
+Subject: Re: How do I express 0.6 as a fraction?
+To: angiej_87@yahoo.com (Angie)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 21:07:46
+Sent: yes
+
+
+As Angie wrote to Dr. Math
+On 08/25/2004 at 18:39:00 (Eastern Time),
+>[Question]
+>How do I express 0.6 as a fraction?
+>
+>[Difficulty]
+>I do not know the formula or how to make a decimal into a fraction!
+>
+>[Thoughts]
+>Well, on the one before I put .25 over 100 and got 1/4. But I don't 
+>know how to do this one!
+
+Hi Angie,
+
+It already _is_ a fraction.  A decimal is just a very compact way of
+writing a fraction, where the denominator is a power of 10, e.g., 
+
+  0.1 = 1/10
+
+  0.12 = 12/100
+
+  0.123 = 123/1000
+
+  0.004 = 4/1000          <-- the number of zeros in the denominator
+                              is the same as the number of decimal
+                              places
+
+So 0.6 is the same as 6/10. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,43 @@
+ThreadNum: 567873
+Subject: Re: To find the distance between two lines
+To: kvanwag5@cfl.rr.com (Jodi)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:26:49
+Sent: yes
+
+
+As Jodi wrote to Dr. Math
+On 08/20/2004 at 09:18:12 (Eastern Time),
+>[Question]
+>I want to know how to find the distance between two lines give the 
+>equations of the lines.  For example
+>3x - y + 4 = 0
+>3x - y = 0
+>
+>[Difficulty]
+>I have put them into standard form and found points of the line for 
+>each.  however when I figure out the  answer I get 4.  The book says 
+>2 radical 10 /5
+>
+>[Thoughts]
+>the reason I feel it is 4 is because one of the equations the y 
+>intercept is 4 and the other is 0.  The distance between these two 
+>points is 4 units.
+
+Hello Jodi,
+
+The distance between two lines is measured in a direction that is perpendicular to both.
+
+There are several ways to calculate this distance.  One way is to write the equation of a line 
+that goes through a point on one of the given lines and is perpendicular to that line.
+
+So,  the line 3x-y=0 goes though the origin and has slope 3.  The slope of a line that is 
+perpendicular is -1/3.  So
+
+y-0=(-1/3)(x-0)  or 3y=-x.
+
+Solve this simultaneously with the other line: 3x - y + 4 = 0.  That will give you a point.  
+Finally, calculate the distance between (0,0) and this point.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,59 @@
+ThreadNum: 568436
+Subject: Re: LCM
+To: farheen_butt2000@yahoo.com (Farheen)
+From: Doctor Greenie
+TimeStamp: 08/25/2004 at 11:26:57
+Sent: yes
+
+
+As Farheen wrote to Dr. Math
+On 08/25/2004 at 08:13:12 (Eastern Time),
+>[Question]
+>Find the greatest number of 5-digits which when divided by 25, 30 
+>and 40 leaves a remainder of 20, 25 and 35 respectively.
+>
+>
+>[Difficulty]
+>you have given a solution but i am not getting it. kindly tell me 
+by 
+>finding lcm
+>
+>[Thoughts]
+>
+Hello, Farheen --
+
+I have been viewing the exchange between you and Doctor Ian on these 
+problems.  I hope Doctor Ian won't mind if I jump in with an 
+observation about the two specific problems you have presented.  
+They both have a feature which greatly simplifies the solution 
+process.
+
+In your first problem, the divisors and remainders were
+
+  divisor  remainder
+  ------------------
+        12   8
+        15  11
+        18  14
+        27  23
+
+Note that the remainders are all 4 less than the divisors.  If n is 
+the number we are looking for, then the number (n+4) will leave zero 
+remainder when divided by any of these divisors.  So (n+4) is a 
+common multiple of 12, 15, 18, and 27.
+
+The LCM of 12, 15, 18, and 27 is 540; all the common multiples of 
+12, 15, 18, and 27 are of the form 540k for some integer k.  So all 
+the numbers which leave the given remainders when divided by the 
+respective divisors are of the form 540k-4 for some integer k.
+
+In your first problem, you are supposed to find the smallest such 
+number; setting k=1 we find the answer to be 540(1)-4 = 536.
+
+In your second problem, the solution can again be greatly simplified 
+in the same manner by noting that each remainder is 10 less than the 
+corresponding divisor....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

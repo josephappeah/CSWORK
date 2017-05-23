@@ -1,0 +1,50 @@
+ThreadNum: 566826
+Subject: Re: formula for working out cubic feet or inches
+To: fswoodlm@execulink.com (Jan)
+From: Doctor Douglas
+TimeStamp: 08/13/2004 at 14:51:20
+Sent: yes
+
+
+As Jan wrote to Dr. Math
+On 08/13/2004 at 13:18:05 (Eastern Time),
+>[Question]
+>what is the cubic feet of a box 37"w.x 127 l."x12"h? Do you multiply 
+>all three numbers together to find the cubic inches and then divide 
+>by what number for cubic feet?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Jan.
+
+thanks for writing to the Math Forum.
+
+Yes, if you multiply all of the numbers together, you can carry
+along the units to find the volume as
+
+  Volume = 37 inch x 127 inch x 12 inch = 56388 inch x inch x inch
+         = 56388 cubic inches
+
+To convert this into cubic foot, multiply this by the handy 
+conversion factor of UNITY (i.e. 1.0) in the very special form:
+
+  1 = 1 
+    = 1 x 1 x 1
+    = (1 ft/12 inch) x (1 ft/12 inch) x (1 ft/12 inch)
+    = [1/1728] ft x ft x ft / (inch x inch x inch)
+    = [1/1728] cubic ft / cubic inch
+
+The numbers in parentheses are equal to 1, because we know that
+1 ft = 12 inch.
+
+When you multiply the volume above by the conversion factor, you
+will see the units of cubic inches cancel, leaving the answer in
+cubic ft.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

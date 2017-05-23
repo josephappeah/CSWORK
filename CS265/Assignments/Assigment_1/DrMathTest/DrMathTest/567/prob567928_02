@@ -1,0 +1,47 @@
+ThreadNum: 567928
+Subject: Re: (no subject)
+To: petal_3@tpg.com.au (Hannah)
+From: Doctor Greenie
+TimeStamp: 08/22/2004 at 00:20:59
+Sent: yes
+
+
+As Hannah wrote to Dr. Math
+On 08/20/2004 at 17:51:42 (Eastern Time),
+>[Question]
+>Would you mind just answering this simple quesiton... 
+>Do dampening functions, such as y = -0.26e^(-0.3x)cos(4.42x) + 
+0.71, 
+>ever completely flatten out into a perfectly horizontal line - 
+>theoretically? If they are used to model the motion of a pendulum, 
+>for example, do they therefore suggest that the pendulum - once set 
+>into motion - never actually returns to the state of being 
+>completely at rest? How would you prove or verify this? 
+>Thank you...
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hello, Hannah --
+
+From a purely mathematical standpoint, the function never becomes 
+perfectly flat; and from a physical standpoint, the pendulum can't 
+remain in motion forever.  So the function can't accurately model 
+the motion forever.
+
+If we ignore the "+0.71" at the end of the function, then my 
+graphing calculator (TI-83) gives values for the function up until 
+the function value is less than e^-100; but the graphing utility on 
+the calculator flattens out to 0 a lot sooner than that.
+
+I suppose we could imagine that the pendulum does in fact continue 
+to oscillate forever but that its motion gets too small to 
+measure....
+
+I hope this helps some....
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

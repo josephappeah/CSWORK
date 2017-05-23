@@ -1,0 +1,75 @@
+ThreadNum: 567244
+Subject: Re: Triangle square feet formula
+To: beetledaddy@cox.net (Shonda)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 01:04:02
+Sent: yes
+
+
+As Shonda wrote to Dr. Math
+On 08/17/2004 at 00:33:10 (Eastern Time),
+>[Question]
+>What is the formula for calculating the square footage of a 
+triangle?
+>
+>[Difficulty]
+>Don't know the formula.
+>
+>[Thoughts]
+>Example of a Triangle: 50 ft, 50 ft, 5 ft = ?
+
+Hi, Shonda --
+
+There are many ways of finding the area of a triangle.  The easiest 
+one is
+
+  area = one-half base times height
+
+But in your case, we aren't given the height, so this formula won't 
+help us.  (Actually, because two of the sides of your triangle are 
+the same length, we could determine the height of the triangle and 
+use that formula.  But I think you want a general formula for the 
+are in terms of the lengths of the three sides.
+
+Here it is, in all its glory:
+
+  area = square root of ((s)(s-a)(s-b)(s-c))
+
+where a, b, and c are the lengths of the three sides and s is the 
+semi-perimeter
+
+  s = (a+b+c)/2
+
+It looks ugly, but it's not too bad to work with.  The primitive 
+calculator that is on your PC is all you need to use the formula.
+
+In your example, we have
+
+  a=50, b=50, c=5
+
+  s = (a+b+c)/2 = 105/2 = 52.5
+
+  s-a = 2.5
+  s-b = 2.5
+  s-c = 47.5
+
+And the formula gives us
+
+  area = square root of ((52.5)(2.5)(2.5)(47.5)) = 124.843652...
+
+Note this is a reasonable answer.  The triangle is very tall and 
+skinny; its height is only a tiny bit less than the length of each 
+of the two long sides.  If the height were exactly 50, then the 
+elementary formula using base and height would give us
+
+  area = (1/2)(5)(50) = 125
+
+Since the height is a tiny bit less than 50, the area is a tiny bit 
+less than 125, so our answer is reasonable.
+
+I hope all this helps.  Please write back if you have any questions 
+about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

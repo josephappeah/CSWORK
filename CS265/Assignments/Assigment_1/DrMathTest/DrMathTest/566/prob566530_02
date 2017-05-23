@@ -1,0 +1,50 @@
+ThreadNum: 566530
+Subject: Re: How do I solve a log base 2 equation
+To: mississaugalakeshore@royallepage.ca (Katherine)
+From: Doctor Roberts
+TimeStamp: 08/12/2004 at 12:11:56
+Approved-By: Doctor Ian
+Sent: yes
+
+As Katherine wrote to Dr. Math
+On 08/11/2004 at 16:41:32 (Eastern Time),
+>[Question]
+>I have in base 2 Log((x+1)/(x-1))=1 is the point that I have 
+reached 
+>in the question and I am not sure know how to solve for x with a 
+>logarithm on only one side?
+>
+>[Difficulty]
+>solving the equation with the logarithm on just one side.  How do I 
+>change the side with the number 1 on it so i can easily solve?
+>
+>[Thoughts]
+>
+
+Hi Katherine, 
+
+Here's a hint.  Exponentials and logs are inverses of each other.  
+That is, they "undo" one another.
+
+If I have 
+  
+  log_10 (x) = y
+
+I would take 10 to the power of both sides of the equations.  That is,
+
+       log_10 (x) = y
+
+  10^[log_10 (x)] = 10^y
+
+                x = 10^y
+
+As you can see, using an exponential "gets rid of" the log in the 
+same way that multiplying by a common denominator would "get rid of" 
+a fraction.
+
+Does that help?  If you still have questions, let me know!
+
+- Doctor Roberts, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

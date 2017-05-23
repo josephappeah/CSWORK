@@ -1,0 +1,44 @@
+ThreadNum: 568018
+Subject: Re: finding the diameter of a circle when the sq. ft. is known
+To: dawalter@icehouse.net (Dave A. Walter)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 17:55:34
+Sent: yes
+
+Hi, Dave.
+
+As Dave A. Walter wrote to Dr. Math
+On 08/21/2004 at 13:14:07 (Eastern Time),
+>[Question]
+>I have a floor that is 4059sq. ft. in a shape of a circle.  What is 
+>the diameter of that circle?
+>
+>[Difficulty]
+>I don't know what formula to use.
+>
+>[Thoughts]
+>4059-3.14=r sq. x2= d
+
+You've got one idea right: first find the radius of the circle, then 
+double that to get the diameter.
+
+The formula for the area of a circle, when you know the radius, is
+
+  A = pi*r^2
+
+where A is the area and r is the radius. You need to solve this 
+equation to get the radius in terms of the known area. I'll show you 
+how to do this. To evaluate the area when you know the radius, you 
+first square the radius, then multiply the result by pi. To solve the 
+equation, you need to do the reverse (to get back to r alone, 
+starting from pi*r^2). The reverse is: first divide by pi (undoing 
+the last step, which was multiplication), then take the square root 
+(undoing the first step, which was squaring). Whatever you do to one 
+side, you must do to the other side as well.
+
+This will give you a formula for the radius when you know the area. 
+That's what you need. Does this show you how to solve your problem?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

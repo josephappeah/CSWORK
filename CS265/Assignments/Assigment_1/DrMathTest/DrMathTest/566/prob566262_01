@@ -1,0 +1,47 @@
+ThreadNum: 566262
+Subject: Re: intergration
+To: mhljoh009@uct.ac.za (Sifiso)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 16:06:10
+Sent: yes
+
+
+As Sifiso wrote to Dr. Math
+On 08/10/2004 at 03:31:42 (Eastern Time),
+>[Question]
+>f'(x)= t^2e^(-t^2) 
+
+Hi Sifiso,
+
+First of all, you're mixing x's and t's, which you probably didn't
+mean to do.
+
+>[Difficulty]
+>i'm asked to find f(0)and to prove that f(x)<1/e^1 and to find the 
+>extrema, loc minima and maxima, plot the graph
+>
+>[Thoughts]
+>used Intergration by parts.
+>u= t^2 u'=2t
+>v= 1/2t(e^(-t^2) v'= e^(-t^2)
+>but i'm told that this expression can not be integrated.
+
+You were told correctly.  So don't bother integrating it.  Think of it
+like you were asked to plot the graph of:
+
+  y = x^2/cosh(sqrt(x)).
+
+You wouldn't know how to graph that, either, would you?  So you would
+have to use some calculus to find where it's increasing and where it's
+decreasing and where the local maxes and mins are, and things like
+that, and those all involve starting with the derivative.  Well, you
+know the derivative, so you get to skip a step!  You don't have to
+find the derivative!
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

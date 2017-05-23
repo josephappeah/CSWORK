@@ -1,0 +1,135 @@
+ThreadNum: 568955
+Subject: Re: Properties of dy/dx
+To: amram71@yahoo.com (Amit)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 15:27:40
+Sent: yes
+
+
+As Amit wrote to Dr. Math
+On 08/26/2004 at 14:57:25 (Eastern Time),
+>[Question]
+>This seems to be a common topic in Calculus that confuses students.. I
+>searched Mathforum, and countless sites on the internet looking for
+>help, but nothing seems to make sense.
+>
+>From how I learned what derivatives were, I learned that dy/dx was a
+>notation that implied "derivative of y with respect to x." I was able
+>to accept this fact.
+>
+>[Difficulty]
+>I am confused about whether or not the notation dy/dx can be treated
+>as a fraction.
+>
+>For example, in integration by substitution:
+>
+>integrate(sin(3x+5)dx)
+>u = 3x+5
+>du/dx=3
+>dx=du/3
+>
+>That is the part that confuses me the most: How the dx can be
+>multiplied out solved for. What exactly is "dx"?
+>
+>[Thoughts]
+>I understand that dy/dx is a limit, and that it is a slope.. but the
+>idea of it being simply a notation doesn't help me understand why you
+>can multiply out the bottom. Any help would be appreciated..
+>
+>Thanks
+
+Hi Amit,
+
+Thanks for writing to Dr Math.  The easy answer to your question is: 
+Your definition for dy/dx is correct; it means the derivative of y
+with respect to x, and dy and dx are meaningless when written alone,
+so that
+
+  dx = du/3
+
+is not a meaningful expression but should be written
+
+  dx/du = 1/3.
+
+And when certain nice things happen that *look* like fractions, such as:
+
+            1
+  dy/dz = -----
+          dz/dy
+
+and
+
+  dz/dx = dz/dy * dy/dx
+
+then this is actually just the Chain Rule at work.  And the reason that
+
+  integral( f(g(x)) g'(x) dx ) = integral( f(u) du )
+
+is not that
+
+  u = g(x)
+
+implies
+
+  du = g'(x) dx
+
+but rather the Chain Rule again.
+
+All of that is true, except that I should qualify the "not a
+meaningful expression."  You see, something is only meaningless until
+somebody gives it a formal meaning.  Then you hope that the meaning
+they gave it has useful properties (such as, that it relates to
+derivatives...).  In fact, this has been done, and there is a good
+deal of mathematics that has gone into the theory of differentials,
+and it fits into integrals, and putting the differential "dx" at the
+end of every integral also makes sense according to this theory, and
+so on.  One math doctor alluded to some of this on
+
+  http://mathforum.org/library/drmath/view/53678.html
+
+You can also get books that discuss this in more detail.  But the fact
+is that most people who use calculus don't really need all of the
+theory of differentials, and the chain rule indeed suffices to verify
+most facts that you would get from treating dy/dx as a fraction.  The
+reason you can treat it as a fraction is that dy/dx is the limit of a
+fraction, and so most of the operations you would do to the fraction
+you can do before you take the limit.  In other words, *before* the
+limit is taken, it *is* a fraction, so you can treat it as one.  But
+then you take the limit and it becomes a derivative.
+
+Finally, there is also the theory of estimating with derivatives,
+where I always say to think of
+
+  dx = change in x
+  dy = change in y
+  x = unchanged value of x
+  y = unchanged value of y
+
+For example, to estimate (1.98)^6, we use
+
+  y = x^6
+  dy = 6*x^5 dx
+  x = 2
+  dx = -0.02
+
+(so that x + dx = 1.98), and therefore
+
+  y = 2^6 = 64
+  dy = 6*x^5 dx = 6*32*-0.02 = -3.84
+
+which implies that
+
+  y + dy = 64 - 3.84 = 60.16,
+
+which is, in fact, a pretty close approximation to (1.98)^6.  And this
+is essentially treating dy/dx as a fraction before we've taken the
+limit, since dx doesn't go all the way to zero but only to -0.02.
+
+Does this help you to understand how differentials are a fraction in
+some sense but not in others?  If you have any questions about this or
+need more help, please write back and show me what you have been able
+to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

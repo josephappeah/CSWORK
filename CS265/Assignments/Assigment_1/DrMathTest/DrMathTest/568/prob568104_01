@@ -1,0 +1,77 @@
+ThreadNum: 568104
+Subject: Re: challenge
+To: misunderstoodartist@hotmail.com (Regan)
+From: Doctor Ian
+TimeStamp: 08/22/2004 at 13:17:30
+Sent: yes
+
+
+As Regan wrote to Dr. Math
+On 08/22/2004 at 12:11:06 (Eastern Time),
+>[Question]
+>hi,I am trying to figure out the most 3 letter words I can make in 
+>any 6 letter word I choose,but the 3 letter words must be all in 
+>order,example..PEANUT..3 letter words are pea,pet,nut,..as long as 
+>they are read in order...the word nap would be unacceptable.
+>
+>so any help wouyld be great.I found 8 with the word peanut but I am 
+>trying for much more!
+>
+>thanks.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Regan,
+
+The thing to do is approach is systematically.  Suppose I'm looking
+for all the 1-letter words that I can make from those letters.  I can
+just choose each letter, and check it:
+
+ P 
+ E
+ A  <-- This is a word!
+ N
+ U
+ T
+
+What about all the two-letter words?  Now I can start from my list of
+one-letter words, and try adding the other letters onto each one:
+
+ P -> PE
+      PA     <-- This is a word!
+      PN
+      PU
+      PT 
+       |
+       |_____ I added every letter but 'P' here.
+
+ E -> EP
+      EA
+      AN
+      EU
+      ET     <-- This is a word, at least to Scrabble players...
+       |
+       |_____ I added every letter but 'E' here.
+         
+ A -> ...
+
+ N ->   \
+        |
+ U ->   | I'll leave these for you to fill in. 
+        |
+ T ->   /
+  
+If you do the same thing for a third letter, you'll have all the
+possible combinations, without generating any twice, or missing any. 
+Then you just have to go down the list and check to see which ones are
+words and which aren't.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

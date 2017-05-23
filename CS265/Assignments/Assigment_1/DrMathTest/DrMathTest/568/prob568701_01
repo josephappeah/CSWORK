@@ -1,0 +1,53 @@
+ThreadNum: 568701
+Subject: Re: Solving factorial inequalities through inductioin.
+To: terminator954@hotmail.com (Matthew)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 16:41:10
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 08/25/2004 at 14:03:41 (Eastern Time),
+>[Question]
+>Can you show me how to solve inequalities with factorial symbols 
+>through induction.  An example is   n! > 10n  for all natural 
+>numbers greater than or equal to 5.  
+
+First show that the statement is true for n = 5.
+
+ That is 5! > 10 x 5
+
+       120 > 50   -  Yes correct.
+
+Now assume it is true for some value n=k.  That is we assume
+
+        k! > 10k   Now increase n to k+1
+
+We must show (k+1)! > 10(k+1)
+
+           (k+1)k! > 10k + 10
+
+           k.k! + k! > 10k + 10   we know k! > 10k  so we require
+
+           k.k! > 10
+
+and this is clearly true for n >= 5   
+
+So if the result is true for n=k then it is also true for n = k+1.  
+But it is true for n=5 so it will be true for n=6 anf if true for 
+n=6 then true for n=7 and so on by induction to all positive 
+integral values of n greater than or equal to 5.
+
+
+>
+>[Difficulty]
+>I have solved equations through induction but I have no idea how to 
+>solve inequalities through induction.
+>
+>[Thoughts]
+>I know to verify k+1 works, but how?
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,75 @@
+ThreadNum: 567681
+Subject: Re: Formulas for area of ellipse and sphere
+To: bears21@aol.com (Ken)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:48:01
+Sent: yes
+
+
+As Ken wrote to Dr. Math
+On 08/19/2004 at 10:32:46 (Eastern Time),
+>[Question]
+>I am an Endocrinologist interested in thyroid sonograms and thyroid 
+>nodules. The formula we use to calculate the area of a thyroid 
+>nodule or a thyroid lobe is Sagittal x AP x Transverse measurement 
+>multiplied by .5. I was taught (told) this is the formula for an 
+>ellipse-which best estimates the shape of these structures. Yet your 
+>text does not indicate this to be one of the formulas for an ellipse.
+>Sometimes we do use the forumla for a sphere: 4/3 pie r cubed.
+>My question is: What is the best formula to use to calculate area of 
+>an ellipse and is there such a formula as noted above? I do see the 
+>somewhat complicated formulas in your text.
+>Thanks
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Ken,
+
+Thanks for writing to Dr Math.  The "best" formula is the one that
+uses the information you have, and no more, and gives you the
+information you want, so it depends very much on the circumstances.
+
+That said, I am not an endocrinologist, and we use different terms in
+math, so I'm not sure what those three measurements are.  I assume
+that the formulas you refer to on our site are from the "ellipsoid"
+link on
+
+  Formulas: Geometric
+  http://mathforum.org/dr.math/faq/formulas/
+
+which takes you to
+
+  http://mathforum.org/dr.math/faq/formulas/faq.ellipsoid.html
+
+where the formula is
+
+  V = (4/3)*pi*a*b*c
+
+and a, b, and c are the radii (half the diameters) in the three
+dimensions.
+
+I think "transverse measurement" probably means the length across the
+longest part of the ellipsoid (that's the 3-D version of the 2-D
+ellipse), which should correspond to
+
+  2*a.
+
+Then I look up "saggital" at
+
+  http://dictionary.reference.com/search?q=sagittal%20plane
+
+and it sounds like you are describing the area of a cross-section of
+the ellipsoid, which would also be an ellipse, and that area would be
+
+  pi*b*c,
+
+but I have no idea what "AP" could possibly mean.  Can you help me out
+there?  And can you verify that I understood the other two correctly?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

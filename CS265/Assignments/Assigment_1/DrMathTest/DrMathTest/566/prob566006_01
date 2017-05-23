@@ -1,0 +1,34 @@
+ThreadNum: 566006
+Subject: Re: random calculation
+To: gen1usxstylishcharm@hotmail.com (Joshua)
+From: Doctor Douglas
+TimeStamp: 08/08/2004 at 11:29:17
+Sent: yes
+
+
+As Joshua wrote to Dr. Math
+On 08/08/2004 at 02:16:39 (Eastern Time),
+>[Question]
+>I randomly punched in 2^ln(x) into my TI-89, and the calculator gave 
+>me back x^ln(2). How is this possible? Is there a more general case?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Joshua.
+
+thanks for writing to the Math Forum.
+
+Note the following property of exponents:  ln(a^u) = u ln a.
+From this, raise e to both sides to obtain
+
+   a^u = e^(u ln a).
+
+Now let a=2 and u=ln(x), and see where that leads you.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

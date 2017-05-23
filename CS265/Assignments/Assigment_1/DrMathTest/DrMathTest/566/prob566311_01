@@ -1,0 +1,60 @@
+ThreadNum: 566311
+Subject: Re: Volume of gas in pipe
+To: stuartsmart@blueyonder.co.uk (Stuart)
+From: Doctor Douglas
+TimeStamp: 08/10/2004 at 12:30:18
+Sent: yes
+
+
+As Stuart wrote to Dr. Math
+On 08/10/2004 at 11:43:14 (Eastern Time),
+>[Question]
+>A 50mm ID pipe 10 meters long, what is the volume of gas in mcubed.
+>
+>I have worked this out with the usual equation pi x r^x h.  You are 
+>given the 10% of the volume is added for fittings on the pipe.
+>
+>
+>
+>[Difficulty]
+>I think I am using the right equation, but has is the fact that gas 
+>is passing through the pipe change the equation
+>
+>[Thoughts]
+>pi x 0.025 x 0.025 x 10
+>pi x 0.000625 x 10
+>pi x 0.00625
+>Volume = 0.019625 + 10% Volume = 0.022mcubed
+>Answer given is 0.024mcubed
+>
+>Cant work out why
+
+Hi Stuart.
+
+thanks for writing to the Math Forum.
+
+I think your work is correct and that 
+
+   V = 0.021598... = 0.022 m^3
+
+after taking into account the extra 10% volume.  
+
+I can think of two explanations for the discrepancy:
+
+  1.  It is a simple mistake, where they've either added the 10%
+      twice, or performed the addition twice in succession.  These
+      two operations are slightly different:  A + 0.1A + 0.1A = 1.2A
+      and B*(1.1)*(1.1) = 1.21B.
+
+  2.  Perhaps they meant that the extra 10% is to be done on each
+      factor of the diameter, i.e. V = pi*(1.1*r)*(1.1*r)*h.  But
+      the way you phrased the question ("10% of the volume") makes 
+      me think that this isn't the case
+
+I hope that these comments help.  The motion of the gas through the
+pipe makes no difference as to the volume enclosed--what goes in
+one end must come out the other end.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

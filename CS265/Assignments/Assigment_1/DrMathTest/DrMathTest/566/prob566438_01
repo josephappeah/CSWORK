@@ -1,0 +1,75 @@
+ThreadNum: 566438
+Subject: Re: Estimating binary digits from 10^345
+To: coreena@git.com.au (Coreena)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 08:06:22
+Sent: yes
+
+
+As Coreena wrote to Dr. Math
+On 08/11/2004 at 00:20:35 (Eastern Time),
+>[Question]
+>Hi
+>
+>The questions ask for esitmating the number of digits in 
+>the binary expansion of 10^345.
+>
+>Also to be able to answer a simular question but with the base other 
+>than 10 ie the hexadecimal expansion or decimal.
+>
+>
+>[Difficulty]
+>I just do not know where it even start to estimate this question.
+>
+>How would i go about it and is there a specific formula for treating 
+>questions like this
+>
+>[Thoughts]
+>Would you use a log to estimate or calculate.  But if you how how do 
+>you do it.
+>
+>I am really lost.
+
+Hi Coreena,
+
+Thanks for writing to Dr. Math.
+
+>Would you use a log to estimate or calculate...
+
+Yes, that is the right idea.  You can easily determine that 10^345
+has 346 digits:
+
+  number range    no digits
+     1 - 9           1
+     10-99           2
+     100-999         3    etc.
+
+Note that 1 = 10^0, 10 = 10^1, 100 = 10^2 , so if
+
+   10^n <= N < 10^(n+1)-1 ,
+
+then N has (n+1) (decimal) digits.  Also note that
+
+    n <= log_10(N) < n+1 ,
+
+so you can determine n by taking the integer part of log_10(N).
+
+If you look at binary expansions, you will find a similar
+relationship between the number of binary digits and the logarithm
+to the base 2.
+
+Finally, you can compute logarithms to a given base from logarithms
+to any other base by using the change of base formula:
+
+              log_b(x)
+   log_a(x) = --------
+              log_b(a)   .
+
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

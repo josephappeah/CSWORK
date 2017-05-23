@@ -1,0 +1,35 @@
+ThreadNum: 566293
+Subject: Re: Calculus
+To: o_kattan@yahoo.com (Oz)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 15:59:34
+Sent: yes
+
+
+As Oz wrote to Dr. Math
+On 08/10/2004 at 08:40:37 (Eastern Time),
+>[Question]
+>A = x*sqrt(x*sqrt(x*sqrt(x*sqrt(x*sqrt( ... x)
+>
+>Prove that A = x^2
+>
+>[Difficulty]
+>I don't know what method to use to prove it.
+>
+>[Thoughts]
+>
+
+Hi Oz,
+
+Thanks for writing to Dr Math.  It looks like they want you to solve
+for A in
+
+  A = x*sqrt(A).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

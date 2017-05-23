@@ -1,0 +1,52 @@
+ThreadNum: 568703
+Subject: Re: algebra
+To: ahwilson@mindspring.com (Alan)
+From: Doctor Fenton
+TimeStamp: 08/27/2004 at 13:08:07
+Sent: yes
+
+
+As Alan wrote to Dr. Math
+On 08/25/2004 at 14:08:05 (Eastern Time),
+>[Question]
+>To get Y intercept, I'm getting a positive number and I'm told it 
+>should be negitive.
+>
+>
+>
+>[Difficulty]
+> The answer I'm told is y= -10.
+>
+>[Thoughts]
+>5x - 2y =20.
+>To find the y intercept
+> x|y
+> 0
+> 5*x - 2y =20
+> 0 - 2y = 20
+>     ---  ---
+>      2    2
+>
+>      1y = 10
+> (0,10).  Told answer is (0,-10)
+
+Hi Alan,
+
+Thanks for writing to Dr. Math.  You write
+
+> 0 - 2y = 20
+>     ---  ---
+>      2    2
+>
+>      1y = 10
+
+but when you divide -2y by 2, the quotient is -y, not y.  You 
+ignored the - sign before 2y.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

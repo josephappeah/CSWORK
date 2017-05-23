@@ -1,0 +1,46 @@
+ThreadNum: 566170
+Subject: Re: If 2^x=7, find the value of.......
+To: merukay@yahoo.com (Mel)
+From: Doctor Fenton
+TimeStamp: 08/09/2004 at 18:36:07
+Sent: yes
+
+
+As Mel wrote to Dr. Math
+On 08/09/2004 at 15:23:58 (Eastern Time),
+>[Question]
+>How can I solve a problem such as: 
+>
+>If 2^x=7, find the value of 2^3x+2
+>
+>[Difficulty]
+>The whole problem is confusing. The fact that the exponent is a 
+>variable and that 2 to the x power equals 7, a number with no square 
+>root makes it real difficult.
+>
+>[Thoughts]
+>I think i've learned how to do these types of problems before, but as 
+>time went on, I learned how to do similar problems and became 
+>confused on how to actually solve it now.
+>
+>I've tried the long way of solving it (actually using a calculator 
+>and looking for the exact value of x), but the answer is so long that 
+>I seriously doubt that it's right.
+
+Hi Mel,
+
+Thanks for writing to Dr. Math.  you are supposed to use properties
+of exponents in this problem, such as
+
+ a^(b+c) = a^b * a^c  , a^(b-c) = a^b / a^c , and  (a^b)^c = a^(b*c).
+
+Using these properties, can you rewrite 2^3x+2 in terms of 2^x, the
+quantity whose value you know?  
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,65 @@
+ThreadNum: 567885
+Subject: Re: Lighting The Candle
+To: bbdragon43@hotmail.com (Jason)
+From: Doctor Greenie
+TimeStamp: 08/20/2004 at 16:08:34
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 08/20/2004 at 11:14:20 (Eastern Time),
+>[Question]
+>An overzealous boy named Anderson burns both ends of a candle at 
+>midnight.  He lights the top and the bottom of a 12 inch candle at 
+>the same time.  If the top flame burns at a speed of 1.5 inches per 
+>hour and the bottom burns at a speed of 2.1 inches per hour, how 
+far 
+>from the top will the two flames meet?
+>
+>[Difficulty]
+>I don't know how to do these particular type of problems and i 
+don't 
+>know to go about solving this motion problem.
+>
+>[Thoughts]
+>I don't know the formula for these type of problems. I'd be very 
+>grateful if you could help me. Thanks doctor!
+
+Hi, Jason --
+
+I see Doctor Anthony has already written a response to your 
+question....
+
+I have a different approach to this type of problem.  Different 
+methods sometimes work for different students, so see if perhaps you 
+like this alternative method better.  (I will not be offended if you 
+prefer his method...!!)
+
+I solve this problem using ratios.  With the candle burning from 
+both ends ate constant speeds, the ratio of the lengths of candle 
+burned will be the same as the ratio of those speeds.
+
+The ratio of the two speeds is
+
+  1.5:2.1 = 15:21 = 5:7
+
+So the lengths burned from the two ends are also in the ratio 5:7; 
+call the lengths 5x and 7x.  Then the candle is 12 inches long, so 
+we have
+
+  5x+7x = 12
+  12x = 12
+  x=1
+
+Then
+
+  5x = 5
+  7x = 7
+
+The candle burns more slowly from the top than from the bottom, so 
+the distance from the top where the flames meet is the 5x=5 -- so 
+the flames meet 5 inches from the top of the candle.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

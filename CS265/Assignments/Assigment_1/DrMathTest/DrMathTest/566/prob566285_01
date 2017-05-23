@@ -1,0 +1,59 @@
+ThreadNum: 566285
+Subject: Re: Math trick
+To: brezz132@cs.com (Matt Bressler)
+From: Doctor Roy
+TimeStamp: 08/10/2004 at 11:32:18
+Sent: yes
+
+
+As Matt Bressler wrote to Dr. Math
+On 08/10/2004 at 07:40:44 (Eastern Time),
+>[Question]
+>My son downloaded a computer "trick" which says it can "read your mind".
+>It asks you to pick any 3 or 4 digit number
+>Then scamble that number and subtract the smaller from the larger
+>Then you are asked to "circle" one of the digits in the resultant, and
+>then key in the other numbers.
+>After a brief wait, the computer returns the answer, the number you
+>circled is correct.
+>I sense that the "sum of the digits" is somehow involved but I cannot
+>understand how the subtracted number gives the answer.
+>For example:
+>Pick 321 and scramble it to 123.
+>When subtracted the result is 198
+>If I "circle"the 9 and key in the 1,8 the computer says I selected p
+>If I "circle" the 1 and key in 9,8 I am told I circled 1
+>etc, etc.
+>Is "nines complement" somehow involved?
+>Matt Bressler, Jupiter, FL
+>
+>[Difficulty]
+>I cannot explain it to my son, (I am a retired engineer, and he feels
+>that I should know the answer).
+>
+>[Thoughts]
+>I recognoze the "sum of the digits" and the possibility that "nines
+>complement" might be involved.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+If you take any number, scramble the digits, and subtract the smaller
+from the larger, the result is always divisible by 9. It's not too
+difficult to show this is true.
+
+One property of multiples of 9 is that the sum of their digits is also
+divisible by 9. So, if the result is 40185, and you select 1, the sum
+of the remaining digits is 17. From there, it is a matter of knowing
+that 18 is the next multiple of 9 from 17 and outputting 1. Notice
+that you are not allowed to select 0. If you were allowed to select 0,
+the program could not tell if you had selected 0 or 9, since neither
+will affect the sum (modulo 9). 
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

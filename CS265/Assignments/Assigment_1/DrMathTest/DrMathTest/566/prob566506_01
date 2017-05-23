@@ -1,0 +1,45 @@
+ThreadNum: 566506
+Subject: Re: Area of a ROUND OBJECT
+To: gturillo@earthlink.net (Greta)
+From: Doctor Achilles
+TimeStamp: 08/11/2004 at 14:21:49
+Sent: yes
+
+
+As Greta wrote to Dr. Math
+On 08/11/2004 at 14:07:33 (Eastern Time),
+>[Question]
+>I have a soccer ball that is 26 inches in diameter and I need to 
+find 
+>out how many square inches/feet that are needed to cover it with 
+>material.  I do not know the formula to figure this out.
+>
+>[Difficulty]
+>Don't know of a formula to figure this out
+>
+>[Thoughts]
+>At first I was going to measure each patch on the ball but that was 
+>way too tedious.  Then I was going to cut the ball up and measure 
+>it.  And buy a new one.
+
+Hi Greta,
+
+Thanks for writing to Dr. Math.
+
+The surface area of a sphere is 4*pi*(radius^2).
+
+The radius of your ball is 13 inches.  13^2 = 169.
+
+Multiply by 4pi and you get 2124 square inches.
+
+You can find formulas like that here:
+
+  Formulas
+  http://mathforum.org/dr.math/faq/faq.formulas.html
+
+Hope this helps.  If you have other questions or you'd like to talk 
+about this some more, please write back.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

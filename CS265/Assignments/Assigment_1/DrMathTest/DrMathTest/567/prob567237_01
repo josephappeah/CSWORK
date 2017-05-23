@@ -1,0 +1,75 @@
+ThreadNum: 567237
+Subject: Re: Factorization of a LARGE-coefficient quadratic polynomial
+To: feroz3@hotmail.com (Feroz)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:58:31
+Sent: yes
+
+
+As Feroz wrote to Dr. Math
+On 08/16/2004 at 23:45:49 (Eastern Time),
+>[Question]
+>Hello!
+>
+>I want to know if there exists some method where I can work out the 
+>factors of a quadratic polynomial which has large coefficients.
+>
+>Suppose that the quadratic is:
+>
+>124488x^2 + 23000x + 1058
+>
+>... and if I know for a fact that it can be factorized, is there 
+>some fixed method by which i can come up with the factors so I can 
+>code it into a computer program... My program came up with (234x+23) 
+>and (532x+46) after exhaustively going through all the 
+>possibilities, but the process becomes very slow as the size of the 
+>coefficients increase further.
+>
+>Is there any formal method or formula?
+>
+>Thanks in advance
+>Feroz
+>
+>
+>
+>[Difficulty]
+>I just can't seem to find a way to efficiently factorize the 
+>polynomial
+>
+>[Thoughts]
+>There seems to be no emerging pattern from the polynomials I've 
+>solved thus far.
+
+Hello Feroz,
+
+Why not use the quadratic formula?  For factoring a*x^2+b*x+c, it will have "nice" factors 
+if and only if b^2-4*a*c is a perfect square.  The roots of a*x^2+b*x+c=0 are
+
+r1=[-b+sqrt(b^2-4a*c)]/(2a) and r2=[-b-sqrt(b^2-4a*c)]/(2a).
+
+So, the factors will be a*(x-r1)(x-r2)
+
+
+a = 124488; b = 23000; c = 1058; 
+
+Sqrt[b^2-4*a*c]=1472
+
+r1 = (-b + Sqrt[b^2 - 4*a*c])/(2*a); 
+
+r2 = (-b - Sqrt[b^2 - 4*a*c])/(2*a); 
+
+
+a*(x - r1)*(x - r2)=124488*(23/266 + x)*(23/234 + x)
+
+Expand this:
+
+1058 + 23000*x + 124488*x^2
+
+
+
+
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

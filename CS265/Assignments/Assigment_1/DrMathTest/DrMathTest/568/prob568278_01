@@ -1,0 +1,35 @@
+ThreadNum: 568278
+Subject: Re: how do I change a repeating decimal to a fraction
+To: cuteygurl4817@aol.com (sade )
+From: Doctor Anthony
+TimeStamp: 08/24/2004 at 16:09:54
+Sent: yes
+
+
+As sade  wrote to Dr. Math
+On 08/23/2004 at 17:15:19 (Eastern Time),
+>[Question]
+>Change .82 repeating into lowest terms 
+
+  Let N = 0.828282.........
+   100N = 82.82828282.......
+  -----------------------------  subtract
+    99N = 82
+
+      N = 82/99
+
+And  82/99 = 0.828282........   as required
+
+  
+
+>
+>[Difficulty]
+>I dont know what to put the  .82 as a repeating decimal over
+>
+>[Thoughts]
+>82/99=8/11 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

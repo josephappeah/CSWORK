@@ -1,0 +1,60 @@
+ThreadNum: 568525
+Subject: Re: Need help understanding the cross product
+To: tommontgomery450@hotmail.com (Tom)
+From: Doctor Fenton
+TimeStamp: 08/26/2004 at 08:48:40
+Sent: yes
+
+
+As Tom wrote to Dr. Math
+On 08/24/2004 at 18:37:57 (Eastern Time),
+>[Question]
+>I have just discovered the proof of the equivilence of the two dot 
+>product definitions and have now moved onto the cross product. I am 
+>trying to prove the definition of the cross product and why it came 
+>about I started by defining a vector c perpendicular to two vectors 
+>a and b. then I produced two dot product equations ie a1*c1 + a2*c2 
+>+ a3*c3 = 0 as well as b1*c1 + b2c2 + b3c3 = 0. I then find the 
+>components of the vector c in terms of the components of a and b and 
+>eventually get a system of components with c3 = c3 I am stuck from 
+>here!
+>
+>[Difficulty]
+>I have c1 = c3(b3a1 - a3b1)/(a2b1 - b2a1)
+>       c2 = c3(b3a2 - a3b2)/a1b2 - b1a2)
+>       c3 = c3 
+>
+>I find subbing in a value of c3 which gets the correct definition of 
+>the cross product and question the validity of subbing in a value to 
+>get the correct definition
+>
+>[Thoughts]
+>I have done i this in the previous two sections sorry!
+
+Hi Tom,
+
+Thanks for writing to Dr. Math.  You are trying to solve a system of
+two linear equations in three unknowns (c1,c2,c3), and such a system 
+can never have a unique solution.  In this case, if there is one
+solution, then any scalar multiple of the solution vector will again
+be a solution.  That's why you have one undetermined parameter (c3)
+in the solution.
+
+>I have c1 = c3(b3a1 - a3b1)/(a2b1 - b2a1)
+>       c2 = c3(b3a2 - a3b2)/(a1b2 - b1a2)
+>       c3 = c3
+
+Note that the denominators in the first two equations are essentially
+equal (they are negatives), so if you take c3 = a2*b1-a1*b2, you will
+get the usual formula.  Since any multiple of this vector will also
+be perpendicular to both a and b (the vectors), c3 can be anything.
+This particular choice gives you the relationship that the magnitude 
+of the cross product is equal to the area of the parallelogram spanned
+by a and b.
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

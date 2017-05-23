@@ -1,0 +1,27 @@
+ThreadNum: 568065
+Subject: Re: Solving Without usage of a calculator
+To: ricomania77@sbcglobal.net (Joseph)
+From: Doctor Fenton
+TimeStamp: 08/23/2004 at 05:55:30
+Sent: yes
+
+
+As Joseph wrote to Dr. Math
+On 08/23/2004 at 02:40:54 (Eastern Time),
+
+Hi Joseph,
+
+>y=27.109x^(2.651),where x is 30 then
+>ln(y)=(2.651*ln(30))*ln(27.109) 
+
+You are still not using logarithm properties.  y is a product, but
+you are not using the product property of logarithms, which I gave 
+you in my previous reply.  You are writing
+
+   ln(a*b) = ln(a)*ln(b)
+
+and that is not correct.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

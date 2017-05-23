@@ -1,0 +1,103 @@
+ThreadNum: 567372
+Subject: Re: absolute value notation
+To: BabiBluEyes1234@aol.com (Liz)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 22:58:31
+Sent: yes
+
+
+As Liz wrote to Dr. Math
+On 08/17/2004 at 20:30:43 (Eastern Time),
+>[Question]
+>"y is at most 2 units from 9" write this is absolute value notation
+>
+>the distance between x and -10 is at least 6 -the answer is  the 
+>absolute value of x-(-10) is less then or equal to 6
+>
+>[Difficulty]
+>I have no clue what they really want and the wording is so confusing
+>
+>[Thoughts]
+>i think that it is the absolute value of y-9 is less then or equal 
+to 
+>2
+
+Hi, Liz --
+
+Your answer is absolutely right!!  You are also correct in that the 
+wording is confusing -- until you get used to it.
+
+The absolute value of the difference between two numbers is the 
+distance between the numbers, regardless of which one is larger.  
+The difference between 5 and 2 is 3; and the difference between 2 
+and 5 is 3:
+
+  |5-2| ( = |3|) = 3
+  |2-5| ( = |-3|) = 3
+
+When we have an absolute value equation like
+
+  |x-5| = 3
+
+it means that "x" and "5" are 3 units apart on the number line -- in 
+other words, "the difference between x and 5" is equal to 3.  
+Clearly there are exactly two numbers which are 3 away from 5 on the 
+number line -- one to the right (5+3=8) and one to the left (5-3=2).
+
+To understand this interpretation of absolute value, I like to read
+
+  |x-5|
+
+as "the difference between x and 5".
+
+Not much changes for inequalities.  If we have the inequality
+
+  |x-5| < 3
+
+it means that the difference between "x" and "5" is less than 3.  
+Since the numbers 2 and 8 are exactly 3 units from 5, the solution 
+to the inequality is all the numbers between 2 and 8.
+
+Now let's look at your first example:
+
+  "y is at most 2 units from 9"
+
+Let's write this in the standard form
+
+  "the difference between x and ? is ?"
+
+It becomes
+
+  "the difference between y and 9 is less than or equal to 2"
+
+And we can translate this directly into absolute value notation as
+
+  |y-9| <= 2
+
+Your second example is
+
+  "the distance between x and -10 is at least 6"
+
+In this example, we don't need to change the sentence structure; we 
+only need to change a couple of words:
+
+  "the difference between x and -10 is greater than or equal to 6"
+
+This translates directly into absolute value notation as
+
+  |x-(-10)| >= 6
+
+Note that the answer you show for this second example is not 
+correct.  You show the answer being
+
+  |x-(-10)| <= 6
+
+In this answer the direction of the inequality is opposite what it 
+should be.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

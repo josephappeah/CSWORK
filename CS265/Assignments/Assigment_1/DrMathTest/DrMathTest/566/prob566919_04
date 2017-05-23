@@ -1,0 +1,121 @@
+ThreadNum: 566919
+Subject: Re: Finding the distribution of Z = X + Y (random variables)
+To: ludvigooo@hotmail.com (Ludvig)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 07:38:36
+Sent: yes
+
+
+As Ludvig wrote to Dr. Math
+On 08/14/2004 at 13:29:00 (Eastern Time),
+>[Question]
+>how can i find the distribution of the sum of 2 variables or the 
+>ratio of 2 variables?
+>
+>ex: f(x,y)=x+y (0<x<1, 0<y<1)
+>f(x,y)=0 otherwise
+>find the distributions of the variables Z=X+Y and U=X/Y
+>
+
+Next I will be dealing with the distribution of U = X/Y
+
+Again the sample space is the square of side 1 in the x-y plane.
+
+To find the cdf we require  Prob(x/y < u)
+
+This is equivalent to y > x/u,  so we must find the double integral 
+of
+
+     INT[dy.INT[(x+y).dx]  
+
+over the region above the straight line through the origin of 
+gradient 1/u.
+
+We must consider separately the case of 1/u > 1 and 1/u < 1.
+
+First the case 1/u > 1.  (corresponds to u  = x/y < 1)
+
+x will range fronm 0 to yu   and y will range from 0 to 1
+
+             1      yu
+So  G(u) =  INT[dy.INT[(x+y).dx]
+             0      0
+
+             1                 yu
+         =  INT[dy.[x^2/2 + xy]
+             0                 0
+
+             1
+         =  INT[dy.(y^2.u^2/2 + y^2.u]
+             0
+         
+                                 1
+         =  [y^3.u^2/6 + y^2.u/3]
+                                 0
+
+         =   u^2/6 + u/3
+
+When u=1 this gives 1/6 + 1/3 = 1/2.  So the total probability that 
+x/y < 1 is  1/2.
+
+Differentiating above we obtain
+
+      g(u) = u/3 + 1/3
+
+Next we consider the region where 1/u < 1.   This is the region 
+below the diagonal y=x.
+
+This is a little more complicated and has to broken into two parts.
+
+       1/u     yu              1      1
+G(u) = INT[dy.INT[(x+y).dx] + INT[dy.INT[(x+y).dx]
+        0      y              1/u     y
+      
+       1/u              yu     1                1
+     = INT[dy(x^2/2 + xy)   + INT[dy(x^2/2 + xy)
+        0               y     1/u              y
+
+       1/u
+     = INT[dy(y^2.u^2/2 + y^2.u - y^2/2 - y^2)]
+        0
+                1
+             + INT[dy(1/2 -y^2/2 + y - y^2)]
+               1/u
+
+   1/u                                    1
+ = INT[dy(y^2.u^2/2 + y^2.u - 3y^2/2)] + INT[dy(1/2 - 3y^2/2 + y)]
+    0                                    1/u
+
+                                1/u                         1
+ =  [y^3.u^2/6 + y^3.u/3 - y^3/2]    + [y/2 - y^3/2 + y^2/2]
+                                 0                          1/u
+
+ =  1/(6u) + 1/(3u^2) - 1/(2u^3) + 1/2 - 1/2 + 1/2 - 1/(2u) 
+                                 + 1/(2u^3) - 1/(2u^2)
+
+ =   1/2 - 1/(3u) - 1/(6u^2)
+
+So    G(u) = 1/2 - 1/(3u) - 1/(6u^2)
+
+We can check.  When u=1  G(u) = 0  correct
+
+               When 1/u = 0  G(u) = 1/2
+
+So the sum of the probabilities in the region below the line y = x 
+is 1/2. 
+
+The pdf is obtained by differenting G(u).
+
+   g(u) = 1/(3u^2) + 1/(3u^3)
+
+To summarize:
+
+  G(u) = u^2/6 + u/3               for 1/u > 1
+
+       = 1/2 - 1/(3u) - 1/(6u^2)   for 1/u < 1
+
+  
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

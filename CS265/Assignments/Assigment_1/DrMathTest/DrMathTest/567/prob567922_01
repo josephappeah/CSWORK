@@ -1,0 +1,54 @@
+ThreadNum: 567922
+Subject: Re: (no subject)
+To: shiekrula@hotmail.com (Jon)
+From: Doctor Greenie
+TimeStamp: 08/20/2004 at 23:14:02
+Sent: yes
+
+
+As Jon wrote to Dr. Math
+On 08/20/2004 at 17:12:01 (Eastern Time),
+>[Question]
+>You have a 20 volume set of encyclopedias positioned on a bookshelf 
+>in the normal, alphabetical sequence, left to right.  Volume one is 
+>on the far left.  Volume 20 is on the far right.  Each volume has 
+500 
+>pages and is exactly one and one-half inches thick.
+>
+>A bookworm eats his way through the encyclopedias starting at page 
+>one of the first volume and eating straight through the books up to 
+>the last page (page 500) of the last volume.
+>
+>How many sheets of paper did the bookworm eat through?  How many 
+>covers did the bookworm eat through (each book has 2 covers – one 
+in 
+>the front and one in the back)?  How many inches did the bookworm 
+eat 
+>through (rounded to the nearest whole number)?
+>
+>
+>[Difficulty]
+>The trick questions?
+>
+>[Thoughts]
+>How do you work this question out?
+>
+Hi, Jon --
+
+The bookworm obviously doesn't chew through the leftmost cover of 
+volume 1 or the rightmost cover of volume 20.
+
+The tricky part of the question lies in the fact that page 1 of each 
+volume is next to the rightmost cover of that volume while page 500 
+of each volume is next to the leftmost cover.
+
+And there is one piece of information missing -- if you need to 
+determine the total number of inches the bookworm chewed through, 
+then you need to know the thickness of the covers.
+
+I hope these hints help.  Write back if you have any further 
+questions about this problem.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

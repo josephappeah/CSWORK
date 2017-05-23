@@ -1,0 +1,61 @@
+ThreadNum: 567871
+Subject: Re: Eccentricity of circle, parabola, ellipse.
+To: mayank_katyal@fastmail.fm (Mayank)
+From: Doctor Vogler
+TimeStamp: 08/20/2004 at 11:14:02
+Sent: yes
+
+
+As Mayank wrote to Dr. Math
+On 08/20/2004 at 08:35:11 (Eastern Time),
+>[Question]
+>I have learnt that the eccentricity of the circle is 0 & the 
+>eccentricity of parabola is 1 & the eccentricity of ellipse is less 
+>than 1.
+>
+>I have also learnt that the eccentricity of a conic section means the 
+>ratio of the distance of any point on the curve from a fixed point 
+>(the focus) to the distance of that point from a fixed line (the 
+>directrix). 
+>
+>Please explain why is the eccentricity of a circle 0.
+>
+>
+>
+>[Difficulty]
+>I understand that reason for the eccentricity of a parabola to be 1 & 
+>that of a an ellipse to be less than 1.
+>But I am not being able to understand that why is the eccentricity of 
+>a circle zero.
+>
+>[Thoughts]
+>I think that the eccentricity of a circle is zero, maybe because the 
+>ratio of the distance of any point on the circle from a fixed point 
+>to the distance of that point from a fixed line is not constant, so 
+>it is taken as zero.
+>
+>Otherwise, for the eccentricity to be zero, the distance of any point 
+>on the circle from a fixed point would have to be zero which is not 
+>possible.
+
+Hi Mayank,
+
+Thanks for writing to Dr Math.  That's a good question.  In the case 
+of the circle, that definition of eccentricity is not quite accurate.  
+For a circle, the directrix has to be infinitely far away.  You can 
+intuitively think of that ratio as being a constant (the radius) 
+divided by infinity, but perhaps that's not very convincing.
+
+So perhaps the best way to explain why the eccentricity of a circle is 
+0 is in terms of a limit.  If you use a small eccentricity, you get an 
+ellipse.  If the eccentricity is REALLY small, then the ellipse is 
+almost a circle.  So if you think of taking a limit as the 
+eccentricity approaches zero, the ellipse gets closer and closer to a 
+circle, so that the limiting shape of the figure is a circle.
+
+Does this help?  If you have any questions about this or need more 
+help, please write back, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

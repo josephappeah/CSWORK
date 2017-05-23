@@ -1,0 +1,42 @@
+ThreadNum: 568106
+Subject: Re: advanced mathematics
+To: jhunarani@yahoo.co.in (jhuna)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 16:27:18
+Sent: yes
+
+
+As jhuna wrote to Dr. Math
+On 08/22/2004 at 12:16:50 (Eastern Time),
+>[Question]
+>probability of getting no missprints on a page is exp(-2). then 
+what 
+>is the probability of getting 4 missprints on that page?
+
+
+This is a Poisson distribution with the mean = 2 missprints per page.
+
+    P(4) = 2^4/4! x e^(-2)
+
+         =  0.0902235
+
+
+
+
+
+>
+>[Difficulty]
+>total no of trials.
+>
+>[Thoughts]
+>p(x=0)=exp(-2)
+>q to the power n=exp(-2)
+>
+>
+>
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

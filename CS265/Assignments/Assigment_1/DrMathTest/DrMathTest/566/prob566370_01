@@ -1,0 +1,82 @@
+ThreadNum: 566370
+Subject: Re: Equivalent Forms of the Derivative Formula
+To: loqstuy0@hotmail.com (Mark)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 08:44:16
+Sent: yes
+
+
+As Mark wrote to Dr. Math
+On 08/10/2004 at 18:03:37 (Eastern Time),
+>[Question]
+>I have read the Q&A at
+>http://mathforum.org/library/drmath/view/53774.html, and I believe
+>there is an error. the expression "limit as h approaches 0 of
+>[f(a+h)-f(a-h)]/2h" appears only equal to the derivative when the
+>derivative exists. For instance lim as h->0 of
+>[abs(0+h)-abs(0-h)]/(2h)=0, while the derivative at 0 is undefined.
+>Although this appears to be a counter-example, I cannot find an error
+>in the reasoning at
+>http://mathforum.org/library/drmath/view/53774.html, nor can i prove
+>that this "symmetric-derivative" is equal to the regular derivative
+>wherever the regular derivative is defined. Any clarification would be
+>much appreciated.
+>
+>[Difficulty]
+>I cannot find the error in the logic at
+>http://mathforum.org/library/drmath/view/53774.html . 
+>
+>[Thoughts]
+>I'm pretty sure that the proof would involve the fact that limit as h
+>approaches 0 of [f(a+h)-f(a-h)]/(2h) equals the limit as h approaches
+>0 of [[f(a+h)-f(a)]+[f(a)-f(a-h)]]/(2h), but i don't know why the
+>right half of the expression equals half of thge regular derivative
+>when the derivative is defined.
+
+Hi Mark,
+
+Thanks for writing to Dr. Math.  You are correct that the three
+limits are not equivalent.  The first two limits do give equivalent
+definitions of the derivative, but the third limit, the symmetric
+form, is a necessary (but not sufficient, as your example shows), 
+condition for the existence of the derivative, so it cannot be used 
+as a definition of the derivative.  This limit is a theorem, and it
+must be proved.  Note that
+
+   f(a+h) - f(a-h)   1 f(a+h) - f(a)   1 f(a) - f(a-h)
+   --------------- = - ------------- + - -------------
+          2h         2        h        2      h
+
+The first term on the right clearly approaches f'(a) as h->0, if
+f is differentiable at a, and the second term can be written
+
+   f(a) - f(a-h)    -[f(a-h) - f(a)]
+   ------------- =  ----------------
+         h                  h
+                   f(a-h) - f(a)
+                 = -------------
+                       (-h)
+
+so if we let k = -h, this has the form
+
+                   f(a+k) - f(a)
+                 = -------------
+                         k
+
+and h->0 if and only if k->0, so it should be intuitively clear that
+
+        f(a) - f(a-h)        f(a+k) - f(a)
+   lim  ------------- = lim  -------------  ,
+  h->0       h         k->0        k
+
+and the limit on the right is clearly f'(a).
+
+You can make this precise with an epsilon-delta argument.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,41 @@
+ThreadNum: 567709
+Subject: Re: BSc III year
+To: anoopmathur2003@rediffmail.com (anoop)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 14:16:36
+Sent: yes
+
+
+As anoop wrote to Dr. Math
+On 08/19/2004 at 14:10:26 (Eastern Time),
+>[Question]
+>Topic - Real Analysis - Riemann Integral
+>
+>Q - if f be defined on [0,1] by 
+>
+>  f(x) = 1/5 when x belongs to Q ie . Rational Numbers
+>         1/7 when x belongs to R \ Q ie. Real or Rational Numbers
+>
+>Show that f is bounded but not integrable on [0,1]
+>
+>[Difficulty]
+>how to prove this functions as bounded
+>
+>[Thoughts]
+>
+
+Hi Anoop,
+
+Thanks for writing to Dr Math.  See if you can show that
+
+  | f(x) | <= 1/5.
+
+Hint:  1/7 < 1/5.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

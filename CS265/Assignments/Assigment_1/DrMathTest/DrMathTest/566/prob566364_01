@@ -1,0 +1,118 @@
+ThreadNum: 566364
+Subject: Re: Two Planes Leave Chicago
+To: chrystal_lin_2004@yahoo.com (Crystal)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 10:20:45
+Sent: yes
+
+
+As Crystal wrote to Dr. Math
+On 08/10/2004 at 17:36:30 (Eastern Time),
+>[Question]
+>Two planes leave Chicago - one traveling due east and the other due 
+>west. The first travels 100 miles per hour faster than the second. 
+>How long will it be until they are 2000 miles apart. 
+>
+>[Difficulty]
+>The value of x 
+>
+>[Thoughts]
+>I figured out that if plane two is going at X mph, then plane one is 
+>traveling at X + 100 mph. But i can't figure out the value of x. 
+>Please help. Thank you
+
+Hi Crystal,
+
+Let's think about a simpler problem for a moment.  
+
+  Suppose you and I start at some point, standing back to 
+  back, and walk away from each other at a speed of 5 feet 
+  per second.  How long will it take until we're 40 feet
+  apart? 
+
+Before we try to solve it, consider this twist on the problem:
+
+  Suppose you and I start at some point, standing back to 
+  back, and I walk away from you at a speed of 10 feet 
+  per second.  How long will it take until we're 40 feet
+  apart? 
+
+Do you see why these are really asking the same thing?  Since we're
+concerned about the distance between us, we don't really care how fast
+either of us is moving relative to the _ground_.  We just care how
+fast we're moving relative to each other. 
+
+So I could make lots of variations on the problem:  I move at 8 feet
+per second, and you move at 2 feet per second; I move at 4 feet per
+second, and you moved at 6 feet per second; and so on.  In fact, I
+could make a version like this,
+
+  Suppose you and I start at some point.  I walk at a speed 
+  of 12 feet per second, and you move at a speed of 2 feet 
+  per second IN THE SAME DIRECTION.  How long will it take 
+  until we're 40 feet apart? 
+
+and it's _still_ the same, because I'm still moving away from _you_ at
+10 feet per second.  Does this make sense? 
+
+The second version is just a classic application of 
+
+  rate = distance / time
+
+That is, it's the same as
+
+  At a speed of 10 feet per second, how long does it take to 
+  move 40 feet? 
+
+Having said all this, let's look at the original problem.  If the
+first plane is traveling at speed v, then the second travels at speed
+(v+100).  This is the same as if one of the planes stays on the
+ground, and the other moves away at a speed (v+v+100).  So after h
+hours, the distance between the planes will be 
+
+  h*(v+v+100) = 2000
+
+But there's a problem here!  It's not possible to find a unique
+solution.  For example, I could say that v is 200 miles per hour. 
+Then the time is
+
+  h*(200+200+100) = 2000
+      
+            h*500 = 2000
+
+                h = 4 hours
+  
+On the other hand, I could say that v is 150 miles per hour:
+
+  h*(150+150+100) = 2000
+      
+            h*400 = 2000
+
+                h = 5 hours
+
+And there are infinitely many other solutions that will work.  What
+the equation is telling you is that there is a relationship between
+the value of v (the speed of the slower plane) and the value of h (the
+amount of time required); but it's not enough information to specify a
+_unique_ value for either quantity.  
+
+There are (at least) a couple of possibilities here.  One is that
+there's more to the problem than you've said, and the extra
+information would allow you to nail down a particular time.  Another 
+is that you're not really expected to come up with a unique value for
+the time, i.e., you're supposed to end up with an equation that you
+can use to determine the time that corresponds to any chosen value of
+v.  To do that, you'd want to rearrange the equation
+
+  h*(v+v+100) = 2000
+
+to make it look like 
+
+  h = [something involving only v's and numbers]
+
+I hope this helps!  Write back if you'd like to talk more about this,
+or anything else. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

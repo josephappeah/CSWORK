@@ -1,0 +1,99 @@
+ThreadNum: 566619
+Subject: Re: Probability Theory
+To: nick213@lanset.com (Nick)
+From: Doctor Roy
+TimeStamp: 08/12/2004 at 12:22:33
+Sent: yes
+
+
+As Nick wrote to Dr. Math
+On 08/12/2004 at 02:01:53 (Eastern Time),
+>[Question]
+>What is the probability of bearing two boys from four born babies?
+>Choices are:
+>1. 1/5
+>2. 1/8
+>3. 1/2
+>4. 3/8
+>5. 6/11
+>
+>
+>
+>[Difficulty]
+>Oh, my. I've tried all different ways to solve this one, and I always 
+>get the same answer. However, the answer in the textbook is 
+>different! Not even close to mine! Textbook says the correct answer 
+>is 3/8! My answer is 1/6!
+>
+>[Thoughts]
+>This is how I solved it:
+>For the first boy probability is: 2/4=1/2
+>For the second boy probability is 1/3
+>Probability for this event is: 1/2*1/3=1/6
+>But in the text book there is not even such a choice!
+>
+>Thank you so much for being ready to help me. 
+>I would really appreciate it!
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+There are a couple problems with your method. THe first is that the
+probability of having a boy is _always_ 1/2. It doesn't matter if it
+is first, second, third, or fourth.
+
+The probability that the first child is a boy is 1/2. The probability
+the second child is a boy is 1/2. The probability the third child is a
+boy is 1/2, and the probability the fourth child is a boy is 1/2. You
+have to consider the _combination_ of the children, not just each
+child in turn.
+
+One mistake was to neglect the fact that exactly 2 of the children
+were boys.
+
+There are a couple ways to solve this problem:
+
+1) Count all the possibilities. There are 16 ways the sexes of the 4
+children can be arranged:
+
+    BBBB
+    BBBG
+    BBGB
+    BGBB
+    BBGG
+    BGBG
+    BGGB
+    BGGG
+    GBBB
+    GBBG
+    GBGB
+    GBGG
+    GGBB
+    GGBG
+    GGGB
+    GGGG
+
+Of these 16 ways, 6 ways have exactly 2 boys. 6/16 = 3/8.
+
+2) Using the formula:
+
+    C(n,r)*(1/2)^r * (1 - 1/2)^(n-r)
+
+  = C(n,r)*(1/2)^n
+
+In this case n = 4 and r = 2:
+
+    C(4,2)*(1/2)^4
+
+  = 6     * 1/16
+
+  = 6/16
+  = 3/8
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

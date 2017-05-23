@@ -1,0 +1,32 @@
+ThreadNum: 568229
+Subject: Re: finding a point in a non-linear cell
+To: dshah@computing.dcu.ie (DS)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 15:55:41
+Sent: yes
+
+
+As DS wrote to Dr. Math
+On 08/23/2004 at 15:37:12 (Eastern Time),
+>hi,
+>
+>Thank you very much for the reply.
+>
+>Maybe my previous question framing is not so clear so i have put it 
+>another way.
+>Imagine there is just one cell(which is rectangular) and there is one 
+>point somewhere inside that cell ,then how do i find the position of 
+>that point with respect to that cell(considering any corner of the 
+>cell as origin in it) , and how do i find it if the cell is no longer 
+>rectangular.i.e if its trapezoidal or so on..
+
+What do you already know about the point, and exactly what are you
+trying to find our about it?  Do you want distances from some of the
+edges of the rectangle/trapezoid?  Do you have coordinates of the
+point relative to some other coordinate system for which you have the
+coordinates of the rectangle?  You need some information to start with
+or you can't find out anything.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

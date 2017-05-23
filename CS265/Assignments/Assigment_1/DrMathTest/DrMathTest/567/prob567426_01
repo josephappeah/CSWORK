@@ -1,0 +1,45 @@
+ThreadNum: 567426
+Subject: Re: determine the most northerly point of a smooth arc
+To: res2100@yahoo.com (Ralph)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 09:22:31
+Sent: yes
+
+
+As Ralph wrote to Dr. Math
+On 08/18/2004 at 01:25:53 (Eastern Time),
+>[Question]
+>THE PROBLEM
+>
+>The problem is to determine the most northerly point (coordinates) of 
+>a smooth arc that pass through the points I (1000, 1207), II (2000, 
+>2334), and III (3000, 527). 
+>
+>Analysis
+>
+>The shape of this function (curve) is established by the a, b and c 
+>parameters. These constants can be readily be found using a 
+>regression procedure. Many of are listed under a google search 
+>(regression java) Note: a true regression requires four points. In 
+>this case, use a package that uses three data points to produce an 
+>exact fit. To locate the most northerly point, you need to regress 
+>back to your high school days. Does dy/dx = 0 strike a chord. 
+>
+>
+>[Difficulty]
+>It's been a long time since I had to do this type of mathin High 
+>School.
+>
+>[Thoughts]
+>I am thinking the answer is something like 1600,2500 but that is by 
+>trying to draw it on graph paper.
+
+Hello Ralph,
+
+If you fit a parabola y=a*x^2+b*x+c to these three points you will find
+a = -0.001467, b = 5.528, c = -2854.  If you set dy/dx=0 you will find
+x=1884.12, approximately.   For this x, y= 2353.7, approximately.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,43 @@
+ThreadNum: 566467
+Subject: Re: angle created from known length of arc
+To: rickills@bigpond.net.au (Rick)
+From: Doctor Douglas
+TimeStamp: 08/11/2004 at 11:55:48
+Sent: yes
+
+
+As Rick wrote to Dr. Math
+On 08/11/2004 at 07:02:33 (Eastern Time),
+>[Question]
+>Looking for formula to work out the angle created from a section of 
+>a circle with a known radius and length of sector. I.e. take a 
+>clock. It’s 9am the angle of the big and little hands 90deg the big 
+>hand is 200mm long from this I can work out the the length of arc 
+>between the 9 and the 12. This case is 314mm what would the angle be 
+>if the arc length was changed to say 404mm there must be a formula 
+>for this. Can you help? cheers Rick
+>
+>[Difficulty]
+>don't know the formula
+>
+>[Thoughts]
+>
+
+Hi Rick.
+
+thanks for writing to the Math Forum.  Start here:
+
+  Formulas: Sector of a Circle
+  http://mathforum.org/dr.math/faq/formulas/faq.circle.html#sector
+
+If you need more help with this, please write back.  The only
+tricky thing will be that you have to be careful that the angle
+theta is measured in radians in order to use 
+
+  arc length = radius * theta.
+
+Remember that 180 degrees = pi radians.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

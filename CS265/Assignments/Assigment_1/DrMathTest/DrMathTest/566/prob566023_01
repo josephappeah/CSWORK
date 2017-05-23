@@ -1,0 +1,51 @@
+ThreadNum: 566023
+Subject: Re: how many times can we subtract 5 from 50
+To: omro10@yahoo.com (omar)
+From: Doctor Ian
+TimeStamp: 08/08/2004 at 23:07:13
+Sent: yes
+
+
+As omar wrote to Dr. Math
+On 08/08/2004 at 09:52:45 (Eastern Time),
+>[Question]
+>how many times can we subtract 5 from 50?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Omar,
+
+It depends on what you mean by that.  I can do it infinitely many
+times, if I think about it this way:
+
+  50 - 5 = 45               That's one.
+  50 - 5 = 45               That's two.
+  50 - 5 = 45               And so on. 
+
+But perhaps you mean that each time I should do the subtraction from
+the new difference?
+
+  50 - 5 = 45               That's one.
+  45 - 5 = 40               That's two.
+  40 - 5 = 35               And so on. 
+  
+The answer then depends on when you're supposed to stop.  I can keep
+going forever:
+
+  10 - 5 =   5
+   5 - 5 =   0
+   0 - 5 =  -5
+  -5 - 5 = -10
+
+But if you mean, how many times can you do it until you reach zero,
+that's just another way of asking:  "What is 50 divided by 5?"
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

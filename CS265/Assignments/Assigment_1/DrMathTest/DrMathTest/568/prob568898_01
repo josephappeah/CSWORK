@@ -1,0 +1,163 @@
+ThreadNum: 568898
+Subject: Re: The number of Total rectangles given (n) small rectangles
+To: kgriffinbrooks@aol.com (Marcia Lee)
+From: Doctor Greenie
+TimeStamp: 08/26/2004 at 10:52:15
+Sent: yes
+
+
+As Marcia Lee wrote to Dr. Math
+On 08/26/2004 at 09:50:24 (Eastern Time),
+>[Question]
+> What would be the total number of rectangles of any size if a 
+figure 
+>were n(any number) of small rectangles
+>
+>[Difficulty]
+>I am going into 7th grade and my cousin is a Senior this year. He 
+>tried to help me - we keep getting different numbers of small 
+>rectangles when we start with along rectangle that the teacher has 
+>made up of six rectangles
+>
+>[Thoughts]
+>When we have a line of 3 rectangles put together--we find 6 small 
+>rectangles we get different numbers-I think we are overlapping too 
+>many times when we try to draw a pattern--My Aunt Kate thinks that 
+>the Total number of rectangles equals 1/2n--I'm staying with her 
+this 
+>week--She told me to tell you she is getting old and was 
+always 'math 
+>challenged' Can You help Me
+
+Hi, Marcia --
+
+I'm not sure I have the picture correctly.  My interpretation is 
+that you have a row of rectangles lined up end to end, and you want 
+to find the total number of rectangles of any size.  So the 
+teacher's example you mention with six rectangles has those six 
+rectangles in one row -- instead of in two rows of three each.
+
+One good way to solve this problem is to analyze "simple" cases with 
+small numbers of rectangles; specifically, it is often useful to see 
+what happens when you start with a small number of rectangles and 
+then add one more.
+
+So let's do the following:
+
+(1) determine how many rectangles there are altogether if we have 
+just two small rectangles end to end; then
+(2) determine how many "new" rectangles we get when we add a third 
+small rectangle to the row
+
+With two small rectangles, we have a total of three rectangles -- 
+the two small ones, and the one formed by the two small rectangles 
+together.  Let's develop a way of describing these three rectangles.
+
+Here is a picture of the case with two rectangles:
+
+  +-------+-------+
+  |       |       |
+  0       1       2
+  |       |       |
+  +-------+-------+
+
+I have labeled the vertical lines in this diagram so that I 
+can "name" the three rectangles in the figure, as follows:
+
+  (1) the rectangle formed by vertical lines 0 and 1;
+      I'll call that "(0,1)"
+  (2) the rectangle formed by vertical lines 0 and 2;
+      I'll call that "(0,2)"
+  (3) the rectangle formed by vertical lines 1 and 2;
+      I'll call that "(1,2)"
+
+Now let's see what happens when we add a third small rectangle to 
+the figure.  Our figure now looks like this:
+
+  +-------+-------+-------+
+  |       |       |       |
+  0       1       2       3
+  |       |       |       |
+  +-------+-------+-------+
+
+We of course still have the three rectangles we had before; let's 
+determine how many new rectangles we have.  The only new vertical 
+line in the figure is the labeled "3"; all "new" rectangles for this 
+case must have line #3 as the right end.  We have 3 choices for the 
+other end of the new rectangle -- lines 0, 1, or 2.  We therefore 
+get 3 "new" rectangles by adding the 3rd small rectangle to our 
+figure.
+
+So when we add the 3rd small rectangle to the figure, we add 3 to 
+the total number of rectangles.  A similar analysis will easily show 
+that when you add the 4th small rectangle, you get 4 new 
+rectangles.  And it should be clear that this pattern will continue; 
+when you add the n-th small rectangle to the figure, you get n new 
+rectangles.
+
+So the incomplete answer to the original problem is that, if you 
+have n small rectangles in a row, the total number of rectangles is
+
+  1+2+3+...+n
+
+For the final answer, you probably want to express this sum in a 
+more useful form.  You may be familiar with an expression (formula) 
+for the sum of the integers from 1 to n; the formula is
+
+                (n)(n+1)
+  1+2+3+...+n = --------
+                    2
+
+So, for example, if there are 10 small rectangles in a row, the 
+total number of rectangles is
+
+  (10)(11)   110
+  -------- = --- = 55
+      2       2
+
+There is a much more sophisticated method for finding the answer to 
+this problem, using a method with which you are probably not yet 
+familiar.  But if you are in 7th grade, you will probably be 
+learning this method soon.  So let me show it to you quickly.
+
+Suppose we have our array of n small rectangles:
+
+  +-------+-------+--- ... ---+
+  |       |       |           |
+  0       1       2           n
+  |       |       |           |
+  +-------+-------+--- ... ---+
+
+In order to form a rectangle, basically all we need to do is choose 
+two of the vertical lines in the figure.  Each distinct choice of 
+two of those vertical lines will give us a distinct rectangle; and 
+every distinct rectangle will be the result of a particular choice 
+of those two vertical lines.  So the number of rectangles in the 
+array of small rectangles is equal to the number of ways of choosing 
+two of the vertical lines.
+
+There are (n+1) vertical lines in the array (because the first one 
+is labeled "0"), so we have (n+1) choices for the first vertical 
+line.  Then we have n choices left for the other vertical line.  So 
+the number of ways we can choose one of the lines and then another is
+
+  (n+1)(n)
+
+However, for each rectangle we can find, we can get that rectangle 
+two different ways -- we can choose the "leftmost" vertical line 
+first and the rightmost one second, or the other way around.  So in 
+fact the number of ways we can choose two of the (n+1) vertical 
+lines is
+
+  (n+1)(n)
+  --------
+      2
+
+This is the same result we got earlier by our other method.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

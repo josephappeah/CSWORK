@@ -1,0 +1,41 @@
+ThreadNum: 568747
+Subject: Re: probability of total t on n s-sided dice
+To: martin.sims@ntlworld.com (Martin)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 19:14:57
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/25/2004 at 17:43:48 (Eastern Time),
+>[Question]
+>I'm trying to find a formula that will give the probability of a 
+>specific total shown on a specific number of dice with a specific 
+>number of sides. For example, what's the probability of getting a 
+>total of 20 on 4 six sided dice.
+
+
+One trick that I should have mentioned is that because of the 
+symmetry of this problem, the number of ways of getting a total of 
+24 is the same as the number of ways of getting 4, and 23 or 5, 22 
+or 6, 21 or 7, 20 or 8 will be pairs having the same number of ways 
+of occurring.  So here it is easier to find the number of ways of 
+getting 8 if we want the number of ways of getting 20.
+
+ We had
+
+ x^4(1 - x^6)^4.[1 + C(4,1)x + C(5,2)x^2 + ...+ C(19,16)x^16 + ..]
+
+ x^4(1-4x^6 + ..).[1 + C(4,1)x + C(5,2)x^2 + C(6,3)x^3 + C(7,4)x^4
+
+Term in x^8 is now just C(7,4) = 35
+
+This trick becomes less useful if you are dealing with totals near 
+the centre of the range, say a total of 13 or 14, but in the case of 
+a total of 20 it is clearly useful.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

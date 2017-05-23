@@ -1,0 +1,55 @@
+ThreadNum: 567833
+Subject: Re: GRE exam- square root question
+To: fltrn206@ipa.net (Tom Rigsbee)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 07:42:19
+Sent: yes
+
+
+As Tom Rigsbee wrote to Dr. Math
+On 08/19/2004 at 22:51:45 (Eastern Time),
+>[Question]
+>I am studying for the GRE exam, and have stumble upon a section I 
+>cannot remember how to work.
+>I gives the direction: Perform the indicated operation
+>(ã5)(ã2)-ã90
+>
+>It gives the answer as: -2ã10
+>Please show me how to do this--I cant find it anywhere on the net.
+>Thanks
+>Tom
+>
+>[Difficulty]
+>I don't know the procedure for multiplying or dividing ( or add or 
+>subtracting) square roots
+>
+>[Thoughts]
+>
+
+Hi Tom,
+
+Thanks for writing to Dr. Math.  You need to use a property of
+square roots:
+
+   sqrt(a) * sqrt(b) = sqrt(a*b) .
+
+So for example,
+
+  sqrt(2) * sqrt(3) = sqrt(6),
+
+and 
+
+  sqrt(75) = sqrt(25*3)
+           = sqrt(25) * sqrt(3)
+           = 5 * sqrt(3) .
+
+The latter computation allows you to simplify square roots by
+removing any perfect square factors inside the radical.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

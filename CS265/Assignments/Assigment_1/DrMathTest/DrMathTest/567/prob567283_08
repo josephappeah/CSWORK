@@ -1,0 +1,32 @@
+ThreadNum: 567283
+Subject: Re: limit  of a sequence
+To: FiratAras@aol.com (Firat)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:49:37
+Sent: yes
+
+
+As Firat wrote to Dr. Math
+On 08/19/2004 at 10:47:45 (Eastern Time),
+>Hello again,
+>At last I solved (I hope)the equation for x. I should have tought it 
+>before.
+>x= 1/2*m-1+((m-1)^2-4n)^1/2
+>and,
+>x=1/2*m-1-((m-1)^2-4n)^1/2 Am I right? How am I goingto prove it?
+>Can it be done by induction?
+>
+>Thank you, I appreciate it!
+
+The quadratic formula has already been proven.
+
+If you mean prove that this is the limit, then remember what I said
+before, quote:
+
+As for a proof, perhaps you would do well to start here:
+
+  http://mathforum.org/library/drmath/view/64984.html
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,64 @@
+ThreadNum: 567818
+Subject: Re: Thank you (understanding how to do the problem 1+C(n,2)+C(n,4) )
+To: kmacdonald@mindspring.com (Nicholas)
+From: Doctor Anthony
+TimeStamp: 08/20/2004 at 13:11:50
+Sent: yes
+
+
+As Nicholas wrote to Dr. Math
+On 08/20/2004 at 10:15:22 (Eastern Time),
+>thank you for your help with the geometry problem.  The 
+>problem asked to us by our teacher was:  If you have 7 
+>points around a circle and you connect each point to the 
+>others by a line how many non-overlapping regions will you 
+>make?  I am still not sure I understand how to figure out 
+>a formula for this.  He told us that for 6 points we get 
+>31 regions.  Can you please help?
+
+
+Regions of a Circle Cut by Chords to n Points
+----------------------------------------------
+n points are distributed round the circumference of a circle and 
+each point is joined to every other point by a chord of the circle.  
+Assuming that no three chords intersect at a point inside the circle 
+we require the number of regions into which the circle is divided.
+
+With no lines the circle has just one region.  Now consider any 
+collection of lines.  If you draw a new line across the circle which 
+does not cross any existing lines then the effect is to increase the 
+number of regions by 1.  In addition, every time a new line crosses 
+an existing line inside the circle the number of regions is 
+increased by 1 again.
+
+So in any such arrangement
+
+ number of regions 
+
+    = 1 + number of lines + number of interior intersections
+
+                   = 1 + C(n,2) + C(n,4)
+
+Note that the number of lines is the number of ways 2 points can be 
+chosen from n points = C(n,2).  Also, the number of interior 
+intersections is the number of quadrilaterals ( = C(n,4)) that can 
+be formed from n points, since each quadrilateral produces just 1 
+intersection where the diagonals of the quadrilateral intersect.
+
+If we write down the first few terms of this sequence we obtain a 
+pattern that appears to double the number of regions for the first 
+few values of n, but this pattern breaks down at n=6
+
+Note that n can take values 0, 2, 3, 4,....but not the value 1. 
+i.e., with only one point on the circumference there will be no 
+chords.
+
+    n   =  0    2    3    4    5     6    7    8    9
+Regions =  1    2    4    8    16   31   57   99   163
+
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

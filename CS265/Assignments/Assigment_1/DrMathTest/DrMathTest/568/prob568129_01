@@ -1,0 +1,31 @@
+ThreadNum: 568129
+Subject: Re: probability
+To: nellymourine@yahoo.com (monel)
+From: Doctor Anthony
+TimeStamp: 08/22/2004 at 17:10:51
+Sent: yes
+
+
+As monel wrote to Dr. Math
+On 08/22/2004 at 17:02:38 (Eastern Time),
+>[Question]
+>from a box of 10 light bulbs 4 are to be removed how many different 
+>sets of 4 bulbs could be removed
+>
+>[Difficulty]
+>the answer is 120 and i can not come up with that answer
+
+The correct answer is  C(10,4) = 210
+
+Perhaps they got the digits the wrong way round.
+
+
+>
+>[Thoughts]
+>i can arrange 4 bulbs in 7 diffrent ways which come to 28 am then 
+>stuck
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

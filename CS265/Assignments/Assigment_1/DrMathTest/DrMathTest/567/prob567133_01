@@ -1,0 +1,69 @@
+ThreadNum: 567133
+Subject: Re: finite fields, splitting fields, galois theory
+To: wigler@cshl.edu (Mike)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 14:19:57
+Sent: yes
+
+
+As Mike wrote to Dr. Math
+On 08/16/2004 at 13:37:27 (Eastern Time),
+>[Question]
+>I am trying to learn Galois Theory by studying polynomials over the 
+>ground field integers mod 2. I conjecture that all irreducible 
+>polynomials of degree k split in the finite field with 2^k elements, 
+>and I can prove this (I think) for k up to 13. Is it generally true?
+>
+>[Difficulty]
+>I find Galois Theory difficult, so I am trying to develop concepts 
+>over a field Z(2) where arithmatic is real easy! My conjecture is 
+>preeventing me from sleeping, so please help. I would not mind if I 
+>were wrong.
+>
+>[Thoughts]
+>If alpha is a root of P(x), irreducible of degree k over Z(2), then I 
+>can show that alpha^2 is a root. So are all alpha^(2^n). If I could 
+>show these are all unique for n=0,1,...k-1, then P would split over 
+>the extension of Z(2) by alpha (a vector space and field with 2^k 
+>elements). I can show that if any polynomial of degree k splits over 
+>a finite field of 2^k elements, all polynomials of that degree split.
+>I can show that the roots are distinct if there is no m such that 2^m-
+>1 that divides 2^k-1, or if there is, then 2m-1<k. I can also show 
+>the roots are distinct if k+1 is prime. Beyond that I am stuck.
+
+Hi Mike,
+
+Thanks for writing to Dr Math.  Sometimes we write GF(q) to mean the
+finite field with q elements.  Now when you speak of a polynomial of
+degree k splitting in GF(2^k), you could mean:
+
+  Every irreducible polynomial with coefficients in GF(2) (irreducible
+over GF(2)) and degree k splits in GF(2^k).
+
+Or you could mean:
+
+  Every irreducible polynomial with coefficients in GF(2^k)
+(irreducible over GF(2^k)) and degree k splits in GF(2^k).
+
+I think you mean the first, which is true.  The second is NOT true.
+
+The field obtained by adjoining a root (alpha) of your polynomial to
+the field GF(2) is GF(2^k), and all such fields are isomorphic, which
+means that every *other* irreducible polynomial in GF(2)[x] will also
+split in the same extension field.
+
+But if alpha is a root of your irreducible polynomial, then that does
+NOT imply that alpha^2 is also a root of the same polynomial.  A
+counterexample is easy to find, since most roots of most polynomials
+will provide a counterexample.  (So you should look closer at your
+proof and try to understand where it went wrong.)  That alpha^2 is in
+the field GF(2)(alpha) is obvious because every field is closed under
+multiplication.
+
+Is that what you wanted to know?  If you have any questions about this
+or need more help, please write back and show me what you have been
+able to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

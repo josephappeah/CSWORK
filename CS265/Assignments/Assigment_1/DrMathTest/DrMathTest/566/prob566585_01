@@ -1,0 +1,46 @@
+ThreadNum: 566585
+Subject: Re: Grouping Symbols
+To: oliviafresh2004@yahoo.com (Olivia)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 22:05:11
+Sent: yes
+
+Hi, Olivia.
+
+As Olivia wrote to Dr. Math
+On 08/11/2004 at 21:16:09 (Eastern Time),
+>[Question]
+>How can I arrange the grouping of 2 times3^3 +4 to equal 279,936?
+>
+>[Difficulty]
+>I've made a list of all the possible arrangements that I can think of
+>and my answers were all too small.
+>
+>[Thoughts]
+>(2times3)^3+4
+>(2times3^3)+4
+>2(3^3+4)
+>
+>(4+2)times3^3
+>(4+2times3)^3
+>(4+(2times3))
+>4+(2times3)^3
+
+You are probably supposed to keep everything in the given order and 
+insert parentheses:
+
+       3
+  2 * 3  + 4
+
+But to get such a large number, you will have to either raise a 
+larger number than 3 to a power, or raise something to a larger power 
+than the 3rd, or both.
+
+Can you use (3+4) as the exponent?
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,60 @@
+ThreadNum: 566730
+Subject: Re: analysis
+To: dreineki@eischools.org (Dirk)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 21:21:49
+Sent: yes
+
+
+As Dirk wrote to Dr. Math
+On 08/12/2004 at 19:09:23 (Eastern Time),
+>[Question]
+>Assume that f has finite derivative at each point of the interval 
+>(a,b).  Assume also that limit X->Xo of first derivative(x) exists 
+>and is finite for some interior point Xo.  Prove that the value of 
+>this limit must be first derivative of (Xo).
+>
+>[Difficulty]
+>if its finite at that point why is the limit of the derivative of the 
+>function that value of that point?
+>
+>[Thoughts]
+>
+
+Hi Dirk,
+
+Thanks for writing to Dr. Math.  Actually, you don't have to assume
+that f is differentiable at Xo, only that f is continuous at Xo.
+
+To show that 
+
+   f'(Xo) = lim  f(X)
+           X->Xo
+
+you need to use the definition of derivative:
+
+                 f(X) - f(Xo)
+   f'(Xo) = lim  ------------  .
+           X->Xo    X - Xo
+
+Your hypotheses are that f'(Xo) exists, and
+
+   lim f'(X) = L    exists (L is finite) .
+  X->Xo
+
+Try using the Mean Value Theorem to relate the limit of the 
+difference quotient
+
+   f(X) - f(Xo)
+   ------------
+      X - Xo
+
+to the limit of derivatives.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

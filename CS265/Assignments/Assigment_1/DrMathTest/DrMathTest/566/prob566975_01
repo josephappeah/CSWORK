@@ -1,0 +1,136 @@
+ThreadNum: 566975
+Subject: Re: Linear Transformation
+To: vicmurai@hotmail.com (Anne Murai)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 15:23:21
+Sent: yes
+
+
+As Anne Murai wrote to Dr. Math
+On 08/15/2004 at 00:10:39 (Eastern Time),
+>[Question]
+>I am presently trying to teach myself 'linear transformation',
+>however, I am very confused about this section of Linear Algebra. 
+>
+>The textbook that I am using states that, 
+>  'A function T:R^2->R^2 is called a linear transformation if
+>       T(u + v)=T(u) + T(v)
+>  and   T(ku)=k T(u)
+>  for all vectors u, v, in R^2 and all scalars k.
+>
+>I simply do not understand what this definition is saying. For
+>example, how do I apply this definition to solve the following problem.
+>
+>'..Describe in geometric terms, what the following transformation of
+>the plane does to the point (x,y). Is the transformation linear or
+>non-linear? Give reasons..'
+>
+>            T(x,y)=(x-3,y-2)
+>
+>[Difficulty]
+>I do realize that the given transformation maps x to (x-3) and maps y
+>to (y-2). How do I show whether or not the given transformation is
+>linear? I am unable to solve this problem since I do not really
+>understand the above given definition of what a linear transformation
+>is. Please help!
+>
+>Thanks
+>Anne
+>
+>P.S. I find linear algebra very abstract. Is it just I or do most 
+>     of the students learning linear algebra find it abstract like 
+>     myself?
+>
+>[Thoughts]
+>Let u=(a1, b1)  and  v=(a2, a2)
+>T(u +v)=T(u) + T(v)
+>       =T(a1+a2, b1+b2 )
+>       =(a1+a2-3, b1+b2-2)
+>       =(a1+b1-3, a2+b2-2) does not equal T(u)+T(v)
+>
+>Therefore, the transformation is not linear. 
+>
+>(Is this correct?). I worked this out using an example from another
+>textbook, however, I really don't understand what I did.
+
+Hi Anne,
+
+>The textbook that I am using states that, 
+>  'A function T:R^2->R^2 is called a linear transformation if
+>       T(u + v)=T(u) + T(v)
+>  and   T(ku)=k T(u)
+>  for all vectors u, v, in R^2 and all scalars k.
+>
+>I simply do not understand what this definition is saying. 
+
+The requirement that a transformation be linear places enormous
+restrictions on the transformation.  If you know the value of T on
+one vector u, then you automatically know its value on the entire
+one-dimensional subspace consisting of multiples ku of u, where
+k is a scalar.  Geometrically, this subspace is a line through 
+the origin.
+
+If you know the value of T on a second, linearly
+independent vector v, then you know the value of T on the plane
+spanned by the two vectors, because if you know T(u) and T(v),
+then you know T(au+bv)=aT(u)+bT(v), and every vector w in the 
+plane containing u and v is such a linear combination:
+
+   w = au + bv .
+
+(You can think of the lines au (all the scalar multiples of u)
+and bv (all scalar multiples of v) as two axes, and passing
+a line parallel to u through w, this line will intersect the line
+of multiples of v at some point b*v, giving you the "v-coordinate"
+b of w; similarly, you determine the "u-coordinate" of w:
+
+          (multiples of v)
+           /
+          /
+         /
+       //----.w
+  b*v //    /
+     //    /
+     O-------------------> (multiples of u)
+      ---->
+       a*u
+
+So for linear transformations, a tiny amount of information
+(for a linear transformation on R^2, the value of T on two
+linearly independent vectors) determines the entire mapping.
+
+In one dimension, the only linear transformations are T(x) = kx,
+which are straight lines through the origin.
+
+For your problem, think of the "point" (x,y) as the head of a 
+directed line from the origin, the usual idea of a vector.  You
+don't want to look at the x and y parts separately:
+
+>I do realize that the given transformation maps x to (x-3) and 
+>maps y to (y-2)...
+
+Look at the vector you start with [i.e. (x,y)] and the vector you
+wind up with, [ (x-3,y-2) ].
+
+As for whether the map is linear, is it true that
+
+   T(kx,ky) = k T(x,y) ?
+
+Compute the two sides independently and see if they are the same.
+If this is true, then you also need to determine whether
+
+  T((x1,y1)+(x2,y2)) = T(x1+x2,y1+y2)
+                     = T(x1,y1) + T(x2,y2) .
+
+Again, compute the two sides independently and see if they are the
+same.
+
+Your solution in your "thoughts" section is correct.  See if the
+above discussion makes it clearer.
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

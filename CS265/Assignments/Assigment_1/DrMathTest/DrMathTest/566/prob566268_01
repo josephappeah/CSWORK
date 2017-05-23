@@ -1,0 +1,55 @@
+ThreadNum: 566268
+Subject: Re: Square Roots
+To: andrewchen2002@hotmail.com (Andrew)
+From: Doctor Peterson
+TimeStamp: 08/10/2004 at 12:12:09
+Sent: yes
+
+Hi, Andrew.
+
+As Andrew wrote to Dr. Math
+On 08/10/2004 at 04:22:40 (Eastern Time),
+>[Question]
+>if -5 squared=-25
+>why is it that da square root of -25=undefined,
+>
+>
+>[Difficulty]
+>we first learn about cancelling e.g 5+10/5 = 1+2
+>then how come da square root of -25 cannot b worked out
+>
+>[Thoughts]
+>i think of it this way,
+>~square root of -5 squared must equal -5 because da roots cancel out
+
+When we say that
+
+    2
+  -5  = -25
+
+we are NOT saying that -25 is the square of -5, and so -5 would be 
+the square root of -25. Rather, because of the order of operations, 
+we are saying that -25 is the negative of the square of 5:
+
+    2      2
+  -5  = -(5 ) = -(5*5) = -25
+
+The square of -5 is +25:
+
+      2
+  (-5)  = (-5)(-5) = 25
+
+So, for example, if
+
+   2
+  x  = -25
+
+then x=-5 is NOT a solution of the equation (which is what would 
+have to be true if -25 had a (real) square root.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

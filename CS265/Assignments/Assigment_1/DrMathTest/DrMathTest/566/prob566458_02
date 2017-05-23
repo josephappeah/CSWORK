@@ -1,0 +1,88 @@
+ThreadNum: 566458
+Subject: Re: farmula for  bearing
+To: kalpana_deo@yahoo.com (kalpana)
+From: Doctor Rick
+TimeStamp: 08/11/2004 at 17:32:05
+Sent: yes
+
+Hi, Kalpana.
+
+As kalpana wrote to Dr. Math
+On 08/11/2004 at 05:07:33 (Eastern Time),
+>[Question]
+>Hello Dr.Rick
+>
+>Last week I had asked a question to you but I think it might not 
+have 
+>reached you.Actaully  i want to ask you that,  if do not atan2() 
+>function what  we have to use in the farmula for bearing as y = - sin
+>(lon1-lon2)*cos(lat2)and x = cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)
+>*cos(lon1 - lon2) or x =  sin(lon1-lon2)*cos(lat2)and y = cos(lat1)
+>*sin(lat2)-sin(lat1)*cos(lat2)*cos(lon1 - lon2). I also want to know 
+>that what is standard convention for direction. Is it for north and 
+>east we take + and west and south  negative.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+It is easy for me to miss a follow-up question in the barrage of 
+questions we get each day. That is why the e-mails you get from us 
+(like this one) include a link to use for submitting follow-up 
+questions. If you will use that link, your question will be directed 
+specifically to me and I am sure to see it.
+
+The web site from which I got the formula used the opposite 
+convention for longitude: west is positive. We can check whether I 
+corrected it or not by choosing a simple case. For example, let 
+lat1=lat2=0, lon1=0, and lon2=1 degree. If the standard convention 
+(east is positive) is used, we should get a bearing of 90 degrees 
+(east). What do we get?
+
+  y = - sin(lon1-lon2)*cos(lat2)
+    = - sin(-1)*cos(0)
+    = -sin(-1)
+    = sin(1)
+
+  x = cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(lon1 - lon2)
+    = cos(0)*sin(0)-sin(0)*cos(0)*cos(-1)
+    = 0
+
+The arctangent of the angle from the x axis to the vector (0,sin(1)) 
+is 90 degrees. Thus the negative sign in the formula for y corrects 
+for the longitude sign, so that east longitudes are positive. You 
+could also write
+
+  y = sin(lon2-lon1)*cos(lat2)
+
+If you don't have an atan2() function, you can use the algorithm 
+found here:
+
+  Bearing Between Two Points
+  http://mathforum.org/library/drmath/view/55417.html
+
+  dlat = lat2 - lat1
+  dlon = lon2 - lon1
+  y = arctan(sin(lon2-lon1)*cos(lat2)
+  x = (cos(lat1)*sin(lat2)-sin(lat1)*cos(lat2)*cos(lon1-lon2))
+  if dlat > 0 then
+    if dlon > 0 then tc1 = 90 - arctan(y/x)
+    if dlon < 0 then tc1 = 270 + arctan(y/x)
+    if dlon = 0 then tc1 = 0
+  if dlat < 0 then
+    if dlon > 0 then tc1 = 90 + arctan(y/x)
+    if dlon < 0 then tc1 = 270 - arctan(y/x)
+    if dlon = 0 then tc1 = 180
+  if dlat = 0 then
+    if dlon > 0 then tc1 = 90
+    if dlon < 0 then tc1 = 270
+    if dlon = 0 then point 1 = point 2
+
+I made the correction to the formula for y so east longitudes are 
+positive.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

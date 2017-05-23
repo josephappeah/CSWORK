@@ -1,0 +1,19 @@
+#!/bin/bash
+
+ARCHIVE=$ARCHIVE 
+
+
+#for file in $(find $ARCHIVE -type f) 
+for file in $(find $ARCHIVE -name "prob*")
+do 
+	
+	echo ${file:5:-1} >> tmp.txt 
+
+done
+
+for l in tmp.txt 
+
+if [ -a tmp.txt ]; then 
+sort -u tmp.txt > SortTmp.txt
+cat SortTmp.txt
+fi

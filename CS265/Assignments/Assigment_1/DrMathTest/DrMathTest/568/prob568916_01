@@ -1,0 +1,102 @@
+ThreadNum: 568916
+Subject: Re: complexnumbers
+To: manikantsah@yahoo.co.in (manikant)
+From: Doctor Ian
+TimeStamp: 08/27/2004 at 00:42:37
+Sent: yes
+
+
+Hi Manikant,
+
+>1>  what is a complex no.Is it a ordered pair of two real no (a,b) or 
+>an expression of form a+ib.
+
+It's actually the sum of two components, one real and one imaginary. 
+However, since we always write the real component first, we can use
+ordered pair notation when it's more convenient. 
+
+>I have looked for the answer bin your 
+>archive.And a bit confused.You have written a=(a,0) if a is a real 
+>number.How can an ordered pair be equal to a number.
+
+Again, the ordered pair is just shorthand for the sum.  This is just
+saying 
+
+  a = a + 0i
+
+but with fewer symbols.  
+
+>If I consider it 
+>an odered pair I have to define" i " seperately as i = (0,1).
+
+That would be consistent, yes; although you're not _defining_ i by
+doing this.  You're just noting that
+
+  i = 0 + i
+
+which translates to (0,1) in the ordered pair notation. 
+
+>But if 
+>it is considered a+ib with i and +sign simply as expression I easily 
+>get i^2=-1[ 0+i1 * 0*i1 = -1 ] 
+
+I'm not sure what you're trying to say here. 
+
+It might help to think about what we do when we write decimals, like
+1.234.  This is really shorthand for 
+
+      2    3      4
+ 1 + -- + --- + ----
+     10   100   1000
+
+but it's more convenient to leave the denominators implied by the
+locations of the numerators in the sequence of digits.  It means the
+same thing, but it's just more convenient to write.
+
+Using the ordered pair notation for complex numbers works the same way.  
+
+>2>  My second problem is with notation (-2)^1\2 . Can I write it 
+>equal to 2i.I got the problem in the book .I think there is something 
+>fundamentally incorrect with (-2)^1\2 As (-2)^1\2 is not defined.
+
+Raising something to the 1/2 power is the same as taking the square
+root, so 
+                 __
+  (-2)^(1/2) = \/-2
+                 ______
+             = \/-1 * 2
+
+                 __     _
+             = \/-1 * \/2
+                     _
+             = i * \/2
+
+                                                  _
+In ordered pair notation, we'd write this as (0,\/2).  
+
+>[Difficulty]
+>We can think (-2)^1\2 as the root of equation x^2=-2.I have learned 
+>that the roots are 2i and -2i.
+
+Not quite.  Try substituting them into the equation:
+
+     (2i)^2 = -2
+
+  2^2 * i^2 = -2
+
+     4 * -1 = -2
+
+         -4 = -2
+                                    _          _
+See the problem?  Now try it with \/2*i and -\/2*i. Those are the two
+roots of the equation. 
+
+>But what about (-2)^1\2 .We can not 
+>have more than two roots for x^2=-2. I am geeting confused Please 
+>help me.
+
+See above.  I'm not sure what it is you want to know.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

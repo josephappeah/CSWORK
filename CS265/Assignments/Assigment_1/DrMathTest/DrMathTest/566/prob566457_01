@@ -1,0 +1,57 @@
+ThreadNum: 566457
+Subject: Re: probability
+To: jaydavy@onetel.com (Jules)
+From: Doctor Roy
+TimeStamp: 08/11/2004 at 12:44:13
+Sent: yes
+
+
+As Jules wrote to Dr. Math
+On 08/11/2004 at 04:12:13 (Eastern Time),
+>[Question]
+>suppose you record a long sequence of coin tosses and break it into
+>blocks of 4 ie: hhtt ttth htht hhth ...... 
+>What is the probability of any of these blocks repeating themselves?
+>eg, if you were to take a block of 8 at random from your sequence what
+>would be the probability that it would be one pattern of 4 followed by
+>the identical pattern? eg hhtt hhtt, or httt httt.
+>What would be the probability of getting 3 identical patterns together
+>if you were to choose a block of 12, such as htth htth htth?
+>
+>
+>[Difficulty]
+>intuitively I feel that selecting a block of 8 which is hhhh hhhh or
+>tttt tttt is less likely than any of the other patterns,(because they
+>stand out more) but  probability asserts that each of the 16 possible
+>patterns in a 4 hand block is equally likely. 
+>
+>[Thoughts]
+>my reasoning goes like this: since each pattern of 4 has a 1/16 chance
+>of occurring then the chance of a repeat, ie the chance of 2
+>consecutive   
+>appearances is (1/16)(1/16) and the chance of 3 consecutive
+>appearances is (1/16)(1/16)(1/16) etc.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Think of it as a regular coin flip problem. What is the probability
+that if you flip a coin twice, it will be heads twice or tails twice?
+The answer is 1/2. If the flips are HH or TT, the flips repeated. The
+same thing applies here:
+
+Any sequence of 4 flips is likely for the first 4 flips. The next four
+flips can occur in any of 16 ways. So, the chance that 2 occur back to
+back in 8 flips is 1/16.
+
+(1/16)(1/16) is the probability that a _particular_ sequence (say
+htth) repeats. But 1/16 is the probability that _any_ sequence of 4
+flips repeats.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

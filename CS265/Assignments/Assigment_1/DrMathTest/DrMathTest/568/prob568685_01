@@ -1,0 +1,38 @@
+ThreadNum: 568685
+Subject: Re: Euler formula
+To: erichpeterson@sbcglobal.net (Erich Peterson)
+From: Doctor Vogler
+TimeStamp: 08/25/2004 at 15:08:11
+Sent: yes
+
+
+As Erich Peterson wrote to Dr. Math
+On 08/25/2004 at 12:31:49 (Eastern Time),
+>[Question]
+>What did Euler show to be the only integral value for x if x=a to the
+bth power=b to 
+>the ath power (where a is not equal in value to b)?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>A question in a trivia puzzle and I'm a little stymied...
+
+Hi Erich,
+
+Thanks for writing to Dr Math.  I assume that a and b also have to be
+integers.  (If not, then there are many integer values that x can
+have.)  It will take a little work to prove, as Euler did, that there
+is only one solution, but it's not hard to find a solution:
+
+   4    2
+  2  = 4
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

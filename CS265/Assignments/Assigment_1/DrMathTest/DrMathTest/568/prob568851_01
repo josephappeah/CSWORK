@@ -1,0 +1,28 @@
+ThreadNum: 568851
+Subject: Re: Finite Math
+To: tenchivuyo@hotmail.com (Confused student)
+From: Doctor Anthony
+TimeStamp: 08/26/2004 at 05:37:47
+Sent: yes
+
+
+As Confused student wrote to Dr. Math
+On 08/25/2004 at 23:54:18 (Eastern Time),
+>[Question]
+>How can i prove that the square of an odd natural numerber is also 
+an
+>odd number?
+
+Let the odd number be  2n+1
+
+Then   (2n+1)^2 = 4n^2 + 4n + 1
+
+                = 4n(n+1) + 1
+
+Since 4n(n+1) is even we must have  4n(n+1) + 1  as odd.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

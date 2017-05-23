@@ -1,0 +1,49 @@
+ThreadNum: 567808
+Subject: Re: college-level math question for a college placement test
+To: tisch4@bwwonline.com (heather )
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 21:57:57
+Sent: yes
+
+
+As heather  wrote to Dr. Math
+On 08/19/2004 at 21:31:49 (Eastern Time),
+>[Question]
+>If f(x)=x4-x+2, then f(-x)=?
+>there are four answers to choose from and i got a different answer 
+>then what they have.
+>
+>their answer is x4+x+2. 
+>
+>[Difficulty]
+>i understand why they got that answer but i don't understand why they 
+>would not have it as -x4+x-2. can you explain how they did it for me. 
+>now that i think of it i say that possibly it is because they are 
+>only taking the x and no other number so that is why only the -x is 
+>made positive...am i right??
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.\
+
+Here's how to work the problem:
+
+   f(x) = x^4 - x + 2
+
+Then:
+
+  f(-x) = (-x)^4 - (-x) + 2
+
+And (-x)^4 = x^4. -(-x) = + x
+
+  f(-x) = x^4 + x + 2
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

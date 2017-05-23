@@ -1,0 +1,44 @@
+ThreadNum: 567854
+Subject: Re: I am very confused
+To: lilmoangelchik22@aol.com (Jennifer)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:21:51
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/20/2004 at 01:34:59 (Eastern Time),
+>[Question]
+>how did you put an equation or inequality in a table form
+>
+>
+>
+>[Difficulty]
+>I dont know how to do it
+>
+>[Thoughts]
+>    m....m+3(2m-4)
+>    4.... ?
+>    ?.....2
+>
+>Its hard
+
+Hello Jennifer,
+
+Your question is not very clear to me.  However, if one had an equation like
+
+2x+3=5
+
+one could calculate the left side for various values of x:
+
+{{-3, -3}, {-2, -1}, {-1, 1}, {0, 3}, {1, 5}, {2, 7}, {3, 9}}
+
+The entry {-3,-3} means if x=-3, then 2x+3=2(-3)+3=-6+3=-3; the entry {-2,-1} means
+if x=-2, then 2x+3=2(-2)+3=-4+3=-1, etc.
+
+So, it looks as if the solution is x=1.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

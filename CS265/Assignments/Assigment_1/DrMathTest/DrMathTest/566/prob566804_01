@@ -1,0 +1,57 @@
+ThreadNum: 566804
+Subject: Re: finding latitude line given lenth of a nautical mile is 6076
+To: exware@usadatanet.net (Kelly)
+From: Doctor Rick
+TimeStamp: 08/13/2004 at 21:30:33
+Sent: yes
+
+Hi, Kelly.
+
+As Kelly wrote to Dr. Math
+On 08/13/2004 at 08:52:05 (Eastern Time),
+>[Question]
+>Navigators aboard ships and airplanes use nautical miles to measure 
+>distance.  The length of a nautical mile varies iwth latitude.  The 
+>length of a nautical mile, L, in feet, on the latitude line theta is 
+>given by the formula L=6077 - 31 cos2theta.
+>
+>Find, to the nearest degree, the angle theta, where theta is greater 
+>than or equal to 0 and less than or equal to 90, at which the length 
+>of a nautical mile is approximately 6076.
+>
+>
+>(This was a question on the Math B new york state regents and I am 
+>looking for the solution.  The regents had the solution as 44degrees.
+>
+>
+>
+>[Difficulty]
+>How to solve for theta using the formula
+>
+>[Thoughts]
+>6076=6077-31 cos 2 theta
+>
+>subtract 6077 from both sides
+>-1=-31 cos 2 theta
+>
+>divide both sides by -31
+>
+>1/31 = cos 2 theta
+>
+>what next?
+
+The angle whose cosine is 1/31 is the inverse cosine (or arccosine) 
+of 1/31. I assume you were allowed to use a calculator in this exam, 
+because I couldn't do it otherwise (well, a slide rule or math tables 
+would also work).
+
+The question is incorrect, however. The length of a nautical mile is 
+fixed, just like the statute mile we use on land: it is 1852 meters 
+or 6076.11549 feet. See the following page in the Dr. Math Archives:
+
+  Length of a Nautical Mile at a Given Latitude
+  http://mathforum.org/library/drmath/view/61561.html
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

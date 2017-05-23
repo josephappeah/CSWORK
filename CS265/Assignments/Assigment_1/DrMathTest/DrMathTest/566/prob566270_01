@@ -1,0 +1,58 @@
+ThreadNum: 566270
+Subject: Re: Recording a union of a finite set and infinite set
+To: robthevwman@hotmail.com (Robert)
+From: Doctor Ian
+TimeStamp: 08/10/2004 at 11:03:00
+Sent: yes
+
+
+Hi Robert, 
+
+>I didn't see this here, sorry if mistaken. Even our Alegebra2 honors
+>teacher didn't know. How do you record the union of two sets, one
+>finite, the other infinite? 
+>
+>A={ 3,4,5,6,7 }
+>B={ 2,4,6,8,...}
+>AuB=?
+>
+>[Difficulty]
+>Since an infinite set must have a pattern recording all the numbers in
+>both sets is confusing since there won't be a pattern.
+>
+>[Thoughts]
+>I'm utterly stumped :/. And that thing about age, sometimes the mind's
+>age differs from the body. :)
+
+You're right, you need a pattern.  But the pattern can start at any
+point, just as a repeating decimal can start anywhere:
+
+                     _
+  1.2222...      = 1.2
+                      _
+  1.2333...      = 1.23
+                        __
+  1.234565656... = 1.23456
+
+So you could write the union as
+
+  A u B = {2, 3, 4, 5, 6, 7, 8, 10, 12, ...}
+
+And since sets are by definition unordered, you could write it
+
+  A u B = {3, 5, 7, 2, 4, 6, 8, 10, ...}
+
+Or you could use a more explicit notation, e.g., 
+
+  A u B = {x: x > 1 and (x < 8 or x is even)}
+
+For what it's worth, you don't really have to have a 'pattern' to have
+an infinite set, so long as the set is clearly described.  For
+example, there is no 'pattern' to the set of prime numbers, but we've
+all agreed on what that set contains, so we don't worry about it. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

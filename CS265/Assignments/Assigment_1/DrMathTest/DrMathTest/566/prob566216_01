@@ -1,0 +1,55 @@
+ThreadNum: 566216
+Subject: Re: Variables in a proven algebraic equation
+To: yvonne.miller@dcsdk12.org (Yvonne)
+From: Doctor Greenie
+TimeStamp: 08/09/2004 at 22:03:57
+Sent: yes
+
+
+As Yvonne wrote to Dr. Math
+On 08/09/2004 at 20:04:39 (Eastern Time),
+>[Question]
+>In the equation t = 15s + 3 where s (speed) = cm/s (determining 
+>temperature in Celcius using the speed & distance an ant can 
+travel), 
+>is cm/s centimeters per second?  
+>
+>[Difficulty]
+>When we tested it, the temperature was unreasonable.
+>
+>[Thoughts]
+>The ant traveled 82 cm in 5.87 seconds (to the best of our 
+>calcualtions)  82/5.87 = 13.96 therefor t= 15 x 13.96 + 3
+>
+>t = 209.4 + 3
+>t = 212.4
+>That's mighty hot!!
+>
+Hello, Yvonne --
+
+Assuming that the formula is valid and your measurements are 
+correct, then you calculations are correct also.  And since the 
+result of those calculations is unreasonable, we must conclude that 
+either the formula or the measurements -- or both -- are incorrect.
+
+The formula seems to be believable.  The common ants with which I am 
+familiar typically are capable of moving 1 or 2 cm per second, which 
+according to the formula corresponds to temperatures of 18 to 33 
+degrees Celsius, which is around 60 to 90 degrees Fahrenheit.
+
+Your measurements seem to be impossible.  I have never seen an ant 
+move at an average rate of 14 cm per second.  As I noted above, my 
+experience shows the common small black ant to move at only 1 or 2 
+cm per second at the most.  And even the big black forest ants I 
+have seen only move at perhaps 4-5 cm per second at the most.  
+Perhaps your measurement was in fact 82mm -- or 8.2cm -- in 5.87 
+seconds, instead of 82cm in that time.  Those measurements, used in 
+the given formula, would provide a reasonable value for the 
+temperature.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,98 @@
+ThreadNum: 567271
+Subject: Re: Studying for praxis
+To: lwaltmann2001@yahoo.com (Leroy Waltmann)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 12:25:48
+Sent: yes
+
+
+Hi Leroy,
+
+>Thank you for your quick reply. Here are a couple of questions on 
+>the test. I have put the answers down fron the book, because I don't 
+>understand how they got it.
+>
+>To find 36 times 4, you could multiply what number by 12?
+>36 X 4 = 12x
+>36 X 4 = 12x
+>  12     12
+> 3 x 4 = x
+>12 = x
+>
+>I followed it ok until we got to 3 x 4 = x. Where did 3 x 4 come 
+>from?
+
+They divided both sides of the equation by 12:
+
+  36 * 4   12 * x
+  ------ = ------ 
+    12       12   
+
+Note that 36 is the same as 3*12, so 
+
+  3 * 12 * 4    12 * x
+  ----------- = ------ 
+      12          12   
+
+And whenever we have
+
+  this * that
+  ------------
+  this * other
+
+we can use the rule for multiplying fractions to simplify that:
+
+  this * that    this   that
+  ------------ = ---- * -----
+  this * other   this   other
+
+                     that
+               = 1 * -----
+                     other
+
+                 that
+               = -----
+                 other
+
+This is often called 'canceling', but this is really what's going on
+in the background.  Anyway, we can cancel the 12's in the numerator
+and denominator on each side:
+
+       /         /
+  3 * 12 * 4    12 * x
+  ----------- = ------ 
+      12          12   
+       /           /
+
+        3 * 4 = x
+
+To be honest, I wouldn't have done it this way.  I would have started
+with 
+
+   36 * 4 = 12 * ?
+
+and broken the 36 into 3*12,
+
+  12 * 3 * 4 = 12 * ?
+
+From this, it's obvious that '?' has to be 3*4, or 12. 
+
+Does that make sense? 
+
+>Which of the following numbers are the same?
+>
+>I. 0.76 x 10 to the 5th power
+>II. 7,600 x 10 to the -4 power
+>III. 7.6 x 10 to the 2nd power.
+>
+>This gave me a headache. Thanks for all your help
+
+Take a look at
+
+  http://mathforum.org/library/drmath/view/61563.html
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

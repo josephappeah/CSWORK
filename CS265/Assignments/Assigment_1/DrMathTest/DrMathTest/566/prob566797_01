@@ -1,0 +1,125 @@
+ThreadNum: 566797
+Subject: Re: Apostol exercise,  INT [ Abs[ (x-1)(3x-1) ] ] dx from 0 to 2
+To: mathgeek42@hotmail.com (Patrick)
+From: Doctor Fenton
+TimeStamp: 08/13/2004 at 07:45:13
+Sent: yes
+
+
+As Patrick wrote to Dr. Math
+On 08/13/2004 at 07:07:04 (Eastern Time),
+>[Question]
+>Hi
+>
+>I'm trying to solve the following integral from Tom Apostol's
+>Calculus, page 83, exercise #16.
+>
+>INT [ Abs[ (x-1)(3x-1) ] ] dx from 0 to 2
+>
+>[Difficulty]
+>The strategy that's been described to determine the integral
+>of this kind of expression is to represent it as the sum of
+>two polynomials for the case that the expression is less than
+>0 and greater than 0.
+>
+>By the additive property of integrals I can determine this integral
+>by determining the sum of (1) and (2):
+>
+>(1)  INT [ (x-1)(3x-1) ] dx from 1 to 2 (expression is positive in
+>this case)
+>
+>(2)  - INT [ (x-1)(3x-1) ] dx from 0 to 1 (expression is negative in
+>this case)
+>
+>The first integral doesn't seem to be problematic, my answer is
+>correct however I can't seem to get the second integral.
+>
+>[Thoughts]
+>Exercise #16 is:
+>
+>INT [ Abs[ (x-1)(3x-1) ] ] dx from 0 to 2
+>
+>Which I represent as the sum of integrals (1) and (2).
+>
+>The process I use to determine the first integral (1)
+>is as follows:
+>
+>    INT [ (x-1)(3x-1) ] dx from 1 to 2
+>    INT [ 3x^2 - 4x + 1 ] dx from 1 to 2
+>    [ (3 * 2^3/3) - (4 * 2^2/2) + 2^1/1 ] - [ (3 * 1^3/3) - (4 *
+>1^2/2) + 1^1/1 ]
+>    [ 24/3 - 16/2 + 2 ] - [ 1 - 2 + 1 ]
+>    2 - 0
+>    2
+>
+>I think I've done this correctly, although I'm
+>stumped by (2).  This is the process I use:
+>
+>    - INT [ (x-1)(3x-1) ] dx from 0 to 1
+>    - INT [ 3x^2 - 4x + 1 ] dx from 0 to 1
+>    INT [ -3x^2 + 4x - 1 ] dx from 0 to 1
+>    (-3 * 1^3/3) + (4 * 1^2/2) - 1
+>    (-3/3) + (2/1) - 1
+>     0
+>
+>Which is the wrong answer.
+>
+>Basically, my answer to the entire problem #16, is 2.
+>
+>However the book indicates that the proper answer is 62/27.
+>
+>I've used mathematics software to determine the correct integral
+>for both (1) and (2), which indicates that my answer for (2) is
+>wrong.
+>
+>I've also used the mathematics software to determine the integrals of 
+>
+>INT [ -3x^2 ] dx from 0 to 1, 
+>INT [ 4x - 1 ] dx from 0 to 1,
+>INT [ - 1 ] dx from 0 to 1
+>
+>respectively.
+>
+>Which seems to me to be consistent with my solution for (2) but
+>it's obvious to me at this stage that I've missed something.
+>
+>Thanks in advance.
+
+Hi Patrick,
+
+Thanks for writing to Dr. Math.  You are on the right track, but 
+your decomposition of the integral isn't quite correct.  The
+absolute value |a| of a number is always either a (if a >= 0) or
+-a (if a < 0), so if you know the sign of a quantity a, you can
+write |a| without the absolute value signs.  This is the property 
+you are trying to use, but you haven't paid any attention to 
+the sign of the polynomial quantity inside the absolute value 
+signs.
+
+Where is 
+
+   (x-1)(3x-1) = 0 ?
+
+The points where the polynomial is 0 are the only points where it
+can change sign, so it has to have a constant sign between these
+points.  If a function f(x) has a root at c, where a < c < b,
+and f is continuous on [a,b], and if f(x) > 0 for a < x < c while
+f(x) < 0 for c < x < b, then
+
+   b              c          b
+  /             /           /
+  | |f(x)| dx = | f(x)dx  - | f(x) dx  .
+  /             /           /
+  a             a           c
+
+You need to analyze the sign of (x-1)(3x-1) in order to
+decompose the integral into integrals of this polynomial
+without absolute value signs.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

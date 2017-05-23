@@ -1,0 +1,38 @@
+ThreadNum: 566019
+Subject: Re: permutations
+To: llei00@hotmail.com (shane)
+From: Doctor Anthony
+TimeStamp: 08/08/2004 at 18:58:36
+Sent: yes
+
+
+As shane wrote to Dr. Math
+On 08/08/2004 at 08:19:42 (Eastern Time),
+>[Question]
+>why is it that
+>
+> (r+1)! - r! = r! (r+1-1)
+
+  = (r+1)! - r!
+
+  = (r+1)r! - r!
+
+  =  r![r+1 - 1]
+
+  = r!.[r]
+
+
+
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>i have not came across any work on the internet answering these 
+>problems
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

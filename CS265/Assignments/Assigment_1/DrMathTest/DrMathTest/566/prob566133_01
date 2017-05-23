@@ -1,0 +1,35 @@
+ThreadNum: 566133
+Subject: Re: definite integral involving sine and cosine
+To: SunNBreez@aol.com (becca)
+From: Doctor Vogler
+TimeStamp: 08/09/2004 at 15:28:38
+Sent: yes
+
+
+As becca wrote to Dr. Math
+On 08/09/2004 at 09:35:54 (Eastern Time),
+>[Question]
+>integral{0 to pi} (cos x)^2 sin x dx
+>that is my problem that i cannot figure out.
+>
+>[Difficulty]
+>the sin and cos is the most difficult because i have a lot of trouble 
+>with trig functions. i have never been very good at them.
+>
+>[Thoughts]
+>that was not the original problem i had to substitute to get it like 
+>that i just cannot figure out that integral so i can evaluate it.
+
+Hi Becca,
+
+Thanks for writing to Dr Math.  Use a u-substitution with
+
+  u = cos x.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

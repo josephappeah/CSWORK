@@ -1,0 +1,35 @@
+ThreadNum: 566506
+Subject: Re: Area of a ROUND OBJECT
+To: gturillo@earthlink.net (Greta)
+From: Doctor Achilles
+TimeStamp: 08/11/2004 at 15:21:39
+Sent: yes
+
+
+As Greta wrote to Dr. Math
+On 08/11/2004 at 14:51:07 (Eastern Time),
+>My final answer doesn't make any sense to me.  I squared my 26 inch 
+>diameter and got 676.  I multimplied that by pi (3.14) and got 
+>2122.64 sq. inches and divided that by 1 foot/12 inches and got 
+>176.89 feet per ball!  That can't be.  It's too big.  It's a 26 inch 
+>round ball, how can there be 176 feet of material required to cover 
+>it?
+
+Hi Greta,
+
+Thanks for writing back to Dr. Math.
+
+You're right that is too big.  The problem is that your surface area 
+is 2122.64 square inches, but a square foot is not 12 square inches, 
+it is 144 square inches.
+
+1 square foot = 1 foot * 1 foot = 12 inches * 12 inches = 144 square 
+inches
+
+Therefore, the surface area of your ball is 2122.64/144 square feet.
+
+Let me know if there's anything else I can do to help.
+
+- Doctor Achilles, The Math Forum
+  <http://mathforum.org/dr.math/>
+

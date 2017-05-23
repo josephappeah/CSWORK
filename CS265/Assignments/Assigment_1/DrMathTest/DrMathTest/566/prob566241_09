@@ -1,0 +1,57 @@
+ThreadNum: 566241
+Subject: Re: Hexagon
+To: helenanne88@hotmail.com (Anne)
+From: Doctor Douglas
+TimeStamp: 08/15/2004 at 17:44:35
+Sent: yes
+
+
+As Anne wrote to Dr. Math
+On 08/14/2004 at 21:12:25 (Eastern Time),
+>hi
+>
+>Thanks for your reply.  The maths question was given as a group 
+>project. Each team being given a different question.  
+>
+>I find that the more deeper i go, i am getting myself more confused.
+>
+>Right now i have the volume of the hexagonal sphere.
+>As for the volume of the ping pong ball (with a 40mm diameter), i 
+>have calculated it at approximately 3.35cm^3.
+>
+>If i choose to divide this from the volume of the hexagon.  I obtain 
+>209147 units.  Then I divide with a percentage of 53% I have 154768.
+>
+>I am really finding for a correct way to handle this question.  And 
+>currently seem lost.
+>
+
+Hi Anne.
+
+If your ping-pong balls have diameters of 40 mm, then the radius is
+20 mm = 2 cm.  Then the volume is 4*pi*(2cm)^3/3 = 33.5 cm^3, not
+3.35 cm^3.
+
+But as to the overall question itself, I am confused too.  I think 
+it is because you have not stated the question precisely enough for
+me to help.  We were able to get past "area in a 3D Hexagon" once 
+it became clear you were talking about a hexagonal prism.  Then you 
+asked about the number of spheres (ping-pong balls) that can fit in
+this object.  This is in general a HARD problem, and it can take a
+lot of geometric and arithmetic work to find the answer and prove 
+it.  This is why I sent you to other websites to learn about "sphere
+packing", because the material there ought to give you a headstart.
+
+Then the phrase "spherical cap" caused some trouble, because while
+I know what such a shape is, it seems unlikely that you want it as
+part of your solution (to the ping-pong ball problem).  Now you have
+used the phrase "hexagonal sphere", and I confess that I don't have
+any idea what this is.  
+
+Maybe we should start over?  I suggested that you might wish to 
+tell me the original website where you found this problem--can you
+do that?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

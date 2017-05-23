@@ -1,0 +1,56 @@
+ThreadNum: 566368
+Subject: Re: Precalculus
+To: james.piatt@email.rio.maricopa.edu (James)
+From: Doctor Fenton
+TimeStamp: 08/10/2004 at 21:08:03
+Sent: yes
+
+
+As James wrote to Dr. Math
+On 08/10/2004 at 17:56:47 (Eastern Time),
+>[Question]
+>I have been given 5 points. I am to produce a fourth degree equation 
+>of this line (or perhaps function, who can tell?). The representative 
+>form of the equation is Ax^4 + Bx^3 + Cx^2 + Dx + E. I have done 
+>nothing as I do not know or cannot recall, and certainly cannot find, 
+>how to do this problem. 
+>All I am looking for is a starting point. Is there a term for solving 
+>this kind of equation, a formula, a clue as to what to do. Would I do 
+>it piecemeal, ie look for an equation of the line between the first 
+>two points, then the next, etc...and how is that done? I have 
+>absolutely no terminology to even begin looking in your FAQs, any 
+>index or glossary, I am stunned. Thank you.
+>james.piatt@email.rio.maricopa.edu
+>
+>[Difficulty]
+>I don't know where or how to start. 
+>
+>[Thoughts]
+>This is doubtless something simple I have already done in another 
+>form but I cannot relate it to any prior work. I have done no 
+>work...I have 5 points and have to produce a fourth degree equation 
+>of the form set forth supra. I'd just eat the three points but I want 
+>to know how to do this.
+
+Hi James,
+
+I think the following answers from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/53057.html
+  http://mathforum.org/library/drmath/view/63984.html
+
+I found them by searching on these keywords:
+
+  Lagrange interpolation  (phrase)
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

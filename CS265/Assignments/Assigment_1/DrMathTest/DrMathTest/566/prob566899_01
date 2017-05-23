@@ -1,0 +1,173 @@
+ThreadNum: 566899
+Subject: Re: limits
+To: dseng86@msn.com (David)
+From: Doctor Fenton
+TimeStamp: 08/14/2004 at 11:30:13
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/14/2004 at 09:44:32 (Eastern Time),
+>[Question]
+>Hi, I have a question on limits.
+>
+>A piecewise function g(x) is defined as follows:
+>
+>g(x) = {x^2*sin(1/x)    if x is not equal to 0
+>       {0               if x=0
+>
+>I have determined that lim x-->0 g'(0) = 0.
+>
+>The question asks me to show that x approaching zero from the left 
+>does not exist 
+>
+> i.e. lim x-->0- g'(x) does not exist
+>
+>and
+>
+> lim x-->0+ g'(x) does not exist
+>
+>
+>The function g is an example of a function which is differentiable 
+>everywhere but whose derivative is discontinuous at a single point.
+>
+>[Difficulty]
+>Am I correct in concluding that the limits do not exist because the 
+>tend to two different values? After limiting the angle of the 
+>derivative to 0 from both the left and right hand side; I get -
+>infinity and +infinity respectively.
+>
+>[Thoughts]
+>In attempting to answer this question; I have limited the angle in 
+>the derivative to zero (approaching from both the left and right hand 
+>side of 0).
+>
+>To give you a better idea of what I have done; I have made a PDF file 
+>including the question and my attempted answer. The question we are 
+>looking at is question (e).
+>
+> PDF location: http://people.mail2me.com.au/~crazee_boi/
+>
+> filename: "limits.pdf"
+
+Hi David,
+
+Thanks for writing to Dr. Math.  This is a very complicted but very
+important example, since it shows that many "intuitive" properties
+of differentiation are not true.
+
+Above, you state that
+
+>I have determined that lim x-->0 g'(0) = 0.
+
+That is not correct.  The point of this problem is to show that this
+limit does not exist, but the function is differentiable at x=0 
+anyway.  [This is a point that many people don't understand: a 
+function can be differentiable at every point of an interval, but not
+be continuously differentiable - i.e. the derivative function need 
+not be continuous.]
+
+>Am I correct in concluding that the limits do not exist because the 
+>tend to two different values? 
+
+No.  The one-sided limits do not exist.  This is quite different from
+the nonexistence of a "two-sided" limit because the two one-sided 
+limits, each of which exists at a point, have different limiting 
+values, as at a jump discontinuity.  There is another type of 
+discontinuity, sometimes called an "oscillatory" discontinuity.
+The function values never 'settle" down, but rather just keep
+oscillating through an interval of values.
+
+In your pfd file, you answer (a) by "direct substitution".  I don't
+know what you mean by that.  You seem to be saying that since g(0)
+is defined by the second line of the piecewise definition, that
+lim g(x) = g(0) = 0.
+x->0
+
+However, that is not correct.  A function f need not be defined at 
+x=a in order to have a limit 
+
+   lim f(x)
+  x->a 
+
+and even if f(a) is defined, its value is irrelevant to the existence
+of this limit.  For this function g(x), the key idea is that
+
+   |g(x)| <= |x|^2 .
+
+You can either use the "Squeeze Theorem", or just argue directly with
+epsilons and deltas, to show that
+
+ lim g(x) = 0  , which incidentally is g(0), so g is continuous at 0.
+ x->0
+
+I don't understand your answer to (b).  You first say that the two
+one sided limits exist and are equal everywhere, including x=0, and
+then you say "with the exception of the point x=0", which contradicts
+your first statement.
+
+sin(1/x) is a composite function, and h(x) = 1/x is continuous for
+all x =/= 0  (x not equal to 0), while the outer function sin(y) is
+continuous for all y, so by the theorem on continuity of composite
+functions, sin(1/x) is continuous for all x=/=0.  This function is
+multiplied by x^2, which is also continuous for all x, so the product
+function is continuous for all x=/=0 by the theorem on continuity of
+product functions.  Therefore, g(x) is continuous for all x=/=0 by
+general theorems, and your result in a handles x=0, so that g is 
+continuous for all x.
+
+Your answer to (c) is more complicated than necessary, since once
+again, general theorems about the differentiability of composite and
+product functions tell you that g is differentiable for all x=/=0,
+so the only issue is at x=0, and you only have to look at
+
+       g(x) - g(0)
+   lim ----------- = lim  x sin(1/x)
+  x->0    x - 0      x->0
+
+which can be analyzed by the Squeeze Theorem (or directly).
+
+Your computation in (d) is correct.
+
+You are correct that (in the usual extended sense)
+
+        1                    1
+   lim  - = +oo   and   lim  - = -oo ,
+  x->0+ x              x->0- x
+
+but then you incorrectly transfer these results to g'(x).  It is
+not true that
+
+   lim  g'(x) = +oo    or   lim  g'(x) = -oo  .
+  x->0+                    x->0-
+
+Your formula
+
+   g'(x) = 2xsin(1/x) - cos(1/x)
+
+in fact shows that neither one-sided limit exists.  If 1/x is an
+even multiple of pi,
+
+   1                     1
+   - = 2*k*pi, or x = ------ , then sin(1/x) = 0 and cos(1/x) = 1,
+   x                  2*k*pi
+
+while if 1/x is an odd multiple of pi,
+
+   1                           1
+   - = (2*k+1)*pi, or x = ---------- , 
+   x                      (2*k+1)*pi
+
+then sin(1/x) = 0 and cos(1/x) = -1.
+
+There are such points in every interval (-D,D), and this fact
+violates the Cauchy criterion, so g'(x) cannot have a limit as
+x->0 (or even x->0+ or x->0-).
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

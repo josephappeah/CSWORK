@@ -1,0 +1,37 @@
+ThreadNum: 566900
+Subject: Re: (no subject)
+To: jyotishcm2002@yahoo.co.in (jyotish)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 10:18:20
+Sent: yes
+
+
+As jyotish wrote to Dr. Math
+On 08/14/2004 at 10:11:11 (Eastern Time),
+>[Question]
+>Prove that 1^2+1^3+1^4+........+1^n is not an integer for any 
+natural 
+>numbern.
+>
+>[Difficulty]
+>no idea
+>
+>[Thoughts]
+>take the first and last terms and proceed.
+
+Hello...
+
+Have you presented the expression correctly?  As it is shown, it has 
+the (integer) value (n-1) for any natural number n:
+
+  1^2 = 1
+  1^2+1^3 = 2
+  1^2+1^3+1^4 = 3
+  ...
+  1^2+1^3+1^4+...+1^n = n-1
+
+Please check the expression an resubmit your question if necessary.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

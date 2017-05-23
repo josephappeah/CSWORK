@@ -1,0 +1,69 @@
+ThreadNum: 567818
+Subject: Re: understanding how to do the problem 1+C(n,2)+C(n,4) 
+To: kmacdonald@mindspring.com (Nicholas)
+From: Doctor Anthony
+TimeStamp: 08/20/2004 at 08:25:10
+Sent: yes
+
+
+As Nicholas wrote to Dr. Math
+On 08/19/2004 at 22:05:54 (Eastern Time),
+>[Question]
+>I have a geometry (9th grade) question regarding how to find a 
+>formula for counting regions formed by chords on a circle.  Your 
+>archives were great in giving me the formula of 1 + C(n,2) + C(n,4)
+>as an answer, however I do not understand how to compute this 
+>formula.  For example if the number of chords is 7 how do I use 
+this 
+>formula to determine the number of regions formed?  And, for any 
+>number of chords?
+>
+
+The formula you quote is for the number of regions if there are n 
+points round a circle and every point is joined to every other 
+point.  The number of chords is a very different problem, because in 
+general the ends of chords will not meet the ends of other chords.  
+In fact if you simply say the number of chords you can get a variety 
+of answers depending on how the chords are drawn.  For exampe, with 
+two chords it is possible to have 3 regions if they don't intersect 
+each other and 4 regions if they do intersect.
+
+Check again that you are talking about n points distributed round a 
+circle and not about n chords.  If it is about n points the formula 
+you quote is correct, if it is about n chords the answer is 
+indeterminate.
+
+
+
+>Thank you,
+>
+>Nicholas
+>
+>[Difficulty]
+>Using the formula given.
+>
+>[Thoughts]
+>If I have 50 chords where do I plug in the number 50 for this 
+>formula?  And what does the "C" stand for?
+
+If you have 50 chords the answer is anyone's guess.  If you have 50 
+points distributed round the circle the answer is
+
+   1 + C(50,2) + C(50,4)
+
+  = 1 + 1225 + 230300
+
+  =  231526
+
+
+C(n,r) is the number of combinations of r things that can be made 
+from n different things. 
+
+                      12 x 11 x 10 x 9
+  Example  C(12,4)  = ----------------  =  495
+                       1 x 2 x 3 x 4
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

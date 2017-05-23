@@ -1,0 +1,31 @@
+ThreadNum: 567990
+Subject: Re: remainder and factor theorem
+To: xaley_khan@yahoo.com (xaley)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:33:39
+Sent: yes
+
+
+As xaley wrote to Dr. Math
+On 08/21/2004 at 06:07:59 (Eastern Time),
+>[Question]
+>without doing the long division, find the remainder when (3x^4)  -  
+>(5x^2)  +  4 is divided by (x^2) + 2
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Xaley!
+
+Substitute x^2 = y.  Then you want the remainder when 3*y^2 - 5*y + 4
+is divided by y + 2.  Use the Remainder Theorem.  Is that easier?
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

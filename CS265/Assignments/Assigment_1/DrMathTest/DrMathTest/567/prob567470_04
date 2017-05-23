@@ -1,0 +1,34 @@
+ThreadNum: 567470
+Subject: Re: solving an equation with parameters
+To: mark.witteveen@xs4all.nl (Mark)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 11:43:48
+Sent: yes
+
+
+As Mark wrote to Dr. Math
+On 08/18/2004 at 11:25:59 (Eastern Time),
+>Hi Dr Vogler,
+>
+>This should be it then:
+>
+>x - 2y + xz/x-z  =  4y
+>
+>x - 2y + xz  =  4y(x – z)
+>
+>x - 2y + xz  =  4xy – 4yz
+>
+>xz + 4yz      =  4xy – x + 2y
+>
+>z      =  4xy – x + 2y / x + 4y
+>
+>
+>Thanks,
+>
+>Mark
+
+Looks good!  Good job.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

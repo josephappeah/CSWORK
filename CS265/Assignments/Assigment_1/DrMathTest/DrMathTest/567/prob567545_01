@@ -1,0 +1,62 @@
+ThreadNum: 567545
+Subject: Re: Brackets without a symbol
+To: rheap0625@hotmail.com (Rhonda)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 18:37:47
+Sent: yes
+
+
+As Rhonda wrote to Dr. Math
+On 08/18/2004 at 17:58:32 (Eastern Time),
+>[Question]
+>My daughter came home from 6th grade with this problem:
+>(13478)(42894)
+>There was no symbol in between. We think this means multiply. My math 
+>may be a little rusty after all these years!  and I didn't find any 
+>specific explaination in your FAQ. Please tell us what needs to apply 
+>here.
+>
+>Thank You for your help
+>Rhonda
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>We multiplied the numbers in the first bracket with the second 
+>bracket.
+
+Hi Rhonda,
+
+That's what was intended.  As we get into more complicated expressions
+involving variables, we don't want to have to write expressions like
+
+   2    3
+  a *b*c *d*e
+
+so by convention, if we can tell where something starts and something
+else ends, we can put them next to each other and understand that
+multiplication is implied, 
+
+   2    3        2  3
+  a *b*c *d*e = a bc de
+
+This works fine if want to multiply by a number:
+
+     2  3
+  12a bc de
+
+But if we want to put two numbers together this way, we need to have
+something to say where the boundaries are:
+
+  123xy =  1*23*xy or 12*3*xy ?
+        
+That's what the parentheses are for:
+
+  (12)(3)xy = 12 * 3 * x * y
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

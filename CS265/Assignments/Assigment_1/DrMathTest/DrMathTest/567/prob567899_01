@@ -1,0 +1,37 @@
+ThreadNum: 567899
+Subject: Re: It is a trivia question for work
+To: Sdaniel@thezenith.com (Stacey)
+From: Doctor Douglas
+TimeStamp: 08/20/2004 at 13:29:12
+Sent: yes
+
+
+As Stacey wrote to Dr. Math
+On 08/20/2004 at 13:21:15 (Eastern Time),
+>[Question]
+>Sam’s favorite colors are blue and green, so it’s not surprising 
+>that he has six blue sox and six green sox in his sock drawer. 
+>Unfortunately, they are hopelessly mixed up and one day, in complete 
+>darkness, he has to grab some sox to wear. How many sox does he have 
+>to take from the drawer to make sure he gets a matching pair—either 
+>green or blue?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Stacey,
+
+thanks for writing to the Math Forum.
+
+Suppose he picks two socks.  Either they're both blue (in which case
+he's done) or they're both green (in which case he's done), or
+he's got one of each (so he needs to pick another sock).
+
+What can happen when he picks the next sock?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

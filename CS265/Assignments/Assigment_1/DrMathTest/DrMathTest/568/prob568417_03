@@ -1,0 +1,39 @@
+ThreadNum: 568417
+Subject: Re: Differentiation Problems
+To: Paul8521@hotmail.com (Paul)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 08:29:16
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 08/24/2004 at 08:22:25 (Eastern Time),
+>sorry, let me rephrase (it's part of a bigger question and I wasn't 
+>thinking!)
+>
+>x=15cos(Pi*t/60) , find dx/dt?
+>
+>Here's what I ended up with when I tried it: "(-15pi/60)sin(pi*t/60)"
+>(Unsure of that answer)
+>
+>This is part of finding the horizontal velocity of a ball dropped, 
+>for a question in which t=75.
+>
+>If I want to find the velocity Do I add t to the derived equasion?
+>
+>Sorry for confusing first email
+>Thanks
+
+Hello Paul,
+
+x=15cos(pi*t/60)
+
+dx/dt = -(15*pi/60)*sin(pi*t/60)
+
+Your answer is correct.  If x is the horizontal coordinate of the ball at any time t, then 
+dx/dt is its velocity at any time t.  So, at t=75, the velocity will be the expression you get 
+when you replace t by 75 in dx/dt.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

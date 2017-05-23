@@ -1,0 +1,45 @@
+ThreadNum: 567131
+Subject: Re: Linear and quadratic - tough very tough please answer 
+To: goel_aditya2003@yahoo.com (Aditya)
+From: Doctor Ian
+TimeStamp: 08/16/2004 at 13:33:04
+Sent: yes
+
+
+As Aditya wrote to Dr. Math
+On 08/16/2004 at 13:18:43 (Eastern Time),
+>[Question]
+>Solve for x and simplify the answer:
+>
+>
+>(3x + ab)(b+c)(c+a) + (3x + bc)(c+a)(a+b) +( 3x + ca)(a+b)(b+c)=a+b+c 
+>       
+>
+>[Difficulty]
+>It gets to long
+>
+>[Thoughts]
+>i get around 20 terms and you cant put any identity to it.
+
+Hi Aditya, 
+
+You don't need any special identities.  You just need the distributive
+property.  
+
+Note that you can rewrite 
+
+  (3x + ab)(b+c)(c+a) 
+
+as
+
+  3x(b+c)(c+a) + ab(b+c)(c+a)
+
+If you do that for all three of the terms like that, you end up with 
+
+  3x*this + 3x*that + 3x*other + [stuff with a, b, c] = a+b+c
+
+Can you see how to solve that for x? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

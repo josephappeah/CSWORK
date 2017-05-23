@@ -1,0 +1,62 @@
+ThreadNum: 567963
+Subject: Re: stuck in this log problem
+To: nathen147@yahoo.com (patmanat5hen)
+From: Doctor Fenton
+TimeStamp: 08/21/2004 at 09:02:21
+Sent: yes
+
+
+As patmanat5hen wrote to Dr. Math
+On 08/20/2004 at 22:38:47 (Eastern Time),
+>[Question]
+>log base2a a=x
+>log base3a 2a=y
+>log base4a 3a=z
+>
+>xyz +1 =2yz
+>
+>[Difficulty]
+>the base is diffrent which base is sutible for this question?
+>
+>
+>[Thoughts]
+>
+
+Hi Patmanathen,
+
+Thanks for writing to Dr. Math.  I would recommend using the change
+of base formula for logarithms to put everything into a common base, 
+such as natural logarithms.  If b and c are positive numbers, and
+log_b(x) denotes the logarithm of x to the base b, etc.,
+then
+              log_b(x)
+   log_c(x) = --------
+              log_b(c)  .
+
+Then the statement
+
+>log base2a a=x 
+
+becomes
+
+   ln(a)                   ln(a)
+  ------ = x ,  or  x = -----------  .
+  ln(2a)                ln(a)+ln(2)
+
+You can similarly transform the other two log statements into 
+equations involving ln(a) and natural logarithms of positive
+integers, and then you can rewrite the algebraic expressions in
+
+>xyz +1 =2yz
+
+to an equation with ln(a) and other natural logarithms which can be
+verified.
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

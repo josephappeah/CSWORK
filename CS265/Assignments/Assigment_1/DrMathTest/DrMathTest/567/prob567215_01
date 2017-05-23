@@ -1,0 +1,37 @@
+ThreadNum: 567215
+Subject: Re: geometry question
+To: gmart30@eq.edu.au (greg martin)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 23:18:01
+Sent: yes
+
+
+As greg martin wrote to Dr. Math
+On 08/16/2004 at 21:19:44 (Eastern Time),
+>[Question]
+>I need to find the radius of a sector that has arc length 6000mm and 
+>the distance between the chord and the arc is 700mm. HELP please.
+>
+>[Difficulty]
+>too many variables
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Greg!
+
+Try this web page from our Frequently Asked Questions (FAQ):
+
+  Segments of circles
+  http://mathforum.org/dr.math/faq/faq.circle.segment.html
+
+You know s and h, so you're in Case 3 from that page.  The answer
+will have to be determined numerically, since there is no algebraic
+formula for r in terms of s and h.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

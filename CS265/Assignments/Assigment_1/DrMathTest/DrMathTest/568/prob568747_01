@@ -1,0 +1,56 @@
+ThreadNum: 568747
+Subject: Re: probability of total t on n s-sided dice
+To: martin.sims@ntlworld.com (Martin)
+From: Doctor Anthony
+TimeStamp: 08/25/2004 at 18:53:15
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/25/2004 at 17:43:48 (Eastern Time),
+>[Question]
+>I'm trying to find a formula that will give the probability of a 
+>specific total shown on a specific number of dice with a specific 
+>number of sides. For example, what's the probability of getting a 
+>total of 20 on 4 six sided dice.
+
+The number of ways of getting a total of 20 is given by the 
+coefficient of x^20 in the expansion of
+
+  (x + x^2 + x^3 + x^4 + x^5 + x^6)^4
+
+  x^4(1 + x + x^2 + x^3 + x^4 + x^5)^4
+
+   x^4(1 - x^6)^4
+   --------------
+      (1 - x)^4
+
+ x^4(1 - x^6)^4.[1 + C(4,1)x + C(5,2)x^2 + ...+ C(19,16)x^16 + ..]
+
+From this we have to pick out the various terms in x^20
+
+Some tedious algebra produces the term  35.x^20  so there are 35 
+ways in which a total of 20 can arise.  The total number of possible 
+outcomes is 6^4 = 1296, so required probability
+
+        35
+    =  ----
+       1296
+
+
+  
+>
+>[Difficulty]
+>The only formulas I've found present maths beyond my understanding 
+>without giving a final "x =" formula and I am unable to manipulate 
+>the formula into a state I can use.
+>
+>
+>
+>[Thoughts]
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

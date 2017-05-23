@@ -1,0 +1,37 @@
+ThreadNum: 568587
+Subject: Re: How can you find the radius of a rectangle
+To: nancy_gilliam@abss.k12.nc.us (Paul)
+From: Doctor Peterson
+TimeStamp: 08/25/2004 at 11:39:11
+Sent: yes
+
+Hi, Paul.
+
+As Paul wrote to Dr. Math
+On 08/24/2004 at 21:41:05 (Eastern Time),
+>[Question]
+>A rectangular reflecting pool with a horizontal bottom is 100 ft by 
+>150 ft and contains 200,000 gal of water.  How deep is the water in 
+>the pool?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+First, convert gallons to cubic feet (there are pages listed in our
+FAQ to help with that), so you know the volume of the pool. That
+volume, since it forms a rectangular prism (cuboid), is the length
+times the width times the depth (height), so you can write an equation
+using a variable for the depth, and solve for that variable.
+
+If you need more help, please write back and show me how far you got.
+
+By the way, a rectangle has no radius; is there some reason you used
+that word in the subject line? I'm curious!
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

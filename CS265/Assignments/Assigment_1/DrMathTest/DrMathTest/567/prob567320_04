@@ -1,0 +1,135 @@
+ThreadNum: 567320
+Subject: Re: relationship between fractions and rational numbers
+To: lmshow_02@yahoo.com (Bidemi)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 17:52:11
+Sent: yes
+
+
+Hi Bidemi,
+
+>As regards ealier asked question "Are all Rational numbers FRACTIONS" 
+>please there is a bit confusion here which i'm not clear about. 
+>First, a rational number is a fraction in the form p/q, where p and q 
+>are integers but q must not be equal to zero while a fraction is also 
+>in the form p/q i.e an integer over an integer 
+
+A fraction is more general.  The numerator and denominator aren't
+required to be zero.  So 2/3 and e/pi are both fractions, but of the
+two only 2/3 is a rational number. 
+
+>Now in fraction, can q equals to Zero, i.e is 1/0 a fraction
+
+No, it's not. More precisely, it's a fraction whose value is undefined. 
+
+>Is o/1 a fraction
+
+Yes, it is. 
+
+>is o/o a fraction.
+
+Similarly, it's a fraction whose value is undefined. 
+
+>That happens to be the first part of my question.
+>Furthermore as regards classifying a number as either rational or 
+>irrational, what are the determining factors behind it that is how 
+>can we see a number and classify it as a rational number and 
+>irrational number. Now the argument arose from the fact that pi is 
+>classfied as an irrational number(reasons unknown maybe because it 
+>has a re-occuring decimal) 
+
+No, we know it doesn't, not in the sense in which we normally use
+'recurring' or 'repeating'.  
+
+>but the value of pi was assumed to be 22/7 
+
+That's just an estimate.  
+
+>now 22/7 is an integer over an integer and the denominator is not 
+>equal to zero which is enough to classify it as a rational number. 
+
+Right.  22/7 is a rational number, but 22/7 is only an _approximation_
+to pi, which is not rational.  3.14, which is the same as 314/100, is
+also a rational approximation to pi; as is 3.14159, which is the same
+as 314159/100000; and so on.
+
+>Also pi/2 is classified as a fraction not a rational number because 
+>pi is not an integer but pi/2 is the same thing as 22/7 divided by 2 
+
+But it's _not_ the same thing.  It's an _approximation_.
+
+>which equals 11/7 now 11/7 can be viewed as a rational number since 
+>it is an integer over an integer. 
+
+Sorry.  See above. 
+
+>based on the information i gathered so far, 
+>a rational number is such in the form p/q (an integer over an 
+>integer) where q must not be equal to zero. It was further explained 
+>that a rational number either terminates or has a number or a group 
+>of his numbers repititive i.e 1/7 
+
+The decimal expansion of a rational number does terminate, or reach a
+point where you get a repeating cycle of digits, e.g., 
+
+                _
+  3.3333... = 3.3
+
+or
+                      __
+  3.45676767... = 3.4567
+
+>while an irrational number is such in the form root of a number where 
+>the number is a natural number and has a re-occuring decimal i.e the 
+>root of 2 
+
+No, that's just one example of an irrational number.  There are lots
+of others that aren't the roots of integers.  
+
+>a fraction is an integer over an integer in the form p/q 
+>(can both p and q be zero)
+
+A fraction is just a number divided by a number, e.g., 
+
+    1
+  -------
+  1 + 1/2
+
+is a fraction, and so is 
+
+     _
+   \/2
+  -----
+   pi
+
+and so is
+
+  2 + i
+  ------
+  3 - 4i
+
+and so on. 
+
+>does that means that only those numbers in the root and has re-
+>occuring decimals and pi are classified as irrational numbers only.
+
+No.  Maybe you'd find this helpful:
+
+  http://mathforum.org/library/drmath/view/57052.html
+
+>however for things not to get confusing any longer i will like to 
+>know the rationale behind approving that a number(say x) is a 
+>rational number, or is an irrational number and/or is just a fraction 
+>etc. 
+
+I'm not sure what you mean by 'approving'. 
+
+>Please i hope my question is explicit enough to be understood. It is 
+>very urgent that i know the solutions to all this questions as i want 
+>be in a conclusion not later than 12hours from now.
+
+What happens in 12 hours?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

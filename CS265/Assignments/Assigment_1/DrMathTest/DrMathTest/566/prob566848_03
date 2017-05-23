@@ -1,0 +1,69 @@
+ThreadNum: 566848
+Subject: Re: Triangles
+To: acpoco@aol.com (Ann)
+From: Doctor Beryllium
+TimeStamp: 08/18/2004 at 12:37:59
+Approved-By: Doctor Ian
+Sent: yes
+
+As Ann wrote to Dr. Math
+On 08/13/2004 at 17:30:12 (Eastern Time),
+>[Question]
+>Two cars start off at the same point on a straight highway facing 
+>opposite directions. Each car drives for 6 miles, takes a left turn, 
+>and drives for 8 miles. How far apart are the two cars? 
+>
+>[Difficulty]
+>I am not sure what formula to use.
+>
+>[Thoughts]
+>i am not sure
+
+Hello Ann thanks for writing to Dr Math.
+
+Drawing a diagram is often helpful in solving these types of problems.
+
+                                  B
+                                 /|
+                                / |
+                               /  |
+                              /   | 8
+                             /    |
+                            /     |
+                     ______/y_____|
+                    | 6  x/O   6  .
+                    |    /        .
+                  8 |   /         .
+                    |  /          .
+                    | /           .
+                    |/.............
+                    A              P
+
+We can then use Pythagoras's theorem to compute the length of the line 
+from A to B.
+
+Pythagoras's theorem is that the square of the length of the
+hypotenuse of a right triangle is equal to the sum of the squares of
+the other two sides, e.g., 
+ 
+     __a__
+    |    /
+    |   /
+  b |  / c
+    | /
+    |/
+
+   c^2 = a^2 + b^2 
+
+In your problem A hint is to look at the triangle APB that I have 
+constructed. We can see that it has a base of length 12 a height of 
+length 16 and we want to know what the length AB is.
+
+Can you solve the problem from here?
+
+If you need more help feel free to write back to Dr Math.
+
+- Doctor Beryllium, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

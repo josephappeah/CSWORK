@@ -1,0 +1,38 @@
+ThreadNum: 567563
+Subject: Re: Multiplying Irrational Numbers
+To: wrestlechamp316@bellsouth.net (Mike)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 19:13:43
+Sent: yes
+
+
+As Mike wrote to Dr. Math
+On 08/18/2004 at 18:55:47 (Eastern Time),
+>[Question]
+>Hi, i was wondering if it is possible to multiply two DIFFERENT 
+>irrational numbers and get a rational number
+>
+>[Difficulty]
+>Please, help, i have no idea how to solve this
+>
+>[Thoughts]
+>I know that if you multiply the square root of 2 by the square root 
+>of 2, you get the square of 4, which is 2. so the square root of 2 is 
+>irrational but when you multiply it by itself, the answer would be 2 
+>which is rational, now do you think it is possible to multipy two 
+>irrational numbers that are different and still get a rational 
+>number? thanks
+
+Hi Mike,
+
+Here's a hint:  Given two numbers, a and b, 
+
+  (a + b)(a - b) = a^2 - b^2
+
+Note that (a+b) and (a-b) are two different numbers...
+
+Does that help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

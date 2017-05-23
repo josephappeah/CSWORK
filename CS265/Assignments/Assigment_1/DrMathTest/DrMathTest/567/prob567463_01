@@ -1,0 +1,40 @@
+ThreadNum: 567463
+Subject: Re: need formula
+To: elev121@hotmail.com (Ed)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 09:00:29
+Sent: yes
+
+
+As Ed wrote to Dr. Math
+On 08/18/2004 at 08:40:39 (Eastern Time),
+>[Question]
+>What is formula for determinimg the two remaing sides of a triangle 
+>if I already know the hypotenuse?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Ed,
+
+If in a right triangle (these are the triangles with one side called the "hypotenuse") you kow 
+the length of the hypotenuse, you cannot calculate the remaining two sides because there 
+are infinitely many right triangles with the same hypotenuse.
+
+If the  hypotenuse is 5, then the sides might be 3 and 4 because 3^2+4^2=5^2.  On the 
+other hand, if one of the sides is 1, then the other will be 
+
+1^2+b^2=5^2=25
+
+so
+
+b^2 = 25-1=24
+
+and so b=sqrt(24).
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

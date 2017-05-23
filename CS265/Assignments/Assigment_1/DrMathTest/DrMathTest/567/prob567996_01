@@ -1,0 +1,42 @@
+ThreadNum: 567996
+Subject: Re: surds
+To: mnrcc@rediffmail.com (sarathi)
+From: Doctor Rob
+TimeStamp: 08/21/2004 at 09:52:51
+Sent: yes
+
+
+As sarathi wrote to Dr. Math
+On 08/21/2004 at 08:18:12 (Eastern Time),
+>[Question]
+>we all know that a surd is defined as "If n is a positive integer 
+and 
+>a is a positive rational number then nth root of a is called a SURD. 
+>but in some books I see that cube root of -1331 is -11.i think surds 
+>are not defined for negative rational numbers......
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Sarathi!
+
+I am not familiar with the definition you give.  I learned that a
+surd is an irrational real number.  For example,
+
+   x^n - a = 0
+
+has as its roots the nth roots of a.  If a is not a perfect nth
+power, its real roots are irrational, and so are surds.  In the
+example you gave, -1331 = (-11)^3, so it is a perfect cube.  It has
+nothing to do with the sign, but with the perfect power property,
+of -1331.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

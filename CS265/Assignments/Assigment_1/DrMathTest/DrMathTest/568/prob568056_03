@@ -1,0 +1,178 @@
+ThreadNum: 568056
+Subject: Re: Negative numbers and the rules
+To: blankenshipm@usec.com (Mark Blankenship)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 08:46:04
+Sent: yes
+
+
+Hi Mark,
+
+>Yes, this I follow.  I also understand subtraction, multiplication, 
+>and division.  
+>
+>In subtraction I understand that if you have 2 negative numbers, 
+>they actually add to become more negative such as -5 - 5 = -10.  
+>Where I get lost is that -5 - -5 = 0.  I don't remember learning 
+>this in school.  
+
+An easy way to think of this is that 
+
+  a - a = 0
+
+for _any_ number.  If it's true for any number, it must be true for
+negative numbers as well, right?  
+
+Another way to think about it is to return to what we really mean by
+subtraction, i.e., that it's the inverse of addition.  So if I ask you 
+
+  12 - 8 = ?
+
+I'm really asking you: "What would I have to ADD to 8 to end up with
+12?"  In the case you cited, this is
+
+  -5 - -5 = ?                What do I have to ADD to -5 to 
+                             end up with -5?
+
+I don't have to add anything.  So the result must be zero. 
+
+>In multiplication and division I understand that if you have two 
+>negatives the answer is positive such as -6 * -6 = 36 or -36 / -6 = 
+>6.  I guess where I get lost here is when using the elimination 
+>process for solving systems of equations.  When you multiply both 
+>sides to perform the elimination but, due to the signs, nothing is 
+>eliminated.  6x - y = 3, 4x - 2y = -2
+>
+>Multiply one side by 4 and the other by 6 then add,
+>
+> 24x - 4y = 12
+> 24x - 12y = -12
+>
+>Nothing is eliminated.  
+
+Actually, you can eliminate 24 by subtracting either equation from the
+other, rather than adding the equations. 
+
+>However, we know there is an answer so I 
+>divided the bottom equation by -1 resulting in:
+>
+> 24x - 4y = 12
+>     -24x - +12y = 12
+>  8y = 24
+>  y = 3
+>
+>Now for x:
+>
+> 6x - 3 = 3
+>     6x = 6
+>  x= 1
+>
+>I understand that in order to get a solution to this problem, that 
+>is what must be done but again, I do not remember being taught 
+>this.  It seems to me that there are probably rules that apply and I 
+>do not know them.  I also know that if I do not get a good 
+>understanding of what I am doing, as I progress towards calculus and 
+>trig I will likely become more frustrated and fail.
+>
+>Do you think you can help me?
+
+I hope so.  Let's see. 
+
+A lot of people are confused by the whole elimination thing. 
+Personally, I don't think I _really_ understood it until I became a
+'math doctor', and had to start explaining it to others!
+
+The way I understand it most simply is this.  If I have an equation, say
+
+  this = that
+
+then I can do the same thing to both sides of the equation without
+changing the truth of the equation (so long as I don't divide by
+zero).  That's pretty straightforward, right?  Okay, so I could do this:
+
+  this + something = that + something
+
+No problem.  But what if I know that 
+
+  something = other 
+
+What an assertion of equality tells me is that the two equal
+quantities are interchangeable: where I can use one, I can use the
+other.  So doing this
+
+  this + something = that + other
+
+doesn't change the truth of my original equation, right?  Well, this
+is all I'm doing when I start with two equations, 
+
+       this = that
+  
+  something = other
+
+and 'add the equations',
+
+   this + something = that + other
+
+With a little thought, it should be clear that I can subtract as well
+as add; or multiply; or divide (so long as I don't divide by zero). 
+
+So when I have something like 
+
+   6x - y = 3
+
+   4x - 2y = -2
+
+first, I'd multiply by 2 (rather than 4), since that will let me
+eliminate the y's (and I always prefer to multiply by a smaller number
+rather than a larger one):
+
+  12x - 2y = 6
+  
+   4x - 2y = -2
+
+Now I do my 'this minus that...' thing, to get
+
+  (12x - 2y) - (4x - 2y) = 6 - -2
+
+On the right, subtracting a negative is the same as adding a positive:
+
+  (12x - 2y) - (4x - 2y) = 6 + 2
+
+  (12x - 2y) - (4x - 2y) = 8
+
+On the left, I need to distribute the subtraction:
+
+      12x - 2y - 4x + 2y = 8
+
+Subtracting 2y and then adding it again is the same as doing nothing, so 
+
+                12x - 4x = 8
+
+                      8x = 8
+
+                       x = 1
+
+So that's the long way to do it.  The short way is to look at
+
+  12x - 2y = 6
+  
+   4x - 2y = -2
+
+and think:  
+
+          12x - 4x = 8x
+
+  -2y minus itself = 0
+
+            6 - -2 = 6 + 2 = 8
+
+so subtracting the second equation from the first gives
+
+  8x = 8
+
+Does this help at all?  Or am I still missing the source of what's
+confusing you? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

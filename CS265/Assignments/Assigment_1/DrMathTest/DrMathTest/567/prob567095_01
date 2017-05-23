@@ -1,0 +1,39 @@
+ThreadNum: 567095
+Subject: Re: math equations
+To: smplyhwnchick@hotmail.com (shaeleen)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 17:02:50
+Sent: yes
+
+
+As shaeleen wrote to Dr. Math
+On 08/16/2004 at 02:00:01 (Eastern Time),
+>[Question]
+> i need help on finding the easiest way to make as many arithmetic 
+>expressions for the number 1-25 using the numbers 1-2-3-4 exactly 
+>once. no more, no less. ex:1=2=3=4 =10
+>
+>[Difficulty]
+>the whole thing. it's hard,it's taking a long time and we only get 
+>two school days to finish.
+>
+>[Thoughts]
+>
+
+Hi Shaeleen,
+
+I'm not quite sure what you're asking.  Do you mean you have to find
+at least one expression for each of the numbers 1 through 25, e.g., 
+
+  (2 - 1) * (4 - 3) = 1
+
+  (2 - 1) + (4 - 3) = 2
+
+  (2 + 1) * (4 - 3) = 3
+
+and so on?  Or do you just want to generate as many expressions as you
+can, so long as they end up giving you a result between 1 and 25? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

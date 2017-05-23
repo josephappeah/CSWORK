@@ -1,0 +1,43 @@
+ThreadNum: 567260
+Subject: Re: Math exam
+To: moongirl_1366@yahoo.com (Fahimeh)
+From: Doctor Rob
+TimeStamp: 08/17/2004 at 16:19:58
+Sent: yes
+
+
+As Fahimeh wrote to Dr. Math
+On 08/17/2004 at 04:29:17 (Eastern Time),
+>[Question]
+>I am from Iran and it is difficult to me to speak English but I hope 
+>that you will underestand my question .
+>It is my question : How did people knew that y=ax+c is for streat 
+>lines
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Fahimeh!
+
+The proof of that a straight line which is not vertical has an
+equation of this form uses the theory of similar triangles.
+
+Let (0,c) be a point on the y-axis which is also on the line.  Let
+(x,y) be a point on the line, and (X,Y) another such point.  Then
+the ratio (y-c)/(x-0) = (Y-c)/(X-0) is a constant, because the right
+triangle with corners (0,c), (x,y), and (x,y-c) is similar to the
+right triangle with corners (0,c), (X,Y), and (X,Y-c).  Call that
+constant ratio a, and then you have
+
+   (y-c)/x = a,
+   y = a*x + c.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 567683
+Subject: Re: mathematical probability
+To: bleslie@pdp.ca (Bryan)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 11:56:02
+Sent: yes
+
+
+As Bryan wrote to Dr. Math
+On 08/19/2004 at 11:12:29 (Eastern Time),
+>[Question]
+>Is the probably of getting on true and false question correct linked 
+>to the amount of questions, or does it remain 50%?
+>
+>[Difficulty]
+> is a bet (for a coffee). I contend that the possibility for a 
+>correct answer is directly linked to the number of occassions that 
+>you guess. His contention is that every time you guesss, the 
+>possibility is 50%, and therefore, the possibility remains 50%
+>
+>[Thoughts]
+>I said the possibility for getting 0 out of 20 on a true and false if 
+>you guess was astronomical, and he (Chris) said it was 50%
+
+Hi Bryan,
+
+Thanks for writing to Dr Math.  The probability of guessing one T/F
+question correct is always 50% regardless of how many questions you
+already guessed and how many you have yet to guess.  So the
+probability of guessing the TWENTIETH question correct is 50%, or 1/2.
+ The probability of guessing ALL TWENTY questions correct is much
+smaller.  In fact, the probability of guessing n T/F questions correct is
+
+  (1/2)^n = 1/(2^n).
+
+In the case of n=20, this is one chance in about 1 million.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,123 @@
+ThreadNum: 568014
+Subject: Re: Fractions, Decimals and Percents
+To: 2ez@sbcglobal.net (Henry)
+From: Doctor Ian
+TimeStamp: 08/21/2004 at 13:16:10
+Sent: yes
+
+
+Hi Henry,
+
+>My 7th grade math teacher wants us to answer the following questions 
+>and I do not know how to word it correctly.  Please help.
+>
+>To convert a fraction value to it's equivalent decimal, one must 
+>divide the numerator by the denominator because ...
+
+a fraction is just a division that we haven't done yet. 
+
+>To convert a fraction value to it's equivalent percentage, one must 
+>rewrite the fraction in decimal form then multiply by 100% 
+>because ...
+
+Well, this isn't strictly true.  If you have a fraction like 3/5, and
+you want to convert it to a percentage, you need to solve the proportion
+
+  3    ?
+  - = ---
+  5   100
+
+because a percentage is just a fraction with a denominator of 100. 
+Note that we can solve the proportion by multiplying each side by 100,
+to get
+
+  3
+  - * 100 = ?
+  5
+
+Now, we _can_ convert the fraction to a decimal, and do the
+multiplication by 100.  But sometimes that's unnecessary, as in this case:
+
+      3
+  ? = - * 100
+      5
+
+      3 * 100
+    = -------
+        5
+
+      3 * 20 * 5
+    = ----------
+          5
+
+    = 3 * 20
+
+    = 60 percent
+
+The moral of the story is, there's hardly ever just one way to do
+anything. 
+
+>To convert a percentage value to its equivalent fraction, one must 
+>rewrite the percent in fraction form then divide by 100% and 
+>simplify because...
+
+This is just wrong.  You don't rewrite it in fraction form and _then_
+divide by 1000; you divide by 100 to get it into fractional form.
+
+Let's say you have a percentage, like 12.5%.  To convert it to a
+fraction, all you have to do is exchange the '%' for a denominator of
+100, because 
+
+  something
+  ---------  and   something%
+     100
+
+are just two different ways of writing the exact same thing.  That is,
+we just use the single character '%' to stand for the four characters
+'/100'.  
+
+So we can do this:
+
+          12.5
+  12.5% = ----
+           100
+
+and that _is_ a fraction.  Now, if we insist on having integers in
+both the numerator and denominator, we can multiply both by 10:
+
+  12.5   10    125
+  ---- * -- = ----
+   100   10   1000
+
+And you can simplify this if you want, but you certainly don't have to.  
+
+>I just don't know how to explain what I know how to do.
+
+I hate to have to be the one to break this to you, but if you can't
+_explain_ how you do something, you don't actually know how to do it.
+ You're just guessing. 
+
+You can save yourself a lot of confusion about all this if you realize
+that 
+
+  1.  Decimals _are_ fractions, where the denominator is some 
+      power of 10, which happen to be written in a very compact
+      notation.  
+
+  2.  Percentages _are_ fractions, where the denominator is
+      100, but we use '%' to make the notation more compact.
+
+  3.  A fraction is just a division that we haven't done yet. 
+
+If you can't explain why those things are true to someone else, then
+write back and we can talk about them some more.  For the most part,
+if these things aren't crystal clear to you, then math is just going
+to get more and more confusing as you get farther into it... which
+would be a shame, because it should really work exactly the other way
+around.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

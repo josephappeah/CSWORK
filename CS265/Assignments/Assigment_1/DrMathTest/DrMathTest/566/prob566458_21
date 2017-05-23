@@ -1,0 +1,47 @@
+ThreadNum: 566458
+Subject: Re: farmula for  bearing
+To: kalpana_deo@yahoo.com (kalpana)
+From: Doctor Rick
+TimeStamp: 09/23/2004 at 13:00:08
+Sent: yes
+
+Hi, Kalpana.
+
+As kalpana wrote to Dr. Math
+On 09/23/2004 at 07:26:40 (Eastern Time),
+>Hello Dr.Rick
+> 
+>Again I want your guidance but now for different problem. I have to 
+>develop a software to find postion of a emitter or radar. The 
+>conditions are like this:
+> Suppose I am travelling in  an aircraft which  has got gps 
+receiver. 
+>Sitting in aircraft  I am tracking a radar or emitter whose velocity 
+>is so less compared to me that we can assume that is stationary for 
+>me. With the gyro conected to aircraft I can get the angle of 
+arrival 
+>of the emiiter. Now suppose at time T1 I know my postion in lat and 
+>lon and angle of arrival of emitter say (lat1, lon1, angle1 ), 
+>Similarly at T2 I have (lat2, lon2 and angle2) and  at T3 I have 
+>(lat3, lon3 and angle 3). Now my question is how to find the 
+location 
+>of emitter in lat and lon. I will be grateful to you if you answer 
+my 
+>question  . Please also tell the sites  where  I can get more 
+>information.
+>Thanks
+>Kalpana
+
+I direct you to the site we have used for many such formulas: Ed 
+Williams' Aviation Formulary.
+
+  http://williams.best.vwh.net/avform.htm
+
+Click on "Intersection of two radials." I have not looked over his 
+formula at all, but he has been reliable in regard to other formulas. 
+Remember, though, that his formulas use the backward convention for 
+longitude, that west longitudes are positive.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

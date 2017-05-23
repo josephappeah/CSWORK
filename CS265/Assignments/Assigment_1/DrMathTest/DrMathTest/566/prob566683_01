@@ -1,0 +1,116 @@
+ThreadNum: 566683
+Subject: Re: I'm in need of an easy way to teach Integers/Algebra
+To: LessTJake182@optonline.net (John)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 00:48:20
+Sent: yes
+
+
+Hi John,
+
+>I'm trying to teach a girl going into 7th grade Integers and Algebra 
+>and I'm having some difficulty.
+>
+>Integers:
+>I'm tryin to teach her how to add and subtract integers.  If I give 
+>her a problem like, -7 + 3, I've given her different ways to do it.  
+>I've told her to subtract the bigger absolute value of the number - 
+>the smaller one and bring down the sign of the larger one but she 
+>keeps forgetting that. I've told her to try using a number line and 
+>starting at -7 and then going over three but it takes a really long 
+>time and in some problems she moves backwards.  I've tried telling 
+>it to her like she has a bag of positive and negative marbles and 
+>you have to take one away from each pile until one is empty (the 
+>positives cancel out the negatives etc.) and that hasn't been 
+>working either.  When we get into subtraction and it becomes -7 - 3, 
+>I try to get her to change the signs so its -7 + -3 but then she 
+>doesn't know what to do with that either.  Please Help Me!
+
+Lately, I've been thinking about problems like that in this way:
+
+    -7 + 3
+
+  = (-4 + -3) + 3
+
+  = -4 + (-3 + 3)
+
+  = -4
+
+and
+
+    -7 - 3
+
+  = 0 - 7 - 3
+
+  = 0 - (7 + 3)
+
+  = 0 - 10
+
+  = -10
+
+Do you think this might work for her? 
+
+But if I had to guess, I'd say that she's probably not ready to be
+thinking about negative numbers yet, perhaps because she hasn't
+completely mastered arithmetic using positive numbers yet.  So you
+might first see if she can explain to _you_ how to use things like
+arrows and number lines to add and subtract positive numbers.  Then
+you can extend that understanding to work with negative numbers as well. 
+
+In any case, she's certainly not ready for algebra, and I wonder if it
+won't make things worse trying to teach it to her at this stage. 
+Mostly what she'll learn, I think, is to hate math.  
+
+>Algebra:
+>If I give her a problem like x + 6 = 10, she knows to subtract 6 on 
+>both sides.  But if I give her 6 - x = 10, she wants to add 6 to 
+>both sides because of the subtraction.  When I combine things and 
+>give her a problem like 6x + 4 = 10, I want to get her to subtract 
+>the 4 and then divide by the 6 but she doesn't understand.  I tell 
+>her that her goal is to isolate the variable and to do that you have 
+>to do the opposite of what you see and I know that she knows the 
+>opposite of multiplication is division but when we get down to 
+>something like 6x = 12 she knows to cancel out the 6 but sometimes 
+>she wants to subtract instead of divide because she's used to 
+>canceling out with subtraction.  
+
+It might be a mistake to focus too intently on 'goals' at this point.
+   It's more important that she learn that she's allowed to do
+anything to one side of an equation (except divide by zero!), so long
+as she does the same thing to the other side.  It's not required that
+the thing she chooses to do has to be particularly helpful!
+
+For example, if she starts with 
+
+  6 - x = 10
+
+and she wants to add 6 to both sides, let her.  The important thing is
+that she actually does it correctly:
+
+  6 + 6 - x = 6 + 10
+
+     12 - x = 16
+
+She's no worse off at this point, but she doesn't need to worry about
+whether this was the 'right' thing to do.  Let her play around with
+doing different operations to both sides of an equation, and just make
+sure that she realizes that multiplication and division have to be
+applied to _everything_, e.g., 
+
+  2 * (12 - x) = 2 * (16)
+
+But as I said earlier, until she's mastered positive arithmetic, she's
+not really ready for negative arithmetic; and until she's mastered
+negative arithmetic, she's not really ready for algebra. 
+
+Does this help?  You might also consider submitting your question to
+our Teacher2Teacher service,
+
+  http://mathforum.org/t2t/
+
+where it can get attention from math teachers (as opposed to
+mathematicians, which is what we have at Ask Dr. Math). 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

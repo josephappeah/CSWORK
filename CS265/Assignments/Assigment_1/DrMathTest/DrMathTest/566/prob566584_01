@@ -1,0 +1,61 @@
+ThreadNum: 566584
+Subject: Re: (no subject)
+To: mcdoming@msn.com (cristina)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 23:17:11
+Sent: yes
+
+Hi, Cristina.
+
+As cristina wrote to Dr. Math
+On 08/11/2004 at 21:12:24 (Eastern Time),
+>[Question]
+>there are three boxes, all of three with dots inside, box 1 has a 
+>square with 2x2 and n quare of 2, the second has a box inside with 
+>3x3 and the n square of 2, the third with 4x4 with n square of 2
+>and four choices to solve the problem
+>(n2-1)
+>(n2-2)
+>(n2-2)-1
+>(n2-2)-2
+>
+>[Difficulty]
+>I have tried to solve butn none of the equations works for the three 
+>boxes
+>
+>[Thoughts]
+>I know has to be a pattern a=but I can't find thepatteen
+
+I can't quite figure out what the problem means.
+
+When you say "the n square of 2", do you just mean it has the 
+expression
+
+   2
+  n
+
+which is read as "n squared"?
+
+inside each box, along with a square of dots? So does it look like 
+this?
+
+  +--------+  +--------+  +--------+
+  |   oo   |  |   ooo  |  |  oooo  |
+  |   oo   |  |   ooo  |  |  oooo  |
+  |        |  |   ooo  |  |  oooo  |
+  |        |  |        |  |  oooo  |
+  |        |  |        |  |        |
+  |    2   |  |    2   |  |    2   |
+  |   n    |  |   n    |  |   n    |
+  +--------+  +--------+  +--------+
+
+In any case, I don't know what "problem" you are supposed to "solve" 
+by choosing one of the expressions you list. Are there any 
+instructions telling you what it all means? Is the question about 
+deciding what would go in the fourth box, or finding the number of 
+dots in box n, or what?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

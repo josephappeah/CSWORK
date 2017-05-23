@@ -1,0 +1,43 @@
+ThreadNum: 567093
+Subject: Re: mean valur theorm
+To: wallystudent@yahoo.com (Wally)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 18:17:30
+Sent: yes
+
+
+As Wally wrote to Dr. Math
+On 08/16/2004 at 12:09:00 (Eastern Time),
+>Hi,Thanks again for your respond. 
+>The question is asking to find a formula and not evaluate it. Is that 
+>true.
+
+Many (actually, probably most) formulas have no antiderivative in 
+terms of elementary functions.  That is, there is no formula involving
+only powers, roots, exponentials, logarithms, trigonometric functions,
+and arithmetic operations, whose derivative is the given function.  
+f(x) = e^(-x^2) is one of those.  It is the exception, not the rule,
+that when given a continuous function f(x), you can find an elementary
+function F(x) such that F'(x) = f(x).
+
+>Also, why you choice the boundaries from a to x? Are you exactly 
+>using the second fundemanteal theorem of calculus?
+
+The terminology of "first" and "second" fundamental theorems wasn't 
+used when I learned the theorem.  The key is to consider a definite
+integral as a function of its upper limit of integration.  Sometimes
+this is called the "area accumulating function", using the 
+interpretation of a definite integral as an area.  This function,
+with the variable in the upper limit of integration, is an 
+antiderivative of the integrand at every point where the integrand is
+continuous.
+
+>So the final answer is F(x) is an antiderivative of f(x)?
+>Thanks
+
+Yes.  That symbolic formula is the best you can do.  There is no
+explicit formula.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

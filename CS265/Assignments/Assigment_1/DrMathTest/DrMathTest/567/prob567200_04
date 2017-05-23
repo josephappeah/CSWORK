@@ -1,0 +1,34 @@
+ThreadNum: 567200
+Subject: Re: Thank you (adding fractions with a variable on one side with a known fr)
+To: Francine84@comcast.net (Marsha)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 07:57:19
+Sent: yes
+
+Hi, Marsha.
+
+As Marsha wrote to Dr. Math
+On 08/17/2004 at 02:45:57 (Eastern Time),
+>Thanks - the answer in the book is different so I don't 
+>know how they got what they did:
+>1/p + 1/q = 1/f
+>1/20.0 cm + 1/q = 1/-8.0cm
+>they got q = -5.71cm  
+>how?
+>Thanks for your help
+
+The answer is different because the question is different: you 
+omitted the negative sign on the right the first time.
+
+Now I get (using my second method)
+
+  1/20 + 1/q = 1/-8
+  1/q = -1/8 - 1/20
+  1/q = -5/40 - 2/40
+  1/q = -7/40
+  q = -40/7
+  q = -5.714286
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

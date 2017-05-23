@@ -1,0 +1,73 @@
+ThreadNum: 567925
+Subject: Re: lottery
+To: ceospecialops@aol.com (Sargon)
+From: Doctor Tom
+TimeStamp: 08/20/2004 at 18:21:43
+Sent: yes
+
+
+As Sargon wrote to Dr. Math
+On 08/20/2004 at 17:38:43 (Eastern Time),
+>[Question]
+>I am trying to determine the number of unique combinations of a 
+>lottery where you pick 5 numbers out of 15, with numbers not allowed 
+>to repeat.  This is a quick nCr calcualtion 15C5 = 3003.  Here is 
+>where I get stumped:  Out of these 3003 sets of 5 numbers, how many 
+>four (three and two) unique numbers would come up.  Example:
+>
+>1 2 3 4 5
+>1 2 3 4 6
+>1 2 3 4 7
+>1 2 3 4 8
+>1 2 3 4 9
+>.
+>.
+>.
+>If this continued 3003 times, how many times would just the combo 1 
+>2 3 4 come up?  Eleven times??
+>
+>There are a lot of websites out there that will tell you how often a 
+>number hits.  It seems that certain numbers hit more often than the 
+>others in a given lottery game.  If you played just the top 15 (out 
+>of a possible 39..irrelavent for this calculation) 3003 times, and 
+>lets say only four (or 3 or 2) numbers are in the top 15, you would 
+>still be winning all the possible lesser prizes of having 4 right 
+>numbers, 3 right numbers, and so on with other tickets that you had 
+>bought.  
+>
+>
+>
+>[Difficulty]
+>           15!
+>       ----------  = 3003 possible combinations.
+>        10! * 5!
+>
+>I cannot figure out what kind of calculation to make in order to 
+>determine how many times any four number combinations will come up.
+>
+>[Thoughts]
+>           15!
+>       ----------  = 3003
+>        10! * 5!
+>
+>I cannot come up with a calcualtion to determine how many times a 
+>combination of any four would come up.
+>            
+>
+
+You're right, it's 11 times.  Here's why:
+
+After you've picked the set of 4 numbers that you're interested in,
+there are 15 - 4 = 11 remaining numbers, and that last number
+can be any of the 11.
+
+If you want to know how many combinations there are with a
+particular set of 3 numbers, say: 1, 2 and 3, then there are
+15 - 3 = 12 available numbers and you need to choose two
+of those in the remaining positions, so there are 12 choose 2
+= 66 combinations that contain any particular set of three
+numbers.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

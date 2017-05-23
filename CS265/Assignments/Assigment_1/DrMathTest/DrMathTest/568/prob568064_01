@@ -1,0 +1,72 @@
+ThreadNum: 568064
+Subject: Re: Number of odd 3 digit integers (positive) containing 5
+To: mrkw@comcast.net (Cleo Krasnow)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 10:17:21
+Sent: yes
+
+
+As Cleo Krasnow wrote to Dr. Math
+On 08/22/2004 at 00:55:21 (Eastern Time),
+>[Question]
+>I was given the following problem:
+>
+>How many 3 digit positive integers are odd and do not contain the 
+>digit 5?
+>
+>The answer was given as 248 but I can't figure out how that was 
+>accomplished.
+>
+>[Difficulty]
+>I assumed this question could be answered through the Addition Law of 
+>probability, because the question is really asking me to know the 
+>probability of the number 5 appearing and then applying that 
+>probability to the whole set of numbers.  Now that I've tried to 
+>calculate the answer, I'm not sure if my original assumption is right 
+>since I can't get to the book's answer.
+>
+>[Thoughts]
+>I thought that I should figure out the probability of a 5 occurring 
+>in each place in the odd numbers between 100 and 999 using the 
+>formula 
+>
+>P(E, F, or G) = P(E) + P(F) + P(G) - P(E, F, & G)
+>
+>I determined that the total number of possible outcomes was 450 (all 
+>the odd numbers from 100 to 999); 
+>the possibility of a 5 in the 100's column was 1 in 9; 
+>the possibility of a 5 in the 10's column was 1 in 10 (because a zero 
+>is possible); and
+>the possibility of a 5 in the 1's column was 1 in 5 (because I was 
+>only to consider the odd numbers) 
+>
+>So I calculated:
+>
+>P(E, F, or G) = 1/9 + 1/10 + 1/5 - (1/450)
+>
+>= 10/90 + 9/90 + 18/90 - 1/450
+>
+>= 37/90 - 1/450
+>
+>= 185/450 - 1/450
+>
+>= 184/450
+>
+>
+
+Hi Cleo,
+
+Thanks for writing to Dr Math.  I think that the equation you want is
+
+  P(E, F, or G) = P(E) + P(F) + P(G)
+                  - P(E & F) - P(F & G) - P(E & G) + P(E, F, & G)
+
+Otherwise, your math looks good.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

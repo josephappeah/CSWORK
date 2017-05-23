@@ -1,0 +1,45 @@
+ThreadNum: 567122
+Subject: Re: to find the area of circle without using "pi"
+To: sat_ash2004@yahoo.com (V.Sat Ash)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 12:56:45
+Sent: yes
+
+
+As V.Sat Ash wrote to Dr. Math
+On 08/16/2004 at 12:11:02 (Eastern Time),
+>[Question]
+>Take a circle of radius 3inches and divide the circle into 
+50,000,000 
+>parts from centre, join the ends of the lines that divide the 
+circle 
+>and so it becomes a triangle.Now find the area of the each triangle 
+>and multipy them into 50,000,000 and then find the area of the 
+circle 
+>using pi.If you compare the areas of 50,000,000 triangles with area 
+>of circle, the area of the circle will be lesser than the 
+50,000,000 
+>triangles.
+>
+>[Difficulty]
+>how is it possible that the area of the circle will be lesser than 
+>the 50,000,000 triangles,since the triangles are inside the circle?
+>
+>[Thoughts]
+>It is very difficult question for me.So,I need your help,but I got 
+a 
+>solution ,I want to check my solution.so,please reply me
+
+Hello, V.Sat Ash --
+
+The area of the circle will not be less than the area of the 
+triangles.  If you use an approximation for pi, or approximations in 
+your calculations of the area of the triangles, then you might find 
+that the area of the circle appears to be less -- but if you use 
+adequate precision in your calculations, the combined area of the 
+triangles must -- as you point out -- be less than the area of the 
+circle.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

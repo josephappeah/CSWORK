@@ -1,0 +1,36 @@
+ThreadNum: 567764
+Subject: Re: converting feet per second to MPH
+To: ctc-sr@si.rr.com (Chris)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 19:57:26
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/19/2004 at 18:53:20 (Eastern Time),
+>[Question]
+>I am a tower crane engineer Operating a new type of crane with a
+>German computer. The only glitz in this computer is the wind sensor
+>registers in feet per second instead of MPH. I would like to know
+>formular for converting feet per second to MPH.
+>
+>[Difficulty]
+>I am not sure of the conversion.
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math!
+
+Since 1 foot = 1/5280 miles, and 1 second = 1/3600 hours, you have
+
+   1 foot/sec = (1/5280)/(1/3600) miles/hour,
+              = 3600/5280 miles/hour,
+              = 15/22 miles/hour.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,38 @@
+ThreadNum: 568360
+Subject: Re: need correct formula
+To: tguinn@fastfreedom.net (Terry Guinn)
+From: Doctor Peterson
+TimeStamp: 08/23/2004 at 23:10:35
+Sent: yes
+
+Hi, Terry.
+
+As Terry Guinn wrote to Dr. Math
+On 08/23/2004 at 21:22:51 (Eastern Time),
+>[Question]
+>my freshman daughter wants me to help her with this problem:
+>traffic light A turns Green every 4 minutes.
+>traffic light B turns green every 5 minutes.
+>If both lights just turned Green, how long will it be before both 
+>lights turn green.
+>
+>[Difficulty]
+>I don't see how to set up a solution.
+>
+>[Thoughts]
+>I'm guessing it's a cross multiply, divide and conquer thing. working 
+>it out by hand looks like a 20 or so page project and doesn't help 
+>with future similiar problems.
+
+You're looking for a time that is a multiple of both 4 minutes and 5
+minutes, so that both lights will turn on at that time.
+
+Ask your daughter if she has heard of the "least common multiple".
+That should trigger some thoughts.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

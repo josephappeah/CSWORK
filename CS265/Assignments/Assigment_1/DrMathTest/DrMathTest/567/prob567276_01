@@ -1,0 +1,110 @@
+ThreadNum: 567276
+Subject: Re: Exact values of sine, cosine and tangent of specific angles
+To: little_jono69@hotmail.com (Michael)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:24:26
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/17/2004 at 08:31:51 (Eastern Time),
+>[Question]
+>I can't find another method for finding the exact value of the 
+>cosine for a given angle except through roots of unity. 
+>e.g. Cos 2&#960;/5 = (-1 + &#8730;5)/4
+>Is there a method I could use to find this out without using roots 
+>of untiy?
+>
+>[Difficulty]
+>Can't find another method of finding an exact value to the sine, 
+>cosine or tangent of an angle
+>
+>[Thoughts]
+>When you add a root of unity and its conjugate (other than Cis 0 = 1 
+>or Cis &#960; = -1), you obtain a real value.
+>
+> e.g. Cis &#952; + Cis (-&#952;) = Cos &#952; + &#943; Sin &#952; + Cos (-
+&#952;) + &#943; 
+>Sin (-&#952;)
+>
+>   because  Cos (-&#952;) = Cos &#952;
+>   and Sin (-&#952;) = - Sin &#952;
+>
+>  we obtain
+>
+>  Cis &#952; + Cis (-&#952;) = Cos &#952; + &#943; Sin &#952; + Cos &#952; – 
+&#943; Sin &#952;
+> = 2Cos &#952;
+>
+>So when you add these pairs of conjugates together, the total should 
+>be 0, (because the sum of the roots of unity is 0).
+>
+>We are given z5 = 1
+>
+>This next equation shows that when you add the 5 5th roots of unity, 
+>they equal 0 (proved in Q.1.d.)
+>
+> 1 + w + w2 + w3 + w4 = 0
+>
+>The next step is dividing by w2 to show that some roots are the 
+>conjugate of each other. 
+>(w-2 & w2)( w-1 & w)
+>
+> w-2 + w-1 + 1 + w + w2 = 0
+>
+>This shows that there are two pair of conjugates in z5 = 1, w-2 & 
+>w2, w-1 & w.
+>
+>Now we substitute z = w + w-1 into the equation to produce a 
+>polynomial of degree 2.
+>
+>z = w + w-1
+>note that  z2 = (w + w-1)2 = w2 + 2 + w-2
+>
+>Replacing these in gives
+>
+> (w2 + 2 + w-2) + (w + w-1) – 1 = 0
+> z2 + z – 1 = 0
+>
+>If we solve this equation, this will produce two answers that are 
+>the sum of each of the two conjugate pairs in z5 = 1.
+>
+>
+>
+>Using the completing the square method :
+>
+> z2 + z – 1 = 0
+> (z2 + z + ¼) – 1 – ¼ = 0
+> (z + 1/2)2 – 5/4 = 0
+> (z + 1/2)2 – (&#8730;5/2)2 = 0
+> (z + ½ – &#8730;5/2)(z + ½ + &#8730;5/2) = 0
+>
+>This means that the sum of a fifth root of unity and its conjugate 
+>gives
+>
+> -1 + &#8730;5 or   -1 – &#8730;5
+>  2      2        2      2
+>
+>To determine which value belongs to a sum of a root of unity and its 
+>conjugate, we examine the Argand diagram to find the signs(+/–) and 
+>associate the proper value.
+>
+>So, for w = Cis 2&#960;
+> 5
+>
+> x = w + w-1
+> = Cis 2&#960; + Cis -2&#960;
+> 5 5
+> = Cos 2&#960; + &#943; Sin 2&#960; + Cos -2&#960; + &#943; Sin -2&#960;
+> 5 5 5 5
+> = 2 Cos 2&#960;
+> 5
+>
+
+Hello Michael,
+
+As you can see from the above, we are not able to understand your message.
+ 
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

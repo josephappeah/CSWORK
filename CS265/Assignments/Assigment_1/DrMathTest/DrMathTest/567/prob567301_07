@@ -1,0 +1,62 @@
+ThreadNum: 567301
+Subject: Re: Polyhedron with 8 vertices
+To: angclnet-2004@yahoo.com.br (Angelo)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 10:01:32
+Sent: yes
+
+
+As Angelo wrote to Dr. Math
+On 08/18/2004 at 16:12:32 (Eastern Time),
+>Thanks for your response, but the problem goes the other way. I am
+>given 8 vertices of the dodecahedron and I must find it's volume. To
+>make myself clear, I'll setup a example. Actually this example is not
+>a dodecahedron, it's a 7 face polyhedron, but it has the problem I
+>have and yet it's simpler to see.
+>
+>Let a,b,c,d,e,f,g,h be the vertices, whith coordinates [x y z]:
+>a=[0 1 0]; b=[1 1 0]; c=[1 1 1]; d=[0 1 1]; 
+>e=[0 0 0]; f=[1 0 0]; g=[1 0 1]; h=[0 0 2];
+>If we connect the vertices as a cube the edges should be a-b, b-c,
+>c-d, d-a, e-f, f-g, g-h, h-e, a-e, b-f, c-g, d-h. But there is a
+>missing edge here. 
+>I plotted the figure and put it at
+>http://www.dca.fee.unicamp.br/~angelocl/dodecahedron.jpg
+>
+>Question 1: The thing is how can I tell if the missing edge is d-g or
+>h-c, giving only the vertices coordinates?
+>
+>Question 2: Assuming the edge is d-g, could the volume be calculated
+>by summing the 6 tetrahedrons e-a-c-d, e-a-c-b, e-b-g-c, e-b-g-f,
+>e-d-g-h, e-d-g-c? Is there any superimposition? Can it be proved?
+>(Note that if the missing edge is not d-g, it looks like the volume
+>will be different).
+>
+>THANK YOU FOR YOUR HELP.
+
+Hi Angelo,
+
+From the information you provided (the eight vertices), either of
+those missing edges could be considered correct.  In other words,
+knowing the coordinates of all of the vertices of a polyhedron does
+*NOT* determine the polyhedron, nor does it determine its volume.  You
+need more information than that.
+
+If the missing edge is d-g, then the easiest way to calculate the
+volume would be to add the volume of the cube at the bottom (with side
+length 1) to the pyramid above that with vertices h, d, g, and
+
+  (0, 0, 1).
+
+If the missing edge is h-c, then you can start with that volume and
+then add the volume of the pyramid with vertices h, d, c, g.  You can
+get the formulas for the volume of a cube and a pyramid from the link
+I sent last time.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

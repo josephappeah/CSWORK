@@ -1,0 +1,55 @@
+<project default="compile">
+
+	<target name="compile">
+        <javac srcdir="." destdir="." includeantruntime="false"/>
+    </target>
+	
+	<target name="prob1" depends="compile">
+        <property name="arg" value="Sunny"/>
+        <java classname="prob1">
+            <classpath>
+                <pathelement path="."/>
+            </classpath>
+            <arg value="${arg}"/>
+        </java>
+    </target> 
+	
+	<target name="prob2" depends="compile">
+        <property name="arg" value="28"/>
+        <java classname="prob2">
+            <classpath>
+                <pathelement path="."/>
+            </classpath>
+            <arg value="${arg}"/>
+        </java>
+    </target>
+	
+	<target name="prob3" depends="compile">
+        <property name="arg" value="2000"/>
+        <java classname="prob3">
+            <classpath>
+                <pathelement path="."/>
+            </classpath>
+            <arg value="${arg}"/>
+        </java>
+    </target>
+	
+	<target name="prob4" depends="compile">
+        <property name="arg" value="2"/>
+        <java classname="prob4">
+            <classpath>
+                <pathelement path="."/>
+            </classpath>
+            <arg value="${arg}"/>
+        </java>
+    </target> 
+    
+    <target name="clean">
+        <delete>
+            <fileset dir=".">
+                <include name="*.class"/>
+            </fileset>
+        </delete>
+    </target>
+
+</project>

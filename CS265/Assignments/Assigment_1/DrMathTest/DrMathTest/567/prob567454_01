@@ -1,0 +1,44 @@
+ThreadNum: 567454
+Subject: Re: Linear Speed...Help!  
+To: fdrhs@computermail.net (Rita)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 09:06:42
+Sent: yes
+
+
+As Rita wrote to Dr. Math
+On 08/18/2004 at 07:39:59 (Eastern Time),
+>[Question]
+>1.)A wind turbine fan rotates at a rate of 40 revolutions per minute. 
+>Find the linear speed of the tip of a 100-foot blade.
+>
+>
+>
+>[Difficulty]
+>I know there is conversion to be made in terms of the 40 revolutions, 
+>right?  I don't know how to set up the proper equation to find my 
+>answer.
+>
+>[Thoughts]
+>Too lengthy.
+
+Hello Rita,
+
+The circumference of a the circle made by a blade with radius 50 ft (I have assumed that a 
+100-foot blade refers to the diameter) is 2*pi*50.  So in 1 minute, 40*2*pi*50 ft will have 
+passed a fixed point on the circumference.  So, the linear speed is 4000*pi.
+
+You can also think about this in terms of the s=r*w, relationship, where s is arc length, w 
+is the central angle (in radians), and r is the radius of the circle.  So, assuming you know a 
+little bit of calculus (if not, please ignore)
+
+ds/dt = r*(dw/dt).
+
+You know dw/dt=40*2*pi and so
+
+ds/dt = 50*40*2*pi=4000*pi.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,46 @@
+ThreadNum: 567138
+Subject: Re: License Plate Combinations
+To: pkgaur@comcast.net (Praveen Gaur)
+From: Doctor Douglas
+TimeStamp: 08/16/2004 at 14:07:35
+Sent: yes
+
+
+As Praveen Gaur wrote to Dr. Math
+On 08/16/2004 at 14:00:53 (Eastern Time),
+>[Question]
+>I want to know how many license plates we can have if it can hold 6 
+>spaces. I know this has been asked before but I am not stisfied with 
+>the answer.
+>
+>[Difficulty]
+>Let's say I only wanted 3 space plate, according to previous answer 
+>we can have 36*36*36 plates (26 letters + 10 numbers = 36) but AAA 
+is 
+>same as AAA is same as AAA they are duplicates. Also I don't want to 
+>take permutation (36*35*34) as an answer because it doesn't include 
+>the number 101 or ABA etc. 
+>
+>[Thoughts]
+>We should be able to use the letters we have used already but  
+>eliminate the duplicates.
+
+Hi Praveen.
+
+thanks for writing to the Math Forum.  Although AAA is indeed the 
+same as AAA is the same as AAA..., this combination "AAA" is only
+counted ONCE in the 36*36*36.
+
+For another example, consider three spaces filled by numeric digits
+0 through 9.  There are 10*10*10 of these:
+
+  {000,001,002,...,010,011,012,...,998,999}
+
+The combination "000" is only counted once.  This set includes
+"100","010", and "001".
+
+Does that clarify things?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

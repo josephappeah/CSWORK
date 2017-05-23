@@ -1,0 +1,93 @@
+ThreadNum: 566456
+Subject: Re: I need a lesson plan on teaching LCM to 11 year olds
+To: rugilani-ho@beaconhouse.edu.pk (Shanda)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 08:54:00
+Sent: yes
+
+
+As Shanda wrote to Dr. Math
+On 08/13/2004 at 03:56:29 (Eastern Time),
+>My understanding of HCF and LCM is as follows:
+>
+>HCF of 18 and 12:-  Factors of 18 are 1,2,3,6,9,18
+>                    Factors of 12 are 1,2,3,4,6,12
+>                    HCF of 12 and 18 is 6
+>LCM of 12 and 18:-
+>                Multiples of 12 are 12,24,36,48,60,......
+>                Multiples of 18 are 18,36,54,.......
+>                LCM of 12 and 18 is 36
+>
+>My problem is how best to teach this to 11 year olds
+>
+>
+
+Hi Shanda,
+
+If you start by covering (1) how to find multiples of a number, and
+(2) how to find factors of a number, then you've covered the subject
+right there.  To find the least common multiple of two numbers, 
+
+  a) List the multiples of each number
+  b) Find the common multiples, i.e., the ones shared by both numbers
+  b) The smallest common multiple is the Least Common Multiple
+
+Basically, you want them to feel like they can look at the phrase
+'least common multiple' and know that they can figure out the meaning
+of the phrase from the meanings of the individual words. 
+
+The same goes for finding the greatest common factor of two numbers:
+
+  a) List the factors of each number
+  b) Find the common factors, i.e., the ones shared by both numbers
+  c) The largest common multiple is the Greatest Common Multiple
+
+Again, what you're really doing is making sure that they understand
+the individual words
+
+  least
+  greatest
+  common
+  multiple
+  factor
+
+You might have to cover the process by which you _find_ multiples and
+factors.  Multiples are pretty straightforward:  To find the multiples
+of a number, you 'count by' that number. 
+
+To find the factors of a number, you can take the simple approach of
+trying to divide the number by each smaller number:
+
+  12 /  1 = 12          So 1 and 12 are factors.
+  12 /  2 =  6          So 2 and 6 are factors.
+  12 /  3 =  4          So 3 and 4 are factors.
+  12 /  5 =  2 rem 2    So 5 is not a factor.
+  12 /  6 =  2          So 6 and 2 are factors.
+  12 /  7 =  1 rem 5    So 7 is not a factor.
+  12 /  8 =  1 rem 4    So 8 is not a factor.
+
+and so on.  If you work a few examples like this, it should occur to
+your students - without your having to tell them! - that you can stop
+trying factors once you get halfway to the target number.  (Do you see
+why?)  
+
+For larger numbers, like 255, this is a lot of dividing to have to do!
+ So there is a simpler way to find factors, if you know what prime
+numbers are, and how to find the prime factors of a number.  You can
+read about that here, 
+
+  Finding the Factors of a Number
+  http://mathforum.org/library/drmath/view/58525.html
+
+but it's not necessary to be able to do this to understand what a
+greatest common factor _is_, and how to find one. 
+
+The most important thing in setting up your lesson is to focus on
+understanding _what_ a least common multiple or a greatest common
+factor _is_, rather than jumping right into the 'best' or 'most
+efficient' way to find them.  So if they already understand what
+multiples and factors are, this is a 10 minute lesson.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

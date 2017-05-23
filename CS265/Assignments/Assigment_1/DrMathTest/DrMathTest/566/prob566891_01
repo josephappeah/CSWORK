@@ -1,0 +1,47 @@
+ThreadNum: 566891
+Subject: Re: percentages
+To: mloueme48@aol.com  (mary lou)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 08:11:52
+Sent: yes
+
+
+As mloueme48@aol.com  (mary lou) wrote to Dr. Math
+On 08/14/2004 at 05:52:32 (Eastern Time),
+>[Question]
+>this is a question in my medical assistant book:  the cleaning 
+>solution is 10 ounces of bleach to 100 ounces of water  if i only 
+>have 7 ounces of cleaning solution how many ounces of water do i use
+>
+>[Difficulty]
+>i dont know how to arrive at an answer  i think it might be70 ounces
+>
+>[Thoughts]
+>
+
+Hello Mary Lou,
+
+I'll assume that we want the concentration to be the same.
+
+If in a cleaning solution we have 10 oz of bleach in 100 ounces of water, then
+the fraction of bleach in cleaning solution is
+
+10/(100+10)  
+
+You said " if i only have 7 ounces of cleaning solution"  but I think you must mean 7 oz of 
+bleach.  Acting on that assumption, we want
+
+7/(w+7) = 10/(100+10)
+
+7/(w+7) = 10/110 = 1/11
+
+77=w+7
+
+w=70.
+
+Your answer is correct.  Good work.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

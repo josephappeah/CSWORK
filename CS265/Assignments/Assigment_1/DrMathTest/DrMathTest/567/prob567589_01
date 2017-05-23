@@ -1,0 +1,52 @@
+ThreadNum: 567589
+Subject: Re: Finding k given the product of the roots in a poly
+To: fencingking007@yahoo.com (Wheeler Flemming)
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 12:09:14
+Sent: yes
+
+
+As Wheeler Flemming wrote to Dr. Math
+On 08/18/2004 at 20:43:45 (Eastern Time),
+>[Question]
+>The product of two of the four roots of x^4 - 18x^3 + kx^2 +200x - 
+>1984=0 is -32. Find the value of k
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I know the product of the roots is -1984 and thus the product of the 
+>other two roots would be 62. Where do I go from here?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+If you know the product of two roots is -32, and the product of the
+other two roots is 62, you can decompose the polynomial:
+
+    x^4 - 18x^3 + kx^2 +200x - 1984
+
+  = (x^2 + mx - 32)(x^2 + nx + 62)
+
+Now, expand the polynomial on the right hand side:
+
+    (x^2 + mx - 32)(x^2 + nx + 62)
+
+  = x^4 + (m+n)x^3 + (30 + mn)x^2 + (62m - 32n)x - 1984
+
+From here, you have a system of equations:
+
+       m+n = -18
+   30 + mn = k
+ 62m - 32n = 200
+
+You have three equations and three unknowns. You just have to solve for k.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

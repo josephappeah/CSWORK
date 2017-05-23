@@ -1,0 +1,29 @@
+ThreadNum: 567022
+Subject: Re: calculus
+To: kohcy75@yahoo.com (koh)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 23:55:10
+Sent: yes
+
+
+As koh wrote to Dr. Math
+On 08/15/2004 at 22:46:39 (Eastern Time),
+>butif i work integral of x^3sin2X=Integral of x^3(2sinxcosx)by part 
+>and after integrate 2sinxcosx becoming sin^2, I get a very long and 
+>complicate equation. And another question, I heard there is another 
+>way of integration by part using "tabular form" but I think there is 
+>a limation is it?
+
+Hi Koh,
+
+For the integration by parts problem, it is much better to leave the
+trigonometric function as sin(2x), and differentiate the polynomial
+term.  You will still have to do three integrations by parts, a tedious
+computation.
+
+I'm not familiar with the "tabular form" version, but I think it must
+be equivalent to the regular form.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,63 @@
+ThreadNum: 568585
+Subject: Re: PreCal: angular velocity
+To: booyaliz@yahoo.com (Liz)
+From: Doctor Greenie
+TimeStamp: 08/24/2004 at 23:32:05
+Sent: yes
+
+
+As Liz wrote to Dr. Math
+On 08/24/2004 at 21:40:57 (Eastern Time),
+>[Question]
+>how do i determine the number of revolutins per minute of a wheel 
+>withe the given angular velocity of 151 rad/s?
+>
+>[Difficulty]
+>how are u suposed to work this problim??
+>
+>[Thoughts]
+>i would think that u would work backwards from angle velocity and 
+>start with... 151rad/s = ?(2pie)/60 but then i get ?= 14231.4rpm
+
+Hi, Liz --
+
+You don't make it clear what you did with the "2pi" and the "60" to 
+get from 151 rad/sec to 14231.4 rev/min....
+
+I suspect you had the correct calculation in mind but entered it 
+incorrectly into your calculator.  To convert rad/sec to rev/sec, 
+you need to divide by (2pi); to convert rev/sec to rev/min, you need 
+to multiply by 60.
+
+So the conversion should go like this
+
+  (151) divided by (2pi) times (60)
+
+If you try to perform this calculation on a calculator by entering
+
+  151/2pi*60
+
+the answer you get is your answer of 14231.4..., which is not 
+correct.  The problem is that the calculator reads this input as
+
+  151 divided by 2 times pi times 60
+
+You intended to divide by (2pi); however, when the calculator sees 
+the "2pi" next to each other, it reads that as "2 times pi" -- so 
+the calculation it performs is
+
+  151/2*pi*60
+
+In order to get the calculator to divide by "2pi", you need to put 
+the "2pi" in parentheses:
+
+  151/(2pi)*60
+
+This gives the correct conversion of 1441.9... rpm.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

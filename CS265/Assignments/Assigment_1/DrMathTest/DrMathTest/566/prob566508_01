@@ -1,0 +1,63 @@
+ThreadNum: 566508
+Subject: Re: house math problem
+To: sramirez00@aol.com (susana ramirez)
+From: Doctor Anthony
+TimeStamp: 08/11/2004 at 15:03:20
+Sent: yes
+
+
+As susana ramirez wrote to Dr. Math
+On 08/11/2004 at 14:08:44 (Eastern Time),
+>[Question]
+>i'm buying a house. it cost 35,000, it has an 11% interest. i pay 
+>$500 a month how many years will i end up paying for it and what 
+>would be the total cost?
+
+
+You will be paying 6000 per year.  The number of years n is found 
+from
+
+  6000[1 + 1.11 + 1.11^2 + 1.11^3 + ... + 1.11^(n-1)]
+
+                                            = 35000 x 1.11^n
+
+  6000[1.11^n - 1]
+  ----------------  = 35000 x 1.11^n
+      1.11 - 1
+
+   6000 x 1.11^n - 6000 = 35000 x 1.11^n x 0.11
+
+   6000 x 1.11^n - 6000 =  3850 x 1.11^n
+
+    2150 x 1.11^n = 6000
+
+           1 .11^n = 2.7907    take logs
+
+       n.ln(1.11) = ln(2.7907)
+
+                  ln(2.7907)
+             n =  ----------  =  9.834 years
+                  ln(1.11)
+
+                              =  9 yrs  10 months
+
+    Total payout = 9 x 6000 + 10 x 500
+
+                 =  $59,000
+
+So you pay nearly 1.7 times the nominal value of $35,000
+
+
+
+>
+>[Difficulty]
+>the interest to it.
+>
+>[Thoughts]
+>i calculated 6 years without interst but wiyh interest i was not 
+sure.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

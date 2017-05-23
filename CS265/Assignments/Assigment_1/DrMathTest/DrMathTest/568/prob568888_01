@@ -1,0 +1,44 @@
+ThreadNum: 568888
+Subject: Re: find soultion of integral
+To: mahdinaser@yahoo.com (Mahdi)
+From: Doctor Fenton
+TimeStamp: 08/26/2004 at 08:58:27
+Sent: yes
+
+
+As Mahdi wrote to Dr. Math
+On 08/26/2004 at 08:18:39 (Eastern Time),
+>[Question]
+>Hello
+>My name is Mahdi_Naser_Moghadasi,Student of computer engineering in 
+>IRAN.There is an Integral which I spent many time to solve it but I 
+>couldn't.
+>(tanx) to power of 1/2 dx=dy
+>
+>[Difficulty]
+>I think this is cooresponding to this integral:
+>(x^2/1+x^4)dx=dy
+>but I can solve it.
+>
+>[Thoughts]
+>
+
+Hi Mahdi,
+
+Thanks for writing to Dr. Math.
+
+>I think this is cooresponding to this integral:
+>(x^2/1+x^4)dx=dy
+
+That is correct.  The resulting integral can be solved by using
+Partial Fractions, after factoring the denominator
+
+  1 + x^4 = (x^2 - sqrt(2)x + 1)(x^2 + sqrt(2)x + 1) .
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

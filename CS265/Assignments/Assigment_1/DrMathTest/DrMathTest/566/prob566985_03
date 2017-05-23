@@ -1,0 +1,139 @@
+ThreadNum: 566985
+Subject: Re: Obtaining a Cubic Formula From a Table
+To: da_gasman@hotmail.com (David)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 08:10:16
+Sent: yes
+
+
+As David wrote to Dr. Math
+On 08/16/2004 at 04:40:47 (Eastern Time),
+>Unfortunately, even with what you have given me, I am still unable 
+>to understand, or teach my son Chris how to do it. Upon searching on 
+>the internet for an equation-finding program, we were able to obtain 
+>the formula to the table I had given previously... (if you need it 
+>again it is...
+>
+>--------------------------------------------------------|
+>Number (n)  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
+>------------|---|---|---|---|---|---|---|---|---|---|---|
+>Value (Hp\n)| 0 | 1 | 7 | 22| 50| 95|161|252|372|525|715|
+>--------------------------------------------------------|  ... that)
+>
+>We found the equation to being:
+>n(n+1)(4n-1)÷6
+>which my son expanded to "(4n^3 + 3n^2 -6)÷6"
+>
+>Since my algebra skills aren't the best, is it possible to give me a 
+>numerical example using all the terms (in terms of the cubic 
+>equation form) that that equation does? If need be, I would be more 
+>than happy to have a similar example that uses different co-
+>efficients. However I would indeed be more happier if this example 
+>is used as this is the "style" of equation my son is currently doing 
+>(they are all similar to this and would help him, and also me a 
+>great deal). 
+>
+>If this cannot be done, can you please provide me with a link to, or 
+>an actual worded explanation of Lagrange Interpolation?
+>
+>Sincerely,
+>David.
+
+Hi David,
+
+Did you read the second answer in the url I gave you?  It describes
+how to make and use a divided difference table for cubics, and
+gives an explicit calculation for a quadratic.  In case you didn't,
+I'll copy it here:
+
+For actual computation, I would use one of the other forms I mentioned
+in my reply, the Newton form.  You have to compute what are called 
+"divided differences".  Given a list of points, x(0),x(1),...,x(n),
+and function values f(x(i)) at each of those points, the divided
+differences f[x(0),x(1),...,x(k)] are defined recursively:
+
+   f[x(i)] = f(x(i))  (note the square bracket on the left side;
+                       that quantity is being DEFINED).
+
+Second divided differences are defined by
+
+                  f[x(1)] - f[x(0)]
+   f[x(0),x(1)] = ----------------- , etc.
+                     x(1) - x(0)
+
+                  f(x(1)) - f(x(0))
+                = -----------------
+                     x(1) - x(0)     .
+
+Third divided differences are defined by
+
+                        f[x(1),x(2)] - f[x(0),x(1)]
+   f[x(0),x(1),x(2)] = ----------------------------   , etc.
+                                x(2) - x(0)
+
+that is, third divided differences are divided differences of second 
+divided differences.  You make a Divided Difference Table:
+
+
+ x(0)  f[x(0)]
+                f[x(0),x(1)]
+ x(1)  f[x(1)]               f[x(0),x(1),x(2)]
+                f[x(1),x(2)]                   f[x(0),x(1),x(2),x(3)]
+ x(2)  f[x(2)]               f[x(0),x(1),x(2)]
+                 f[x(2),x(3)]
+ x(3)  f[x(3)]
+
+This table would work for cubic interpolation through 4 points. As an 
+example, I'll do one for a quadratic through 3 points: you first 
+compute the first column of divided differences (which will be the 
+third column in the table:
+
+  0  1                        0  1
+        (3-1)/(1-0)                 2
+  1  3                   or   1  3
+        (7-3)/(2-1)                 4
+  2  7                        2  7
+
+and then compute the second column of divided differences
+
+  0  1                        0  1
+        2                           2
+  1  3     (4-2)/(2-0)  or    1  3     1
+        4                           4
+  2  7                        2  7             .
+
+Starting in the second column, we read the coefficients down
+the diagonal: 1,2,1
+
+  0  (1)                        
+        (2)                            
+  1   3     (1) 
+         4                          
+  2   7                            .
+
+Then the interpolating polynomial is
+
+ p(x)=f[x(0)]+f[x(0),x(1)](x-x(0))+f[x(0),x(1),x(2)](x-x(0))(x-x(1))
+
+or
+
+  p(x) = 1 + 2(x-0) + 1(x-0)(x-1)
+
+       = 1 + 2x + x(x-1)
+
+       = 1 + 2x + x^2 - x
+
+       = 1 + x + x^2 .
+
+You can check that this polynomial does indeed produce the values you 
+were interpolating: p(0)=1, p(1)=3, and p(2)=7.
+
+The same basic idea works for any degree. A good description of all
+this can be found in any elementary numerical analysis book. My
+favorite is Conte and De Boor, _Elementary Numerical Analysis_.
+
+Try emulating this example.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

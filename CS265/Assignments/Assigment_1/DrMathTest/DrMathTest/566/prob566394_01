@@ -1,0 +1,35 @@
+ThreadNum: 566394
+Subject: Re: why is radian measure dimensionless
+To: txcowboy073@hotmail.com (jeff)
+From: Doctor Tom
+TimeStamp: 08/10/2004 at 20:01:06
+Sent: yes
+
+
+As jeff wrote to Dr. Math
+On 08/10/2004 at 19:53:47 (Eastern Time),
+>[Question]
+>why is radian measure dimensionless
+>
+>[Difficulty]
+>i really have lots to learn about radians 
+>
+>[Thoughts]
+>
+
+Hi Jeff,
+
+A radian is really a ratio of two lengths.  If you draw a
+circle and an angle whose vertex is at the center, the
+measure of the angle in radians is the ratio of the lengh of
+the arc that it cuts off to the radius of the circle.
+
+Thus the dimensions are [length]/[length], which
+cancel, leaving a dimensionless measure.
+
+In the unit circle where you may have seen radians defined,
+the denominator is 1 unit of length, so it's still a ratio.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

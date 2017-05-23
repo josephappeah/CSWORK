@@ -1,0 +1,29 @@
+ThreadNum: 566459
+Subject: Re: what is logarithm of zero?
+To: mnrcc@rediffmail.com (vijay)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 07:51:35
+Sent: yes
+
+
+As vijay wrote to Dr. Math
+On 08/13/2004 at 05:30:15 (Eastern Time),
+>Is SQUARE ROOT OF ZERO AND CUBEROOT OF ZERO defined r undefined
+
+Hi Vijay,
+
+The cube root of a number A is defined if there is some number B such
+that 
+
+  B * B * B = A
+
+Is there some number B such that
+
+  B * B * B = 0?
+
+If so, then that number is the cube root of B.  Square roots work the
+same way.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

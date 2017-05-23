@@ -1,0 +1,59 @@
+ThreadNum: 567252
+Subject: Re: SAT Math
+To: elizabethyong2001@yahoo.com (elizabeth)
+From: Doctor Ian
+TimeStamp: 09/01/2004 at 09:20:35
+Sent: yes
+
+
+As elizabeth wrote to Dr. Math
+On 09/01/2004 at 03:50:08 (Eastern Time),
+>[Question]
+>If -1 < x < 0, which of the following statements must be true?
+>A) x < x^2 < x^3
+>B) x < x^3 < x^2
+>C) x^2 < x < x^3
+>D) x^2 < x^3 < x
+>E) x^3 < x < x^2
+>
+>
+>[Difficulty]
+>i can't understand the question; what is x suppossed to stand for?
+>
+>[Thoughts]
+>
+
+Hi Elizabeth,
+
+'x' just stands for some number whose value we don't know yet.  Since
+x is between -1 and 0, it could be -0.5, or -1/3, or -0.0001, or
+-0.999, or some other number.  We just don't know. 
+
+In arithmetic, we're always dealing with numbers whose values we know,
+e.g., 
+
+  3 * 6 = 18
+
+In algebra, we start applying the rules of arithmetic to numbers whose
+values we _don't_ know, at least not exactly.  For example, if I know
+that x is some number at least 2 and not more than 3, then the value
+of the expression
+
+  3 * x = ?
+
+can be as low as 6, since
+
+  3 * 2 = 6
+
+and as high as 9, since
+
+  3 * 3 = 9
+
+The actual value of the result, '?', is somewhere in that range, even
+though we can't say exactly where it is.  
+
+Does that make sense?  Can you see how to answer your question? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

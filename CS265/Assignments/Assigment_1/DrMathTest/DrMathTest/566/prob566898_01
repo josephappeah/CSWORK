@@ -1,0 +1,46 @@
+ThreadNum: 566898
+Subject: Re: Combinations with Doubles,(Ie AA, BB, CC as well as AB, etc)
+To: kermitdfrosch@hotmail.com (Joe)
+From: Doctor Anthony
+TimeStamp: 08/14/2004 at 10:23:32
+Sent: yes
+
+
+As Joe wrote to Dr. Math
+On 08/14/2004 at 09:43:24 (Eastern Time),
+>[Question]
+>I know the formula for combinations without redundants, like AA and
+>BB. that is 
+>
+>nCr = n! / r!(n-r)! 
+>
+>and that if r = 2, to add all the redundants is as simple as adding 
+N
+>to the equation, but what I need to know is how to get that same 
+thing
+>for combinations taken 3 at a time.
+>
+>[Difficulty]
+>The most confusing part is when I'm trying to add the parts for
+>combinations taken 3 or 4 at a time, I get the combinatons AAA, AAB,
+>ABB, and BBB, what i dont want is BBA and ABB, because that is the
+>same thing, but I do want everything else. 
+>
+>
+>
+>
+>[Thoughts]
+>I think it has something to do with adding N ^ X, where X is some
+>number related to r, but I'm not sure at all.
+
+
+
+It would be better if you sent the actual question in the precise 
+words of the original.  At the moment I am unable to decide exactly 
+what the problem is.
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

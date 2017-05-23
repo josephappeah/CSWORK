@@ -1,0 +1,55 @@
+ThreadNum: 567684
+Subject: Re: Factoring/Sloving Quadraic Equations
+To: sportschick_767@yahoo.com (Anjie)
+From: Doctor Rob
+TimeStamp: 08/19/2004 at 20:49:42
+Sent: yes
+
+
+As Anjie wrote to Dr. Math
+On 08/19/2004 at 11:37:31 (Eastern Time),
+>[Question]
+>Help! Im a student going into Algebra 2, and finding my summer math
+>packet a little scary. The concept of facoring has always left me
+>confused, and when asked to slove quadratic equations using it, I 
+find
+>I dont even know where to begin.
+>
+>[Difficulty]
+>Unfortuantly, everything about the process leaves me scratching my
+>head, and Im not sure about how to apply it to solving quadractic
+>equations.
+>
+>[Thoughts]
+>Heres an example- "Solve the quadratic equation by factoring"
+>2x squared + 5x - 3 = 0 
+>I know that while factoring you try to come up with two numbers that
+>will not only when muiltiped give you 5, but when added give you 3.
+>But since 5 is a prime number, how can that be done? I think that the
+>foil method is supposed to be applyed, but I cant be sure. After you
+>foil, is that solving the problem, or are there more steps that need
+>to be taken? Thank you for listening, and your help will make my 
+ninth
+>grade year a little easier. 
+
+Thanks for writing to Ask Dr. Math, Anjie!
+
+You've got it a little mixed up.
+
+For a*x^2 + b*x + c = 0, you need to find two numbers r and s which
+when multiplied give you a*c, and when added give you b.  Then the
+factorization is given by (a*x+r)*(a*x+s)/a, simplified.
+
+For 2*x^2 + 5*x - 3 = 0, you need to find two numbers which when
+multiplied give you (2)*(-3) = -6, and when added give you 5.  In
+this case, 6 and -1 will work.  That means that the factorization
+is given by (2*x+6)*(2*x-1)/2 = (x+3)*(2*x-1).
+
+Use FOIL to check your answers.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

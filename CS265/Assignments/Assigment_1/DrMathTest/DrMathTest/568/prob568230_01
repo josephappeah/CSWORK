@@ -1,0 +1,50 @@
+ThreadNum: 568230
+Subject: Re: we need the answer.
+To: d1arems@yahoo.co.uk (Dayo.)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 13:12:10
+Sent: yes
+
+
+As Dayo. wrote to Dr. Math
+On 08/23/2004 at 11:27:01 (Eastern Time),
+>[Question]
+>It was required to determine the distance(s) covered by abody 
+>accelerated from rest using observed values of acceleration from 
+>rest using the values of acceleration,a, and time,t, given that 
+>s=at^2. Calculate the error in a measured distance of 20metres if 
+>the percentage errors in acceleration and time are 2% and 3%, 
+>respectively.
+>
+>[Difficulty]
+>How to do the procedures for the calculation. 
+>
+>[Thoughts]
+>I have no idea.
+
+Hi Dayo,
+
+You start with an equation that gives you distance in terms of time,
+for a given acceleration:
+
+  s = at^2
+
+If you have an error of 2% in acceleration, the value you might end up
+with something anywhere between 
+
+  s = (0.98a)t^2
+
+and
+
+  s = (1.02a)t^2
+
+Similarly for the error in time.  
+
+So you can get the highest and lowest possible 'wrong' values for the
+distance, and compare those to the 'right' value.  
+
+Is this enough to get started? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

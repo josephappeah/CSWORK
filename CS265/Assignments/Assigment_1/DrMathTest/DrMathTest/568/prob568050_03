@@ -1,0 +1,33 @@
+ThreadNum: 568050
+Subject: Re: calculus- continious function
+To: vinodramki@hotmail.com (vinodr)
+From: Doctor Fenton
+TimeStamp: 08/22/2004 at 14:09:12
+Sent: yes
+
+
+As vinodr wrote to Dr. Math
+On 08/22/2004 at 12:09:38 (Eastern Time),
+
+Hi Vinodr,
+
+>So DOes that mean  i have to look for either a non-continious 
+>function or a non-diffrentiable function in (a,b)?
+
+The statement of the problem asked for a continuous function, so your
+solution must be continuous.
+
+>....For example sinx 
+>is non-diffrentiable outside its domain [-1,1] . 
+
+I don't understand what you are trying to say.  sin(x) is 
+differentiable for all x.  If you restrict it to a closed interval
+such as [-1,1], it is differentiable (in the usual sense) on the 
+open interval (-1,1), and has one-sided derivatives at the endpoints.
+
+It might be helpful to look at a proof of Rolle's Theorem, to see how
+the point where f'(c)=0.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

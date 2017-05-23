@@ -1,0 +1,203 @@
+ThreadNum: 568408
+Subject: Re: Self Study (Please reply) III
+To: po26@pearl.ocn.ne.jp (john)
+From: Doctor Anthony
+TimeStamp: 08/24/2004 at 15:56:30
+Sent: yes
+
+
+As john wrote to Dr. Math
+On 08/24/2004 at 05:32:18 (Eastern Time),
+>[Question]
+>Dr. Anthony,
+>
+>Once again, thanks for writing me, and I answered the question you 
+>asked clarification to which is given in the show us your work, etc 
+>box below. Also I added some comments in section III of my reply.
+>
+>Sincerely,
+>john
+
+I'm afraid I won't have the time to follow up your latest message, 
+but I have invited other doctors to look at it and I have left it on 
+the 'active' page for them to see it.
+
+
+Doctor Anthony 
+
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>kx^3, <--------- Why?
+>[Reply] we stated that for x^n + y^n = z^n, x,y,z,n are integers, 
+but 
+>this does not deny us from involving non-integers. If I have some 
+>integer to a power, i can write it as some other integer with a 
+>coefficient, even though that coefficient might not be an integer. 
+>Say that I have 5^2, so that x=5, n=2. now say that y = 10, then 
+y^2 
+>= 100. i can surely write this in terms of x as kx^n, where k =4. 
+>
+>----------- Please jump to section III at the bottom --------
+>
+>I don't understand this step.
+>
+>If   x^3 + y^3 =  c^3
+>[Reply] Sorry about the above, it is a typo (...please see section 
+>III below the Sincerely) 
+>why can you write  y^3 = k.x^3  ???
+>
+>For example if   3^2 + 4^2 = 5^2  it does not follow that
+>
+>       4^2 = k x 3^2  with k an integer.
+>
+>***I will not make further comments until I have this point 
+explained.
+>
+>***[Reply] yes it does, but because of the numbers you have chosen, 
+>here k =1. Any integer you choose for y, i can write y^n in terms 
+of 
+>kx^n. in fact we could write x^n+y^n=z^n as x^n(1+a-b)=0.
+>while typing this i noticed two interesting points, one is that n 
+>cannot equal 0 (not sure if it means anything at all), and the 
+other 
+>which is related to the below reply from yesterday, (just thought 
+of 
+>it) being:
+>x^n+y^n=z^n
+>then
+>x^(n+1)+(xy)^n=(zx)^n
+>then
+>x^(n+1)-Ix^n =0 (just factor out x^n in the above and set y^n-z^n 
+to 
+>some integer I, which cannot be equal to 1)
+>then 
+>x^n = I and n = lnI/lnx, which is the lnc/lnx given below from 
+>yesterday, though i did not do it this way at the time. i seem to 
+>always get back to n as a ratio of ln’s...but i know that that 
+ratio 
+>must give me an integer because of the initial conditions, and i 
+know 
+>that arbitrary numbers that then contradict the initial conditions 
+>cannot be an acceptable solution....ex, you choice of 343 and 7 
+does 
+>give n = 3, but your choice contradicts the initial conditions.
+>
+>----below is what was sent yesterday---- 
+>>Then
+>>x^3(1+k)=343
+>>
+>>(Kx)^3=343
+>>
+>>P^3 = 343...then P = 7
+>>
+>>x = (7/1+k)^1/3   For k = 6 x =1 thus not a general solution
+>>for k greater than 6, no integer solution for x for less than 6, 
+no 
+>>integer solution for x
+>>
+>>We have therefore the requirement that for any integer you pick 
+for 
+>A, 
+>>that it satisfies x = (P/1+k)^1/n such that x is an integer.
+>>We can write this as x = c^1/n,
+>>
+>>
+>>
+>>Then
+>>n = lnc/lnx = lnA/lnz
+>>
+>>Then (x^1/c)(z-A)
+>>
+>>So now,
+>>z^n = z-x^1/c
+>>
+>>We can write this as
+>>z- z^n = I, where z, n, & I are integers.
+>>
+>>Then
+>>z^n-z+I = 0
+>>
+>>Are there solutions for this equation, where z, n, and I are
+>integers?
+>>
+>>(We can also write this as Az^n-Bz+1 = 0)
+>>
+>>
+>----------------------------------
+>>
+>i wrote the x = c^(1/n) since we had x = (P/1+k)^1/n and (P/1+k)is 
+>just some number c.
+>
+>to be honest, i am not writing everything down on paper so i do not 
+>always remember what i had been thinking...sorry...not good, i 
+know, 
+>so i will do better henceforth.
+>
+>anyway, i keep getting back to n = lnI/lnx, and here i am stuck. i 
+>see this as just some number times(1/lnx)...and as you did 
+>previously, we can get n = 3 again. the problem now though is if i 
+>generate an “n” as an integer it has to give me integers for all 
+the 
+>terms for x^n+(kx)^n =(cx)^n, the n=3 that comes from your choice 
+of 
+>numbers in the ln ratio does not. (and i can always write y or z in 
+>terms of some coefficient times x)
+>
+>-----Section III--------
+>lets take x^n+(kx)^n =(cx)^n
+>if we divide trough by x^n we get 1+k^n=c^n
+>then
+>c^n-k^n=1 
+>now the problem here is if i demand that c,k,n be integers there is 
+>no solution, and the reason is obvious as given the same powers 
+there 
+>are no integers where the difference is 1.
+>so, lets still write our “y” and “z” in terms of x again, but 
+making 
+>a change to correct (try to anyway) the problems sited above. thus 
+>write it as
+>
+>x^n+(kx)^n=((c^m)-1))x^n
+>
+>now divide through my x^n and we get 
+>
+>1+k^n=(c^m)-1 which is c^m-k^n=2
+>
+>for all positive integers from 1 to infinity, for c,k,m,n as 
+integers 
+>there is one and only one solution, and it is m=3, n=2, i.e. 3^3-
+>5^2=2, (and thus only one number between a perfect cube and a 
+perfect 
+>square, i.e. the number 26)
+>this n is the n in our x^n, thus n=2.
+>
+>As there are no other c^m-k^n= some integer, except for when some 
+>integer =2, and m=3, n=2, we can only have n=2 as a solution for n 
+>greater than 1.
+>
+>And again, Dr. Anthony, thank you very much for being patient 
+enough 
+>to respond to my messages. I think that there is nothing more I can 
+>do with the above beyond what i have written, except for sending 
+you 
+>my proof that there is only one positive integer from 1 to infinity 
+>between a perfect cube and a perfect square, i.e. 3^3 = 27, 5^2 
+=25, 
+>thus 26 is the only number that meets this. However, I would very 
+>much appreciate knowing what is wrong with section III above, and 
+>that should close this for me, as there are too many avenues of 
+>attack too this problem, with some methods getting very messy, and 
+>beyond my math skills.
+>
+>Sincerely,
+>john
+>
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

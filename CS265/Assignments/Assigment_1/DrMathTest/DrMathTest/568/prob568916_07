@@ -1,0 +1,126 @@
+ThreadNum: 568916
+Subject: Re: complexnumbers
+To: manikantsah@yahoo.co.in (manikant)
+From: Doctor Ian
+TimeStamp: 08/28/2004 at 14:01:10
+Sent: yes
+
+
+Hi Manikant, 
+
+> I am afraid because things are getting contradictory.Your archive 
+>explains that i=(0,1).
+
+Which is one way of defining it.  Not the only way. 
+                   __
+>It says that i =\/-1 is wrong.
+
+It's 'wrong' in the same sense that
+        _
+  2 = \/4
+
+is 'wrong', which is to say, it's incomplete.  The analogy with
+complex numbers is to say that
+
+  2^2 = 4 
+
+and therefore 
+    _
+  \/4 = 2
+
+But 2 is not the _only_ number whose square is 2.  There is another
+number, i.e., 
+
+      _ 2      _ 2
+  (-\/4)  = (\/4)  = 4
+
+Similarly, when we say that 
+
+        __
+  i = \/-1
+
+we mean that it is one of _two_ numbers that, if squared, will produce
+-1, i.e., 
+
+      _ 2      __
+  (-\/i)  = (\/-1) = -1
+
+or 
+
+     2       2
+  (i)  = (-i)  = -1
+
+Dr. Pete was just trying to show that you can define imaginary numbers
+without talking about square roots; not that you can't use square
+roots to define imaginary numbers.  
+
+>And you arrive 
+>the answer using this fact.
+>    __     ______
+>  \/-4 = \/-1 * 4
+>           __     _
+>       = \/-1 * \/4
+>       = i * 2
+
+If we want to avoid using square roots, we can note that the equation
+
+     -4 = x^2
+
+is satisfied whenever x = 2i or -2i, where i^2 = -1.  That is, 
+
+  (2i)^2 = (2)^2 (i)^2
+
+         = (4) (-1)
+
+         = -4
+
+and
+
+  (-2i)^2 = (-2)^2  (i)^2         or     (2)^2 (-i)^2
+
+          = (4) (-1)                     (4) (-1)
+
+          = -4          
+
+There's no contradiction that arises from using square roots.  We just
+have to be careful to realize that - just as with real numbers - using
+a square root only shows us half the story, and we always have to be
+aware of the other half, so we can consider whether ignoring it will
+cause us problems. 
+
+It's a little like using 'parent', which also has two values.  Suppose
+Alex is the child of Pat and Chris.  Chris, but not Pat, plays the
+piano.  If I'm not careful, I might say something like 
+
+  Chris is the parent of Alex.
+  Chris plays the piano.
+  Therefore, the parent of Alex plays piano. 
+  Pat is the parent of Alex.
+  Therefore, Pat plays the piano. 
+
+Which, of course, is wrong.  We go astray in the third step, where
+instead of 
+
+  the parent of Alex plays piano
+
+we ought to say
+
+  ONE OF THE PARENTS of Alex plays the piano
+
+The most we can derive from that is that 
+
+  Pat or Chris, or both, plays the piano.  
+
+The moral of the story is that if you start with a true statement
+about x, such as 
+
+  x^2 = -4
+
+and you want to transform that into another statement about x, by
+taking square roots, you have to remember that there are _two_ square
+roots.  Sometimes that fact is important; other times, it can be
+ignored.  But it must always be considered. 
+ 
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,60 @@
+ThreadNum: 567114
+Subject: Re: What is different about this sine problem with big angles
+To: benlev@aol.com (Ben)
+From: Doctor Rick
+TimeStamp: 08/16/2004 at 18:00:35
+Sent: yes
+
+Hi, Ben.
+
+As Ben wrote to Dr. Math
+On 08/16/2004 at 10:16:35 (Eastern Time),
+>[Question]
+>To find the length of a side of a triangle (not a right triangle) 
+the 
+>sine rule can be used.  a/sin A = b/sin B = c/sin B.  I want to find 
+>side b so b= sin B(a/sin A).  At 60 degrees and a side of 20 inches, 
+>all the angles are 60 and the sides come out to 20. Seems simple 
+>enough.  
+>
+>[Difficulty]
+>BUT with the angles of 62 degrees and 59, 59 and one of the 59's 
+>being 20 inches you get strange results and negative numbers
+>
+>
+>
+>[Thoughts]
+>For Side A: Sine 59 = 0.636738007  and Side a=20 inches
+>For Side B; Sine 62 = -0.739180697 and Side B is unknown
+>
+>so b= sin B(a/sin A)  or
+>-.739180697(20 inches / 0.636738007)  or
+>-.739180697(31.41009297)
+>-23.21773441
+>
+>That sounds OK for the distance, but why negative?
+>
+
+Where did you get sin(62) = -0.739180697? All the basic trig 
+functions are positive for angles between 0 and 90 degrees. I get
+
+  sin(59) = 0.85716730070211228746521798014476
+  sin(62) = 0.88294759285892694203217136031572
+  b = 20*sin(62)/sin(59)
+    = 20.601522996402168403265277455926
+
+using the Windows calculator and keeping all the decimal places it 
+displays.
+
+I see what you did wrong. If I have the calculator in radian mode, I 
+get
+
+  sin(59 radians) = 0.63673800713913788077123349237683
+  sin(62 radians) = -0.73918069664922286727601693375544
+
+Put it in degree mode and things will work out. If you'd like to 
+discuss this further, let me know.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

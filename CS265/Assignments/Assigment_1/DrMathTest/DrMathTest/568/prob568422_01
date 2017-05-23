@@ -1,0 +1,40 @@
+ThreadNum: 568422
+Subject: Re: Log
+To: amy_c20012001@yahoo.com.cn (Chao)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 09:48:54
+Sent: yes
+
+
+As Chao wrote to Dr. Math
+On 08/24/2004 at 08:32:15 (Eastern Time),
+>[Question]
+>Solve for x: log(x^2-1)=2+log(x+1)
+>
+>[Difficulty]
+>I have no idea where to start.
+>
+>[Thoughts]
+>I guess I have to get rid of log first.
+
+Hello Chao,
+
+First, bring the two logs to the same side of the equation.  Then use the fact that
+
+log(A/B) = log(A)-log(B).
+
+Then exponentiate both sides, that is, 
+
+if 
+
+log(A) = B
+
+then
+
+A = e^B.
+
+I've assumed that the base of log is e.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

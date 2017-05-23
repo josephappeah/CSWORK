@@ -1,0 +1,92 @@
+ThreadNum: 567269
+Subject: Re: Converting non repeating percentages into fractions
+To: cwebb@statesecurities.plc.uk (Carly)
+From: Doctor Ian
+TimeStamp: 08/17/2004 at 07:56:46
+Sent: yes
+
+
+As Carly wrote to Dr. Math
+On 08/17/2004 at 06:44:27 (Eastern Time),
+>[Question]
+>When there is a percentage like 7.60602549246% how do you then 
+>convert this into a fraction i.e 2/10?
+>
+>[Difficulty]
+>I get confused with the whole lot
+>
+>[Thoughts]
+>I don't know what to say, I am confused
+
+Hi Carly,
+
+There are two things you need to know to make sense of this kind of
+conversion.  The first is that when we write something like 
+
+   3.456
+
+we mean
+  
+    _________ 3
+   |  _______ plus 6/10
+   | | ______ plus 5/100
+   | || _____ plus 6/1000
+   | |||
+   3.456
+
+We can rewrite this as
+
+    3 + 6/10 + 5/100 + 6/1000
+
+  = 3000/1000 + 600/1000 + 50/1000 + 6/1000
+
+  = 3456/1000
+
+Does that look at all familiar? 
+
+The second thing you need to know is that when we write
+
+  some%
+
+it's just shorthand for 
+
+  some
+  ----
+   100
+
+Putting these two ideas together, if we write 
+
+  3.456%
+
+it's the same as 
+
+   3456/1000
+  -----------
+      100
+
+which is the same as 
+
+     3456
+  -----------
+   100*1000
+   
+which is the same as 
+
+    3456
+  --------
+   100,000
+
+Now, you might be able to simplify this, by finding common factors in
+the numerator and denominator, e.g., 
+
+    3456      2 * 1728        1,728
+  -------- = ------------ = --------
+   100,000    2 * 50,000     50,000
+
+but then again, you might not. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

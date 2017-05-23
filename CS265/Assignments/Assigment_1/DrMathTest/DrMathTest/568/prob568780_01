@@ -1,0 +1,46 @@
+ThreadNum: 568780
+Subject: Re: which numbers between 300 and 500 are divisible to 27 and 36
+To: hodesai@msn.com (prashant)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 21:32:18
+Sent: yes
+
+
+As prashant wrote to Dr. Math
+On 08/25/2004 at 19:33:54 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>how it is said
+>
+>[Thoughts]
+>i know how to do it but it confusses
+
+Hi Prashant,
+
+What do you mean when you say you 'know how to do it'?  If you're not
+sure what else to do, you can simply list all the numbers between 300
+and 500, 
+
+  301, 302, 303, 304, ..., 498, 499
+
+and try dividing each of them by 17 and 36.
+
+Of course, you can be a little more clever than that.  For example,
+since 27 and 36 are both divisible by 9, you can eliminate any numbers
+that aren't also divisible by 9:
+
+  306, 315, 324, 333, ..., 486, 495  
+
+That's a lot fewer numbers.  There's more:  Because 36 is divisible by
+4, you can eliminate all the numbers that aren't divisible by 4, which
+is to say, all the odd numbers:
+
+  306, 324, 342, ..., 468, 486
+
+Is this enough to get started?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

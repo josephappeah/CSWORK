@@ -1,0 +1,106 @@
+ThreadNum: 568172
+Subject: Re: Trigonometry
+To: Afw5479@aol.com (Ally)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 14:01:02
+Sent: yes
+
+
+Hi Ally, 
+
+>Convert the expression to a simple trigonometric form (@ = theta):
+>
+>1. sqrt(9-x^2) when x=3sin@
+
+Since you're told that x = 3 sin@, you can go ahead and make that
+substitution:
+
+    sqrt(9 - (3sin@)^2)
+
+  = sqrt(9 - 9sin^2@)
+
+  = sqrt(9*(1 - sin^2@))
+
+Try simplifying this, and let me know what you get. 
+
+>Write cos^3(x) * sin^4(x) in terms of cos(x)and its powers
+
+Note that 
+
+  sin^2(x) + cos^2(x) = 1
+
+             sin^2(x) = 1 - cos^2(x)
+
+Also note that 
+
+  sin^4(x) = (sin^2(x))^2
+
+Can you see how to replace the sin^4(x) term with something that uses
+only cos(x) and powers of cos(x)? 
+
+>Assume rcos@ = x and rsin@ = y. Express the equations in a simple 
+>form in terms of x and y.
+>
+>1. r = 3cos@                    2. r = 1/(1-2cos@)
+
+Try solving 
+
+  rcos@ = x
+
+for cos@ in terms of r and x; then you can substitute into the first
+equation to get something with only r and x in it.  
+
+Similarly for the second equation. 
+
+>Write the expression in terms of sin@ and cos@:
+>
+>1. (csc@ - tan^2@)/(sec@ - cot@)
+
+Note that csc, sec, and cot can all be defined in terms of sin and
+cos.  Find those definitions, and then substitute. 
+
+>[Difficulty]
+>I have always struggled with trig. I have no idea where to begin.
+
+Where I usually begin is looking for places I can use substitution.  
+
+For one thing, I hate functions like cot, so the first thing I do when
+I see something like cot(x) is replace it with (1/tan(x)), and then I
+replace that with (1/(sin(x)/cos(x)), which simplifies to
+cos(x)/sin(x).  Similarly with sec and csc.  
+
+Then, once I have everything expressed in terms of sine and cosine, I
+start looking for patterns that might be useful.  Probably the most
+useful pattern in 
+
+  1 = sin^2 + cos^2
+
+If sin^2 and cos^2 show up, I can replace them with 1, which is
+guaranteed to make things simpler.  But if I have a lot of cosines,
+and one sin^2, I can replace sin^2 with (1 - cos^2).  Or if I have
+sines and one cos^2, the other way around. 
+
+One very important thing to realize is that so long as you make
+substitutions that are legal, there's no such thing as a _wrong_ step.
+ There's no requirement that you take the shortest possible route from
+a problem to its solution.  The most that can happen is that you might
+wander around for a while.  But wandering is okay.  Wandering is how
+you learn things.  
+
+In the first problem above, I saw a square root, so when I see that, I
+want to see if I can express everything inside as the product of
+squares, since that allows me to get rid of the square root:
+
+  sqrt(a^2 * b^2) = sqrt(a^2) sqrt(b^2)
+
+                  = ab
+
+Now, this might not have worked out.  If not, those are the breaks. 
+I'm not worse off than I was before.  I've just got another possible
+place to start from. 
+
+Does this  make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

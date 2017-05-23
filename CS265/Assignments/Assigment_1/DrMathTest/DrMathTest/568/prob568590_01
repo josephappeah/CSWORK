@@ -1,0 +1,82 @@
+ThreadNum: 568590
+Subject: Re: Algebra I
+To: bluejay2248@msn.com (Josh)
+From: Doctor Greenie
+TimeStamp: 08/24/2004 at 23:00:35
+Sent: yes
+
+
+As Josh wrote to Dr. Math
+On 08/24/2004 at 21:55:49 (Eastern Time),
+>[Question]
+>How do I figure this out? 
+>
+>2 4/5-(-8 1/3+1/2)
+>
+>[Difficulty]
+>Well I worked the problem out once and then I did it on a 
+calculator 
+>and my answer was wrong. Then, I did it again a differant way that 
+>my teacher mentioned and I was still wrong, so I am wondering, How 
+>is this problem supposed to be worked out? 
+>
+>[Thoughts]
+>(All my work is just addition and subtraction so the division sign 
+>is the fraction sign)
+>
+>2 4/5-(-8 1/3+1/2)
+>
+>I changed the double negative to two positives then I took away the 
+>parenthesis and made the addition sign a subtraction sign. It ended 
+>up like this.
+>
+>2 4/5+ (+8 1/3) - 1/2
+>
+>then I made a common denominator
+>
+>2 12/15+8 5/15-1/2
+>
+>I did the first two
+>
+>10 17/15-1/2
+>
+>then I did that and I came up with  10 19/30
+>
+>I am pretty possitive that this is wrong because I did this on a TI 
+>30X scientific calculator (Texas Instrument if that helps with 
+>anything) and the answer was differant.
+>
+>I just want to know if my answer is right or wrong and if it is 
+>wrong than could you tell me how to do it right?
+>
+Hi, Josh --
+
+Your work is fine, and your answer is right.  It is quite likely 
+that you entered the problem incorrectly on your calculator.  It is 
+quite awkward entering this problem in the correct way.
+
+For example, the opening "2 4/5" has to be entered as "2+4/5" (or, 
+better yet, to avoid the need to apply order of operations rules, "2+
+(4/5)".
+
+And the "..-(-8 1/3..)" is even more difficult.  With most 
+calculators, you need to enter the first "-" as a "minus" (an 
+operation between two numbers) and the second "-" as a "negative" 
+(an operation on a single number).  Furthermore, inside the 
+parentheses, you are subtracting both the "8" and the "1/3", so you 
+have to enter this as "(-8 -(1/3)...)".
+
+The whole thing needs to be entered as
+
+  "2 plus (4/5) minus (negative 8 minus (1/3) plus (1/2))"
+
+This string entered on my calculator (a TI83), gives the same answer 
+you got doing the problem by hand:  10.6333..., which is the decimal 
+equivalent of 10 19/30.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

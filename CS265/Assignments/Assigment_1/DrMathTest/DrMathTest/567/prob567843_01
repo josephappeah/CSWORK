@@ -1,0 +1,49 @@
+ThreadNum: 567843
+Subject: Re: A question about Spherical coordinates
+To: mathewzhao@hotmail.com (mathewzhao)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 09:38:58
+Sent: yes
+
+
+As mathewzhao wrote to Dr. Math
+On 08/19/2004 at 23:53:35 (Eastern Time),
+>[Question]
+>Hi!Dr.Math
+>   I have an idea,but I don't sure it.I guess the Longitude has 
+>something with the third component of Spherical coordinates,and the 
+>Latitude has something with the second component of Spherical 
+>coordinates,However,the diameter of the earth is fixed,so I want to 
+>know if there are better daily example about Spherical coordinates.
+>  Could you give me a hand?
+>
+>Thanks
+>Mathew
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Mathewzhao,
+
+Usually, one lists spherical coordinates of a point P in the order (rho,theta,phi),  where rho 
+is the distance from the origin to P, theta is the angle through which the positive x-axis 
+must be rotated (towards the positive y-axis) to coincide with the projection of P into the 
+(x,y)-plane, and phi is the angle through which the positive z-axis must be rotated (in the 
+plane determine by the z-axis and the line joining the origin to P) to go through P.
+
+So, theta is like longitude (but theta varies from 0 to 2pi and longitude varies from 0 to 
+180, in two directions from the Greenwich meridian).  Phi is like latitude, but phi varies 
+from 0 to pi and latitude varies from 0 to 90 in the two hemispheres and in the opposite 
+direction.
+
+It's not easy to give a better, simple examples of the use of spherical coordinates.  There 
+are many examples from physics.  If one heats an iron ball and asks how the temperature 
+varies on the inside as a function of time t, then spherical coordinates are by far the best 
+and simplest coordinate system to use.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

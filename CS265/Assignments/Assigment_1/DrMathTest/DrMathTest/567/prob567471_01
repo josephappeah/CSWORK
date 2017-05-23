@@ -1,0 +1,35 @@
+ThreadNum: 567471
+Subject: Re: Volume of Revolution: Shell Method
+To: gragra_rob@hotmail.com (Graeme)
+From: Doctor Rick
+TimeStamp: 08/18/2004 at 13:39:41
+Sent: yes
+
+Hi, Graeme.
+
+As Graeme wrote to Dr. Math
+On 08/18/2004 at 10:10:07 (Eastern Time),
+>[Question]
+>Use the method of cylindrical shells to find the volume of the solid 
+>formed by revolving the region bounded by the graph of y=2x^2-4x+5, 
+>the x-axis, and the lines x=2 and x=3, about the line x=1.
+>
+>[Difficulty]
+>I find the washer/disc method ok, but I am not quite grasping this 
+>new method.  Setting up the integral is the difficult part, the 
+>solving of the integral is fine.
+>
+>[Thoughts]
+>I have worked this question out to: V=2pi(definite integral of (2,3))
+>[(1-x)(2x^2-4x+5)]dx which gives me -24pi.  Obviously this isn't 
+>correct, but I believe the integral is.
+
+The sign error is in setting up the integral. The integrand should be 
+2*pi*r*h where r is the radius of the cylindrical shell and h is its 
+height. You've got the radius as (1-x). However, with x between 2 and 
+3, this gives a negative radius! You should have r = (x-1). That will 
+fix everything.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

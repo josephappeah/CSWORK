@@ -1,0 +1,55 @@
+ThreadNum: 567617
+Subject: Re: Combination of Deck of Cards
+To: brice5@flash.net (Right or Wrong?)
+From: Doctor Anthony
+TimeStamp: 08/19/2004 at 06:37:11
+Sent: yes
+
+
+As Right or Wrong? wrote to Dr. Math
+On 08/18/2004 at 22:28:35 (Eastern Time),
+>[Question]
+>A poker hand consists of 5 cards drawn from a deck of 52 playing 
+>cards. The hand is said to be "four of a kind" if four of the cards 
+>have the same face value. For example, hands with four 10's or four 
+>jacks or four 2's are four-of-a-kind hands. How many such hands are 
+>possible?
+
+
+Four of a kind [four cards of one face value and one other card]
+
+   Number of hands =  C(13,1) x 12 x 4  =  624
+                             
+The terms in this expression arise as follows:
+
+C(13,1) = number of ways of choosing the face value for the 4 cards.
+
+12 = number of ways of choosing face value of 5th card.
+
+4 = number of ways of choosing the suit for the 5th card. 
+
+
+
+
+
+>
+>[Difficulty]
+>Am I even doing my work correctly? 
+>
+>[Thoughts]
+>There are 52 cards and 13 cards per set 
+>(hearts,spades,diamonds,clubs). There are 13 possible hands for 
+four 
+>of a kind IF you only have a five card draw (ex: 2,2,2,2 and 
+Q,Q,Q,Q) 
+>after you already have those four of a kind cards you still need to 
+>draw one more card. Of that one card you have 12 other options you 
+>can now choose. Say you have a four of a kind of 2's so now you 
+have 
+>(ace,3,4,5,....)So the 13 possibilites of 4 of a kind multiplied by 
+>12 remaining choices for the 5th card gives you 156 possible hands.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

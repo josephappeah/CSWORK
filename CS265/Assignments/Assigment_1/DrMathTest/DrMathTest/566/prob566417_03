@@ -1,0 +1,101 @@
+ThreadNum: 566417
+Subject: Re: Freecell
+To: eubie@bellsouth.net (Christopher)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 15:10:24
+Sent: yes
+
+
+Hi Christopher,
+
+>I wish it were that simple. This is a brain teaser for sure! The 
+>problem was given to us by a local business man who makes sure his 
+>problems are a challenge. You made a mistake when you assumed that 
+>the player would win all the X number of games. 
+
+Well, it was an assumption.  The difference between an assumption and
+a mistake is that (stated) assumptions are intentional.  :^D
+
+>That would be too easy. 
+
+Not for a lot of the people who write to us.  
+
+>It was stated that the "win rate" is 86% of games played, not 
+>100%. 
+
+But that's ambiguous.  To make it clear, you'd have to say that the
+rate has to be exactly 86%.  In most contexts, saying you have a win
+rate of 86% means 'at least 86%'. 
+
+>I should tell you that we are a pre-calc honors class and maybe this 
+>is a calculus problem. We understand that there is no real answer. As 
+>X (the number of games) approaches an infinately large number the 
+>percentage approaches 86% but never gets there. So we now think that 
+>this has something to do with limits but none of us is able to 
+>explain it. I'll bet we will soon!
+>
+>I do want to thank you for your help. It is good to know that there 
+>are people out there willing to help.
+
+If you need to get exactly 86%, the condition is
+
+  407 + W          86              W = wins, L = losses
+  -----------  =  ---
+  474 + W + L     100
+
+  100(407 + W) = 86(474 + W + L)
+
+  40700 + 100W = 40764 + 86W + 86L
+
+          14W = 64 + 86L
+
+                64 + 86L
+            W = --------
+                   14
+
+                32 + 43L
+            W = --------
+                   7
+
+So the question is, can we find a value of L that makes (32+43L) a
+multiple of 7, in order to get an integer result for W?  In fact,
+there are many such values, and you don't even have to look very far
+to find them.  For example, when L = 3, 
+
+                32 + 43L   32 + 129   161
+            W = -------- = -------- = --- = 23
+                   7          7        7
+
+To check, 
+
+  407 + 23       430   5 *  86    86
+  ------------ = --- = ------- = ---
+  474 + 23 + 3   500   5 * 100   100
+
+In fact, all the values
+
+  L = 3 + 7K,      K = 0, 1, 2, ...
+
+will work.  Can you see why? 
+
+I suspect one reason you weren't able to find this is because you used
+decimal representations and a calculator.  That's usually a mistake
+when you need exact answers, because calculators have to approximate
+most ratios instead of representing them exactly.  (Programs like
+Mathematica or Maple are much more clever about this.  But they're
+also a lot more expensive!)
+
+So maybe that's the lesson you're supposed to take away from the
+problem. :^D
+
+By the way, this kind of equation is called 'Diophantine', and it's a
+classic device for expanding the minds of math students:
+
+  http://mathforum.org/library/drmath/view/64405.html
+  http://mathforum.org/library/drmath/view/62585.html
+
+I hope this helps!
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

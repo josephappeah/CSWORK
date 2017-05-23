@@ -1,0 +1,103 @@
+ThreadNum: 567664
+Subject: Re: advanced long devision ( grade 10 polynomials )
+To: jambe_maan@hotmail.com (Milo)
+From: Doctor Jerry
+TimeStamp: 08/19/2004 at 09:33:23
+Sent: yes
+
+
+As Milo wrote to Dr. Math
+On 08/19/2004 at 07:56:36 (Eastern Time),
+>[Question]
+>i nead help with long devision, i never learnt it in my early years 
+>in school and now im stuck in the middle of solving polynomial 
+>equations that nead long division to work out the factors
+>heres an example
+>    ______________
+>x-1 ) 3    2
+>     x + 4x + x - 6
+>
+>p.s. that 3 and 2 is (x cubed) and (4x squared)
+>
+>[Difficulty]
+>i have no idea of how to do it so if you could go through the steps 
+>of long division that would be great.
+>
+>[Thoughts]
+>
+
+Hello Milo,
+
+We write x^3+4x^2+x-6.
+
+x-1 )  x^3+4x^2+x-6.
+
+OK, "x into x^3 goes x^2 times"  So,
+
+          x^2
+        ---------------  
+x-1 )  x^3+4x^2+x-6
+
+Multiply x^2 times the x-1:
+
+          x^2
+        ---------------  
+x-1 )  x^3+4x^2+x-6
+
+          x^3 - x^2
+         ----------
+
+Now subtract and bring down the next term:
+
+          x^2
+        ---------------  
+x-1 )  x^3+4x^2+x-6
+
+          x^3 - x^2
+         ----------
+                  3x^2+x
+
+
+x goes into 3x^2   3x times.  So
+
+
+          x^2+3x
+        ---------------  
+x-1 )  x^3+4x^2+x-6
+
+          x^3 - x^2
+         ----------
+                  3x^2+ x
+
+                  3x^2-3x
+                  -------- 
+
+                           4x - 6
+
+
+x goes into 4x 4 times:
+
+          x^2+5x+6
+        ---------------  
+x-1 )  x^3+4x^2+x-6
+
+          x^3 - x^2
+         ----------
+                  5x^2+ x
+
+                  5x^2-5x
+                  -------- 
+
+                           6x - 6
+                           6x - 6
+                           ------
+                               0
+
+So, quotient is x^2+5x+6 and remainder is 0.  This means that
+
+ x^3+4x^2+x-6
+--------------     =   x^2+5x+6        
+       x-1
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

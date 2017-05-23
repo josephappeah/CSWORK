@@ -1,0 +1,40 @@
+ThreadNum: 568162
+Subject: Re: Order of Operations with four 4's equaling 10.
+To: bugsone@pacbell.net (Chris)
+From: Doctor Douglas
+TimeStamp: 08/23/2004 at 17:12:02
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/23/2004 at 14:05:15 (Eastern Time),
+>Hi Dr. Math,
+>Thank you for the quick response but sorry, I forgot to mention that 
+>I'm not allowed to use 44 or 444.
+>While I was waiting for your answer, I continued my search and found 
+>a possible answer:  4/.4 + 4 - 4 = 10
+>I also found (4/~4)+(4/4)=10   What is ~4? 
+
+Hi again, Chris.
+
+To make things come out right for the latter answer, we need
+
+  4/~4 = 9, which means that
+
+  ~4 = 4/9 = .4444444.....
+
+So I guess that it is some sort of notation for .4444.....
+But there really should be a decimal point in there.
+The notation that is usually used for this is an overbar:
+   _
+  .4 = .444444.....
+   __
+  .56 = .5656565656...
+    _ 
+  .56 = .5666666.....
+
+where the overbar indicates the repeating portion.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,57 @@
+ThreadNum: 567847
+Subject: Re: Review of Trigonometry
+To: gyms4me23@aol.com (Lindsay)
+From: Doctor Ian
+TimeStamp: 08/20/2004 at 00:24:52
+Sent: yes
+
+
+As Lindsay wrote to Dr. Math
+On 08/20/2004 at 00:12:44 (Eastern Time),
+>[Question]
+>In my math class, we are working with trigonometric identities, such 
+>as double angle and half angle.  We are supposed to be able to solve 
+>equations using these and verify identities, using these two and 
+>others.  My problem is, I don't know which identity to use.  For 
+>example, the instructions for this problem are "Verify the identity" 
+>The problem is sin 10x = 2 sin 5x cos5x.  I just don't understand 
+>how I know which identity to use or how to verify it once I figure 
+>out the identity.  Can you help me?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I'm not sure how to get started
+
+Hi Lindsay,
+
+You can't compare trig functions unless they have the same arguments.
+ So when you look at something like
+  
+  sin(10x) = 2 sin(5x) cos(5x)
+
+you need to either get an argument of 5x on the left, or an argument
+of 10x on the right... or you could just try getting everything down
+to x on both sides.  
+
+One useful trick is to substitute simpler expressions for more complex
+ones.  For example, suppose we substitute u = 5x.  Then we get
+
+  sin(2u) = 2 sin(u) cos(u)
+
+which is actually something you'd find in a table of identities, e.g.,
+the one at
+
+  http://mathforum.org/dr.math/faq/formulas/faq.trig.html
+
+So at this point, you might be done, unless you're supposed to prove
+the identity
+
+  sin(2u) = 2 sin(u) cos(u)
+
+Are you supposed to do that? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,128 @@
+ThreadNum: 566501
+Subject: Re: how can i factorizing a long number?is there any algorithms 
+To: kusalava@yahoo.co.in (kusa)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 16:39:13
+Sent: yes
+
+
+As kusa wrote to Dr. Math
+On 08/11/2004 at 13:38:56 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Kusa,
+
+Thanks for writing to Dr Math.  Yes, there are many different
+algorithms for factoring a large number, some of which are better
+suited to certain sizes of numbers.  A few of them include the following:
+
+  Trial division
+  Pollard Rho
+  Pollard p-1 (that's p minus one)
+  Elliptic Curve Factoring Method
+  Dixon's Algorithm
+  Quadratic Sieve
+  Number Field Sieve
+
+Trial division is just dividing by all of the primes up to the square
+root of the number and is the best algorithm for very small numbers,
+but is terrible for large numbers.  Pollard rho and Pollard p-1 are
+very nice for fairly small numbers and only a few larger numbers.  The
+elliptic curve method is starting to get a little more complicated,
+but it works better on numbers a little larger.  Dixon's Algorithm
+isn't very efficient, but it will help you to understand the quadratic
+sieve.  The quadratic sieve works well for very large numbers, but
+it's a little complicated.  It will, however, help you to understand
+the number field sieve.  The number field sieve is extremely
+complicated, but it is the best known algorithm for the largest
+numbers we can factor.
+
+Now search for these on the internet, or look for a book on factoring
+to learn the details of all of these algorithms.  Also, I did some
+searching a while ago and found several web sites that talk about
+various factoring algorithms.
+
+You might find any of the following links useful:
+
+Another person's opinion or statements about the state-of-the-art in
+factoring algorithms:
+  http://www.x5.net/faqs/crypto/q48.html
+
+From our archives, the asker describes trial division, and the math
+doctor describes the Pollard rho algorithm:
+  Factoring Large Numbers
+  http://mathforum.org/library/drmath/view/51544.html
+
+A description of the Pollard p-1 algorithm, with a brief introduction
+to the Elliptic Curve Method (ECM):
+  http://home.netcom.com/~jrhowell/math/ecm.htm
+
+A collection of many algorithms (but some very brief or missing
+descriptions) at:
+  http://www.frenchfries.net/paul/factoring/theory/
+
+Notes from a class at MIT at
+  http://www-math.mit.edu/18.310/
+Pay special attention to chapter 21 (where Pollard rho is called
+"tortoise and hare")
+  http://www-math.mit.edu/18.310/Factoring_numbers.html
+  http://www-math.mit.edu/18.310/21.-Factoring-Numbers-1.pdf
+and chapter 22 (about ECM)
+  http://www-math.mit.edu/18.310/Elliptic_curves.html
+  http://www-math.mit.edu/18.310/22.-Factoring-II-Elliptic-Curves.pdf
+
+From our archives, a summary with references to good text books:
+  Public Key Cryptography
+  http://mathforum.org/library/drmath/view/51531.html
+
+MathWorld's brief description of the Quadratic Sieve (QS):
+  http://mathworld.wolfram.com/QuadraticSieve.html
+
+A description of QS:
+  http://www.math.uiuc.edu/~landquis/quadsieve.pdf
+
+A paper by Carl Pomerance on QS
+  http://dsns.csie.nctu.edu.tw/research/crypto/HTML/PDF/E84/169.PDF
+
+From our archives, a one-page overview of the Number Field Sieve (NFS):
+  Factorization Algorithms
+  http://mathforum.org/library/drmath/view/51548.html
+
+Another brief description of NFS:
+  http://www.fact-index.com/g/ge/general_number_field_sieve.html
+
+A long and detailed Master's Thesis on NFS (probably easier reading):
+http://scholar.lib.vt.edu/theses/available/etd-32298-93111/unrestricted/etd.pdf
+
+A (dense) pdf on NFS
+  http://www.std.org/~msm/common/nfspaper.pdf
+
+Links to papers about NFS at
+  http://triade.studentenweb.org/Nfs/nfs.html
+
+"Factor World" - A web site about factoring:
+  http://www.crypto-world.com/FactorWorld.html
+including gzipped papers on ECM, QS, NFS at:
+  http://www.crypto-world.com/FactorPapers.html
+and some implementations (program code) at:
+  http://www.crypto-world.com/FactorCode.html
+
+Links to current internet factoring projects on mersenne.org:
+  http://www.mersenne.org/ecm.htm
+
+I hope you find these useful.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

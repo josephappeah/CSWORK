@@ -1,0 +1,79 @@
+ThreadNum: 568171
+Subject: Re: illustrating fractions as "equal parts" of geometric figures
+To: rausch@beacon.com (D. J. Rausch)
+From: Doctor Peterson
+TimeStamp: 08/23/2004 at 22:25:09
+Sent: yes
+
+Hi, D. J.
+
+As D. J. Rausch wrote to Dr. Math
+On 08/23/2004 at 18:50:47 (Eastern Time),
+>> I'd be interested to know just what the parts are 
+>> in the problem under consideration -- how obvious 
+>> is it to a child that the two regions have the 
+>> same area?
+>
+>The figure on the left, the "correct" answer, is an equilateral 
+>triangle with horizontal base at the bottom bisected by a vertical 
+>line through the top vertex.
+>
+>The figure on the right, the "wrong" answer, is an equilateral 
+>triangle with the same size and orientation, this time with a 
+>horizontal line dividing it into a smaller equilateral triangle on 
+>top and a trapezoid on the bottom.
+>
+>It is not obvious to an adult, let alone a child, that the figure on
+>the right is divided into pieces of equal area.  But it looked to me
+>like it might be possible, so I got out my ruler.  If the ratio of 
+>the area of the smaller equilateral triangle to the area of the 
+>larger one were 1:2, the ratio of one side of the smaller 
+>equilateral triangle to one side of the larger one would have to be 
+>1:sqrt(2).
+>
+>One side of the smaller equilateral triangle is 22 mm long.  One 
+>side of the larger equilateral triangle is 30 mm long.  This may not
+>be an exact 1:sqrt(2) ratio, but it is off by less than 1 mm, close 
+>enough to be misleading.
+>
+>The mixup could be corrected by making the areas of the parts 
+>obviously unequal, but after some reflection I believe this is a 
+>sign of a more fundamental problem, a problem created by using 
+>geometrical figures at all.
+>
+>It became clearer to me when I realized that fractions are 
+>quantities.  In order to understand what "equal parts" means for 
+>fractions, we have to agree on the quantities being compared, in 
+>this case area.  The requirement of "equal parts" for fractions is 
+>only meaningful in the context of length or area.  If we believe the
+>concept of area is too advanced for seven-year-olds, we should 
+>introduce fractions not with geometric figures, but with discrete 
+>objects (e.g., 3 out of 6 marbles), where the quantity is easier to 
+>understand.  Or, introduce the concept of area BEFORE creating pie 
+>charts.
+>
+
+Interesting. At my level, I would say that the given answer is 
+correct, since I don't KNOW that the line divides the triangle into 
+EXACTLY equal parts without being told where it is located. To a 
+mathematician, nothing can be said without proof! It's only at an in-
+between level, where you know enough to judge it to be just about 
+exactly halves, but don't worry about certainty, that you would 
+seriously consider the second answer as being right.
+
+So although I think you ARE taking this a bit too seriously, by 
+looking at the question from an adult perspective, as I said before 
+there is something to be said for your complaint. Most likely a 
+young child will not be bothered by it, but if I were writing the 
+book I would prefer to avoid the risk of confusion. I do, however, 
+think the geometrical illustrations are useful, and should not be 
+dropped; we just have to make sure we only use congruent parts in 
+examples, and only use unequal areas in examples of "non-fractions". 
+In essence, we are then treating the congruent parts as discrete 
+identical objects. It is not necessary to teach any details about 
+area as long as these restrictions are followed.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

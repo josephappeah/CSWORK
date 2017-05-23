@@ -1,0 +1,40 @@
+ThreadNum: 568045
+Subject: Re: (no subject)
+To: cowgirlnow03@yahoo.com (sara)
+From: Doctor Peterson
+TimeStamp: 08/21/2004 at 22:45:34
+Sent: yes
+
+Hi, Sara.
+
+As sara wrote to Dr. Math
+On 08/21/2004 at 19:15:44 (Eastern Time),
+>[Question]
+>the following conjecture is false, how would I find a counter example
+>if y<0, then yn< o for any real number n.
+>
+>[Difficulty]
+>I have no idea what this is asking, I am so new to geometry.
+>
+>[Thoughts]
+>I have no thoughts on this.
+
+This isn't really a geometry question; it's about logical reasoning, 
+which you have probably done all your life, but not in this formal 
+way. Let's make it more informal and see if you can follow it better.
+
+The conjecture (unproven statement) is this:
+
+  If I have a negative number y, and then multiply it by any real
+  number n, then the product yn is negative.
+
+You are looking for a counterexample, that is, a pair of numbers y 
+and n for which y is negative but the product yn is NOT negative. Can 
+you find one?
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

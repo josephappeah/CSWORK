@@ -1,0 +1,36 @@
+ThreadNum: 567678
+Subject: Re: Surface Area
+To: agalliao148@hotmail.com (Carla)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 11:17:01
+Sent: yes
+
+
+As Carla wrote to Dr. Math
+On 08/19/2004 at 10:20:25 (Eastern Time),
+>[Question]
+>The ratio of the length of the edges of two cubes is 3:1 (3 to 1). 
+>What is the ratio of their surface areas?
+>
+>[Difficulty]
+>Am I supposed to use the same formula that I would to solve if it 
+was 
+>asking for two similar polygons and their corresponding areas?
+>
+>[Thoughts]
+>If I am then: a1/a2=(s1squared)/(s2squared) OR 3 squared/1 squared 
+>making the answer 9/1 or 9:1
+
+Hi, Carla --
+
+Yes!!  That's exactly right.
+
+It doesn't matter if you are working in 2 dimensions or three 
+dimensions.  If the ratio of any measurement of lengths in two 
+similar figures is x:y, then the ratio of any measurement of areas 
+in those figures is x^2:y^2 -- and if you are in 3 dimensions, then 
+the ratio of any measurement of volumes in those figures is x^3:y^3.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

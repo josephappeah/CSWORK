@@ -1,0 +1,30 @@
+ThreadNum: 567530
+Subject: Re: What are the next three numbers in this pattern: 8, 27, 64, 
+To: sdawkins_99@yahoo.com (Jimmy)
+From: Doctor Anthony
+TimeStamp: 08/18/2004 at 19:19:22
+Sent: yes
+
+
+As Jimmy wrote to Dr. Math
+On 08/18/2004 at 17:02:15 (Eastern Time),
+>[Question]
+>What are the next three numbers in this pattern: 8, 27, 64...?
+
+
+ These terms are 2^3, 3^3, 4^3 so the next three numbers are
+
+         5^3,  6^3,  7^3  =  125,  216,   343
+
+>
+>[Difficulty]
+>I cannot figure out the pattern for these three numbers that have 
+>been given.
+>
+>[Thoughts]
+>27 - 8 = 19 and 64 - 27 = 37 
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

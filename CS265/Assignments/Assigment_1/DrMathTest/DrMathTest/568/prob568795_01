@@ -1,0 +1,89 @@
+ThreadNum: 568795
+Subject: Re: Physics
+To: knmccorkle@yahoo.com (Kristy McCorkle)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 12:44:15
+Sent: yes
+
+
+As Kristy McCorkle wrote to Dr. Math
+On 08/25/2004 at 20:18:07 (Eastern Time),
+>[Question]
+>An observer whose eyes are 1.77m above the ground is standing 50.5m 
+>away from a tree. The ground is level, and the tree is growing 
+>perpendicular to it. The observer's line of sight with the tree makes 
+>an angle of 1.87 degrees above the horizontal. How tall is the tree?
+>
+>[Difficulty]
+>knowing which trig function to use
+>
+>[Thoughts]
+>
+
+
+Hi, Kristy.
+
+Did you try drawing a picture?  Generally in a problem like this,
+you'll be able to find some right triangle, where you know either two
+sides, or a side and an angle.  
+
+If you know two sides, you don't even need a trig function.  You can
+just use the Pythagorean theorem to find the other side.  
+
+If you have a side and an angle, you need to set up the ratio of the
+side you know and the side you _want_ to know, and that will tell you
+what function to use. For example, if you know an angle and the side
+opposite that angle, and you want to know the hypotenuse, use the sine
+function:
+
+               side opposite the angle
+  sin(angle) = -----------------------
+                   hypotenuse
+
+Similarly for the other functions:
+
+
+               side adjacent to the angle
+  cos(angle) = --------------------------
+                   hypotenuse
+
+               side opposite the angle
+  sin(angle) = --------------------------
+               side adjacent to the angle
+
+
+If you're in a trig course, this should all look pretty familiar to
+you by now.  If it doesn't, this would be a good time to look at the
+following item from our archive:
+
+  Trigonometry in a Nutshell
+  http://mathforum.org/library/drmath/view/53942.html
+
+In your case, the picture of the situation would look like this:
+
+                                       T
+                                  .    |
+                           .           |
+                    .                  |
+              .                        |
+        E..............................H
+        |                              |
+  1.77m |                              |
+        |                              |
+        A------------------------------B
+                     50.5m
+
+     E = eye location
+     B = base of tree
+     T = top of tree
+     H = point in horizontal line of sight
+
+In triangle ETH, you know an angle (HET is 1.87 degrees), and you know
+a side (EH is 50.5 meters).  So you can use those to find TH, and add
+that the height of the observer (1.77m) to get the height of the tree.
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

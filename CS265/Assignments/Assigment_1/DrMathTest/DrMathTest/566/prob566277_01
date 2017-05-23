@@ -1,0 +1,91 @@
+ThreadNum: 566277
+Subject: Re: Using Longitude and Latitude to Determine Distance 
+To: 0105650F@student.tp.edu.sg (Bryan Tran)
+From: Doctor Rick
+TimeStamp: 08/10/2004 at 08:23:25
+Sent: yes
+
+Hi, Bryan.
+
+As Bryan Tran wrote to Dr. Math
+On 08/10/2004 at 05:51:36 (Eastern Time),
+>[Question]
+>I refer to one question that had been answered in the following URL :
+>
+>http://www.mathforum.com/library/drmath/view/51711.html
+>
+>I want to specify about question no 2 that was asked in the topic 
+>metioned above :
+>
+>2. I have a digital map giving the four corners in terms of 
+>longitudes 
+>and latitudes, say, (a1,b1), (a1,b2), (a2,b1), (a2,b2). I would like 
+>to know how to compute the (x,y) of a particular point in the map.
+>
+>
+>[Difficulty]
+>I now developing a digital map that encounter the same problem but 
+>the range is bigger. The area of the map is around 50 km2.
+>
+>Could the formular :
+>
+>x = w*(a - a1)/(a2 - a1)
+>y = h*(b - b1)/(b2 - b1)
+>
+>be applied here ?
+>
+>The accuracy factor is how much in this case ?
+>
+>Thank you very much.
+>
+>
+>
+>
+>[Thoughts]
+>
+
+I think you are actually referring to a different item in the Dr. 
+Math Archives:
+
+  Transformation between (x,y) and (longitude, latitude)
+  http://mathforum.org/library/drmath/view/51833.html
+
+I think a linear scaling will be fine for a map with maximum 
+distances less than 10 miles, as your area suggests. It is hard to 
+give a formula for the maximum error, but the following page from the 
+Dr. Math Archives has a table that will help:
+
+  Planar Approximation: Latitude and Longitude
+  http://mathforum.org/library/drmath/view/62720.html
+
+There is one assumption I didn't mention with the linear scaling 
+formula: it assumes that the latitudes and longitudes at the corners 
+of the map have been chosen so that the map will have the same scale 
+horizontally and vertically. The Planar Approximation formula in the 
+page I just mentioned will help you do this.
+
+  x = (lon2-lon1)*cos(lat1)*pi/180
+  y = (lat2-lat1)*pi/180
+
+Here, x and y are in radians; if we want them in miles, we should use
+
+  x = (lon2-lon1)*cos(lat1)*pi*R/180
+  y = (lat2-lat1)*pi*R/180
+
+where R is the radius of the earth, R = 6367 km = 3956 mi. Solving 
+for lon2,lat2 in terms of x,y:
+
+  lat2 = lat1 + y*180/(pi*R)
+  lon2 = lon1 + x*180/(pi*R*cos(lat1))
+
+If (lon1,lat1) is the center of the map, w pixels across and h pixels 
+high, and you want a scale of n pixels on the map = one mile on 
+earth, the latitudes and longitudes of the corners of the map should 
+be
+
+  lat = lat1 +or- (w/2)*n*180/(pi*R)
+  lon = lon1 +or- (h/2)*n*180/(pi*R*cos(lat1))
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

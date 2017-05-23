@@ -1,0 +1,38 @@
+ThreadNum: 567013
+Subject: Re: calculus [factorial question]
+To: davaidya@us.med.navy.mil (dharmik)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 13:33:18
+Sent: yes
+
+
+As dharmik wrote to Dr. Math
+On 08/15/2004 at 12:23:20 (Eastern Time),
+>[Question]
+>(k+1)! = (k+1)k!
+>
+>[Difficulty]
+>why is this legal according to rules of math?
+>
+>[Thoughts]
+>i am confused on why this is valid.
+
+Hi Dharmik,
+
+Thanks for writing to Dr. Math.  This is the (recursive) definition
+of factorial.  Intuitively,
+
+   k! = 1*2*3*...*(k-1)*k ,
+
+and 
+
+   (k+1)! = 1*2*3*...*(k-1)*k*(k+1)
+          = [1*2*3*...*(k-1)*k]*(k+1)
+          = k! * (k+1) .
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

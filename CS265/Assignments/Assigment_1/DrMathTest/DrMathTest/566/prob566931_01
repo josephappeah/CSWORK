@@ -1,0 +1,51 @@
+ThreadNum: 566931
+Subject: Re: first year calculas for engineering students
+To: ryanwillson@webmail.co.za (ryan)
+From: Doctor Fenton
+TimeStamp: 08/16/2004 at 18:49:38
+Sent: yes
+
+
+As ryan wrote to Dr. Math
+On 08/14/2004 at 16:17:39 (Eastern Time),
+>[Question]
+>how do i find the polar equation of a complex number 
+>Z = -3 + 3i
+>
+>[Difficulty]
+>i cannot seem to find the correct method to do the problem 
+>
+>[Thoughts]
+>tan x = b/a
+>r^2 = a^2 + b^2
+>but the method i have used seems to be incorrect
+>
+
+Hi Ryan,
+
+Thanks for writing to Dr. Math.  The general method for converting
+z = a+bi to polar form is to let r = sqrt(a^2+b^2), and then write
+
+          a     b
+  z = r [ - + i - ] .
+          r     r    
+
+Note that (a/r)^2 + (b/r)^2 = 1.  For every such pair of numbers,
+there is a unique angle x such that
+
+   cos(x) = a/r   and  sin(x) = y/r.
+
+Also note that this means that
+
+   tan(x) = y/x ,
+
+but x must be chosen in the proper quadrant to make the sin and cos
+equations valid.  
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

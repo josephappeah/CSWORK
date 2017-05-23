@@ -1,0 +1,57 @@
+ThreadNum: 568897
+Subject: Re: advanced maths - laplace transforms
+To: ruthjones4@btopenworld.com (Gareth)
+From: Doctor Anthony
+TimeStamp: 08/26/2004 at 15:12:27
+Sent: yes
+
+
+As Gareth wrote to Dr. Math
+On 08/26/2004 at 09:40:30 (Eastern Time),
+>[Question]
+>the wquation of the motion of a body performing damped forced 
+>vibrations is:
+>d2y/dt2 + 5 dy/dt +6y=cost
+>Use laplce transforms to solve this second order differential 
+>equation, given that y=0.1 and dy/dt=0 both when t=0
+
+We have
+
+    L(y") = s^2.L(y) - y'(0) - s.y(0)   = s^2.L(y) - 0.1s
+
+  5.L(y') = 5s.L(y) -5.y(0)             = 5s.L(y) - 0.5
+
+  6.L(y)  =  6.L(y)                     =  6.L(y)
+                             ------------------------------- Add
+                             = L(y).[s^2 + 5s + 6] - 0.1s - 0.5
+
+                                s
+  And transform of cos(t) =  -------
+                             s^2 + 1
+
+So we get
+
+     L(y).[s^2+5s+6]  =  0.1s + 0.5 + s/(s^2 + 1)
+
+             0.1s + 0.5              s
+     L(y) = ------------  +  -----------------
+              s^2+5s+6       (s^2+5s+6)(s^2+1)
+
+Putting into partial fractions we get
+
+           3          1        2        3            s+1
+ L(y) = -------  - ------  - -----  + -------  + ---------
+        10(s+2)     5(s+3)   5(s+2)   10(s+3)     10(s^2+1) 
+
+          -1           1           s+1
+      = --------  + --------  + ---------
+         10(s+2)     10(s+3)    10(s^2+1)
+
+y  = -(1/10).e^(-2t) + (1/10).e^(-3t) + (1/10).[cos(t) + sin(t)]   
+
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

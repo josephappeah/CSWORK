@@ -1,0 +1,64 @@
+ThreadNum: 566428
+Subject: Re: writing decimals in standard form
+To: mischives@excite.com (toni)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 08:17:57
+Sent: yes
+
+
+As toni wrote to Dr. Math
+On 08/10/2004 at 22:34:26 (Eastern Time),
+>[Question]
+>writing decimals in standard form i was helping my nephew with his 
+>math 5th grade had a problem with writing 
+>nine and eleven-ten thousandths in standard form
+>
+>sixteen and thirty four hundredths
+>16.34       is that right
+>
+>[Difficulty]
+>i don't get the eleven-ten thousandths
+>
+>[Thoughts]
+>i put 9.1110 or 9.110  can that problem be solved
+>
+
+Hi Toni,
+
+Thanks for writing to Dr. Math.
+
+>sixteen and thirty four hundredths
+>16.34       is that right
+
+Yes, that is correct.
+
+>i don't get the eleven-ten thousandths...
+
+Write the fraction as
+
+      11
+    -----
+    10000   .
+
+To convert this number to a decimal, you can use the following
+observation.  When you divide a number by 10, you shift its 
+decimal point one place to the left; when you divide by 100,
+you shift two places to the left; and so on.  The number of
+places to shift is the same as the number of zeros in the
+denominator you are dividing by (when the denominator is a
+1 followed by a number of zeros).
+
+10000 has four zeros, so you shift the decimal point in 11
+(or 11. ) four places to the left:
+
+   .0011.
+
+Nine and eleven ten-thousandths is then 9.0011 .
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

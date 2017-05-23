@@ -1,0 +1,41 @@
+ThreadNum: 567022
+Subject: Re: calculus
+To: kohcy75@yahoo.com (koh)
+From: Doctor Fenton
+TimeStamp: 08/15/2004 at 15:40:17
+Sent: yes
+
+
+As koh wrote to Dr. Math
+On 08/15/2004 at 13:14:01 (Eastern Time),
+>[Question]
+>What is integral of sin2x=? Is it -1/2(cos2x) or sin square X?
+>
+>[Difficulty]
+>I am stuck during performing integration by part, integrate 
+>(X^3Sin2X) which I let the u=X^3 and using double angle formula on 
+>Sin2X=2sinx cosx. and integrate 2cosxsinx=Sin square X. Resulting in 
+>different answer.
+>
+>[Thoughts]
+>
+
+Hi Koh,
+
+Thanks for writing to Dr. Math.  This is where your study of 
+trigonometric identities becomes useful.  Remember that when you
+find the indefinite integral of a function, you add the "constant
+of integration".  In this case, since
+
+   cos(2x) = 1 - 2sin^2(x) ,
+
+(-1/2)cos(2x) + C   is equivalent to  sin^2(x) + C, since the two
+terms differ only by a constant.  You can use either expression (with
+the constant of integration) as the indefinite integral of sin(2x).
+
+If you have any questions, please write back and I 
+will try to explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

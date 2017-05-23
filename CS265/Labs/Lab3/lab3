@@ -1,0 +1,25 @@
+q1.1
+egrep 'the' bright_side_of_life
+q1.2
+egrep '\<the\>'
+q1.3
+egrep '\<Just\>'
+q1.4
+egrep '\<[J|j]ust\>'
+q1.5
+egrep'^\<[jJ]ust\>'
+q1.6
+egrep '\[b|m}ad\'
+q1.7
+egrep '\<death|breath\>'
+q1.8
+egrep 'you[,|.]*$'
+q1.9
+egrep '^\s'
+q1.10
+egrep -c '^$' 
+q1.11
+10
+GIT LAB
+Q1. git revert HEAD
+Q2. by looking at the log history and seeing that the file was never removed or checking out pervious versions to see what changes had been commited. 

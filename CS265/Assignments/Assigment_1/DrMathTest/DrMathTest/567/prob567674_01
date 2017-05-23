@@ -1,0 +1,56 @@
+ThreadNum: 567674
+Subject: Re: Probability
+To: crgdfe1@yahoo.com (Wendy)
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 12:21:42
+Sent: yes
+
+
+As Wendy wrote to Dr. Math
+On 08/19/2004 at 10:09:34 (Eastern Time),
+>[Question]
+>Can the P(A|B) be greater than P(A)?
+>
+>For example, is the following assignment of probabilities valid?
+>P(A)=0.6 P(B)=0.3 P(A|B)=0.7
+>
+>Thanks
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I originally thought no, as P(A) should be greater or equal to P
+>(A|B). Then the lecturer said the assignment was valid, but 
+>neglected to explain herself.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+It often helps to think about examples to clarify a situation. It is
+possible for P(A|B) to be greater than P(A), especially if B is highly
+correlated with A. For example, think about a roulette wheel. You know
+that the probability of correctly guessing a number at roulette is
+1/19. But, let's say you know (because you are psychic or because
+somebody is cheating) that the ball will land on one of the numbers
+1-12. Then, the probability of correctly guessing a number is 1/12.
+
+   A - correctly guessing a roulette result
+   B - knowing somebody is cheating or you are psychic
+
+  A|B - correctly guessing a roulette result because you have
+additional knowledge
+
+Because you have the additional knowledge, it is easier for you to
+guess the roulette result. So, P(A|B) > P(A) in this case. Additional
+information always helps, at the very least. So, P(A|B) is always
+greater than or equal to P(A). It is only equal to P(A) when the
+additional information doesn't really help. 
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

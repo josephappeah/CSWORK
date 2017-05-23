@@ -1,0 +1,61 @@
+ThreadNum: 566682
+Subject: Re: Calculus Problem
+To: Samster0801@aol.com (Sam)
+From: Doctor Fenton
+TimeStamp: 08/12/2004 at 21:45:58
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 08/12/2004 at 13:44:05 (Eastern Time),
+>[Question]
+>In my homework problem, there was a triangle symbol in the equation. 
+>I don't know what it stands for, and therefore I can't slove the 
+>problem. All the directions say is given f(x)=x^3 evaluate the 
+>function. Then it gives me f(x + /\x)-f(x)      
+>                           ---------------
+>                                 /\x
+>The /\ is the triangle symbol I was talking about. (It's a complete 
+>triangle on my paper.)
+>
+>[Difficulty]
+>If I knew what to do with the triangle symbol, I think I could slove 
+>the problem.
+>
+>[Thoughts]
+>I know I need to plug in x^3 for every f(x). However, I'm not sure if 
+>I should in the first part as well. Either way I get stuck and end up 
+>with: (x^3 + /\x)-x^3                f(x + /\x)-x^3
+>       --------------      *OR*      --------------
+>            /\x                            /\x
+>I don't know what to do from there, or which one is more correct.
+
+Hi Sam,
+
+Thanks for writing to Dr. Math.  The sumbol in question is a capital
+Greek letter "delta".  The notation "/\x" (as you write it) is
+read "delta x", and it simply means a change in x, usually understood
+to be a small change in x.  If x is some particular value of the
+variable, the point on the graph of f(x) with abscissa x is (x,f(x)).
+Suppose we change x by a small amount /\x, from x to x+/\x.  Then
+the corresponding point on the graph is (x+/\x,f(x+/\x)).
+
+The expression it asks you to evaluate is the slope of the line 
+through the two points (x,f(x)) and (x+/\x,f(x+/\x)).  
+
+>.................... Either way I get stuck and end up 
+>with: (x^3 + /\x)-x^3                f(x + /\x)-x^3
+>       --------------      *OR*      --------------
+>            /\x                            /\x
+
+The first expression (on the left) is wrong; the second is correct,
+but you haven't substituted to evaluate the expression f(x+/\x).
+[(x+/\x)^3 is NOT x^3 + /\x !]
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

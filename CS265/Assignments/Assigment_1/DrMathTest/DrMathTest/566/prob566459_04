@@ -1,0 +1,56 @@
+ThreadNum: 566459
+Subject: Re: what is logarithm of zero?
+To: mnrcc@rediffmail.com (vijay)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 11:29:59
+Sent: yes
+
+
+Hi Vijay,
+
+>why logarithm of a number to the base one is not defined.
+
+It's basically the same explanation as before. 
+
+If 
+
+   a
+  b  = c
+
+then 
+
+  log (c) = a
+     b
+
+So if 
+  
+  log (c) = a
+     1
+
+then 
+
+   a
+  1  = c
+
+but there's no way to raise 1 to any power and end up with anything
+but 1.  So log(base 1) is undefined. 
+
+Actually, I think you'll find that most questions of the form 'Why is
+such-and-such undefined?' can be answered this way, i.e., by starting
+from the definitions and showing that going in a certain direction
+leads to an impossible situation. 
+
+>what is 'limit  ( x to the power of 3/2) as x ---> 0 .
+
+If you start taking smaller and smaller values of x, you'll see that
+they get closer and closer to zero.  And in the limit itself, 
+
+   3/2
+  0    = 0
+
+so there's no discontinuity. Is there some reason you thought that the
+limit might be something other than zero? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

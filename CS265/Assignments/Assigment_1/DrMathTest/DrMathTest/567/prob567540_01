@@ -1,0 +1,53 @@
+ThreadNum: 567540
+Subject: Re: What are the length of the sides of a square of a given acre
+To: raydon_12@yahoo.com (Don Larson)
+From: Doctor Douglas
+TimeStamp: 08/18/2004 at 18:54:32
+Sent: yes
+
+
+As Don Larson wrote to Dr. Math
+On 08/18/2004 at 17:38:02 (Eastern Time),
+>[Question]
+>Greetings,
+>I've been scratching my head over this one and have not been able to
+>compute an answer that seems right to me.  I know the area of an acre
+>is 43,560 square feet.  In my current profession of archaeology we
+>conduct surveys of 10 acre blocks, I have been told that a 10 acre
+>square has sides of approximately 660 feet. Given this what are the
+>length of the sides of a 20 acre, and 40 acre square(s)? 
+>
+>[Difficulty]
+>If given a known AREA, how do you find the length of the sides?  Its
+>been WAY too long since I took geometry in school.
+>
+>[Thoughts]
+>I know that the area of a 20 acre square is 871200 square feet, 
+simply
+>by multiplying the area of an acre (43,560) by 20.  But, what is the
+>lengh of the sides of this figure?
+
+Hi Don.
+
+thanks for writing to the Math Forum.
+
+The formula for the area of a square relates the area A to the
+side length S:
+
+  A = S x S.
+
+If A=10 acres, then S=660 ft.  This is because 660 ft x 660 ft =
+435600 sq ft = 10 acres.  If A = 20 acres = 871200 sq ft, then 
+you have to find the value for S such that
+
+  871200 ft = S x S,
+
+and perform a similar calculation for
+
+  40 acre =  1742400 sq ft = S x S.
+
+Let us know if you still have trouble with this.
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

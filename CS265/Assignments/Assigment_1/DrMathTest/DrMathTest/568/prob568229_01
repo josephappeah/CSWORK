@@ -1,0 +1,50 @@
+ThreadNum: 568229
+Subject: Re: finding a point in a non-linear cell
+To: dshah@computing.dcu.ie (DS)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 15:16:01
+Sent: yes
+
+
+As DS wrote to Dr. Math
+On 08/23/2004 at 11:25:24 (Eastern Time),
+>[Question]
+>hi,
+>
+>My problem is i have a group of cell which are - say rectangular(in 
+>other words linear). If there is a point in a particular cell ,then 
+>how do i calculate the co-ordinate of that point with respect to that 
+>particular cell in which it lies.
+>
+>What will be the case if the cell are no longer rectangular ,i mean 
+>if its trapezoidal.
+>____________________________________________________
+>|__|__|__|__|__|
+>|_.|__|__|__|__|
+>|__|__|__|__|__|
+>|__|__|__|__|__|
+>
+>
+>
+>
+>[Difficulty]
+>when the cells are linear may be there is some way to find its 
+>position w.r.t to that cell(how ever i couldnt solve this too) .Most 
+>difficult part comes when the cell are no longer linear.
+>
+>[Thoughts]
+>I tried to project the prependicular from the points on both length 
+>and breadth of the cell and tried to calculate the ratio of the two 
+>in linear(rectangular)case.
+
+Hi DS,
+
+Thanks for writing to Dr Math.  Unfortunately, you haven't given me
+much information.  Are you saying that the cells are numbered, and you
+want the x-y coordinates of the cell?  Or are you saying you have the
+x-y coordinates of a point in the cell and you want to know how many
+cells down and over you are?  Or something else?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

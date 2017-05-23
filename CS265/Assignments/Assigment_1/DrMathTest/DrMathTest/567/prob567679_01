@@ -1,0 +1,121 @@
+ThreadNum: 567679
+Subject: Re: Probability
+To: brice5@flash.net (Melissa)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 11:13:58
+Sent: yes
+
+
+As Melissa wrote to Dr. Math
+On 08/19/2004 at 10:25:22 (Eastern Time),
+>[Question]
+>A student answers each question on a 10  question true-false 
+>examination in a random fashion. If each question is worth 10 
+points 
+>what is the probability that a student scores 90 or more points?
+>
+>[Difficulty]
+>The addition of "or more" after the 90. That is confusing to me 
+since 
+>that would make it 90-100 and b/c each is only worth 10 points 
+there 
+>is no in between there is only 90 and 100.
+>
+>[Thoughts]
+>If there are 10 questions with a possible of 2 answers for each 
+then 
+>the sample space has 20 possibilities. If the question was the 
+>probability of making a 100 then it would be 10/20 or a 50/50 
+chance 
+>of making a 100. But since it is 90 I would say 9/20 is the 
+>probability. But I am not sure if I should change it since the 
+>addition of "or more" is added after 90.
+
+Hi, Melissa --
+
+If there are 10 questions with 2 possible answers for each one, then 
+the total number of possible outcomes is not 2*10=20; it is 2^10 = 
+1024.
+
+One way to answer this particular problem is to try to analyze 
+separately the two cases we are interested in -- getting scores of 
+90 or 100.  The case of scoring 100 is easy; there is only one way 
+to do that -- we have to get every answer right.
+
+For the case of scoring 90, we can reason that we can only miss one 
+question, and that one question could be any of the 10, so there are 
+10 ways we could get a score of 90.
+
+And so there are in all 1+10=11 ways to score either 90 or 100; so 
+the probability of scoring 90 or more on the test with random 
+guesses is 11/1024.
+
+That kind of reasoning rapidly gets unmanageable when we get to case 
+like getting 7 out of 10 right or 6 out of 10 right.  The general 
+method of solution for problems like this is found in Pascal's 
+Triangle.
+
+The 10th row of Pascal's Triangle (the one which starts "1 10 ...") 
+contains the coefficients found in the expansion of (x+y)^10.  This 
+10th row is
+
+  1 10 45 120 210 252 210 120 45 10 1
+
+This means that
+
+  (x+y)^10 = 1x^10 + 10x^9.y + 45x^8.y^2 + ... + 10xy^9 + 1y^10
+
+To apply Pascal's Triangle to our problem, we write the complete set 
+of probabilities for the outcome of each question as
+
+  (.5r+.5w)
+
+where the ".5r" indicates a 0.5 probability of getting the question 
+right and the ".5w" indicates a 0.5 probability of getting the 
+question wrong.  Then
+
+  (.5r+.5w)^10
+
+will give us the set of probabilities for getting different numbers 
+out of 10 questions right.  We can re-write this last expression as
+
+  ((.5)(r+w))^10 = (1/2)^10 * (r+w)^10 = (1/1024) * (r+w)^10
+
+Now we use Pascal's Triangle to expand the "(r+w)^10" in this last 
+expression, and we get
+
+  (1/1024) * (1r^10 + 10r^9.w + 45r^8.w^2 + ...)
+
+The "1r^10" here indicates 1 way to get 10 right; the "10r^9.w" 
+indicates 10 ways to get 9 right and 1 wrong; the "45r^8.w^2" 
+indicates 45 ways to get 8 right and 2 wrong; and so on.  We are 
+only concerned with the case where we get either 10 right or 9 right 
+and 1 wrong.  So the probability we are looking for is
+
+  (1/1024) * (1 + 10) = 11/1024
+
+Here is another quick example, with just the key parts of the 
+process and not all the lengthy explanations.  Suppose we have 6 
+questions on the test and we want to find the probability of getting 
+3, 4, or 5 right.
+
+With 6 questions, we use the 6th row of Pascal's Triangle:
+
+  1 6 15 20 15 6 1
+
+These numbers give the numbers of ways of getting 6, 5, 4, ..., 1, 
+or 0 right, respectively.  Our problem asks us for the probability 
+of getting 5, 4, or 3 right; the entries in this row of Pascal's 
+Triangle we are concerned with are thus the 6, 15, and 20. And the 
+probability we are looking for is then
+
+  (1/2)^6 * (6+15+20) = (1/64)(41) = 41/64
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.  If you are not familiar with Pascal's 
+Triangle, you can find many pages in the Dr. Math archives on that 
+topic by searching the archives using the phrase "pascal's triangle".
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

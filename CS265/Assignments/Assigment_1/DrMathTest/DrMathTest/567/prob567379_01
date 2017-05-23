@@ -1,0 +1,46 @@
+ThreadNum: 567379
+Subject: Re: word problem
+To: topo04@netzero.com (david)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 22:33:03
+Sent: yes
+
+
+As david wrote to Dr. Math
+On 08/17/2004 at 21:01:26 (Eastern Time),
+>[Question]
+>Laura is exited because her family is planning a reunion.  Laura 
+>lives far and hasn't seen her cousins for several years.  Everyone 
+>is arriving on different trains one cousin from San Francisco, one 
+>Los Angeles, one Nevada, one Colorado, and one from Boston.  San 
+>Francisco you can travel every 4 days,Los Angeles every 10 days, 
+>Nevada every 3 days, Colorado every 8 days, and Boston every 15 
+>days.  How many times in the next 20 weeks can the family members 
+>all arrive on the same day?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, David --
+
+You need to find the least common multiple (LCM) of all the numbers 
+4, 10, 3, 8, and 15.  There are many ways to go about finding an LCM 
+of a large group of numbers; I usually just start by finding the LCM 
+of the two which look the "worst" together and then see if I need to 
+increase that LCM because of the other numbers.
+
+The last two numbers in the group, 8 and 15, have no common factors, 
+so their LCM is 8*15=120.  And 120 is a multiple of 4, 10, and 3 -- 
+so the LCM of all these numbers is 120.  So all the people can 
+arrive on the same day once every 120 days.  20 weeks is 140 days, 
+so there will be at least one day and at most two days in those 140 
+when they can all arrive on that same day.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

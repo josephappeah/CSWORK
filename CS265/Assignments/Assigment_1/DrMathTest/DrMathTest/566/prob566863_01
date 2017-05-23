@@ -1,0 +1,42 @@
+ThreadNum: 566863
+Subject: Re: integral calculus
+To: rsperea2002@yahoo.com (ronald )
+From: Doctor Anthony
+TimeStamp: 08/14/2004 at 05:11:57
+Sent: yes
+
+
+As ronald  wrote to Dr. Math
+On 08/13/2004 at 21:32:49 (Eastern Time),
+>[Question]
+>what is the integral of (m + 1)/(m^2 +3m +1)?
+
+You could write the integral as
+
+         2m+3            1/2
+      ----------   - ---------
+      2(m^2+3m+1)     m^2+3m+1
+
+The first of these is a log integral and the second a tanh^(-1) 
+integral.
+
+ = (1/2)ln(m^2+3m+1) + 1/sqrt(5).arctanh[(2m+3)/sqrt(5)] + C
+
+
+
+
+>
+>[Difficulty]
+>i do not know the integral formula for this
+>
+>[Thoughts]
+>do you think that it is possible to factor the denominator. the 
+>result is that there are radicals in the roots.do you think that, 
+>after writing the factors of the denominator, i can convert the 
+given 
+>problem into partial fractions?
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

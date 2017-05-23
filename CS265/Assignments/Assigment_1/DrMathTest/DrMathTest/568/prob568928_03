@@ -1,0 +1,49 @@
+ThreadNum: 568928
+Subject: Re: distance question
+To: randib1@pacbell.net (susan)
+From: Doctor Douglas
+TimeStamp: 08/26/2004 at 18:24:54
+Sent: yes
+
+
+As susan wrote to Dr. Math
+On 08/26/2004 at 17:58:30 (Eastern Time),
+>[Question]
+>I still can't figure it out.  If a person went straight ahead 30 
+>feet, then turned left and went straight 30 feet, then turned right 
+>and went straight 10, what is the distance from where he stopped to 
+>where he began.   The turns don't form a triangle, they form a zig-
+>zag pattern.  I'm not getting it.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Susan.
+
+Yes, they form a zig-zag:
+
+           C---D            AB = 30
+           |                BC = 30
+           |                CD = 10
+           |
+   A-------B
+
+But you can make a triangle:
+
+           C---D            AB = 30
+           |.  |            BC = 30
+         . |   |            CD = 10
+      .    |   |
+   A-------B---X            ADX is a triangle.
+                            AX = 30 + 10 = 40
+                            DX = CB = 30
+                            Angle X is a right angle.
+
+Now you can finish, right?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,56 @@
+ThreadNum: 567695
+Subject: Re: Basic Math Riddles
+To: paul.chandler@choicepointprg.net (Paul)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 13:36:16
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 08/19/2004 at 12:35:29 (Eastern Time),
+>[Question]
+>Trying to solve:
+>abc + def = ghi
+>AND
+>adg + beh = cfi
+>Where each letter must represent the same number in both questions 
+>(using numbers 1-9)
+>
+>
+>[Difficulty]
+>not getting any formula to use, except by trial and error which is 
+>very tedious
+>
+>[Thoughts]
+>I know c+f=i and g+h=i, therefore c+f must equal g+h
+>and g and c must both be greater than 2
+
+Hi Paul,
+
+Thanks for writing to Dr Math.  My computers says there are 8
+different solutions (and 8 more if you allow a=0).  When there are
+lots of solutions, sometimes the best way to find one is just trial
+and error.
+
+In fact, in none of those solutions does c+f=i or g+h=i.  In fact, in
+all 8 of them,
+
+  c+f = g+h = 10+i.
+
+So you should be aware that carries might come out of one column into
+the next.  It also might be helpful to write them as
+
+  100*a + 10*b + c + 100*d + 10*e + f = 100*g + 10*h + i
+
+and so on.  But all of these are just helps, and since there is more
+than one solution, be assured that you will not be able to determine
+each variable one at a time; you will always have a couple of cases at
+least.  So there is some trial and error that will always be necessary.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

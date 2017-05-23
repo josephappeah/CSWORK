@@ -1,0 +1,49 @@
+ThreadNum: 566287
+Subject: Re: fractions with different denominators
+To: ducttapeman531@comcast.net (steve)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 14:16:06
+Sent: yes
+
+Hi, Steve.
+
+As steve wrote to Dr. Math
+On 08/11/2004 at 08:37:20 (Eastern Time),
+>Doctor Peterson,
+>     I looked at the problem again and I realized that I did it 
+>wrong.  I did it and I am stuck between two answers.  Are either of 
+>these write?
+>
+>a)  x^2-12x+33
+>       or
+>b)  x^2-33
+>
+>I really need to know if i did this right.  If both are wrong, can 
+>you try to see what you think I did wrong? Thank you.
+
+It's easier to see what you did wrong if you show me what you did 
+(not just the answer).
+
+You're trying to simplify
+
+       2x          1           8
+  ------------ - ----- - ------------
+  x^2 - 6x + 9   x + 1   x^2 - 2x - 3
+
+The answer CAN'T be just a polynomial! There has to be something in 
+the denominator. Maybe because I answered the question you asked 
+(how to solve an equation) rather than what you meant (how to 
+simplify an expression), you followed my instructions too literally. 
+Remember, you can't just multiply an expression by something and 
+still have an equivalent expression. To simplify, you have to find a 
+common denominator and multiply BOTH numerator and denominator by 
+the same thing, in order to make an equivalent fraction with the 
+common denominator, and then add them all.
+
+Please show me what common denominator you chose, and what the three 
+numerators were when you converted the fractions.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

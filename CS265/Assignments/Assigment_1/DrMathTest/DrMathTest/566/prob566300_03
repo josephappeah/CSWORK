@@ -1,0 +1,27 @@
+ThreadNum: 566300
+Subject: Re: number theory
+To: majid_math1982@yahoo.com (majid ghamary)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 11:50:37
+Sent: yes
+
+
+As majid ghamary wrote to Dr. Math
+On 08/10/2004 at 10:52:18 (Eastern Time),
+>I accept     phi(n) <= n/2 when n is even.
+>But i can't understand    phi(n) = n-2 implies n <= 4.          
+>thanks for your guidance
+
+Suppose n is even, and phi(n) = n-2.  Then
+
+  phi(n) <= n/2
+  n-2 <= n/2
+  2n - 4 <= n
+  n - 4 <= 0
+  n <= 4
+
+Did you follow that?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

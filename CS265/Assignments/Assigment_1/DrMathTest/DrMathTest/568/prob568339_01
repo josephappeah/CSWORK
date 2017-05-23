@@ -1,0 +1,47 @@
+ThreadNum: 568339
+Subject: Re: How do you simplify x - x?
+To: xnaughtymandy4ux@aol.com (Mandi)
+From: Doctor Rick
+TimeStamp: 08/23/2004 at 20:28:29
+Sent: yes
+
+Hi, Mandi.
+
+As Mandi wrote to Dr. Math
+On 08/23/2004 at 20:19:08 (Eastern Time),
+>[Question]
+>How do you simplify x - x?
+>
+>[Difficulty]
+>Im not sure how to do the problem at all. I know that x + x= 2x and 
+x 
+>times x is x squared but im confused now.
+>
+>[Thoughts]
+>
+
+You know that x+x = 2x, and this can be shown using the distributive 
+property and the fact that multiplying anything by 1 doesn't change 
+it.
+
+  x + x = 1x + 1x
+        = (1+1)x
+        = 2x
+
+What happens when we do the same thing with x-x? 
+
+  x - x = 1x - 1x
+        = 1x + -1x
+        = (1 + -1)x
+        = 0x
+
+Anything times 0 is 0, so the final answer is:
+
+  x - x = 0
+
+Now you can see that this makes sense. If you subtract anything from 
+itself, you always get zero: 4-4=0, 12-12=0, and so on.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

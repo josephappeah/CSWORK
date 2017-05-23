@@ -1,0 +1,64 @@
+ThreadNum: 567504
+Subject: Re: adding fractions
+To: v_kulagina2004@yahoo.com (Valerie)
+From: Doctor Ian
+TimeStamp: 08/18/2004 at 19:42:42
+Sent: yes
+
+
+As Valerie wrote to Dr. Math
+On 08/18/2004 at 15:05:24 (Eastern Time),
+>[Question]
+>How do you add fractions with different denominators? I've been 
+>online and found the problem and don't worry this isn't my homework 
+>cause it already has an answer:
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>1/5+1/3= 1 * 3   1   5   3   5   8
+>         -   - + - * - = - + - = -
+>         5 * 3   3   5   15  15  15
+
+Hi Valerie,
+
+So you've got the answer, but it doesn't make sense to you? 
+
+I guess the place to start might be with 'equivalent fractions'.  Do
+you understand why 1/5 and 3/15 are really just two different ways of
+writing the same value?  
+
+Suppose I multiply 1/5 by 1.  It doesn't change the value, right?
+
+  1       1
+  - * 1 = -
+  5       5
+
+(By the way, what _is_ the 'value' of 1/5?  It's just whatever we
+would get if we divided 1 by 5.  A fraction is just a division that we
+haven't bothered to do yet.)
+
+If I divide any number by itself, I get 1, right?  So 3/3 is the same
+as 1.  That means
+
+  1       1   3
+  - * 1 = - * -
+  5       5   3
+
+To multiply fractions, I multiply the numerators and denominators
+separately:
+
+  1       1   3   1 * 3    3
+  - * 1 = - * - = ----- = --
+  5       5   3   5 * 3   15
+
+So 1/5 and 3/15 are really the same thing.  Anywhere I could use one,
+I could swap it for the other.  
+
+Does this make sense so far? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

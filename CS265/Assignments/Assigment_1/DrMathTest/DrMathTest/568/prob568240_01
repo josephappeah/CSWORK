@@ -1,0 +1,53 @@
+ThreadNum: 568240
+Subject: Re: ratio using standard form
+To: sumink_beautiful@hotmail.com (Sammi)
+From: Doctor Greenie
+TimeStamp: 08/23/2004 at 14:06:17
+Sent: yes
+
+
+As Sammi wrote to Dr. Math
+On 08/23/2004 at 13:21:49 (Eastern Time),
+>[Question]
+>Here is the question:
+>
+>The mass of the moon is 7.3 x 10 to the power of 22 (sorry I don't 
+>know how to type powers)
+>
+>The mass of the earth is 5.96 x 10 to the power of 24 (again, I 
+>don't know how to type powers)
+>
+>Calculate the ratio of their masses, to the nearest whole number.
+>
+>[Difficulty]
+>I can't find a number to divide by both the masses.
+>
+>[Thoughts]
+>I think that to find out the ratio, you have to find a number that 
+>divides by both numbers (Is that even right?) but I can't find a 
+>number to divide by both the masses.
+
+Hi, Sammi --
+
+First of all -- for future reference -- we usually use the "^" 
+symbol to indicate exponentiation.  So the masses in your problem are
+
+  7.3 x 10^22
+  5.96 x 10^24
+
+As for finding the ratio of the masses to the nearest whole 
+number....  This is a real world problem; the answer isn't going to 
+come out exactly, to "3:1" or "57:1" or anything nice like that; it 
+is going to come out to something like "37.347892:1".
+
+So you aren't going to need to find a number which divides evenly 
+into both the given numbers.  Simply divide the larger number by the 
+smaller and, per the instruction to round to the nearest whole 
+number, round your answer.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

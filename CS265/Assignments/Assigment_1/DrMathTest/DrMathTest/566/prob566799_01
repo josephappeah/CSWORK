@@ -1,0 +1,85 @@
+ThreadNum: 566799
+Subject: Re: Polynomial
+To: hualogeng@hotmail.com (Lorex)
+From: Doctor Greenie
+TimeStamp: 08/13/2004 at 10:24:45
+Sent: yes
+
+
+As Lorex wrote to Dr. Math
+On 08/13/2004 at 07:19:30 (Eastern Time),
+>[Question]
+>show that one of the root for the equation  y^3 - 3y + 4 = 0 is 
+lies 
+>between -3 and -2 .
+>
+>
+>[Difficulty]
+>Honestly, when i see equation, i only know to solve for the roots.. 
+>how come now from equation we asked to find the range of y !!!!! it 
+>is so weird, but i know it is logic in mathematics, but i don't 
+know 
+>the method ( cause my teacher don't teach ), can you help me !!
+>
+>
+>
+>[Thoughts]
+>
+>Before that, i would like to show you some of my work.
+>y^3 - 3y + 4 = (y)(y^2 - 3) + 4 = 0
+>this imply that the term (y)(y^2 - 3) must equal to -4
+>this also imply that       (y)(y^2 - 3) < 0
+>        (y)*[y - 3^(1/2)]*[y + 3^(1/2)] < 0
+>so the range of y that statisfy the above inequality is :
+>          y < -3^(1/2)    OR       0 < y < 3^(1/2)
+>it is clear that -3 and -2 is smaller than -3^(1/2),  this only 
+tell 
+>us that the inequality -3 < y < 2 is possible to be true.....
+>but then, i still haven solve the question! i know that if i got an 
+>inequality such as x < -10 , then is nothing wrong for me to write 
+>x < k  where k is any value bigger than -10.
+>However if i write x < m  where m is any value smaller than -10, 
+then 
+>we cant confirm that this new inequality is correct or not ( cause 
+if 
+>x is between m and -10, then the second inequality will be wrong )
+>Same thing happen here, although i can write y < -3^(1/2), i cant 
+>simply write -3 < y < 2  although this range of y is the sub-set of 
+>the previous inequality.
+>
+>So the point is here, how can i solve, i really have no idea 
+already 
+>lah, please help....... 
+>before that , for your information, before we asked to solve this 
+>question, we are asked to show that 
+>       cosh (3x) = 4cosh^3 (x) - 3 cosh (x)
+>this identity i can show it, but i don't know how is this identity 
+>help us to show that one of the root lies between -3 and -2....i 
+>think perhaps you will have some idea, hence i just wrote it here.
+>Thanks you for helping.
+>
+Hello, Lorex --
+
+I don't see how the problem with cosh(x) can be used to solve the 
+other problem....
+
+The process for solving this problem is quite simple.  The function
+
+  f(x) = x^3-3x+4
+
+is a polynomial function, so it is a smooth, continuous function.  
+And we know
+
+  f(-3) = (-3)^3 - 3(-3) + 4 = -27+9+4 = -14
+  f(-2) = (-2)^3 - 3(-2) + 4 = -8+6+4 = 2
+
+The value of the function at -3 is negative and the value of the 
+function at -2 is positive; because the function is continuous, it 
+must have a root between -3 and -2.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

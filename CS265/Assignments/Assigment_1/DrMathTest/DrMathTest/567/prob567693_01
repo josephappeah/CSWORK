@@ -1,0 +1,41 @@
+ThreadNum: 567693
+Subject: Re: Intergral of x*acrtan(x)
+To: keanfoster@comhem.se (Kean)
+From: Doctor Vogler
+TimeStamp: 08/19/2004 at 13:29:54
+Sent: yes
+
+
+As Kean wrote to Dr. Math
+On 08/19/2004 at 12:08:56 (Eastern Time),
+>[Question]
+>Hi there,
+>
+>I hope that someone is able to help me out of this rut!!!
+>
+>Calculate the intergral of x*arctan(x)
+>
+>[Difficulty]
+>I just can't get the final step to work!! 
+>
+>[Thoughts]
+>by intergrating by parts I can get the problem to this point;
+>
+>x^2 acrtan(x) - 1/2*int[(x^2)/(1+x^2)]dx
+>
+>and then crash!! I'm sure it is rather simple but for the life of me 
+>no go!
+
+Hi Kean,
+
+Thanks for writing to Dr Math.  What if you change the last fraction to
+
+  (x^2)/(1+x^2) = 1 - 1/(1+x^2)  ?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

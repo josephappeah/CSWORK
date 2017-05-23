@@ -1,0 +1,54 @@
+ThreadNum: 568957
+Subject: Re: comparing units
+To: cks28@yahoo.com (Christine)
+From: Doctor Vogler
+TimeStamp: 08/26/2004 at 15:11:07
+Sent: yes
+
+
+As Christine wrote to Dr. Math
+On 08/26/2004 at 14:59:11 (Eastern Time),
+>[Question]
+>can we compare two quantities with the same unit but different 
+>significant figures
+>
+>[Difficulty]
+>I am not sure if you can compare 2.0m to 2 m because there is some 
+>uncertainity in the measurments.
+>
+>[Thoughts]
+>I would think you cannot compare them
+
+Hi Christine,
+
+Thanks for writing to Dr Math.  What exactly do you mean by compare? 
+Certainly you can say that those two quantities are fairly close,
+which is a way of comparing.  If you mean decide which is bigger, then
+no you cannot.  In fact, if the two quantities are
+
+  2.0 m
+
+and
+
+  2.0 m
+
+then you still cannot decide which is bigger.  What's worse, while it
+is very probable that
+
+  2.1 m
+
+is smaller than
+
+  2.2 m,
+
+it is in fact quite possible that the opposite is true, since each has
+an error in the last digit; some say that you should expect that last
+digit to be off by 1 with a probability of about 30%.
+
+Does that answer your question?  If you have any questions about this
+or need more help, please write back and show me what you have been
+able to do, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

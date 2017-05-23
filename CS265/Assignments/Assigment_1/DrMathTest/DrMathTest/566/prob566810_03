@@ -1,0 +1,42 @@
+ThreadNum: 566810
+Subject: Re: working out a formula
+To: jillforsyth10@hotmail.com (Jo)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 15:34:17
+Sent: yes
+
+
+Hi Jo,
+
+>Thank you for your reply and in response to your question: ? x 4 = 12 
+>I would divide 12 by 4 to get 3, however, this does not work when the 
+>4 is replaced with a percentage as it was in my question. 
+
+Actually, it does.  It works with _any_ number (so long as you don't
+try to divide by zero), and a percentage is just a number.  For
+example, 8.33% is just
+  
+  8.33    833
+  ---- = ----- = 0.0833
+   100   10000
+
+(Any percentage is just a fraction with 100 in the denominator.)
+
+So given 
+
+   y * 8.33% = 10.60
+
+you can write 
+
+   y * 0.0833 = 10.60
+
+            y = 10.60 / 0.0833
+
+This is the 'formula' you want.  But it's not really a formula.  It's
+just using the relationship between multiplication and division. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

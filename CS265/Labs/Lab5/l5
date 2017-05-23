@@ -1,0 +1,42 @@
+q1:   A list is a finite ordered collection of values
+      A stack is a particular collection of data that can only call the last item with pop or push to remove the item. 
+      A queue is the opposite of a stack in where the first thing added is the first thing out 
+      A map is a data type that has a key and a value attached to it. when you look up the key it will return the value attached to it. 
+  
+q2: The best case scenario is if the item is in the middle of the array everything would be compared just once. Worst case is if the value doesnt exist and it would be compared log(n) times. 
+  
+q3: best case  is if the value is at the beginning so only one comparision is made but worst cases scenario is if it is at the end so n comparrion is needed. 
+  
+q4: A linear search would be prefeable when the data is unsorted. 
+  
+q5:84 37 93 82 98 27 63 73 93 27 75 55 45 8
+  37 82 27 63 73 27 75 55 45 8 *84* 93 98 93
+  37 82 27 63 73 27 75 55 45 8 84 *93* 93 98
+  27 27 8 *37* 82 63 73 75 55 45 84 93 93 98
+  8 *27* 27 37 82 63 73 75 55 45 84 93 93 98
+  8 27 27 37 63 73 75 55 45 *82* 84 93 93 98
+  8 27 27 37 55 45 *63* 73 75 82 84 93 93 98
+  8 27 27 37 45 *55* 63 73 75 82 84 93 93 98
+  
+q6: {3 ,*{24,*{06,*NULL}}}
+q7: [ 13,[28,[24,[3, None]]]]
+  
+q8: The second set is different because in the second one with s =char* buffer no longer changes when you change s.
+  
+q9: 
+  table[5]={key=Jesse, val=78}
+  table[4]={key=Vera, val=99}
+  table[3]={key=Bob,val=38}
+  this is because the hash value is only the length of the string and the index of the table so it will replace identical lengths. 
+q10: 
+  int find(char *key, int *p_ans) 
+  {
+     int hsh = hash(key); 
+     if (table[hsh]==NULL)
+        return 0; 
+          else 
+     {
+        *p_ans=table[hsh]-val; 
+        return 1; 
+     } 
+  }

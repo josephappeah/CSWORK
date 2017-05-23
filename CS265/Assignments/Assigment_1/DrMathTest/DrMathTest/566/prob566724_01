@@ -1,0 +1,62 @@
+ThreadNum: 566724
+Subject: Re: finding percentages
+To: lrogers@cinci.rr.com (Haley)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 00:11:18
+Sent: yes
+
+
+As Haley wrote to Dr. Math
+On 08/12/2004 at 18:33:37 (Eastern Time),
+>[Question]
+>Having an amount of $3,226,000, I was told that this numbers was
+>approx. 50% too much. Is there a formula that I can us to calculate
+>what the actual number should be?
+>
+>[Difficulty]
+>Percentages have always been confusing. 
+>
+>[Thoughts]
+>I figure that if the number was twice as much, that would be 100% too
+>much. I tried taking the numbers, dividing by 3 and multiplying by
+>two, but that number didn't look right. 
+
+Hi Haley,
+
+Sometimes it can help to look at simpler numbers.  Suppose I have $15,
+and that's 50% too much.  If I divide it into three parts, 
+
+  $5, $5, $5
+
+I can see that the third part is 50% of the sum of the other two:
+
+  $5 is 50% of ($5 + $5)
+
+So in fact, your strategy (divide by 2, multiply by 3) would work fine.
+
+Here's another way to look at it.  Suppose the correct amount is A. 
+We know that $3,226,000 is 50% more than A, which means it's 150% of A:
+
+  $3,226,000 = 150% of A
+
+             = 1.5 * A
+
+             = (3/2) * A
+
+To find A, we divide both sides by 3/2:
+
+  $3,226,000 
+  ---------- = A
+     3/2
+
+But to divide by a fraction, we multiply by its reciprocal:
+
+  $3,226,000 * (2/3) = A
+
+But this is just dividing by three, and then multiplying by 2.
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

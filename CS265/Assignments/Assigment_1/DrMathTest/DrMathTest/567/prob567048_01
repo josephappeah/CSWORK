@@ -1,0 +1,55 @@
+ThreadNum: 567048
+Subject: Re: what about triple angle identities
+To: kwinter@alaska.net (Shea Winterberger)
+From: Doctor Vogler
+TimeStamp: 08/16/2004 at 09:12:06
+Sent: yes
+
+
+As Shea Winterberger wrote to Dr. Math
+On 08/15/2004 at 18:18:42 (Eastern Time),
+>[Question]
+>How do I write sin2x + cos3x as an expression involving only sinx and
+cosx.
+>
+>[Difficulty]
+>My book only explains double angle identities.  I'm not even sure if
+'triple angle 
+>identity' exists as a viable term.  Is there a specific way to solve
+this problem or sould 
+>I use the cosine of a sum equation to solve it?
+>
+>[Thoughts]
+>I know that I can change sin2x into 2(sinx)(cosx).  But can I change
+cos3x into 
+>cos(2x+x)?  That would end up being something like:
+>(cos2x)(cosx)-(sin2x)(sinx)=(1-2sin^2x)(cosx)-2(sin^2x)(cosx)=
+>(cosx)-2(sin^2x)(cosx)-2(sin^2x)(cosx)=(cosx)-4(sin^2x)(cosx)=cosx(1-4sin^2x)
+>Putting it all together would be something like the following. . . I
+think.
+>2(sinx)(cosx)+cosx(1-4sin^2x) = cosx(2sinx+(1-2sinx)(1+2sinx))
+>I think I should be able to go farther than that but I feel like I'm
+about to start going 
+>in circles.  Can you help me?
+
+Hi Shea,
+
+Thanks for writing to Dr Math.  While I didn't check your
+calculations, you should notice that
+
+  2(sinx)(cosx)+(cosx)(1-4(sinx)^2)
+
+and
+
+  (cosx)(2sinx+(1-2sinx)(1+2sinx))
+
+are both expressions that involve only sinx and cosx.  So I think
+you're done.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

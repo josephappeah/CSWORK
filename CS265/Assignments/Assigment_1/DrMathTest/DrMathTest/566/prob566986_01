@@ -1,0 +1,66 @@
+ThreadNum: 566986
+Subject: Re: Trisecting an angle using straightedge and compass
+To: ps2988@juno.com (PG)
+From: Doctor Rick
+TimeStamp: 08/17/2004 at 08:31:04
+Sent: yes
+
+Hi, PG.
+
+As PG wrote to Dr. Math
+On 08/15/2004 at 04:50:26 (Eastern Time),
+>[Question]
+>http://www.geom.uiuc.edu/docs/forum/angtri/
+>
+>[Difficulty]
+>How difficult it is to convince people of simple facts...
+>(sometimes)
+>
+>[Thoughts]
+>I have done this in a different way, but it does trisect an angle 
+>using only a compass and straightedge.
+
+Are you using yourself as an example of a person who is difficult to 
+convince of the statements made in that article? As stated there, it 
+is mathematically impossible to trisect an angle using only a compass 
+and straightedge. If you claim to have done so, you must still be 
+misunderstanding what it means in some way.
+
+There are at least three more common sources of misunderstanding that 
+are not mentioned in that article:
+
+1. It is impossible to devise a method that can trisect ANY angle. It 
+is possible, for instance, to trisect a 90-degree angle (that is, to 
+construct a 30-degree angle) using only compass and straightedge. But 
+if you are given any arbitrarily constructed angle, no method using 
+compass and straightedge alone can ALWAYS construct an angle 1/3 the 
+size of that given angle, whatever the angle is.
+
+2. The construction must be EXACT. There are methods that produce 
+very good approximations to 1/3 of the given angle, and there are 
+methods that could continue improving the approximation by an 
+iterative process so that you can get as close as you need to be, 
+given enough steps in the construction. But the goal of the Greeks' 
+effort to trisect an angle was to produce an angle that could be 
+mathematically proven to be EXACTLY 1/3 of the given angle.
+
+3. Following on the second point, the mathematical PROOF is critical. 
+The concept of exactness does not apply to any real-world 
+construction or measurement; nothing can be measured precisely enough 
+to confirm that it is mathematically exact. So when we speak of 
+constructing with a compass and straightedge, we don't really mean a 
+physical compass and physical straightedge. We mean the application 
+of mathematical theorems equivalent to these devices, but operating 
+in the "perfect world" of mathematical thought.
+
+Following up on what the article said, I don't think there is any 
+reason for a teacher to bring up this subject except in the context 
+of discussing the world of rigorous mathematical proof using 
+definitions, postulates and theorems. In any other context it is 
+misleading and confusing. In this context it can get students' 
+attention and inspire the kind of questioning that leads to real 
+learning.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

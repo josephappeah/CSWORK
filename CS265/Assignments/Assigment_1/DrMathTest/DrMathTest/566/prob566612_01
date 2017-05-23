@@ -1,0 +1,97 @@
+ThreadNum: 566612
+Subject: Re: Math problem, 7th grade
+To: sweety_girl_2007@yahoo.com (Kelly)
+From: Doctor Greenie
+TimeStamp: 08/12/2004 at 01:21:13
+Sent: yes
+
+
+As Kelly wrote to Dr. Math
+On 08/12/2004 at 00:41:59 (Eastern Time),
+>[Question]
+>Please help me with this problem I've been trying to do this 
+problem, 
+>but I could not find the right solution. Thank you.
+>
+>A nurse wants to strengthen 20 cc of a 50% alcohol solution to an 
+80% 
+>alcohol solution.  How much pure alcohol should be added?
+>
+>[Difficulty]
+>I tried to find a formula for this problem but I did not succed.
+>
+>[Thoughts]
+>N/A
+
+Hi, Kelly --
+
+This kind of problem is one commonly found in an algebra class, 
+because it lends itself very nicely to a solution using some basic 
+algebra concepts.  But I don't know if, as a 7th grader, you have 
+been introduced to basic algebra yet.
+
+I will go ahead and describe the traditional algebraic solution; but 
+then I will suggest a different solution which only uses methods 
+which should be familiar to a typical 7th grader.
+
+The key to the algebraic approach is to write an equation showing 
+the amount of actual alcohol in the various parts of the problem.  
+We start with 20cc of 50% alcohol solution; that means we have 10cc 
+of actual alcohol.  (50% of 20cc = .50 * 20cc = 20cc.)  Then we add 
+some number "x" of cc's of 100% alchol -- which is of course "x" 
+cc's of actual alcohol -- and we end up with "20+x" cc's of an 80% 
+alcohol solution, which contains (.80 * (20+x)) cc's of actual 
+alcohol.  So we have
+
+  .50(20) + 1.00(x) = .80(20+x)
+  10 + x = 16 + .8x
+  .2x = 6
+  x = 30
+
+So the number of cc's of pure alcohol we need to add is 30.
+
+But of course that solution will be hard for you to follow if you 
+haven't yet studied algebra....
+
+So here is a different approach, using ratios.  Let's think about  
+what happens when we mix a 50% alcohol solution and a 100% alcohol 
+(i.e., pure alcohol) solution.
+
+If we mix the two ingredients in equal parts, then the percentage in 
+the resulting solution will be halfway between the 50% and 100% of 
+the two ingredients -- it will be 75%.  Another way to think of that 
+case is that the two ingredients are mixed in the ratio 1:1.  This 
+ratio of 1:1 in this example is indicated by the fact that the 
+differences between the percentage of the mixture and the 
+percentages of the two ingredients are in the ratio 1:1.  That is, 
+the percentages of the ingredients were 50% and 100%, and the 
+percentage of the mixture was 75%.  100-75 = 25 and 75-50 = 25; 
+these two differences are equal -- that is, they are in the ratio 
+1:1.  The differences in percentages are in the ratio 1:1 because 
+the ingredients were mixed in the ratio 1:1.
+
+In our problem, we don't want a 75% alcohol solution, as we would 
+get if we mixed the ingredients in the ratio 1:1.  We want an 80% 
+alcohol solution.  Note this means that more than half of our 
+mixture will be pure alcohol -- so the answer is going to have to be 
+more than 20cc.
+
+If our desired percentage is 80% and the percentages of the 
+ingredients are 50% and 100%, the difference between those 
+percentages are 30% and 20% respectively (80-50=30; 100-80=20).  
+These differences in percentages are in the ratio 30:20 or 3:2.  
+This means our two ingredients must be mixed in the ratio 3:2, with 
+the larger portion being the pure alcohol we are adding.
+
+So we need 3 parts of pure alcohol to 2 parts of the original 
+solution.  If the 2 parts of original solution is 20cc, the 3 parts 
+of pure alcohol we need is 30cc.  This is, of course, the same 
+answer we got using the traditional algebraic approach -- but we 
+didn't have to use algebra in this method of solution.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

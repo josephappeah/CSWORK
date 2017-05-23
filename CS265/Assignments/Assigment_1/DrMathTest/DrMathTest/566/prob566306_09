@@ -1,0 +1,45 @@
+ThreadNum: 566306
+Subject: Re: diophantine equations
+To: pwotus@wyomingseminary.org (Patrick Wotus)
+From: Doctor Vogler
+TimeStamp: 08/13/2004 at 17:18:32
+Sent: yes
+
+
+As Patrick Wotus wrote to Dr. Math
+On 08/13/2004 at 14:26:43 (Eastern Time),
+>Let d = gcd(x+y+2z,y+2z-2x).  Then it's clear that d divides 3x and 
+>3(y+2z).  Suppose d divides 2z (or for that matter, 6z).  Then d 
+>divides 3y.  But since gcd(x,y)=1, there exist integers a and b for 
+>which ax + by = 1, and so 3ax + 3by = 3.  Since d dvides both 3x 
+>and 3y, we have d divides 3, and we are done.
+>
+>But we don't now if d divides 2z.
+>
+
+Hi Patrick,
+
+It's clear that d divides the difference 3x, and that it divides
+x+y+2z, right?  Now consider the congruences
+
+  x + y + 2z = 0 (mod d)
+  x^2 + y^2 - xy = z^2 (mod d)
+
+and show that
+
+  3(x + z)^2 = 0 (mod d).
+
+This is certainly true if d=1 or d=3.  If d is anything else, then
+there is some prime number p dividing d such that
+
+  x = 0 (mod p)
+  x = -z (mod p).
+
+This is easy to show except for the possibility p=3, but if d is
+divisible by 3 but not equal to 3, then you can still get the same
+results by picking a prime p which divides d/3.  Show that this
+implies that your triple is not primitive.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

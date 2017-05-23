@@ -1,0 +1,93 @@
+ThreadNum: 567433
+Subject: Re: Is this a Computable or Uncomputable Function?
+To: Fidika@new.rr.com (Paul Fidika)
+From: Doctor Jacques
+TimeStamp: 08/18/2004 at 04:33:10
+Sent: yes
+
+
+As Paul Fidika wrote to Dr. Math
+On 08/18/2004 at 02:57:06 (Eastern Time),
+>[Question]
+>Suppose that, for a finite-domain X, we define some function
+>
+>f : X --> {0, 1}
+>
+>to be “f(x) = 1 if and only if the xth Turing-machine halts (under 
+>some arbitrary ordering of all Turing-machines), and f(x) = 0 
+>otherwise”. Is this an uncomputable function? 
+>
+>To me, it seems to be (technically) a computable function in the 
+>sense that, if we knew whether or not the first |X| Turing-machines 
+>halted or not, we could create a Turing-machine which “computes” 
+>this function by storing this binary string and printing its xth 
+>digit when queried about x (because X is finite, we can do this). 
+>
+>On the other hand, I don’t think we should say that this is as 
+>computable a function as, say, cos is because the definition of f 
+>has given us no “effective procedure” to determine the values of f
+>(x); it assumes that we already know (or there already is an 
+>effective procedure for determining) whether or not the first |X| 
+>Turing-machines halt, which is something we probably do not know. 
+>(I.e., I think that f’s “definition”, although it should be 
+>admissible, is a bit of a “cheap-shot”.)
+>
+>Another of my arguments for f's uncomputability is that, as |X| 
+>approaches infinity, its limit (a countably-infinite domain) is 
+>obviously uncomputable; it would seem odd if, while f was computable 
+>for every finite |X|, the limit of this sequence of functions was 
+>uncomputable. This would mean that, although we cannot compute f in 
+>the limit-case (i.e., |X| is infinite), we can compute f for 
+>arbitrary finite subsets of the infinite domain |X|, which would 
+>seem very odd indeed. (Although it does kind of remind me of the 
+>real-numbers...)
+>
+>So, what do you guys think, should we consider f to be computable or 
+>uncomputable, or is there some shade of gray in the region between 
+>computability and uncomputability?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Paul,
+
+I would say that the function is indeed computable. A function is 
+computable if there is an algorithm (or TM) that computes it; the 
+definition only requires the algorithm to exist, not that we be able 
+to write it. If the domain is finite, such an algorithm always exists 
+(intuitively, it is a table look-up).
+
+There is a more intuitive example based on the same idea. Consider 
+the function from N to {0,1} defined by:
+
+  f(n) = 1 if the decimal expansion of pi contains a string of at
+  least n consecutive "4" digits, and 0 otherwise.
+
+Now, either the decimal expansion of pi contains strings of "4" of 
+arbitrary length, and f is constant, or there is a string of maximum 
+length, say t, and f is the function u_t defined by:
+
+  u_t (n) = 1 if n <= t
+          = 0 otherwise
+
+and all these functions (including the constant) are obviously 
+computable. As f is one of them, f is computable (the catch is that, 
+although we know that f is a computable function, we don't know which 
+one it is).
+
+Concerning the "limit" argument, it is true that we could compute the 
+restriction of f to any finite subset - we can imagine that we store 
+the binary string at some point on the tape of the TM. However, all 
+those functions are different TM, and you cannot extend the idea to 
+an infinite domain, since the amount of tape written at the beginning 
+of the computation must be finite.
+
+Does this help?  Write back if you'd like to talk about this 
+some more, or if you have any other questions.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

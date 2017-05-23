@@ -1,0 +1,64 @@
+ThreadNum: 567118
+Subject: Re: Probability: Exponential Distribution
+To: blue_skies21@yahool.com (Alison)
+From: Doctor Anthony
+TimeStamp: 08/16/2004 at 15:50:53
+Sent: yes
+
+
+As Alison wrote to Dr. Math
+On 08/16/2004 at 12:01:09 (Eastern Time),
+>[Question]
+>An engineer receives a call every 4 hours. If the time between 
+calls 
+>follows 
+>an exponential distribution, 
+
+If the average is 1 per 4 hours or 1/4 per hour, then in time t 
+hours the average would be t/4.
+
+The probability of no call P(0) in time t is  therefore e^(-t/4) 
+using the Poisson probability function.
+
+The probability  P(T>t) = prob.no events in time 0 -> t = e^(-t/4)
+
+                 P(T<t) =  1 - e^(-t/4)
+
+This is the c.d.f of the time to first event.
+
+To get the p.d.f. we differentiate this and have 
+
+      f(t) = (1/4).e^(-t/4)    This is pdf of time interval between 
+events.
+
+It is called the exponential distribution.
+
+calculate the probability that the call 
+>time 
+>between one emergency cal to the next is
+>(i) greater than 4 hours
+
+ We saw above that P(T>t) = e^(-t/4)
+
+                   P(T>4) = e^(-1)  =  0.36788
+
+>(ii) less than 6 hours
+
+    We saw also  P(T<t) = 1 - e^(-t/4)
+
+                 P(T<6) = 1 - e^(-6/4) =  0.77687
+
+
+
+>
+>[Difficulty]
+>What formula do i need to use for this?
+>
+>[Thoughts]
+>If you can inform me what the formula is,
+>i may be able to do the question on my own.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

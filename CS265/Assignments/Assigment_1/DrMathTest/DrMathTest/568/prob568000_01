@@ -1,0 +1,44 @@
+ThreadNum: 568000
+Subject: Re: algebra 2    volumes, perimeters, surface area and area
+To: cwellman@comfortproducts.com (aryn)
+From: Doctor Rick
+TimeStamp: 08/21/2004 at 14:59:13
+Sent: yes
+
+Hi, Aryn.
+
+As aryn wrote to Dr. Math
+On 08/21/2004 at 09:36:37 (Eastern Time),
+>[Question]
+>what is the volume and the surface area of a spherebwhose radius is 
+>6 centimeters?
+>
+>[Difficulty]
+>i don't understand how you're supposed to solve it after you plug in 
+>the formula.
+>
+>[Thoughts]
+>v=4/3 pir3 and the radius is 6 so you would plug in 6 for r. so it 
+>would then be v=4/3 pi 6 to the third. then i get lost in all of it.
+
+You've started fine. Now you need to evaluate the expression
+
+  (4/3)*pi*6^3
+
+We replace pi with the number it stands for, too: 3.14 
+(approximately).
+
+  (4/3)*3.14*6^3
+
+The first thing you do is work out the power: what is 6 cubed? It's 
+6*6*6 = ____ (I'll let you fill in the blank).
+
+Now all that's left is multiplications (one of the factors is a 
+fraction, 4/3, so there is division too). Multiply the three numbers: 
+4/3, 3.14, and ____ (the number you filled in above).
+
+Can you do this? Show me your work, if you'd like.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,144 @@
+ThreadNum: 568245
+Subject: Re: Math puzzle
+To: janash1@sbcglobal.net (Jo anne)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 15:53:26
+Sent: yes
+
+
+As Jo anne wrote to Dr. Math
+On 08/23/2004 at 14:06:18 (Eastern Time),
+>[Question]
+>The devil asks if you would like to agree to the following 
+>proposition.  He gives you $1000 on day 1 and you give him @100 
+>back.  The next day he doubles what you have left, and you double 
+>what you gave him.  This same procedure continues for 30 days.  For 
+>example, day 2:  you now have 1800 and give away 200, day 3:  you 
+>now have 3200 and give away 400 and so on.  I understand that you 
+>continue giving away 2^(n-1)*100 where n is day.  I understand that 
+>by day 30 you have given back billions...since the exponential 
+>sequence is much larger than the doubling sequence for 30 terms...
+>(Therefore, I would not agree to the proposal).  
+>
+>[Difficulty]
+>My difficulty lies in an algebra expression for the doubling part 
+>(the amount the devil gives me).  I can easily calculate each day by 
+>hand (or better on a spreadsheet), but I would like to develop an 
+>equation to find out on what day (n) you break even.  Can you help 
+>me?
+>
+>[Thoughts]
+>day 1:  I have $1000          Devil gets $100
+>day 2:  I have  $1800         Devil gets $200
+>day 3:  I have $3200          Devil gets $400
+>
+>Day 30  I have                Devil gets 2^29*100 
+
+Hi Joanne,
+
+Thanks for writing to Dr Math.  Naturally, since this is the devil
+making a deal with us, we should expect that he will get the better
+end of the deal, right?
+
+Suppose that the amount of money (in dollars) that I have on day n is
+
+  a(n),
+
+so that
+
+  a(1) = 1000
+  a(2) = 1800
+  a(3) = 3200.
+
+Then the devil will take 2^(n-1)*100 dollars and then double the
+amount of money I have left, so that on the next day, I have
+
+  a(n+1) = 2*(a(n) - 2^(n-1) * 100)
+         = 2*a(n) - 2^n * 100.
+
+This is called a non-homogeneous linear recurrence relation of order
+one.  You can search for "linear recurrence relation" on Google to
+find several places where they describe how to solve it.  I'll
+summarize the main steps for you and work it through your problem, and
+you can search the Web for more details.
+
+Basically, the "recurrence relation" means you describe a(n+1) 
+in terms of previous values of a.  The "linear" means that you have 
+a(n+1) as a "linear combination" (or a sum of constant multiples of) 
+previous terms.  Since you only use one previous term, namely a(n), 
+that makes your linear recurrence relation of the first order (which 
+is the easiest case).  But actually, you have a(n+1) not as a linear 
+combination of a(n) but as a linear combination plus another function.  
+That's what the "non-homogeneous" means.
+
+So first we change your equation to homogeneous by removing the extra
+function,
+
+  a'(n+1) = 2*a'(n)
+
+which is easy to solve:
+
+  a'(n) = 2^n * k
+
+for any number k.  This is called the "general solution" to the
+homogeneous equation.  It turns our that our extra function has
+exactly that same form, and while we would normally expect the
+solution to be the general solution plus something that looks like the
+extra function, in this kind of problem, there is an extra factor of n
+involved.  We should look for a solution of the form:
+
+  a(n) = 2^n * k + 2^n * m * n.
+
+So we substitute this into our recurrence relation,
+
+  a(n+1) = 2*a(n) - 2^n * 100,
+
+  [2^(n+1) * k + 2^(n+1) * m * (n+1)] =
+             2*[2^n * k + 2^n * m * n] - 2^n * 100,
+
+and then we simplify and decide what m has to be.  (It turns out that
+k won't matter until we check the initial value a(1)=1000.  This is
+normal.)  So here is how we simplify:  First we multiply everything out:
+
+  2^n * 2k + 2^n * 2m * n + 2^n * 2m =
+             2^n * 2k + 2^n * 2m * n - 2^n * 100,
+
+Then we divide both sides of the equation by 2^n:
+
+  2k + 2m * n + 2m = 2k + 2m * n - 100,
+
+and then we subtract 2k + 2m * n from both sides:
+
+  2m = -100,
+
+which means that m = -50, and so
+
+  a(n) = 2^n * k - 2^n * 50 * n.
+
+Then we substitute a(1) = 1000 and see what k has to be:
+
+  2^1 * k - 2^1 * 50 * 1 = 1000
+  2k - 100 = 1000
+  2k = 1100
+  k = 550,
+
+so now we conclude that
+
+  a(n) = 2^n * 550 - 2^n * 50 * n
+       = 2^n * (11 - n) * 50.
+
+And you can check this formula for several values of n to make sure it
+gives you all the right numbers.  You should be able to see clearly
+that you will have no money on the 11th day, and negative after that.
+ (In fact, you will have the most money on either the 9th or 10th day,
+both of those equal.)  After the 11th day, the devil takes your money
+(so that you have negative left) and then doubles your money (so that
+you have a bigger negative) and you just fall deeper and deeper into debt.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

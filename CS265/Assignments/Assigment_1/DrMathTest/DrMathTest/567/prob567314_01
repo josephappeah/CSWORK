@@ -1,0 +1,64 @@
+ThreadNum: 567314
+Subject: Re: Hi, i need help(complex equation)
+To: 3dadi@triathlete.com (Sasha)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 15:45:01
+Sent: yes
+
+
+As Sasha wrote to Dr. Math
+On 08/17/2004 at 15:19:36 (Eastern Time),
+>[Question]
+>I really need help for solving a complex equations. For example 
+>equations as (2*z^2-3*[(con)z]^2=10i or z^2+(2*i-3)*z+5-i=0) [con = 
+>conjugation]
+>
+>[Difficulty]
+>I dont see a solution for such a equation. If i repleace z with 
+>z=a+bi nothin useful comes out.
+>
+>[Thoughts]
+>2*z^2-3*[con(z)]^2=10i
+>2*(a+bi)^2-3*(a-bi)^2=10i
+>2*(a^2+2abi-b^2)-3*(a^2-2abi-b^2)=10i
+>2a^2+4abi-2b^2-3a^2+6abi+b^2=10i
+>-a^2+10abi-b^2=10i ?
+>
+
+Hi Sasha,
+
+Thanks for writing to Dr Math.  In the second case, you have a
+quadratic equation, and the quadratic formula works for complex
+numbers too, so you can find both solutions with that.
+
+In the first case, the conjugate makes things a little odd for
+treating as a complex number, so you have to do real and imaginary
+parts, just like you did:
+
+  2*(a+bi)^2 - 3*(a-bi)^2 = 10i
+  2*(a^2+2abi-b^2) - 3*(a^2-2abi-b^2) = 10i
+  2a^2 + 4abi - 2b^2 - 3a^2 + 6abi + 3b^2 = 10i  <-- Note the last 3!
+  -a^2 + 10abi + b^2 = 10i
+
+Then you have to remember that a and b are real numbers, so that means
+that
+
+  (b^2 - a^2) + (10ab - 10)i = 0
+
+must have real part
+
+  b^2 - a^2 = 0
+
+and imaginary part
+
+  10ab - 10 = 0.
+
+Can you solve those equations for a and b?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

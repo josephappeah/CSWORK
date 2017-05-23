@@ -1,0 +1,72 @@
+ThreadNum: 566790
+Subject: Re: the smoothest function
+To: t_d_lowe@hotmail.com (Tom)
+From: Doctor Douglas
+TimeStamp: 08/16/2004 at 13:55:35
+Sent: yes
+
+
+As Tom wrote to Dr. Math
+On 08/15/2004 at 22:31:35 (Eastern Time),
+>Ah, that a very interesting function y = e^(-1/x^2) and I see how 
+you 
+>can build what I was looking for out of this function (one may also 
+>be able to use e^(-1/x).
+>Yes y = x would be the smoothest function in between x = -1 and x = 
+1 
+>but together with f(x<-1) = -1 and f(x>1) = 1, one would need f(x) 
+to 
+>be 0 in every derivative at x = -1 and x = 1 to create the smoothest 
+>function over all x.
+>I suppose root of the problem is, is there a definition of 
+smoothness 
+>beyond the number of continuous derivatives, or can you quantify 
+>smoothness on an infinitely differentiable function? 
+>Presumably if you could, then sin(x) should rate as pretty smooth as 
+>none of its differentials are greater than 1 in magnitude. It also 
+>seems like it wouldn't be too hard to do, something to do with the 
+>total energy of each derivative which would be the integral of that 
+>derivative squared. But it would be a weighted sum of all these 
+>energies and I don't know whether there is an obvious way to weight 
+>the importance of each derivative.
+>
+>Finally, it seems that the integral of e^-sec(x) would be a very 
+>simple transition function, so might even be the smoothest. This 
+>appears to be equivalent to the series (1-x^2)*(1-x^4)*... that I 
+>mentioned before (bar some scaling).
+
+Hi Tom.
+
+You are right to identify the root of the problem as one of 
+definition--it comes down to exactly what you mean by smooth.
+Mathematicians have given the word "smooth" a technical meaning,
+and this may or may not be what you want for a particular 
+application--the use of exponentials such as e^-[P(x)] might be
+useful for analytical work (because taking derivatives is a bit
+easier), but be totally inappropriate for a computer graphics 
+program (which needs to perform numerical evaluations as fast as
+possible).
+
+Other choices might involve a maximum value of some set of 
+low-order derivatives (I think this is what you meant by referring
+to velocity and acceleration earlier).  For example if you allowed
+f(x)=x between x in [-1,1], you would have kept the velocity minimum
+(since |df/dx| <= 1, but without any sort of constraint on the
+acceleration (which in fact doesn't exist at x=-1 and +1.).  I 
+believe that a sine wave will perform similarly--you can use
+
+  f(x) = sin(pi*x/2)
+
+as your bridging function--certainly f(1) = 1, and f'(1) = 0,
+but f''(1-) = -pi^2/4, and you can see that higher derivatives are
+all going to fail to exist at the endpoints. 
+
+Regarding your thoughts about "energy", there is a way to 
+quantify this--it involves computing the power spectrum of the
+function f(x) using the Fourier Transform.  You can try to find
+functions that have power only at "low" frequencies, or minimize 
+the amount of power in bins above a certain frequency, etc.
+ 
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

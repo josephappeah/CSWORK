@@ -1,0 +1,88 @@
+ThreadNum: 566529
+Subject: Re: How can i work out the question below FAST
+To: thehanveys@bellsouth.net (MesiNesi)
+From: Doctor Vogler
+TimeStamp: 08/11/2004 at 17:49:22
+Sent: yes
+
+
+As MesiNesi wrote to Dr. Math
+On 08/11/2004 at 16:34:10 (Eastern Time),
+>[Question]
+>i'm on a math team at my school and time is of the utmost 
+>importance.We have many questions like this: WHICH OF THE FOLLOWING 
+>FRACTIONS WOULD RESULT IN A TERMINATING DECIMAL? a.84/108 b.168/176 
+>c.143/104 d.104/143
+>
+>Is there a fast way to work this out? Maybe a shortcut or, really 
+>anything other than guess and check?
+>
+>[Difficulty]
+>It is very time consuming to work out each fraction.
+>
+>[Thoughts]
+>Maybe there is some shortcut.  My class has been working on it for 
+>the past few days, but so far we haven't come up with a completly 
+>faultless, fast way to work out the fractions.
+
+Hi MesiNesi,
+
+Thanks for writing to Dr Math.  There *is* a fast way.  Let me explain
+how it comes about.  Let's suppose that you have a number that is a
+terminating decimal, such as
+
+  x = 23.56452
+
+Then then is some power of 10 that you can multiply it by to get an
+integer, right?
+
+  10^5 * x = 2356452
+
+So then x is the fraction
+
+  x = 2356452/100000
+
+of course, now you can eliminate common factors from the numerator and
+denominator (like 2) to put x in simplest form.
+
+So let's recap:  If we have a number whose decimal form terminates,
+then it can be written as an integer divided by a power of 10.  When
+you eliminate common factors to put the number in simplest form, then
+the denominator will still have no other primes factors besides
+(possibly) 2 and 5.
+
+So if you have a fraction in simplest form whose denominator is
+divisible by some prime *other* than 2 or 5, then it will *not*
+terminate.  On the other hand, if you have a fraction whose denominator is
+
+  2^a * 5^b,
+
+then you can multiply the numerator and denominator by
+
+  2^(b-a)
+
+or
+
+  5^(a-b),
+
+depending on whether a or b is greater, and now you have the number
+written as an integer divided by a power of 10, and it is clearly a
+terminating decimal.
+
+So how do you decide if the denominator is only divisible by the
+primes 2 and 5?  Well, you could factor it, but that can sometimes by
+very time consuming.  But you don't have to factor it.  If the number
+is even (look at the last digit), then divide by 2.  Repeat until the
+number is odd.  Now if the number is divisible by 5 (if the last digit
+is 5), then divide by 5.  Repeat until the number is not divisible by
+5.  If you end up with 1, then the number will terminate.  If you end
+up with anything else, then the number will repeat.
+
+In your examples, all four of them repeat.  None terminate.
+
+If you have any questions about this or need more help, please write
+back, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,37 @@
+ThreadNum: 566611
+Subject: Re: pi-e
+To: duffy.mark@cathednet.wa.edu.au (Mark Duffy)
+From: Doctor Ian
+TimeStamp: 08/12/2004 at 13:32:58
+Sent: yes
+
+
+As Mark Duffy wrote to Dr. Math
+On 08/12/2004 at 00:32:44 (Eastern Time),
+>[Question]
+>I would like to know how to calculate pi-e  to fifty decimal places
+for a 
+>competition I am running next week.
+>
+>Thanks
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Mark,
+
+Look up pi to 51 places; look up e to 51 places; subtract.  
+
+That's how you compute it.  If you just want to know what it works out
+to, Mathematica says it's 
+
+  0.42331082513074800310235591192684038643992230567514625
+
+What kind of competition is it for? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

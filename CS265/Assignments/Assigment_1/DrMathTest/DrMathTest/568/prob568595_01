@@ -1,0 +1,44 @@
+ThreadNum: 568595
+Subject: Re: exploring millions
+To: sammy1094@hotmail.com (samantha)
+From: Doctor Ian
+TimeStamp: 08/25/2004 at 11:01:04
+Sent: yes
+
+
+As samantha wrote to Dr. Math
+On 08/24/2004 at 22:30:33 (Eastern Time),
+>[Question]
+>I have home work on exploring millions using heartbeats. example:if 
+>your heart beats 70 times every minute how many does it beat in one 
+>day. my question is how many times will it beat in three days,how can 
+>i figuare this out.
+>
+>[Difficulty]
+>what confuses me is if it beats 4,200 times a hour what  should i do 
+>to find out how many times it beats in 1 day or in 3 days or even in 
+>a week.
+>
+>[Thoughts]
+>WHAT!!!!!!!!!!!!!!!!!!!!!!!
+
+Hi Samantha,
+
+You've got a good start:
+
+  70 beats per min * 60 min per hr = (70*60) beats per hr
+
+Basically, you just need to do the same kind of thing again, using the
+fact that there are 24 hours in a day:
+
+  (70*60) beats per hr * 24 hr per day = (70*60*24) beats per day
+
+And if you know how many beats there are in a day, finding out how
+many there are in 3 days, or a week (which is 7 days), or even a year
+(which is 365 days) should be pretty straightforward, right? 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

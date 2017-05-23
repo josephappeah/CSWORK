@@ -1,0 +1,100 @@
+ThreadNum: 568332
+Subject: Re: VALUABLE LETTERS
+To: skmanderfield@bellsouth.net (Taylor)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 08:43:30
+Sent: yes
+
+
+As Taylor wrote to Dr. Math
+On 08/23/2004 at 20:03:32 (Eastern Time),
+>[Question]
+>EACH DIFFERENT LETTER IN THE WORDS ABOVE REPRESENTS A DIGIT FROM 1 
+>THROUGH 9. THE WORDS ARE WRITTEN AS ADDITION PROBLEMS WITH THE SUM 
+>GIVEN DETERMINE THE VALUE OF EACH LETTER.  
+>B + O + O + K = 13    F + O + I + L = 10
+>F + U + L + L = 19    S + A + I + L = 20
+>B + O + I + L = 11    S + I + L + K =18
+>
+>[Difficulty]
+>how do i begin deciding what each number is worth?
+>
+>[Thoughts]
+>Guess what each value is?
+
+Hi Taylor, 
+
+You _could_ guess, but there are enough possible combinations that it
+might take you a long, long time.  
+
+So you'll probably want to do something a little more systematic.  One
+thing you can try is to compare words that are nearly the same.  For
+example, BOIL and FOIL differ by only one letter:
+
+  B + O + I + L = 11    
+  F + O + I + L = 10
+
+What does this mean?  It means that B has to be greater than F by 1.  
+
+This is convenient, because wherever we see a B, we can replace it by
+(F+1).  Or alternatively, we can replace it by F, and subtract 1 from
+the other side of the equation.  (Do you see why?)
+
+Let's do that:
+
+  F + O + O + K = 12    
+  F + U + L + L = 19    
+  F + O + I + L = 10    
+  F + O + I + L = 10
+  S + A + I + L = 20
+  S + I + L + K = 18
+
+We have two equations for FOIL now, so we can get rid of the second:
+
+  F + O + O + K = 12    
+  F + U + L + L = 19    
+  F + O + I + L = 10
+  S + A + I + L = 20
+  S + I + L + K = 18
+
+This may not seem like much progress, but we've dropped from 6
+equations to 5, and eliminated a letter.  That's not bad! 
+
+Let's look at FOIL and FOOK:
+
+  F + O + O + K = 12    
+  F + O + I + L = 10
+
+Reasoning the same way as before, we know that O+K is 2 more than I+L.
+ So anywhere we see I+L, we can replace it with O+K, and add 2 to the
+other side.  
+
+  F + O + O + K = 12    
+  F + U + L + L = 19    
+  F + O + O + K = 12
+  S + A + O + K = 22
+  S + O + K + K = 20
+
+Now we have to FOOKs, so we can drop one:
+
+  F + O + O + K = 12    
+  F + U + L + L = 19    
+  S + A + O + K = 22
+  S + O + K + K = 20
+
+Basically, this is how you solve a problem like this.  You try to
+figure out what some items (or combinations of items) must be, when
+expressed in terms of others; and then you make the appropriate
+substitutions.  Each time you do that, you should eliminate some
+equations, some letters, or both.  
+
+Even if you run out of changes you can make this way, you'll have made
+the problem smaller, and at some point it may be reasonable to try
+guessing.  Once you've got the correct guesses for the smaller
+problem, you can work your way back up to the larger one. 
+
+Is this enough to get started? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

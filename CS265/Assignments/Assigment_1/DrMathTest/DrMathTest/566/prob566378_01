@@ -1,0 +1,42 @@
+ThreadNum: 566378
+Subject: Re: Problem solving
+To: math4u@bellsouth.net (Natalie)
+From: Doctor Ian
+TimeStamp: 08/11/2004 at 09:39:40
+Sent: yes
+
+
+Hi Natalie,
+
+>A dress is marked down 40%.  The store announces a special one-day 
+>sale whih reduces the sale price by 60%.  What percent markdown on 
+>the original price does this represent?  
+>
+>     Please explain.  I can work the problem but have trouble 
+>telling someone how.
+>
+>[Difficulty]
+>Explaining in word form.
+>
+>[Thoughts]
+>40% of $100 = $40.00
+
+Note that if you mark something down _to_ 40%, the new price is 40% of
+the original, which is what you've got here.  If you mark something
+down _by_ 40%, you eliminate 40% of the original price, leaving 60%. 
+So if the dress originally has a cost of C dollars, the sale price is
+
+  60% of C = 0.60 * C
+
+>60% of $40.00 = $24.00
+
+Same sort of deal here:  If you reduce the sale price by 60%, you have
+40% of the price remaining.  So the final price is
+
+  40% of (0.60 * C) = 0.40 * 0.60 * C
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

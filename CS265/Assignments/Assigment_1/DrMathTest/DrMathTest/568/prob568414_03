@@ -1,0 +1,36 @@
+ThreadNum: 568414
+Subject: Re: I believe I have discovered a new formula! I need help!
+To: darkangel8121@yahoo.com (Brad)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 19:30:42
+Sent: yes
+
+
+Hi Brad,
+
+>Thank you very much Dr. Ian! However, does this work with strings that
+>don't start at 1? 
+
+Yes, for the more general version,
+
+  (b+e)(e-b+1)/2
+
+you can begin with any number 'b', and end with any number 'e'. 
+
+>What if in a math book the question were this:
+>
+>You have fifty barrels in one row labeled 1 to fifty. In the first
+>barrel you have 13 pineapples. Each barrel after that has one more
+>than the previous barrel (ie:13, 14, 15, 16). How many pineapples are
+>there in total?
+
+Here b = 13, and e = 62, so the total is 
+
+    (13 + 62)(62 - 13 + 1)/2
+
+I've never heard of a formula like this 'just coming' to someone. 
+Even Gauss had to work it out, when he discovered it at about age 10. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

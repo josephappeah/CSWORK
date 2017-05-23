@@ -1,0 +1,36 @@
+ThreadNum: 567595
+Subject: Re: the " use of the j operator"
+To: dstanton@gdatp.com (Dennis)
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 12:11:10
+Sent: yes
+
+
+As Dennis wrote to Dr. Math
+On 08/18/2004 at 20:56:14 (Eastern Time),
+>[Question]
+>in engineering they use the j operator for a non existant number.
+>
+>[Difficulty]
+>it is my understanding that this use of " i " or in electrical 
+>engineering " j " is equal to a non existing number or the square 
+>root of -1 which is impossible. So if it cannot be used in an 
+>equation, why use it ?
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+How is the square root if -1 impossible? It has been defined for you.
+The Greeks believed the square root of 2 being irrational was
+impossible. As an electrical engineer, I assure you that 'j' is
+perfectly acceptable and incredibly useful in electrical engineering.
+Many of the insights and theory we develop in EE would not really be
+possible without it.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,66 @@
+ThreadNum: 566459
+Subject: Re: what is logarithm of zero?
+To: mnrcc@rediffmail.com (vijay)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 08:03:49
+Sent: yes
+
+
+As vijay wrote to Dr. Math
+On 08/13/2004 at 05:38:48 (Eastern Time),
+> The product of slopes of any two perpendicular lines is '-1' but the 
+>product of slopes of x-axis and y-axis which are perpendicular is 
+>not '-1' why?
+
+Hi Vijay,
+
+That's a really good question!  The answer is that you have the
+implication backwards.  It's not 
+
+  If two lines are perpendicular, 
+  then the product of their slopes is -1. 
+
+It's really
+
+  If the product of the slopes of two lines is -1,
+  then the lines are perpendicular. 
+
+Do you see the difference?  What makes the difference in wording
+important is that some lines don't have slopes - in particular, the
+slope of any vertical line is undefined.  
+
+Suppose we have a line like x=3, which is vertical.  We want to
+compute the slope of the line, so we choose two points on the line,
+say (3,1) and (3,2).  The slope is the change in y divided by the
+change in x, 
+
+          change in y   2 - 1   1
+  slope = ----------- = ----- = - = undefined
+          change in x   3 - 3   0
+
+So the slope of the line is undefined.  Does this mean it can't be
+perpendicular to other lines?  Not at all!  Any vertical line is
+perpendicular to any horizontal line... which means that the x-axis
+and the y-axis are perpendicular, even though the slope of the y-axis
+is undefined.  
+
+If we say
+
+  If two lines are perpendicular, 
+  then the product of their slopes is -1.
+
+then we're saying the only way a line can be perpendicular to another
+line is if it has a slope.  But if we say 
+
+  If the product of the slopes of two lines is -1,
+  then the lines are perpendicular. 
+
+we're saying that this is one possible way to determine whether two
+lines are perpendicular, but we're not insisting that every pair of
+perpendicular lines has to pass this test. 
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

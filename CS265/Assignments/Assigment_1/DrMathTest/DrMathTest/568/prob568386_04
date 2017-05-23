@@ -1,0 +1,44 @@
+ThreadNum: 568386
+Subject: Re: Thank you (Story problem dealing with ratios)
+To: nkrebs@moseslake-wa.com (Richard)
+From: Doctor Jerry
+TimeStamp: 08/24/2004 at 11:48:51
+Sent: yes
+
+
+As Richard wrote to Dr. Math
+On 08/24/2004 at 10:45:48 (Eastern Time),
+>Dear Dr. Jerry,
+>     Did I solve the quadratic correctly when I came up 
+>with the following answer:
+>   F/C =  the sq.rt. of ( 2* F/C + 1 ) 
+>  If not, please explain the correct answer.
+>     The answer that had been given to me was:
+>             ( 1 + 2 * the sq.rt. of 2 ) : 1
+>      I assume this is an incorrect answer?????
+>                  
+>                        Anxiously awaiting your answer,
+>                        Richard
+
+Hello Richard,
+
+I've been biking.  Hope my comments aren't too late.
+
+f^2/c^2 = 2f/c +1
+
+Let w=f/c
+
+w^2-2w-1 = 0
+
+By the quadratic formula,
+
+w = [2+sqrt(4+4)]/2 and w = [2-sqrt(4+4)]/2
+
+These simplify to 
+
+w=1+sqrt(2)   and w = 1 - sqrt(2).  The latter is negative and so we ignore.
+
+Unless I've made a conceptual or calculational mistake, I think this is the answer.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,62 @@
+ThreadNum: 567268
+Subject: Re: How do i prove at test for divisibiliby of a number by 7
+To: spark@stedmunds.cg.catholic.edu.au (Jae)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 10:34:19
+Sent: yes
+
+
+As Jae wrote to Dr. Math
+On 08/17/2004 at 06:38:31 (Eastern Time),
+>[Question]
+>if the last digit of a number doubled is subtracted from the 
+>remaining numbers until two digits are left and divisible by 7, that 
+>number is divisible by number 7.
+>
+>Thats my statement... 
+>p -> q
+>
+>
+>What will be the best way to prove this statement?
+>i tried using ~q->~p and induction but it wont work that way
+>please answer this question for me
+>thank you
+>
+>[Difficulty]
+>How do i prove this?
+>
+>[Thoughts]
+>I tried many ways but most of them wont' work because i can't 
+>generalise the statement
+>
+
+Hi Jae,
+
+Thanks for writing to Dr Math.  That's also the rule we have at
+
+  Divisibility rules
+  http://mathforum.org/dr.math/faq/faq.divisibility.html
+
+but the link for explanations at the bottom of that FAQ actually
+refers to a different rule.
+
+I would start by writing your number in the form
+
+  10*a + b
+
+where "a" is the "remaining numbers" and "b" is the last digit.  You
+want to prove that
+
+  7 divides (10*a + b) if and only if 7 divides (a - 2*b).
+
+I would start by proving that
+
+  7 divides (10*a + b) if and only if 7 divides (10*a - 20*b).
+
+Does this help?  If you have any questions about this or need more
+help, please write back and show me what you have been able to do, and
+I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

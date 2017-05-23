@@ -1,0 +1,56 @@
+ThreadNum: 566767
+Subject: Re: Prime Numbers
+To: derot@mchsi.com (Daryl Tucker)
+From: Doctor Vogler
+TimeStamp: 08/13/2004 at 12:21:49
+Sent: yes
+
+
+As Daryl Tucker wrote to Dr. Math
+On 08/12/2004 at 21:24:52 (Eastern Time),
+>[Question]
+>Hello.  I was wondering if there was a formula in finding if a number
+>is prime.  I've writen a program that will tell you if a number is
+>prime, but it is slow for larger numbers because it checks all numbers
+>between 1 and the number to see if they are factors of the larger
+>number. As you can see, checking a number in the billions would result
+>in billions of divisions, which takes time.
+>
+>[Difficulty]
+>I've tried figuring this out myself, and searching online, but i can't
+>find any formulas (or anything other than explanations of prime numbers)
+>
+>Any help will be appreciated
+>
+>Daryl Tucker
+>derot@mchsi.com
+>
+>[Thoughts]
+>
+
+Hi Daryl,
+
+Thanks for writing to Dr Math.  There are several "formulas."  They
+are called "primality tests."  First there are the "pseudoprimality
+tests" which can quickly tell you if a number is NOT prime, but they
+can not guarantee that a number IS prime.  The Fermat test is the
+best-known of these.  The true primality tests are more complicated
+(which is why you usually start by checking if the number is clearly
+composite first, with a pseudoprimality test) but they can tell you
+conclusively whether a number is prime.  In fact, a recent discovery
+was a "polynomial-time deterministic primality test" which means that
+it is "fast" by a particular technical definition of "fast."  Other
+non-deterministic algorithms are more effective or more efficient, but
+this one is interesting theory.  For precise descriptions of
+particular primality tests, search Google for "primality test."  See
+also the account on MathWorld at
+
+  http://mathworld.wolfram.com/PrimalityTest.html
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

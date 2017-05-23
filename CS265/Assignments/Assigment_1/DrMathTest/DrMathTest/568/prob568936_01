@@ -1,0 +1,76 @@
+ThreadNum: 568936
+Subject: Re: Multiplying decimals
+To: jwaw@charter.net (Angela)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 18:20:16
+Sent: yes
+
+
+Hi Angela,
+
+>My sixth grades is doing a week by week essential problems of the 
+>week sheet. There are 26 problems which we have completed but one. 
+>The problem ask "Two methods can be used to determine where to place 
+>a decimal point when multiplying decimals. Tell what they are.
+
+Wow, only two?  It's hardly ever the case that there are only two ways
+to do anything.  :^D
+
+>As a parent I have only found one method which is:
+>When multiplying decimals forget the decimal points and multiply the 
+>whole numbers together. Then workout the how many decimal places are 
+>there in the problem. If the problem has two decimal places move the 
+>decimal point tow places to the left to get your final answer. If the 
+>problem has three decimal places the final answer should have three 
+>decimals places and etc.
+
+Apart from the vagueness of 'work out' and 'if the problem has', that
+seems like a reasonable approach. 
+
+>As a parent, I am at a lost as to what other method they could be 
+>referencing and ideas?  Thank you for your help.
+
+You can always write a decimal as a fraction, e.g., 3.2 is the same as
+32/10.  So you can multiply decimals by multiplying fractions, 
+
+              32   45   32 * 45   1440
+  3.2 * 4.5 = -- * -- = ------- = ----
+              10   10    100       100
+
+and then you can convert back, 
+
+   1440
+   ---- = 14.40
+    100
+
+If you look carefully, this simply explains _why_ the first method
+works... when you count up the decimal places for both multiplicands,
+you're really just counting the zeros in the denominator, which
+amounts to the same thing. 
+
+Pretty much every other way of doing it is really going to boil down
+to a variation on this, though, for the simple reason that decimals
+ARE fractions, whose denominators are always powers of 10, and which
+happen to be written using a very compact notation.  So every rule you
+can make up for figuring out where to put the decimal point is going
+to come back to counting up exponents on powers of 10...
+
+For example, I could make up a technique like 
+
+    356.4 * 29.38 * 
+
+  = (356.4 * 1) * (29.38 * 1)
+
+  = (3564 * 1/10) * (2938 * 1/100)
+
+  = (3654 * 2938) * (1/10 * 1/100)
+
+  = ...
+
+but it's really just the same thing in a different disguise. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

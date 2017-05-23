@@ -1,0 +1,34 @@
+ThreadNum: 567040
+Subject: Re: Triginometry
+To: ur6boys@hotmail.com (Steve)
+From: Doctor Jerry
+TimeStamp: 08/15/2004 at 17:40:42
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 08/15/2004 at 17:35:57 (Eastern Time),
+>[Question]
+>find the height of a building that casts a 40 foot shadow at a  30 
+>degree angle ? I can not figure this out
+>
+>[Difficulty]
+>the whole formula to figure it out
+>
+>[Thoughts]
+>
+
+Hello Steve,
+
+You have a right triangle, with one acute angle 30deg.  The side adjacent to that angle is 
+40 ft.  So,  letting h be the height of the building, 
+
+tan(30deg) = h/40.
+
+So,
+
+h=40*tan(30deg).
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

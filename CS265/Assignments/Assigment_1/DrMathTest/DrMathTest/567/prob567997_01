@@ -1,0 +1,61 @@
+ThreadNum: 567997
+Subject: Re: Circle layout
+To: 3f8s@voicenet.com (Chris)
+From: Doctor Jerry
+TimeStamp: 08/21/2004 at 08:45:29
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 08/21/2004 at 08:24:23 (Eastern Time),
+>[Question]
+>I work construction as a carpenter and need to layout interior 
+>partition walls on a curve. More specifically, this curve is a 25'-0" 
+>radius. The problem is that the "focus" point or pivot point to swing 
+>the radius is not accessible to me because it's position is located 
+>dead center of an existing column.
+> What is the best and most efficient way to proceed while trying to 
+>maintain the integrity of the 25' radius?
+>
+>Thank you
+>Chris Grubb
+>
+>[Difficulty]
+>I'm lost without access to the radius point, but realize the 
+>importance of maintaining the integrity of the curve. And I don't 
+>really have much of a background in geometry if that's what is 
+>required here. 
+>
+>[Thoughts]
+>
+
+Hello   Chris,
+
+See the image at
+
+http://mathforum.org/dr.math/gifs/post25.jpg
+
+If you can draw lines 1 and 2, which are perpendicular to each other, and can figure out he 
+radius r of the column (in feet), you can lay out the circle or any part of it.
+
+If you move out on line 1, going x ft from the post, then you are x+r ft from the center.  If 
+you then move upwards, parallel to line 2, a distance of sqrt(625-(x+r)^2), you will be on 
+the circle.  
+
+You will need a calculator.  If, for example, r=0.75 ft and x=0.5 ft, then
+x+r=1.25.
+
+(x+r)^2 means multiply x+r by itself:  1.25*1.25=1.5625
+
+Subtract this from 625:
+
+625-1.5625= 623.4375
+
+sqrt(623.4375) means take the square root of 623.4375 .  Most calculators have a square 
+root button.
+
+sqrt(623.4375=24.97 ft.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

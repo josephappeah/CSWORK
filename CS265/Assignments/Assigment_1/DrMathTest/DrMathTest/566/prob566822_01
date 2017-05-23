@@ -1,0 +1,67 @@
+ThreadNum: 566822
+Subject: Re: digits in the answer of a number raised to another number 
+To: ethanqueen@yahoo.com (Ethan Queen)
+From: Doctor Roy
+TimeStamp: 08/13/2004 at 12:34:43
+Sent: yes
+
+
+As Ethan Queen wrote to Dr. Math
+On 08/13/2004 at 12:28:41 (Eastern Time),
+>[Question]
+>I am looking for an equation to figure out approx. how many digits 
+>will be in the answer of one number raised to another number.
+>
+>Right now I am only working on a single digit raised to a multiple 
+>digit number.
+>
+>[Difficulty]
+>I just can't figure out how to do it. If I had an equation it would 
+>be no problem.
+>
+>[Thoughts]
+>As of now I have just been using a brute force method that I worked 
+>out with trial/error, but every digit from 2 to 9 has to use a 
+>different value in my brute force equation and if I want to use it 
+>for a smaller power, the value as to change or I end up with too many 
+>digits(leading zeros) in the answer.
+>
+>And the number 2 has given me the most problem.... 3 - 9 work out 
+>pretty closely, but 2 is just horrible to use with my brute force 
+>method.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+A decent approximation for 2 is the exponent multiplied by roughly 0.3.
+
+The number of digits in a number is given by:
+
+    # of digits = floor( [log(base 10) number] + 1)
+
+For example, 12:  log(base 10) 12 = 1.08
+                  1.08 + 1 = 2.08
+                  floor(2.08) = 2
+
+So, 12 has 2 digits.
+
+Another, not so obvious example:
+
+    2^128:     log(base 10) 2^128 = 128*[log(base10) 2]
+                                  = 128*0.301
+                                  = 38.53
+
+This means that 2^128 has 39 digits.
+
+Remember what the logarithm (base 10) represents. It gives you the
+nearest power of 10. Since the number of digits simply represents the
+value of each power of 10 in a number, the logarithm (base 10) is all
+you need.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

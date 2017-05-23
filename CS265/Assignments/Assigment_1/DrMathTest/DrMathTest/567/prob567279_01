@@ -1,0 +1,38 @@
+ThreadNum: 567279
+Subject: Re: Calculating chord length in terms of arc length and radius
+To: twilson@brazoscad.org (Thomas)
+From: Doctor Jerry
+TimeStamp: 08/17/2004 at 09:38:44
+Sent: yes
+
+
+As Thomas wrote to Dr. Math
+On 08/17/2004 at 09:33:22 (Eastern Time),
+>[Question]
+>Is it possible to calculate chord length while only having the arc 
+>length, radius, delta, and tangent length?  Basically I have one big 
+>arc for which I know all the above information along with the chord 
+>length and chord bearing, but I'm trying to break the arc up into 
+>several smaller arcs, for which I need the chord length.  Is this 
+>possible?
+>
+>[Difficulty]
+>This question comes from trying to figure out how to determine the 
+>curve information from surveying drawings.  They will give me a 
+>larger arc and then expect me to figure out what the measurements are 
+>on the arc segments.
+>
+>[Thoughts]
+>
+
+Hello Thomas,
+
+See
+
+http://mathforum.org/dr.math/faq/faq.circle.segment.html
+
+I think this will answer your question.  If this doesn't help, please write again.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

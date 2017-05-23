@@ -1,0 +1,95 @@
+ThreadNum: 568655
+Subject: Re: TRIGNOMETRIC PROBLEM
+To: nidhicobra@yahoo.com (NIDHI)
+From: Doctor Dotty
+TimeStamp: 08/25/2004 at 11:33:08
+Sent: yes
+
+
+As NIDHI wrote to Dr. Math
+On 08/25/2004 at 08:42:55 (Eastern Time),
+>[Question]
+>IN A TRIANGLE ABD AB=AC, BC=6CM, ANGLE B=37. FIND THE ALTITUDE THRU 
+A
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Nidhi,
+
+Thanks for the question.
+
+                    . B
+                .    
+            .    37 .
+        .            
+  A .               . 6 cm
+        . 
+            .       .
+                .
+                    . C
+
+We want angle A.
+
+If we split the triangle in half down a line that goes through A and 
+half way between BC we get:
+
+                    . B
+                .    
+            .    37 .  3cm
+        .          _ 
+  E .    .   .   .| .
+                      D
+
+Angle D is a right angle. This enables us to use more trigonometric 
+rules. Angle E is half of angle A (it is at the same point). Angle E 
+is half of angle A as the triangle is an isosceles (as AB=AC).
+
+I don't know whether or not you know the following trigonometric 
+rules. They work on a right-angled triangle with an angle x (not the 
+right angle). Then 'o' is the side opposite the angle, 'a' the side 
+adjacent to the angle, and 'h' the hypotenuse (the longest side; 
+opposite the right angle).
+
+          o
+  sin x = -
+          h
+
+          a
+  cos x = -
+          h
+
+          o
+  tan x = -
+          a
+
+So using those, we can find the length of the side EB. If we let x 
+represent angle B, then AB is the hypotenuse.
+
+           a
+   cos x = -
+           h
+
+           3
+  cos 37 = -
+           h
+
+             3
+       h = ------
+           cos 37
+
+
+       h = 3.75641...
+
+Now, we have length EB and length BD, and we want angle E. Can you 
+use one of the trigonometric rules to find angle E and double it to 
+get angle A?
+
+Write back if I can be of any more help - on this or anything else.
+
+- Doctor Dotty, The Math Forum
+  <http://mathforum.org/dr.math/>
+

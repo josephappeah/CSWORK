@@ -1,0 +1,46 @@
+ThreadNum: 568038
+Subject: Re: cube roots using a calculator
+To: strwbrry868@yahoo.com (Em)
+From: Doctor Tom
+TimeStamp: 08/21/2004 at 18:35:37
+Sent: yes
+
+
+As Em wrote to Dr. Math
+On 08/21/2004 at 17:28:37 (Eastern Time),
+>[Question]
+>This is an example from my textbook, using volume to find the surface
+>area of a sphere. Finding the radius is the first step. The book just
+>says "Take cube roots" and "Use a calculator". It does not tell me
+>what keys to hit. How do I type this into a calculator:
+>                
+>                 the cube root of 5000(3/4pi)
+>
+>The radical sign before the "5000" has a little 3 in it.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Em,
+
+It depends on what kind of calculator you have.  If it's got
+something like y^x (raise y to the x-th power), then just
+use x = 1/3.  In other words
+
+cube_root(x) = x^(1/3)
+
+If you don't have that, but have ln(x) and e^x, you can do
+it like this:
+
+cube_root(x) = e^(ln(x)/3)
+
+To make sure you know what you're doing, try it on an
+example where you know the answer; for example:
+
+cube_root(8) = 2.
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

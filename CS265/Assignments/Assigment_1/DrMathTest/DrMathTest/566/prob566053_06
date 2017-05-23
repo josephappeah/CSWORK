@@ -1,0 +1,97 @@
+ThreadNum: 566053
+Subject: Re: Combinatorics - Occupancy problems
+To: rmbeekman@msn.com (Rich)
+From: Doctor Anthony
+TimeStamp: 08/12/2004 at 12:20:11
+Sent: yes
+
+
+As Rich wrote to Dr. Math
+On 08/11/2004 at 22:29:34 (Eastern Time),
+>Consider a simpler example.  Suppose we have 3 red marbles and 4 
+>white marbles.  In how many ways can we distribute the marbles into 
+>4 indistinguishable boxes?
+>
+>Using your approach, we find the partitions of each color 
+separately 
+>into at most 4 parts.  As you pointed out, there are 3 partitions 
+of 
+>3, namely {3}, {2,1}, and {1,1,1}.  Similarly, there are 5 
+>partitions of 4 into at most 4 parts, namely {4}, {3,1}, {2,2}, 
+>{2,1,1}, and {1,1,1,1}.
+>
+>Next, using the multiplication principle, as you did, we would get 
+3 
+>x 5 = 15 ways to distribute 3 red marbles and 4 white marbles into 
+4 
+>indistinguishable boxes (with empty boxes allowed).  However, 
+>this "answer" is incorrect, because we can systematically "build" 
+44 
+>(not 15) distributions with empty boxes allowed.  In fact, to 
+>disprove that 15 is the "answer," it is sufficient to show that 
+>there are 16 ways to distribute 3 red marbles and 4 white marbles 
+>into 4 indistinguishable boxes with NO box empty:
+>
+>1. [W W]  [W]  [W]  [RRR]
+>2. [RRRW]  [W]  [W]  [W]
+>3. [RR]  [R]  [WWW]  [W]
+>4. [WW]  [WW]  [RR]  [R]
+>5. [WW]  [W]  [WRR]  [R]
+>6. [RRWW]  [W]  [W]  [R]
+>7. [WW]  [W]  [RW]  [RR]
+>8. [WWR]  [W]  [W]  [RR]
+>9. [RRW]  [RW]  [W]  [W]
+>10. [WWWW]  [R]  [R]  [R]
+>11. [WWW]  [RW]  [R]  [R]
+>12. [WWWR]  [W]  [R]  [R]
+>13. [WW]  [WWR]  [R]  [R]
+>14. [WW]  [RW]  [RW]  [R]
+>15. [WWR]  [RW]  [W]  [R]
+>16. [WR]  [WR]  [WR]  [W]
+>
+>Of course, the order of marbles within a box does not matter.  
+Also, 
+>the ordering of the boxes themselves does not matter.
+
+
+Yes, you are correct.  The simple multiplication rule will not 
+apply.  Looking at the detail more closely, for example with 2 red 
+and 3 blue in 2 boxes, the partitions are
+
+     (2,0), (1,1)  RED
+
+and  (3,0), (2,1)  BLUE
+
+The 2 Red in top row can be in same box as 3 Blue
+                                           0  "
+                                           2  "
+                                           1  "   
+
+with 0 Red in the other box.  
+
+So this gives  (RRBBB)  (0)
+               (RR)     (BBB)
+               (RRBB)   (B)
+               (RRB)    (BB)    Total = 4 possibilities.
+
+However when we come to (1,1) Red partition in top row, because of 
+the repeated numbers we no longer get 4 possibilities, but only 2, 
+namely
+
+    (RBBB)   (R)
+    (R)      (BBB)
+
+further combinations would simply repeat the above two.  This means 
+that the nature of a partition affects the way it combines with 
+other colours.  Only if every partition had no multiple elements, 
+like (3,3,1,1,1) if partitioning 9 into 5 parts, could a simple rule 
+be established.  I have to accept the statement you quoted that the 
+calculation becomes very complex.
+
+Anyhow, thanks for pointing out my mistake.  I will look at the 
+question at leisure and see if some strategy can be devised.
+ 
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

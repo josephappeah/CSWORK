@@ -1,0 +1,48 @@
+ThreadNum: 566894
+Subject: Re: How do you find missing lengths on triangles
+To: cute_roses_123@hotmail.com (Sania)
+From: Doctor Jerry
+TimeStamp: 08/14/2004 at 09:16:45
+Sent: yes
+
+
+As Sania wrote to Dr. Math
+On 08/14/2004 at 08:15:16 (Eastern Time),
+>[Question]
+>Hi! So here goes, you have 2 triangles, each the same exact shape, 
+>just different sizes. I have to find out the missing length of the 
+>LARGER triangle with clues from the little one. The lengths are 8.5, 
+>7.5, and 4 cm. There are two missing lengths on the larger one. The 
+>length for that is 12 cm. Its soooooo confusing!! Could you please 
+>help?? Thanx, Sania
+>
+>[Difficulty]
+>HOW do I find the missing lengths? I just plain cannot get the hang 
+>of it.
+>
+>[Thoughts]
+>Here are some things I did: 
+>I tried subtracting from the given side of the larger triangle which 
+>is 12 cm, to the same side of the smaller triangle which is 7.5 cm. 
+
+Hello Sania,
+
+The triangles are "similar," which means that corresponding parts of the two triangles are 
+in the same ratio.
+
+If the sides are a, b, and c for one triangle and A, B, and C for the other, then
+
+a/A=b/B=c/C, where k is some constant.
+
+Let's suppose that a=4, b=7.5, and c=8.5.
+
+From a/A=b/B=c/C we see that  a/b = A/B and a/c = A/C.  So,
+
+4/7.5=A/B  and  4/8.5=A/C.
+
+If C=12 (we're guessing, but there are only three possibililties), then
+from 4/8.5=A/12, we find that A=12*4/8.5.  From there we can calculate B and C.  I'd 
+check to see if everything is consistent.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

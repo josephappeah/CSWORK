@@ -1,0 +1,34 @@
+ThreadNum: 568727
+Subject: Re: remainder in division by negative integers
+To: ferezya@yahoo.com (Jasmine)
+From: Doctor Peterson
+TimeStamp: 09/06/2004 at 21:05:29
+Sent: yes
+
+Hi, Jasmine.
+
+As Jasmine wrote to Dr. Math
+On 09/06/2004 at 17:08:31 (Eastern Time),
+>Hi Dr. Peterson,
+>I have another question about the place values of digits.
+>In base 10, we say that the place value of 6 is 6*10 in 361, and 361 
+>is a 3 digit number in base 10.
+>If we convert 361 to a number in base 6 we get 1401.
+>So what can we say about 361? Is it a 3 digit number, or is it a 3 
+>digit number in base 10. Is it also a 4digit number in base 6?
+>Or is the number of digits of a number is unique?
+>Thank you very much.
+>Sincerely yours,
+>Jasmine
+
+We say that 361 has a three-digit expansion (or representation) in 
+base 10. The number of digits is not an inherent property of a 
+NUMBER, but of a NUMERAL (a representation of a number in a certain 
+base). When we just say it is a 3-digit number, we are implying "in 
+base 10". Once you get talking about other bases, you have to make 
+that explicit.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,62 @@
+ThreadNum: 567264
+Subject: Re: implicit differenciation
+To: shinkentom@hotmail.com (kevin)
+From: Doctor Fenton
+TimeStamp: 08/17/2004 at 23:35:15
+Sent: yes
+
+
+As kevin wrote to Dr. Math
+On 08/17/2004 at 05:33:08 (Eastern Time),
+>[Question]
+>Use implicit differenciation to help show that the sum of the 
+>intercepts made on the x and y axes by the intercepts made by ther 
+>tangent to     sqrt x + sqrt y =c, at any point is constant
+>
+>[Difficulty]
+>i dont understand wht the question technically means and how to prove 
+>it
+>
+>[Thoughts]
+>
+
+Hi Kevin,
+
+Thanks for writing to Dr. Math.  The equation 
+
+   sqrt(x) + sqrt(y) = c
+
+defines a curve in the first quadrant (both x and y must
+be positive since they are under the radical).  Suppose
+(x0,y0) is a point on this curve.  Then
+
+  sqrt(x0) + sqrt(y0) = c  .
+
+The problem first asks you to use implicit differentiation 
+to find the slope of the tangent line to the curve at the
+point (x0,y0) (which is the derivative y' or dy/dx, evaluated
+at the point).  When you use implicit differentiation, the
+formula for dy/dx will have both x and y in the formula.
+
+Then, knowing the value of the slope m = dy/dx (evaluated at
+(x0,y0)), you should be able to write the equation of the
+tangent line (the line through (x0,y0) with slope m).  If you
+write the equation of the tangent line in the form
+
+   Y = mX + b,
+
+then b will be the y-intercept, and you set Y=0 and solve for 
+X to determine the value of the x-intercept.
+
+You are supposed to add these two intercepts, and show that
+the sum is a constant, i.e. does not depend upon x0 or y0.
+
+Is it clear what you need to do now?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

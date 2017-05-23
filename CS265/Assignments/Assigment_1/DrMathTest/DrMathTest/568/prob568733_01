@@ -1,0 +1,128 @@
+ThreadNum: 568733
+Subject: Re: Algebra 2. . . It's a word problem
+To: WhittneyJohnson@peoplepc.com (Whittney)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 13:03:28
+Sent: yes
+
+
+Hi Whittney,
+
+>I have 2 problems and I can not solve them! The book gave me an 
+>example but the formula that it gave me to use I can't find what to 
+>fill in, so there for I have no idea. the formula is:
+>Total distance=(miles per hour)*(Number of hours)+(miles per hour)*
+>(Number of hours) but i can't figure out what goes in the MILES PER 
+>HOUR SLOT. Will you please help me
+>
+>In a football game, the quarter back is 15 yards away from making a 
+>first down and is running at 264 yards per minutes. 
+
+This is the speed, so it goes in the miles per hour slot.  Except, you
+have to convert from yards per minute to miles per hour.  
+
+>After .03 of a 
+>minute, a linebacker who is 15 yards on the opposite side of the 
+>first down marker begins running directly towards the quarterback at 
+>440 yards per minute. Will the linebacker be able to tackle the 
+>quarterback before he gets the first down?
+
+Of course, given the speeds and times involved, it would be silly to
+use miles and hours as your units of time.  Any time you multiply a
+rate and a time, you get a distance.  All you really need to do is
+make sure that you're using comparable units of time. 
+
+For example, if someone is running at 264 yards per minute, and he
+does that for 0.03 minutes, then he runs
+
+  distance = rate * time 
+
+           = 264 yards per minute * 0.03 minutes
+
+           = 264 * 0.03 yards
+
+           = about 7.9 yards
+
+In ANY case, my advice is to forget about 'formulas', because relying
+on formulas is an almost guaranteed way to get lost when you move to
+problems where there _are_ no formulas - which is more or less all of
+them after a while. 
+
+It's better to concentrate on actually understanding what's happening.
+ A picture can help with that.  We have a running back (R) who is 15
+yards from a first down (F):
+
+    R---------------------F
+          15 yd
+
+We have a linebacker (L) who is 15 yards away from the first down on
+the other side:
+
+
+    R-------------------->F<--------------------L  
+            15 yd                   15 yd
+
+They're both going to run at F, at different speeds, and we want to
+know who will get there first.  Does this make sense so far? 
+
+The running back runs at a rate of 264 yards per minute, and the
+linebacker runs at 440 yards per minute.  
+
+Now, without scrambling around trying to fit this into a 'formula', we
+can think about various ways we might answer this question.  One would
+be to ask:
+
+   How much time will it take each guy to get to F?
+
+Or, we might ask, 
+
+   In the amount of time it takes R to get to F, can L 
+   also get to F? 
+
+Or we might ask it in other ways.  What we're always looking for is
+the version of the question that will be _easiest_ to answer, because
+that's largely what math is about - turning difficult problems into
+easy ones.  (If no one has explained that to you yet, this would be a
+good time to learn it.) 
+
+I have a distance, and a rate.  The easiest thing to do is use the
+definition 
+
+  time = distance / rate
+
+to find the time it takes R to get to F.  The distance is 15 yards;
+the rate is 264 yards per minute.  So 
+
+             15 yards
+  time = ---------------
+            264 yards
+            ---------
+              1 min
+
+Note that the rate is a fraction, and to divide by a fraction, I
+multiply by the reciprocal:
+
+
+             15 yards * 1 min
+  time = -------------------- 
+                264 yards
+
+The 'yards' in the numerator cancels the 'yards' in the denominator,
+leaving me with 
+
+  time = (15/264) min
+
+       = 0.057 min
+
+Now, you want to do the same thing for the linebacker, using his rate.  
+
+And then you need to take into account one more fact:  The running
+back gets a head start of 0.03 seconds.  So to stop the running back,
+the linebacker has to get to F in at least 0.03 seconds LESS than the
+running back. 
+
+Does this make sense? 
+            
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

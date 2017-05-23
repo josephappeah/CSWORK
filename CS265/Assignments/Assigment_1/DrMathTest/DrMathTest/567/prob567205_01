@@ -1,0 +1,50 @@
+ThreadNum: 567205
+Subject: Re: applications of linear equations
+To: vballjaguar06@aol.com (Caitlin)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 20:17:07
+Sent: yes
+
+
+As Caitlin wrote to Dr. Math
+On 08/16/2004 at 19:59:39 (Eastern Time),
+>[Question]
+>The area of a square is 18 square inches less than twice the area 
+of 
+>a triangle. The base of the triangle is 3 inches longer and the 
+>altitude is the same length as the side of the square. Find the 
+side 
+>of the square.
+>
+>[Difficulty]
+>I don't know how to solve for both of the varibles using both 
+shapes. 
+>
+>[Thoughts]
+>let m be the area of the square and triangle
+>
+>area of triangle= m
+>area of square= 2m-18
+>
+>the base of the square is b, and the base of the triangle is b+3
+
+Hi, Caitlin --
+
+You complicated things by intorducing the variable m representing 
+the area of the triangle.  You don't need that variable.  The base 
+and altitude of the triangle are b+3 and b; you can get an 
+expression for the area of the triangle in terms of b by using the 
+standard formula for the area of a triangle.
+
+And the area of the square is b^2....
+
+Put all that in an equation which says the area of the square is 18 
+square inches less than the area of the triangle and you can easily 
+solve for b.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

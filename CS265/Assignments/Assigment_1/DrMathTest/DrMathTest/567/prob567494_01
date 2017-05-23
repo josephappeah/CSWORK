@@ -1,0 +1,64 @@
+ThreadNum: 567494
+Subject: Re: partial fraction
+To: al1owusu@yahoo.co.uk (albert)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 14:21:13
+Sent: yes
+
+
+As albert wrote to Dr. Math
+On 08/18/2004 at 13:47:23 (Eastern Time),
+>[Question]
+>1) Express 7x+11/(x+5)(x-3) in terms of partial fractions
+>
+>2) Express 10-4x/(x^2+6)(x+1) in terms of partial fractions
+>
+>[Difficulty]
+>everything
+>
+>[Thoughts]
+>i don't know how to solve it
+
+Hi, Albert -
+
+Let me just get you started on one of these so you can see the 
+process....
+
+(1) write the fraction as a sum of separate fractions, each one with 
+a denominator which is one of the factors in the original 
+denominator; the numerators of these fractions are to be determined:
+
+     7x+11      A     B
+  ---------- = --- + ---
+  (x+5)(x-3)   x+5   x-3
+
+(2) multiply everything through by the common denominator; 
+everything in the denominator cancels on the left; on the right one 
+of the factors cancels in each fraction:
+
+  (x+5)(x-3)(7x+1)   A(x+5)(x-3)   B(x+5)(x-3)
+  ---------------- = ----------- + -----------
+     (x+5)(x-3)          x+5           x-3
+
+  7x+1 = A(x-3) + B(x+5)
+
+(3) expand and collect like terms:
+
+  7x + 1 = Ax - 3A + Bx + 5B
+  7x + 1 = (A+B)x + (-3A+5B)
+
+(4) make two equations in the two unknowns A and B by equating the 
+coefficients of x and the constant terms on the two sides of the 
+equation:
+
+  7 = A+B
+  1 = -3A+5B
+
+(5) solve this pair of equations by your favorite method....
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

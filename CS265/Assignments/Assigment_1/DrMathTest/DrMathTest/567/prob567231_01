@@ -1,0 +1,81 @@
+ThreadNum: 567231
+Subject: Re: middle school math
+To: gwill91303@aol.com (gary)
+From: Doctor Greenie
+TimeStamp: 08/17/2004 at 01:54:47
+Sent: yes
+
+
+As gary wrote to Dr. Math
+On 08/16/2004 at 23:18:14 (Eastern Time),
+>[Question]
+>how do you draw a shape that has an area of 6 sq. units and a 
+>perimeter of 12 units?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, Gary --
+
+Another writer sent this same type of question just a few days ago.  
+After a bit of thought, I found an easy way to solve this type of 
+problem.
+
+To understand the solution process, let's take a different example.  
+Let's say I want a shape which has perimeter 10 units and area 4 
+square units.
+
+I'm going to start with a shape which has the required perimeter and 
+try to modify it so it has the required area; you will see shortly 
+why I do this.  To get a perimeter of 10, I can have a rectangle 
+with dimensions 2x3:
+
+  *************
+  *   *   *   *
+  *************
+  *   *   *   *
+  *************
+
+This rectangle has perimeter 10; but it has area 6.  I want an area 
+of 4.
+
+But look what happens when I cut a square out of one of the 
+corners:  the perimeter stays the same, but the area is reduced by 1:
+
+  *********
+  *   *   *
+  *************
+  *   *   *   *
+  *************
+
+This shape still have perimeter 10, but it has area 5.  To get my 
+desired shape with perimeter 10 and area 4, I need to cut one more 
+square out of some corner.  There are several ways I can do that:
+
+  *****                  *****          *********
+  *   *                  *   *          *   *   *
+  *************  or  *************  or  *************
+  *   *   *   *      *   *   *   *          *   *   *
+  *************      *************          *********
+
+These shapes all have perimeter 10 and area 4, as required.
+
+So for your problem, you need to start with a rectangle with 
+perimeter 12.  It can be either 3x3 or 2x4.  (Note it can't be 1x5, 
+because we can't cut "corners" out of a rectangle which is only 1 
+unit wide.)  If you start with a 3x3 rectangle, that's an area of 9 
+square units; to get the desired area of 6 square units, you need to 
+cut a total of 3 squares out of some corners.  Or if you start with 
+a 4x2 rectangle, then that's an area of 8 square units, so in that 
+case you only need to cut 2 squares out of some corners to get the 
+desired area of 6 square units.
+
+I hope this helps.  I hope you have fun with this -- you might try 
+seeing how many different shapes you can get using this method which 
+satisfy the requirements of the problem.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

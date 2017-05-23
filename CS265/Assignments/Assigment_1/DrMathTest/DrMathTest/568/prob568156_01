@@ -1,0 +1,60 @@
+ThreadNum: 568156
+Subject: Re: Horizontal stretch/shrink vs. vertical stretch/shrink
+To: monkeys4hlh@hotmail.com (Heather)
+From: Doctor Peterson
+TimeStamp: 08/22/2004 at 22:21:20
+Sent: yes
+
+Hi, Heather.
+
+As Heather wrote to Dr. Math
+On 08/22/2004 at 20:01:07 (Eastern Time),
+>[Question]
+>Why is it that when doing a horizontal shrink or stretch you 
+>multiply by the recipricle but when doing a vertical stretch or 
+>shrink you multiply by just the number.  
+>
+>[Difficulty]
+>I just want to know why this is the case because i don't understand 
+>the full explaination of why it is the way it is.
+>
+>[Thoughts]
+>
+
+There's a different way to express the dilations (stretching and
+shrinking) that makes the two look more similar.
+
+Say we have an equation
+
+  y = f(x)
+
+(I'm assuming you know about function notation.)
+
+If you stretch the graph vertically by a factor of k, the new y will
+be k times what it was for a given x:
+
+  y = k f(x)
+
+But you can also think of it as replacing y in the original equation
+with y/k:
+
+  y/k = f(x)
+
+That means that y for the new equation has to be k times as great as
+in the original equation, in order to be on the graph; dividing it by
+k gives you the equivalent "y" in the original equation, which is why
+we replace y with y/k to get the new equation.
+
+Now let's stretch horizontally by a factor of k. That can be done by
+replacing x with x/k this time:
+
+  y = f(x/k)
+
+And that is what you were asking about.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

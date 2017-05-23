@@ -1,0 +1,46 @@
+ThreadNum: 566872
+Subject: Re: math
+To: gautamraman03@yahoo.co.au (raman gautam)
+From: Doctor Greenie
+TimeStamp: 08/14/2004 at 10:43:23
+Sent: yes
+
+
+As raman gautam wrote to Dr. Math
+On 08/14/2004 at 00:17:50 (Eastern Time),
+>[Question]
+>dear sir,
+>we know that two lines are perpendicular if the product of their 
+>slopes is equal to -1.also we know that slope of x-axis is 0 and 
+>slope of y axis is infinity and we cosider that x and y axis are 
+>perpendicular.how is possibli to get  o * infinity = -1?
+>
+>i hope u got what i want to ask
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hello, Raman --
+
+(1) Most mathematicians will say that the slope of a vertical line 
+is undefined -- not that it is equal to infinity.
+
+(2) The feature of perpendicular lines that the product of the 
+slopes is equal to -1 does not apply in the case where the lines are 
+vertical and horizontal.
+
+Even if you do consider the slope of a vertical line to be equal to 
+infinity, you can't say anything like "0 times infinity equals -1", 
+because multiplication is only defined for numbers, and "infinity" 
+is not a number.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

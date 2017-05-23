@@ -1,0 +1,34 @@
+ThreadNum: 567301
+Subject: Re: Polyhedron with 8 vertices
+To: angclnet-2004@yahoo.com.br (Angelo)
+From: Doctor Vogler
+TimeStamp: 08/18/2004 at 11:16:54
+Sent: yes
+
+
+As Angelo wrote to Dr. Math
+On 08/18/2004 at 09:56:37 (Eastern Time),
+>Sorry about the lack of further information. I'll try to describe the
+>most general case of this polyhedron. It has 8 vertices, it has 12
+>faces, each face is triangular (3 edges), 18 edges, 6 edges meet at
+>each vertice. 
+>My real question is how to calculate the total volume? I have the
+>coordinates of each of the 8 vertices and I want to calculate the
+>delimited volume. Could I divide the figure into 6 tetrahedrons,
+>taking one vertice as the top of them and each opposing face as a
+>base? How should I decide if each 4 vertices define convex or concave
+>faces?
+>
+>
+
+Hi Angelo,
+
+Now you have really confused me.  If there are 8 vertices and each one
+meets 6 edges, then that's 6*8 = 48 meetings.  But every edge can only
+meet two vertices, and there are 18 edges, which is 2*18 = 36
+meetings.  So that's impossible; no polyhedron can have those
+measurements.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

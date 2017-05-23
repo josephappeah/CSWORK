@@ -1,0 +1,52 @@
+ThreadNum: 567558
+Subject: Re: partial fractions
+To: al1owusu@yahoo.co.uk (albert)
+From: Doctor Fenton
+TimeStamp: 08/20/2004 at 19:29:34
+Sent: yes
+
+
+As albert wrote to Dr. Math
+On 08/20/2004 at 18:14:56 (Eastern Time),
+>[Question]
+>10=A+6B
+>-4=A+B
+>
+>[Difficulty]
+>I am confuse i don't know if it is right
+>
+>[Thoughts]
+>10-4=A+6B+A+B
+>
+>     6B+B=7B
+>
+>6=2A
+>
+>3=A
+>
+>10=3+6B
+>
+>10-3=6B
+>
+>7=6B
+>
+>B=1 Hole number 1/6
+
+Hi Albert,
+
+You seem to be ignoring my comment that your equations are wrong
+in the first place. There is no point in solving those equations,
+because they are the wrong equations.
+
+If you get the right equations, you will still need to solve a
+system of linear equations like these, but there will be three
+variables instead of two.  
+
+You need to use elimination to solve systems like these.  For example,
+in the system above, you should subtract the two equations instead
+of adding them as you did, to eliminate the variable A and obtain
+an equation for B.  
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

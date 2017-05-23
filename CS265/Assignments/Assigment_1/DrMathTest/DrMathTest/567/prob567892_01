@@ -1,0 +1,33 @@
+ThreadNum: 567892
+Subject: Re: Calculus (graphing cosx-1 on a closed interval)..Please Help
+To: DolphinV27@AOL.com (Mary)
+From: Doctor Jerry
+TimeStamp: 08/20/2004 at 12:27:48
+Sent: yes
+
+
+As Mary wrote to Dr. Math
+On 08/20/2004 at 12:22:24 (Eastern Time),
+>[Question]
+>Let g(x)= /cosx-1/.  THe maximum value attained by g on the closed 
+>interval [0,2pi) is for x equal to ???
+>
+>[Difficulty]
+>I am not sure whether to actually graph the problem.  If so, what is 
+>a "closed interval [0, 2pi]"?  How do I mark off the graph and graph 
+>the equation?  And how do I then find the max value?
+>
+>[Thoughts]
+>I think the [0, 2pi] should go on both the x and y axis, but I don't 
+>know what goes in between or how to graph the equation.  Please Help!
+
+Hello Mary,
+
+On the closed interval [0,2pi] means that 0 <= x <= 2pi, that is, x varies over the interval 
+from 0 to 2pi, including the endpoints.
+
+Because cos(pi)=-1, g(-1)=2 and this is the maximum value.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

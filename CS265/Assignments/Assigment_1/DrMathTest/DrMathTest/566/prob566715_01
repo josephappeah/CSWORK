@@ -1,0 +1,48 @@
+ThreadNum: 566715
+Subject: Re: (no subject)
+To: whoa06@yahoo.com (LaShandra Harris)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 00:06:11
+Sent: yes
+
+
+As LaShandra Harris wrote to Dr. Math
+On 08/12/2004 at 18:04:02 (Eastern Time),
+>[Question]
+>What must be true for two points to have a mid point at the origin 
+>(0,0)?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi LaShandra,
+
+A way to start answering this would be to pick some pairs of points
+that _do_ have a midpoint at the origin.  For example, 
+
+  (1,0) and (-1,0)
+
+or
+
+  (2,3) and (-2,-3)
+
+and see if you can spot a pattern. 
+
+Another way would be to use variables to represent the points, e.g., 
+
+  (a,b) and (c,d)
+
+and then go ahead and compute the midpoint:
+
+   a+c  b+d
+  (---, ---) = (0,0)
+    2    3
+
+What does that tell you about a, b, c, and d? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

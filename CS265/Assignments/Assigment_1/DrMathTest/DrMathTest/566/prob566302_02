@@ -1,0 +1,72 @@
+ThreadNum: 566302
+Subject: Re: 2nd order differential equations
+To: martin@edu-tech.com.au (Martin)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 08:24:02
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/10/2004 at 22:55:30 (Eastern Time),
+>I found a similar problem which sugested that I try a solution of the 
+>form y = x^m.
+>
+>So
+>
+>   y = x^m
+>   y' = m * x^(m-1)
+>   y'' = (m-1) * m * x^(m-2)
+>
+>I am not sure how to state this but some how I should be able to 
+>claim that:
+>
+>   x^2 * [(m-1) * m * x^(m-2)] + 3x * m * x^(m-1) + x^m = 0
+>
+>Basically a substitution of my guessed solution back into the given 
+>equation.
+>
+>Upon simplifying I get:
+>
+>  (m-1) * m * x^m + 3m * x^m + x^m = 0
+>
+>Now if x > 0
+>
+>   (m-1) * m + 3m + 1 = 0
+>   m^2 + 2m + 1 = 0
+>   (m + 1)(m + 1) = 0
+>
+>There are 2 real but equal roots m = -1.
+>
+>So based on the example I found the solution should have general form:
+>
+>    y = x^m(A + B * ln(x))
+>
+>Not sure where to go from here?
+
+Hi Martin,
+
+Thanks for writing to Dr. Math.  Your original problem had two
+initial conditions:
+
+>Hence find a solution satisfying the initial conditions
+>
+>  y(-1) = 3       and         y'(-1) = 4
+
+Since the conditions are specified for x=-1, you need to use the 
+function ln(|x|) in your solution instead of ln(x), which is not
+defined for x < 0.  Substitute x = -1 into your general solution
+
+>    y = x^(-1)(A + B * ln(|x|))
+
+and its derivative y' and solve for A and B.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,45 @@
+ThreadNum: 567513
+Subject: Re: find the number of items that sum $100 and 100 items
+To: emgarcia@cox.net (Eva)
+From: Doctor Jerry
+TimeStamp: 08/18/2004 at 16:37:06
+Sent: yes
+
+
+As Eva wrote to Dr. Math
+On 08/18/2004 at 15:50:03 (Eastern Time),
+>[Question]
+>If a pineapple costs $5, an apple $1, and a strawberry .05, how many 
+>of each I need to buy (at least one each) to make up to 100 pieces of 
+>fruit and a price of $100?
+>
+>[Difficulty]
+>Solving for 3 unknowns
+>
+>[Thoughts]
+>I can't remember algebra; this is a challenge from a co-worker
+
+Hello Eva,
+
+Let p, a, and s be the number of pineapples, apples, and strawberries.
+
+5p+a+0.05s=100
+p+a+s = 100
+
+and all p, a, and s must be positive integers.
+
+This system has infintely many solutions (not all  integer solutions).  We can the system  
+for p and a in terms of s  (think of s as a constant).  We find
+
+p = (19*s)/80
+
+a = (-(1/80))*(-8000 + 99*s)
+
+For p to be an integer, we see that s must be 80 or 160 or ...
+
+So, we try several values:  if s=80, then p=19 and a=1.
+
+If you need to work out the solution of the sytem I gave, please write back.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

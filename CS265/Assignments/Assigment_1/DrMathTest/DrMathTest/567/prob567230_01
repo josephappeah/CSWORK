@@ -1,0 +1,38 @@
+ThreadNum: 567230
+Subject: Re: how many  non  negetive integer solutions exist for 2x+3y=d 
+To: raghuveer_30@yahoo.com (raghuver)
+From: Doctor Anthony
+TimeStamp: 08/17/2004 at 11:37:20
+Sent: yes
+
+
+As raghuver wrote to Dr. Math
+On 08/16/2004 at 23:17:34 (Eastern Time),
+>[Question]
+>suppose 2x+3y=24 then possible non negetive solutions
+> (x,y) are (0,8),(3,6),(6,4),(9,2)(12,0)
+>so there are 5 possible ordered pairs for this equation.
+
+
+You require the coefficient of x^24 in the expansion of
+
+ (1 + x^2 + x^4 + ...).(1 + x^3 + x^6 + ........)
+
+        1       1
+      ------ . ------
+      (1-x^2) (1-x^3)
+
+
+On expansion this gives the term 5x^24, so there will be 5 solutions 
+in integers of the equation 2x+3y=24
+
+I used Maple to give the expansion.  Without such an aid you would 
+be reduced to picking out the products in above two brackets which 
+give the term in x^24.  That would hardly be an improvement on 
+simply counting the solutions by inspection.
+
+  
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

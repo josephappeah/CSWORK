@@ -1,0 +1,56 @@
+ThreadNum: 567148
+Subject: Re: Proving an algebra equation wrong
+To: joshualamb@bellsouth.net (Jennifer)
+From: Doctor Roy
+TimeStamp: 08/16/2004 at 16:01:23
+Sent: yes
+
+
+As Jennifer wrote to Dr. Math
+On 08/16/2004 at 15:28:50 (Eastern Time),
+>[Question]
+>I am in a basic college math class and the following question 
+>shouldn't be giving me as much difficulty as it is, but I've been out 
+>of high school for a while, and I don't remember how to do this. It 
+>is only extra credit, but even if I don't get the answer in time to 
+>turn it in, I still want to know how to do it. This is the exact 
+>problem:
+>consider the following series of math operations:
+>given a=b, then
+>a2=b
+>a2-b2=ab-b2
+>(a+b)(a-b)=b(a-b)
+>(a+b)=b
+>a+a=a (all numbers with 2 above here are squared, not multiplied a 
+>squared=a2)
+>2a=a
+>2=1
+>Describe the operational rule that was preformed at each of the seven 
+>lines. This "apparently" proves that 2=1, which we know is false. 
+>Find what is wrong here.
+>
+>[Difficulty]
+>I'm not sure what the operational rules of algebra are and we donot 
+>have textbooks that cover it, it being an extra credit question my 
+>professor was not required to cover it and will not answer any 
+>questions about it.
+>
+>[Thoughts]
+>The only thing that i can think of is that the second to last line in 
+>the equation is wrong because 2a would = a squared, not two.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Try the following entry in the Dr. Math archives.
+
+  Proof: 2 = 1?
+  http://mathforum.org/library/drmath/view/57116.html
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

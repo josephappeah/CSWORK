@@ -1,0 +1,72 @@
+ThreadNum: 568909
+Subject: Re: (no subject)
+To: kensbockcl@vc6.navy.mil (chevy)
+From: Doctor Ian
+TimeStamp: 08/26/2004 at 12:13:29
+Sent: yes
+
+
+As chevy wrote to Dr. Math
+On 08/26/2004 at 10:31:41 (Eastern Time),
+>[Question]
+>I know the square root of 98 is= 7 times the square root of 2. how do 
+>you come to this answer?
+>
+>[Difficulty]
+>i need to know how to get this answer
+>
+>[Thoughts]
+>square root of 98 in simplest form
+>7time the square root of 2
+
+Hi Chevy,
+
+Try coming at it from the other direction.  Since 7^2 is 49, 7 is the
+square root of 49, right?  So
+
+  7 * sqrt(2) = sqrt(49) * sqrt(2)
+
+At this point, it's helpful to know that 
+
+    __     _     _
+  \/ab = \/a * \/b
+
+because that let's us write
+
+   sqrt(49) * sqrt(2) = sqrt(49 * 2)
+
+                      = sqrt(98)
+
+When simplifying, we're just going in the other direction:
+
+  sqrt(98) = sqrt(49 * 2)
+
+           = sqrt(49) * sqrt(2)
+
+           = 7 * sqrt(2)
+
+You might be asking:  "How do I know which part to separate out?"  And
+the most reliable answer to that is to reduce whatever's in the square
+root to prime factors, so you can pair them up.  When we do that here,
+we get
+
+  sqrt(98) = sqrt(2 * 7 * 7)
+
+and we can see that taking the square root of (7*7) will just give us
+7.  Here's another example:
+
+  sqrt(2100) = sqrt(2 * 2 * 3 * 5 * 5 * 7)
+
+             = sqrt(2 * 2 * 3 * 3) * sqrt(5 * 7)
+
+             = sqrt((2*3)^2) * sqrt(5 * 7)
+
+             = (2*3) * sqrt(5 * 7)
+
+             = 6 * sqrt(35)
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

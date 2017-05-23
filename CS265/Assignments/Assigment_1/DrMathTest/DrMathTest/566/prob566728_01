@@ -1,0 +1,46 @@
+ThreadNum: 566728
+Subject: Re: parent
+To: cshaneryals@earthlink.net (daddy)
+From: Doctor Tom
+TimeStamp: 08/12/2004 at 19:31:18
+Sent: yes
+
+
+As daddy wrote to Dr. Math
+On 08/12/2004 at 18:53:46 (Eastern Time),
+>[Question]
+>what number can you add to 52 and get a square #, subtract by 48 and 
+>get a square # and divide by 3 and get a square #
+>
+>[Difficulty]
+>uhhhhh
+>
+>[Thoughts]
+>went through Square #s 8 through 45
+
+You almost made it!  The answer is 48.
+
+Here's how I'd find it.
+
+Your unknown number x, when divided by 3 is a square, so
+
+x/3 = n^2, for some n.
+
+Now start trying different n:
+
+n = 1 -> x = 3 -- doesn't work
+n = 2 -> x = 12 -- doesn't work
+n = 3 -> x = 36 -- doesn't work
+n = 4 -> x = 48 -- works!
+
+In fact, I didn't even try the first three, since I knew that the
+result had to be at least 48, or you can't subtract 48 from it
+and leave a positive result.  Thus the first number I tried
+was n=4 and got the answer.
+
+There may be additional answers, of course.  I just found
+the smallest one.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,59 @@
+ThreadNum: 568177
+Subject: Re: Using semilog gaph paper to do linear calculations
+To: acarder@creighton.edu (Ann)
+From: Doctor Fenton
+TimeStamp: 08/23/2004 at 08:30:13
+Sent: yes
+
+
+As Ann wrote to Dr. Math
+On 08/22/2004 at 22:31:28 (Eastern Time),
+>[Question]
+>My instructor had me download semilog graph paper (Form 9B).  I do 
+>not understand the scale on the paper.  I am to graph Time on the X 
+>axis and Response on the Y axis.  Where do I start on the graph paper?
+>
+>[Difficulty]
+>The Y axis scale is not clear to me.
+>
+>[Thoughts]
+>I know once I get started that slope  = Rise/Run = Change in Y axis / 
+>Change in X axis and Slope = -K
+
+Hi Ann,
+
+Thanks for writing to Dr. Math.  The vertical scale is a logarithmic
+scale instead of a linear scale.  Semilog paper usually has darker
+horizontal lines which are equally spaced vertically, with uneven
+vertical spacing between.  Each horizontal darker line represents a
+value 10 times as large as the darker line just below it.  The
+unevenly spaced lines represent the numbers 2,3,4,5,...,9.  Since
+log(2) = .30103, the first line above a darker line represents twice
+the value of the darker line, and it is about .3 of the spacing 
+between darker lines above the darker line.  The next horzontal line
+above represents 3 times the value of the lower dark line, and it
+will lie .477 of the way from the lower dark line to the higher one,
+and so on.
+
+There are two advantages to semilog paper.  One is compression of 
+the vertical scale.  If you have a y quantity which varies enormously
+while x stays within a small range, it might take a graph a few 
+inches wide and 10 feet high to plot some data using linear scales
+on both axes, unless you use enormously large units for the y-axis
+scale, which obscures a lot of detail.
+
+The other, and probably more important, reason is that an exponential
+relationship
+
+   y = C 10^(kx)       (or y = C e^(kx) )
+
+becomes a straight line, since what you are actually plotting on
+the vertical scale is log(y) instead of y, although you are labeling
+the heights with the y-values.  That is why the spacing is uneven.
+
+If you have any questions, please write back and I will try to 
+explain further.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

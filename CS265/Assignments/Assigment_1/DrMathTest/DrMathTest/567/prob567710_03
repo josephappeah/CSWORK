@@ -1,0 +1,25 @@
+ThreadNum: 567710
+Subject: Re: How do I find D of a circle when I know the C
+To: justinboothglass@qwest.net (Justin)
+From: Doctor Roy
+TimeStamp: 08/19/2004 at 14:36:15
+Sent: yes
+
+
+As Justin wrote to Dr. Math
+On 08/19/2004 at 14:34:26 (Eastern Time),
+>well my problem is that I have C and need to find D is there a 
+>simple equation for that?
+
+Hi,
+
+You use the same formula:
+
+    C = pi*D
+    D = C/pi
+
+Hope this helps.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

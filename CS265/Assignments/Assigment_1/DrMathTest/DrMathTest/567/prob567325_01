@@ -1,0 +1,82 @@
+ThreadNum: 567325
+Subject: Re: My question involves sequences and how to solve acertain seq
+To: AAtawil89@aol.com (Demha)
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 17:11:17
+Sent: yes
+
+
+As Demha wrote to Dr. Math
+On 08/17/2004 at 16:57:23 (Eastern Time),
+>[Question]
+>I have a sequence of  (1,7,25,63,129,231,377) and I must develpo a 
+>formula for this equnce The sequence involves cubes where you start 
+>with one cube and then you must suround each face with other cubes 
+>and then you suuround the new faces with other cubes and so on...
+>I have been given a general formula T = an³ + bn² + cn + d to work it 
+>out and do not know how to use this formula and if there is any 
+>better formula that I can use i will glad to have it. 
+>
+>[Difficulty]
+>Using the general formula
+>
+>[Thoughts]
+>I do not have any since I do not know how to use this formula
+
+Hi Demha,
+
+Thanks for writing to Dr Math.  So you want to find a polynomial of
+degree 3 which has
+
+  T(1) = 1
+  T(2) = 7
+  T(3) = 25
+  T(4) = 63
+  T(5) = 129
+  T(6) = 231
+  T(7) = 377
+
+There are several ways to accomplish this, but one clever way involves
+taking differences:
+
+  D(1) = T(2) - T(1) = 6
+  D(2) = T(3) - T(2) = 18
+  D(3) = T(4) - T(3) = 38
+  D(4) = T(5) - T(4) = 66
+  D(5) = T(6) - T(5) = 102
+  D(6) = T(7) - T(6) = 146
+
+  E(1) = D(2) - D(1) = 12
+  E(2) = D(3) - D(2) = 20
+  E(3) = D(4) - D(3) = 28
+  E(4) = D(5) - D(4) = 36
+  E(5) = D(6) - D(5) = 44
+
+and then you'll notice that E(n+1) - E(n) is always 8.  Wow!  That's
+amazing!  Now let's see what this has to do with our polynomial for T(n).
+
+  T(n) = a*n^3 + b*n^2 + c*n + d
+
+  D(n) = T(n+1) - T(n)
+       = 3a*n^2 + (3a+2b)n + (a+b+c)
+
+  E(n) = D(n+1) - D(n)
+       = 6a*n + (6a+2b).
+
+Now you know that
+
+  E(n+1) - E(n) = 8,
+
+so what does that tell you about the constant "a"?  Now use
+
+  E(1) = 12
+
+to get the value of "b," and so on.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,31 @@
+ThreadNum: 568747
+Subject: Re: probability of total t on n s-sided dice
+To: martin.sims@ntlworld.com (Martin)
+From: Doctor Anthony
+TimeStamp: 08/26/2004 at 12:25:40
+Sent: yes
+
+
+As Martin wrote to Dr. Math
+On 08/26/2004 at 11:11:39 (Eastern Time),
+>Thanks for this Doctor Anthony. I must not have made myself clear 
+>though as what I'd like is a formula, if possible, to work this out 
+>for myself, which will enable me to work out the probabilities of 
+>various total results on various numbers of various multisided dice.
+>
+>If a formula is not possible, as you hint at with your reference 
+>to "tedious algebra", can you recommend an internet page, or book, 
+>that will guide me through the required algebra.
+>
+>Thanks for the hint on the symmetry of the results too.
+
+
+There is no formula for this type of problem.  We use generating 
+functions and you will find these explained in any textbook on 
+combinatorics.  There are now hundreds of these books on the market 
+and the subject heading to look for is 'Generating Functions'.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

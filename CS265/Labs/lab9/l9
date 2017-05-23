@@ -1,0 +1,72 @@
+q1. 
+	Segmentation fault (core dumped)
+	core and bug3 are new files that were created 
+	
+q2. #1  0x00000000004009c5 in inTable ()
+	#2  0x0000000000400939 in main ()
+q3.
+ 
+a. 
+bug1.c 
+bug1.c: In function ‘main’:
+bug1.c:7:2: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+  scanf( "%d", n );
+  ^
+Fixed: scanf( "%d", n ); to scanf( "%d", &n ); to indicate type pointer to int 
+
+b.
+bug2.c
+bug2.c: In function ‘main’:
+bug2.c:8:2: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("Pi=%d, n=%f\n", pi, n);
+  ^
+bug2.c:8:2: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+
+Fixed: printf("Pi=%d, n=%f\n", pi, n); to printf("Pi=%f, n=%d\n", pi, n); Pi should output a float and n should output a int 
+
+c.
+bug3.c
+Segmentation fault (core dumped)
+and dbg says that we have fualts in main and inTable
+it looks like within the main in.bug3 loads fine 
+ask for user input fine
+but within the while loop we see that it is incrementing the numlines first instead of after the statement
+	while( numLines<MAX_LINES && fgets( buff, MAX_LINE_LEN, fin ))
+	{
+		//++numLines//
+		st[ numLines ] = strdup( buff );
+		++numLines;
+	}
+moved it after the statement
+
+d.
+avg.c: In function ‘main’:
+avg.c:22:2: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+  scanf("%d",n);
+  ^
+#0  0x00007f9667291cc9 in __GI_raise (sig=sig@entry=6)
+    at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+#1  0x00007f96672950d8 in __GI_abort () at abort.c:89
+#2  0x00007f966728ab86 in __assert_fail_base (
+    fmt=0x7f96673db830 "%s%s%s:%u: %s%sAssertion `%s' failed.\n%n",
+    assertion=assertion@entry=0x4007da "n > 0", file=file@entry=0x4007d4 "avg.c",
+    line=line@entry=9, function=function@entry=0x400800 <__PRETTY_FUNCTION__.2196> "avg")
+    at assert.c:92
+#3  0x00007f966728ac32 in __GI___assert_fail (assertion=0x4007da "n > 0",
+    file=0x4007d4 "avg.c", line=9, function=0x400800 <__PRETTY_FUNCTION__.2196> "avg")
+    at assert.c:101
+#4  0x000000000040061b in avg ()
+#5  0x0000000000400726 in main ()
+
+Fixed:  scanf("%d",n); to  scanf("%d",&n); pointer to in n 
+
+e.
+Program needs a randomized pivot location swap(v,0,rand() %n);. we can assert that the last varaible is not the first element and is less the the number of elementsassert((last >= 0) && (last < n));
+
+q4.
+we're passing pointers to the functions and not actual data types
+
+q5.
+an error will be thrown
+an seg fualt 
+

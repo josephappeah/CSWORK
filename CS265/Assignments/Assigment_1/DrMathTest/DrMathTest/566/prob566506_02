@@ -1,0 +1,54 @@
+ThreadNum: 566506
+Subject: Re: Area of a ROUND OBJECT
+To: gturillo@earthlink.net (Greta)
+From: Doctor Peterson
+TimeStamp: 08/11/2004 at 14:23:58
+Sent: yes
+
+Hi, Greta.
+
+As Greta wrote to Dr. Math
+On 08/11/2004 at 14:07:33 (Eastern Time),
+>[Question]
+>I have a soccer ball that is 26 inches in diameter and I need to 
+find
+>out how many square inches/feet that are needed to cover it with 
+>material.  I do not know the formula to figure this out.
+>
+>[Difficulty]
+>Don't know of a formula to figure this out
+>
+>[Thoughts]
+>At first I was going to measure each patch on the ball but that was 
+>way too tedious.  Then I was going to cut the ball up and measure 
+>it.  And buy a new one.
+
+The surface area of a sphere is
+
+  S = 4 pi r^2
+
+That is, 4 times the area of a circle with the same radius. This can 
+be expressed in terms of the diameter as
+
+  S = pi D^2
+
+Square your diameter, 26 inches, and multiply by 3.14 to get the 
+area in square inches.
+
+The formula can be found in our FAQ under Formulas.
+
+The trouble is, if you are actually trying to cover a ball with 
+paper or cloth, you will have to cut, sew, or wrinkle it in order to 
+cover, so you will need extra material (unless you are able to 
+stretch it, and don't need sewing or overlap allowances). And if you 
+make each patch (which would take only one measurement, since all 
+edges are the same length), and glue it on (which will work if your 
+material has a little stretch), there will be scrap material between 
+the pieces you cut out.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

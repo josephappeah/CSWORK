@@ -1,0 +1,46 @@
+ThreadNum: 567733
+Subject: Re: Is pi a random number?
+To: barnold_pb@yahoo.com (Bill Arnold)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 19:40:08
+Sent: yes
+
+
+As Bill Arnold wrote to Dr. Math
+On 08/19/2004 at 16:43:54 (Eastern Time),
+>[Question]
+>Someone wrote, "I think by 'chaos'
+>you mean what I call 'apparent randomness',
+>as in the decimal expansion of pi...."
+>
+>Is pi random?
+>
+>
+>
+>[Difficulty]
+>I thought pi was not random but a fixed
+>relationship in math.
+>
+>[Thoughts]
+>
+
+Hi Bill,
+
+Pi is not random.  It's got a definite value. 
+
+However, the digits of the decimal expansion of pi appear to be
+randomly distributed.  This doesn't mean that they appear randomly! 
+It just means that if you grab any big section of the decimal
+expansion, you'll find that all the digits appear about the same
+number of times, that they don't seem to be clustered in any
+predictable way, and so on. 
+
+Do you see the difference?  Basically, they're only random when you
+don't take _order_ into account.  If you take the same digits and
+place them in a different order, you get something other than pi.
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

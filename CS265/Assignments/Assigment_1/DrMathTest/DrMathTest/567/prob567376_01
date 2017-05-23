@@ -1,0 +1,59 @@
+ThreadNum: 567376
+Subject: Re: differentiate the following
+To: al1owusu@yahoo.co.uk (albert)
+From: Doctor Anthony
+TimeStamp: 08/18/2004 at 05:37:28
+Sent: yes
+
+
+As albert wrote to Dr. Math
+On 08/17/2004 at 20:41:59 (Eastern Time),
+>[Question]
+
+>1) y=(5x+1)^2
+
+   dy/dx = 2(5x+1)(5)
+
+         = 10(5x+1) 
+>
+>2) y=e^4x
+
+  dy/dx = 4e^(4x)
+
+>
+>3) y=in5x  = ln(5) + ln(x)
+
+    dy/dx = 1/x
+
+>
+>4) y=e^4x.in5x
+
+   dy/dx =  e^(4x).(1/x) + 4e^(4x).ln(5x)
+
+>
+>5) y=e^4x/cos4x
+
+             cos(4x)(4e^(4x)) - e^(4x)(-4sin(4x))
+    dy/dx =  ------------------------------------
+                    cos^2(4x)
+
+             4e^(4x).[cos(4x) + sin(4x)]
+          = ----------------------------
+                    cos^2(4x)
+
+>
+>6) fine the second derivative of y=4e^-tsin3t
+
+
+    dy/dt = 4e^(-tsin(3t)).[-3t.cos(3t) - sin(3t)]
+
+ d^2y/dt^2 = 4e^(-tsin(3t)).[-3t.cos(3t) - sin(3t)]^2
+          +4e^(-tsin(3t)).[-3.cos(3t) + 9t.sin(3t) - 3cos(3t)]
+
+ = 4e^(-tsin(3t)).[[3t.cos(3t)+sin(3t)]^2 + 9t.sin(3t) - 6.cos(3t)]
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

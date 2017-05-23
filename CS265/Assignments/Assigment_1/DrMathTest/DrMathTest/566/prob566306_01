@@ -1,0 +1,117 @@
+ThreadNum: 566306
+Subject: Re: diophantine equations
+To: pwotus@wyomingseminary.org (Patrick Wotus)
+From: Doctor Vogler
+TimeStamp: 08/10/2004 at 14:00:28
+Sent: yes
+
+
+As Patrick Wotus wrote to Dr. Math
+On 08/10/2004 at 11:13:05 (Eastern Time),
+>[Question]
+>It's a straightforward computation to show that the parametric 
+>equations x=q^2-p^2, y = 2pq-p^2, and z = p^2+q^2-pq generate 
+>solutions to the diophantine equation x^2-xy+y^2=z^2 for all 
+>integer values of p and q.  How could I show that these 
+>expressions for x, y, and z give a complete solution to 
+>x^2-xy+y^2=z^2, that is, show that for any x, y, and z satisfying 
+>x^2-xy+y^2=z^2, there exist integers p and q for which x = q^2-p^2, 
+>y=2pq-p^2, and z=p^2+q^2-pq.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I've solved for p and q in terms of x and y, obtaining expressions 
+>involving complicated quadratic surds such as 
+>
+>p = 
+>sqrt(-6x+3y+6sqrt(x^2+y^2-xy))/3 and
+>
+>q = 
+>(2y-x+sqrt(-6x+3y+6sqrt(x^2+y^2-xy))/(sqrt(-6x+3y+6sqrt(x^2+y^2-x
+>y)))
+>
+>It's difficult to verify that such expressions reduce to integer 
+>values of p and q for x, y, and z satisfying x^2-xy+y^2=z^2.
+>
+>I've generated a table of  some 25  non-trivial primitive solutions 
+>(solutions with gcd(x,y,z)=1 and xy not equal to zero)  to this 
+>diophantine equations, and I've found that the equation seems to 
+>have non-trivial solutions whenever z is a prime conguent to 1 
+>mod 3.
+>
+
+Hi Patrick,
+
+Thanks for writing to Dr Math.  First of all, not all integer
+solutions can be writtin in that form.  For example, (0, 2, 2) cannot.
+ So perhaps you mean:  Show that they generate all *primitive*
+solutions, meaning all integer solutions are an integer multiple of
+one of those.  So let's assume that gcd(x, y) = 1.
+
+The trick is not to write p and q in terms of x and y, but rather to
+find simple expressions for p and q in terms of x, y, and z.  To do
+this, you should think of p^2, q^2, and pq as three variables, and
+solve for them in terms of x, y, and z.
+
+For example,
+
+  x = q^2 - p^2
+  y = 2pq - p^2
+  z = p^2 + q^2 - pq
+
+so
+
+  z - x = 2p^2 - pq
+  y + 2z - 2x = 3p^2.
+
+That's pretty good!  And for q:
+
+  2z + y = 2q^2 + p^2
+  x + 2z + y = 3q^2,
+
+and we can also get pq:
+
+  2y + z - x = 3pq.
+
+So first we need to prove that if (x, y, z) are integers and
+
+  x^2 - xy + y^2 = z^2,
+
+then
+
+  y + 2z + x   and   y + 2z - 2x   and   2y + z - x
+
+are all divisible by 3.  Can you do that?  It's basically an exercise
+in modular arithmetic.  Look at the equation mod 3.  And the other two
+basically come for free when you have any one of the three.
+
+Then we expect that
+
+  (3p^2)*(3q^2) = (3pq)^2,
+
+so let's write that in terms of x, y, and z:
+
+  (y + 2z + x)(y + 2z - 2x) = (2y + z - x)^2, and therefore
+
+  [(y + 2z + x)/3][(y + 2z - 2x)/3] = [(2y + z - x)/3]^2.
+
+Can you prove that this is true for any solution of your equation?
+
+Next, you should verify that p^2 and q^2 are relatively prime by
+taking the gcd of
+
+  (y + 2z + x)/3  and  (y + 2z - 2x)/3.
+
+Then you use the theorem that says that if r and s are two integers,
+relatively prime, and r*s is a square, then r and s are each squares.
+ The rest falls right out.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

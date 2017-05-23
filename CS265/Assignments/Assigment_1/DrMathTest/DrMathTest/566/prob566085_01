@@ -1,0 +1,47 @@
+ThreadNum: 566085
+Subject: Re: surface area and thickness of paint
+To: lakeshorestingrays@hotmail.com (Heather )
+From: Doctor Ian
+TimeStamp: 08/09/2004 at 10:19:22
+Sent: yes
+
+
+As Heather  wrote to Dr. Math
+On 08/08/2004 at 21:28:42 (Eastern Time),
+>[Question]
+>A pint of paint covers a surface area of 45 square feet. What is the 
+>thickness of the wet paint on the surface (1 pint= 28.9 cubic 
+>inches)?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Heather,
+
+Suppose I told you that a cake covers an area of 36 square inches on a
+plate, and has a volume of 72 cubic inches.  Could you tell me the
+height of the cake? 
+
+Here's how I'd find that:
+
+   volume = area * height
+
+  72 in^3 = 36 in^2 * height
+
+  72 in^3
+  ------- = height
+  36 in^2
+
+     2 in = height
+
+Your problem is basically the same, except the 'height' is going to be
+very small.  :^D
+
+Is this enough to get started? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

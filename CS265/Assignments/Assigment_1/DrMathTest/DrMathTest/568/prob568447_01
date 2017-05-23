@@ -1,0 +1,46 @@
+ThreadNum: 568447
+Subject: Re: How many student tickets were sold?
+To: dorism719@aol.com (doris)
+From: Doctor Ian
+TimeStamp: 08/24/2004 at 13:07:20
+Sent: yes
+
+
+As doris wrote to Dr. Math
+On 08/24/2004 at 11:40:57 (Eastern Time),
+>[Question]
+>given the total number of tickets sold  = 812
+>given the total amount of cash received = $1912
+>
+>students paid $2 per ticket 
+>non-students paid $3 per ticket
+>
+>confused about the next step after understading what is requested.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Doris, 
+
+Let's look at a simpler problem.  Suppose there are only 5 tickets,
+and I got a total of 11 dollars. 
+
+Suppose I call the number of students tickets N.  Then the number of
+student tickets is (5-N), because there are only 5 tickets.  
+
+How much money did I collect?  Well, I got $2 for each of N tickets,
+and $3 for each of (5-N) tickets.  And that adds up to $11:
+
+  $11 = $2*N + $3*(5-N)
+
+If I solve this for N, I'll know the number of student tickets, which
+will tell me the number of non-student tickets. 
+
+Does this make sense?  Your problem is the same, with different numbers. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

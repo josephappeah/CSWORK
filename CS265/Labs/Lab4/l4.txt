@@ -1,0 +1,95 @@
+q1.1 
+varaibles TRUE and FAlSE do not need to be defined there is not 
+return value needed
+not-Eof should read as not_eof 
+q1.2
+
+int IsSamaller(char*s,char*t)
+{
+	if(strcmp(a,b) < 1)
+		return 1; 
+	else
+		return 0;
+}
+q1.3
+read aloud
+q1.4
+if (c!='y' && c!='Y') 
+	return;
+
+if(length > BUFSIZE) 
+{
+	length = BUFSIZE;
+}
+
+flag = !flag;
+
+quote = 0;
+if (strcmp(*line, ' " ')==0) 
+{
+	quote = 1;
+}
+if(val == 1) 
+{
+	bit = 1;
+}
+else
+{
+	bit = 0;
+}
+q1.5
+the return value is not int 
+q.16
+1 1
+1 2
+2 1
+2 2
+q1.7
+if(istty(stdin) || istty(stdout) || istty(stderr))
+{
+}
+else
+{
+	return 0;
+}
+
+if(retval != SUCCESS)
+{
+	return retval;
+}
+else
+{
+	return SUCESS;
+}
+
+for(k=0; k < 4;k++)
+{
+	scanf("%lf" , &dx);
+	
+	x += dx;
+}
+q1.8
+for ( int count=0; count < total; count++ )
+{
+	if( this.getName(count) == nametable.userName())
+	{
+		return true;
+	}
+}
+q1.9
+ISOIGIT(c) ((c >= '0') && (c <= '9')) ? 1:0 
+the macro is not inclosed in neccary parenthesis 
+the macro excutes c muiltilple times 
+q1.10
+#define METER_PER_FEET=0.3048
+#define FEET_PER_METER=3.2084
+#define FEET_PER_MILE=5280.0
+#define KILOMETER_PER_MILE=1.609344
+#define SQUARE_KM_PER_SQUARE_MILE=2.589988
+q1.11
+void does not return a value
+the second comment just states what the if statement is trying to do 
+the second and third comment should sty there but be more clear about 
+what its trying to print out as well as talking about the counters
+do not need to state that we are incrementing each time
+

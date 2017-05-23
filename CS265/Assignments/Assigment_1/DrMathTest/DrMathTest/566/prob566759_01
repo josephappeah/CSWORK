@@ -1,0 +1,53 @@
+ThreadNum: 566759
+Subject: Re: Pharmacy College Admission Test Math Preparation
+To: adrianshook@hotmail.com (Adrian)
+From: Doctor Tom
+TimeStamp: 08/12/2004 at 22:05:25
+Sent: yes
+
+
+As Adrian wrote to Dr. Math
+On 08/12/2004 at 20:52:26 (Eastern Time),
+>[Question]
+>Jim can fill a pool carrying buckets of water in 30 minutes.  Sue can 
+>do the same job in 45 mins.  Tony can do the same job in 1 1/2 hours. 
+>How quickly can all three fill the pool together?
+>Opptional Answers: 12mins,15mins,21mins,23mins,or 28mins
+>
+>[Difficulty]
+>I don't know how to set up my equation.
+>
+>[Thoughts]
+>Jim: 30mins=1(filled pool)
+>Sue: 45mins=1
+>Tony: 90mins=1
+>I made 30mins the base giving me the equation:
+>x+1.5x+3x=1(filled pool)... This did not lead me to one of the 
+>opptional answers.
+
+Hi Adrian,
+
+On almost all of these so-called "work problems" the best approach
+is to convert the problem to jobs.  In this case, the job is filling
+the pool.
+
+Figure out how much of the job can be done by each person in
+some amount of time.  I will use 1 minute as the amount of time.
+
+In one minute,
+
+Jim can do 1/30 of the job
+Sue can do 1/45 of the job
+Tony can do 1/90 of the job
+
+If they're working together, in one minute they can do:
+
+1/30 + 1/45 + 1/90 of the job, which is:
+
+3/90 + 2/90 + 1/90 = 6/90 = 1/15 of the job
+
+Thus the entire job takes 15 minutes with all of them working.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

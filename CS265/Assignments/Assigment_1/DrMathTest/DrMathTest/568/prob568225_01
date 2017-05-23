@@ -1,0 +1,56 @@
+ThreadNum: 568225
+Subject: Re: limits
+To: av_ace11@hotmail.com (avneesh)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 11:06:45
+Sent: yes
+
+
+As avneesh wrote to Dr. Math
+On 08/23/2004 at 10:37:24 (Eastern Time),
+>[Question]
+>limit as n-> infinty 
+>
+>of 
+>
+> f(n) = n ( 2^ 1/n - 1)
+>
+>[Difficulty]
+>on my calculator i get a limit of appx = 0.635....
+>but 0 when i do it by hand??
+>am i doing something wrong??
+>
+>[Thoughts]
+>f(n) = n ( 2^1/n - 1) x ( 2^1/n + 1)/( 2^1/n + 1)
+>
+>     = n (2^2/n - 1) / (2^1/n + 1)
+>   
+>     = n (4^1/n - 1) / (2^1/n + 1)
+>
+>now 1/n -> 0   
+>so we have
+>
+>    = n (1-1) / (1+1) 
+>
+>and since 4^1/n approaches 0 faster than n approaches infinity the 
+>limit is zero...
+>
+>
+
+Hi Avneesh,
+
+Thanks for writing to Dr Math.  It's true that 1/n approaches zero,
+and therefore 4^(1/n) approaches 1, but it is not true that
+
+  4^(1/n) - 1
+
+approaches zero "faster than" n approaches infinity, and so
+multiplying the above difference by n does NOT make the limit go to zero.
+
+Are you familiar with L'Hopital's Rule?  If so, that's an easy way to
+get the answer.  If not, write back and I'll try to offer further
+suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

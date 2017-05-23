@@ -1,0 +1,54 @@
+ThreadNum: 567995
+Subject: Re: sketching a graph by inspection
+To: shinkentom@hotmail.com (kevin)
+From: Doctor Jerry
+TimeStamp: 08/22/2004 at 07:24:32
+Sent: yes
+
+
+As kevin wrote to Dr. Math
+On 08/21/2004 at 19:39:02 (Eastern Time),
+>doc, just a small query.....i used a graphic calculator to draw the  
+>graph....How would i judge the shape of the graph with out any sort 
+>of aid....I dont know how this function took a similar shape to a 
+>hyperbola.Because usually growth curves tend to be in the first and 
+>second quadrants.......ALso
+>what if i did this
+>(e^(x)+1)(e^(-x)-1)which simplifies to -e^(x)+e^(-x)-1 how would i 
+>judge the shape of the graph from the simplified version NOT USING 
+>ANY HELP FROM OTHER DEVICES....and if possible without putting values 
+>into the function.I want to know how a can REASON out the shape of 
+>this graph without actually constructing a table of points.....
+>thanks,
+>kevin
+>
+
+Hello Kevin,
+
+I don't know if you mean (e^(x)+1)/(e^(-x)-1)  or (e^(x)+1)(e^(-x)-1), but, in any case, 
+neither of these expressions simplifies to  -e^(x)+e^(-x)-1 .
+
+I'll assume that you mean (e^(x)+1)/(e^(-x)-1).
+
+Let's suppose for the moment that x>0.  As x approaches 0, the numerator approaches 2 
+and the denominator approaches 0 from the negative side.  So, the graph has x=0 as an 
+asymptote.  As x becomes large, the numerator becomes large and the denomiator 
+approaches -1.  So the fraction is approaching -oo.  So, without trying to nail down 
+exactly what happens in between, it appears that the graph increases from -oo near x=0 
+to some maximum and then falls away and again approaches -oo.  It stays negative 
+because the numerator is always positive and for x>0,  1/(e^{-x}-1) < 0.  One cannot be 
+certain that an extra wiggle or two doesn't happen somewhere to the rigth of the origin, 
+but the simple behavior of e^x or e^{-x} argues against this.
+
+For x<0,  0 < e^x < 1 and e^{-x} - 1 >0.  Hence, the graph will be above the x-axis for all 
+x<0.  As x approaches 0 from the left, e^{-x} approaches 1 and so the graph again has 
+x=0 as an asymptote.  As x-> - oo, the expression approaches 0.  So, though there may 
+be a wiggle inbetween (most likely not because e^x is simple increasing function), the 
+graph looks much like -1/x for x<0.
+
+One can use calculus to find the relative high and low points, though one might need a 
+numerical procedure to locate them.  For example, for x>0, the top of the hill is at 
+x=ln(1+sqrt(2)).
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

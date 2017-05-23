@@ -1,0 +1,94 @@
+ThreadNum: 567291
+Subject: Re: Detecting/proving patterns in rows of numbers
+To: Brogner@email.dk (Christian )
+From: Doctor Vogler
+TimeStamp: 08/17/2004 at 14:58:02
+Sent: yes
+
+
+As Christian  wrote to Dr. Math
+On 08/17/2004 at 11:55:28 (Eastern Time),
+>[Question]
+>We create a series of rows, by using the following statements.
+>
+>let n0 belong to N:
+>
+>   n0 is even  =>  n1 = n/2
+>   n0 is odd   =>  n1 = n0 + 9
+>
+>... and so on for n1, n2 and so forth. With different values of n0 we 
+>have:
+>
+>n=1     1, 10, 5, 14, 7, 16, 8, 4, 2, 1.... (Pattern repeats)
+>
+>n=2     2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern repeats)
+>
+>n=3     3, 12, 6, 3.... (Pattern repeats)
+>
+>n=4     4, 2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern repeats
+>
+>n=5     5, 14, 7, 16, 8, 4, 2, 1, 10, 5, 14, 7, 16, 8, 4, 2, 1.... 
+>(pattern repeats)
+>
+>n=6     6, 3, 12, 6, 3, 12.... (pattern repeats)
+>
+>n=7     7, 16, 8, 4, 2, (1, 10, 5, 14, 7, 6, 8, 4, 2, 1).... (pattern 
+>repeats
+>
+>n= 8    8, 4, 2, (1, 10, 5, 14, 7, 16, 8, 4, 2, 1).... (pattern 
+>repeats)
+>
+>n=9     9, 18, 9, 18, 9, 18... (Pattern repeats)
+>
+>
+>[Difficulty]
+>Apparantly, there are four different patterns: n=1, n=3, n=6 and n=9
+>
+>Can I prove, that these are the only existing patterns.. And perhaps 
+>even create a formula, which predicts the patterns length or form???
+>
+>
+>[Thoughts]
+>There seems to be no sense, in n-values larger than 9, since they 
+>will all end up within one of these four patterns...
+>
+>Also, by changing the number you add to an odd value of n, the number 
+>of patterns seem to change...
+>
+>I have a hunch, that this pickle might have something to do with the 
+>sum of the ciffers in n1, n2 etc. (tvaersum)...
+>
+>
+
+Hi Christian,
+
+I realized that I can say more about your series.  You see, I thought
+that it might be hard to prove that every sequence will end in a loop
+because your problem reminded me of the Collatz 3n+1 Problem, as
+described in
+
+  http://mathworld.wolfram.com/CollatzProblem.html
+
+In this problem, which is very similar to yours, there is only one
+loop, and no one has ever been able to prove that EVERY number will
+end up there.
+
+But when I though about your problem a little more, I realized that
+because yours can't grow as fast as Collatz, it is actually not very
+hard to prove that every sequence ends in a loop.  So allow me to do
+that for you:
+
+Suppose we start with some number, and then we transform it according
+to your rule.  What is the smallest number that we might ever get in
+our sequence?  Call it n.  Can it be even?  No.  Then the next two
+numbers are n+9 and (n+9)/2, and these can't be smaller than n, which
+means that our sequence must contain a number from 1 to 9.  How do we
+know that there is a smallest number?  Since these are all positive
+integers, they can't just keep getting smaller.  That is, the first
+number is fixed, so you just have to ask which of the (finitely many)
+smaller numbers are in the sequence.  Take the smallest one.  So
+really the proof is just like what I described in my last email.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

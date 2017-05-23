@@ -1,0 +1,74 @@
+ThreadNum: 568321
+Subject: Re: Linear Algebra - linear transformation
+To: vicmurai@hotmail.com (Anne Murai)
+From: Doctor Fenton
+TimeStamp: 08/24/2004 at 11:50:25
+Sent: yes
+
+
+As Anne Murai wrote to Dr. Math
+On 08/23/2004 at 19:28:31 (Eastern Time),
+>[Question]
+>Find the image of the line  3x+2y = 6 under the transformation
+>represented by the matrix 
+>                            1   3
+>                            2   4
+>
+>The correct answer is  2x-y = 0
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Let (u, v) be the image of the general point (x, y).
+>
+>  (u)     (x)     (1  2)  (x)   (x+2y )
+>  ( ) = T ( )  =  (    )  ( ) = (     )
+>  (v)     (y)     (2  4)  (y)   (2x+4y)
+>
+>Therefore, u = x+2y  and  v = 2x+4y = 2u
+>
+>When I try substituting u and v into the equation 3x+2y = 6, I simply
+>am not able to come up with the correct answer. Help! help!
+
+Hi Anne,
+
+Thanks for writing to Dr. Math.  Actually, you have the answer.  u and
+v are just names for coordinates in the image space, which you are
+using to distinguish images T(v) from vectors v in the domain of T,
+whose coordinates or components are designated by x and y.  However, 
+you have observed that v = 2u, so if you just change the names of
+the coordinates from (u,v) to (x,y), this becomes y = 2x.
+
+An alternative way of computing this is to write the given line in
+parametric form, which can always be done by first finding a point on 
+the line (e.g. (0,3) or (2,0)), and then using x as the parameter:
+
+  x = t, so y = (6-3x)/2  becomes y = 3 - (3/2)t.
+
+Then any point on the given line is
+
+   [ 2 ]    [   1  ]
+   [ 0 ] + t[ -3/2 ] ,
+
+and you can compute a parametric form of the image line by
+
+  [ 1 2 ]([ 2 ]    [   1  ])   [ 1 2 ][ 2 ]    [ 1 2 ][   1  ]
+  [ 2 4 ]([ 0 ] + t[ -3/2 ]) = [ 2 4 ][ 0 ] - t[ 2 4 ][ -3/2 ]
+
+which gives you a parameteric equation of the line.
+
+Actually, note that this relationship doesn't depend in any way on
+the given line.  The image under T of every vector in R^2 lies on 
+line y=2x, which is a subspace of R^2, since it is a line through 
+the origin.  So in fact, every line in the plane is mapped onto
+this line (y=2x).
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

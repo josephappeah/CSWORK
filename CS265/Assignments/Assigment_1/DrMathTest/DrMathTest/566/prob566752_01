@@ -1,0 +1,50 @@
+ThreadNum: 566752
+Subject: Re: Making 2D figure fit on spehre surface.
+To: smjones1969@sbcglobal.net (Michael)
+From: Doctor Tom
+TimeStamp: 08/12/2004 at 22:14:43
+Sent: yes
+
+
+As Michael wrote to Dr. Math
+On 08/12/2004 at 20:23:00 (Eastern Time),
+>[Question]
+>I simple would like some information on how to create a 2D figure(on 
+>a piece of paper), that i can cut so it will lay nicely on the 
+>surface of a sphere. I only need to use half of the sphere. I was 
+>thinking I could use some continuous type of object that when cut 
+>would lay nicely on the sphere but I don't think it will. Looks like 
+>I have to use trianglular sections.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Michael,
+
+You can never get a perfect fit, even for the tiniest part of the sphere,
+assuming the paper doesn't stretch.  But you can get as close as you
+want if you make small enough pieces.  A good approximation to
+a sphere can be achieved in many ways, but a nice method might
+be to do it as a sort of geodesic dome, like those created by
+Buckminster Fuller.
+
+Here's a website that will tell you how to build a dome like that
+to live in, but you can give the "dome calculator" any dimensions
+you want, and it'll show you what sizes to make the approximating
+triangles for some very close approximations:
+
+    www.desertdomes.com
+
+That's the home page with a general description, but there are
+links on that page to the dome calculator and various other items
+that might be of interest.
+
+A "2V" or a "3V" dome ought to be enough for you.  The "1V" is simply
+an icosahedron.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

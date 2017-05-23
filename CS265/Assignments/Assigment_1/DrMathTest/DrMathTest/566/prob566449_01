@@ -1,0 +1,71 @@
+ThreadNum: 566449
+Subject: Re: Continuity and Smoothness 
+To: ewebster@bigpond.net.au (Zac)
+From: Doctor Fenton
+TimeStamp: 08/11/2004 at 07:48:47
+Sent: yes
+
+
+As Zac wrote to Dr. Math
+On 08/11/2004 at 02:39:39 (Eastern Time),
+>[Question]
+>I'm investigating the use of cubics and how you can merge them 
+>together to get one continous and smooth graph.
+>
+>If you have the two cubics:
+>F(x)
+>G(x)
+>
+>and they are merged at the point of x=3, then obviously for the 
+>resulting graph to be smooth and continous, 
+>
+>F(x) = G(x)
+>F'(x) = G'(x)
+>
+>But my problem is whether 
+>F''(x) must equal G''(x) for it to be smooth and continous.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Zac,
+
+Thanks for writing to Dr. Math.  "Smooth" isn't a mathematical term
+like "prime" or "continuous", for which there is essentially universal
+agreement about its meaning.  The term is often used to mean that a
+function has some degree of differentiability, but the precise 
+requirement depends upon the context.  A writer who knows that he will
+never differentiate a function more than once may use "smooth" to mean
+C^1, i.e. continuously differentiable, while another, who doesn't want
+to bother with specifying a definite number of derivatives a function
+must have may use it to mean "infinitely differentiable".  The number
+of derivatives you require "smooth" to mean depends upon what you
+are doing, and how many derivatives you will need to take.  If you 
+want to discuss curvature, for example, then you will often need to
+take second derivatives.
+
+If you simply want to know whether you will be able to discern any
+irregularity by looking at the graph, then I would doubt that you
+can determine by eye whether a graph is the graph of a function which 
+is C^1 (continuously differentiable) or C^2 (twice continuously
+differentiable).  Look at the "cubic parabola",
+
+          {  -x^2   x < 0
+   f(x) = {   x^2   x >= 0
+
+as an example.  The difference in "flattening" at the origin which 
+makes this function have no second derivative at x=0, as opposed
+to the true cubic g(x) = x^3, is on a scale which is not apparent 
+to my eye.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

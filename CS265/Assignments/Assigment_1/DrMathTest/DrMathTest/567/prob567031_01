@@ -1,0 +1,76 @@
+ThreadNum: 567031
+Subject: Re: Two person game theory
+To: emayev@earthlink.net (Emil)
+From: Doctor Tom
+TimeStamp: 08/15/2004 at 17:34:58
+Sent: yes
+
+
+As Emil wrote to Dr. Math
+On 08/15/2004 at 15:16:44 (Eastern Time),
+>[Question]
+>Two person game theory allows you to come up with the best strategy 
+>or strategies. But can't the other person also figure out your best 
+>strategy and change his? But then you would be aware of this and 
+>you'd be forced to change your strategy. But he would also come to 
+>this conclusion by reasoning rationally. This could go on 
+>infinitely. How does game theory get around it?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+For the two-person, zero-sum game (zero sum means that whatever
+one person loses, the other person gains), game theory tells us
+that there is a strategy that guarantees a certain result no matter
+what strategy the other person chooses.
+
+Thus if you're using this strategy, no matter how the other person
+changes his stragegy, you will do at least as well.
+
+For example, suppose we are playing a game where each of us
+chooses one of the numbers 0 or 1 and writes it on a card
+face down.  When both cards are down, we flip them over.
+If they match, I win a dollar.  If they don't match, you win a
+dollar.
+
+If I always play 0, that's a bad strategy, since you'll catch on, and
+start playing 1 all the time, and vice-versa.
+
+But if my strategy is to randomly select 0 or 1, each with
+probability 1/2, then the best you can hope for, in the long
+run, is to break even.
+
+With different-sized payoffs, the strategy will not be the same.
+Suppose we play the same game, but if there are 2 1's, I get
+$2.  If there are 2 0's, I get $1.  If they are different, I pay you
+a dollar.
+
+This game is to my advantage, but if I try to be greedy and always
+pick 1, you'll always pick 0 and I'll lose.  In this case I should
+randomly choose 0 or 1, but not equally often.  I should,
+in fact, play 1 2/5 of the time and 0 3/5 of the time.
+
+Let's see what happens then.  You decide to play 0 q of the
+time and 1 (1-q) of the time.
+
+Here are the results and their probabilities:
+
+00:  q(3/5)      = 3q/5
+01:  q(2/5)      = 2q/5
+10:  (1-q)(3/5) = 3/5 - 3q/5
+11:  (1-q)(2/5) = 2/5 - 2q/5
+
+The expected payoff to me is:
+
+( 3q/5 + 2(2/5 - 2q/5)) - (2q/5 + 3/5 - 3q/5)
+
+= 4/5 - 3/5 = 1/5 -- the result is completely independent of
+how you choose the value of q.  In the long run, I win 1/5
+dollar on each game.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

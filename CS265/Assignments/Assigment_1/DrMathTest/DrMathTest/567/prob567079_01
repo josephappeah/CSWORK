@@ -1,0 +1,190 @@
+ThreadNum: 567079
+Subject: Re: PATTERNS
+To: reginagreen2@yahoo.com (regina)
+From: Doctor Greenie
+TimeStamp: 08/16/2004 at 02:31:34
+Sent: yes
+
+
+As regina wrote to Dr. Math
+On 08/15/2004 at 22:58:24 (Eastern Time),
+>[Question]
+>Timbuktu and Casablanca are linked by a route which is 1710km long. 
+>One car leaves timbuktu for casablanca and travels 60km in the 
+first 
+>day, 58km on the second day, 56km on the third day and so on. 
+Another 
+>car leaves casablanca for timbuktu and travels 75km on the first 
+day, 
+>72km on the second day, 69km on the third day and so on. How many 
+>days does it take before the two cars meet?And how far from 
+timbuktu 
+>do the two cars meet?
+>
+>[Difficulty]
+>i'm not sure what how to go about this question
+>
+>[Thoughts]
+>i know it involves sequences so i tried putting the first term as 
+60 
+>with the common difference as 2 into this formula tn=a+(n-1)d but i 
+>don't know hwat n should be.
+
+Hello, Regina --
+
+The formula you are using,
+
+  tn = a + (n-1)d
+
+gives you the n-th term of the arithmetic sequence with first term a 
+and common difference d.  You need to use this formula in this 
+problem; however, what you are concerned with is when the sum of the 
+numbers of a sequence reaches a particular number -- in this 
+particular problem, the number of kilometers between Timbuktu and 
+Casablanca , which is 1710.
+
+For the sum of the numbers in an arithmetic sequence, you need the 
+formula
+
+       (first + last)
+  Sn = -------------- * (n)
+              2
+
+(NOTE:  I like to put this formula in this particular form -- with 
+the "first plus last" divided by 2, then multiplied by the number of 
+terms "n".  In that form, the formula simply says that the sum of 
+the terms of an arithmetic series is the average of the first and 
+last terms, multiplied by how many terms there are.  This formula 
+works because in an arithmetic sequence the numbers are "evenly 
+distributed", which means that the average of all the numbers is the 
+same as the average of the first and last numbers.  So then the 
+formula simply states the obvious fact that the sum of a bunch of 
+numbers is equal the average of all the numbers multiplied by how 
+many there are.)
+
+You talked about looking at one of the two sequences; specifically, 
+you mentioned the sequence for the first car, which travels, on 
+successive days, 60, 58, 56, ... km.  I have two comments about that.
+
+First, we could consider the sequences for the two cars separately; 
+but we are really concerned with the total distance covered by the 
+two cars each day.  So instead of working with two separate sequences
+
+  60+58+56+54+...
+  75+72+69+66+...
+
+I would work with the sequence formed by the sums of these two 
+separate sequences:
+
+  135+130+125+120+...
+
+The other comment is a small but important one.  You said the common 
+difference in the sequence for the first car was 2; of course it is 
+in fact -2, because it is going fewer km on each successive day.
+
+So we need to find the value of n for which n terms of the series
+
+  135+130+125+120+...
+
+is equal to 1710.
+
+We can do this using formal algebraic methods.  Using the formula 
+for the sum of the terms of an arithmetic series shown above, we have
+
+       (first + last)
+  Sn = -------------- * (n)
+              2
+
+The first term is 135; the n-th term is
+
+  tn = a + (n-1)d
+
+  tn = 135 + (n-1)(-5) = 140 - 5n
+
+And our formula for the sum of n terms is now
+
+       135 + (140 - 5n)       275n - 5n^2
+  Sn = ---------------- * n = -----------
+                2                  2
+
+We want to know when this sum is equal to 1710; so we have
+
+
+  275n - 5n^2
+  ----------- = 1710
+       2
+
+  275n - 5n^2 = 3420
+
+  55n - n^2 = 684
+
+  n^2 - 55n + 684 = 0
+
+  (n-19)(n-36) = 0
+
+  n=19 or n=36
+
+It takes the two cars 19 days to meet, having traveled a total of 
+1710km.
+
+It is curious to consider what the meaning is of the answer "n=36".  
+If the cars continue in the same patterns, the numbers of km each 
+car drives become negative -- so the cars start retracing their 
+steps, and again on the 36th day they meet, now both traveling in 
+reverse...!!  But I doubt the person who contrived this problem 
+intended for us to find that solution.
+
+To finish the problem (to find out how far from Timbuktu the cars 
+meet), you need to use the Sn formula to find the sum of the first 
+19 terms of the series for the car which left Timbuktu,
+
+  60+58+56+...
+
+The algebra involved in solving this problem by the preceding method 
+was not pleasant; in particular, it did not look as if the quadratic 
+equation
+
+  n^2 - 55n + 684 = 0
+
+was going to factor nicely.  Especially considering the need at the 
+end to do more work to find out how far the car from Timbuktu had 
+traveled when the cars meet, I think it would be easier to solve 
+this problem just by looking at the sequences of numbers:
+
+       car from  car from   car from    car from     total
+       Timbuktu  Timbuktu  Casablanca  Casablanca  both cars
+  day    today     total      today       total    together
+  ----------------------------------------------------------
+   1       60        60         75          75        135
+   2       58       118         72         147        265
+   3       56       174         69         216        390
+   4       54       228         66         282        510
+   5       52       280         63         345        625
+   6       50       330         60         405        735
+   7       48       378         57         462        840
+   8       46       424         54         516        940
+   9       44       468         51         567       1035
+  10       42       510         48         615       1125
+  11       40       550         45         660       1210
+  12       38       588         42         702       1290
+  13       36       624         39         741       1365
+  14       34       658         36         777       1435
+  15       32       690         33         810       1500
+  16       30       720         30         840       1560
+  17       28       748         27         867       1615
+  18       26       774         24         891       1665
+  19       24       798         21         912       1710
+
+That took a long time to type out, but it would take less time to 
+write out -- and it takes less time than to do the algebra shown 
+above.  This method also gives us the answers to both of the 
+questions -- the cars meet after 19 days, with the car from Timbuktu 
+having traveled 798 km.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,85 @@
+ThreadNum: 567495
+Subject: Re: Real Estate Math on percentage
+To: sjennas@msn.com (Sharmila)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 14:30:48
+Sent: yes
+
+
+As Sharmila wrote to Dr. Math
+On 08/18/2004 at 13:55:13 (Eastern Time),
+>[Question]
+>A Lease calls for a minimum rent of $1200 per month plus 4 percent 
+>of the annual gross business over $150,000.  If the total rent paid 
+>at the end of one year was $19,200, how much business did the 
+tenant 
+>do during the year?
+>
+>[Difficulty]
+>I don't know what to do first.  I tired labeling the numbers, 
+>different way of solving and I don't know how to get the correct 
+>answer.
+>
+>Help!!  I have the test tomorrow 8/19/04
+>
+>[Thoughts]
+>$1200 min rent mos x 12 =14400
+>4% ann gross over $150,000
+>19,200 ann rent
+>How much did tenant make ann?
+>
+>19200-14400=4800 rent diff
+>
+>150,000 + 4800= 158,000
+>
+>The answer is $270,000
+>
+Hi, Sharmila --
+
+>19200-14400=4800 rent diff
+
+This is a good start.  The "base" rent for the 12 months is 14400; 
+the total rent was 19200, so the difference between those two 
+numbers is the rent resulting from the amount of business over 
+150,000.
+
+>150,000 + 4800= 158,000
+
+This would be the final step if the "4800" were the amount of 
+business over 150,000.  However, it is not that amount of business --
+ it is 4% of that amount of business.  You need to figure out how 
+much business was done over 150,000 if 4% of that amount was 4800.
+
+People have different ways of handling percent problems.  The most 
+common seems to be to write the information as
+
+  "x out of y equals z percent"
+
+or, equivalently,
+
+  "x out of y equals z out of 100"
+
+This translates directly into a proportion problem:
+
+  x    z
+  - = ---
+  y   100
+
+In our example, we have that 4800 is 4% of some total; we need to 
+determine that total.  The "x out of y" is 4800 out of some unknown 
+amount "a"; the "z percent" is 4%:
+
+  4800    4
+  ---- = ---
+    a    100
+
+Solving this proportion gives us the amount of business over 150,000 
+as 120,000.  This is the number you add to 150,000 to find the total 
+amount of business -- which is 270,000.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

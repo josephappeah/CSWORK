@@ -1,0 +1,96 @@
+ThreadNum: 568217
+Subject: Re: What is domain?
+To: prettybabe_005@yahoo.com (Cutierix)
+From: Doctor Ian
+TimeStamp: 08/23/2004 at 09:43:24
+Sent: yes
+
+
+As Cutierix wrote to Dr. Math
+On 08/23/2004 at 07:49:12 (Eastern Time),
+>[Question]
+>what is domain?
+>
+>
+>
+>[Difficulty]
+>I can't understand what is domain...How am I going to get the domain 
+>of a variable...
+>
+>[Thoughts]
+>
+
+Hi,
+
+When we make up any function, it's really a rule that tells us how to
+get from an input to an output.  For example, we might make up a
+function that takes a day of the week as input, and outputs the number
+of letters in the name of that day.  So we have this:
+
+  Day         Number of letters
+  ---------   -----------------
+  Sunday      6
+  Monday      6
+  Tuesday     7
+  Wednesday   9
+  Thursday    8
+  Friday      6
+  Saturday    8
+
+In this case, the 'domain' of the function is the set of all the
+inputs that we're allowed to put into the function:
+
+  domain = { Sunday, Monday, ..., Saturday }
+
+Nothing else is a legal input.  The 'range' of the function is the set
+of all the outputs that we can get out of the function:
+
+  range = { 6, 7, 8, 9 }
+
+Given the set of legal inputs, there's no other value that we can get
+out.  (If we were allowed to put in other values, like 'Megalopolis',
+we could get out other values, like 11; but the set of inputs
+determines the set of outputs.)
+
+Does this make sense? 
+
+Now, suppose our function looks like 
+
+  f(x) = x^2
+
+We might ask:  Is there _any_ value of x that we can't put into this
+function?  There isn't.  We can square any number, so our domain is
+
+  domain = {x, where x is real}
+
+But every number that we get out will be non-negative, because there's
+no way to square a number and get a negative result.  So our range
+looks like 
+
+  range = {x, where x >= 0}
+
+On the other hand, let's look at a function like 
+
+  f(x) = sqrt(x)
+
+Again, we can ask:  Is there any value of x that we can't put into
+this function?  In fact, negative numbers won't work.  So our domain is 
+
+  domain = {x, where x >= 0}
+
+And our range is the same as before:
+
+  range = {x, where x >= 0}
+
+Note that in my initial example, with the days of the week, I
+enumerated all the elements of the domain.  When creating functions
+with numeric inputs, this is unusual: normally we assume that any
+number can be an input, unless there is some good reason why some
+numbers can't be (e.g., because they require us to divide by zero, or
+take the square root of a negative number, or something like that).  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

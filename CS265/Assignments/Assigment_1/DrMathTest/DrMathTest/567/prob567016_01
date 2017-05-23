@@ -1,0 +1,64 @@
+ThreadNum: 567016
+Subject: Re: combinations
+To: rilemar@email.uophx.edu (Richard)
+From: Doctor Roy
+TimeStamp: 08/16/2004 at 11:48:56
+Sent: yes
+
+
+As Richard wrote to Dr. Math
+On 08/15/2004 at 12:44:14 (Eastern Time),
+>[Question]
+>I am trying to understand combinations, especially when the problems 
+>asks the following:
+> 
+>How many six letter words can you get from the letters A, B, C, D, E, 
+>and F, without repeating any letters in the word.
+>
+>[Difficulty]
+>I believe the correct formula is
+>
+>6C6 = n!/r!(n-r)! 
+>
+>and the matching numbers in 6C6 is confusing me. Should I be trying 
+>to use 26 for the entire for the alphabet, or is the formula possible 
+>with 6C6?
+>
+>[Thoughts]
+>6C6= 6!/6!(6-6)!
+>
+>=6!/6!
+>
+>=1
+>
+>That certainly cannot be correct????? Confused here....
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The combinations formula only applies if order does not matter. In
+other words, there's only 1 way of arranging the 6 letters A, B, C, D,
+E, and F if you don't care about the order of the letters. So:
+
+   ABCDEF
+
+and
+
+   FEDCBA
+
+are counted as the same thing.
+
+You want the permutation formula:
+
+    nPr = n!/(n-r)!
+
+which gives you the number of _permutations_ of the 6 letters (where
+order _does_ matter).
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

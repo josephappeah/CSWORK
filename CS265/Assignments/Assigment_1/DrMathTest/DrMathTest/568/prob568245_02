@@ -1,0 +1,119 @@
+ThreadNum: 568245
+Subject: Re: Math puzzle
+To: janash1@sbcglobal.net (Jo anne)
+From: Doctor Pete
+TimeStamp: 08/23/2004 at 16:25:39
+Sent: yes
+
+As Jo anne wrote to Dr. Math
+On 08/23/2004 at 14:06:18 (Eastern Time),
+>[Question]
+>The devil asks if you would like to agree to the following 
+>proposition.  He gives you $1000 on day 1 and you give him @100 
+>back.  The next day he doubles what you have left, and you double 
+>what you gave him.  This same procedure continues for 30 days.  For 
+>example, day 2:  you now have 1800 and give away 200, day 3:  you 
+>now have 3200 and give away 400 and so on.  I understand that you 
+>continue giving away 2^(n-1)*100 where n is day.  I understand that 
+>by day 30 you have given back billions...since the exponential 
+>sequence is much larger than the doubling sequence for 30 terms...
+>(Therefore, I would not agree to the proposal).  
+>
+>[Difficulty]
+>My difficulty lies in an algebra expression for the doubling part 
+>(the amount the devil gives me).  I can easily calculate each day by 
+>hand (or better on a spreadsheet), but I would like to develop an 
+>equation to find out on what day (n) you break even.  Can you help 
+>me?
+>
+>[Thoughts]
+>day 1:  I have $1000          Devil gets $100
+>day 2:  I have  $1800         Devil gets $200
+>day 3:  I have $3200          Devil gets $400
+>
+>Day 30  I have                Devil gets 2^29*100 
+
+Hi Jo Anne,
+
+As you correctly noted, the amount you give on day n is equal to 2^(n-1)*100.  If we let 
+F[n] describe the amount of money you have at the end of day n, we find that
+
+     F[n] = 2F[n-1] - 2^(n-1)*100;
+
+that is, the amount you have at the end of day n is twice the amount you had the previous 
+day, minus the amount you must give away on day n, which we had previously described.
+
+While this is a nice formula, it doesn't immediately solve our problem because one must 
+know what the previous value F[n-1] is, in order to compute F[n].  Hence let us consider 
+the more general problem where you start off with some initial amount F[0], which at the 
+beginning of day 1 is doubled, and the amount you must initially pay at the end of day 1 is 
+x.  Then the "giving formula" is
+
+     2^(n-1) x,
+
+and
+
+     F[n] = 2F[n-1] - 2^(n-1)x.
+
+In the specific example of the problem, then, F[0] = 500 (why is it not 1000?), and x = 
+100.  We then have
+
+     F[1] = 2F[0] - x
+     F[2] = 2F[1] - 2x = 2(2F[0] - x) - 2x = 4F[0] - 4x
+     F[3] = 2F[2] - 4x = 2(4F[0] - 4x) - 4x = 8F[0] - 12x
+     F[4] = 2F[3] - 8x = 2(8F[0] - 12x) - 8x = 16F[0] - 32x
+     F[5] = 2F[4] - 16x = 2(16F[0] - 32x) - 16x = 32F[0] - 80x
+     F[6] = 2F[5] - 32x = 2(32F[0] - 80x) - 32x = 64F[0] - 192x,
+
+and so forth.  It is pretty obvious that the coefficient on the F[0] term is 2^n, but what of 
+the sequence
+
+     {1, 4, 12, 32, 80, 192, ... }?
+
+No doubt there is a pattern, but we must find it.  Had we been more meticulous, we would 
+have seen something interesting in our calculations:
+
+     F[2] = 2(2F[0] - x) - 2x = 4F[0] - 2*2x
+     F[3] = 2(4F[0] - 2*2x) - 4x = 8F[0] - 2*4x - 4x = 8F[0] - 3*4x
+     F[4] = 2(8F[0] - 3*4x) - 8x = 16F[0] - 3*8x - 8x = 16F[0] - 4*8x
+     F[5] = 2(16F[0] - 4*8x) - 16x = 32F[0] - 4*16x - 16x = 32F[0] - 5*16x,
+
+and by now the pattern is quite obvious:  the coefficient on the x-term is simply
+
+     n 2^(n-1).
+
+This would mean that
+
+     F[n] = 2^n F[0] - n 2^(n-1)x,
+
+or
+
+     F[n] = 2^(n-1) (2F[0] - nx).
+
+At this point, you may want to verify that this formula does indeed satisfy the recursion 
+relation
+
+     F[n] = 2F[n-1] - 2^(n-1) x.
+
+Now, the answer to your question is quite simple:  F[n] will be positive as long as
+
+     2F[0] - nx > 0,
+
+or
+
+     n < 2F[0]/x.
+
+In your case, F[0] = 500, x = 100, and so F[n] is positive for all n < 10.  On the end of day 
+10, you would have nothing, since
+
+     F[10] = 2^9 (2*500 - 10*100) = 0,
+
+and at the end of day 11, you would have
+
+     F[11] = 2^10 (2*500 - 11*100) = 2^10 (-100) = -102400.
+
+At that point, doubling what you have would actually increase your debt!
+
+
+- Doctor Pete, The Math Forum
+  <http://mathforum.org/dr.math/>

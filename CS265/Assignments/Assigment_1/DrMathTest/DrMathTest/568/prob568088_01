@@ -1,0 +1,36 @@
+ThreadNum: 568088
+Subject: Re: series and sequences
+To: av_ace11@hotmail.com (avneesh)
+From: Doctor Vogler
+TimeStamp: 08/23/2004 at 10:05:43
+Sent: yes
+
+
+As avneesh wrote to Dr. Math
+On 08/22/2004 at 09:53:03 (Eastern Time),
+>[Question]
+>Find sequences An and Bn such that A has a subsequence converging to 
+>2, Bn has a subsequence converging to 3, and An + Bn -> 4.
+>
+>
+>[Difficulty]
+>I have aboslutiely no idea how to begin because my lecturer is 
+>really bad..
+>
+>[Thoughts]
+>havent been able to produce anyfing..
+
+Hi Avneesh,
+
+Thanks for writing to Dr Math.  Why don't you choose An so that the
+even terms converge to 2 (or the even terms are all equal to 2), and
+choose Bn so that the odd terms converge to 3 (or equal 3), and define
+the other terms so that An + Bn = 4 always?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

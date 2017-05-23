@@ -1,0 +1,82 @@
+ThreadNum: 566683
+Subject: Re: I'm in need of an easy way to teach Integers/Algebra
+To: LessTJake182@optonline.net (John)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 07:44:17
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 08/13/2004 at 01:42:43 (Eastern Time),
+>Well I'm actually tutoring her on stuff she did already so I'm 
+>assuming that she did learn this stuff already but I think I should 
+>probably make sure.  I know she's done negative numbers though.  I'm 
+>not quite sure exactly what kinda algebra she's done.
+
+Hi John,
+
+There's a difference between 'doing' something in school, and actually
+having learned it.  Lots of kids get into algebra, for example, having
+'done' fractions, but they really have no idea what a fraction is.  So
+they don't realize, for example, that 
+
+  x^3   x*x*x   x   x   x
+  --- = ----- = - * - * - = 1 * 1 * x = x
+  x^2     x*x   x   x   1
+
+or that you can do this simplification without knowing what the value
+of x is, or that it works even if x isn't an integer.  
+
+They've memorized some rules (like "to divide by a fraction, invert
+and multiply") and some simplified models ("a fraction is when you cut
+something into some number of pieces, and keep some of them") without
+really _understanding_ any of it, so as soon as a problem asks them to
+go anywhere they haven't been before, they have no idea what to do. 
+
+Everything about subtraction and negative numbers can be figured out
+by someone who actually _understands_ arithmetic with positive
+numbers.  But if someone has merely been memorizing procedures, the
+most you can do is ask her to memorize more procedures.  Eventually,
+they start getting mixed up in her head, and when this happens, she
+can't really get any farther in math.  
+
+Here's an example of what I mean by 'understanding'.  We probably get
+100 questions a month like this:  "If some quantity is increased by
+20% and the result is 150, what's the original amount?"  The
+questioner usually knows how to increase 150 by 20%:
+
+  150 * 1.20 = ?
+
+But he doesn't know how to do the inverse:
+
+  ? * 1.20 = 150
+
+So here's the thing.  If you actually understand division, you know
+that it's not just a procedure that you can do involving lots of
+guessing and borrowing.  You know that it's the inverse of
+multiplication, i.e., all of the following
+
+  3 * 4 = 12        12 / 3 = 4       12 / 4 = 3
+
+are just different ways of stating exactly the same fact.  So whenever
+you see something that looks like one of these, you can change it to
+one of the other forms if that's more convenient.  So if you see
+something like 
+
+  ? * 1.20 = 150
+
+you can change it to
+
+         ? = 150 / 1.20
+
+and what's the fuss?  So even though you're supposed to be tutoring
+her in 'algebra', you'll be doing her a huge favor if you can get her
+caught up on basic arithmetic, starting with addition and
+multiplication, and then explaining subtraction and division in terms
+of inverses.  It looks like she's already reached the limit of how
+much she can memorize.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+
+

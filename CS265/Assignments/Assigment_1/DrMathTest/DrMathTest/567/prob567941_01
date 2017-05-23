@@ -1,0 +1,50 @@
+ThreadNum: 567941
+Subject: Re: Integrating factor
+To: rachpman22@yahoo.com (Casey)
+From: Doctor Fenton
+TimeStamp: 08/22/2004 at 08:27:43
+Sent: yes
+
+
+As Casey wrote to Dr. Math
+On 08/20/2004 at 19:48:04 (Eastern Time),
+>[Question]
+>My calculus textbook -- an excellent one, Calc with Analytic 
+>Geometry by Larson, Edwards, and Hostetler -- posed in the chapter 
+>review of an introduction to differential equations the following 
+>equation:
+> (y+x^3+xy^2)dx - xdy =0
+>
+>The techniques delineated in the chapter were inadequate for solving 
+>this equation.
+>
+>[Difficulty]
+>This equation is not exact, but I cannot find an appropriate 
+>integrating factor to make it exact, and therefore, I cannot solve 
+>this problem.
+>
+>[Thoughts]
+>The integrating factor clearly is not only x or y-dependent, so the 
+>exp trick does not work. What approach would you recommend to obtain 
+>an integrating factor? Must I solve partial differential equations? 
+>If I must, even though I do not know how to, I would like to try and 
+>explain the process - it will only give me something to look forward 
+>to in math!
+
+Hi Casey,
+
+Thanks for writing to Dr. Math.  Sometimes it helps to break the
+problem into simpler parts.  For example, note that you can 
+write the given differential as
+
+   (y+x^3+xy^2)dx - xdy = (y dx - x dy) + x(x^2+y^2) dx    .
+
+Does this form give you any ideas?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

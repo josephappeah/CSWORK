@@ -1,0 +1,39 @@
+ThreadNum: 567192
+Subject: Re: algebraic expression
+To: texter@mindspring.com (Kelly)
+From: Doctor Rob
+TimeStamp: 08/16/2004 at 22:46:42
+Sent: yes
+
+
+As Kelly wrote to Dr. Math
+On 08/16/2004 at 19:00:14 (Eastern Time),
+>[Question]
+>Find the value of y so that the value of 10y to the 3rd power is the 
+same 
+>as the value for (10y) to the 3rd power
+>
+>[Difficulty]
+>I do not get it at all!!!!!
+>
+>[Thoughts]
+>I have to find the value of y and make it the same amount on both 
+>expression
+
+Thanks for writing to Ask Dr. Math, Kelly!
+
+You are being asked to solve
+
+   10*(y^3) = (10*y)^3.
+
+Use the laws of exponents to expand the right-hand side.  Then
+subtract 10*y^3 from both sides.  Then combine like terms on the
+right-hand side.  Then figure out the values of y making the
+resulting equation true.
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

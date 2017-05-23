@@ -1,0 +1,45 @@
+ThreadNum: 567512
+Subject: Re: math
+To: smilingboy32@hotmail.com (tim)
+From: Doctor Ian
+TimeStamp: 08/19/2004 at 15:34:58
+Sent: yes
+
+
+As tim wrote to Dr. Math
+On 08/19/2004 at 14:45:36 (Eastern Time),
+>Firstly Thabk you for answering my dilema. But secondly how do I  
+>apply Pythagoras again to find the A-G line. By disecting the square 
+>diagonally the cube is then turned into a pyramid. Is this how I can 
+>do it? 
+
+Hi Tim,
+
+Suppose I have two points, (3,5) and (6,9).  The segment that connects
+them is the hypotenuse of a right triangle.  One leg is the difference
+in the x direction, which is just the difference of the x components:
+
+  difference in x = |3 - 6|
+
+The other leg is the difference in the y direction, which is just the
+difference of the y components:
+
+  difference in y = |5 - 9|
+
+So now I put those into the Pythagorean Theorem:
+
+  hypotenuse^2 = leg^2 + other_leg^2
+
+    distance^2 = |3 - 6|^2 + |5 - 9|^2
+
+                   ______________________
+      distance = \/ |3 - 6|^2 + |5 - 9|^2
+
+If you generalize this to two arbitrary points, (a,b) and (c,d),
+you'll get a general formula for the distance between two points.  
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,47 @@
+ThreadNum: 567057
+Subject: Re: finding internal angles for isoscles triangles
+To: dhoward@d11.uscg.mil (Dan Howard)
+From: Doctor Greenie
+TimeStamp: 08/15/2004 at 21:47:05
+Sent: yes
+
+
+As Dan Howard wrote to Dr. Math
+On 08/15/2004 at 20:47:15 (Eastern Time),
+>[Question]
+>how can i solve the internal angles when i know only the side of an 
+>isosceles triangle. the base is 3 feet across and the sides are 
+both 
+>8 feet.
+>
+>[Difficulty]
+>i didnt know how to do this at all so i thought i would check 
+online.
+>
+>[Thoughts]
+>i looked at laws of sine and cosine and thought that i could figure 
+>out them by making a line perpendicular to the base and intersect 
+the 
+>top angle. i could not however figure out how to use these laws to 
+>get any farther, any help would be apperciated
+
+Hi, Dan --
+
+In an isosceles triangle, the altitude to the base divides the 
+triangle into two congruent right triangles.  In your case each of 
+those right triangles will have hypotenuse 8 feet and one leg 1.5 
+feet.  Then you can simply use the basic trig functions to find your 
+angles.  For each of the base angles x, we have
+
+  cos(x) = 1.5/8
+
+Use a calculator or trig tables or whatever to determine each of 
+those angles; then the vertex angle is what is left to make the sum 
+of the three angles equal to 180 degrees.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

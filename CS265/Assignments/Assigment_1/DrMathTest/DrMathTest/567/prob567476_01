@@ -1,0 +1,50 @@
+ThreadNum: 567476
+Subject: Re: Math Support Class
+To: tina.lisk@am.dodea.edu (Tina)
+From: Doctor Greenie
+TimeStamp: 08/18/2004 at 14:48:26
+Sent: yes
+
+
+As Tina wrote to Dr. Math
+On 08/18/2004 at 10:38:05 (Eastern Time),
+>[Question]
+>If Carla's lop-eared rabbit had 7 baby bunnies every year, and 
+these 
+>7 bunnies and the mother had 7 bunnies every year after that, how 
+>many bunnies could there possibly be in the 3rd year?
+>
+>[Difficulty]
+>I have the answer, it is 512, but I am having a hard time 
+explaining 
+>how I got the answer.
+>
+>[Thoughts]
+>7 babies the first year times 7 babies they have and they double 
+and 
+>so on.  At the very end you add the original 8 (mom and 7 bunnies) 
+>and you get 512.
+
+Hi, Tina --
+
+Your description of how you got your answer is too brief for me to 
+know exactly how you got your answer.  I suspect you did a lot more 
+work than you needed to.
+
+If each bunny alive at the beginning of each year has 7 bunnies that 
+year, the total number of bunnies will get multiplied by 8 each year:
+
+1st year:  start with 1; add 7 -- total is 8
+
+2nd year:  start with 8; add 7*8 -- total is 8*8
+
+3rd year:  start with 8*8; add 7*(8*8) -- total is 8*(8*8)
+
+and so on.
+
+So the total number of bunnies at the end of the 3rd year is just 
+8^3 = 8*8*8 = 512.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 568765
+Subject: Re: Refex Angles and their Interiors- Labeling
+To: drfurr@alltel.net (William Christopher)
+From: Doctor Tom
+TimeStamp: 08/25/2004 at 19:58:55
+Sent: yes
+
+
+As William Christopher wrote to Dr. Math
+On 08/25/2004 at 18:52:32 (Eastern Time),
+>[Question]
+>How does one label the two explementary angles which add to make 360 
+>degrees diffrently if they use the same set of points?  Example: A 
+>160 degree obtuse angle <ABC. The 200 degree reflex angle formed by 
+>the same set of points <ABC. What is the symbol or symbols that 
+>allow you to tell a diffrence between the two? (Please hurry)
+>
+>[Difficulty]
+><ABC and <ABC can not be distinguished from each other without some 
+>other symbol or sign. 
+>
+>[Thoughts]
+>I searched the Internet for a long time typing Reflex Angles, 
+>Explemtary Angles, and related and I am mystified. I would like the 
+>answer if you could as soon as Thursday afternoon or night. I 
+>urgently need your response!
+
+Hi William,
+
+It's rarely important to do this, and that's why the normal angle
+convention usually works fine, but as you've noted, sometimes
+there is a problem.
+
+When it is critical to discuss angles and reflex angles at the same
+time, a common approach is to make sure the reader knows to
+pay attention, and then to use "directed angles".  If the angle
+<ABC is directed, that means that (as usual) B is the vertex,
+but the ray BA is the first ray and the angle goes counter-clockwise
+from BA to BC.  Thus if <ABC is one angle, then <CBA is its
+reflex angle.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

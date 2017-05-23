@@ -1,0 +1,58 @@
+ThreadNum: 567060
+Subject: Re: Geometry Review
+To: amber.hope@clear.net.nz (Amber)
+From: Doctor Greenie
+TimeStamp: 08/15/2004 at 21:41:53
+Sent: yes
+
+
+As Amber wrote to Dr. Math
+On 08/15/2004 at 21:04:40 (Eastern Time),
+>[Question]
+>I'm studying Geometry by corespondence and the question I'm stuck 
+on 
+>is : A is any point on a circle, diameter PQ. PR is drawn 
+>perpendicular to tha tnagent at A. Prove that PA bisects tha angle 
+QPR
+>(join QA)
+>
+>[Difficulty]
+>I can only get so far in the working out and I'm not sure if I'm on 
+>the right track.
+>
+>[Thoughts]
+>So far I Have :
+>Triangle APQ is a right angle because any angle inscribed in a semi 
+>circle is a right angle.
+>Line RP = Line RA because tangents to a circle from an outside 
+point 
+>are congruent,so Triangle RPA is an isosceles and therfore angle 
+RPA 
+>& angle RAP = 45 degrees(I already know that triangle RPA is a 
+right 
+>angle triangle)
+>So I guess I need to prove that Triangle PAQ is also an isosceles 
+>tringle to prove that angle APQ = angle RPA. What do you think?
+>
+Hi, Amber --
+
+RP and RA are not congruent, because RP is not tangent to the circle 
+(except in the one case where point A is the "midpoint" of arc PQ).  
+I made the same mistake when I first drew my diagram of the 
+problem....
+
+Here's a sketch of how I would prove this:
+
+(1) Draw segment AO where O is the center of the circle
+(2) AO is now parallel to RP (why?)
+(3) AOP is isosceles (why?)
+
+Now work with angles of an isosceles triangle and angle formed by 
+parallel lines cut by a transversal to finish the proof.
+
+I hope this much helps you finish your proof.  Please write back if 
+you need more help with any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,67 @@
+ThreadNum: 567382
+Subject: Re: Middle school math
+To: smithjsml@aol.com (Shelli)
+From: Doctor Greenie
+TimeStamp: 08/19/2004 at 22:26:14
+Sent: yes
+
+
+As Shelli wrote to Dr. Math
+On 08/17/2004 at 21:11:22 (Eastern Time),
+>[Question]
+>The sum of two numbers is 15 and the difference of the same two 
+>numbers is 3. what are the numbers?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+Hi, Shelli --
+
+For young students, I like to think of this problem on a number line.
+
+Adding two numbers on a number line is represented by
+
+(1) starting at zero;
+(2) adding the first number by moving to the right, starting at
+    zero and moving the required number of marks to the right; and
+(3) adding the second number by starting at the first number
+    and moving the required number of marks to the right
+
+Subtracting two numbers on a number line is represented by
+
+(1) starting at zero;
+(2) adding the first number by moving to the right, starting at
+    zero and moving the required number of marks to the right; and
+(3) subtracting the second number by starting at the first number
+    and moving the required number of marks to the left
+
+The only difference between these two processes is that, after you 
+find the first number on the number line, you move right from there 
+if you are adding the second number but move left from there if you 
+are subtracting the second number.  Since you are moving the same 
+distance right or left when you are adding or subtracting that 
+second number, it must be true that the first number is halfway 
+between the two places where you end up when you add or subtract the 
+second number.
+
+When you add the two numbers in your example, you end up at 15; when 
+you subtract them, you end up at 3.  The distance between 3 and 15 
+is 12; half of that distance is 6.  So the point halfway between 3 
+and 15 is 3+6=9 (or, if you like, you can think of it as 15-6=9).
+
+So the first number must be 9.  And we have seen that 15 is 6 more 
+than 9 and 3 is 6 less than 9, so the second number must be 6.
+
+In a few years, when you study algebra, you will learn a formal 
+mathematical way to solve a problem like this; and you will discover 
+that the formal method is very similar to the informal one I 
+described.
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

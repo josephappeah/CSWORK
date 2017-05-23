@@ -1,0 +1,68 @@
+ThreadNum: 566719
+Subject: Re: when learning ordinal numbers using perenthasis..
+To: Icegirlrocks19@yahoo.com (Denton)
+From: Doctor Ian
+TimeStamp: 08/13/2004 at 15:17:28
+Sent: yes
+
+
+As Denton wrote to Dr. Math
+On 08/12/2004 at 18:22:43 (Eastern Time),
+>[Question]
+>what if the question is just a number with single numbers in 
+>paranth. one after another...  5(4)(8)+2 (4)(12) What do I do?? 
+>
+>[Difficulty]
+>I do not think there is enough information to solve it.. 
+>
+>[Thoughts]
+> I think I would multipy each number in paren. by 5 and then by 2 
+>and add the two sides together when done???confused  I know 5(4)+2
+>(4) would be 5 times 4 and 2 times 4 and then added together but 
+>what if there is two parenth on each side as above.. 
+>
+
+Hi Denton,
+
+When we want to indicate that we're multiplying some variables, 
+
+  x times y times z
+
+we just put them next to each other, with no punctuation:
+
+  x times y times z = xyz
+
+We can do this with a number and a variable, and it's not ambiguous:
+
+  3 times x times y = 3xy
+
+But if we want to use more than one number, this doesn't work:
+
+  243xy = 2 times 4 times 3 times x times y?
+
+        = 24 times 3 times x times y?
+
+        = 2 times 43 times x times y?
+
+        = ...
+
+In this case, we use parentheses to indicate where one number stops,
+and the next begins:
+
+  5(4)(8) = 5 times 4 times 8
+
+Note that you could also write it in any of the following ways:
+
+  (5)(4)(8) 
+  
+  (5)4(8)
+  
+  5(4)8
+
+  (5)(4)8
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+
