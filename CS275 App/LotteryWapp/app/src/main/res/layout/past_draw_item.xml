@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/whiteBall1Stats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="1"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall2Stats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="2"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall3Stats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="3"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall4Stats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="4"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall5Stats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="5"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/powerBallStats"
+        android:layout_width="0dp"
+        android:layout_weight="0.19"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="6"
+        android:textColor="#FF0000"
+        android:textSize="25sp" />
+
+</LinearLayout>

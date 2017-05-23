@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/whiteBall1"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="1"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall2"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="89dp"
+        android:padding="3dp"
+        android:text="2"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall3"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="95dp"
+        android:padding="3dp"
+        android:text="3"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall4"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="4"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whiteBall5"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="5"
+        android:textColor="#555555"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/powerBall"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="6"
+        android:textColor="#FF0000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="-"
+        android:textSize="25sp" />
+
+</LinearLayout>
