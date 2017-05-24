@@ -1,0 +1,69 @@
+%+-------------------------------------------------------+%
+%|                   Space Invaders                      |%
+%|                        by                             |%
+%|             Sunny Shah And Jacob Tannahill            |%
+%|                                                       |%
+	   Its Time to Climb into your cockpit.
+		Test the Controls and LAUNCH
+			Into Battle.
+		If you dare turn up the heat
+		  And increase the level
+		  Hit Motivation for some 
+		    Motivating music 
+                           To 
+                Get you through the battle 
+
+
+
+
+
+%+-------------------------------------------------------+%
+
+The objective of the game is to stay alive as long as you
+can, the longer you stay alive the higher your score will be. 
+You will be given a total of 3 lives every time the ship gets hit
+you will lose a life. Use the joy stick to control your ship to 
+maneuver it away from your enemies. To begin the game hit the 
+Cockpit icon to set the serial port, hit the CONTROLS icon to 
+calibrate the accelerometer. After calibration you must choice 
+which level you want to play and use the sensitivity adjustment 
+to adjust the sensitivity that you desire. Also the Motivation icon 
+will activate the music and Eject will exit the game. 
+
+%+-------------------------------------------------------+%
+%|                Core Functionality                     |%
+%+-------------------------------------------------------+%
+	
+1. Setup serial	port (COCKPIT)	
+2. Calibrate (and recalibrate if required) (CONTROLS)	
+3. Start and stop reading sensor values	(LAUNCH)	
+4. Filtering noise out of sensor values	
+5. Visualization	
+6. Close serial	port (EJECT)
+
+7. senor noise characterization (JOY STICK INPUT)
+
+
+
+
+%+-------------------------------------------------------+%
+%|                Advanced Functionality                 |%
+%+-------------------------------------------------------+%
+
+o Advance user interface: 
+	-Drop down menu and Sliders
+	-Score tracker 
+	-Creating Different types of elements on axes 
+	-Incorporating live sounds and music 
+	-Creating a Joy stick that cradles accelerometer
+o Advanced Algorithms:
+	-Creating a advanced Algorithm to randomly generate 
+random aliens. 
+	-Incorporating Collision algorithm into the game design 
+o Advanced Visualization:
+	-Creating Alien Ships that are animated 
+	-Creating Ship that is controlled by the accelerometer input 
+	-changing the ships color as the accelerometer input changes 
+o Dealing with uncertainty:
+	-Giving the user the option to change the sensitivity of the joy stick 
+which increases or decreases the noise filteration. 
