@@ -1,0 +1,158 @@
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Matching extends Question implements java.io.Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	protected Vector<String> RightList = new Vector<String>();
+	protected Vector<String> LeftList = new Vector<String>();
+
+	public Matching(){
+		
+	}
+	/*Get the Prompt from the user for the matching*/
+	public void getPrompt() {
+		System.out.println("Enter the prompt or your matching question:");
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		String i = sc.nextLine();
+		SetPrompt(i +"\n");
+	}
+	/*get number of choices to math and set the list call*/
+	public void setQuestion(){
+		getPrompt();
+		System.out.println("Enter the number of choices to match");
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		while (!sc.hasNextInt()) {
+			   System.out.println("int, please!");
+			   sc.nextLine();
+			}
+		int n = sc.nextInt();
+		setList(n);
+
+	}
+	/*sets the list of questions the right side and the left from the user*/
+	public void setList(int n){
+		
+		System.out.println("Enter the choices for the right list");
+		for( int i=1; i<=n;i++){
+			System.out.println("Enter choice " + "#"+i+".");
+			@SuppressWarnings("resource")
+			Scanner sc1 = new Scanner(System.in);  
+			String c = sc1.nextLine();
+			RightList.add(c);
+			
+
+		}
+		System.out.println("Enter the choices for the left list");
+		for( int i=1; i<=n;i++){
+			System.out.println("Enter choice " + "#"+i+".");
+			@SuppressWarnings("resource")
+			Scanner sc1 = new Scanner(System.in);  
+			String c = sc1.nextLine();
+			LeftList.add(c);
+			
+		}
+	}
+	/*return the right list of the question*/
+	public Vector<String> getRightList(){
+		
+		return this.RightList;
+		
+	}
+	/*return the left list of the question*/
+    public Vector<String> geLeftList(){
+		
+    	return this.LeftList; 
+	}
+    /*Display to console the question and the choices*/
+	public void display(Output O){
+		
+		O.display(this.prompt);
+		for(int i=0;i<RightList.size();i++){
+			O.display( (i+1)+") " +RightList.elementAt(i)+"     "+LeftList.elementAt(i)+"\n");	
+			}
+		O.display("\n");
+	}
+	
+	/*Modify the question*/
+    public void Modify(){
+		//check to see if it catches errors 
+		System.out.println(this.prompt);
+		String prompt = null;
+		
+		System.out.println("Do you wish to modify the prompt?");
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		
+		String prompt1 = sc.nextLine();
+		if(prompt1.toLowerCase().equals("yes")){
+			System.out.println("Enter a new Prompt");
+			@SuppressWarnings("resource")
+			Scanner sc1 = new Scanner(System.in);
+			prompt = sc1.nextLine();
+			this.prompt = prompt;
+		}
+		
+		System.out.println("Do you wish to modify the choices?");
+		@SuppressWarnings("resource")
+		Scanner sc2 = new Scanner(System.in);
+		
+		
+		String prompt12 = sc2.nextLine();
+		if(prompt12.toLowerCase().equals("yes")){
+			
+			for(int i=0;i<RightList.size();i++){
+				System.out.print( (i+1)+") " +RightList.elementAt(i)+"     "+LeftList.elementAt(i)+"\n");	
+				}
+			
+			System.out.println("Do you wish to modify the left side?");
+			@SuppressWarnings("resource")
+			Scanner sc21 = new Scanner(System.in);
+			String prompt121 = sc21.nextLine();
+			
+			
+			if(prompt121.toLowerCase().equals("yes")){
+				
+				System.out.println("Enter the choice you want to change EX: 1");
+				@SuppressWarnings("resource")
+				Scanner sc211 = new Scanner(System.in);
+				int i = sc211.nextInt();
+				
+				System.out.println("Enter new value");
+				@SuppressWarnings("resource")
+				Scanner sc3 = new Scanner(System.in);
+				String newValue = sc3.nextLine();
+				RightList.setElementAt(newValue, i-1);
+				//check if it changed 
+			}
+			System.out.println("Do you wish to modify the right side?");
+			@SuppressWarnings("resource")
+			Scanner sc211 = new Scanner(System.in);
+			String prompt1211 = sc211.nextLine();
+			
+			if(prompt1211.toLowerCase().equals("yes")){
+				
+
+				System.out.println("Enter the choice you want to change EX: 1");
+				@SuppressWarnings("resource")
+				Scanner sc2111 = new Scanner(System.in);
+				int i = sc2111.nextInt();
+				
+				System.out.println("Enter new value");
+				@SuppressWarnings("resource")
+				Scanner sc3 = new Scanner(System.in);
+				String newValue = sc3.nextLine();
+				LeftList.setElementAt(newValue, i-1);
+				//check if it changed 
+			}
+
+		}
+    }
+	
+}

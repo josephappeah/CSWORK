@@ -1,0 +1,90 @@
+import java.util.Scanner;
+
+public class Ranking extends Matching {
+
+		/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+		public Ranking(){
+			
+		}
+		/*Get the Prompt from the user for the ranking*/
+		public void getPrompt() {
+			
+			System.out.println("Enter the prompt or your ranking ranking question:");
+			@SuppressWarnings("resource")
+			Scanner sc = new Scanner(System.in);
+			String i = sc.nextLine();
+			SetPrompt(i +"\n");
+		}
+		/*Sets the question*/
+		public void setQuestion(){
+			getPrompt();
+			System.out.println("Enter the number of choices to rank");
+			@SuppressWarnings("resource")
+			Scanner sc = new Scanner(System.in);
+			while (!sc.hasNextInt()) {
+				   System.out.println("int, please!");
+				   sc.nextLine();
+				}
+			int n = sc.nextInt();
+			setList(n);
+		}
+		
+		/*sets the right and left lit for the Ranking*/
+		public void setList(int n){
+			
+			System.out.println("Enter the choices to rank");
+			for( int i=1; i<=n;i++){
+				System.out.println("Enter choice " + "#"+i+".");
+				@SuppressWarnings("resource")
+				Scanner sc1 = new Scanner(System.in);  
+				String c = sc1.nextLine();
+				RightList.add(c);
+				LeftList.add(Integer.toString(i));
+			}
+			
+
+		}
+		
+		/*Modify the question(coming soon)*/
+		public void Modify(){
+			//check to see if it catches errors 
+			System.out.println(this.prompt);
+			String prompt = null;
+			
+			System.out.println("Do you wish to modify the prompt?");
+			@SuppressWarnings("resource")
+			Scanner sc = new Scanner(System.in);
+			
+			
+			String prompt1 = sc.nextLine();
+			if(prompt1.toLowerCase().equals("yes")){
+				System.out.println("Enter a new Prompt");
+				@SuppressWarnings("resource")
+				Scanner sc1 = new Scanner(System.in);
+				prompt = sc1.nextLine();
+				this.prompt = prompt;
+			}
+			
+			System.out.println("Do you wish to modify the choices?");
+			@SuppressWarnings("resource")
+			Scanner sc2 = new Scanner(System.in);
+			
+			
+			String prompt12 = sc.nextLine();
+			if(prompt12.toLowerCase().equals("yes")){
+				for(int i=0;i<RightList.size();i++){
+					System.out.print( (i+1)+") " +RightList.elementAt(i)+"     "+LeftList.elementAt(i)+"\n");	
+					}
+				System.out.print("\n");
+				@SuppressWarnings("resource")
+				Scanner sc21 = new Scanner(System.in);
+				int i = sc21.nextInt();
+			}
+			
+			
+		}
+}

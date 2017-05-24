@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Maze.java&apos; to &apos;AdvanceMazeGame/src/maze&apos;&#x0D;&#x0A;- Original project: &apos;AdvanceMazeGame2&apos;&#x0D;&#x0A;- Destination element: &apos;AdvanceMazeGame/src/maze&apos;&#x0D;&#x0A;- Original element: &apos;maze.Maze.java&apos;" description="Copy compilation unit" destination="=AdvanceMazeGame/src&lt;maze" element1="/src&lt;maze{Maze.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493928227609" units="1" version="1.0"/>
+</session>

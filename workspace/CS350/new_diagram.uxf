@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2.0">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>266</y>
+      <w>504</w>
+      <h>392</h>
+    </coordinates>
+    <panel_attributes>Survey(serializable)
+--
+-Questions: vector&lt;Questions&gt; 
+-Respones: vector&lt;RCA&gt;
+-Survey : String 
+-IO: IO
+--
++Survey()
++SetQuestions(Questions: vector&lt;Questions&gt; ) : void  
++SetRespones(Respones&lt;respone&gt;) : void
++GetRespones() : Respones&lt;respone&gt;
++GetQuestions() : Questions&lt;questions&gt; 
++Create(Survey : String) : void 
++take() : void 
++Modify() : void 
++load() : Survey 
++save() : void 
++tabulate(Survey : String ) : void  
+ 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>252</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Main
+--
+
+--
++menu() : void 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1764</x>
+      <y>364</y>
+      <w>700</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>Test
+--
+-CorrectAnswers: vector&lt;RCA&gt;
+--
++Test()
++SetQuestions(Questions&lt;questions&gt;) : void  
++SetCorrectRespones(CorrectAnswers: vector&lt;RCA&gt;) : void
++GetCorrectRespones() : CorrectAnswers: vector&lt;RCA&gt;
++Create() : void 
++Modify() : void 
++save() : void 
++tabulate(Survey : String ) : void  //diff from surevy will grade test
+ 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1190</x>
+      <y>756</y>
+      <w>392</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Questions(abstract)
+--
+-Prompt : String
+-I/O : IO 
+--
++SetPrompt(Prompt : String ) : void
++GetPrompt() : Prompt 
++SetQuestion() : void 
++display(IO) : void 
++Modify() : void 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>826</x>
+      <y>1204</y>
+      <w>462</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>MC
+--
+-Choices : vector&lt;choices&gt; 
+--
++MC()
++SetQuestion() : void 
++SetChoices(Choices : vector&lt;choices&gt; ) : void 
++GetChoices() : void 
++display(IO) : void 
++Modify() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1358</x>
+      <y>1190</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Essay
+--
+
+--
++Essay()
++SetQuestion() : void
++display(IO) : void 
++Modify() : void 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>854</x>
+      <y>1610</y>
+      <w>294</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>T/F
+--
++T/F()
++SetQuestion() : void 
++Modify() : void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1806</x>
+      <y>1204</y>
+      <w>532</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Matching
+--
+-RightList: vector&lt;list&gt;
+-LeftList: vector&lt;list&gt;
+--
++Matching()
++SetQuestion() : void
++SetList(RightList: vector&lt;list&gt;, LeftList: vector&lt;list&gt;) : void 
++GetRightList() : RightList: vector&lt;list&gt;
++GetLeftList() : LeftList: vector&lt;list&gt;
++Modify() : void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1904</x>
+      <y>1596</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Ranking
+--
++Ranking()
++SetList(RightList&lt;list&gt;): void 
++GetList() : RightList&lt;list&gt;
++display(IO) : void  
++Modify() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>378</y>
+      <w>168</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>100.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1680</x>
+      <y>490</y>
+      <w>112</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>994</x>
+      <y>1022</y>
+      <w>406</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>270.0;10.0;270.0;50.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1358</x>
+      <y>1078</y>
+      <w>154</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1330</x>
+      <y>644</y>
+      <w>42</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+ 1
+
+
+ n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>966</x>
+      <y>1456</y>
+      <w>56</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;80.0;20.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1372</x>
+      <y>1568</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>SA
+--
+-Wordlimit : int
+--
++SA()
++SetQuestion() : void
++SetWord(Wordlimit : int) : void
++display(IO) : void  
++Modify() : void 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1498</x>
+      <y>1442</y>
+      <w>56</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>490</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>I/O(abstract)
+bridge pattern
+--
+
+--
++I/O()
++display(String string) : void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>84</y>
+      <w>700</w>
+      <h>336</h>
+    </coordinates>
+    <panel_attributes>RCA
+--
+-I/O : IO 
+-RCA: vector&lt;RCA&gt;
+-Hashmap (maybe)
+-Response : String 
+--
++RCA()
++addResponse() :void
++editResponse(): void 
++setRCA(Response : String ): void
++getRCA() : void
++SetResponse() : void
++compare(Respones: vector&lt;RCA&gt;,CorrectAnswers: vector&lt;RCA&gt;) : boolean 
++Modify() : void 
++display(IO) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>574</y>
+      <w>756</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>520.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>882</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Input
+--
+
+--
++input()
++getInput() : I/O 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>868</y>
+      <w>294</w>
+      <h>266</h>
+    </coordinates>
+    <panel_attributes>Output
+--
+
+--
++Output()
++display(String string) : void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>42</x>
+      <y>742</y>
+      <w>266</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;30.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>266</x>
+      <y>770</y>
+      <w>252</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>686</x>
+      <y>112</y>
+      <w>532</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;150.0;230.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>294</x>
+      <y>406</y>
+      <w>42</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1358</x>
+      <y>1078</y>
+      <w>560</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;380.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2044</x>
+      <y>1456</y>
+      <w>56</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>14</x>
+      <y>1232</y>
+      <w>644</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Note..
+Abstraction defines the interface for the objects being implmented 
+implmentor defines the interface for the specfigic impementation classes 
+
+Encapsulate the implementations in an abstract class 
+separation of abstraction and implementation 
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>546</y>
+      <w>756</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>520.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

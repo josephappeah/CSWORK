@@ -1,0 +1,532 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.io.*;
+import java.util.Vector;
+
+public class Survey extends Main implements java.io.Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	protected  String Survey; 
+	protected OuputConsole O = new OuputConsole();
+	protected Vector<Question> questions = new Vector<Question>();
+	HashMap<String,Vector<RCA>> response =new HashMap<String,Vector<RCA>>();
+
+	public Survey() {
+		
+	}
+	/*Prompts the user to type in the name of the survey 
+	 * and sets the Survey name to the users input and calls the QuestionMenu */
+	public Survey SetSurvey() {
+		
+		System.out.println("type name of survey");
+		Scanner sc = new Scanner(System.in);  
+		String name= sc.nextLine();
+		Survey= name;
+		QuestionMenu();
+		sc.close();
+		
+		return this;
+		
+		
+		
+	}
+	/*Question Menu is called and the user is prompted 
+	 * to pick a question or quit. Then the question object is created. */
+	public void QuestionMenu(){
+		
+		System.out.println("1) Add a new T/F question ");
+		System.out.println("2) Add a new multiple choice question ");
+		System.out.println("3) Add a new short answer question ");
+		System.out.println("4) Add a new essay question ");
+		System.out.println("5) Add a new matching questione ");
+		System.out.println("6) Add a new ranking question ");
+		System.out.println("7) back ");
+
+		System.out.println("Select One option from above ");
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		//User input for the question is used to generate the question and adds to question vector 
+		try{
+			Question Question = null; 
+			int i = sc.nextInt();
+			switch(i) {
+			case 1: 				   
+				   System.out.println("T/F:");
+				   Question = new TrueFalse(); 
+				   Question.setQuestion();   
+				   break;
+			case 2: 
+				   System.out.println("MC ");
+				   Question = new MC(); 
+				   Question.setQuestion(); 
+				   break;
+			case 3: 
+				    System.out.println("SA ");
+				    Question = new SA(); 
+				    Question.setQuestion();
+					break;
+			case 4: 
+				    System.out.println("Essay");
+				    Question = new Essay(); 
+				    Question.setQuestion();
+					break;
+			case 5: 
+					System.out.println("Matching");
+					Question = new Matching(); 
+					Question.setQuestion();
+					break;
+			case 6: 
+				    System.out.println("Ranking");
+				    Question = new Ranking(); 
+				    Question.setQuestion();
+				    break;
+			case 7: 
+				super.SurveyMenu();
+			    break;
+
+	        default:
+				System.out.println("Error Please select a valid option ");
+				QuestionMenu();
+	        }
+			questions.add(Question);	
+			QuestionMenu();
+		}
+		catch(Exception e){
+			System.out.println("Error Please select a valid option");
+			QuestionMenu();
+		}
+		
+
+	
+	}
+	
+	/*sets the vector questions to the questions provided*/
+	public void setQuestions(Vector<Question> questions) {
+		this.questions = questions;
+		}
+	
+	/*returns the surveys vector of question*/
+	public Vector<Question> getQuestions() {
+		return this.questions;
+		}
+	
+	/*Display the survey to console*/
+	public void displaySurvey(){
+		
+		System.out.println("Displaying the survey with the questions created \n");
+		this.O.display("Name of the Survey - "+this.Survey+"\n");
+		for( int i =0; i<questions.size(); i++){
+			questions.get(i).display(this.O);
+		}
+		this.O.display("\n");
+	}
+	/*Save the Survey in serialized form*/
+	public void saveSurvey(Survey newSurvey, String t){
+	      
+	      try {
+	    	  
+	    	  String savestr;
+	    	  if(t.equals("survey"))
+		        	  savestr = "SurveyList.txt";
+		         else
+		        	  savestr = "TestList.txt"; 
+	    	  
+	    	 File f = new File(savestr);
+
+	    	 PrintWriter writer = null;
+	    	 if ( f.exists() && !f.isDirectory() ) {
+	    		 /*
+	    		 Scanner scanner =new Scanner(f);
+	    		 int flag=0;
+	    		 
+	    		 System.out.println(this.Survey);
+	    		 
+	    		 while(scanner.hasNextLine()){ 
+	    			 
+	    			 String line = scanner.nextLine();
+	    			 
+	    			 if(line.equals(this.Survey)){
+	    			
+	    				 System.out.println("File already exists it will be overwritten!");
+	    				 writer = new PrintWriter(new FileOutputStream(new File(savestr),true));
+	    				 writer.print(line.replaceFirst(line," "));
+	    	    		 writer.close();
+	    	    		 flag = 1; 
+	    	    		 break;
+	    			 }
+
+	    		 }
+	    		 if (flag == 0){
+		    		 writer = new PrintWriter(new FileOutputStream(new File(savestr),true));
+		    		 writer.println(this.Survey);
+		    		 writer.close(); 
+	    		 }*/
+	    		 writer = new PrintWriter(new FileOutputStream(new File(savestr),true));
+	    		 writer.println(this.Survey);
+	    		 writer.close(); 
+	    	 }
+	    	 
+
+	    	 else {
+	    		 
+	    		 writer = new PrintWriter(savestr);
+	    		 writer.println(this.Survey);
+	    		 writer.close();
+	    	 }
+	    	 
+	         FileOutputStream fileOut = new FileOutputStream(this.Survey+".ser");
+	         ObjectOutputStream out = new ObjectOutputStream(fileOut);
+	         out.writeObject(this);
+	         out.close();
+	         fileOut.close();
+	         System.out.printf("Serialized data is saved in /"+ this.Survey + ".ser");
+	      }catch(IOException i) {
+	         i.printStackTrace();
+	      }
+	      
+	}
+	/*Load the survey with a given type(Survey or Test) and */
+	public static  Survey loadSurvey(String string,String t) throws FileNotFoundException{
+		
+		Survey LoadedSurvey= new Survey();
+		System.out.println("Please select a file to load:");
+		
+		
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(new File(string));
+		List<String> lines = new ArrayList<String>();
+		
+		while (sc.hasNextLine()) {
+		  lines.add(sc.nextLine());
+		}
+
+		String[] arr = lines.toArray(new String[0]);
+		int i =1; 
+		
+		for (String p : arr){
+			System.out.println(i+") "+ p); i++;
+		}
+		    
+			
+		@SuppressWarnings("resource")
+		Scanner sc1 = new Scanner(System.in);
+		
+		while (!sc1.hasNextInt()) {
+			   System.out.println("int, please!");
+			   sc1.nextLine();
+		}
+		int i1 = sc1.nextInt();
+		try {
+			 
+	         FileInputStream fileIn = new FileInputStream(arr[i1-1]+".ser");
+	         ObjectInputStream in = new ObjectInputStream(fileIn);
+	         if(t.equals("survey"))
+	        	 LoadedSurvey = (Survey) in.readObject();
+	         else
+	        	 LoadedSurvey = (test) in.readObject();
+	         in.close();
+	         fileIn.close();
+	      }catch(IOException i11) {
+	         i11.printStackTrace();
+	         System.out.println("File  not found");
+	      }catch(ClassNotFoundException c) {
+	         System.out.println("Employee class not found");
+	         c.printStackTrace();
+	         
+	      }
+
+			return LoadedSurvey;
+	}
+	@SuppressWarnings("resource")
+	public void modify() {
+		NewSurvey.displaySurvey();
+		System.out.println("What question do you wish to modify?");
+		
+		Scanner sc = new Scanner(System.in);
+		while (!sc.hasNextInt()) {
+			   System.out.println("int, please!");
+			   sc.nextLine();
+		}
+		try{
+			int i = sc.nextInt();
+			Question question = this.questions.get(i);
+			question.Modify();
+		}
+		catch(Exception e){
+			System.out.println("Error has accured while Modifing Please rerun Modification");
+			QuestionMenu();
+		}
+
+
+		// TODO Auto-generated method stub
+		
+	}
+	
+	//Method to take users input from the Survey being selected 
+	@SuppressWarnings("resource")
+	public void take(String t) throws IOException 
+	{
+		
+		Vector<RCA> RCAVector = new Vector<RCA>();
+		System.out.println("Please enter your name");
+		
+		Scanner sc = new Scanner(System.in);
+		String key = sc.nextLine();
+			
+		if(t.equals("Survey")) System.out.println("Please fill out the survey below \n");
+		else if(t.equals("Test")) System.out.println("Please fill out the test below \n");
+		//Use Display class to give output options for the User Aka audio or console
+		this.O.display("Name of the Survey - "+ this.Survey+"\n");	
+		
+		for(int i=0;i<questions.size();i++){
+			this.O.display("" + (i + 1) + ")");
+			questions.get(i).display(this.O);
+				
+			RCA rca = new RCA();
+			rca.setResponse(questions.get(i));			
+			RCAVector.addElement(rca);
+		}
+			
+		response.put(key, RCAVector);
+			System.out.println(response);
+		
+
+	}
+	
+	//tabulate all the responses given
+	public void tabulate() {
+		
+		HashMap<Integer,Vector<RCA>> table=new HashMap<Integer,Vector<RCA>>();
+		
+		Vector<RCA> Users= new Vector<RCA>();
+		Set<String> keys = response.keySet();
+		
+		System.out.println("\n");
+		
+		for(String key: keys){
+			
+			Users=response.get((key));
+			
+			for(int j=0;j<questions.size();j++){
+				
+				if(table.get(j)==null){
+					
+					table.put(j, new Vector<RCA>());			
+				}
+				
+				table.get(j).add(Users.get(j));	
+			}	
+		}
+
+		for(Integer k : table.keySet()){
+			System.out.println("Question "+(k+1)+")");
+			questions.get(k).display(this.O);
+
+			System.out.println("Replies");
+
+			if(TrueFalse.class.equals(questions.get(k).getClass())){
+	
+				for (RCA rca : table.get(k))  {
+					
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+					}
+
+				}
+				System.out.println("");
+				System.out.println("Tabulation");
+
+
+				int fal=0;
+				int tru=0;
+				for (RCA rca : table.get(k))  {
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs);
+						
+						if(strs.equals("F")){
+							fal++;
+						}
+						else if(strs.equals("T")){
+							tru++;
+						}
+					}
+				}
+				System.out.println("T:" + tru);
+				System.out.println("F:" +fal);
+			}
+			
+			if(MC.class.equals(questions.get(k).getClass())){
+
+				for (RCA rca : table.get(k))  {
+
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+
+					}
+
+				}
+				System.out.println("");
+				System.out.println("Tabulation");
+
+
+				HashMap<String, Integer> hmap = new HashMap<>();
+				for (RCA rca : table.get(k))  {
+					for (String str : rca.getRCA()) {
+						if (hmap.containsKey(str)) {
+							hmap.put(str, hmap.get(str)+1);
+						} else {
+							hmap.put(str, 1);
+						}
+					}
+				}
+
+				for (Map.Entry<String, Integer> entry : hmap.entrySet()) {
+					String key = entry.getKey().toString();
+					Integer value = entry.getValue();
+					System.out.println(key + " : " + value);
+				}
+			}
+			if(SA.class.equals(questions.get(k).getClass())){
+
+				for (RCA rca : table.get(k))  {
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+					}
+					System.out.println("");
+				}
+				System.out.println("");
+				System.out.println("Tabulation");
+
+
+				HashMap<String, Integer> hmap = new HashMap<>();
+				for (RCA rca : table.get(k))  {
+					for (String str : rca.getRCA()) {
+						if (hmap.containsKey(str)) {
+							hmap.put(str, hmap.get(str)+1);
+						} else {
+							hmap.put(str, 1);
+						}
+					}
+				}
+
+				for (Map.Entry<String, Integer> entry : hmap.entrySet()) {
+					String key = entry.getKey().toString();
+					Integer value = entry.getValue();
+					System.out.println(key + " " + value);
+				}
+
+
+			}
+			if(Essay.class.equals(questions.get(k).getClass())){
+
+				for (RCA rca : table.get(k))  {
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+					}
+					System.out.println("");
+				}
+				System.out.println("");
+				System.out.println("Tabulation");
+
+
+				for (RCA rca : table.get(k))  {
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+					}
+				}
+			}
+			if(Matching.class.equals(questions.get(k).getClass())){
+				
+				for (RCA rca : table.get(k))  {
+					int i=65;
+					for (String strs : rca.getRCA()) {
+						System.out.println(Character.toString((char) (i))+" "+strs );
+						i++;
+					}
+					i=0;
+					System.out.println("");
+				}
+				
+				System.out.println("");
+				System.out.println("Tabulation");
+				HashMap<String, Integer> hmap1 = new HashMap<>();
+				for (RCA rca : table.get(k))  {
+					StringBuilder sb = new StringBuilder();
+					for (String str : rca.getRCA()) {
+						sb.append(str);	 
+
+					}
+					if (hmap1.containsKey(sb.toString())) {
+						hmap1.put(sb.toString(), hmap1.get(sb.toString())+1);
+					} else {
+						hmap1.put(sb.toString(), 1);
+					}
+				}
+
+				for (Map.Entry<String, Integer> entry : hmap1.entrySet()) {
+					String key = entry.getKey().toString();
+					Integer value = entry.getValue();
+					System.out.println(value + " ) \n ");
+					int h=65;
+					for(int m=0;m<key.length();m++){
+						System.out.println(Character.toString((char) (h)) +" "+ key.charAt(m));
+						h++;
+					}
+					h=0;
+					System.out.println("\n");
+
+				}					
+			}
+			if(Ranking.class.equals(questions.get(k).getClass())){
+				for (RCA rca : table.get(k))  {
+
+					for (String strs : rca.getRCA()) {
+						System.out.println(strs );
+
+					}
+
+					System.out.println("");
+				}
+				System.out.println("");
+				System.out.println("Tabulation");
+				HashMap<String, Integer> hmap1 = new HashMap<>();
+				for (RCA rca : table.get(k))  {
+					StringBuilder sb = new StringBuilder();
+					for (String str : rca.getRCA()) {
+						sb.append(str);	 
+
+					}
+					if (hmap1.containsKey(sb.toString())) {
+						hmap1.put(sb.toString(), hmap1.get(sb.toString())+1);
+					} else {
+						hmap1.put(sb.toString(), 1);
+					}
+				}
+
+				for (Map.Entry<String, Integer> entry : hmap1.entrySet()) {
+					String key = entry.getKey().toString();
+					Integer value = entry.getValue();
+					System.out.println(value + " ) \n ");
+
+					for(int m=0;m<key.length();m++){
+						System.out.println(key.charAt(m));
+					}
+					System.out.println("\n");
+
+				}		
+			}
+			System.out.println("\n");
+		}
+		System.out.println("\n");
+	}
+	
+
+}
